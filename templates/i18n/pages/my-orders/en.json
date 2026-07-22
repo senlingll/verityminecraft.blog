@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "My Orders - Account",
+    "description": "View your order history and track your purchases."
+  },
+  "sidebar": {
+    "title": "User Center",
+    "my_orders": "My Orders",
+    "my_credits": "My Credits",
+    "api_keys": "API Keys"
+  },
+  "header": {
+    "title": "My Orders",
+    "subtitle": "Orders and payment history."
+  },
+  "actions": {
+    "read_docs": "Documentation",
+    "join_discord": "Join Community"
+  },
+  "table": {
+    "order_no": "Order No",
+    "email": "Email",
+    "product_name": "Product/Service",
+    "amount": "Amount",
+    "paid_at": "Paid At"
+  },
+  "empty_state": {
+    "message": "No orders found"
+  }
+}

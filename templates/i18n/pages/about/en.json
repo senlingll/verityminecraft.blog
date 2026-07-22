@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "About Verity Minecraft",
+    "description": "Learn about Verity Minecraft, an independent download guide for Verity Java, Bedrock, and PE players.",
+    "keywords": "about Verity Minecraft, Verity Minecraft download guide"
+  },
+  "legal": {
+    "eyebrow": "Independent download guide",
+    "title": "About Verity Minecraft",
+    "description": "Verity Minecraft helps players choose the correct Verity download path for Java Edition, Bedrock Edition, and PE-style mobile installs.",
+    "sections": [
+      {
+        "heading": "Our Mission",
+        "paragraphs": [
+          "Our goal is to make Verity Minecraft downloads easier to evaluate. The site separates Java, Bedrock, and PE-style mobile intent, then points users toward source pages instead of confusing mirrors."
+        ]
+      },
+      {
+        "heading": "What We Cover",
+        "bullets": [
+          "Verity Minecraft download paths for Java Edition and Bedrock Edition.",
+          "PE and APK search guidance with caution around unknown mirrors.",
+          "Install steps, compatibility notes, troubleshooting, and version snapshots.",
+          "Clear disclaimers when a source is external or third-party."
+        ]
+      },
+      {
+        "heading": "Independence",
+        "paragraphs": [
+          "Verity Minecraft is an independent fan-made guide. It is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Corrections, source updates, and contact requests can be sent to <a href=\"mailto:support@verityminecraft.blog\">support@verityminecraft.blog</a>."
+        ]
+      }
+    ]
+  }
+}

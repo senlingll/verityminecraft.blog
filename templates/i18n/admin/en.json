@@ -1,0 +1,80 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to Admin Panel",
+    "overview": "Overview",
+    "statistics": "Statistics",
+    "recent_activity": "Recent Activity"
+  },
+  "users": {
+    "title": "Users",
+    "list": "User List",
+    "add": "Add User",
+    "edit": "Edit User",
+    "delete": "Delete User",
+    "search": "Search Users",
+    "total_users": "Total Users",
+    "active_users": "Active Users",
+    "new_users": "New Users"
+  },
+  "content": {
+    "title": "Content Management",
+    "pages": "Pages",
+    "articles": "Articles",
+    "media": "Media",
+    "categories": "Categories",
+    "tags": "Tags"
+  },
+  "system": {
+    "title": "System",
+    "settings": "Settings",
+    "logs": "Logs",
+    "backup": "Backup",
+    "maintenance": "Maintenance",
+    "updates": "Updates"
+  },
+  "navigation": {
+    "home": "Home",
+    "profile": "Profile",
+    "logout": "Logout",
+    "menu": "Menu"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "create": "Create",
+    "update": "Update",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "draft": "Draft",
+    "published": "Published"
+  },
+  "messages": {
+    "success": "Operation completed successfully",
+    "error": "An error occurred",
+    "warning": "Warning",
+    "info": "Information",
+    "confirm_delete": "Are you sure you want to delete this item?",
+    "no_data": "No data available",
+    "loading": "Loading..."
+  },
+  "forms": {
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "invalid_phone": "Please enter a valid phone number",
+    "password_too_short": "Password must be at least 8 characters",
+    "passwords_not_match": "Passwords do not match"
+  }
+} 

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Chiavi API - Account",
+    "description": "Gestisci le tue chiavi API per accedere a questo servizio."
+  },
+  "sidebar": {
+    "title": "Centro utenti",
+    "my_orders": "I miei ordini",
+    "my_credits": "I miei crediti",
+    "api_keys": "Chiavi API"
+  },
+  "header": {
+    "title": "Chiavi API",
+    "subtitle": "Mantieni la tua chiave API al sicuro per evitare abusi"
+  },
+  "actions": {
+    "create_api_key": "Crea chiave API +"
+  },
+  "table": {
+    "name": "Nome",
+    "key": "Chiave",
+    "created_at": "Data di creazione"
+  },
+  "empty_state": {
+    "message": "Nessuna chiave API al momento"
+  }
+}

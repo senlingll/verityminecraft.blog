@@ -1,0 +1,27 @@
+<!-- Ghibli Love Stats Section -->
+<section class="ghibli-love-stats-section py-5 ghibli-stats-bg">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-4">
+      <div class="col-lg-10">
+        <div class="mb-2 ghibli-stats-eyebrow">{{ page.stats.eyebrow }}</div>
+        <h2 class="text-slate-900 fw-800 fs-2rem">{{ page.stats.title }}</h2>
+        <p class="mt-2 text-slate-500 fs-1rem">{{ page.stats.subtitle }}</p>
+      </div>
+    </div>
+
+    <div class="row text-center align-items-start gy-4">
+      {% set stat_items = [] %}
+      {% if page.stats is defined and page.stats is mapping and 'items' in page.stats %}
+        {% set stat_items = page.stats['items'] %}
+      {% endif %}
+      {% for item in stat_items %}
+      <div class="col-12 col-md-4">
+        <div class="mb-1 ghibli-stat-subtitle">{{ item.label }}</div>
+        <div class="ghibli-stat-number">{{ item.number }}</div>
+        <div class="ghibli-stat-unit">{{ item.unit }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page.meta.title }}{% endblock %}
+
+{% block content %}
+<section class="py-5 text-center">
+    <div class="container">
+        <h1 class="display-1 fw-bold text-primary">{{ error.code }}</h1>
+        <h2 class="mb-3">{{ error.title }}</h2>
+        <p class="lead mb-4">{{ error.description }}</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="/" class="btn btn-primary btn-lg">
+                <i class="fas fa-home me-2"></i>{{ error.home_cta }}
+            </a>
+            {% if error is defined and error and error.cta %}
+            <a href="{{ error.cta.url }}" class="btn btn-outline-secondary btn-lg">
+                <i class="{{ error.cta.icon }} me-2"></i>{{ error.cta.text }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}

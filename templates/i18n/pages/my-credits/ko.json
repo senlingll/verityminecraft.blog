@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "내 크레딧 - 계정",
+    "description": "크레딧 잔액과 거래 내역을 확인하세요."
+  },
+  "sidebar": {
+    "title": "사용자 센터",
+    "my_orders": "내 주문",
+    "my_credits": "내 크레딧",
+    "api_keys": "API 키"
+  },
+  "header": {
+    "title": "내 크레딧",
+    "subtitle": "남은 크레딧: {credits}"
+  },
+  "actions": {
+    "recharge": "크레딧 더 구매"
+  },
+  "table": {
+    "trans_no": "거래 번호",
+    "trans_type": "거래 유형",
+    "credits": "크레딧",
+    "updated_at": "업데이트 일시"
+  },
+  "empty_state": {
+    "message": "크레딧 거래가 없습니다"
+  },
+  "loading": {
+    "message": "로딩 중..."
+  },
+  "error": {
+    "message": "데이터를 불러오지 못했습니다",
+    "retry": "다시 시도",
+    "auth_required": "크레딧 정보를 보려면 로그인해 주세요",
+    "login_button": "지금 로그인"
+  },
+  "trans_types": {
+    "new_user": "웰컴 보너스",
+    "purchase": "크레딧 구매",
+    "Purchase": "크레딧 구매",
+    "usage": "사용",
+    "refund": "환불",
+    "bonus": "보너스 크레딧",
+    "openrouter_style_transfer": "사용",
+    "openrouter_refund": "사용 환불",
+    "subscription": "구독",
+    "Subscription": "구독"
+  }
+}

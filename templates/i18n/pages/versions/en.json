@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Verity Minecraft Versions - Latest Download Notes",
+    "description": "Check Verity Minecraft versions for Bedrock, Java, and PE-style installs with source notes, compatibility reminders, and safe update guidance."
+  },
+  "hero": {
+    "eyebrow": "Version tracker",
+    "title": "Verity Minecraft Versions",
+    "lede": "Use this page to compare known Verity Minecraft version paths before downloading. It separates Bedrock add-on versions, Java Edition versions, and PE-style mobile sources so you can choose the right release family.",
+    "support": "Version data can change on the source pages. This page is a snapshot and an organization layer; the final download page should always be checked before installation."
+  },
+  "download": {
+    "cta": "Open Main Downloads",
+    "secondary_cta": "Read Install Guide",
+    "url": "https://verityminecraft.blog/#downloads",
+    "note": "Return to the homepage download selector for platform-specific buttons."
+  },
+  "facts": {
+    "title": "Version Snapshot",
+    "items": [
+      {"label": "Bedrock known file", "value": "ThatMob's Verity 2.1.0 / V26.30"},
+      {"label": "Java known file", "value": "verity-5.7.3.jar"},
+      {"label": "Java versions", "value": "1.21.1 / 1.20.1"},
+      {"label": "PE source type", "value": "Add-on or store listing"},
+      {"label": "Last checked", "value": "July 22, 2026"}
+    ]
+  },
+  "summary": {
+    "eyebrow": "Version intent",
+    "title": "Which Version Page Should You Use?",
+    "description": "Players usually search versions when a download fails, a launcher rejects a file, or they need an older Minecraft build.",
+    "cards": [
+      {"title": "Need Bedrock", "text": "Use the Bedrock page for .mcaddon add-on version notes and source-page checks."},
+      {"title": "Need Java", "text": "Use the Java page for Verity JE, Minecraft version matching, and loader profile guidance."},
+      {"title": "Need PE", "text": "Use the PE guide when mobile results mix add-ons, store apps, and APK mirrors."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Update workflow",
+    "title": "How to Check for a New Verity Minecraft Version",
+    "description": "Use this workflow whenever you see a new release claim or a file that does not match this site's snapshot.",
+    "items": [
+      {"title": "Open the source page", "text": "Use the platform page on this site, then open the linked CurseForge, Modrinth, or store listing."},
+      {"title": "Compare version and date", "text": "Check the file name, tag, update date, supported Minecraft versions, and release notes if available."},
+      {"title": "Check edition compatibility", "text": "Do not assume a newer Java version means a newer Bedrock add-on, or the other way around."},
+      {"title": "Update one profile first", "text": "Test the new version in a separate profile or backup world before changing your main setup."},
+      {"title": "Keep old files organized", "text": "If you keep old versions, label them by platform and Minecraft version so you do not accidentally install the wrong file later."}
+    ]
+  },
+  "table": {
+    "eyebrow": "Known versions",
+    "title": "Verity Minecraft Version Snapshot",
+    "description": "This table is designed for quick orientation, not as a replacement for the source pages.",
+    "headers": ["Edition", "Known version", "Minecraft version", "Source path"],
+    "rows": [
+      ["Bedrock", "ThatMob's Verity 2.1.0 / V26.30", "Bedrock add-on release", "CurseForge Bedrock listing"],
+      ["Java", "verity-5.7.3.jar", "1.21.1 / 1.20.1", "CurseForge and Modrinth Java listings"],
+      ["PE / Mobile", "Varies", "Mobile Bedrock / PE-style installs", "Bedrock add-on or app store listing"]
+    ]
+  },
+  "body": {
+    "eyebrow": "Compatibility logic",
+    "title": "Why One Verity Version Number Does Not Cover Every Platform",
+      "paragraphs": [
+        "Minecraft mod pages often share a name across multiple editions, but each edition can have its own release timing, file type, and compatibility rules. Bedrock add-on releases, Java mod releases, and mobile store listings should not be treated as one interchangeable download.",
+        "That is why this version page groups Verity Minecraft by platform first. A user who needs Java compatibility should not be sent to a Bedrock add-on file, and a PE searcher should not be pushed toward an unknown APK mirror without context.",
+        "When a new Verity file appears, compare it against the edition you actually use. A new Bedrock add-on release does not automatically update the Java Edition path, and a Java source update does not mean a mobile app listing is current. The version family matters as much as the number.",
+        "Source timing is also important. A page can show an update date, a file upload date, a project update date, and sometimes a release note date. If these disagree, use the file-specific date and read the changelog if one is available. That is usually more useful than trusting a copied latest version label.",
+        "Older versions should be handled carefully. They can be useful when you play an older Minecraft build, but they can also reintroduce bugs or compatibility problems that newer releases fixed. Keep older files labeled by edition and Minecraft version so you do not install the wrong one later.",
+        "This page is intentionally a snapshot, not an automated release mirror. It helps you decide where to check, what to compare, and how to avoid mixing editions. The maintained source listing should always be the final source before download.",
+        "Use this Verity Minecraft versions page when a search result says latest but does not name the edition. The version that matters is the one attached to your install path: Bedrock add-on package, Java .jar file, or PE-style mobile source. Matching that release family prevents a newer-looking file from becoming the wrong file."
+      ],
+    "notes": [
+      {"title": "Platform first", "text": "Choose edition before version."},
+      {"title": "Source wins", "text": "If the source page is newer, follow the source page."},
+      {"title": "No universal file", "text": "There is no single Verity file that fits every Minecraft edition."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Related pages",
+    "title": "Download by Edition",
+    "description": "Continue to the page that matches your actual install target.",
+    "links": [
+      {"title": "Bedrock Download", "url": "/bedrock/", "text": "Known Bedrock add-on version and .mcaddon guidance."},
+      {"title": "Java Download", "url": "/java/", "text": "Known Java version and loader compatibility checks."},
+      {"title": "How to Install", "url": "/how-to-install/", "text": "Install and troubleshooting steps after you choose a version."}
+    ]
+  },
+  "extra": {
+    "eyebrow": "Source decision notes",
+    "title": "How to Read Version Claims on Download Pages",
+    "paragraphs": [
+      "A latest version claim is only useful when it names the platform and file. Latest Bedrock, latest Java, and latest PE app listing can all mean different things. If a page does not say which edition the version belongs to, it is not giving you enough information to make a safe install decision.",
+      "Version numbers can also be formatted differently by platform. One page may show a project version, another may show a file title, and another may show a Minecraft compatibility range. Instead of forcing these into one number, compare them by purpose: release identity, supported Minecraft version, file type, and source page date.",
+      "When you bookmark a Verity version, bookmark the platform page as well as the file page. That helps you return to the correct release family when a future Minecraft update changes compatibility. It also prevents an old Java bookmark from being mistaken for a Bedrock update or a PE install path.",
+      "If you are maintaining a server, shared world, or family device, write the chosen Verity version next to the Minecraft version it was tested with. That small record prevents future confusion when one player updates Minecraft and another still needs the older compatible Verity file. Keep the source URL beside that note.",
+      "A strong Verity Minecraft versions checklist includes the platform name, file extension, Minecraft compatibility range, source page, and last-reviewed date. If any one of those items is missing, keep checking before you update a main world, server profile, or mobile install."
+    ],
+    "cards": [
+      {"title": "Latest for what?", "text": "A latest label must name Java, Bedrock, PE, or another platform context."},
+      {"title": "Date matters", "text": "A file-specific upload date is often more useful than a copied page date."},
+      {"title": "Compatibility first", "text": "The right Minecraft version matters more than the newest-looking file title."}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Verity Minecraft Versions FAQ",
+    "items": [
+      {"question": "What is the latest Verity Minecraft version?", "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-5.7.3.jar, and the source pages should be checked for the newest release before downloading."},
+      {"question": "Can I use a Java Verity version on Bedrock?", "answer": "No. Java and Bedrock use different file types and installation systems. Choose the version family that matches your edition."},
+      {"question": "Where can I find old Verity Minecraft versions?", "answer": "Use the version or files area on the maintained source page. Avoid random old-version mirrors unless you can verify the source chain."},
+      {"question": "Why does the homepage say last checked?", "answer": "Download pages change over time. The last-checked note tells you when this site reviewed the source snapshot, while the source page remains the final download authority."}
+    ]
+  }
+}

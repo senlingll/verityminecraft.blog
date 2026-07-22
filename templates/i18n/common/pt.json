@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "Verity Minecraft",
+    "logo_prefix": "Verity",
+    "logo_highlight": "Minecraft",
+    "logo_suffix": "",
+    "icon_alt": "Verity Minecraft logo",
+    "home_aria": "Verity Minecraft home"
+  },
+  "seo": {
+    "default_title": "Baixar Verity Minecraft - Java, Bedrock e PE",
+    "default_description": "Guia para baixar Verity Minecraft em Java, Bedrock e PE com fontes verificadas, versões, instalação e segurança.",
+    "author": "Verity Minecraft"
+  },
+  "site": {
+    "domain": "verityminecraft.blog",
+    "support_email": "support@verityminecraft.blog",
+    "copyright_year": "2026"
+  },
+  "aria": {
+    "primary_navigation": "Área de download",
+    "footer_navigation": "Área de download",
+    "support_email": "support@verityminecraft.blog",
+    "language_selector": "Português"
+  },
+  "common": {
+    "english": "English"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "ja": "日本語",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "ko": "한국어",
+    "it": "Italiano"
+  },
+  "schema": {
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Verity Minecraft",
+      "description": "Guia para baixar Verity Minecraft em Java, Bedrock e PE com fontes verificadas, versões, instalação e segurança.",
+      "url": "https://verityminecraft.blog/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Baixar Verity Minecraft - Java, Bedrock e PE",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Guia para baixar Verity Minecraft em Java, Bedrock e PE com fontes verificadas, versões, instalação e segurança."
+          }
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "wiki": "Área de download",
+    "guide": "Instalar",
+    "database": "Versões",
+    "progression": "Segurança",
+    "steam": "Baixar",
+    "faq": "Perguntas frequentes"
+  },
+  "footer": {
+    "description": "Guia independente de download do Verity Minecraft.",
+    "section_game": "Área de download",
+    "section_legal": "Páginas do site",
+    "about_us": "Sobre",
+    "contact_us": "Contato",
+    "privacy_policy": "Política de privacidade",
+    "terms_of_service": "Termos de serviço",
+    "copyright": "Guia independente de download do Verity Minecraft.",
+    "disclaimer": "Guia independente de download do Verity Minecraft."
+  },
+  "error_404": {
+    "code": "404",
+    "title": "Not found",
+    "description": "Not found",
+    "keywords": "404",
+    "home_cta": "Baixar"
+  }
+}

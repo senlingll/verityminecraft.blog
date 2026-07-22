@@ -1,0 +1,44 @@
+{% if page.how_to_use %}
+<section class="how-to-use-section py-5 how-to-use-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <!-- Section Header -->
+                <div class="text-center mb-5">
+                    <h2 class="section-title mb-3">
+                        {{ page.how_to_use.title }}
+                    </h2>
+                    <p class="section-description mx-auto max-w-600">
+                        {{ page.how_to_use.description }}
+                    </p>
+                </div>
+
+                <!-- Steps Grid -->
+                <div class="row g-4">
+                    {% for step in page.how_to_use.steps %}
+                    <div class="col-md-6 col-lg-3">
+                        <div class="step-card h-100">
+                            <!-- Step Number -->
+                            <div class="step-number mb-3 step-number-circle">
+                                {{ step.number }}
+                            </div>
+                            
+                            <!-- Step Title -->
+                            <h4 class="step-title mb-3">
+                                {{ step.title }}
+                            </h4>
+                            
+                            <!-- Step Description -->
+                            <p class="step-description" style="margin: 0;">
+                                {{ step.description }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endif %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Refund Application - AI Room Designer{% endblock %}
+{% block description %}Submit a refund request for AI Room Designer purchases. Provide order details to help us review and process your case quickly.{% endblock %}
+
+{% block content %}
+<section class="container py-5">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <h1 class="fw-bold mb-3">Refund Application</h1>
+      <p class="text-muted">Effective Date: October 2025</p>
+      <p>Please provide the information below so we can review your request faster. You can also email us directly at <a href="mailto:support@airoomdesigner.org">support@airoomdesigner.org</a>.</p>
+
+      <div class="card shadow-sm p-4">
+        <p class="mb-3">To request a refund, please email us directly. Include your order number, account email, and a brief reason for the request so we can assist you quickly.</p>
+        <ul class="mb-4">
+          <li><strong>Email:</strong> <a href="mailto:support@airoomdesigner.org">support@airoomdesigner.org</a></li>
+          <li><strong>Optional details:</strong> order number, product/plan, purchase date, and any relevant screenshots.</li>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <a class="btn btn-dark" href="mailto:support@airoomdesigner.org?subject=Refund%20Request&body=Order%20Number:%20%0AAccount%20Email:%20%0AReason:%20">Email support@airoomdesigner.org</a>
+          <a href="/refund-policy" class="btn btn-link">View Refund Policy</a>
+        </div>
+      </div>
+
+      <p class="mt-4 small text-muted">Refunds are handled via email only. We will assess each case according to our Refund Policy and applicable laws.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

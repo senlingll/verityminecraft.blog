@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Verity Mod Minecraft PE ダウンロード ガイド",
+    "description": "Verity Mod Minecraft PE ダウンロードで Bedrock、APK注意、Google Play、導入手順、FAQを確認できます。"
+  },
+  "hero": {
+    "eyebrow": "ソースページ",
+    "title": "Verity Mod Minecraft PE ダウンロード",
+    "lede": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。",
+    "support": "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+  },
+  "download": {
+    "cta": "ダウンロード PE",
+    "secondary_cta": "ガイド",
+    "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.verity.stalker.mobs.birchappsmcpe",
+    "note": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
+  },
+  "facts": {
+    "title": "PE ガイド",
+    "items": [
+      {
+        "label": "対応環境",
+        "value": "PE"
+      },
+      {
+        "label": "バージョン",
+        "value": "Varies"
+      },
+      {
+        "label": "File",
+        "value": ".mcaddon / app"
+      },
+      {
+        "label": "ソースページ",
+        "value": "CurseForge / Modrinth / Google Play"
+      },
+      {
+        "label": "最終確認",
+        "value": "2026年7月22日"
+      }
+    ]
+  },
+  "summary": {
+    "eyebrow": "ガイド",
+    "title": "Verity Mod Minecraft PE ダウンロード",
+    "description": "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。",
+    "cards": [
+      {
+        "title": "Verity Mod Minecraft PE ダウンロード 1",
+        "text": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。"
+      },
+      {
+        "title": "Verity Mod Minecraft PE ダウンロード 2",
+        "text": "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+      },
+      {
+        "title": "Verity Mod Minecraft PE ダウンロード 3",
+        "text": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "インストール",
+    "title": "インストール Verity Mod Minecraft PE ダウンロード",
+    "description": "ファイル名、確認日、対応 Minecraft バージョン、入手元 URL を記録しておくと、あとで不具合が起きたときに原因を切り分けやすくなります。",
+    "items": [
+      {
+        "title": "ガイド 1",
+        "text": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。Verity Minecraft では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。"
+      },
+      {
+        "title": "ガイド 2",
+        "text": "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+      },
+      {
+        "title": "ガイド 3",
+        "text": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
+      },
+      {
+        "title": "ガイド 4",
+        "text": "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。"
+      },
+      {
+        "title": "ガイド 5",
+        "text": "ファイル名、確認日、対応 Minecraft バージョン、入手元 URL を記録しておくと、あとで不具合が起きたときに原因を切り分けやすくなります。"
+      }
+    ]
+  },
+  "table": {
+    "eyebrow": "安全確認",
+    "title": "Verity Mod Minecraft PE ダウンロード checklist",
+    "description": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。",
+    "headers": [
+      "ガイド",
+      "安全確認",
+      "ソースページ"
+    ],
+    "rows": [
+      [
+        ".mcaddon / app",
+        "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。",
+        "ソースページ"
+      ],
+      [
+        "PE",
+        "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。",
+        "インストール"
+      ],
+      [
+        "バージョン",
+        "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。",
+        "ダウンロード"
+      ]
+    ]
+  },
+  "body": {
+    "eyebrow": "安全確認",
+    "title": "Verity Mod Minecraft PE ダウンロード 安全確認",
+    "paragraphs": [
+      "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。",
+      "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。",
+      "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。",
+      "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。",
+      "ファイル名、確認日、対応 Minecraft バージョン、入手元 URL を記録しておくと、あとで不具合が起きたときに原因を切り分けやすくなります。",
+      "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。",
+      "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+    ],
+    "notes": [
+      {
+        "title": "ソースページ",
+        "text": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。"
+      },
+      {
+        "title": "バージョン",
+        "text": "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+      },
+      {
+        "title": "安全確認",
+        "text": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "ダウンロード",
+    "title": "ダウンロード",
+    "description": "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。",
+    "links": [
+      {
+        "title": "Bedrock",
+        "url": "/bedrock/",
+        "text": "Bedrock .mcaddon ガイド"
+      },
+      {
+        "title": "Java",
+        "url": "/java/",
+        "text": "Java .jar ガイド"
+      },
+      {
+        "title": "Minecraft PE",
+        "url": "/minecraft-pe/",
+        "text": "PE / Mobile 安全確認"
+      },
+      {
+        "title": "インストール",
+        "url": "/how-to-install/",
+        "text": "ガイド"
+      },
+      {
+        "title": "バージョン",
+        "url": "/versions/",
+        "text": "バージョン"
+      }
+    ]
+  },
+  "extra": {
+    "eyebrow": "ガイド",
+    "title": "Verity Mod Minecraft PE ダウンロード ガイド",
+    "paragraphs": [
+      "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。",
+      "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。",
+      "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。",
+      "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。"
+    ],
+    "cards": [
+      {
+        "title": "ガイド 1",
+        "text": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。PE では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。"
+      },
+      {
+        "title": "ガイド 2",
+        "text": "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+      },
+      {
+        "title": "ガイド 3",
+        "text": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "よくある質問",
+    "title": "Verity Mod Minecraft PE ダウンロード よくある質問",
+    "items": [
+      {
+        "question": "Verity Mod Minecraft PE ダウンロード よくある質問 1?",
+        "answer": "Verity Mod Minecraft PE ダウンロード は、最初にエディションを確認することが重要です。Verity Minecraft では、ファイル形式、導入方法、ワールドでの有効化、互換性の確認が環境によって変わります。"
+      },
+      {
+        "question": "Verity Mod Minecraft PE ダウンロード よくある質問 2?",
+        "answer": "Verity Mod Minecraft PE ダウンロード の案内ページは、ボタンだけでなく、なぜそのソースを開くのかも説明する必要があります。CurseForge、Modrinth、Google Play などの管理されたページを確認してください。"
+      },
+      {
+        "question": "Verity Mod Minecraft PE ダウンロード よくある質問 3?",
+        "answer": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
+      },
+      {
+        "question": "Verity Mod Minecraft PE ダウンロード よくある質問 4?",
+        "answer": "ソースページに新しいバージョンがある場合は、そちらを優先します。このページは Verity Mod Minecraft PE ダウンロード の判断を整理し、間違った .jar、.mcaddon、APK 風ページを避けるための案内です。"
+      }
+    ]
+  }
+}

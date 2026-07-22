@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Verity Minecraft",
+    "logo_prefix": "Verity",
+    "logo_highlight": "Minecraft",
+    "logo_suffix": "",
+    "icon_alt": "Verity Minecraft logo",
+    "home_aria": "Verity Minecraft home"
+  },
+  "seo": {
+    "default_title": "Verity Minecraft Download - Java, Bedrock & PE",
+    "default_description": "Download Verity Minecraft for Java, Bedrock, and PE with verified source links, version notes, install steps, and safe setup guidance.",
+    "author": "Verity Minecraft"
+  },
+  "site": {
+    "domain": "verityminecraft.blog",
+    "support_email": "support@verityminecraft.blog",
+    "copyright_year": "2026"
+  },
+  "aria": {
+    "primary_navigation": "Primary navigation",
+    "footer_navigation": "Footer navigation",
+    "support_email": "Email support@verityminecraft.blog",
+    "language_selector": "Choose language"
+  },
+  "common": {
+    "english": "English"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "ja": "日本語",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "ko": "한국어",
+    "it": "Italiano"
+  },
+  "schema": {
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Verity Minecraft",
+      "description": "A download hub for Verity Minecraft Java, Bedrock, and PE players with source notes, install help, and version guidance.",
+      "url": "https://verityminecraft.blog/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the safest Verity Minecraft download path?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose the page that matches your Minecraft edition, then open the maintained source listing instead of using a random mirror."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Verity Minecraft cover Java and Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The site separates Java Edition, Bedrock Edition, and PE-style mobile download guidance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Verity Minecraft official?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Verity Minecraft is an independent download guide and is not affiliated with Minecraft, Mojang, Microsoft, CurseForge, Modrinth, Google Play, or the Verity creators."
+          }
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "wiki": "Downloads",
+    "guide": "Install",
+    "database": "Versions",
+    "progression": "Safety",
+    "steam": "Download",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "description": "Verity Minecraft helps players find the right Verity download path for Java Edition, Bedrock Edition, and PE-style mobile installs without confusing mirrors.",
+    "section_game": "Downloads",
+    "section_legal": "Site",
+    "about_us": "About Us",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "copyright": "Independent Verity Minecraft download guide.",
+    "disclaimer": "Verity Minecraft is an independent fan-made download guide and is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators.",
+    "contact_us": "Contact"
+  },
+  "error_404": {
+    "code": "404",
+    "title": "Page Not Found",
+    "description": "The requested page could not be found.",
+    "keywords": "404, page not found, error",
+    "home_cta": "Go Home"
+  }
+}

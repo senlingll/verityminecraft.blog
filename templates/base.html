@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="{{ current_lang or 'en' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ page.meta.title if page.meta.title else common.seo.default_title }}{% endblock %}</title>
+  <meta name="description"
+    content="{% block description %}{{ page.meta.description if page.meta.description else common.seo.default_description }}{% endblock %}">
+  <meta name="google-adsense-account" content="ca-pub-8016227945839388">
+  {% if robots_content is defined and robots_content %}
+  <meta name="robots" content="{{ robots_content }}">
+  {% elif is_protected_page %}
+  <meta name="robots" content="noindex, nofollow">
+  {% else %}
+  <meta name="robots" content="index, follow">
+  {% endif %}
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/site.css') }}" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/img2grid/favicon.ico') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/img2grid/favicon-32x32.png') }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/img2grid/favicon-16x16.png') }}">
+  {% if canonical_url %}
+  <link rel="canonical" href="{{ canonical_url }}">
+  {% endif %}
+  {% if alternate_urls %}
+  {% if alternate_urls['x-default'] %}
+  <link rel="alternate" hreflang="x-default" href="{{ alternate_urls['x-default'] }}">
+  {% endif %}
+  {% for lang_code, alt_url in alternate_urls.items() %}
+  {% if lang_code != 'x-default' %}
+  <link rel="alternate" hreflang="{{ lang_code }}" href="{{ alt_url }}">
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="{{ page.meta.title if page.meta.title else common.seo.default_title }}">
+  <meta property="og:description" content="{{ page.meta.description if page.meta.description else common.seo.default_description }}">
+  <meta property="og:url" content="{{ canonical_url if canonical_url else BASE_URL }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ common.brand.name }}">
+    <meta property="og:image" content="{{ BASE_URL }}/static/images/img2grid/verity-logo.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.meta.title if page.meta.title else common.seo.default_title }}">
+  <meta name="twitter:description" content="{{ page.meta.description if page.meta.description else common.seo.default_description }}">
+    <meta name="twitter:image" content="{{ BASE_URL }}/static/images/img2grid/verity-logo.webp">
+  
+  {% block head %}{% endblock %}
+  {% block extra_css %}{% endblock %}
+  {% block schema_data %}
+  <script type="application/ld+json">
+    {{ common.schema.website|tojson|safe }}
+  </script>
+  <script type="application/ld+json">
+    {{ common.schema.faq|tojson|safe }}
+  </script>
+  {% endblock %}
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "x3uy2yoxsh");
+</script>
+</head>
+
+<body class="{% block body_class %}{% endblock %}">
+  {% block header %}
+  {% set home_path = '/' if current_lang == 'en' else '/' ~ current_lang ~ '/' %}
+  <header class="site-header">
+    <a class="brand" href="{{ home_path }}" aria-label="{{ common.brand.home_aria }}">
+      <img class="brand-mark" src="{{ url_for('static', filename='images/img2grid/verity-logo.webp') }}" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">{{ common.brand.logo_prefix }}<span>{{ common.brand.logo_highlight }}</span>{{ common.brand.logo_suffix }}</span>
+    </a>
+    <nav class="nav-links" aria-label="{{ common.aria.primary_navigation }}">
+      <a href="{{ home_path }}#downloads">{{ common.navigation.wiki }}</a>
+      <a href="{{ home_path }}#install">{{ common.navigation.guide }}</a>
+      <a href="{{ home_path }}#versions">{{ common.navigation.database }}</a>
+      <a href="{{ home_path }}#safety">{{ common.navigation.progression }}</a>
+      <a href="{{ home_path }}#faq">{{ common.navigation.faq }}</a>
+    </nav>
+    <div class="header-actions">
+      {% if language_urls %}
+      <details class="language-menu">
+        <summary aria-label="{{ common.aria.language_selector }}">{{ common.languages[current_lang] }}</summary>
+        <div class="language-options">
+          {% for lang_code, lang_url in language_urls.items() %}
+          <a href="{{ lang_url }}">{{ common.languages[lang_code] }}</a>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+      <a class="btn btn-primary btn-small header-cta" href="{{ home_path }}#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        {{ common.navigation.steam }}
+      </a>
+    </div>
+  </header>
+  {% endblock %}
+  {% block main %}
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  {% endblock %}
+  {% block footer %}
+  {% set home_path = '/' if current_lang == 'en' else '/' ~ current_lang ~ '/' %}
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="{{ home_path }}" aria-label="{{ common.brand.home_aria }}">
+          <img src="{{ url_for('static', filename='images/img2grid/verity-logo.webp') }}" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>{{ common.brand.name }}</span>
+          </a>
+          <p>{{ common.footer.description }}</p>
+          <a class="footer-email" href="mailto:{{ common.site.support_email }}" aria-label="{{ common.aria.support_email }}">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>{{ common.site.support_email }}</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="{{ common.aria.footer_navigation }}">
+          <div class="footer-link-group">
+            <p class="footer-link-title">{{ common.footer.section_game }}</p>
+          <a href="{{ home_path }}#downloads">{{ common.navigation.wiki }}</a>
+          <a href="{{ home_path }}#install">{{ common.navigation.guide }}</a>
+          <a href="{{ home_path }}#versions">{{ common.navigation.database }}</a>
+          <a href="{{ home_path }}#safety">{{ common.navigation.progression }}</a>
+            <a href="{{ home_path }}#faq">{{ common.navigation.faq }}</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">{{ common.footer.section_legal }}</p>
+            <a href="/about/">{{ common.footer.about_us }}</a>
+            <a href="/contact/">{{ common.footer.contact_us }}</a>
+            <a href="/privacy-policy/">{{ common.footer.privacy_policy }}</a>
+            <a href="/terms-of-service/">{{ common.footer.terms_of_service }}</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; {{ common.site.copyright_year }} {{ common.brand.name }} · {{ common.site.domain }} - {{ common.footer.copyright }}</p>
+    </div>
+  </footer>
+  {% endblock %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+
+</html>

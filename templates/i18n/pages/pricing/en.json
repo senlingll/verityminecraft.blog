@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "title": "Attractiveness Test Pricing - Affordable AI Plans",
+    "description": "Affordable attractiveness test pricing. Take unlimited face attractiveness tests with flexible plans. Get instant beauty scores & attractiveness ratings.",
+    "keywords": "attractiveness test pricing, face attractiveness test cost, ai attractiveness test plans"
+  },
+  "hero": {
+    "badge": "Attractiveness Test Pricing",
+    "title": "Choose Your Attractiveness Test Plan",
+    "subtitle": "Flexible pricing for unlimited face attractiveness tests. Get instant attractiveness ratings, beauty scores, and comprehensive facial analysis."
+  },
+  "tabs": {
+    "subscriptions": "Monthly Subscriptions",
+    "credit_packs": "Credit Packs"
+  },
+  "subscriptions": {
+    "title": "Monthly Attractiveness Test Plans",
+    "subtitle": "Perfect for unlimited face attractiveness tests with monthly credits",
+    "note": "All plans include comprehensive facial analysis and attractiveness ratings",
+    "includes_label": "What You Get",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "badge": "Best for Personal Use", 
+        "price": "$9.99",
+        "original_price": "$14.99",
+        "period": "/month",
+        "description": "Perfect for personal attractiveness testing and facial analysis",
+        "features": [
+          "100 credits (100 attractiveness tests)",
+          "Credits never expire",
+          "Full attractiveness ratings", 
+          "Beauty score analysis",
+          "Age detection",
+          "Standard processing"
+        ],
+        "cta_button": "Start Basic Plan",
+        "cta_note": "Great for personal use!",
+        "creem_product_id": "prod_lxs1BHhRhY9xY0kkJL9xh"
+      },
+      "pro": {
+        "name": "Pro", 
+        "badge": "Most Popular",
+        "price": "$29.99",
+        "original_price": "$39.99", 
+        "period": "/month",
+        "description": "Ideal for frequent attractiveness testing and photo optimization",
+        "features": [
+          "500 credits (500 attractiveness tests)",
+          "Credits never expire",
+          "Full facial attractiveness analysis",
+          "Detailed beauty scores", 
+          "Age & hotness ratings",
+          "Priority processing",
+          "Early access to new features"
+        ],
+        "cta_button": "Start Pro Plan",
+        "cta_note": "Most popular choice!",
+        "creem_product_id": "prod_pBlJG3CgPZk2sBmI4pExZ"
+      },
+      "max": {
+        "name": "Max",
+        "badge": "Best Value",
+        "price": "$79.99", 
+        "original_price": "$99.99",
+        "period": "/month", 
+        "description": "For professionals and content creators needing unlimited tests",
+        "features": [
+          "1600 credits (1600 attractiveness tests)",
+          "Credits never expire", 
+          "Advanced facial analysis",
+          "Comprehensive attractiveness ratings",
+          "All analysis features", 
+          "Priority processing",
+          "Priority customer support",
+          "API access (coming soon)"
+        ],
+        "cta_button": "Start Max Plan",
+        "cta_note": "Best value for professionals!",
+        "creem_product_id": "prod_2NNlnDAWyCyoo3puoroRFX"
+      }
+    }
+  },
+  "credit_packs": {
+    "title": "One-Time Attractiveness Test Packs", 
+    "subtitle": "Perfect for occasional attractiveness testing without monthly commitments",
+    "note": "Credits never expire and can be used anytime. No recurring charges.",
+    "packs": {
+      "starter": {
+        "name": "Starter Pack",
+        "badge": "Quick Start",
+        "price": "$30",
+        "original_price": "$50", 
+        "credits": "400 credits",
+        "designs": "400 attractiveness tests",
+        "description": "One-time purchase. Full attractiveness test features.",
+        "features": [
+          "Credits never expire",
+          "Complete facial analysis",
+          "Beauty & hotness scores",
+          "Age detection",
+          "Instant activation"
+        ],
+        "cta_button": "Buy Starter Pack",
+        "cta_note": "One-time payment",
+        "creem_product_id": "prod_2GmzPBRmnLKt97QMD3qn8J"
+      },
+      "popular": {
+        "name": "Popular Pack",
+        "badge": "Great Value",
+        "price": "$50", 
+        "original_price": "$80",
+        "credits": "850 credits",
+        "designs": "850 attractiveness tests", 
+        "description": "One-time purchase. Full attractiveness test features.",
+        "features": [
+          "Credits never expire",
+          "Complete facial analysis",
+          "Beauty & hotness scores",
+          "Age detection",
+          "Instant activation"
+        ],
+        "cta_button": "Buy Popular Pack",
+        "cta_note": "Best value choice!",
+        "creem_product_id": "prod_5Sx2kNJaZJVdEujRMoOEwT"
+      },
+      "professional": {
+        "name": "Professional Pack", 
+        "badge": "Pro Choice",
+        "price": "$100",
+        "original_price": "$150",
+        "credits": "1800 credits",
+        "designs": "1800 attractiveness tests",
+        "description": "One-time purchase. Full attractiveness test features.",
+        "features": [
+          "Credits never expire",
+          "Complete facial analysis",
+          "Beauty & hotness scores",
+          "Age detection",
+          "Instant activation"
+        ],
+        "cta_button": "Buy Professional Pack",
+        "cta_note": "Professional choice!",
+        "creem_product_id": "prod_1iWcrD7hXVckQz8zzR4H9i"
+      },
+      "enterprise": {
+        "name": "Enterprise Pack",
+        "badge": "Maximum Value", 
+        "price": "$200",
+        "original_price": "$300",
+        "credits": "4000 credits",
+        "designs": "4000 attractiveness tests",
+        "description": "One-time purchase. Full attractiveness test features.",
+        "features": [
+          "Credits never expire",
+          "Complete facial analysis",
+          "Beauty & hotness scores",
+          "Age detection",
+          "Instant activation"
+        ],
+        "cta_button": "Buy Enterprise Pack",
+        "cta_note": "Maximum value!",
+        "creem_product_id": "prod_llodOSWLYCDMci8jAl6Eq"
+      }
+    }
+  },
+  "faq": {
+    "title": "Attractiveness Test Pricing FAQs",
+    "items": [
+      {
+        "question": "What's the difference between subscriptions and credit packs?",
+        "answer": "Subscriptions provide monthly credits for regular attractiveness testing that renew automatically. Credit packs are one-time purchases with no recurring charges, ideal for occasional face attractiveness tests."
+      },
+      {
+        "question": "Do my attractiveness test credits expire?", 
+        "answer": "No! All credits from both subscriptions and credit packs never expire. You can take the attractiveness test whenever you want with your available credits."
+      },
+      {
+        "question": "Can I cancel my attractiveness test subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. Your credits will remain available even after cancellation for future attractiveness tests."
+      },
+      {
+        "question": "How many credits does each attractiveness test cost?",
+        "answer": "Each AI attractiveness test costs 1 credit. This includes complete facial analysis, beauty score, attractiveness rating, hotness level, and age detection."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, PayPal, and other secure payment methods through our payment processor for attractiveness test plans."
+      },
+      {
+        "question": "Is the attractiveness test really free?",
+        "answer": "We offer a free trial attractiveness test for new users. After that, you can choose from our affordable pricing plans to continue taking unlimited face attractiveness tests."
+      }
+    ]
+  }
+}

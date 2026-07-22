@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "I miei ordini - Account",
+    "description": "Visualizza lo storico degli ordini e traccia i tuoi acquisti."
+  },
+  "sidebar": {
+    "title": "Centro utenti",
+    "my_orders": "I miei ordini",
+    "my_credits": "I miei crediti",
+    "api_keys": "Chiavi API"
+  },
+  "header": {
+    "title": "I miei ordini",
+    "subtitle": "Ordini e storico dei pagamenti."
+  },
+  "actions": {
+    "read_docs": "Documentazione",
+    "join_discord": "Unisciti alla community"
+  },
+  "table": {
+    "order_no": "N. ordine",
+    "email": "Email",
+    "product_name": "Prodotto/Servizio",
+    "amount": "Importo",
+    "paid_at": "Pagato il"
+  },
+  "empty_state": {
+    "message": "Nessun ordine trovato"
+  }
+}

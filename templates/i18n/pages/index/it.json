@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Scaricare Verity Minecraft - Java, Bedrock e PE",
+    "description": "Guida per scaricare Verity Minecraft su Java, Bedrock e PE con fonti, versioni, installazione e note sicure."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Scaricare Verity Minecraft",
+    "url": "https://verityminecraft.blog/it/",
+    "description": "Guida per scaricare Verity Minecraft su Java, Bedrock e PE con fonti, versioni, installazione e note sicure."
+  },
+  "home": {
+    "nav": {
+      "downloads": "Download",
+      "compare": "Java vs Bedrock",
+      "install": "Installare",
+      "versions": "Versioni",
+      "safety": "Sicurezza",
+      "faq": "Domande frequenti"
+    },
+    "actions": {
+      "download": "Scaricare",
+      "view_versions": "Vedi versioni",
+      "install_guide": "Guida",
+      "source": "Pagina fonte"
+    },
+    "hero": {
+      "eyebrow": "Pagina fonte",
+      "title": "Scaricare Verity Minecraft",
+      "highlight": "Java, Bedrock e PE",
+      "lede": "scaricare Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Java, Bedrock, PE non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+      "support": "Una pagina utile per scaricare Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili.",
+      "facts": [
+        {
+          "label": "Intento principale",
+          "value": "Scaricare"
+        },
+        {
+          "label": "Piattaforme",
+          "value": "Java / Bedrock / PE"
+        },
+        {
+          "label": "Ultimo controllo",
+          "value": "22 luglio 2026"
+        }
+      ]
+    },
+    "downloads": {
+      "eyebrow": "Download",
+      "title": "Scaricare Verity Minecraft",
+      "description": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito. Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza scaricare Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili.",
+      "status_note": "15 seconds / 15秒 / 15 segundos",
+      "cards": [
+        {
+          "platform": "Bedrock",
+          "title": "Verity Bedrock Add-on",
+          "description": "Bedrock .mcaddon Guida",
+          "version": "ThatMob's Verity 2.1.0 / V26.30",
+          "minecraft": "Bedrock add-on",
+          "file_type": ".mcaddon",
+          "source": "CurseForge",
+          "status": "Pagina fonte",
+          "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+          "page_url": "/bedrock/",
+          "cta": "Scaricare Bedrock"
+        },
+        {
+          "platform": "Java",
+          "title": "Verity JE Mod",
+          "description": "Java .jar Guida",
+          "version": "verity-5.7.3.jar",
+          "minecraft": "1.21.1 / 1.20.1",
+          "file_type": ".jar",
+          "source": "CurseForge / Modrinth",
+          "status": "Pagina fonte",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/verity-je/download/8461257",
+          "page_url": "/java/",
+          "cta": "Scaricare Java"
+        },
+        {
+          "platform": "Minecraft PE",
+          "title": "Verity Mod Minecraft PE",
+          "description": "PE / Mobile Sicurezza",
+          "version": "Varies",
+          "minecraft": "Mobile Bedrock / PE",
+          "file_type": ".mcaddon / app",
+          "source": "Google Play / Bedrock",
+          "status": "Sicurezza",
+          "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.verity.stalker.mobs.birchappsmcpe",
+          "page_url": "/minecraft-pe/",
+          "cta": "Scaricare PE"
+        }
+      ]
+    },
+    "table": {
+      "eyebrow": "Versioni",
+      "title": "Scaricare Verity Minecraft - Java, Bedrock e PE",
+      "description": "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on.",
+      "headers": [
+        "Piattaforme",
+        "Pagina fonte",
+        "Versioni",
+        "File",
+        "Guida"
+      ],
+      "rows": [
+        [
+          "Bedrock",
+          "CurseForge",
+          "ThatMob's Verity 2.1.0 / V26.30",
+          ".mcaddon",
+          "Scaricare"
+        ],
+        [
+          "Java",
+          "CurseForge / Modrinth",
+          "verity-5.7.3.jar",
+          ".jar",
+          "Installare"
+        ],
+        [
+          "PE / Mobile",
+          "Google Play / Bedrock",
+          "Varies",
+          ".mcaddon / app",
+          "Sicurezza"
+        ]
+      ]
+    },
+    "compare": {
+      "eyebrow": "Java vs Bedrock",
+      "title": "Java vs Bedrock: Scaricare Verity Minecraft",
+      "description": "scaricare Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Java, Bedrock, PE non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova. Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito.",
+      "items": [
+        {
+          "title": "Bedrock",
+          "text": "Una pagina utile per scaricare Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+        },
+        {
+          "title": "Java",
+          "text": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+        },
+        {
+          "title": "PE",
+          "text": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza scaricare Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili."
+        }
+      ]
+    },
+    "install": {
+      "eyebrow": "Installare",
+      "title": "Installare Verity Minecraft",
+      "description": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito.",
+      "steps": [
+        {
+          "title": "Guida 1",
+          "text": "scaricare Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Verity Minecraft non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+        },
+        {
+          "title": "Guida 2",
+          "text": "Una pagina utile per scaricare Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+        },
+        {
+          "title": "Guida 3",
+          "text": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+        },
+        {
+          "title": "Guida 4",
+          "text": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza scaricare Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili."
+        },
+        {
+          "title": "Guida 5",
+          "text": "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on."
+        }
+      ]
+    },
+    "safety": {
+      "eyebrow": "Sicurezza",
+      "title": "scaricare Verity Minecraft Sicurezza",
+      "paragraphs": [
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte e scaricare Verity Minecraft guida fonte riepilogo.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft controllo versione e scaricare Verity Minecraft percorso per edizione aiutano a raggiungere il file corretto senza mirror confusi.",
+        "Questa sezione unisce scaricare Verity Minecraft fonte sicura, scaricare Verity Minecraft installazione per piattaforma e scaricare Verity Minecraft note di compatibilità per Java, Bedrock e PE.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte e scaricare Verity Minecraft guida fonte riepilogo.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft controllo versione e scaricare Verity Minecraft percorso per edizione aiutano a raggiungere il file corretto senza mirror confusi.",
+        "Questa sezione unisce scaricare Verity Minecraft fonte sicura, scaricare Verity Minecraft installazione per piattaforma e scaricare Verity Minecraft note di compatibilità per Java, Bedrock e PE.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte e scaricare Verity Minecraft guida fonte riepilogo.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft controllo versione e scaricare Verity Minecraft percorso per edizione aiutano a raggiungere il file corretto senza mirror confusi.",
+        "Questa sezione unisce scaricare Verity Minecraft fonte sicura, scaricare Verity Minecraft installazione per piattaforma e scaricare Verity Minecraft note di compatibilità per Java, Bedrock e PE.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte e scaricare Verity Minecraft guida fonte riepilogo.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft controllo versione e scaricare Verity Minecraft percorso per edizione aiutano a raggiungere il file corretto senza mirror confusi.",
+        "Questa sezione unisce scaricare Verity Minecraft fonte sicura, scaricare Verity Minecraft installazione per piattaforma e scaricare Verity Minecraft note di compatibilità per Java, Bedrock e PE.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft guida fonte e scaricare Verity Minecraft guida fonte riepilogo.",
+        "scaricare Verity Minecraft guida fonte, scaricare Verity Minecraft controllo versione e scaricare Verity Minecraft percorso per edizione aiutano a raggiungere il file corretto senza mirror confusi.",
+        "Questa sezione unisce scaricare Verity Minecraft fonte sicura, scaricare Verity Minecraft installazione per piattaforma e scaricare Verity Minecraft note di compatibilità per Java, Bedrock e PE.",
+        "scaricare Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Java, Bedrock, PE non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+        "Una pagina utile per scaricare Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili.",
+        "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito.",
+        "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza scaricare Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili.",
+        "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on."
+      ]
+    },
+    "versions": {
+      "eyebrow": "Versioni",
+      "title": "Versioni",
+      "description": "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on.",
+      "links": [
+        {
+          "title": "Bedrock",
+          "url": "/bedrock/",
+          "text": "Bedrock .mcaddon Guida"
+        },
+        {
+          "title": "Java",
+          "url": "/java/",
+          "text": "Java .jar Guida"
+        },
+        {
+          "title": "Minecraft PE",
+          "url": "/minecraft-pe/",
+          "text": "PE / Mobile Sicurezza"
+        },
+        {
+          "title": "Installare",
+          "url": "/how-to-install/",
+          "text": "Guida"
+        },
+        {
+          "title": "Versioni",
+          "url": "/versions/",
+          "text": "Versioni"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Domande frequenti",
+      "title": "Scaricare Verity Minecraft Domande frequenti",
+      "items": [
+        {
+          "question": "scaricare Verity Minecraft Domande frequenti 1?",
+          "answer": "scaricare Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Verity Minecraft non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+        },
+        {
+          "question": "scaricare Verity Minecraft Domande frequenti 2?",
+          "answer": "Una pagina utile per scaricare Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+        },
+        {
+          "question": "scaricare Verity Minecraft Domande frequenti 3?",
+          "answer": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+        },
+        {
+          "question": "scaricare Verity Minecraft Domande frequenti 4?",
+          "answer": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza scaricare Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili."
+        }
+      ]
+    }
+  }
+}

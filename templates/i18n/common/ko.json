@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "Verity Minecraft",
+    "logo_prefix": "Verity",
+    "logo_highlight": "Minecraft",
+    "logo_suffix": "",
+    "icon_alt": "Verity Minecraft logo",
+    "home_aria": "Verity Minecraft home"
+  },
+  "seo": {
+    "default_title": "Verity Minecraft 다운로드 - Java, Bedrock, PE",
+    "default_description": "Verity Minecraft 다운로드를 Java, Bedrock, PE별로 정리하고 출처, 버전, 설치, 안전 확인을 안내합니다.",
+    "author": "Verity Minecraft"
+  },
+  "site": {
+    "domain": "verityminecraft.blog",
+    "support_email": "support@verityminecraft.blog",
+    "copyright_year": "2026"
+  },
+  "aria": {
+    "primary_navigation": "다운로드",
+    "footer_navigation": "다운로드",
+    "support_email": "support@verityminecraft.blog",
+    "language_selector": "한국어"
+  },
+  "common": {
+    "english": "English"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "ja": "日本語",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "ko": "한국어",
+    "it": "Italiano"
+  },
+  "schema": {
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Verity Minecraft",
+      "description": "Verity Minecraft 다운로드를 Java, Bedrock, PE별로 정리하고 출처, 버전, 설치, 안전 확인을 안내합니다.",
+      "url": "https://verityminecraft.blog/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Verity Minecraft 다운로드 - Java, Bedrock, PE",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verity Minecraft 다운로드를 Java, Bedrock, PE별로 정리하고 출처, 버전, 설치, 안전 확인을 안내합니다."
+          }
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "wiki": "다운로드",
+    "guide": "설치",
+    "database": "버전",
+    "progression": "안전 확인",
+    "steam": "다운로드",
+    "faq": "자주 묻는 질문"
+  },
+  "footer": {
+    "description": "Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.",
+    "section_game": "다운로드",
+    "section_legal": "사이트",
+    "about_us": "소개",
+    "contact_us": "문의",
+    "privacy_policy": "개인정보 처리방침",
+    "terms_of_service": "이용 약관",
+    "copyright": "Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.",
+    "disclaimer": "Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다."
+  },
+  "error_404": {
+    "code": "404",
+    "title": "Not found",
+    "description": "Not found",
+    "keywords": "404",
+    "home_cta": "다운로드"
+  }
+}

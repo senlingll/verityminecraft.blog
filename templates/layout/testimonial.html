@@ -1,0 +1,82 @@
+<!-- Testimonial Section - Rebuilt to match the provided mock exactly -->
+<section id="testimonials" class="testimonials-mock py-5">
+
+  <div class="container">
+    <div class="text-center mb-4">
+      <div class="eyebrow">{{ common.testimonial.eyebrow }}</div>
+      <h2>{{ common.testimonial.title }}</h2>
+      <p class="subtitle">{{ common.testimonial.subtitle }}</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="t-card">
+          <div class="t-header">
+            <div class="avatar">
+              <img src="{{ url_for('static', filename='images/user/user1.jpg') }}" alt="{{ common.testimonial.testimonials[0].name }}" loading="lazy">
+            </div>
+            <div class="meta">
+              <div class="name">{{ common.testimonial.testimonials[0].name }}</div>
+              <div class="role">{{ common.testimonial.testimonials[0].role }}</div>
+            </div>
+            <div class="stars" aria-label="5 stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="quote">"{{ common.testimonial.testimonials[0].quote }}"</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="t-card">
+          <div class="t-header">
+            <div class="avatar">
+              <img src="{{ url_for('static', filename='images/user/user2.jpg') }}" alt="{{ common.testimonial.testimonials[1].name }}" loading="lazy">
+            </div>
+            <div class="meta">
+              <div class="name">{{ common.testimonial.testimonials[1].name }}</div>
+              <div class="role">{{ common.testimonial.testimonials[1].role }}</div>
+            </div>
+            <div class="stars" aria-label="5 stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="quote">"{{ common.testimonial.testimonials[1].quote }}"</p>
+        </div>
+      </div>
+
+      <!-- Card 3 (with right fade like the screenshot) -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="t-card with-fade">
+          <div class="t-header">
+            <div class="avatar">
+              <img src="{{ url_for('static', filename='images/user/user3.jpg') }}" alt="{{ common.testimonial.testimonials[2].name }}" loading="lazy">
+            </div>
+            <div class="meta">
+              <div class="name">{{ common.testimonial.testimonials[2].name }}</div>
+              <div class="role">{{ common.testimonial.testimonials[2].role }}</div>
+            </div>
+            <div class="stars" aria-label="5 stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="quote">"{{ common.testimonial.testimonials[2].quote }}"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page.meta.title }}{% endblock %}
+{% block description %}{{ page.meta.description }}{% endblock %}
+{% block body_class %}img2grid-page legal-page{% endblock %}
+
+{% block content %}
+{% set legal = page.legal %}
+<section class="legal-static-page">
+  <div class="legal-static-wrap">
+    <div class="legal-static-header">
+      <p class="eyebrow">{{ legal.eyebrow }}</p>
+      <h1>{{ legal.title }}</h1>
+      <p>{{ legal.description }}</p>
+    </div>
+
+    <article class="legal-static-panel">
+      {% if legal.effective_date %}<p class="legal-static-meta">{{ legal.effective_date }}</p>{% endif %}
+      {% for paragraph in legal.intro or [] %}
+      <p>{{ paragraph|safe }}</p>
+      {% endfor %}
+      {% for section in legal.sections %}
+      <h2>{{ section.heading }}</h2>
+      {% for paragraph in section.paragraphs or [] %}
+      <p>{{ paragraph|safe }}</p>
+      {% endfor %}
+      {% if section.bullets %}
+      <ul>
+        {% for bullet in section.bullets %}
+        <li>{{ bullet|safe }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% endfor %}
+    </article>
+  </div>
+</section>
+{% endblock %}

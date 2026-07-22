@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Disallow: /api/
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /my-credits/
+Disallow: /my-orders/
+Disallow: /api-keys/
+Disallow: /refund-application/
+
+LLM-Content: https://verityminecraft.blog/llms.txt
+LLM-Full-Content: https://verityminecraft.blog/llms-full.txt
+
+Sitemap: https://verityminecraft.blog/sitemap.xml

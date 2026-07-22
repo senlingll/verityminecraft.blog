@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "API Keys - Account",
+    "description": "Manage your API keys for accessing this service."
+  },
+  "sidebar": {
+    "title": "User Center",
+    "my_orders": "My Orders",
+    "my_credits": "My Credits",
+    "api_keys": "API Keys"
+  },
+  "header": {
+    "title": "API Keys",
+    "subtitle": "Keep your API key secure to prevent misuse"
+  },
+  "actions": {
+    "create_api_key": "Create API Key +"
+  },
+  "table": {
+    "name": "Name",
+    "key": "Key",
+    "created_at": "Created At"
+  },
+  "empty_state": {
+    "message": "No API keys yet"
+  }
+}

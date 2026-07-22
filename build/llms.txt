@@ -1,0 +1,12 @@
+# Verity Minecraft
+
+> Verity Minecraft is an independent English download guide for Verity Minecraft Java, Bedrock, and PE-style mobile players.
+
+## Important pages
+
+- [Verity Minecraft Download](https://verityminecraft.blog/): Platform selector with verified-source download buttons.
+- [Verity Bedrock Download](https://verityminecraft.blog/bedrock/): Bedrock .mcaddon source notes and install guidance.
+- [Verity Java Download](https://verityminecraft.blog/java/): Verity JE Java mod source notes and version guidance.
+- [Verity Minecraft PE Guide](https://verityminecraft.blog/minecraft-pe/): PE, mobile, and APK search safety guidance.
+- [How to Install Verity Minecraft](https://verityminecraft.blog/how-to-install/): Step-by-step setup and troubleshooting.
+- [Verity Minecraft Versions](https://verityminecraft.blog/versions/): Version snapshot and compatibility notes.

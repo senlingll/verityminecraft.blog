@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Como instalar Verity Minecraft - Java, Bedrock e PE",
+    "description": "Aprenda como instalar Verity Minecraft no Bedrock, Java e PE com verificação de fonte e solução de problemas."
+  },
+  "hero": {
+    "eyebrow": "Página fonte",
+    "title": "Como instalar Verity Minecraft",
+    "lede": "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste.",
+    "support": "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+  },
+  "download": {
+    "cta": "Baixar instalação",
+    "secondary_cta": "Guia",
+    "url": "https://verityminecraft.blog/#downloads",
+    "note": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
+  },
+  "facts": {
+    "title": "instalação Guia",
+    "items": [
+      {
+        "label": "Plataformas",
+        "value": "instalação"
+      },
+      {
+        "label": "Versões",
+        "value": "Varies"
+      },
+      {
+        "label": "File",
+        "value": ".mcaddon / .jar"
+      },
+      {
+        "label": "Página fonte",
+        "value": "CurseForge / Modrinth / Google Play"
+      },
+      {
+        "label": "Última verificação",
+        "value": "22 de julho de 2026"
+      }
+    ]
+  },
+  "summary": {
+    "eyebrow": "Guia",
+    "title": "Como instalar Verity Minecraft",
+    "description": "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis.",
+    "cards": [
+      {
+        "title": "como instalar Verity Minecraft 1",
+        "text": "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste."
+      },
+      {
+        "title": "como instalar Verity Minecraft 2",
+        "text": "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+      },
+      {
+        "title": "como instalar Verity Minecraft 3",
+        "text": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Instalar",
+    "title": "Instalar Como instalar Verity Minecraft",
+    "description": "Guarde uma nota com nome do arquivo, data, edição e URL da fonte. Se algo falhar depois, essa anotação ajuda a desfazer a mudança com menos risco.",
+    "items": [
+      {
+        "title": "Guia 1",
+        "text": "como instalar Verity Minecraft deve começar pela edição correta, porque Verity Minecraft não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste."
+      },
+      {
+        "title": "Guia 2",
+        "text": "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+      },
+      {
+        "title": "Guia 3",
+        "text": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
+      },
+      {
+        "title": "Guia 4",
+        "text": "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis."
+      },
+      {
+        "title": "Guia 5",
+        "text": "Guarde uma nota com nome do arquivo, data, edição e URL da fonte. Se algo falhar depois, essa anotação ajuda a desfazer a mudança com menos risco."
+      }
+    ]
+  },
+  "table": {
+    "eyebrow": "Segurança",
+    "title": "Como instalar Verity Minecraft checklist",
+    "description": "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste.",
+    "headers": [
+      "Guia",
+      "Segurança",
+      "Página fonte"
+    ],
+    "rows": [
+      [
+        ".mcaddon / .jar",
+        "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis.",
+        "Página fonte"
+      ],
+      [
+        "instalação",
+        "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo.",
+        "Instalar"
+      ],
+      [
+        "Versões",
+        "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis.",
+        "Baixar"
+      ]
+    ]
+  },
+  "body": {
+    "eyebrow": "Segurança",
+    "title": "como instalar Verity Minecraft Segurança",
+    "paragraphs": [
+      "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste.",
+      "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis.",
+      "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo.",
+      "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis.",
+      "Guarde uma nota com nome do arquivo, data, edição e URL da fonte. Se algo falhar depois, essa anotação ajuda a desfazer a mudança com menos risco.",
+      "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste.",
+      "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+    ],
+    "notes": [
+      {
+        "title": "Página fonte",
+        "text": "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste."
+      },
+      {
+        "title": "Versões",
+        "text": "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+      },
+      {
+        "title": "Segurança",
+        "text": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Área de download",
+    "title": "Área de download",
+    "description": "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis.",
+    "links": [
+      {
+        "title": "Bedrock",
+        "url": "/bedrock/",
+        "text": "Bedrock .mcaddon Guia"
+      },
+      {
+        "title": "Java",
+        "url": "/java/",
+        "text": "Java .jar Guia"
+      },
+      {
+        "title": "Minecraft PE",
+        "url": "/minecraft-pe/",
+        "text": "PE / Mobile Segurança"
+      },
+      {
+        "title": "Instalar",
+        "url": "/how-to-install/",
+        "text": "Guia"
+      },
+      {
+        "title": "Versões",
+        "url": "/versions/",
+        "text": "Versões"
+      }
+    ]
+  },
+  "extra": {
+    "eyebrow": "Guia",
+    "title": "como instalar Verity Minecraft Guia",
+    "paragraphs": [
+      "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste.",
+      "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis.",
+      "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo.",
+      "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis."
+    ],
+    "cards": [
+      {
+        "title": "Guia 1",
+        "text": "como instalar Verity Minecraft deve começar pela edição correta, porque instalação não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste."
+      },
+      {
+        "title": "Guia 2",
+        "text": "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+      },
+      {
+        "title": "Guia 3",
+        "text": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Como instalar Verity Minecraft Perguntas frequentes",
+    "items": [
+      {
+        "question": "como instalar Verity Minecraft Perguntas frequentes 1?",
+        "answer": "como instalar Verity Minecraft deve começar pela edição correta, porque Verity Minecraft não é instalado da mesma forma em todos os dispositivos. Verifique a fonte, o tipo de arquivo, a versão do Minecraft e o ambiente de teste."
+      },
+      {
+        "question": "como instalar Verity Minecraft Perguntas frequentes 2?",
+        "answer": "Uma página útil para como instalar Verity Minecraft não mostra apenas um botão. Ela explica a fonte mantida, a data, a extensão do arquivo e por que espelhos desconhecidos são menos confiáveis."
+      },
+      {
+        "question": "como instalar Verity Minecraft Perguntas frequentes 3?",
+        "answer": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
+      },
+      {
+        "question": "como instalar Verity Minecraft Perguntas frequentes 4?",
+        "answer": "Se a fonte mostrar uma versão mais recente, a fonte deve prevalecer sobre este guia. Esta página organiza como instalar Verity Minecraft para evitar confundir .jar, .mcaddon e links móveis."
+      }
+    ]
+  }
+}

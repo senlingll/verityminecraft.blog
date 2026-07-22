@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Verity Minecraft Bedrock Download - .mcaddon Guide",
+    "description": "Verity Minecraft Bedrock download guide with source notes, .mcaddon details, install steps, compatibility guidance, and FAQ."
+  },
+  "hero": {
+    "eyebrow": "Bedrock add-on download",
+    "title": "Verity Minecraft Bedrock Download",
+    "lede": "Use this page when you need the Verity Minecraft Bedrock download for a .mcaddon-style add-on install. It focuses on the Bedrock source path, version snapshot, import steps, and the checks you should make before opening a world.",
+    "support": "The primary download button opens the CurseForge Bedrock source after a short confirmation countdown. If the source page lists a newer file than this page, follow the source page first."
+  },
+  "download": {
+    "cta": "Download Bedrock Add-on",
+    "secondary_cta": "Read Install Guide",
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+    "note": "You will leave for the verified Bedrock source after the 15-second confirmation."
+  },
+  "facts": {
+    "title": "Bedrock Download Facts",
+    "items": [
+      {"label": "Best for", "value": "Minecraft Bedrock"},
+      {"label": "Known file", "value": "ThatMob's Verity 2.1.0 / V26.30"},
+      {"label": "File type", "value": ".mcaddon"},
+      {"label": "Source", "value": "CurseForge"},
+      {"label": "Last checked", "value": "July 22, 2026"}
+    ]
+  },
+  "summary": {
+    "eyebrow": "Before downloading",
+    "title": "What This Bedrock Page Solves",
+    "description": "People searching for Verity Minecraft Bedrock often find Java files, PE app listings, or mirrored downloads. This page keeps the Bedrock path separate so you can confirm the file type before installing.",
+    "cards": [
+      {"title": "Use .mcaddon files", "text": "Bedrock add-ons are usually imported as .mcaddon files. Do not place a Java .jar file into a Bedrock folder and expect it to work."},
+      {"title": "Check source version", "text": "The source page may show a newer file, changelog, or compatibility note. Treat the source page as the final authority before downloading."},
+      {"title": "Test in a copy", "text": "Use a backup or test world first, especially with horror or entity add-ons that may change behavior inside the world."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Install steps",
+    "title": "How to Install Verity Minecraft Bedrock",
+    "description": "The Bedrock install path is usually simple, but the exact import behavior depends on your device and Minecraft setup.",
+    "items": [
+      {"title": "Open the Bedrock source", "text": "Click the download button and wait for the source confirmation. The button points to the Bedrock add-on listing rather than an unknown mirror."},
+      {"title": "Download the .mcaddon file", "text": "Confirm the file name, version, and update date on the source page. Keep the file extension intact after downloading."},
+      {"title": "Import into Minecraft Bedrock", "text": "Open the .mcaddon file with Minecraft Bedrock when your device supports that flow, or follow the source page instructions for manual import."},
+      {"title": "Activate the add-on", "text": "Create or copy a world, then enable the required resource and behavior packs. Restart Minecraft if the pack does not appear immediately."},
+      {"title": "Check behavior in game", "text": "Load the test world and confirm Verity appears or behaves as expected before using the add-on in a main world."}
+    ]
+  },
+  "table": {
+    "eyebrow": "Compatibility",
+    "title": "Bedrock Download Checklist",
+    "description": "Use this quick checklist before installing the Verity Bedrock add-on.",
+    "headers": ["Check", "Why it matters", "Action"],
+    "rows": [
+      ["File type", "Bedrock add-ons use add-on package formats, not Java mod jars.", "Confirm .mcaddon"],
+      ["Minecraft edition", "Java and Bedrock handle mods differently.", "Use Bedrock only"],
+      ["World safety", "Add-ons can affect world behavior.", "Create a backup"],
+      ["Source freshness", "Download pages can be updated after this guide.", "Check source page date"]
+    ]
+  },
+  "body": {
+    "eyebrow": "Safety context",
+    "title": "Why Bedrock Users Should Avoid Rehosted Verity Files",
+      "paragraphs": [
+        "A rehosted Bedrock add-on can be outdated even when the title says latest version. That is especially confusing when the same Verity name is used across Bedrock, Java, PE, and modpack-style pages.",
+        "The safer workflow is to use a source listing, confirm the file extension, read the version note, and keep a world backup. This page gives you the orientation, while the source page handles the actual release file.",
+        "For Bedrock players, the most important visible clue is the file family. If the download page is giving you a .jar file, a Java loader note, or a launcher-only instruction, you are probably on the wrong Verity page. A Bedrock add-on should explain add-on import behavior, resource or behavior pack activation, and world-level enablement.",
+        "Device behavior also matters. Windows Bedrock, Android, iOS, and other Bedrock-style setups may open the same add-on package differently. If a double-click import does not work, do not immediately look for a different Verity file from a mirror. First check whether your device requires Minecraft to be open, whether file associations are blocked, or whether the pack needs to be imported from storage.",
+        "The source page is still the final release authority. If it lists a newer Bedrock file, use that version and treat this guide as the install checklist. If it lists dependencies, experimental toggles, or behavior-pack notes, follow those notes before troubleshooting the add-on itself.",
+        "When testing, create a small world with cheats or creative tools enabled so you can verify the entity behavior quickly. If Verity does not appear, disable other add-ons, restart Minecraft, and test again with only the Verity packs active. That isolates conflicts before you risk a main world.",
+        "Use this Verity Minecraft Bedrock download page as a checklist every time the source listing changes. The right result should mention Bedrock, an add-on package, .mcaddon import behavior, and a maintained source. If a page calls itself a Verity Minecraft Bedrock download but only gives APK language or Java loader notes, treat it as the wrong path and return to the Bedrock source."
+      ],
+    "notes": [
+      {"title": "Best source habit", "text": "Prefer the maintained listing over copied file pages."},
+      {"title": "No APK promise", "text": "Bedrock add-ons are not the same thing as Android APK files."},
+      {"title": "Version rule", "text": "If CurseForge shows a newer Bedrock file, use that newer source listing."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Related pages",
+    "title": "More Verity Minecraft Download Help",
+    "description": "Use these pages if your device, edition, or search intent is different.",
+    "links": [
+      {"title": "Java Download", "url": "/java/", "text": "Use this if you play Minecraft Java Edition."},
+      {"title": "Minecraft PE Guide", "url": "/minecraft-pe/", "text": "Use this if you searched for PE or APK wording."},
+      {"title": "Versions", "url": "/versions/", "text": "Compare known versions and source paths."}
+    ]
+  },
+  "extra": {
+    "eyebrow": "Source decision notes",
+    "title": "How to Know the Bedrock Download Is the Right One",
+    "paragraphs": [
+      "A good Bedrock download page should answer three questions before you leave it: what edition is this for, what file family should I expect, and what source owns the release? If those answers are missing, slow down. A page that only says download latest Verity without showing Bedrock context is not as useful as a source listing with files, dates, and platform metadata.",
+      "Also read the comments or release notes when they are available. Bedrock add-ons can depend on behavior pack activation, resource pack pairing, or experimental settings. If other users report that a file is for a specific Minecraft build, that can save you from installing a version that your current game cannot use.",
+      "If two Bedrock pages appear to offer the same Verity file, choose the one with clearer release metadata, not the one with the louder button. A transparent source page is more useful than a mirror that hides platform, file date, or version context.",
+      "The safest Verity Minecraft Bedrock download routine is repeatable: open the source, confirm the .mcaddon file, read the update notes, import into a copied world, and activate the required packs before testing. That routine is slower than a mirror button, but it protects your worlds and makes troubleshooting much clearer."
+    ],
+    "cards": [
+      {"title": "Edition label", "text": "Look for Bedrock, add-on, or .mcaddon wording before downloading."},
+      {"title": "File page", "text": "Prefer a file page with version, date, and source context over a generic button."},
+      {"title": "Install notes", "text": "Read activation and import notes before assuming the add-on is broken."}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Verity Bedrock Download FAQ",
+    "items": [
+      {"question": "Is Verity Minecraft Bedrock a .mcaddon download?", "answer": "The Bedrock path is presented as an add-on download, and .mcaddon is the expected file type for many Bedrock installs. Always confirm the actual file extension on the source page."},
+      {"question": "Can I use the Bedrock add-on on Minecraft PE?", "answer": "Many PE-style installs are based on Bedrock behavior, but device support varies. Check the PE guide and your device's import behavior before assuming it will work."},
+      {"question": "Is this the official Verity Bedrock page?", "answer": "No. This is an independent guide that points to the maintained source listing and explains how to choose the correct file."},
+      {"question": "Why should I backup my world first?", "answer": "Add-ons can modify entity behavior, resources, or world state. Testing in a copy prevents a bad install from affecting your main world."}
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="{{ current_lang or 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication - {{ common.brand.name if common.brand and common.brand.name else 'Ghibli Style' }}</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="text-center">
+            <div class="spinner-border text-primary mb-4" role="status" style="width: 3rem; height: 3rem;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <h3 class="mb-3">{{ common.auth.processing if common.auth and common.auth.processing else 'Processing Authentication...' }}</h3>
+            <p class="text-muted">{{ common.auth.please_wait if common.auth and common.auth.please_wait else 'Please wait while we complete your sign-in.' }}</p>
+            
+            <div id="error-message" class="alert alert-danger mt-4" style="display: none;">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                <span id="error-text">Authentication service is currently unavailable. Please try again later.</span>
+                <div class="mt-3 d-flex gap-2 justify-content-center">
+                    <a href="/" class="btn btn-primary">
+                        <i class="fas fa-home me-2"></i>Return to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Load translations and main.js -->
+    <script src="{{ url_for('static', filename='js/translations.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    
+    <!-- OAuth Callback Handler -->
+    <script>
+        // Backend API base URL - 使用统一配置
+        // 直接使用window.API_BASE_URL，避免重复声明
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            handleOAuthCallback();
+        });
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('error-message');
+            const errorText = document.getElementById('error-text');
+            const spinner = document.querySelector('.spinner-border');
+            const title = document.querySelector('h3');
+            const subtitle = document.querySelector('.text-muted');
+            
+            // Hide loading elements
+            spinner.style.display = 'none';
+            title.style.display = 'none';
+            subtitle.style.display = 'none';
+            
+            // Show simple error message
+            console.error('Authentication error:', message);
+            
+            errorText.innerHTML = 'Authentication service is currently unavailable. Please try again later.';
+            errorDiv.style.display = 'block';
+        }
+        
+        async function handleOAuthCallback() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const token = urlParams.get('token');
+            const user = urlParams.get('user');
+            const error = urlParams.get('error');
+            const expiresIn = urlParams.get('expires_in'); // Token expiration time in seconds
+            
+            if (error) {
+                console.error('OAuth error:', error);
+                showError('Authentication was cancelled or failed: ' + error);
+                return;
+            }
+            
+            if (token && user) {
+                try {
+                    // Store authentication token and user info
+                    localStorage.setItem('auth_token', token);
+                    localStorage.setItem('user_info', user);
+                    
+                    // Store token expiration time if provided
+                    if (expiresIn) {
+                        const expirationTime = Date.now() + (parseInt(expiresIn) * 1000);
+                        localStorage.setItem('token_expiration', expirationTime.toString());
+                    }
+                    
+                    // Set global authentication status if window.isAuthenticated exists
+                    if (typeof window.isAuthenticated !== 'undefined') {
+                        window.isAuthenticated = true;
+                    }
+                    
+                    // Get redirect URL from URL parameter first, then localStorage, then default to home
+                    const redirectUrlParam = urlParams.get('redirect_url');
+                    let redirectUrl = redirectUrlParam || localStorage.getItem('auth_redirect_url') || '/';
+                    localStorage.removeItem('auth_redirect_url');
+                    
+                    // Ensure redirect URL is valid and not the callback page itself
+                    if (redirectUrl.includes('/auth/callback') || redirectUrl === window.location.href) {
+                        redirectUrl = '/';
+                    }
+                    
+                    // Add a small delay to ensure token is properly stored
+                    setTimeout(() => {
+                        window.location.href = redirectUrl;
+                    }, 100);
+                } catch (error) {
+                    console.error('Error processing authentication:', error);
+                    showError('Error processing authentication. Please try again.');
+                }
+                return;
+            }
+            
+            // If no token or user in URL, this might be the old code-based flow
+            const code = urlParams.get('code');
+            const state = urlParams.get('state');
+            
+            if (!code) {
+                showError('Invalid authentication response. Please try again.');
+                return;
+            }
+            
+            // Legacy code exchange flow (fallback)
+            try {
+                // Determine provider based on localStorage, referrer, URL params, or state
+                const storedProvider = localStorage.getItem('oauth_provider');
+                let isGitHub = false;
+                
+                if (storedProvider === 'github') {
+                    isGitHub = true;
+                } else if (storedProvider === 'google') {
+                    isGitHub = false;
+                } else {
+                    // Fallback to URL-based detection
+                    // Check referrer
+                    if (document.referrer.includes('github.com')) {
+                        isGitHub = true;
+                    }
+                    
+                    // Check if state parameter indicates GitHub
+                    if (state && state.includes('github')) {
+                        isGitHub = true;
+                    }
+                    
+                    // Check URL search params
+                    if (window.location.search.includes('github') || window.location.href.includes('github')) {
+                        isGitHub = true;
+                    }
+                    
+                    // Check localStorage for auth redirect
+                    const authRedirectUrl = localStorage.getItem('auth_redirect_url');
+                    if (authRedirectUrl && authRedirectUrl.includes('github')) {
+                        isGitHub = true;
+                    }
+                }
+                
+                // Clear the stored provider
+                localStorage.removeItem('oauth_provider');
+                
+                const provider = isGitHub ? 'github' : 'google';
+                console.log('Detected provider:', provider, 'based on stored provider:', storedProvider, 'referrer:', document.referrer);
+                
+                const callbackEndpoint = `${window.API_BASE_URL}/auth/${provider}/callback`;
+                const redirectUri = provider === 'google' ? window.REDIRECT_URIS.GOOGLE_CALLBACK : window.REDIRECT_URIS.GITHUB_CALLBACK;
+                
+                const response = await fetch(callbackEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        code: code,
+                        redirect_uri: redirectUri,
+                        frontend_url: window.location.origin
+                    })
+                });
+                
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.error || errorData.details || response.statusText || 'Unknown error'}`);
+                }
+                
+                const data = await response.json();
+                
+                if (data.success && data.token) {
+                    // Store authentication token
+                    localStorage.setItem('auth_token', data.token);
+                    localStorage.setItem('user_info', JSON.stringify(data.user));
+                    
+                    // Store token expiration time if provided
+                    if (data.expires_in) {
+                        const expirationTime = Date.now() + (data.expires_in * 1000);
+                        localStorage.setItem('token_expiration', expirationTime.toString());
+                    }
+                    
+                    // Set global authentication status if window.isAuthenticated exists
+                    if (typeof window.isAuthenticated !== 'undefined') {
+                        window.isAuthenticated = true;
+                    }
+                    
+                    // Get redirect URL from URL parameter first, then localStorage, then default to home
+                    const redirectUrlParam = urlParams.get('redirect_url');
+                    let redirectUrl = redirectUrlParam || localStorage.getItem('auth_redirect_url') || '/';
+                    localStorage.removeItem('auth_redirect_url');
+                    
+                    // Ensure redirect URL is valid and not the callback page itself
+                    if (redirectUrl.includes('/auth/callback') || redirectUrl === window.location.href) {
+                        redirectUrl = '/';
+                    }
+                    
+                    // Add a small delay to ensure token is properly stored
+                    setTimeout(() => {
+                        window.location.href = redirectUrl;
+                    }, 100);
+                } else {
+                    throw new Error(data.error || 'Authentication failed');
+                }
+            } catch (error) {
+                console.error('OAuth callback error:', error);
+                showError('Authentication failed. Please try again. Error: ' + (error.message || 'Unknown error'));
+            }
+        }
+    </script>
+</body>
+</html>

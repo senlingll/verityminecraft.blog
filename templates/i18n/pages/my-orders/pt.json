@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Meus pedidos - Conta",
+    "description": "Veja seu histórico de pedidos e acompanhe suas compras."
+  },
+  "sidebar": {
+    "title": "Central do usuário",
+    "my_orders": "Meus pedidos",
+    "my_credits": "Meus créditos",
+    "api_keys": "Chaves de API"
+  },
+  "header": {
+    "title": "Meus pedidos",
+    "subtitle": "Pedidos e histórico de pagamentos."
+  },
+  "actions": {
+    "read_docs": "Documentação",
+    "join_discord": "Entrar na comunidade"
+  },
+  "table": {
+    "order_no": "Nº do pedido",
+    "email": "E-mail",
+    "product_name": "Produto/Serviço",
+    "amount": "Valor",
+    "paid_at": "Pago em"
+  },
+  "empty_state": {
+    "message": "Nenhum pedido encontrado"
+  }
+}

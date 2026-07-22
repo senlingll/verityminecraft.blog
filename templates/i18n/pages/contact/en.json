@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Contact Verity Minecraft",
+    "description": "Contact Verity Minecraft for source corrections, download link updates, privacy questions, and site feedback.",
+    "keywords": "contact Verity Minecraft"
+  },
+  "legal": {
+    "eyebrow": "Contact",
+    "title": "Contact Verity Minecraft",
+    "description": "Reach the Verity Minecraft team for corrections, download-source updates, privacy questions, and general site feedback.",
+    "sections": [
+      {
+        "heading": "Email",
+        "paragraphs": [
+          "For corrections, source updates, privacy requests, and general feedback, email <a href=\"mailto:support@verityminecraft.blog\">support@verityminecraft.blog</a>."
+        ]
+      },
+      {
+        "heading": "What to Include",
+        "bullets": [
+          "The page URL you are asking about.",
+          "The source link or version note that may need correction.",
+          "A short explanation of the issue and, when possible, the official or maintained source that supports the correction."
+        ]
+      },
+      {
+        "heading": "Independence Notice",
+        "paragraphs": [
+          "Verity Minecraft is an independent guide. We cannot provide official Minecraft, Mojang, Microsoft, CurseForge, Modrinth, Google Play, or Verity creator support, but we can correct this site's guidance when a source changes."
+        ]
+      }
+    ]
+  }
+}

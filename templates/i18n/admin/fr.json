@@ -1,0 +1,80 @@
+{
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue dans le panneau d'administration",
+    "overview": "Aperçu",
+    "statistics": "Statistiques",
+    "recent_activity": "Activité récente"
+  },
+  "users": {
+    "title": "Utilisateurs",
+    "list": "Liste des utilisateurs",
+    "add": "Ajouter un utilisateur",
+    "edit": "Modifier un utilisateur",
+    "delete": "Supprimer un utilisateur",
+    "search": "Rechercher des utilisateurs",
+    "total_users": "Nombre total d'utilisateurs",
+    "active_users": "Utilisateurs actifs",
+    "new_users": "Nouveaux utilisateurs"
+  },
+  "content": {
+    "title": "Gestion de contenu",
+    "pages": "Pages",
+    "articles": "Articles",
+    "media": "Médias",
+    "categories": "Catégories",
+    "tags": "Étiquettes"
+  },
+  "system": {
+    "title": "Système",
+    "settings": "Paramètres",
+    "logs": "Journaux",
+    "backup": "Sauvegarde",
+    "maintenance": "Maintenance",
+    "updates": "Mises à jour"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "profile": "Profil",
+    "logout": "Se déconnecter",
+    "menu": "Menu"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "view": "Afficher",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "import": "Importer"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending": "En attente",
+    "approved": "Approuvé",
+    "rejected": "Rejeté",
+    "draft": "Brouillon",
+    "published": "Publié"
+  },
+  "messages": {
+    "success": "Opération effectuée avec succès",
+    "error": "Une erreur s'est produite",
+    "warning": "Avertissement",
+    "info": "Information",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+    "no_data": "Aucune donnée disponible",
+    "loading": "Chargement..."
+  },
+  "forms": {
+    "required": "Ce champ est obligatoire",
+    "invalid_email": "Veuillez saisir une adresse e-mail valide",
+    "invalid_phone": "Veuillez saisir un numéro de téléphone valide",
+    "password_too_short": "Le mot de passe doit comporter au moins 8 caractères",
+    "passwords_not_match": "Les mots de passe ne correspondent pas"
+  }
+}

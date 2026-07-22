@@ -1,0 +1,889 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page.meta.title }}{% endblock %}
+{% block description %}{{ page.meta.description }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <!-- Hero Section -->
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold">Pokechill Guide - Complete Wiki & Strategy Guide</h1>
+                <p class="lead text-muted">Master Pokechill with our comprehensive guide covering starters, evolution, IVs, genetics, battle mechanics, and advanced strategies. Learn Pokechill tips and tricks to become a Pokemon master!</p>
+            </div>
+
+            <!-- Quick Navigation -->
+            <div class="card mb-5 shadow-sm">
+                <div class="card-body">
+                    <h2 class="h5 mb-3">Quick Navigation</h2>
+                    <div class="row g-2">
+                        <div class="col-md-4">
+                            <a href="#getting-started" class="btn btn-outline-primary btn-sm w-100">Getting Started</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#starters" class="btn btn-outline-primary btn-sm w-100">Starter Pokemon</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#battle-mechanics" class="btn btn-outline-primary btn-sm w-100">Battle Mechanics</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#type-chart" class="btn btn-outline-primary btn-sm w-100">Type Effectiveness</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#evolution" class="btn btn-outline-primary btn-sm w-100">Evolution Guide</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#iv-system" class="btn btn-outline-primary btn-sm w-100">IV System</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#genetics" class="btn btn-outline-primary btn-sm w-100">Genetics</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#level-caps" class="btn btn-outline-primary btn-sm w-100">Level Caps</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#tips" class="btn btn-outline-primary btn-sm w-100">Pro Tips</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Getting Started Section -->
+            <section id="getting-started" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">🎮 Getting Started with Pokechill</h2>
+                        
+                        <h3 class="h5 mb-3">What is Pokechill?</h3>
+                        <p>Pokechill is a free-to-play, browser-based Pokemon-inspired idle RPG that combines classic monster collecting with relaxing idle game mechanics. No downloads, no registration required - just open your browser and start playing!</p>
+                        
+                        <h3 class="h5 mb-3 mt-4">How to Play Pokechill</h3>
+                        <ol class="mb-4">
+                            <li class="mb-2"><strong>Choose Your Starter:</strong> Select from Litten (Fire), Turtwig (Grass), or Froakie (Water)</li>
+                            <li class="mb-2"><strong>Battle Wild Pokemon:</strong> Encounters happen automatically as you explore zones</li>
+                            <li class="mb-2"><strong>Catch Pokemon:</strong> Build your team by catching Pokemon during battles</li>
+                            <li class="mb-2"><strong>Train & Evolve:</strong> Level up your Pokemon and evolve them into stronger forms</li>
+                            <li class="mb-2"><strong>Progress Through Zones:</strong> Unlock new areas with tougher opponents and rare Pokemon</li>
+                        </ol>
+                        
+                        <div class="alert alert-info">
+                            <i class="fas fa-lightbulb me-2"></i>
+                            <strong>Pro Tip:</strong> Right-click (or long-press on mobile) on Pokemon and game elements to see additional information like type effectiveness and catch rates!
+                        </div>
+                        
+                        <h3 class="h5 mb-3 mt-4">Basic Controls</h3>
+                        <ul>
+                            <li><strong>Left Click:</strong> Select Pokemon, navigate menus, catch Pokemon</li>
+                            <li><strong>Right Click:</strong> View detailed information (desktop)</li>
+                            <li><strong>Long Press:</strong> View detailed information (mobile)</li>
+                            <li><strong>Auto-Save:</strong> Your progress saves automatically in your browser</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Starter Pokemon Section -->
+            <section id="starters" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">🔥 Starter Pokemon Comparison</h2>
+                        
+                        <p class="mb-4">Choosing your starter is the first important decision in Pokechill. Each starter has unique strengths and evolution paths. Here's a detailed comparison:</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card h-100 border-danger">
+                                    <div class="card-header bg-danger text-white">
+                                        <h3 class="h5 mb-0">🔥 Litten (Fire)</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p><strong>Type:</strong> Fire</p>
+                                        <p><strong>Evolution:</strong> Litten → Torracat → Incineroar</p>
+                                        <p><strong>Strengths:</strong></p>
+                                        <ul class="small">
+                                            <li>High Attack stat</li>
+                                            <li>Strong against Grass, Bug, Ice, Steel</li>
+                                            <li>Great offensive presence</li>
+                                            <li>Fast early game progression</li>
+                                        </ul>
+                                        <p><strong>Weaknesses:</strong></p>
+                                        <ul class="small">
+                                            <li>Weak to Water, Ground, Rock</li>
+                                            <li>Lower defense</li>
+                                        </ul>
+                                        <p class="mb-0"><strong>Best For:</strong> Aggressive players who prefer offense</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card h-100 border-success">
+                                    <div class="card-header bg-success text-white">
+                                        <h3 class="h5 mb-0">🌿 Turtwig (Grass)</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p><strong>Type:</strong> Grass</p>
+                                        <p><strong>Evolution:</strong> Turtwig → Grotle → Torterra (Grass/Ground)</p>
+                                        <p><strong>Strengths:</strong></p>
+                                        <ul class="small">
+                                            <li>Balanced stats</li>
+                                            <li>Strong against Water, Ground, Rock</li>
+                                            <li>Good defense</li>
+                                            <li>Dual-type after final evolution</li>
+                                        </ul>
+                                        <p><strong>Weaknesses:</strong></p>
+                                        <ul class="small">
+                                            <li>Weak to Fire, Ice, Flying, Bug</li>
+                                            <li>Slower progression</li>
+                                        </ul>
+                                        <p class="mb-0"><strong>Best For:</strong> Balanced players who want versatility</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card h-100 border-primary">
+                                    <div class="card-header bg-primary text-white">
+                                        <h3 class="h5 mb-0">💧 Froakie (Water)</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p><strong>Type:</strong> Water</p>
+                                        <p><strong>Evolution:</strong> Froakie → Frogadier → Greninja (Water/Dark)</p>
+                                        <p><strong>Strengths:</strong></p>
+                                        <ul class="small">
+                                            <li>High Speed stat</li>
+                                            <li>Strong against Fire, Ground, Rock</li>
+                                            <li>Excellent Special Attack</li>
+                                            <li>Dual-type after final evolution</li>
+                                        </ul>
+                                        <p><strong>Weaknesses:</strong></p>
+                                        <ul class="small">
+                                            <li>Weak to Grass, Electric</li>
+                                            <li>Lower HP</li>
+                                        </ul>
+                                        <p class="mb-0"><strong>Best For:</strong> Strategic players who value speed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="alert alert-success mt-4">
+                            <strong>Recommendation:</strong> All three starters are viable! Choose based on your playstyle. Froakie is popular for its speed and dual-type evolution, but Litten and Turtwig are equally strong choices.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Battle Mechanics Section -->
+            <section id="battle-mechanics" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">⚔️ Battle Mechanics in Pokechill</h2>
+                        
+                        <h3 class="h5 mb-3">How Battles Work</h3>
+                        <p>Pokechill features an automated battle system with strategic depth:</p>
+                        
+                        <ul class="mb-4">
+                            <li><strong>Automatic Battles:</strong> Battles happen automatically as you explore zones</li>
+                            <li><strong>Fatigue System:</strong> Pokemon gradually lose HP during combat and need rest</li>
+                            <li><strong>Type Effectiveness:</strong> Super-effective moves deal 2x damage, not very effective moves deal 0.5x damage</li>
+                            <li><strong>Team Strategy:</strong> Build a balanced team with good type coverage</li>
+                            <li><strong>Experience Gain:</strong> Pokemon gain XP from battles and level up over time</li>
+                        </ul>
+                        
+                        <h3 class="h5 mb-3">Damage Calculation</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Effectiveness</th>
+                                        <th>Damage Multiplier</th>
+                                        <th>Example</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="badge bg-success">Super Effective</span></td>
+                                        <td>2.0x damage</td>
+                                        <td>Fire vs Grass, Water vs Fire</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-secondary">Normal</span></td>
+                                        <td>1.0x damage</td>
+                                        <td>Normal vs Normal</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-warning">Not Very Effective</span></td>
+                                        <td>0.5x damage</td>
+                                        <td>Fire vs Water, Grass vs Fire</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-dark">No Effect</span></td>
+                                        <td>0x damage</td>
+                                        <td>Normal vs Ghost, Ghost vs Normal</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <h3 class="h5 mb-3 mt-4">Team Building Tips</h3>
+                        <ul>
+                            <li>Maintain a balanced team with different types for better coverage</li>
+                            <li>Have at least one Pokemon strong against common enemy types</li>
+                            <li>Rotate Pokemon to manage fatigue effectively</li>
+                            <li>Consider both offensive and defensive type matchups</li>
+                            <li>Keep backup Pokemon trained for tough battles</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Type Effectiveness Chart -->
+            <section id="type-chart" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">📊 Type Effectiveness Chart</h2>
+                        
+                        <p class="mb-4">Understanding type matchups is crucial for success in Pokechill. Use this chart to build effective teams and counter enemy Pokemon:</p>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-sm table-bordered text-center">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Attacking Type</th>
+                                        <th>Strong Against (2x)</th>
+                                        <th>Weak Against (0.5x)</th>
+                                        <th>No Effect (0x)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="fw-bold">🔥 Fire</td>
+                                        <td>Grass, Ice, Bug, Steel</td>
+                                        <td>Fire, Water, Rock, Dragon</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">💧 Water</td>
+                                        <td>Fire, Ground, Rock</td>
+                                        <td>Water, Grass, Dragon</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🌿 Grass</td>
+                                        <td>Water, Ground, Rock</td>
+                                        <td>Fire, Grass, Poison, Flying, Bug, Dragon, Steel</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">⚡ Electric</td>
+                                        <td>Water, Flying</td>
+                                        <td>Electric, Grass, Dragon</td>
+                                        <td>Ground</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">❄️ Ice</td>
+                                        <td>Grass, Ground, Flying, Dragon</td>
+                                        <td>Fire, Water, Ice, Steel</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🥊 Fighting</td>
+                                        <td>Normal, Ice, Rock, Dark, Steel</td>
+                                        <td>Poison, Flying, Psychic, Bug, Fairy</td>
+                                        <td>Ghost</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">☠️ Poison</td>
+                                        <td>Grass, Fairy</td>
+                                        <td>Poison, Ground, Rock, Ghost</td>
+                                        <td>Steel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🌍 Ground</td>
+                                        <td>Fire, Electric, Poison, Rock, Steel</td>
+                                        <td>Grass, Bug</td>
+                                        <td>Flying</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🦅 Flying</td>
+                                        <td>Grass, Fighting, Bug</td>
+                                        <td>Electric, Rock, Steel</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🔮 Psychic</td>
+                                        <td>Fighting, Poison</td>
+                                        <td>Psychic, Steel</td>
+                                        <td>Dark</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🐛 Bug</td>
+                                        <td>Grass, Psychic, Dark</td>
+                                        <td>Fire, Fighting, Poison, Flying, Ghost, Steel, Fairy</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🪨 Rock</td>
+                                        <td>Fire, Ice, Flying, Bug</td>
+                                        <td>Fighting, Ground, Steel</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">👻 Ghost</td>
+                                        <td>Psychic, Ghost</td>
+                                        <td>Dark</td>
+                                        <td>Normal</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🐉 Dragon</td>
+                                        <td>Dragon</td>
+                                        <td>Steel</td>
+                                        <td>Fairy</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🌑 Dark</td>
+                                        <td>Psychic, Ghost</td>
+                                        <td>Fighting, Dark, Fairy</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">⚙️ Steel</td>
+                                        <td>Ice, Rock, Fairy</td>
+                                        <td>Fire, Water, Electric, Steel</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">🧚 Fairy</td>
+                                        <td>Fighting, Dragon, Dark</td>
+                                        <td>Fire, Poison, Steel</td>
+                                        <td>-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="alert alert-warning mt-3">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Quick Tip:</strong> Right-click on Pokemon during battles to see type effectiveness in real-time!
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Evolution Guide Section -->
+            <section id="evolution" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">✨ Evolution Guide</h2>
+                        
+                        <h3 class="h5 mb-3">How Evolution Works in Pokechill</h3>
+                        <p>Pokemon evolve automatically when they reach specific level requirements after a battle. Evolution unlocks stronger stats, new abilities, and sometimes new types.</p>
+                        
+                        <h3 class="h5 mb-3 mt-4">Starter Evolution Paths</h3>
+                        
+                        <p class="mb-3">Understanding Froakie evolution and other starter evolution paths is crucial for Pokechill strategies. Here are the complete evolution lines:</p>
+                        
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-4">
+                                <div class="card border-danger">
+                                    <div class="card-header bg-danger text-white">
+                                        <strong>🔥 Litten Line</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="mb-2"><strong>Litten</strong> (Fire)</p>
+                                        <p class="text-muted small mb-2">↓ Level 17</p>
+                                        <p class="mb-2"><strong>Torracat</strong> (Fire)</p>
+                                        <p class="text-muted small mb-2">↓ Level 34</p>
+                                        <p class="mb-0"><strong>Incineroar</strong> (Fire/Dark)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card border-success">
+                                    <div class="card-header bg-success text-white">
+                                        <strong>🌿 Turtwig Line</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="mb-2"><strong>Turtwig</strong> (Grass)</p>
+                                        <p class="text-muted small mb-2">↓ Level 18</p>
+                                        <p class="mb-2"><strong>Grotle</strong> (Grass)</p>
+                                        <p class="text-muted small mb-2">↓ Level 32</p>
+                                        <p class="mb-0"><strong>Torterra</strong> (Grass/Ground)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card border-primary">
+                                    <div class="card-header bg-primary text-white">
+                                        <strong>💧 Froakie Line</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="mb-2"><strong>Froakie</strong> (Water)</p>
+                                        <p class="text-muted small mb-2">↓ Level 16</p>
+                                        <p class="mb-2"><strong>Frogadier</strong> (Water)</p>
+                                        <p class="text-muted small mb-2">↓ Level 36</p>
+                                        <p class="mb-0"><strong>Greninja</strong> (Water/Dark)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 class="h5 mb-3">Evolution Strategy Tips</h3>
+                        <ul>
+                            <li><strong>Evolve Your Starter First:</strong> Focus on evolving your starter Pokemon early for a significant power boost</li>
+                            <li><strong>Level Requirements:</strong> Pokemon must reach the exact level and complete a battle to trigger evolution</li>
+                            <li><strong>Stat Boost:</strong> Evolution provides immediate stat increases across all categories</li>
+                            <li><strong>Type Changes:</strong> Some Pokemon gain secondary types upon evolution (like Greninja gaining Dark type)</li>
+                            <li><strong>No Canceling:</strong> Evolution happens automatically and cannot be canceled</li>
+                            <li><strong>Plan Ahead:</strong> Consider type coverage when deciding which Pokemon to evolve next</li>
+                        </ul>
+                        
+                        <div class="alert alert-info mt-3">
+                            <strong>Popular Question:</strong> "How do I evolve Froakie in Pokechill?" - Froakie evolves into Frogadier at level 16, then Greninja at level 36. Just keep battling and gaining experience!
+                        </div>
+                        
+                        <p class="mt-3">For a complete evolution chart with all Pokemon, visit our <a href="/evolution/" class="fw-bold">Evolution Page</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- IV System Section -->
+            <section id="iv-system" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">📈 IV System (Individual Values)</h2>
+                        
+                        <h3 class="h5 mb-3">What are IVs in Pokechill?</h3>
+                        <p>IVs (Individual Values) are hidden stats that determine your Pokemon's potential strength. Understanding Pokechill IVs is essential for building the strongest team. Each Pokemon has unique IVs ranging from 0-31 for different stats:</p>
+                        
+                        <ul class="mb-4">
+                            <li><strong>HP IV:</strong> Affects maximum health points</li>
+                            <li><strong>Attack IV:</strong> Affects physical damage output</li>
+                            <li><strong>Defense IV:</strong> Affects physical damage resistance</li>
+                            <li><strong>Special Attack IV:</strong> Affects special move damage</li>
+                            <li><strong>Special Defense IV:</strong> Affects special move resistance</li>
+                            <li><strong>Speed IV:</strong> Affects turn order and evasion</li>
+                        </ul>
+                        
+                        <h3 class="h5 mb-3">How to Check Pokemon IVs</h3>
+                        <p>Right-click (or long-press on mobile) on a Pokemon to view its detailed stats, including IV values. Higher IVs mean stronger Pokemon!</p>
+                        
+                        <div class="table-responsive mb-4">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>IV Range</th>
+                                        <th>Quality</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>25-31</td>
+                                        <td><span class="badge bg-success">Excellent</span></td>
+                                        <td>Top tier Pokemon, worth keeping and training</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20-24</td>
+                                        <td><span class="badge bg-primary">Good</span></td>
+                                        <td>Solid Pokemon, viable for most content</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15-19</td>
+                                        <td><span class="badge bg-warning">Average</span></td>
+                                        <td>Usable but consider replacing later</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0-14</td>
+                                        <td><span class="badge bg-secondary">Poor</span></td>
+                                        <td>Consider releasing or using for genetics</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <h3 class="h5 mb-3">IV Optimization Tips</h3>
+                        <ul>
+                            <li>Catch multiple Pokemon of the same species to find better IVs</li>
+                            <li>Save Pokemon with high IVs (25+) for your main team</li>
+                            <li>Use the Genetics system to transfer good IVs to other Pokemon</li>
+                            <li>Focus on IVs that matter for each Pokemon's role (Attack for attackers, Defense for tanks)</li>
+                            <li>Perfect IVs (31 in all stats) are extremely rare but not necessary to progress</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Genetics System Section -->
+            <section id="genetics" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">🧬 Genetics System</h2>
+                        
+                        <h3 class="h5 mb-3">What is the Genetics System?</h3>
+                        <p>The Genetics system is an advanced feature in Pokechill that allows you to transfer IVs, moves, and shiny status between compatible Pokemon. This powerful system helps you build the ultimate team by combining the best traits from multiple Pokemon.</p>
+                        
+                        <h3 class="h5 mb-3 mt-4">How Genetics Works</h3>
+                        <ol class="mb-4">
+                            <li class="mb-2"><strong>Unlock the System:</strong> Progress through the game to unlock the Genetics feature</li>
+                            <li class="mb-2"><strong>Select Compatible Pokemon:</strong> Choose two Pokemon of the same species or evolution line</li>
+                            <li class="mb-2"><strong>Transfer Traits:</strong> Transfer IVs, moves, or shiny status from one Pokemon to another</li>
+                            <li class="mb-2"><strong>Create Perfect Pokemon:</strong> Combine the best IVs from multiple catches into one powerful Pokemon</li>
+                        </ol>
+                        
+                        <h3 class="h5 mb-3">What Can Be Transferred?</h3>
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-4">
+                                <div class="card h-100 border-primary">
+                                    <div class="card-body">
+                                        <h4 class="h6 text-primary">📊 Individual Values (IVs)</h4>
+                                        <p class="small mb-0">Transfer high IVs from one Pokemon to another of the same species. Perfect for optimizing your team's stats.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100 border-success">
+                                    <div class="card-body">
+                                        <h4 class="h6 text-success">⚔️ Moves</h4>
+                                        <p class="small mb-0">Transfer special moves between compatible Pokemon. Great for creating unique movesets.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100 border-warning">
+                                    <div class="card-body">
+                                        <h4 class="h6 text-warning">✨ Shiny Status</h4>
+                                        <p class="small mb-0">Transfer shiny status to create shiny versions of your favorite Pokemon with perfect IVs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 class="h5 mb-3">Genetics Strategy Guide</h3>
+                        <ul>
+                            <li><strong>Catch Multiple Copies:</strong> Catch several Pokemon of the same species to find the best IVs</li>
+                            <li><strong>Save Shinies:</strong> Keep shiny Pokemon even with poor IVs - you can transfer the shiny status later</li>
+                            <li><strong>IV Breeding:</strong> Combine high IVs from different Pokemon to create near-perfect specimens</li>
+                            <li><strong>Move Optimization:</strong> Transfer powerful moves to Pokemon with better IVs</li>
+                            <li><strong>Plan Ahead:</strong> Don't release Pokemon with unique traits - they might be useful for genetics</li>
+                        </ul>
+                        
+                        <div class="alert alert-success mt-3">
+                            <i class="fas fa-star me-2"></i>
+                            <strong>Pro Strategy:</strong> The Genetics system is key to creating the strongest possible team. Catch everything, check IVs, and use genetics to build perfect Pokemon!
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Level Caps Section -->
+            <section id="level-caps" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">🎯 Level Caps & Progression</h2>
+                        
+                        <h3 class="h5 mb-3">How Level Caps Work</h3>
+                        <p>Pokechill uses a progressive level cap system that increases as you advance through zones. Your Pokemon cannot exceed the current level cap until you unlock the next area. This ensures balanced progression and prevents over-leveling.</p>
+                        
+                        <h3 class="h5 mb-3 mt-4">Zone Progression Guide</h3>
+                        <div class="table-responsive mb-4">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Zone</th>
+                                        <th>Level Cap</th>
+                                        <th>Unlock Requirement</th>
+                                        <th>New Features</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Starting Zone</td>
+                                        <td>Level 10</td>
+                                        <td>-</td>
+                                        <td>Basic catching, starter selection</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zone 2</td>
+                                        <td>Level 20</td>
+                                        <td>Defeat Zone 1 boss</td>
+                                        <td>First evolutions, new Pokemon types</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zone 3</td>
+                                        <td>Level 30</td>
+                                        <td>Defeat Zone 2 boss</td>
+                                        <td>More Pokemon variety, harder battles</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zone 4</td>
+                                        <td>Level 40</td>
+                                        <td>Defeat Zone 3 boss</td>
+                                        <td>Final evolutions, rare Pokemon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zone 5+</td>
+                                        <td>Level 50+</td>
+                                        <td>Continue progression</td>
+                                        <td>Endgame content, shiny hunting</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <h3 class="h5 mb-3">Progression Tips</h3>
+                        <ul>
+                            <li><strong>Don't Rush:</strong> Take time to catch Pokemon and build a strong team before moving to the next zone</li>
+                            <li><strong>Level Cap Strategy:</strong> When you hit the level cap, focus on catching new Pokemon and improving IVs</li>
+                            <li><strong>Boss Preparation:</strong> Ensure your team has good type coverage before challenging zone bosses</li>
+                            <li><strong>Evolution Timing:</strong> Plan evolutions around level caps to maximize efficiency</li>
+                            <li><strong>Team Rotation:</strong> Train multiple Pokemon to have options for different situations</li>
+                        </ul>
+                        
+                        <div class="alert alert-warning mt-3">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            <strong>Important:</strong> Pokemon at the level cap will still gain experience, but won't level up until you unlock the next zone. Don't waste time grinding at the cap!
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pro Tips Section -->
+            <section id="tips" class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">💡 Pro Tips & Advanced Pokechill Strategies</h2>
+                        
+                        <p class="mb-4">Master these Pokechill tips and strategies to progress faster and build the ultimate team. This Pokechill wiki section covers everything from beginner tips to advanced tactics.</p>
+                        
+                        <h3 class="h5 mb-3">Early Game Tips (Levels 1-20)</h3>
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6">
+                                <div class="card bg-light h-100">
+                                    <div class="card-body">
+                                        <h4 class="h6">✅ Do This</h4>
+                                        <ul class="small mb-0">
+                                            <li>Focus on evolving your starter first</li>
+                                            <li>Catch at least one of every Pokemon you encounter</li>
+                                            <li>Build a team with diverse types</li>
+                                            <li>Right-click Pokemon to learn type matchups</li>
+                                            <li>Save Pokemon with high IVs (20+)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card bg-light h-100">
+                                    <div class="card-body">
+                                        <h4 class="h6">❌ Avoid This</h4>
+                                        <ul class="small mb-0">
+                                            <li>Don't release Pokemon before checking IVs</li>
+                                            <li>Don't focus on just one Pokemon</li>
+                                            <li>Don't ignore type effectiveness</li>
+                                            <li>Don't rush through zones too quickly</li>
+                                            <li>Don't waste time grinding at level cap</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 class="h5 mb-3">Mid Game Tips (Levels 20-40)</h3>
+                        <ul class="mb-4">
+                            <li><strong>Team Composition:</strong> Aim for 6 Pokemon with different types for maximum coverage</li>
+                            <li><strong>IV Hunting:</strong> Start looking for Pokemon with 25+ IVs in key stats</li>
+                            <li><strong>Evolution Planning:</strong> Time evolutions to happen just before level caps for maximum efficiency</li>
+                            <li><strong>Type Coverage:</strong> Ensure you can handle all common enemy types in your current zone</li>
+                            <li><strong>Genetics Prep:</strong> Start collecting multiple copies of strong Pokemon for genetics later</li>
+                        </ul>
+                        
+                        <h3 class="h5 mb-3">Late Game Tips (Level 40+)</h3>
+                        <ul class="mb-4">
+                            <li><strong>Perfect Your Team:</strong> Use genetics to create Pokemon with optimal IVs</li>
+                            <li><strong>Shiny Hunting:</strong> Focus on catching shiny variants of your favorite Pokemon</li>
+                            <li><strong>Complete Pokedex:</strong> Try to catch at least one of every Pokemon</li>
+                            <li><strong>Optimize Movesets:</strong> Use genetics to give Pokemon the best possible moves</li>
+                            <li><strong>Challenge Content:</strong> Take on the toughest zones and bosses</li>
+                        </ul>
+                        
+                        <h3 class="h5 mb-3">Efficiency Tips</h3>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="card border-primary h-100">
+                                    <div class="card-body">
+                                        <h4 class="h6 text-primary">⏰ Time Management</h4>
+                                        <ul class="small mb-0">
+                                            <li>Let the game run idle while you work</li>
+                                            <li>Check in periodically to catch new Pokemon</li>
+                                            <li>Use fatigue system to rotate teams automatically</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-success h-100">
+                                    <div class="card-body">
+                                        <h4 class="h6 text-success">📊 Resource Management</h4>
+                                        <ul class="small mb-0">
+                                            <li>Don't hoard items - use them strategically</li>
+                                            <li>Prioritize catching over battling when at level cap</li>
+                                            <li>Save rare Pokemon for genetics experiments</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-warning h-100">
+                                    <div class="card-body">
+                                        <h4 class="h6 text-warning">🎯 Goal Setting</h4>
+                                        <ul class="small mb-0">
+                                            <li>Set short-term goals (evolve starter, reach zone 3)</li>
+                                            <li>Work toward long-term goals (complete Pokedex)</li>
+                                            <li>Celebrate milestones (first shiny, perfect IV Pokemon)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="alert alert-info mt-4">
+                            <h4 class="h6 mb-2">🌟 Ultimate Pokechill Strategy</h4>
+                            <p class="small mb-0">The key to mastering Pokechill is patience and strategy. Focus on building a diverse team with good IVs, understand type matchups, and use the genetics system to create your perfect team. Remember - it's an idle game, so let it run in the background and check in regularly for the best experience!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Resources Section -->
+            <section class="mb-5">
+                <div class="card shadow-sm border-primary">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">📚 Additional Resources</h2>
+                        
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-arrow-up fa-3x text-primary mb-3"></i>
+                                        <h3 class="h5">Evolution Chart</h3>
+                                        <p class="small text-muted">Complete evolution paths for all Pokemon with level requirements</p>
+                                        <a href="/evolution/" class="btn btn-primary btn-sm">View Evolution Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-trophy fa-3x text-warning mb-3"></i>
+                                        <h3 class="h5">Tier List</h3>
+                                        <p class="small text-muted">Rankings of the best Pokemon from S-tier to D-tier</p>
+                                        <a href="/tier-list/" class="btn btn-warning btn-sm">View Tier List</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-gamepad fa-3x text-success mb-3"></i>
+                                        <h3 class="h5">Play Now</h3>
+                                        <p class="small text-muted">Start your Pokechill adventure and put these strategies to use!</p>
+                                        <a href="/" class="btn btn-success btn-sm">Play Pokechill</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="mb-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h3 mb-4">❓ Frequently Asked Questions</h2>
+                        
+                        <div class="accordion" id="guideAccordion">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        Which starter should I choose in Pokechill?
+                                    </button>
+                                </h3>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#guideAccordion">
+                                    <div class="accordion-body">
+                                        All three starters are viable! Froakie is popular for its speed and Water/Dark typing after evolution. Litten offers strong offense, while Turtwig provides balanced stats. Choose based on your preferred playstyle.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        How do I get better IVs in Pokechill?
+                                    </button>
+                                </h3>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                                    <div class="accordion-body">
+                                        Catch multiple Pokemon of the same species and check their IVs by right-clicking. Keep the ones with high IVs (25+) and use the Genetics system to transfer good IVs between Pokemon.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        What should I do when I hit the level cap?
+                                    </button>
+                                </h3>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                                    <div class="accordion-body">
+                                        Focus on catching new Pokemon, improving your team's IVs, and preparing for the next zone. Don't waste time grinding experience when at the level cap - work on team composition instead.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        How rare are shiny Pokemon in Pokechill?
+                                    </button>
+                                </h3>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                                    <div class="accordion-body">
+                                        Shiny Pokemon are rare variants with different colors. The exact rate varies, but they're significantly rarer than normal Pokemon. You can use the Genetics system to transfer shiny status to Pokemon with better IVs.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                        Can I play Pokechill on mobile?
+                                    </button>
+                                </h3>
+                                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#guideAccordion">
+                                    <div class="accordion-body">
+                                        Yes! Pokechill is fully mobile-friendly. Use long-press instead of right-click to view detailed information on mobile devices. Your progress saves automatically in your browser.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Back to Top -->
+            <div class="text-center mb-4">
+                <a href="#" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-up me-2"></i>Back to Top
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

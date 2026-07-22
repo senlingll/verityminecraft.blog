@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Preise - KI-Raumdesign Pläne & Kreditpakete",
+    "description": "Preiswertes KI-Raumdesign. Wählen Sie zwischen monatlichen Abonnements oder einmaligen Kreditpaketen. Hochauflösende Designs, keine Wasserzeichen, Credits verfallen nie.",
+    "keywords": "KI Raumdesign Preise, Abonnements, Kreditpakete, Innenarchitektur Kosten"
+  },
+  "hero": {
+    "badge": "Preispläne",
+    "title": "Wählen Sie Ihren perfekten Plan",
+    "subtitle": "Flexible Optionen für jedes Budget und jeden Designbedarf. Starten Sie mit einem Abo oder erhalten Sie sofort Credits."
+  },
+  "tabs": {
+    "subscriptions": "Monatliche Abos",
+    "credit_packs": "Kreditpakete"
+  },
+  "subscriptions": {
+    "title": "Monatliche Abonnements",
+    "subtitle": "Ideal für laufende Projekte mit monatlicher Gutschrift von Credits",
+    "note": "Alle Abos verlängern sich monatlich und enthalten die gleichen großartigen Funktionen",
+    "includes_label": "Das erhalten Sie",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "badge": "Am besten für Einsteiger",
+        "price": "$9.99",
+        "original_price": "$14.99",
+        "period": "/Monat",
+        "description": "Perfekt für Hauseigentümer, die mit ihrem Design beginnen",
+        "features": [
+          "100 Credits (50 Raumdesigns)",
+          "Credits verfallen nie",
+          "Hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Standardverarbeitung"
+        ],
+        "cta_button": "Basic-Plan starten",
+        "cta_note": "Ideal für Hauseigentümer!",
+        "creem_product_id": "prod_lxs1BHhRhY9xY0kkJL9xh"
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "Am beliebtesten",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "period": "/Monat",
+        "description": "Ideal für Renovierungen mehrerer Räume und Design-Exploration",
+        "features": [
+          "500 Credits (250 Raumdesigns)",
+          "Credits verfallen nie",
+          "Hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Priorisierte Verarbeitung",
+          "Früher Zugang zu neuen Funktionen"
+        ],
+        "cta_button": "Pro-Plan starten",
+        "cta_note": "Die beliebteste Wahl!",
+        "creem_product_id": "prod_pBlJG3CgPZk2sBmI4pExZ"
+      },
+      "max": {
+        "name": "Max",
+        "badge": "Bestes Preis-Leistungs-Verhältnis",
+        "price": "$79.99",
+        "original_price": "$99.99",
+        "period": "/Monat",
+        "description": "Für Innenarchitekten und Immobilienprofis",
+        "features": [
+          "1600 Credits (800 Raumdesigns)",
+          "Credits verfallen nie",
+          "Ultra-hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Priorisierte Verarbeitung",
+          "Priorisierter Kundensupport",
+          "Wöchentliche neue Stil-Updates"
+        ],
+        "cta_button": "Max-Plan starten",
+        "cta_note": "Beste Wahl für Profis!",
+        "creem_product_id": "prod_2NNlnDAWyCyoo3puoroRFX"
+      }
+    }
+  },
+  "credit_packs": {
+    "title": "Einmalige Kreditpakete",
+    "subtitle": "Perfekt für gelegentliche Nutzung ohne monatliche Verpflichtungen",
+    "note": "Credits verfallen nie und können jederzeit verwendet werden. Keine wiederkehrenden Gebühren.",
+    "packs": {
+      "starter": {
+        "name": "Starter-Paket",
+        "badge": "Schnellstart",
+        "price": "$30",
+        "original_price": "$50",
+        "credits": "400 Credits",
+        "designs": "200 Raumdesigns",
+        "description": "Einmalkauf. Gleiche Funktionen in allen Paketen.",
+        "features": [
+          "Credits verfallen nie",
+          "Hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Sofortige Aktivierung"
+        ],
+        "cta_button": "Starter-Paket kaufen",
+        "cta_note": "Einmalzahlung",
+        "creem_product_id": "prod_2GmzPBRmnLKt97QMD3qn8J"
+      },
+      "popular": {
+        "name": "Beliebtes Paket",
+        "badge": "Toller Wert",
+        "price": "$50",
+        "original_price": "$80",
+        "credits": "850 Credits",
+        "designs": "425 Raumdesigns",
+        "description": "Einmalkauf. Gleiche Funktionen in allen Paketen.",
+        "features": [
+          "Credits verfallen nie",
+          "Hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Sofortige Aktivierung"
+        ],
+        "cta_button": "Beliebtes Paket kaufen",
+        "cta_note": "Beste Preis-Wahl!",
+        "creem_product_id": "prod_5Sx2kNJaZJVdEujRMoOEwT"
+      },
+      "professional": {
+        "name": "Professionelles Paket",
+        "badge": "Profi-Wahl",
+        "price": "$100",
+        "original_price": "$150",
+        "credits": "1800 Credits",
+        "designs": "900 Raumdesigns",
+        "description": "Einmalkauf. Gleiche Funktionen in allen Paketen.",
+        "features": [
+          "Credits verfallen nie",
+          "Hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Sofortige Aktivierung"
+        ],
+        "cta_button": "Professionelles Paket kaufen",
+        "cta_note": "Professionelle Wahl!",
+        "creem_product_id": "prod_1iWcrD7hXVckQz8zzR4H9i"
+      },
+      "enterprise": {
+        "name": "Enterprise-Paket",
+        "badge": "Maximaler Wert",
+        "price": "$200",
+        "original_price": "$300",
+        "credits": "4000 Credits",
+        "designs": "2000 Raumdesigns",
+        "description": "Einmalkauf. Gleiche Funktionen in allen Paketen.",
+        "features": [
+          "Credits verfallen nie",
+          "Hochauflösende Designs",
+          "Keine Wasserzeichen",
+          "Alle Designstile",
+          "Sofortige Aktivierung"
+        ],
+        "cta_button": "Enterprise-Paket kaufen",
+        "cta_note": "Maximaler Wert!",
+        "creem_product_id": "prod_llodOSWLYCDMci8jAl6Eq"
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Was ist der Unterschied zwischen Abos und Kreditpaketen?",
+        "answer": "Abonnements bieten monatliche Credits mit automatischer Verlängerung – ideal für laufende Projekte. Kreditpakete sind Einmalkäufe ohne wiederkehrende Gebühren, ideal für gelegentliche Nutzung."
+      },
+      {
+        "question": "Verfallen meine Credits?",
+        "answer": "Nein! Alle Credits aus Abos und Kreditpaketen verfallen nie. Sie können sie jederzeit nutzen."
+      },
+      {
+        "question": "Kann ich mein Abo jederzeit kündigen?",
+        "answer": "Ja, Sie können jederzeit kündigen. Ihre Credits bleiben auch nach der Kündigung verfügbar."
+      },
+      {
+        "question": "Wie viele Credits kostet ein Raumdesign?",
+        "answer": "Jede KI-Generierung eines Raumdesigns kostet 2 Credits, unabhängig von Stil oder Komplexität."
+      },
+      {
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Wir akzeptieren alle gängigen Kreditkarten, PayPal und weitere sichere Zahlungsmethoden über unseren Zahlungsanbieter."
+      }
+    ]
+  }
+}

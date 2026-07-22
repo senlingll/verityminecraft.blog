@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "Verity Minecraft",
+    "logo_prefix": "Verity",
+    "logo_highlight": "Minecraft",
+    "logo_suffix": "",
+    "icon_alt": "Verity Minecraft logo",
+    "home_aria": "Verity Minecraft home"
+  },
+  "seo": {
+    "default_title": "Verity Minecraft ダウンロード - Java・Bedrock・PE",
+    "default_description": "Verity Minecraft ダウンロードを Java、Bedrock、PE 向けに整理し、ソース、バージョン、導入手順を確認できます。",
+    "author": "Verity Minecraft"
+  },
+  "site": {
+    "domain": "verityminecraft.blog",
+    "support_email": "support@verityminecraft.blog",
+    "copyright_year": "2026"
+  },
+  "aria": {
+    "primary_navigation": "ダウンロード",
+    "footer_navigation": "ダウンロード",
+    "support_email": "support@verityminecraft.blog",
+    "language_selector": "日本語"
+  },
+  "common": {
+    "english": "English"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "ja": "日本語",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "ko": "한국어",
+    "it": "Italiano"
+  },
+  "schema": {
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Verity Minecraft",
+      "description": "Verity Minecraft ダウンロードを Java、Bedrock、PE 向けに整理し、ソース、バージョン、導入手順を確認できます。",
+      "url": "https://verityminecraft.blog/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Verity Minecraft ダウンロード - Java・Bedrock・PE",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verity Minecraft ダウンロードを Java、Bedrock、PE 向けに整理し、ソース、バージョン、導入手順を確認できます。"
+          }
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "wiki": "ダウンロード",
+    "guide": "インストール",
+    "database": "バージョン",
+    "progression": "安全確認",
+    "steam": "ダウンロード",
+    "faq": "よくある質問"
+  },
+  "footer": {
+    "description": "Verity Minecraft の独立したダウンロード案内です。",
+    "section_game": "ダウンロード",
+    "section_legal": "サイト",
+    "about_us": "サイトについて",
+    "contact_us": "お問い合わせ",
+    "privacy_policy": "プライバシーポリシー",
+    "terms_of_service": "利用規約",
+    "copyright": "Verity Minecraft の独立したダウンロード案内です。",
+    "disclaimer": "Verity Minecraft の独立したダウンロード案内です。"
+  },
+  "error_404": {
+    "code": "404",
+    "title": "Not found",
+    "description": "Not found",
+    "keywords": "404",
+    "home_cta": "ダウンロード"
+  }
+}

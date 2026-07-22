@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "요금제 - AI 룸 디자인 플랜 및 크레딧 팩",
+    "description": "합리적인 가격의 AI 룸 디자인. 월 구독 또는 1회성 크레딧 팩 중에서 선택하세요. 고해상도 디자인, 워터마크 없음, 크레딧은 만료되지 않습니다.",
+    "keywords": "AI 룸 디자인 가격, 구독, 크레딧 팩, 인테리어 비용"
+  },
+  "hero": {
+    "badge": "요금제",
+    "title": "나에게 딱 맞는 플랜 선택",
+    "subtitle": "모든 예산과 디자인 니즈에 맞춘 유연한 옵션. 구독으로 시작하거나 즉시 크레딧을 받아보세요."
+  },
+  "tabs": {
+    "subscriptions": "월 구독",
+    "credit_packs": "크레딧 팩"
+  },
+  "subscriptions": {
+    "title": "월 구독",
+    "subtitle": "매월 크레딧이 제공되어 지속적인 프로젝트에 최적",
+    "note": "모든 구독은 매월 갱신되며 동일한 우수한 기능을 포함합니다",
+    "includes_label": "제공 내용",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "badge": "초보자에게 최적",
+        "price": "$9.99",
+        "original_price": "$14.99",
+        "period": "/월",
+        "description": "디자인을 시작하려는 주택 소유자에게 적합",
+        "features": [
+          "크레딧 100개 (룸 디자인 50회)",
+          "크레딧은 만료되지 않습니다",
+          "고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "표준 처리"
+        ],
+        "cta_button": "Basic 플랜 시작",
+        "cta_note": "주택 소유자에게 딱!",
+        "creem_product_id": "prod_lxs1BHhRhY9xY0kkJL9xh"
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "가장 인기",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "period": "/월",
+        "description": "여러 방 리모델링과 디자인 탐색에 이상적",
+        "features": [
+          "크레딧 500개 (룸 디자인 250회)",
+          "크레딧은 만료되지 않습니다",
+          "고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "우선 처리",
+          "신규 기능 사전 이용"
+        ],
+        "cta_button": "Pro 플랜 시작",
+        "cta_note": "가장 인기 있는 선택!",
+        "creem_product_id": "prod_pBlJG3CgPZk2sBmI4pExZ"
+      },
+      "max": {
+        "name": "Max",
+        "badge": "최고의 가성비",
+        "price": "$79.99",
+        "original_price": "$99.99",
+        "period": "/월",
+        "description": "인테리어 디자이너 및 부동산 전문가용",
+        "features": [
+          "크레딧 1600개 (룸 디자인 800회)",
+          "크레딧은 만료되지 않습니다",
+          "초고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "우선 처리",
+          "우선 고객 지원",
+          "매주 새로운 스타일 업데이트"
+        ],
+        "cta_button": "Max 플랜 시작",
+        "cta_note": "전문가에게 최고의 선택!",
+        "creem_product_id": "prod_2NNlnDAWyCyoo3puoroRFX"
+      }
+    }
+  },
+  "credit_packs": {
+    "title": "1회성 크레딧 팩",
+    "subtitle": "월 구독 없이 가끔 사용하는 분께 적합",
+    "note": "크레딧은 만료되지 않으며 언제든지 사용할 수 있습니다. 반복 결제 없음.",
+    "packs": {
+      "starter": {
+        "name": "스타터 팩",
+        "badge": "빠른 시작",
+        "price": "$30",
+        "original_price": "$50",
+        "credits": "크레딧 400개",
+        "designs": "룸 디자인 200회",
+        "description": "1회 구매. 모든 팩에서 동일한 기능 제공.",
+        "features": [
+          "크레딧은 만료되지 않습니다",
+          "고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "즉시 활성화"
+        ],
+        "cta_button": "스타터 팩 구매",
+        "cta_note": "일시불 결제",
+        "creem_product_id": "prod_2GmzPBRmnLKt97QMD3qn8J"
+      },
+      "popular": {
+        "name": "인기 팩",
+        "badge": "가성비 우수",
+        "price": "$50",
+        "original_price": "$80",
+        "credits": "크레딧 850개",
+        "designs": "룸 디자인 425회",
+        "description": "1회 구매. 모든 팩에서 동일한 기능 제공.",
+        "features": [
+          "크레딧은 만료되지 않습니다",
+          "고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "즉시 활성화"
+        ],
+        "cta_button": "인기 팩 구매",
+        "cta_note": "최고의 가치 선택!",
+        "creem_product_id": "prod_5Sx2kNJaZJVdEujRMoOEwT"
+      },
+      "professional": {
+        "name": "프로페셔널 팩",
+        "badge": "프로의 선택",
+        "price": "$100",
+        "original_price": "$150",
+        "credits": "크레딧 1800개",
+        "designs": "룸 디자인 900회",
+        "description": "1회 구매. 모든 팩에서 동일한 기능 제공.",
+        "features": [
+          "크레딧은 만료되지 않습니다",
+          "고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "즉시 활성화"
+        ],
+        "cta_button": "프로페셔널 팩 구매",
+        "cta_note": "전문가의 선택!",
+        "creem_product_id": "prod_1iWcrD7hXVckQz8zzR4H9i"
+      },
+      "enterprise": {
+        "name": "엔터프라이즈 팩",
+        "badge": "최대 가치",
+        "price": "$200",
+        "original_price": "$300",
+        "credits": "크레딧 4000개",
+        "designs": "룸 디자인 2000회",
+        "description": "1회 구매. 모든 팩에서 동일한 기능 제공.",
+        "features": [
+          "크레딧은 만료되지 않습니다",
+          "고해상도 디자인",
+          "워터마크 없음",
+          "모든 디자인 스타일",
+          "즉시 활성화"
+        ],
+        "cta_button": "엔터프라이즈 팩 구매",
+        "cta_note": "최대 가치!",
+        "creem_product_id": "prod_llodOSWLYCDMci8jAl6Eq"
+      }
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "구독과 크레딧 팩의 차이는 무엇인가요?",
+        "answer": "구독은 매월 크레딧이 자동으로 충전되어 지속적인 프로젝트에 적합합니다. 크레딧 팩은 반복 결제 없는 일회성 구매로, 가끔 사용할 때 이상적입니다."
+      },
+      {
+        "question": "크레딧에 유효기간이 있나요?",
+        "answer": "없습니다! 구독과 크레딧 팩의 모든 크레딧은 만료되지 않습니다. 원할 때 언제든 사용하세요."
+      },
+      {
+        "question": "구독은 언제든 취소할 수 있나요?",
+        "answer": "네, 언제든 취소할 수 있습니다. 취소 후에도 크레딧은 계속 사용 가능합니다."
+      },
+      {
+        "question": "방 하나의 디자인에는 몇 크레딧이 드나요?",
+        "answer": "AI 룸 디자인 생성은 스타일이나 복잡도와 관계없이 1회당 2 크레딧이 필요합니다."
+      },
+      {
+        "question": "어떤 결제 수단을 지원하나요?",
+        "answer": "주요 신용카드, PayPal 및 기타 안전한 결제 방식을 결제 대행사를 통해 지원합니다."
+      }
+    ]
+  }
+}

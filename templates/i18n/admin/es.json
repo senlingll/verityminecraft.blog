@@ -1,0 +1,80 @@
+{
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Bienvenido al panel de administración",
+    "overview": "Resumen",
+    "statistics": "Estadísticas",
+    "recent_activity": "Actividad reciente"
+  },
+  "users": {
+    "title": "Usuarios",
+    "list": "Lista de usuarios",
+    "add": "Agregar usuario",
+    "edit": "Editar usuario",
+    "delete": "Eliminar usuario",
+    "search": "Buscar usuarios",
+    "total_users": "Total de usuarios",
+    "active_users": "Usuarios activos",
+    "new_users": "Usuarios nuevos"
+  },
+  "content": {
+    "title": "Gestión de contenido",
+    "pages": "Páginas",
+    "articles": "Artículos",
+    "media": "Multimedia",
+    "categories": "Categorías",
+    "tags": "Etiquetas"
+  },
+  "system": {
+    "title": "Sistema",
+    "settings": "Configuración",
+    "logs": "Registros",
+    "backup": "Copia de seguridad",
+    "maintenance": "Mantenimiento",
+    "updates": "Actualizaciones"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "menu": "Menú"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "view": "Ver",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "import": "Importar"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "rejected": "Rechazado",
+    "draft": "Borrador",
+    "published": "Publicado"
+  },
+  "messages": {
+    "success": "Operación completada con éxito",
+    "error": "Ocurrió un error",
+    "warning": "Advertencia",
+    "info": "Información",
+    "confirm_delete": "¿Está seguro de que desea eliminar este elemento?",
+    "no_data": "No hay datos disponibles",
+    "loading": "Cargando..."
+  },
+  "forms": {
+    "required": "Este campo es obligatorio",
+    "invalid_email": "Ingrese una dirección de correo válida",
+    "invalid_phone": "Ingrese un número de teléfono válido",
+    "password_too_short": "La contraseña debe tener al menos 8 caracteres",
+    "passwords_not_match": "Las contraseñas no coinciden"
+  }
+}

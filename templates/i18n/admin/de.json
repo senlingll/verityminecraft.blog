@@ -1,0 +1,80 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen im Admin-Bereich",
+    "overview": "Übersicht",
+    "statistics": "Statistiken",
+    "recent_activity": "Letzte Aktivitäten"
+  },
+  "users": {
+    "title": "Benutzer",
+    "list": "Benutzerliste",
+    "add": "Benutzer hinzufügen",
+    "edit": "Benutzer bearbeiten",
+    "delete": "Benutzer löschen",
+    "search": "Benutzer suchen",
+    "total_users": "Gesamtzahl der Benutzer",
+    "active_users": "Aktive Benutzer",
+    "new_users": "Neue Benutzer"
+  },
+  "content": {
+    "title": "Inhaltsverwaltung",
+    "pages": "Seiten",
+    "articles": "Artikel",
+    "media": "Medien",
+    "categories": "Kategorien",
+    "tags": "Schlagwörter"
+  },
+  "system": {
+    "title": "System",
+    "settings": "Einstellungen",
+    "logs": "Protokolle",
+    "backup": "Sicherung",
+    "maintenance": "Wartung",
+    "updates": "Aktualisierungen"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "profile": "Profil",
+    "logout": "Abmelden",
+    "menu": "Menü"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "create": "Erstellen",
+    "update": "Aktualisieren",
+    "view": "Anzeigen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "export": "Exportieren",
+    "import": "Importieren"
+  },
+  "status": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "rejected": "Abgelehnt",
+    "draft": "Entwurf",
+    "published": "Veröffentlicht"
+  },
+  "messages": {
+    "success": "Vorgang erfolgreich abgeschlossen",
+    "error": "Es ist ein Fehler aufgetreten",
+    "warning": "Warnung",
+    "info": "Information",
+    "confirm_delete": "Möchten Sie dieses Element wirklich löschen?",
+    "no_data": "Keine Daten verfügbar",
+    "loading": "Wird geladen..."
+  },
+  "forms": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "invalid_phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+    "password_too_short": "Das Passwort muss mindestens 8 Zeichen lang sein",
+    "passwords_not_match": "Die Passwörter stimmen nicht überein"
+  }
+}

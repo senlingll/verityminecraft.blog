@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Versioni di Verity Minecraft - Note download",
+    "description": "Controlla le versioni di Verity Minecraft per Bedrock, Java e PE con fonti, compatibilità e aggiornamenti sicuri."
+  },
+  "hero": {
+    "eyebrow": "Pagina fonte",
+    "title": "Versioni di Verity Minecraft",
+    "lede": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+    "support": "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+  },
+  "download": {
+    "cta": "Scaricare versioni",
+    "secondary_cta": "Guida",
+    "url": "https://verityminecraft.blog/#downloads",
+    "note": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+  },
+  "facts": {
+    "title": "versioni Guida",
+    "items": [
+      {
+        "label": "Piattaforme",
+        "value": "versioni"
+      },
+      {
+        "label": "Versioni",
+        "value": "Varies"
+      },
+      {
+        "label": "File",
+        "value": "version list"
+      },
+      {
+        "label": "Pagina fonte",
+        "value": "CurseForge / Modrinth / Google Play"
+      },
+      {
+        "label": "Ultimo controllo",
+        "value": "22 luglio 2026"
+      }
+    ]
+  },
+  "summary": {
+    "eyebrow": "Guida",
+    "title": "Versioni di Verity Minecraft",
+    "description": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili.",
+    "cards": [
+      {
+        "title": "versioni di Verity Minecraft 1",
+        "text": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+      },
+      {
+        "title": "versioni di Verity Minecraft 2",
+        "text": "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+      },
+      {
+        "title": "versioni di Verity Minecraft 3",
+        "text": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Installare",
+    "title": "Installare Versioni di Verity Minecraft",
+    "description": "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on.",
+    "items": [
+      {
+        "title": "Guida 1",
+        "text": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Verity Minecraft non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+      },
+      {
+        "title": "Guida 2",
+        "text": "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+      },
+      {
+        "title": "Guida 3",
+        "text": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+      },
+      {
+        "title": "Guida 4",
+        "text": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili."
+      },
+      {
+        "title": "Guida 5",
+        "text": "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on."
+      }
+    ]
+  },
+  "table": {
+    "eyebrow": "Sicurezza",
+    "title": "Versioni di Verity Minecraft checklist",
+    "description": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+    "headers": [
+      "Guida",
+      "Sicurezza",
+      "Pagina fonte"
+    ],
+    "rows": [
+      [
+        "version list",
+        "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili.",
+        "Pagina fonte"
+      ],
+      [
+        "versioni",
+        "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito.",
+        "Installare"
+      ],
+      [
+        "Versioni",
+        "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili.",
+        "Scaricare"
+      ]
+    ]
+  },
+  "body": {
+    "eyebrow": "Sicurezza",
+    "title": "versioni di Verity Minecraft Sicurezza",
+    "paragraphs": [
+      "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+      "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili.",
+      "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito.",
+      "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili.",
+      "Conserva una nota con nome del file, data, edizione e URL della fonte. Se qualcosa non funziona, potrai tornare indietro senza eliminare ogni mod o add-on.",
+      "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+      "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+    ],
+    "notes": [
+      {
+        "title": "Pagina fonte",
+        "text": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+      },
+      {
+        "title": "Versioni",
+        "text": "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+      },
+      {
+        "title": "Sicurezza",
+        "text": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Download",
+    "title": "Download",
+    "description": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili.",
+    "links": [
+      {
+        "title": "Bedrock",
+        "url": "/bedrock/",
+        "text": "Bedrock .mcaddon Guida"
+      },
+      {
+        "title": "Java",
+        "url": "/java/",
+        "text": "Java .jar Guida"
+      },
+      {
+        "title": "Minecraft PE",
+        "url": "/minecraft-pe/",
+        "text": "PE / Mobile Sicurezza"
+      },
+      {
+        "title": "Installare",
+        "url": "/how-to-install/",
+        "text": "Guida"
+      },
+      {
+        "title": "Versioni",
+        "url": "/versions/",
+        "text": "Versioni"
+      }
+    ]
+  },
+  "extra": {
+    "eyebrow": "Guida",
+    "title": "versioni di Verity Minecraft Guida",
+    "paragraphs": [
+      "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova.",
+      "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili.",
+      "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito.",
+      "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili."
+    ],
+    "cards": [
+      {
+        "title": "Guida 1",
+        "text": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché versioni non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+      },
+      {
+        "title": "Guida 2",
+        "text": "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+      },
+      {
+        "title": "Guida 3",
+        "text": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Versioni di Verity Minecraft Domande frequenti",
+    "items": [
+      {
+        "question": "versioni di Verity Minecraft Domande frequenti 1?",
+        "answer": "versioni di Verity Minecraft deve partire dalla scelta dell'edizione corretta, perché Verity Minecraft non si installa allo stesso modo su ogni dispositivo. Controlla fonte, tipo di file, versione Minecraft e ambiente di prova."
+      },
+      {
+        "question": "versioni di Verity Minecraft Domande frequenti 2?",
+        "answer": "Una pagina utile per versioni di Verity Minecraft non mostra soltanto un pulsante. Spiega la fonte mantenuta, la data, l'estensione e perché i mirror sconosciuti sono meno affidabili."
+      },
+      {
+        "question": "versioni di Verity Minecraft Domande frequenti 3?",
+        "answer": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
+      },
+      {
+        "question": "versioni di Verity Minecraft Domande frequenti 4?",
+        "answer": "Se la fonte mostra una versione più recente, la fonte prevale su questa guida. Questa pagina organizza versioni di Verity Minecraft per evitare confusione tra .jar, .mcaddon e link mobili."
+      }
+    ]
+  }
+}

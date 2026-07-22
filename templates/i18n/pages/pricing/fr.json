@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Tarifs - Offres de design de pièces par IA et packs de crédits",
+    "description": "Design de pièces avec IA à prix abordable. Choisissez des abonnements mensuels ou des packs de crédits uniques. Designs haute résolution, sans filigranes, crédits sans expiration.",
+    "keywords": "tarifs design pièce IA, abonnements, packs de crédits, coût design intérieur"
+  },
+  "hero": {
+    "badge": "Offres et tarifs",
+    "title": "Choisissez l’offre idéale",
+    "subtitle": "Des options flexibles pour chaque budget et besoin de design. Démarrez avec un abonnement ou obtenez des crédits instantanément."
+  },
+  "tabs": {
+    "subscriptions": "Abonnements mensuels",
+    "credit_packs": "Packs de crédits"
+  },
+  "subscriptions": {
+    "title": "Abonnements mensuels",
+    "subtitle": "Parfaits pour les projets continus avec allocation mensuelle de crédits",
+    "note": "Tous les abonnements se renouvellent mensuellement et incluent les mêmes excellentes fonctionnalités",
+    "includes_label": "Ce que vous obtenez",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "badge": "Idéal pour débutants",
+        "price": "$9.99",
+        "original_price": "$14.99",
+        "period": "/mois",
+        "description": "Parfait pour les propriétaires qui commencent leur projet de design",
+        "features": [
+          "100 crédits (50 designs de pièces)",
+          "Les crédits n'expirent jamais",
+          "Designs haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Traitement standard"
+        ],
+        "cta_button": "Commencer l’offre Basic",
+        "cta_note": "Parfait pour les propriétaires !",
+        "creem_product_id": "prod_lxs1BHhRhY9xY0kkJL9xh"
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "Le plus populaire",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "period": "/mois",
+        "description": "Idéal pour rénover plusieurs pièces et explorer des styles",
+        "features": [
+          "500 crédits (250 designs de pièces)",
+          "Les crédits n'expirent jamais",
+          "Designs haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Traitement prioritaire",
+          "Accès anticipé aux nouvelles fonctionnalités"
+        ],
+        "cta_button": "Commencer l’offre Pro",
+        "cta_note": "Le choix le plus populaire !",
+        "creem_product_id": "prod_pBlJG3CgPZk2sBmI4pExZ"
+      },
+      "max": {
+        "name": "Max",
+        "badge": "Meilleur rapport qualité-prix",
+        "price": "$79.99",
+        "original_price": "$99.99",
+        "period": "/mois",
+        "description": "Pour les décorateurs d'intérieur et les professionnels de l'immobilier",
+        "features": [
+          "1600 crédits (800 designs de pièces)",
+          "Les crédits n'expirent jamais",
+          "Designs en ultra haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Traitement prioritaire",
+          "Support client prioritaire",
+          "Mises à jour hebdomadaires des nouveaux styles"
+        ],
+        "cta_button": "Commencer l’offre Max",
+        "cta_note": "Le meilleur choix pour les pros !",
+        "creem_product_id": "prod_2NNlnDAWyCyoo3puoroRFX"
+      }
+    }
+  },
+  "credit_packs": {
+    "title": "Packs de crédits à l’achat unique",
+    "subtitle": "Parfaits pour un usage occasionnel sans engagement mensuel",
+    "note": "Les crédits n'expirent jamais et peuvent être utilisés à tout moment. Aucun frais récurrent.",
+    "packs": {
+      "starter": {
+        "name": "Pack Starter",
+        "badge": "Démarrage rapide",
+        "price": "$30",
+        "original_price": "$50",
+        "credits": "400 crédits",
+        "designs": "200 designs de pièces",
+        "description": "Achat unique. Les mêmes fonctionnalités pour tous les packs.",
+        "features": [
+          "Les crédits n'expirent jamais",
+          "Designs haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Activation instantanée"
+        ],
+        "cta_button": "Acheter le Pack Starter",
+        "cta_note": "Paiement unique",
+        "creem_product_id": "prod_2GmzPBRmnLKt97QMD3qn8J"
+      },
+      "popular": {
+        "name": "Pack Populaire",
+        "badge": "Excellent rapport qualité-prix",
+        "price": "$50",
+        "original_price": "$80",
+        "credits": "850 crédits",
+        "designs": "425 designs de pièces",
+        "description": "Achat unique. Les mêmes fonctionnalités pour tous les packs.",
+        "features": [
+          "Les crédits n'expirent jamais",
+          "Designs haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Activation instantanée"
+        ],
+        "cta_button": "Acheter le Pack Populaire",
+        "cta_note": "Meilleur choix valeur !",
+        "creem_product_id": "prod_5Sx2kNJaZJVdEujRMoOEwT"
+      },
+      "professional": {
+        "name": "Pack Professionnel",
+        "badge": "Choix des pros",
+        "price": "$100",
+        "original_price": "$150",
+        "credits": "1800 crédits",
+        "designs": "900 designs de pièces",
+        "description": "Achat unique. Les mêmes fonctionnalités pour tous les packs.",
+        "features": [
+          "Les crédits n'expirent jamais",
+          "Designs haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Activation instantanée"
+        ],
+        "cta_button": "Acheter le Pack Professionnel",
+        "cta_note": "Choix professionnel !",
+        "creem_product_id": "prod_1iWcrD7hXVckQz8zzR4H9i"
+      },
+      "enterprise": {
+        "name": "Pack Enterprise",
+        "badge": "Valeur maximale",
+        "price": "$200",
+        "original_price": "$300",
+        "credits": "4000 crédits",
+        "designs": "2000 designs de pièces",
+        "description": "Achat unique. Les mêmes fonctionnalités pour tous les packs.",
+        "features": [
+          "Les crédits n'expirent jamais",
+          "Designs haute résolution",
+          "Sans filigranes",
+          "Tous les styles de design",
+          "Activation instantanée"
+        ],
+        "cta_button": "Acheter le Pack Enterprise",
+        "cta_note": "Valeur maximale !",
+        "creem_product_id": "prod_llodOSWLYCDMci8jAl6Eq"
+      }
+    }
+  },
+  "faq": {
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Quelle est la différence entre abonnements et packs de crédits ?",
+        "answer": "Les abonnements fournissent des crédits mensuels qui se renouvellent automatiquement, parfaits pour les projets continus. Les packs de crédits sont des achats uniques sans frais récurrents, idéals pour un usage occasionnel."
+      },
+      {
+        "question": "Mes crédits expirent-ils ?",
+        "answer": "Non ! Les crédits des abonnements comme des packs n'expirent jamais. Vous pouvez les utiliser quand vous voulez."
+      },
+      {
+        "question": "Puis-je annuler mon abonnement à tout moment ?",
+        "answer": "Oui, vous pouvez annuler à tout moment. Vos crédits restent disponibles même après l'annulation."
+      },
+      {
+        "question": "Combien de crédits coûte chaque design de pièce ?",
+        "answer": "Chaque génération de design de pièce par IA coûte 2 crédits, quel que soit le style ou la complexité."
+      },
+      {
+        "question": "Quels moyens de paiement acceptez-vous ?",
+        "answer": "Nous acceptons toutes les principales cartes bancaires, PayPal et d'autres moyens de paiement sécurisés via notre prestataire."
+      }
+    ]
+  }
+}

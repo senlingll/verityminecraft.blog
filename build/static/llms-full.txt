@@ -1,0 +1,11 @@
+# Verity Minecraft
+
+Verity Minecraft is an independent English download guide for players looking for Verity Minecraft Java, Bedrock, and PE-style mobile install paths.
+
+The homepage focuses on direct download intent: users choose Bedrock, Java, or PE guidance; review version, file type, source, and platform notes; then use a short source-confirmation countdown before opening an external download or store page.
+
+Core pages include Bedrock .mcaddon guidance, Verity JE Java mod guidance, PE and APK search caution, a unified install tutorial, and a version snapshot page. The site recommends source listings and store pages over random mirrors, encourages users to verify file type and Minecraft version, and suggests testing downloads in backup worlds.
+
+Verity Minecraft is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners.
+
+Contact: support@verityminecraft.blog

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Mes commandes - Compte",
+    "description": "Consultez l’historique de vos commandes et suivez vos achats."
+  },
+  "sidebar": {
+    "title": "Centre utilisateur",
+    "my_orders": "Mes commandes",
+    "my_credits": "Mes crédits",
+    "api_keys": "Clés API"
+  },
+  "header": {
+    "title": "Mes commandes",
+    "subtitle": "Commandes et historique des paiements."
+  },
+  "actions": {
+    "read_docs": "Documentation",
+    "join_discord": "Rejoindre la communauté"
+  },
+  "table": {
+    "order_no": "N° de commande",
+    "email": "E-mail",
+    "product_name": "Produit/Service",
+    "amount": "Montant",
+    "paid_at": "Payé le"
+  },
+  "empty_state": {
+    "message": "Aucune commande trouvée"
+  }
+}

@@ -1,0 +1,97 @@
+<section class="faq-section py-5 faq-bg">
+    <div class="container">
+
+        <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <div class="faq-badge mb-3">
+                    <span class="badge bg-success rounded-pill px-3 py-2">{{ page.faq.badge }}</span>
+                </div>
+                <h2 class="faq-title mb-3 faq-heading-title">{{ page.faq.title }}</h2>
+                <p class="faq-subtitle text-muted mb-0">{{ page.faq.subtitle }}</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="row g-4">
+                    {% set faq_data = page['faq'] if page is defined and page is mapping and 'faq' in page else {} %}
+                    {% set faq_items = faq_data['items'] if faq_data is mapping and 'items' in faq_data else [] %}
+                    {% for pair in faq_items|batch(2, None) %}
+                    <div class="faq-row row g-4">
+                        <!-- Left Column -->
+                        {% set left = pair[0] %}
+                        <div class="col-md-6">
+                            <div class="faq-item p-4 bg-white rounded-3 shadow-sm h-100">
+                                <div class="d-flex align-items-start">
+                                    <div class="faq-number me-3 flex-shrink-0">
+                                        <span class="badge faq-num-badge d-flex align-items-center justify-content-center">{{ loop.index0 * 2 + 1 }}</span>
+                                    </div>
+                                    <div class="faq-content">
+                                        <h5 class="faq-question mb-2">{{ left.question }}</h5>
+                                        <p class="faq-answer text-muted mb-0">{{ left.answer }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Right Column -->
+                        {% if pair[1] %}
+                        {% set right = pair[1] %}
+                        <div class="col-md-6">
+                            <div class="faq-item p-4 bg-white rounded-3 shadow-sm h-100">
+                                <div class="d-flex align-items-start">
+                                    <div class="faq-number me-3 flex-shrink-0">
+                                        <span class="badge faq-num-badge d-flex align-items-center justify-content-center">{{ loop.index0 * 2 + 2 }}</span>
+                                    </div>
+                                    <div class="faq-content">
+                                        <h5 class="faq-question mb-2">{{ right.question }}</h5>
+                                        <p class="faq-answer text-muted mb-0">{{ right.answer }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function alignFaqHeights() {
+        // Only run on screens wider than 768px (md breakpoint) where columns are side-by-side
+        if (window.innerWidth < 768) {
+            const allItems = document.querySelectorAll('.faq-item');
+            allItems.forEach(item => {
+                item.style.height = 'auto'; // Reset height for stacked layout on mobile
+            });
+            return;
+        }
+
+        const faqRows = document.querySelectorAll('.faq-row');
+        faqRows.forEach(row => {
+            const items = row.querySelectorAll('.faq-item');
+            let maxHeight = 0;
+            // Reset heights first to accurately calculate natural height on resize
+            items.forEach(item => {
+                item.style.height = 'auto';
+            });
+            // Find the max height in the current row
+            items.forEach(item => {
+                if (item.offsetHeight > maxHeight) {
+                    maxHeight = item.offsetHeight;
+                }
+            });
+            // Set all items in the row to the max height
+            items.forEach(item => {
+                item.style.height = `${maxHeight}px`;
+            });
+        });
+    }
+
+    // Run on page load
+    document.addEventListener('DOMContentLoaded', alignFaqHeights);
+    // Run on window resize
+    window.addEventListener('resize', alignFaqHeights);
+</script>

@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Preços - Planos de design de ambientes com IA e pacotes de créditos",
+    "description": "Design de ambientes com IA acessível. Escolha assinaturas mensais ou pacotes de créditos únicos. Designs em alta resolução, sem marcas d'água, créditos que nunca expiram.",
+    "keywords": "preços design de ambientes IA, assinaturas, pacotes de créditos, custo design de interiores"
+  },
+  "hero": {
+    "badge": "Planos de preços",
+    "title": "Escolha o plano perfeito",
+    "subtitle": "Opções flexíveis para todo orçamento e necessidade de design. Comece com uma assinatura ou obtenha créditos instantaneamente."
+  },
+  "tabs": {
+    "subscriptions": "Assinaturas mensais",
+    "credit_packs": "Pacotes de créditos"
+  },
+  "subscriptions": {
+    "title": "Assinaturas mensais",
+    "subtitle": "Perfeitas para projetos contínuos com créditos mensais",
+    "note": "Todas as assinaturas renovam mensalmente e incluem os mesmos ótimos recursos",
+    "includes_label": "O que você recebe",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "badge": "Melhor para iniciantes",
+        "price": "$9.99",
+        "original_price": "$14.99",
+        "period": "/mês",
+        "description": "Perfeito para proprietários iniciando sua jornada de design",
+        "features": [
+          "100 créditos (50 designs de ambientes)",
+          "Créditos nunca expiram",
+          "Designs em alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Processamento padrão"
+        ],
+        "cta_button": "Começar plano Basic",
+        "cta_note": "Ótimo para proprietários!",
+        "creem_product_id": "prod_lxs1BHhRhY9xY0kkJL9xh"
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "Mais popular",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "period": "/mês",
+        "description": "Ideal para renovar vários ambientes e explorar designs",
+        "features": [
+          "500 créditos (250 designs de ambientes)",
+          "Créditos nunca expiram",
+          "Designs em alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Processamento prioritário",
+          "Acesso antecipado a novos recursos"
+        ],
+        "cta_button": "Começar plano Pro",
+        "cta_note": "A opção mais popular!",
+        "creem_product_id": "prod_pBlJG3CgPZk2sBmI4pExZ"
+      },
+      "max": {
+        "name": "Max",
+        "badge": "Melhor custo-benefício",
+        "price": "$79.99",
+        "original_price": "$99.99",
+        "period": "/mês",
+        "description": "Para designers de interiores e profissionais do mercado imobiliário",
+        "features": [
+          "1600 créditos (800 designs de ambientes)",
+          "Créditos nunca expiram",
+          "Designs em ultra alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Processamento prioritário",
+          "Suporte ao cliente prioritário",
+          "Atualizações semanais de novos estilos"
+        ],
+        "cta_button": "Começar plano Max",
+        "cta_note": "A melhor escolha para profissionais!",
+        "creem_product_id": "prod_2NNlnDAWyCyoo3puoroRFX"
+      }
+    }
+  },
+  "credit_packs": {
+    "title": "Pacotes de créditos únicos",
+    "subtitle": "Perfeitos para uso ocasional sem compromissos mensais",
+    "note": "Os créditos nunca expiram e podem ser usados a qualquer momento. Sem cobranças recorrentes.",
+    "packs": {
+      "starter": {
+        "name": "Pacote Starter",
+        "badge": "Início rápido",
+        "price": "$30",
+        "original_price": "$50",
+        "credits": "400 créditos",
+        "designs": "200 designs de ambientes",
+        "description": "Compra única. Os mesmos recursos em todos os pacotes.",
+        "features": [
+          "Créditos nunca expiram",
+          "Designs em alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Ativação instantânea"
+        ],
+        "cta_button": "Comprar Pacote Starter",
+        "cta_note": "Pagamento único",
+        "creem_product_id": "prod_2GmzPBRmnLKt97QMD3qn8J"
+      },
+      "popular": {
+        "name": "Pacote Popular",
+        "badge": "Ótimo valor",
+        "price": "$50",
+        "original_price": "$80",
+        "credits": "850 créditos",
+        "designs": "425 designs de ambientes",
+        "description": "Compra única. Os mesmos recursos em todos os pacotes.",
+        "features": [
+          "Créditos nunca expiram",
+          "Designs em alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Ativação instantânea"
+        ],
+        "cta_button": "Comprar Pacote Popular",
+        "cta_note": "Melhor custo-benefício!",
+        "creem_product_id": "prod_5Sx2kNJaZJVdEujRMoOEwT"
+      },
+      "professional": {
+        "name": "Pacote Profissional",
+        "badge": "Escolha Pro",
+        "price": "$100",
+        "original_price": "$150",
+        "credits": "1800 créditos",
+        "designs": "900 designs de ambientes",
+        "description": "Compra única. Os mesmos recursos em todos os pacotes.",
+        "features": [
+          "Créditos nunca expiram",
+          "Designs em alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Ativação instantânea"
+        ],
+        "cta_button": "Comprar Pacote Profissional",
+        "cta_note": "Escolha profissional!",
+        "creem_product_id": "prod_1iWcrD7hXVckQz8zzR4H9i"
+      },
+      "enterprise": {
+        "name": "Pacote Enterprise",
+        "badge": "Valor máximo",
+        "price": "$200",
+        "original_price": "$300",
+        "credits": "4000 créditos",
+        "designs": "2000 designs de ambientes",
+        "description": "Compra única. Os mesmos recursos em todos os pacotes.",
+        "features": [
+          "Créditos nunca expiram",
+          "Designs em alta resolução",
+          "Sem marcas d'água",
+          "Todos os estilos de design",
+          "Ativação instantânea"
+        ],
+        "cta_button": "Comprar Pacote Enterprise",
+        "cta_note": "Valor máximo!",
+        "creem_product_id": "prod_llodOSWLYCDMci8jAl6Eq"
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "question": "Qual é a diferença entre assinaturas e pacotes de créditos?",
+        "answer": "As assinaturas fornecem créditos mensais com renovação automática, perfeitas para projetos contínuos. Os pacotes de créditos são compras únicas sem cobranças recorrentes, ideais para uso ocasional."
+      },
+      {
+        "question": "Meus créditos expiram?",
+        "answer": "Não! Todos os créditos, tanto de assinaturas quanto de pacotes, nunca expiram. Você pode usá-los quando quiser."
+      },
+      {
+        "question": "Posso cancelar minha assinatura a qualquer momento?",
+        "answer": "Sim, você pode cancelar a qualquer momento. Seus créditos continuarão disponíveis mesmo após o cancelamento."
+      },
+      {
+        "question": "Quantos créditos custa cada design de ambiente?",
+        "answer": "Cada geração de design de ambiente por IA custa 2 créditos, independentemente do estilo ou da complexidade."
+      },
+      {
+        "question": "Quais formas de pagamento vocês aceitam?",
+        "answer": "Aceitamos todos os principais cartões de crédito, PayPal e outros métodos de pagamento seguros por meio do nosso processador."
+      }
+    ]
+  }
+}

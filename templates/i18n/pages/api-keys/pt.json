@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Chaves de API - Conta",
+    "description": "Gerencie suas chaves de API para acessar este serviço."
+  },
+  "sidebar": {
+    "title": "Central do Usuário",
+    "my_orders": "Meus pedidos",
+    "my_credits": "Meus créditos",
+    "api_keys": "Chaves de API"
+  },
+  "header": {
+    "title": "Chaves de API",
+    "subtitle": "Mantenha sua chave de API segura para evitar uso indevido"
+  },
+  "actions": {
+    "create_api_key": "Criar chave de API +"
+  },
+  "table": {
+    "name": "Nome",
+    "key": "Chave",
+    "created_at": "Data de criação"
+  },
+  "empty_state": {
+    "message": "Nenhuma chave de API ainda"
+  }
+}

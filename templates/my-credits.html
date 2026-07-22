@@ -1,0 +1,373 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page.meta.title }}{% endblock %}
+{% block description %}{{ page.meta.description }}{% endblock %}
+
+{% block content %}
+<div class="my-credits-page">
+  <div class="container">
+    <div class="row g-0">
+      <!-- Sidebar -->
+      <div class="col-md-4 col-lg-3">
+        <div class="user-sidebar">
+          <div class="sidebar-header">
+            <h5 class="sidebar-title">{{ page.sidebar.title }}</h5>
+          </div>
+          <nav class="nav flex-column">
+            <a class="nav-link d-flex align-items-center" href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}/my-orders">
+              <i class="fas fa-list-alt"></i>
+              {{ page.sidebar.my_orders }}
+            </a>
+            <a class="nav-link active d-flex align-items-center" href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}/my-credits">
+              <i class="fas fa-coins"></i>
+              {{ page.sidebar.my_credits }}
+            </a>
+            <a class="nav-link d-flex align-items-center" href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}/api-keys">
+              <i class="fas fa-key"></i>
+              {{ page.sidebar.api_keys }}
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-8 col-lg-9">
+        <div class="main-content p-4">
+          <!-- Header Section -->
+          <div class="credits-header mb-4">
+            <h1 class="credits-title mb-1">{{ page.header.title }}</h1>
+            <p class="credits-subtitle text-muted mb-4" id="credits-subtitle">{{ page.loading.message }}</p>
+            
+            <!-- Action Buttons -->
+            <div class="action-buttons mb-4">
+              <button class="btn btn-success" onclick="window.creditsPage.goToPricing()">
+                {{ page.actions.recharge }}
+              </button>
+            </div>
+          </div>
+
+          <!-- Credits Table -->
+          <div class="credits-table-container">
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr class="table-header">
+                    <th class="text-muted">{{ page.table.trans_no }}</th>
+                    <th class="text-muted">{{ page.table.trans_type }}</th>
+                    <th class="text-muted">{{ page.table.credits }}</th>
+                    <th class="text-muted">{{ page.table.updated_at }}</th>
+                  </tr>
+                </thead>
+                <tbody id="credits-table-body">
+                  <!-- Loading state -->
+                  <tr id="loading-row">
+                    <td colspan="4" class="text-center py-5">
+                      <div class="loading-state">
+                        <p class="text-muted mb-0">{{ page.loading.message }}</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- Empty state (hidden by default) -->
+                  <tr id="empty-row" style="display: none;">
+                    <td colspan="4" class="text-center py-5">
+                      <div class="empty-state">
+                        <p class="text-muted mb-0">{{ page.empty_state.message }}</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- Error state (hidden by default) -->
+                  <tr id="error-row" style="display: none;">
+                    <td colspan="4" class="text-center py-5">
+                      <div class="error-state">
+                        <p class="text-danger mb-2">{{ page.error.message }}</p>
+                        <button class="btn btn-outline-primary btn-sm" onclick="loadCreditsData()">{{ page.error.retry }}</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- Auth error state (hidden by default) -->
+                  <tr id="auth-error-row" style="display: none;">
+                    <td colspan="4" class="text-center py-5">
+                      <div class="auth-error-state">
+                        <p class="text-warning mb-2" id="auth-error-message">{{ page.error.auth_required }}</p>
+                        <button class="btn btn-primary btn-sm" onclick="window.creditsPage.startLogin()" id="auth-login-button">{{ page.error.login_button }}</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Credits page functionality
+class CreditsPage {
+  constructor() {
+    this.currentLang = '{{ current_lang }}';
+    this.backendApiUrl = window.DOMAIN_CONFIG.API_BASE; // Use unified backend API URL configuration
+    this.i18nData = {{ page | tojson | safe }};
+    this.init();
+  }
+
+  init() {
+    // Check if user is authenticated before loading data
+    if (!this.isAuthenticated()) {
+      this.showAuthError();
+      return;
+    }
+    
+    // Load credits data when page loads
+    this.loadCreditsData();
+  }
+
+  isAuthenticated() {
+    const authToken = localStorage.getItem('auth_token');
+    const tokenExpiration = localStorage.getItem('token_expiration');
+    
+    // Check if token exists
+    if (!authToken) {
+      return false;
+    }
+    
+    // Check if token is expired
+    if (tokenExpiration) {
+      const expirationTime = parseInt(tokenExpiration);
+      if (Date.now() > expirationTime) {
+        // Token is expired, remove it
+        localStorage.removeItem('auth_token');
+        localStorage.removeItem('user_info');
+        localStorage.removeItem('token_expiration');
+        return false;
+      }
+    }
+    
+    return true;
+  }
+
+  async loadCreditsData() {
+    try {
+      // Show loading state
+      this.showLoadingState();
+      
+      // Load balance and transactions in parallel
+      const [balanceResponse, transactionsResponse] = await Promise.all([
+        this.fetchWithAuth(`${this.backendApiUrl}/api/credits/balance`),
+        this.fetchWithAuth(`${this.backendApiUrl}/api/credits/transactions?limit=20&offset=0`)
+      ]);
+      
+      // Check for authentication errors
+      if (balanceResponse.status === 401 || transactionsResponse.status === 401) {
+        // Token is invalid or expired, clear local storage
+        localStorage.removeItem('auth_token');
+        localStorage.removeItem('user_info');
+        localStorage.removeItem('token_expiration');
+        this.showAuthError();
+        return;
+      }
+      
+      const balanceData = await balanceResponse.json();
+      const transactionsData = await transactionsResponse.json();
+      
+      if (balanceData.success) {
+        this.updateCreditBalance(balanceData.data.total_credits);
+      }
+      
+      if (transactionsData.success) {
+        this.updateTransactionsTable(transactionsData.data.transactions);
+      } else {
+        this.showErrorState();
+      }
+      
+    } catch (error) {
+      console.error('Failed to load credits data:', error);
+      this.showErrorState();
+    }
+  }
+
+  async fetchWithAuth(url) {
+    try {
+      // Get auth token from localStorage
+      const authToken = localStorage.getItem('auth_token');
+      
+      const headers = {
+        'Content-Type': 'application/json',
+      };
+      
+      // Add Authorization header if token exists
+      if (authToken) {
+        headers['Authorization'] = `Bearer ${authToken}`;
+      }
+      
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: headers,
+        // CORS configuration for cross-origin requests
+        mode: 'cors',
+        credentials: 'include'
+      });
+      
+      // Don't throw on HTTP errors, let caller handle status codes
+      return response;
+    } catch (error) {
+      console.error('API request failed:', error);
+      throw error;
+    }
+  }
+
+  updateCreditBalance(totalCredits) {
+    const subtitleElement = document.getElementById('credits-subtitle');
+    if (subtitleElement && this.i18nData.header.subtitle) {
+      // Replace {credits} placeholder with actual value
+      const subtitleText = this.i18nData.header.subtitle.replace('{credits}', totalCredits);
+      subtitleElement.textContent = subtitleText;
+    }
+  }
+
+  updateTransactionsTable(transactions) {
+    const tableBody = document.getElementById('credits-table-body');
+    
+    // Hide loading and error states
+    this.hideAllStates();
+    
+    if (!transactions || transactions.length === 0) {
+      this.showEmptyState();
+      return;
+    }
+    
+    // Clear existing content
+    tableBody.innerHTML = '';
+    
+    // Add transaction rows
+    transactions.forEach(transaction => {
+      const row = this.createTransactionRow(transaction);
+      tableBody.appendChild(row);
+    });
+  }
+
+  createTransactionRow(transaction) {
+    const row = document.createElement('tr');
+    
+    // Format date
+    const createdAt = new Date(transaction.created_at);
+    const formattedDate = createdAt.toLocaleString('en-US');
+    
+    // Get transaction type display text
+    const transTypeDisplay = this.getTransactionTypeDisplay(transaction.trans_type);
+    
+    // Format credits (show + for positive, - for negative)
+    const creditsDisplay = transaction.credits > 0 ? `+${transaction.credits}` : transaction.credits.toString();
+    const creditsClass = transaction.credits > 0 ? 'text-success' : 'text-danger';
+    
+    row.innerHTML = `
+      <td class="fw-medium">${transaction.trans_no}</td>
+      <td class="text-muted">${transTypeDisplay}</td>
+      <td class="fw-medium ${creditsClass}">${creditsDisplay}</td>
+      <td class="text-muted">${formattedDate}</td>
+    `;
+    
+    return row;
+  }
+
+  getTransactionTypeDisplay(transType) {
+    // Use i18n data for transaction type display
+    const map = this.i18nData.trans_types || {};
+    if (map[transType]) {
+      return map[transType]; // exact match
+    }
+    
+    // Graceful degradation: beautify the raw transaction type
+    // Strip known prefixes and convert underscores to spaces
+    let cleaned = transType
+      .replace(/^openrouter_/, '') // Remove openrouter_ prefix
+      .replace(/_/g, ' ')          // Convert underscores to spaces
+      .toLowerCase();              // Convert to lowercase first
+    
+    // Capitalize first letter of each word
+    cleaned = cleaned.replace(/\b\w/g, l => l.toUpperCase());
+    
+    return cleaned;
+  }
+
+  showLoadingState() {
+    this.hideAllStates();
+    document.getElementById('loading-row').style.display = '';
+  }
+
+  showEmptyState() {
+    this.hideAllStates();
+    document.getElementById('empty-row').style.display = '';
+  }
+
+  showErrorState() {
+    this.hideAllStates();
+    document.getElementById('error-row').style.display = '';
+  }
+
+  showAuthError() {
+    this.hideAllStates();
+    
+    // Update auth error message with i18n text from template data
+    // The text should already be correctly set by the template,
+    // but we can update it dynamically if needed
+    const authErrorMessage = document.getElementById('auth-error-message');
+    const authLoginButton = document.getElementById('auth-login-button');
+    
+    // Ensure the correct i18n text is displayed
+    if (authErrorMessage && this.i18nData.error && this.i18nData.error.auth_required) {
+      authErrorMessage.textContent = this.i18nData.error.auth_required;
+    }
+    
+    if (authLoginButton && this.i18nData.error && this.i18nData.error.login_button) {
+      authLoginButton.textContent = this.i18nData.error.login_button;
+    }
+    
+    document.getElementById('auth-error-row').style.display = '';
+  }
+
+  hideAllStates() {
+    document.getElementById('loading-row').style.display = 'none';
+    document.getElementById('empty-row').style.display = 'none';
+    document.getElementById('error-row').style.display = 'none';
+    document.getElementById('auth-error-row').style.display = 'none';
+  }
+
+  startLogin() {
+    // Store current page for redirect after login
+    localStorage.setItem('auth_redirect_url', window.location.pathname);
+    
+    // Trigger OAuth login (you can customize this based on your auth system)
+    // For now, redirect to home page where login modal can be triggered
+    window.location.href = '/';
+  }
+
+  goToPricing() {
+    // Navigate to pricing page with multi-language support
+    let pricingUrl = '/pricing';
+    if (this.currentLang && this.currentLang !== 'en') {
+      pricingUrl = `/${this.currentLang}/pricing`;
+    }
+    window.location.href = pricingUrl;
+  }
+}
+
+// Global function for retry button
+function loadCreditsData() {
+  if (window.creditsPage) {
+    window.creditsPage.loadCreditsData();
+  }
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+  window.creditsPage = new CreditsPage();
+});
+</script>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/my-credits.js') }}"></script>
+{% endblock %}

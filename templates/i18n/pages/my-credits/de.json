@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Meine Credits - Konto",
+    "description": "Sehen Sie Ihr Credit‑Guthaben und die Transaktionshistorie."
+  },
+  "sidebar": {
+    "title": "Benutzerbereich",
+    "my_orders": "Meine Bestellungen",
+    "my_credits": "Meine Credits",
+    "api_keys": "API-Schlüssel"
+  },
+  "header": {
+    "title": "Meine Credits",
+    "subtitle": "Verbleibende Credits: {credits}"
+  },
+  "actions": {
+    "recharge": "Weitere Credits kaufen"
+  },
+  "table": {
+    "trans_no": "Transaktions-Nr.",
+    "trans_type": "Transaktionstyp",
+    "credits": "Credits",
+    "updated_at": "Aktualisiert am"
+  },
+  "empty_state": {
+    "message": "Keine Credit-Transaktionen gefunden"
+  },
+  "loading": {
+    "message": "Wird geladen..."
+  },
+  "error": {
+    "message": "Daten konnten nicht geladen werden",
+    "retry": "Erneut versuchen",
+    "auth_required": "Bitte melden Sie sich an, um Credit-Informationen anzuzeigen",
+    "login_button": "Jetzt anmelden"
+  },
+  "trans_types": {
+    "new_user": "Willkommensbonus",
+    "purchase": "Credit-Kauf",
+    "Purchase": "Credit-Kauf",
+    "usage": "Nutzung",
+    "refund": "Rückerstattung",
+    "bonus": "Bonus-Credits",
+    "openrouter_style_transfer": "Nutzung",
+    "openrouter_refund": "Nutzungsrückerstattung",
+    "subscription": "Abonnement",
+    "Subscription": "Abonnement"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "API 키 - 계정",
+    "description": "이 서비스에 접근하기 위한 API 키를 관리하세요."
+  },
+  "sidebar": {
+    "title": "사용자 센터",
+    "my_orders": "내 주문",
+    "my_credits": "내 크레딧",
+    "api_keys": "API 키"
+  },
+  "header": {
+    "title": "API 키",
+    "subtitle": "오용을 방지하려면 API 키를 안전하게 보관하세요"
+  },
+  "actions": {
+    "create_api_key": "API 키 생성 +"
+  },
+  "table": {
+    "name": "이름",
+    "key": "키",
+    "created_at": "생성일"
+  },
+  "empty_state": {
+    "message": "아직 API 키가 없습니다"
+  }
+}

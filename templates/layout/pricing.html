@@ -1,0 +1,118 @@
+
+{% set _title = (pricing.title if pricing and pricing.title else common.pricing.title) %}
+{% set _subtitle = (pricing.subtitle if pricing and pricing.subtitle else common.pricing.subtitle) %}
+<section id="pricing" class="pricing-section py-5 pricing-bg">
+    <div class="container">
+        <!-- Heading -->
+        <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="pricing-title mb-3">{{ _title }}</h2>
+                <p class="pricing-subtitle">{{ _subtitle }}</p>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4 align-items-stretch">
+            <!-- Basic -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                    <div class="mb-2">
+                        <h4 class="mb-3">{{ common.pricing.plans.basic.name }}</h4>
+                        <div class="d-flex align-items-end gap-2">
+                            <span class="text-muted text-decoration-line-through small">{{ common.pricing.plans.basic.original_price }}</span>
+                            <div class="d-flex align-items-end gap-1">
+                                <span class="display-5 fw-bold mb-0">{{ common.pricing.plans.basic.price }}</span>
+                                <span class="text-muted mb-2">{{ common.pricing.currency }}</span>
+                            </div>
+                        </div>
+                        <p class="text-muted mt-2">{{ common.pricing.plans.basic.description }}</p>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <h6 class="fw-bold mt-3">{{ common.pricing.includes_label }}</h6>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            {% for feature in common.pricing.plans.basic.features %}
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="button" class="btn btn-success w-100 rounded-3 fw-semibold buy-plan" data-plan="basic" data-product-id="{{ common.pricing.plans.basic.get('creem_product_id', '') }}">
+                            {{ common.pricing.plans.basic.cta_button }} <span class="ms-1">⚡</span>
+                        </button>
+                        <div class="text-muted small mt-2">{{ common.pricing.plans.basic.cta_note }}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pro -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 border border-2 border-success position-relative d-flex flex-column">
+                    <span class="position-absolute top-0 end-0 translate-middle mt-4 me-4 badge rounded-pill bg-success">{{ common.pricing.plans.pro.badge }}</span>
+                    <div class="mb-2">
+                        <h4 class="mb-3">{{ common.pricing.plans.pro.name }}</h4>
+                        <div class="d-flex align-items-end gap-2">
+                            <span class="text-muted text-decoration-line-through small">{{ common.pricing.plans.pro.original_price }}</span>
+                            <div class="d-flex align-items-end gap-1">
+                                <span class="display-5 fw-bold mb-0">{{ common.pricing.plans.pro.price }}</span>
+                                <span class="text-muted mb-2">{{ common.pricing.currency }}</span>
+                            </div>
+                        </div>
+                        <p class="text-muted mt-2">{{ common.pricing.plans.pro.description }}</p>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <h6 class="fw-bold mt-3">{{ common.pricing.includes_label }}</h6>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            {% for feature in common.pricing.plans.pro.features %}
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="button" class="btn btn-success w-100 rounded-3 fw-semibold buy-plan" data-plan="pro" data-product-id="{{ common.pricing.plans.pro.get('creem_product_id', '') }}">
+                            {{ common.pricing.plans.pro.cta_button }} <span class="ms-1">⚡</span>
+                        </button>
+                        <div class="text-muted small mt-2">{{ common.pricing.plans.pro.cta_note }}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Max -->
+            <div class="col-lg-4 col-md-12">
+                <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 position-relative d-flex flex-column">
+                    <span class="position-absolute top-0 end-0 translate-middle mt-4 me-4 badge rounded-pill bg-primary">{{ common.pricing.plans.max.badge }}</span>
+                    <div class="mb-2">
+                        <h4 class="mb-3">{{ common.pricing.plans.max.name }}</h4>
+                        <div class="d-flex align-items-end gap-2">
+                            <span class="text-muted text-decoration-line-through small">{{ common.pricing.plans.max.original_price }}</span>
+                            <div class="d-flex align-items-end gap-1">
+                                <span class="display-5 fw-bold mb-0">{{ common.pricing.plans.max.price }}</span>
+                                <span class="text-muted mb-2">{{ common.pricing.currency }}</span>
+                            </div>
+                        </div>
+                        <p class="text-muted mt-2">{{ common.pricing.plans.max.description }}</p>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <h6 class="fw-bold mt-3">{{ common.pricing.includes_label }}</h6>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            {% for feature in common.pricing.plans.max.features %}
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="button" class="btn btn-primary w-100 rounded-3 fw-semibold buy-plan" data-plan="max" data-product-id="{{ common.pricing.plans.max.get('creem_product_id', '') }}">
+                            {{ common.pricing.plans.max.cta_button }} <span class="ms-1">⚡</span>
+                        </button>
+                        <div class="text-muted small mt-2">{{ common.pricing.plans.max.cta_note }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+
+{% block body_class %}img2grid-page download-site-page core-download-page{% endblock %}
+
+{% block content %}
+<div class="page-shell verity-shell" id="top">
+  <section class="core-hero section-band" aria-labelledby="core-title">
+    <div>
+      <p class="eyebrow">{{ page.hero.eyebrow }}</p>
+      <h1 id="core-title">{{ page.hero.title }}</h1>
+      <p class="hero-lede">{{ page.hero.lede }}</p>
+      <p class="hero-support">{{ page.hero.support }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ page.download.url }}" data-download-gate data-download-label="{{ page.download.cta }}" rel="nofollow noopener" target="_blank">
+          <span class="upload-icon" aria-hidden="true"></span>{{ page.download.cta }}
+        </a>
+        <a class="btn btn-secondary" href="{% if current_lang != 'en' %}/{{ current_lang }}/how-to-install/{% else %}/how-to-install/{% endif %}"><span class="grid-icon" aria-hidden="true"></span>{{ page.download.secondary_cta }}</a>
+      </div>
+      <p class="source-note" aria-live="polite" data-download-status>{{ page.download.note }}</p>
+    </div>
+    <aside class="core-fact-panel" aria-label="{{ page.facts.title }}">
+      <h2>{{ page.facts.title }}</h2>
+      <dl class="download-facts large">
+        {% for item in page.facts['items'] %}
+        <div><dt>{{ item.label }}</dt><dd>{{ item.value }}</dd></div>
+        {% endfor %}
+      </dl>
+    </aside>
+  </section>
+
+  {% if page.summary %}
+  <section class="section-pad" aria-labelledby="summary-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ page.summary.eyebrow }}</p>
+      <h2 id="summary-title">{{ page.summary.title }}</h2>
+      <p>{{ page.summary.description }}</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      {% for item in page.summary.cards %}
+      <article class="feature-card"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.steps %}
+  <section class="section-pad how-section" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ page.steps.eyebrow }}</p>
+      <h2 id="steps-title">{{ page.steps.title }}</h2>
+      <p>{{ page.steps.description }}</p>
+    </div>
+    <div class="steps">
+      {% for step in page.steps['items'] %}
+      <article class="step-card"><span class="step-number">{{ loop.index }}</span><h3>{{ step.title }}</h3><p>{{ step.text }}</p></article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.table %}
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ page.table.eyebrow }}</p>
+      <h2 id="table-title">{{ page.table.title }}</h2>
+      <p>{{ page.table.description }}</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="{{ page.table.title }}">
+      <div role="row">
+        {% for header in page.table.headers %}<strong>{{ header }}</strong>{% endfor %}
+      </div>
+      {% for row in page.table.rows %}
+      <div role="row">
+        {% for cell in row %}<span>{{ cell }}</span>{% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.body %}
+  <section class="difference section-pad" aria-labelledby="body-title">
+    <div class="difference-panel">
+      <div>
+        <p class="eyebrow">{{ page.body.eyebrow }}</p>
+        <h2 id="body-title">{{ page.body.title }}</h2>
+        {% for paragraph in page.body.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+      </div>
+      <div class="difference-cards">
+        {% for item in page.body.notes %}
+        <article><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.related %}
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ page.related.eyebrow }}</p>
+      <h2 id="related-title">{{ page.related.title }}</h2>
+      <p>{{ page.related.description }}</p>
+    </div>
+    <div class="example-grid">
+      {% for link in page.related.links %}
+      <article class="example-card"><h3>{{ link.title }}</h3><p>{{ link.text }}</p><a class="text-link" href="{% if current_lang != 'en' and link.url.startswith('/') %}/{{ current_lang }}{{ link.url }}{% else %}{{ link.url }}{% endif %}">{{ page.download.secondary_cta }}</a></article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.extra %}
+  <section class="section-pad" aria-labelledby="extra-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ page.extra.eyebrow }}</p>
+      <h2 id="extra-title">{{ page.extra.title }}</h2>
+      {% for paragraph in page.extra.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+    </div>
+    <div class="feature-grid compact-grid">
+      {% for item in page.extra.cards %}
+      <article class="feature-card"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ page.faq.eyebrow }}</p>
+      <h2 id="faq-title">{{ page.faq.title }}</h2>
+    </div>
+    <div class="faq-list">
+      {% for item in page.faq['items'] %}
+      <details {% if loop.first %}open{% endif %}><summary>{{ item.question }}</summary><p>{{ item.answer }}</p></details>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/download-gate.js') }}"></script>
+{% endblock %}

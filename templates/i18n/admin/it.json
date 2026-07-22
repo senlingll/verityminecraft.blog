@@ -1,0 +1,80 @@
+{
+  "dashboard": {
+    "title": "Pannello di controllo",
+    "welcome": "Benvenuto nel pannello di amministrazione",
+    "overview": "Panoramica",
+    "statistics": "Statistiche",
+    "recent_activity": "Attività recente"
+  },
+  "users": {
+    "title": "Utenti",
+    "list": "Elenco utenti",
+    "add": "Aggiungi utente",
+    "edit": "Modifica utente",
+    "delete": "Elimina utente",
+    "search": "Cerca utenti",
+    "total_users": "Totale utenti",
+    "active_users": "Utenti attivi",
+    "new_users": "Nuovi utenti"
+  },
+  "content": {
+    "title": "Gestione contenuti",
+    "pages": "Pagine",
+    "articles": "Articoli",
+    "media": "Media",
+    "categories": "Categorie",
+    "tags": "Tag"
+  },
+  "system": {
+    "title": "Sistema",
+    "settings": "Impostazioni",
+    "logs": "Registri",
+    "backup": "Backup",
+    "maintenance": "Manutenzione",
+    "updates": "Aggiornamenti"
+  },
+  "navigation": {
+    "home": "Home",
+    "profile": "Profilo",
+    "logout": "Esci",
+    "menu": "Menu"
+  },
+  "actions": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "create": "Crea",
+    "update": "Aggiorna",
+    "view": "Visualizza",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "export": "Esporta",
+    "import": "Importa"
+  },
+  "status": {
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "pending": "In attesa",
+    "approved": "Approvato",
+    "rejected": "Rifiutato",
+    "draft": "Bozza",
+    "published": "Pubblicato"
+  },
+  "messages": {
+    "success": "Operazione completata con successo",
+    "error": "Si è verificato un errore",
+    "warning": "Avviso",
+    "info": "Informazioni",
+    "confirm_delete": "Sei sicuro di voler eliminare questo elemento?",
+    "no_data": "Nessun dato disponibile",
+    "loading": "Caricamento..."
+  },
+  "forms": {
+    "required": "Questo campo è obbligatorio",
+    "invalid_email": "Inserisci un indirizzo email valido",
+    "invalid_phone": "Inserisci un numero di telefono valido",
+    "password_too_short": "La password deve contenere almeno 8 caratteri",
+    "passwords_not_match": "Le password non corrispondono"
+  }
+}

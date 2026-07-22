@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Mis Créditos - Cuenta",
+    "description": "Consulta tu saldo de créditos e historial de transacciones."
+  },
+  "sidebar": {
+    "title": "Centro de usuario",
+    "my_orders": "Mis pedidos",
+    "my_credits": "Mis créditos",
+    "api_keys": "Claves API"
+  },
+  "header": {
+    "title": "Mis créditos",
+    "subtitle": "Créditos restantes: {credits}"
+  },
+  "actions": {
+    "recharge": "Comprar más créditos"
+  },
+  "table": {
+    "trans_no": "N.º de transacción",
+    "trans_type": "Tipo de transacción",
+    "credits": "Créditos",
+    "updated_at": "Actualizado el"
+  },
+  "empty_state": {
+    "message": "No se encontraron transacciones de crédito"
+  },
+  "loading": {
+    "message": "Cargando..."
+  },
+  "error": {
+    "message": "No se pudo cargar los datos",
+    "retry": "Reintentar",
+    "auth_required": "Inicia sesión para ver la información de créditos",
+    "login_button": "Iniciar sesión ahora"
+  },
+  "trans_types": {
+    "new_user": "Bono de bienvenida",
+    "purchase": "Compra de créditos",
+    "Purchase": "Compra de créditos",
+    "usage": "Uso",
+    "refund": "Reembolso",
+    "bonus": "Créditos de bonificación",
+    "openrouter_style_transfer": "Uso",
+    "openrouter_refund": "Reembolso de uso",
+    "subscription": "Suscripción",
+    "Subscription": "Suscripción"
+  }
+}

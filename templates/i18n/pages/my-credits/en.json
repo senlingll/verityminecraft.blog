@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "My Credits - Account",
+    "description": "View your credit balance and transaction history."
+  },
+  "sidebar": {
+    "title": "User Center",
+    "my_orders": "My Orders",
+    "my_credits": "My Credits",
+    "api_keys": "API Keys"
+  },
+  "header": {
+    "title": "My Credits",
+    "subtitle": "Credits remaining: {credits}"
+  },
+  "actions": {
+    "recharge": "Buy More Credits"
+  },
+  "table": {
+    "trans_no": "Trans No",
+    "trans_type": "Trans Type",
+    "credits": "Credits",
+    "updated_at": "Updated At"
+  },
+  "empty_state": {
+    "message": "No credit transactions found"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "error": {
+    "message": "Failed to load data",
+    "retry": "Retry",
+    "auth_required": "Please login to view credit information",
+    "login_button": "Login Now"
+  },
+  "trans_types": {
+    "new_user": "Welcome Bonus",
+    "purchase": "Credit Purchase",
+    "Purchase": "Credit Purchase",
+    "usage": "Usage",
+    "refund": "Refund",
+    "bonus": "Bonus Credits",
+    "openrouter_style_transfer": "Usage",
+    "openrouter_refund": "Usage Refund",
+    "subscription": "Subscription",
+    "Subscription": "Subscription"
+  }
+}

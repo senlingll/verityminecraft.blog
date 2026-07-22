@@ -1,0 +1,178 @@
+{% if branding %}
+<section class="branding-section">
+    <div class="container-fluid px-4 pt-2 pb-4">
+        <div class="row align-items-start g-4">
+            <!-- Before/After Comparison Section -->
+            <div class="col-md-6 col-lg-7 col-xl-8 mb-4 mb-lg-0">
+                <div class="comparison-container">
+                    <div class="comparison-wrapper" id="comparisonWrapper">
+                        <!-- Before Image (Left Side) -->
+                        <div class="before-image">
+                            <img src="{{ url_for('static', filename='images/index/hero_sample/before.webp') }}" alt="{{ page.branding.before_alt }}" loading="eager">
+                            <div class="image-label before-label">
+                                <span class="label-text">{{ page.branding.before_label }}</span>
+                            </div>
+                        </div>
+
+        <!-- After Image (Right Side) -->
+        <div class="after-image" id="afterImage">
+            <img id="afterImageSrc" src="{{ url_for('static', filename='images/index/hero_sample/Modern.webp') }}" alt="{{ page.branding.after_alt }}" loading="eager">
+                            <div class="image-label after-label">
+                                <span class="label-text">{{ page.branding.after_label }}</span>
+                            </div>
+                        </div>
+
+                        <!-- Comparison Slider -->
+                        <div class="comparison-slider" id="comparisonSlider">
+                            <div class="slider-line"></div>
+                            <div class="slider-button" id="sliderButton">
+                                <i class="fas fa-arrows-alt-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="col-md-6 col-lg-5 col-xl-4">
+                <div class="upload-section">
+                    <!-- Style and Function Selection -->
+                    <div class="selection-section mb-4">
+                        <!-- Style Selection -->
+                        <div class="style-selection mb-3">
+                            <h5 class="selection-title">{{ page.branding.style_selection.title }}</h5>
+                            <div class="style-grid">
+                                <div class="style-option selected" data-style="modern">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Modern.webp') }}" alt="{{ page.branding.style_selection.styles.modern }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.modern }}</span>
+                                </div>
+                                <div class="style-option" data-style="scandinavian">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Scandinavian.webp') }}" alt="{{ page.branding.style_selection.styles.scandinavian }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.scandinavian }}</span>
+                                </div>
+                                <div class="style-option" data-style="farmhouse">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Farmhouse.webp') }}" alt="{{ page.branding.style_selection.styles.farmhouse }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.farmhouse }}</span>
+                                </div>
+                                <div class="style-option" data-style="minimalist">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Minimalist.webp') }}" alt="{{ page.branding.style_selection.styles.minimalist }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.minimalist }}</span>
+                                </div>
+                                <div class="style-option" data-style="industrial">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Industrial.webp') }}" alt="{{ page.branding.style_selection.styles.industrial }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.industrial }}</span>
+                                </div>
+                                <div class="style-option" data-style="bohemian">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Bohemian.webp') }}" alt="{{ page.branding.style_selection.styles.bohemian }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.bohemian }}</span>
+                                </div>
+                                <div class="style-option" data-style="luxury">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Luxury.webp') }}" alt="{{ page.branding.style_selection.styles.luxury }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.luxury }}</span>
+                                </div>
+                                <div class="style-option" data-style="coastal">
+                                    <div class="style-preview">
+                                        <img src="{{ url_for('static', filename='images/index/hero_sample/Coastal.webp') }}" alt="{{ page.branding.style_selection.styles.coastal }} Style" loading="lazy">
+                                    </div>
+                                    <span class="style-name">{{ page.branding.style_selection.styles.coastal }}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Function Selection -->
+                        <div class="function-selection mb-3">
+                            <h5 class="selection-title">{{ page.branding.function_selection.title }}</h5>
+                            <select class="form-select function-select" id="functionSelect">
+                                <option value="">{{ page.branding.function_selection.placeholder }}</option>
+                                
+                                <!-- Residential Spaces -->
+                                <optgroup label="{{ page.branding.function_selection.categories.residential }}">
+                                    <option value="living-room">{{ page.branding.function_selection.options['living-room'] }}</option>
+                                    <option value="dining-room">{{ page.branding.function_selection.options['dining-room'] }}</option>
+                                    <option value="gaming-room">{{ page.branding.function_selection.options['gaming-room'] }}</option>
+                                    <option value="bedroom">{{ page.branding.function_selection.options.bedroom }}</option>
+                                    <option value="bathroom">{{ page.branding.function_selection.options.bathroom }}</option>
+                                    <option value="office">{{ page.branding.function_selection.options.office }}</option>
+                                    <option value="kitchen">{{ page.branding.function_selection.options.kitchen }}</option>
+                                    <option value="guest-room">{{ page.branding.function_selection.options['guest-room'] }}</option>
+                                    <option value="laundry-room">{{ page.branding.function_selection.options['laundry-room'] }}</option>
+                                    <option value="home-theater">{{ page.branding.function_selection.options['home-theater'] }}</option>
+                                    <option value="playroom">{{ page.branding.function_selection.options.playroom }}</option>
+                                    <option value="music-room">{{ page.branding.function_selection.options['music-room'] }}</option>
+                                    <option value="exercise-room">{{ page.branding.function_selection.options['exercise-room'] }}</option>
+                                    <option value="library">{{ page.branding.function_selection.options.library }}</option>
+                                    <option value="sunroom">{{ page.branding.function_selection.options.sunroom }}</option>
+                                    <option value="mudroom">{{ page.branding.function_selection.options.mudroom }}</option>
+                                    <option value="attic">{{ page.branding.function_selection.options.attic }}</option>
+                                    <option value="basement">{{ page.branding.function_selection.options.basement }}</option>
+                                    <option value="pantry">{{ page.branding.function_selection.options.pantry }}</option>
+                                    <option value="wine-cellar">{{ page.branding.function_selection.options['wine-cellar'] }}</option>
+                                    <option value="garage">{{ page.branding.function_selection.options.garage }}</option>
+                                    <option value="walk-in-closet">{{ page.branding.function_selection.options['walk-in-closet'] }}</option>
+                                    <option value="toilet">{{ page.branding.function_selection.options.toilet }}</option>
+                                </optgroup>
+                                
+                                <!-- Outdoor Spaces -->
+                                <optgroup label="{{ page.branding.function_selection.categories.outdoor }}">
+                                    <option value="outdoor-living-space">{{ page.branding.function_selection.options['outdoor-living-space'] }}</option>
+                                    <option value="outdoor-pool-area">{{ page.branding.function_selection.options['outdoor-pool-area'] }}</option>
+                                    <option value="outdoor-patio">{{ page.branding.function_selection.options['outdoor-patio'] }}</option>
+                                    <option value="outdoor-garden">{{ page.branding.function_selection.options['outdoor-garden'] }}</option>
+                                    <option value="house-exterior">{{ page.branding.function_selection.options['house-exterior'] }}</option>
+                                </optgroup>
+                                
+                                <!-- Commercial/Public Spaces -->
+                                <optgroup label="{{ page.branding.function_selection.categories.commercial }}">
+                                    <option value="meeting-room">{{ page.branding.function_selection.options['meeting-room'] }}</option>
+                                    <option value="workshop">{{ page.branding.function_selection.options.workshop }}</option>
+                                    <option value="fitness-gym">{{ page.branding.function_selection.options['fitness-gym'] }}</option>
+                                    <option value="coffee-shop">{{ page.branding.function_selection.options['coffee-shop'] }}</option>
+                                    <option value="clothing-store">{{ page.branding.function_selection.options['clothing-store'] }}</option>
+                                    <option value="restaurant">{{ page.branding.function_selection.options.restaurant }}</option>
+                                    <option value="coworking-space">{{ page.branding.function_selection.options['coworking-space'] }}</option>
+                                    <option value="hotel-lobby">{{ page.branding.function_selection.options['hotel-lobby'] }}</option>
+                                    <option value="hotel-room">{{ page.branding.function_selection.options['hotel-room'] }}</option>
+                                    <option value="hotel-bathroom">{{ page.branding.function_selection.options['hotel-bathroom'] }}</option>
+                                    <option value="exhibition-space">{{ page.branding.function_selection.options['exhibition-space'] }}</option>
+                                    <option value="onsen">{{ page.branding.function_selection.options.onsen }}</option>
+                                    <option value="drop-zone">{{ page.branding.function_selection.options['drop-zone'] }}</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Upload Area -->
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-content">
+                            <div class="upload-icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <h4 class="upload-title">{{ page.branding.upload_section.title }}</h4>
+                            <button class="btn btn-upload" id="uploadBtn">
+                                <i class="fas fa-upload me-1"></i>
+                                {{ page.branding.upload_section.button }}
+                            </button>
+                            <p class="upload-text">{{ page.branding.upload_section.text }}</p>
+                        </div>
+                        <input type="file" id="fileInput" accept="image/*" class="d-none">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}

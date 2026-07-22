@@ -1,0 +1,128 @@
+{% if feature %}
+<section id="gallery" class="feature-section py-5 {% if feature.bg_light %}bg-light{% endif %}">
+    <div class="container">
+        <!-- Room Design Gallery Layout -->
+        {% if feature.get('gallery_images') %}
+            <!-- Room Design Gallery Layout -->
+            <div class="text-center mb-5">
+                <span class="badge bg-warning text-dark px-3 py-2 mb-3 rounded-pill">{{ feature.badge }}</span>
+                <h2 class="display-4 fw-bold mb-3">
+                    {{ feature.title|safe }}
+                </h2>
+                <p class="lead text-muted">
+                    {{ feature.description }}
+                </p>
+            </div>
+
+            <!-- Before/After Comparison Gallery with Curtain Effect -->
+            <div class="row g-4">
+                {% for image in feature.gallery_images %}
+                <div class="col-lg-4 col-md-6">
+                    <div class="curtain-compare-card rounded-3 shadow-sm overflow-hidden" data-before="{{ image.before }}" data-after="{{ image.after }}">
+                        <div class="curtain-container">
+                            <div class="curtain-image-wrapper">
+                                <img src="{{ image.after }}" alt="{{ image.after_alt }}" class="curtain-before-img" loading="lazy">
+                                <img src="{{ image.before }}" alt="{{ image.before_alt }}" class="curtain-after-img" loading="lazy">
+                            </div>
+                            <div class="curtain-slider">
+                                <div class="curtain-handle">
+                                    <div class="curtain-handle-icon">
+                                        <i class="fas fa-arrows-alt-h"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curtain-labels">
+                                <span class="curtain-label curtain-before-label">{{ feature.labels.before }}</span>
+                                <span class="curtain-label curtain-after-label">{{ feature.labels.after }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        {% else %}
+            <!-- Original feature layouts -->
+            <!-- Title section -->
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="feature-title">{{ feature.title }}</h2>
+                    {% if feature.subtitle or feature.description %}
+                    <p class="feature-subtitle">{{ feature.subtitle or feature.description }}</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Content section - auto-adapt based on data type -->
+            {% if feature.get('items') %}
+                <!-- Card layout (for advantages, feature lists) -->
+                <div class="row">
+                    {% for item in feature.get('items') %}
+                    <div class="col-lg-{% if feature.get('items')|length <= 3 %}4{% else %}6{% endif %} col-md-6 mb-4">
+                        <div class="feature-item {% if feature.card_style %}{{ feature.card_style }}{% else %}d-flex{% endif %}">
+                            {% if item.icon %}
+                            <div class="feature-icon me-3">
+                                <i class="{{ item.icon }} fa-2x text-primary"></i>
+                            </div>
+                            {% endif %}
+                            <div class="feature-content">
+                                <h4 class="feature-item-title">{{ item.title }}</h4>
+                                <p class="feature-item-description">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% elif feature.get('steps') %}
+                <!-- Step layout (for usage guide) -->
+                <div class="row">
+                    {% for step in feature.get('steps') %}
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="usage-step text-center">
+                            <div class="step-number mb-3">
+                                <span class="badge bg-primary rounded-pill p-3">{{ loop.index }}</span>
+                            </div>
+                            <h4 class="step-title">{{ step.title }}</h4>
+                            <p class="step-description">{{ step.description }}</p>
+                            {% if step.image %}
+                            <img src="{{ step.image }}" alt="{{ step.title }}" class="img-fluid mt-3" loading="lazy">
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% elif feature.get('features') %}
+                <!-- Feature list layout (for product introduction) -->
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="feature1-title">{{ feature.title }}</h2>
+                        <p class="feature1-description">{{ feature.description }}</p>
+                        <ul class="feature1-list">
+                            {% for feat in feature.get('features') %}
+                            <li class="feature1-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                {{ feat }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% if feature.image %}
+                    <div class="col-lg-6">
+                        <img src="{{ feature.image }}" alt="{{ feature.title }}" class="img-fluid" loading="lazy">
+                    </div>
+                    {% endif %}
+                </div>
+            {% else %}
+                <!-- Simple text layout -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        {% if feature.content %}
+                        <p class="lead">{{ feature.content }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+</section>
+{% endif %}

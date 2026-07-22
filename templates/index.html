@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+
+{% set home = page.home %}
+
+{% block body_class %}img2grid-page download-site-page{% endblock %}
+
+{% block header %}
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="{{ common.brand.home_aria }}">
+    <img class="brand-mark" src="{{ url_for('static', filename='images/img2grid/verity-logo.webp') }}" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+    <span class="brand-text">{{ common.brand.logo_prefix }} <span>{{ common.brand.logo_highlight }}</span>{{ common.brand.logo_suffix }}</span>
+  </a>
+  <nav class="nav-links" aria-label="{{ common.aria.primary_navigation }}">
+    <a href="#downloads">{{ home.nav.downloads }}</a>
+    <a href="#compare">{{ home.nav.compare }}</a>
+    <a href="#install">{{ home.nav.install }}</a>
+    <a href="#versions">{{ home.nav.versions }}</a>
+    <a href="#faq">{{ home.nav.faq }}</a>
+  </nav>
+  <div class="header-actions">
+    {% if language_urls %}
+    <details class="language-menu">
+      <summary aria-label="{{ common.aria.language_selector }}">{{ common.languages[current_lang] }}</summary>
+      <div class="language-options">
+        {% for lang_code, lang_url in language_urls.items() %}
+        <a href="{{ lang_url }}">{{ common.languages[lang_code] }}</a>
+        {% endfor %}
+      </div>
+    </details>
+    {% endif %}
+    <a class="btn btn-primary btn-small header-cta" href="#downloads">
+      <span class="upload-icon" aria-hidden="true"></span>
+      {{ common.navigation.steam }}
+    </a>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+<div class="page-shell verity-shell" id="top">
+  <section class="verity-hero section-band" aria-labelledby="hero-title">
+    <div class="pixel-sky" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div class="verity-hero-copy">
+      <p class="eyebrow">{{ home.hero.eyebrow }}</p>
+      <h1 id="hero-title"><span class="title-line">{{ home.hero.title }}</span><span>{{ home.hero.highlight }}</span></h1>
+      <p class="hero-lede">{{ home.hero.lede }}</p>
+      <p class="hero-support">{{ home.hero.support }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#downloads"><span class="upload-icon" aria-hidden="true"></span>{{ home.actions.download }}</a>
+        <a class="btn btn-secondary" href="/how-to-install/"><span class="grid-icon" aria-hidden="true"></span>{{ home.actions.install_guide }}</a>
+      </div>
+      <div class="mini-features" aria-label="Verity Minecraft download facts">
+        {% for fact in home.hero.facts %}
+        <div><strong>{{ fact.value }}</strong><small>{{ fact.label }}</small></div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="verity-download-panel" aria-labelledby="downloads-title">
+      <p class="eyebrow">{{ home.downloads.eyebrow }}</p>
+      <h2 id="downloads-title">{{ home.downloads.title }}</h2>
+      <p>{{ home.downloads.description }}</p>
+      <div class="download-stack">
+        {% for card in home.downloads.cards %}
+        <article class="download-card">
+          <div>
+            <span class="version-chip">{{ card.platform }}</span>
+            <h3>{{ card.title }}</h3>
+            <p>{{ card.description }}</p>
+            <dl class="download-facts">
+              <div><dt>Version</dt><dd>{{ card.version }}</dd></div>
+              <div><dt>File</dt><dd>{{ card.file_type }}</dd></div>
+              <div><dt>Source</dt><dd>{{ card.source }}</dd></div>
+            </dl>
+          </div>
+          <div class="download-card-actions">
+            <a class="btn btn-primary" href="{{ card.url }}" data-download-gate data-download-label="{{ card.cta }}" rel="nofollow noopener" target="_blank">{{ card.cta }}</a>
+            <a class="btn btn-secondary" href="{% if current_lang != 'en' and card.page_url.startswith('/') %}/{{ current_lang }}{{ card.page_url }}{% else %}{{ card.page_url }}{% endif %}">{{ home.actions.view_versions }}</a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      <p class="source-note" aria-live="polite" data-download-status>{{ home.downloads.status_note }}</p>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="snapshot-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ home.table.eyebrow }}</p>
+      <h2 id="snapshot-title">{{ home.table.title }}</h2>
+      <p>{{ home.table.description }}</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="{{ home.table.title }}">
+      <div role="row">
+        {% for header in home.table.headers %}<strong>{{ header }}</strong>{% endfor %}
+      </div>
+      {% for row in home.table.rows %}
+      <div role="row">
+        {% for cell in row %}<span>{{ cell }}</span>{% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="compare" class="section-pad feature-section" aria-labelledby="compare-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ home.compare.eyebrow }}</p>
+      <h2 id="compare-title">{{ home.compare.title }}</h2>
+      <p>{{ home.compare.description }}</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      {% for item in home.compare['items'] %}
+      <article class="feature-card"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="install" class="section-pad how-section" aria-labelledby="install-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ home.install.eyebrow }}</p>
+      <h2 id="install-title">{{ home.install.title }}</h2>
+      <p>{{ home.install.description }}</p>
+    </div>
+    <div class="steps">
+      {% for step in home.install.steps %}
+      <article class="step-card"><span class="step-number">{{ loop.index }}</span><h3>{{ step.title }}</h3><p>{{ step.text }}</p></article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="safety" class="difference section-pad" aria-labelledby="safety-title">
+    <div class="difference-panel">
+      <div>
+        <p class="eyebrow">{{ home.safety.eyebrow }}</p>
+        <h2 id="safety-title">{{ home.safety.title }}</h2>
+        {% for paragraph in home.safety.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+      </div>
+      <div class="difference-cards">
+        {% for card in home.downloads.cards %}
+        <article><h3>{{ card.platform }}</h3><p>{{ card.status }} · {{ card.minecraft }} · {{ card.source }}</p></article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="versions" class="section-pad examples" aria-labelledby="versions-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ home.versions.eyebrow }}</p>
+      <h2 id="versions-title">{{ home.versions.title }}</h2>
+      <p>{{ home.versions.description }}</p>
+    </div>
+    <div class="example-grid">
+      {% for link in home.versions.links %}
+      <article class="example-card"><h3>{{ link.title }}</h3><p>{{ link.text }}</p><a class="text-link" href="{% if current_lang != 'en' and link.url.startswith('/') %}/{{ current_lang }}{{ link.url }}{% else %}{{ link.url }}{% endif %}">{{ home.actions.source }}</a></article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ home.faq.eyebrow }}</p>
+      <h2 id="faq-title">{{ home.faq.title }}</h2>
+    </div>
+    <div class="faq-list">
+      {% for item in home.faq['items'] %}
+      <details {% if loop.first %}open{% endif %}><summary>{{ item.question }}</summary><p>{{ item.answer }}</p></details>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/download-gate.js') }}"></script>
+{% endblock %}

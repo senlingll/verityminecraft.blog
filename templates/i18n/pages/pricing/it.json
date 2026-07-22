@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Prezzi - Piani di design della stanza con IA e pacchetti di crediti",
+    "description": "Design della stanza con IA a prezzi accessibili. Scegli abbonamenti mensili o pacchetti di crediti una tantum. Progetti in alta risoluzione, senza filigrana, crediti che non scadono mai.",
+    "keywords": "prezzi design stanza IA, abbonamenti, pacchetti di crediti, costo interior design"
+  },
+  "hero": {
+    "badge": "Piani tariffari",
+    "title": "Scegli il piano perfetto",
+    "subtitle": "Opzioni flessibili per ogni budget ed esigenza di design. Inizia con un abbonamento o ottieni crediti immediati."
+  },
+  "tabs": {
+    "subscriptions": "Abbonamenti mensili",
+    "credit_packs": "Pacchetti di crediti"
+  },
+  "subscriptions": {
+    "title": "Abbonamenti mensili",
+    "subtitle": "Perfetti per progetti continuativi con crediti mensili",
+    "note": "Tutti gli abbonamenti si rinnovano mensilmente e includono le stesse ottime funzionalità",
+    "includes_label": "Cosa è incluso",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "badge": "Ideale per principianti",
+        "price": "$9.99",
+        "original_price": "$14.99",
+        "period": "/mese",
+        "description": "Perfetto per i proprietari di casa che iniziano il loro percorso di design",
+        "features": [
+          "100 crediti (50 progetti di stanze)",
+          "I crediti non scadono mai",
+          "Progetti in alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Elaborazione standard"
+        ],
+        "cta_button": "Inizia il piano Basic",
+        "cta_note": "Ottimo per i proprietari!",
+        "creem_product_id": "prod_lxs1BHhRhY9xY0kkJL9xh"
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "Il più popolare",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "period": "/mese",
+        "description": "Ideale per ristrutturare più stanze ed esplorare diversi design",
+        "features": [
+          "500 crediti (250 progetti di stanze)",
+          "I crediti non scadono mai",
+          "Progetti in alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Elaborazione prioritaria",
+          "Accesso anticipato alle nuove funzionalità"
+        ],
+        "cta_button": "Inizia il piano Pro",
+        "cta_note": "La scelta più popolare!",
+        "creem_product_id": "prod_pBlJG3CgPZk2sBmI4pExZ"
+      },
+      "max": {
+        "name": "Max",
+        "badge": "Miglior rapporto qualità-prezzo",
+        "price": "$79.99",
+        "original_price": "$99.99",
+        "period": "/mese",
+        "description": "Per interior designer e professionisti del settore immobiliare",
+        "features": [
+          "1600 crediti (800 progetti di stanze)",
+          "I crediti non scadono mai",
+          "Progetti in ultra alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Elaborazione prioritaria",
+          "Assistenza clienti prioritaria",
+          "Aggiornamenti settimanali di nuovi stili"
+        ],
+        "cta_button": "Inizia il piano Max",
+        "cta_note": "Il massimo valore per i professionisti!",
+        "creem_product_id": "prod_2NNlnDAWyCyoo3puoroRFX"
+      }
+    }
+  },
+  "credit_packs": {
+    "title": "Pacchetti di crediti una tantum",
+    "subtitle": "Perfetti per un uso occasionale senza impegni mensili",
+    "note": "I crediti non scadono mai e possono essere usati in qualsiasi momento. Nessun addebito ricorrente.",
+    "packs": {
+      "starter": {
+        "name": "Pacchetto Starter",
+        "badge": "Avvio rapido",
+        "price": "$30",
+        "original_price": "$50",
+        "credits": "400 crediti",
+        "designs": "200 progetti di stanze",
+        "description": "Acquisto una tantum. Stesse funzionalità in tutti i pacchetti.",
+        "features": [
+          "I crediti non scadono mai",
+          "Progetti in alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Attivazione istantanea"
+        ],
+        "cta_button": "Acquista Pacchetto Starter",
+        "cta_note": "Pagamento unico",
+        "creem_product_id": "prod_2GmzPBRmnLKt97QMD3qn8J"
+      },
+      "popular": {
+        "name": "Pacchetto Popolare",
+        "badge": "Grande valore",
+        "price": "$50",
+        "original_price": "$80",
+        "credits": "850 crediti",
+        "designs": "425 progetti di stanze",
+        "description": "Acquisto una tantum. Stesse funzionalità in tutti i pacchetti.",
+        "features": [
+          "I crediti non scadono mai",
+          "Progetti in alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Attivazione istantanea"
+        ],
+        "cta_button": "Acquista Pacchetto Popolare",
+        "cta_note": "La scelta con il miglior valore!",
+        "creem_product_id": "prod_5Sx2kNJaZJVdEujRMoOEwT"
+      },
+      "professional": {
+        "name": "Pacchetto Professional",
+        "badge": "Scelta pro",
+        "price": "$100",
+        "original_price": "$150",
+        "credits": "1800 crediti",
+        "designs": "900 progetti di stanze",
+        "description": "Acquisto una tantum. Stesse funzionalità in tutti i pacchetti.",
+        "features": [
+          "I crediti non scadono mai",
+          "Progetti in alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Attivazione istantanea"
+        ],
+        "cta_button": "Acquista Pacchetto Professional",
+        "cta_note": "Scelta professionale!",
+        "creem_product_id": "prod_1iWcrD7hXVckQz8zzR4H9i"
+      },
+      "enterprise": {
+        "name": "Pacchetto Enterprise",
+        "badge": "Valore massimo",
+        "price": "$200",
+        "original_price": "$300",
+        "credits": "4000 crediti",
+        "designs": "2000 progetti di stanze",
+        "description": "Acquisto una tantum. Stesse funzionalità in tutti i pacchetti.",
+        "features": [
+          "I crediti non scadono mai",
+          "Progetti in alta risoluzione",
+          "Senza filigrana",
+          "Tutti gli stili di design",
+          "Attivazione istantanea"
+        ],
+        "cta_button": "Acquista Pacchetto Enterprise",
+        "cta_note": "Valore massimo!",
+        "creem_product_id": "prod_llodOSWLYCDMci8jAl6Eq"
+      }
+    }
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Qual è la differenza tra abbonamenti e pacchetti di crediti?",
+        "answer": "Gli abbonamenti offrono crediti mensili con rinnovo automatico, perfetti per progetti continuativi. I pacchetti di crediti sono acquisti una tantum senza addebiti ricorrenti, ideali per un uso occasionale."
+      },
+      {
+        "question": "I miei crediti scadono?",
+        "answer": "No! Tutti i crediti, sia degli abbonamenti che dei pacchetti, non scadono mai. Puoi usarli quando vuoi."
+      },
+      {
+        "question": "Posso annullare l'abbonamento in qualsiasi momento?",
+        "answer": "Sì, puoi annullarlo in qualsiasi momento. I tuoi crediti resteranno disponibili anche dopo l'annullamento."
+      },
+      {
+        "question": "Quanti crediti costa ogni progetto di stanza?",
+        "answer": "Ogni generazione di progetto di stanza con IA costa 2 crediti, indipendentemente dallo stile o dalla complessità."
+      },
+      {
+        "question": "Quali metodi di pagamento accettate?",
+        "answer": "Accettiamo tutte le principali carte di credito, PayPal e altri metodi di pagamento sicuri tramite il nostro processore."
+      }
+    ]
+  }
+}

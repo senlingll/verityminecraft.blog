@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "How to Install Verity Minecraft - Java, Bedrock & PE",
+    "description": "Learn how to install Verity Minecraft on Bedrock, Java Edition, and PE-style mobile setups with safe source checks and troubleshooting."
+  },
+  "hero": {
+    "eyebrow": "Install tutorial",
+    "title": "How to Install Verity Minecraft",
+    "lede": "This install guide explains the safest Verity Minecraft setup path for Bedrock, Java Edition, and PE-style mobile players. Start by matching your edition, then follow the source-specific steps instead of forcing the wrong file type.",
+    "support": "The main button returns you to the download selector. Choose your platform there, then use the steps on this page while checking the source page for the latest version details."
+  },
+  "download": {
+    "cta": "Choose Download",
+    "secondary_cta": "Read Install Guide",
+    "url": "https://verityminecraft.blog/#downloads",
+    "note": "Internal download selection opens immediately on this site."
+  },
+  "facts": {
+    "title": "Install Guide Facts",
+    "items": [
+      {"label": "Covers", "value": "Java / Bedrock / PE"},
+      {"label": "Main risk", "value": "Wrong edition file"},
+      {"label": "Recommended habit", "value": "Backup test world"},
+      {"label": "External sources", "value": "CurseForge / Modrinth / Store"},
+      {"label": "Last checked", "value": "July 22, 2026"}
+    ]
+  },
+  "summary": {
+    "eyebrow": "Quick answer",
+    "title": "The Correct Install Path Depends on Edition",
+    "description": "Verity Minecraft install problems usually come from mixing Java and Bedrock files. Use this quick map before following detailed steps.",
+    "cards": [
+      {"title": "Bedrock", "text": "Download the .mcaddon-style add-on, import it into Minecraft Bedrock, then activate the required packs in a test world."},
+      {"title": "Java", "text": "Download the Java .jar file, place it into the mods folder for the matching loader profile, then launch the matching Minecraft version."},
+      {"title": "PE / Mobile", "text": "Check whether the Bedrock add-on import path works on your device before using mobile app or APK-style listings."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Full workflow",
+    "title": "Step-by-Step Verity Minecraft Installation",
+    "description": "Follow these steps in order. They are intentionally source-first so you do not rely on outdated copied instructions.",
+    "items": [
+      {"title": "Confirm your Minecraft edition", "text": "Open your launcher or device version and confirm whether you are using Java Edition, Bedrock Edition, or a PE-style mobile setup."},
+      {"title": "Choose the matching Verity page", "text": "Use /bedrock/ for Bedrock, /java/ for Java Edition, or /minecraft-pe/ for PE and APK-related questions."},
+      {"title": "Open the source listing", "text": "Use the download button after the confirmation countdown. Review the file title, update date, Minecraft version, and any installation notes."},
+      {"title": "Install the correct file type", "text": "Use .mcaddon for Bedrock-style add-ons and .jar for Java modded profiles. Do not rename files to force an install."},
+      {"title": "Create a backup or test world", "text": "Use a copy of your world first. This is the easiest way to recover from add-on conflicts, wrong versions, or unexpected behavior."},
+      {"title": "Troubleshoot by removing variables", "text": "If the install fails, test with only Verity enabled, confirm the Minecraft version, then add other packs or mods back one at a time."}
+    ]
+  },
+  "table": {
+    "eyebrow": "Troubleshooting",
+    "title": "Common Verity Minecraft Install Problems",
+    "description": "Use this table when Verity does not show up, Minecraft crashes, or the download does not match your edition.",
+    "headers": ["Problem", "Likely cause", "Fix"],
+    "rows": [
+      ["File will not import", "Wrong file type or unsupported device flow", "Check Bedrock vs Java and keep extension unchanged"],
+      ["Java crash on launch", "Wrong Minecraft version or loader mismatch", "Use a matching profile and source page version"],
+      ["Add-on not visible", "Packs not activated or Minecraft needs restart", "Enable packs in world settings and restart"],
+      ["Mobile APK confusion", "APK page is not the add-on source", "Use PE guide and prefer Bedrock add-on or store listing"]
+    ]
+  },
+  "body": {
+    "eyebrow": "Practical advice",
+    "title": "A Safe Install Is More Than Clicking Download",
+      "paragraphs": [
+        "Download pages often optimize for the click, but Minecraft mod users need a little more context. The correct Verity Minecraft install depends on edition, file type, Minecraft version, and whether the source page has changed since a guide was written.",
+        "The simplest habit is to build a small verification loop: source page, file type, version, backup world, test run. That loop takes a few extra minutes but prevents most frustrating installs.",
+        "Start with the edition because edition determines everything else. Bedrock uses add-on import and pack activation. Java uses a loader profile and mods folder. PE-style mobile installs can overlap with Bedrock behavior, but search results often mix app listings and APK pages into the same result set.",
+        "After edition, check the file extension. A .mcaddon file belongs to the Bedrock-style path, while a .jar file belongs to the Java mod path. Renaming a file does not convert it. If a guide tells you to use a file type that does not match your edition, stop and choose the correct platform page instead.",
+        "Next, check version fit. Java players need the exact Minecraft version and loader environment. Bedrock players should read the add-on update notes and import requirements. PE users should verify whether their mobile Minecraft can open the add-on package or whether they are looking at a separate app listing.",
+        "Finally, keep the install reversible. Use backup worlds, separate Java profiles, and one-change-at-a-time troubleshooting. If something breaks, you want a clear rollback path instead of a pile of unknown files installed at once.",
+        "Use this how to install Verity Minecraft guide as a preflight checklist, not only as a repair page after something fails. The best install session starts by naming the edition, confirming the source, checking the file type, and deciding where you will test. When those four choices are clear, the actual download step becomes much less risky."
+      ],
+    "notes": [
+      {"title": "Source page first", "text": "Always trust the maintained listing over copied text."},
+      {"title": "One change at a time", "text": "Troubleshoot with only Verity enabled before combining mods."},
+      {"title": "Backups matter", "text": "A copied world is the easiest rollback plan."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Related downloads",
+    "title": "Choose Your Verity Minecraft Download",
+    "description": "Go directly to the platform page that matches your install target.",
+    "links": [
+      {"title": "Bedrock Download", "url": "/bedrock/", "text": "Use for .mcaddon add-on installs."},
+      {"title": "Java Download", "url": "/java/", "text": "Use for Verity JE Java mod installs."},
+      {"title": "Minecraft PE Guide", "url": "/minecraft-pe/", "text": "Use for PE, mobile, and APK-related questions."}
+    ]
+  },
+  "extra": {
+    "eyebrow": "Source decision notes",
+    "title": "Install Checks That Prevent Most Verity Problems",
+    "paragraphs": [
+      "Most install failures are predictable. They come from the wrong edition, a mismatched Minecraft version, a missing loader, inactive packs, or a download page that was copied from another platform. Treat each of those as a checkpoint instead of guessing after the install fails.",
+      "The strongest habit is to make the source page part of the install process, not just the place where you click download. Read the file details, compare the version, save the file with its original name, and keep a backup. When something goes wrong, you will have a clean path back to the exact decision that caused the problem.",
+      "If you help another player install Verity, ask for their edition and device before sending a link. A single generic download link can create extra work when the other player is on Bedrock while you assumed Java, or when they searched PE and actually needed a Bedrock add-on import.",
+      "The phrase how to install Verity Minecraft should always lead to edition-specific instructions. Bedrock users need import and pack activation notes, Java users need loader and profile notes, and mobile users need a clear difference between add-ons, store listings, and risky APK mirrors."
+    ],
+    "cards": [
+      {"title": "One edition", "text": "Do not mix Java and Bedrock instructions in the same install attempt."},
+      {"title": "One profile", "text": "Test in one clean profile or world before adding other mods."},
+      {"title": "One rollback", "text": "Keep a backup or previous profile so you can undo the change quickly."}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Verity Minecraft Install FAQ",
+    "items": [
+      {"question": "How do I install Verity Minecraft on Bedrock?", "answer": "Download the Bedrock add-on source, import the .mcaddon file into Minecraft Bedrock, enable the required packs in a test world, and restart Minecraft if the pack does not appear."},
+      {"question": "How do I install Verity JE on Java?", "answer": "Download the Java .jar from the source page, place it in the mods folder for a compatible profile, then launch the matching Minecraft version with the required loader."},
+      {"question": "Why is Verity not showing in Minecraft?", "answer": "The most common causes are wrong edition, wrong file type, unsupported Minecraft version, inactive packs, or loader mismatch. Start by confirming edition and source page compatibility."},
+      {"question": "Should I test Verity in a new world?", "answer": "Yes. Use a backup or test world first so you can confirm behavior without risking a main world."}
+    ]
+  }
+}

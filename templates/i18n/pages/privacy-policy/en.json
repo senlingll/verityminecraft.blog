@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Privacy Policy - Verity Minecraft",
+    "description": "Privacy Policy for Verity Minecraft, an independent download guide for Verity Minecraft players.",
+    "keywords": "Verity Minecraft privacy policy"
+  },
+  "legal": {
+    "eyebrow": "Site policy",
+    "title": "Privacy Policy",
+    "description": "How Verity Minecraft handles usage data, analytics, support messages, and external download links.",
+    "effective_date": "Effective Date: July 22, 2026",
+    "intro": [
+      "Welcome to Verity Minecraft (\"we\", \"us\", \"our\"). This Privacy Policy explains how we handle information when you visit <strong>verityminecraft.blog</strong>. Contact us at <a href=\"mailto:support@verityminecraft.blog\">support@verityminecraft.blog</a>."
+    ],
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "bullets": [
+          "<strong>Usage data:</strong> Pages visited, browser type, device information, referral sources, approximate location, and timestamps.",
+          "<strong>Technical logs:</strong> IP address, error logs, and security events needed to operate the site.",
+          "<strong>Support communications:</strong> Messages you send to our support email."
+        ]
+      },
+      {
+        "heading": "2. External Download Links",
+        "paragraphs": [
+          "Verity Minecraft links to external source pages such as mod platforms or app store listings. Those external websites have their own privacy practices, download handling, cookies, and account systems."
+        ]
+      },
+      {
+        "heading": "3. How We Use Information",
+        "bullets": [
+          "Operate, maintain, and improve the site.",
+          "Understand which download and install topics are useful to visitors.",
+          "Protect the site from abuse, spam, and security issues.",
+          "Respond to corrections, feedback, and support requests."
+        ]
+      },
+      {
+        "heading": "4. Cookies and Analytics",
+        "paragraphs": [
+          "We may use necessary cookies and analytics tools to understand site performance and visitor behavior. You can control cookies through your browser settings."
+        ]
+      },
+      {
+        "heading": "5. Google AdSense and Advertising Cookies",
+        "paragraphs": [
+          "This site may display advertising served by Google AdSense or other Google advertising services. Google and its partners may place and read cookies, use web beacons, or use IP addresses and similar technologies to serve ads, measure ad performance, limit repeated ads, and help show ads that are more relevant to visitors.",
+          "Google's use of advertising cookies enables it and its partners to serve ads based on visits to this site and other websites. Visitors can manage or opt out of personalized advertising through Google's ad settings and browser cookie controls."
+        ]
+      },
+      {
+        "heading": "6. Sharing and Disclosure",
+        "paragraphs": [
+          "We do not sell personal information. We may share limited information with hosting, analytics, security, or legal service providers only when needed to operate the website or comply with law."
+        ]
+      },
+      {
+        "heading": "7. Contact",
+        "paragraphs": [
+          "Email: <a href=\"mailto:support@verityminecraft.blog\">support@verityminecraft.blog</a>",
+          "Website: <a href=\"https://verityminecraft.blog\" target=\"_blank\" rel=\"noopener\">verityminecraft.blog</a>"
+        ]
+      }
+    ]
+  }
+}

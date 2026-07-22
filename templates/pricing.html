@@ -1,0 +1,379 @@
+{% extends 'base.html' %}
+
+{% block extra_css %}{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="pricing-page-hero">
+    <div class="container">
+        <div class="text-center">
+            <div class="mx-auto" style="max-width: 700px;">
+                <span class="badge mb-3 rounded-pill">{{ page.hero.badge }}</span>
+                <h1 class="fw-bold mb-3">{{ page.hero.title }}</h1>
+                <p class="lead mb-0">{{ page.hero.subtitle }}</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Tabs -->
+<section class="py-0">
+    <div class="container-fluid px-0">
+        <!-- Tab Navigation -->
+        <div class="pricing-tabs">
+            <ul class="nav nav-tabs segmented" id="pricingTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="subscriptions-tab" data-bs-toggle="tab" data-bs-target="#subscriptions" type="button" role="tab">
+                        <i class="fas fa-calendar-alt me-2"></i>{{ page.tabs.subscriptions }}
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="credit-packs-tab" data-bs-toggle="tab" data-bs-target="#credit-packs" type="button" role="tab">
+                        <i class="fas fa-coins me-2"></i>{{ page.tabs.credit_packs }}
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="pricingTabsContent">
+            <!-- Subscriptions Tab -->
+            <div class="tab-pane fade show active" id="subscriptions" role="tabpanel">
+                <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="mb-3">{{ page.subscriptions.title }}</h2>
+                    <p class="text-muted mb-1">{{ page.subscriptions.subtitle }}</p>
+                    <small class="text-success">{{ page.subscriptions.note }}</small>
+                </div>
+
+                <div class="row g-4 align-items-stretch justify-content-center">
+                    <!-- Basic Plan -->
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.subscriptions.plans.basic.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h4 class="fw-bold mb-3">{{ page.subscriptions.plans.basic.name }}</h4>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price">{{ page.subscriptions.plans.basic.original_price }}</span>
+                                    <div class="d-flex align-items-baseline gap-1">
+                                        <span class="price-display">{{ page.subscriptions.plans.basic.price }}</span>
+                                        <span class="text-muted">{{ page.subscriptions.plans.basic.period }}</span>
+                                    </div>
+                                </div>
+                                <p class="text-muted">{{ page.subscriptions.plans.basic.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-3">{{ page.subscriptions.includes_label }}</h6>
+                                <ul class="list-unstyled">
+                                    {% for feature in page.subscriptions.plans.basic.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button w-100 buy-plan" data-plan="basic" data-product-id="{{ page.subscriptions.plans.basic.creem_product_id }}">
+                                    {{ page.subscriptions.plans.basic.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.subscriptions.plans.basic.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pro Plan -->
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="pricing-card featured h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.subscriptions.plans.pro.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h4 class="fw-bold mb-3">{{ page.subscriptions.plans.pro.name }}</h4>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price">{{ page.subscriptions.plans.pro.original_price }}</span>
+                                    <div class="d-flex align-items-baseline gap-1">
+                                        <span class="price-display">{{ page.subscriptions.plans.pro.price }}</span>
+                                        <span class="text-muted">{{ page.subscriptions.plans.pro.period }}</span>
+                                    </div>
+                                </div>
+                                <p class="text-muted">{{ page.subscriptions.plans.pro.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-3">{{ page.subscriptions.includes_label }}</h6>
+                                <ul class="list-unstyled">
+                                    {% for feature in page.subscriptions.plans.pro.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button w-100 buy-plan" data-plan="pro" data-product-id="{{ page.subscriptions.plans.pro.creem_product_id }}">
+                                    {{ page.subscriptions.plans.pro.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.subscriptions.plans.pro.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Max Plan -->
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.subscriptions.plans.max.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h4 class="fw-bold mb-3">{{ page.subscriptions.plans.max.name }}</h4>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price">{{ page.subscriptions.plans.max.original_price }}</span>
+                                    <div class="d-flex align-items-baseline gap-1">
+                                        <span class="price-display">{{ page.subscriptions.plans.max.price }}</span>
+                                        <span class="text-muted">{{ page.subscriptions.plans.max.period }}</span>
+                                    </div>
+                                </div>
+                                <p class="text-muted">{{ page.subscriptions.plans.max.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-3">{{ page.subscriptions.includes_label }}</h6>
+                                <ul class="list-unstyled">
+                                    {% for feature in page.subscriptions.plans.max.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button secondary w-100 buy-plan" data-plan="max" data-product-id="{{ page.subscriptions.plans.max.creem_product_id }}">
+                                    {{ page.subscriptions.plans.max.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.subscriptions.plans.max.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Credit Packs Tab -->
+            <div class="tab-pane fade" id="credit-packs" role="tabpanel">
+                <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="mb-3">{{ page.credit_packs.title }}</h2>
+                    <p class="text-muted mb-1">{{ page.credit_packs.subtitle }}</p>
+                    <small class="text-success">{{ page.credit_packs.note }}</small>
+                </div>
+
+                <div class="row g-4 align-items-stretch justify-content-center">
+                    <!-- Starter Pack -->
+                    <div class="col-lg-3 col-md-6 col-sm-10">
+                        <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.credit_packs.packs.starter.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h5 class="fw-bold mb-2">{{ page.credit_packs.packs.starter.name }}</h5>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price small">{{ page.credit_packs.packs.starter.original_price }}</span>
+                                    <span class="price-display h3">{{ page.credit_packs.packs.starter.price }}</span>
+                                </div>
+                                <div class="text-success fw-semibold mb-2">{{ page.credit_packs.packs.starter.credits }}</div>
+                                <p class="text-muted small">{{ page.credit_packs.packs.starter.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <ul class="list-unstyled small">
+                                    {% for feature in page.credit_packs.packs.starter.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button w-100 buy-plan" data-plan="starter_pack" data-product-id="{{ page.credit_packs.packs.starter.creem_product_id }}">
+                                    {{ page.credit_packs.packs.starter.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.credit_packs.packs.starter.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Pack -->
+                    <div class="col-lg-3 col-md-6 col-sm-10">
+                        <div class="pricing-card featured h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.credit_packs.packs.popular.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h5 class="fw-bold mb-2">{{ page.credit_packs.packs.popular.name }}</h5>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price small">{{ page.credit_packs.packs.popular.original_price }}</span>
+                                    <span class="price-display h3">{{ page.credit_packs.packs.popular.price }}</span>
+                                </div>
+                                <div class="text-success fw-semibold mb-2">{{ page.credit_packs.packs.popular.credits }}</div>
+                                <p class="text-muted small">{{ page.credit_packs.packs.popular.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <ul class="list-unstyled small">
+                                    {% for feature in page.credit_packs.packs.popular.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button w-100 buy-plan" data-plan="popular_pack" data-product-id="{{ page.credit_packs.packs.popular.creem_product_id }}">
+                                    {{ page.credit_packs.packs.popular.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.credit_packs.packs.popular.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Pack -->
+                    <div class="col-lg-3 col-md-6 col-sm-10">
+                        <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.credit_packs.packs.professional.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h5 class="fw-bold mb-2">{{ page.credit_packs.packs.professional.name }}</h5>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price small">{{ page.credit_packs.packs.professional.original_price }}</span>
+                                    <span class="price-display h3">{{ page.credit_packs.packs.professional.price }}</span>
+                                </div>
+                                <div class="text-success fw-semibold mb-2">{{ page.credit_packs.packs.professional.credits }}</div>
+                                <p class="text-muted small">{{ page.credit_packs.packs.professional.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <ul class="list-unstyled small">
+                                    {% for feature in page.credit_packs.packs.professional.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button secondary w-100 buy-plan" data-plan="professional_pack" data-product-id="{{ page.credit_packs.packs.professional.creem_product_id }}">
+                                    {{ page.credit_packs.packs.professional.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.credit_packs.packs.professional.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Pack -->
+                    <div class="col-lg-3 col-md-6 col-sm-10">
+                        <div class="pricing-card h-100 bg-white rounded-4 shadow-sm p-4 d-flex flex-column">
+                            <div class="badge-custom">{{ page.credit_packs.packs.enterprise.badge }}</div>
+                            
+                            <div class="mb-3">
+                                <h5 class="fw-bold mb-2">{{ page.credit_packs.packs.enterprise.name }}</h5>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="original-price small">{{ page.credit_packs.packs.enterprise.original_price }}</span>
+                                    <span class="price-display h3">{{ page.credit_packs.packs.enterprise.price }}</span>
+                                </div>
+                                <div class="text-success fw-semibold mb-2">{{ page.credit_packs.packs.enterprise.credits }}</div>
+                                <p class="text-muted small">{{ page.credit_packs.packs.enterprise.description }}</p>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <ul class="list-unstyled small">
+                                    {% for feature in page.credit_packs.packs.enterprise.features %}
+                                    <li class="mb-2">
+                                        <i class="fas fa-check feature-icon"></i>{{ feature }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="pt-3">
+                                <button type="button" class="btn cta-button secondary w-100 buy-plan" data-plan="enterprise_pack" data-product-id="{{ page.credit_packs.packs.enterprise.creem_product_id }}">
+                                    {{ page.credit_packs.packs.enterprise.cta_button }}
+                                </button>
+                                <div class="text-muted small mt-2 text-center">{{ page.credit_packs.packs.enterprise.cta_note }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">{{ page.faq.title }}</h2>
+                </div>
+                
+                {% for faq in page.faq['items'] %}
+                <div class="faq-item">
+                    <div class="faq-question">{{ faq.question }}</div>
+                    <div class="faq-answer">{{ faq.answer }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sign In Modal -->
+{% include 'layout/sign-in-modal.html' with context %}
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize tab switching
+    var triggerTabList = [].slice.call(document.querySelectorAll('#pricingTabs button'));
+    triggerTabList.forEach(function (triggerEl) {
+        var tabTrigger = new bootstrap.Tab(triggerEl);
+        
+        triggerEl.addEventListener('click', function (event) {
+            event.preventDefault();
+            tabTrigger.show();
+        });
+    });
+    
+    // Handle buy buttons
+    document.querySelectorAll('.buy-plan').forEach(function(button) {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const plan = this.getAttribute('data-plan');
+            const productId = this.getAttribute('data-product-id');
+            
+            // Check if user is authenticated
+            const token = localStorage.getItem('auth_token');
+            if (!token) {
+                // Show sign-in modal
+                const modal = new bootstrap.Modal(document.getElementById('signInModal'));
+                modal.show();
+                return;
+            }
+            
+            // Handle purchase logic here
+            console.log('Purchasing plan:', plan, 'Product ID:', productId);
+            // You would integrate with your payment system here
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "I miei crediti - Account",
+    "description": "Visualizza il saldo dei crediti e lo storico delle transazioni."
+  },
+  "sidebar": {
+    "title": "Centro utenti",
+    "my_orders": "I miei ordini",
+    "my_credits": "I miei crediti",
+    "api_keys": "Chiavi API"
+  },
+  "header": {
+    "title": "I miei crediti",
+    "subtitle": "Crediti rimanenti: {credits}"
+  },
+  "actions": {
+    "recharge": "Acquista altri crediti"
+  },
+  "table": {
+    "trans_no": "N. transazione",
+    "trans_type": "Tipo di transazione",
+    "credits": "Crediti",
+    "updated_at": "Aggiornato il"
+  },
+  "empty_state": {
+    "message": "Nessuna transazione di crediti trovata"
+  },
+  "loading": {
+    "message": "Caricamento..."
+  },
+  "error": {
+    "message": "Impossibile caricare i dati",
+    "retry": "Riprova",
+    "auth_required": "Accedi per visualizzare le informazioni sui crediti",
+    "login_button": "Accedi ora"
+  },
+  "trans_types": {
+    "new_user": "Bonus di benvenuto",
+    "purchase": "Acquisto crediti",
+    "Purchase": "Acquisto crediti",
+    "usage": "Utilizzo",
+    "refund": "Rimborso",
+    "bonus": "Crediti bonus",
+    "openrouter_style_transfer": "Utilizzo",
+    "openrouter_refund": "Rimborso utilizzo",
+    "subscription": "Abbonamento",
+    "Subscription": "Abbonamento"
+  }
+}

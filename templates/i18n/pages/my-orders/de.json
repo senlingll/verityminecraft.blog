@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Meine Bestellungen – Konto",
+    "description": "Sehen Sie Ihre Bestellhistorie ein und verfolgen Sie Ihre Einkäufe."
+  },
+  "sidebar": {
+    "title": "Benutzerbereich",
+    "my_orders": "Meine Bestellungen",
+    "my_credits": "Meine Guthaben",
+    "api_keys": "API-Schlüssel"
+  },
+  "header": {
+    "title": "Meine Bestellungen",
+    "subtitle": "Bestellungen und Zahlungsverlauf."
+  },
+  "actions": {
+    "read_docs": "Dokumentation",
+    "join_discord": "Community beitreten"
+  },
+  "table": {
+    "order_no": "Bestell-Nr.",
+    "email": "E-Mail",
+    "product_name": "Produkt/Dienstleistung",
+    "amount": "Betrag",
+    "paid_at": "Bezahlt am"
+  },
+  "empty_state": {
+    "message": "Keine Bestellungen gefunden"
+  }
+}

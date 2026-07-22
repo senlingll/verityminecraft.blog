@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page.meta.title }}{% endblock %}
+{% block description %}{{ page.meta.description }}{% endblock %}
+
+{% block extra_css %}{% endblock %}
+
+{% block content %}
+<!-- Auth loading indicator -->
+<div id="auth-loading" class="auth-loading">
+  <div class="text-center">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <p class="mt-2 text-muted">{{ common.auth.verifying }}</p>
+  </div>
+</div>
+
+<div class="my-orders-page protected-content">
+  <div class="container">
+    <div class="row g-0">
+      <!-- Sidebar -->
+      <div class="col-md-4 col-lg-3">
+        <div class="user-sidebar">
+          <div class="sidebar-header">
+            <h5 class="sidebar-title">{{ page.sidebar.title }}</h5>
+          </div>
+          <nav class="nav flex-column">
+            <a class="nav-link active d-flex align-items-center" href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}/my-orders">
+              <i class="fas fa-list-alt"></i>
+              {{ page.sidebar.my_orders }}
+            </a>
+            <a class="nav-link d-flex align-items-center" href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}/my-credits">
+              <i class="fas fa-coins"></i>
+              {{ page.sidebar.my_credits }}
+            </a>
+            <a class="nav-link d-flex align-items-center" href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}/api-keys">
+              <i class="fas fa-key"></i>
+              {{ page.sidebar.api_keys }}
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-8 col-lg-9">
+        <div class="main-content p-4">
+          <!-- Header Section -->
+          <div class="orders-header mb-4">
+            <h1 class="orders-title mb-4">{{ page.header.title }}</h1>
+          </div>
+
+          <!-- Orders Summary (will be populated by JavaScript) -->
+          <div id="orders-summary" class="mb-4"></div>
+
+          <!-- Orders List (will be replaced by JavaScript) -->
+          <div id="orders-list">
+            <div class="orders-table-container">
+              <div class="table-responsive">
+                <table class="table table-borderless">
+                  <thead>
+                    <tr class="table-header">
+                      <th class="text-muted">{{ page.table.order_no }}</th>
+                      <th class="text-muted">{{ page.table.email }}</th>
+                      <th class="text-muted">{{ page.table.product_name }}</th>
+                      <th class="text-muted">{{ page.table.amount }}</th>
+                      <th class="text-muted">{{ page.table.paid_at }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Empty State -->
+                    <tr>
+                      <td colspan="5" class="text-center py-5">
+                        <div class="empty-state">
+                          <p class="text-muted mb-0">{{ page.empty_state.message }}</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Protected page authentication check
+document.addEventListener('DOMContentLoaded', function() {
+  const protectedContent = document.querySelector('.protected-content');
+  const authLoading = document.getElementById('auth-loading');
+  
+  // Check authentication status
+  const token = localStorage.getItem('auth_token');
+  const expirationTime = localStorage.getItem('token_expiration');
+  
+  // Hide loading and show content if authenticated
+  if (token && (!expirationTime || Date.now() < parseInt(expirationTime))) {
+    if (authLoading) authLoading.style.display = 'none';
+    if (protectedContent) protectedContent.classList.add('authenticated');
+  } else {
+    // Will be handled by base template's protection script
+    console.log('Authentication check failed for protected page');
+  }
+});
+</script>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/my-orders.js') }}"></script>
+{% endblock %}

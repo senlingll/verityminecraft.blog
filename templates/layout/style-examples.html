@@ -1,0 +1,66 @@
+<section id="examples" class="ghibli-examples-section py-5 ghibli-examples-bg">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-11">
+        <!-- Section Header with Controls -->
+        <div class="d-flex align-items-center justify-content-between mb-4 mb-md-5">
+          <h2 class="mb-0 ghibli-examples-title">{{ page.style_examples.title }}</h2>
+          <div class="d-none d-md-flex align-items-center gap-2">
+            <button id="ghibliPrev" class="btn btn-light shadow-sm rounded-10" type="button" aria-label="Previous">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button id="ghibliNext" class="btn btn-light shadow-sm rounded-10" type="button" aria-label="Next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Horizontal Card Scroller -->
+        <div id="ghibliScroller" class="d-flex gap-4 overflow-auto pb-2 smooth-scroll">
+          {% if ghibli_examples and ghibli_examples.items %}
+            {% for item in ghibli_examples.items %}
+            <article class="card ghibli-card flex-shrink-0">
+              <div class="ghibli-image-container rounded-top-14">
+                <img src="{{ item.image }}" alt="{{ item.title }}" class="w-100 ghibli-example-img img-filter-soft" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mb-1" style="color:#2c3e50; font-weight:600;">{{ item.title }}</h5>
+                <p class="card-text text-muted mb-0" style="font-size:0.95rem;">{{ item.subtitle }}</p>
+              </div>
+            </article>
+            {% endfor %}
+          {% else %}
+            <!-- Default demo items when no data provided -->
+            {% for item in page.style_examples.default_items %}
+            <article class="card ghibli-card flex-shrink-0 restoration-example-card">
+              <div class="ghibli-image-container rounded-top-14 position-relative">
+                {% if item.before and item.after %}
+                <!-- After image (default display) -->
+                <img src="{{ item.after }}" alt="{{ item.title }} - AI Designed" class="w-100 ghibli-example-img restoration-after" loading="lazy">
+                <!-- Before image (hover display) -->
+                <img src="{{ item.before }}" alt="{{ item.title }} - Original Room" class="w-100 ghibli-example-img restoration-before position-absolute top-0 start-0" loading="lazy" style="opacity: 0; transition: opacity 0.3s ease;">
+                <!-- Hover indicator -->
+                <div class="restoration-indicator position-absolute top-0 end-0 m-2">
+                  <span class="badge bg-success restoration-label">After</span>
+                </div>
+                {% else %}
+                <!-- Fallback for old format -->
+                <img src="{{ item.image }}" alt="{{ item.title }}" class="w-100 ghibli-example-img" loading="lazy">
+                {% endif %}
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mb-1" style="color:#2c3e50; font-weight:600;">{{ item.title }}</h5>
+                <p class="card-text text-muted mb-0" style="font-size:0.95rem;">{{ item.subtitle }}</p>
+              </div>
+            </article>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+

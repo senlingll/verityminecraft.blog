@@ -1,0 +1,52 @@
+<!-- Sign In Modal -->
+<div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ common.auth.modal.close }}"></button>
+      </div>
+      <div class="modal-body px-4 pb-4">
+        <div class="text-center mb-4">
+          <div class="mb-3">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="{{ common.brand.icon_alt }}" width="48" height="48" class="mb-2">
+          </div>
+          <h4 class="fw-bold mb-2">{{ common.auth.modal.title }}</h4>
+          <p class="text-muted">{{ common.auth.modal.subtitle }}</p>
+        </div>
+        
+        <div class="d-grid gap-3">
+          <!-- Google Sign In -->
+          <button type="button" class="btn btn-outline-dark btn-lg rounded-3 google-signin-btn" id="googleSignInBtn">
+            <i class="fab fa-google me-2"></i>
+            {{ common.auth.modal.google_signin }}
+          </button>
+          
+          <!-- GitHub Sign In -->
+          <button type="button" class="btn btn-dark btn-lg rounded-3 github-signin-btn" id="githubSignInBtn">
+            <i class="fab fa-github me-2"></i>
+            {{ common.auth.modal.github_signin }}
+          </button>
+        </div>
+        
+        <div class="text-center mt-4">
+          <small class="text-muted">{{ common.auth.try_for_free }} ✨</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Authentication Processing Modal -->
+<div class="modal fade" id="authProcessingModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
+    <div class="modal-content border-0 shadow-lg">
+      <div class="modal-body text-center py-5">
+        <div class="spinner-border text-primary mb-3" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <h6 class="mb-2">{{ common.auth.processing }}</h6>
+        <p class="text-muted small mb-0">{{ common.auth.please_wait }}</p>
+      </div>
+    </div>
+  </div>
+</div>

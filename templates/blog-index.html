@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Blog Header -->
+<div class="bg-primary text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold mb-3">{{ page.page.title }}</h1>
+                <p class="lead">{{ page.page.subtitle }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Blog Content -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Featured Article -->
+            <div class="card mb-5 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="badge bg-primary me-2">{{ page.page.featured_badge }}</span>
+                        <small class="text-muted">{{ page.page.featured_article.date }}</small>
+                    </div>
+                    <h2 class="card-title h3 mb-3">
+                        <a href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}{{ page.page.featured_article.url }}" class="text-decoration-none">
+                            {{ page.page.featured_article.title }}
+                        </a>
+                    </h2>
+                    <p class="card-text text-muted mb-3">
+                        {{ page.page.featured_article.description }}
+                    </p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}{{ page.page.featured_article.url }}" class="btn btn-outline-primary">
+                            {{ page.page.featured_article.read_more }} <i class="fas fa-arrow-right ms-1"></i>
+                        </a>
+                        <small class="text-muted">{{ page.page.featured_article.reading_time }}</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coming Soon Articles -->
+            <div class="text-center py-5">
+                <i class="fas fa-newspaper fa-3x text-muted mb-3"></i>
+                <h3 class="text-muted">{{ page.page.coming_soon.title }}</h3>
+                <p class="text-muted">{{ page.page.coming_soon.description }}</p>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-light">
+                    <h5 class="card-title mb-0"><i class="fas fa-tags me-2"></i>{{ page.page.sidebar.popular_topics.title }}</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex flex-wrap gap-2">
+                        {% for tag in page.page.sidebar.popular_topics.tags %}
+                        <span class="badge bg-secondary">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-light">
+                    <h5 class="card-title mb-0"><i class="fas fa-magic me-2"></i>{{ page.page.sidebar.try_restoration.title }}</h5>
+                </div>
+                <div class="card-body text-center">
+                    <p class="card-text">{{ page.page.sidebar.try_restoration.description }}</p>
+                    <a href="{% if current_lang != 'en' %}/{{ current_lang }}{% endif %}{{ page.page.sidebar.try_restoration.button_url }}" class="btn btn-primary">
+                        {{ page.page.sidebar.try_restoration.button_text }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

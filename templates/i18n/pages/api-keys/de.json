@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "API-Schlüssel - Konto",
+    "description": "Verwalten Sie Ihre API-Schlüssel für den Zugriff auf diesen Dienst."
+  },
+  "sidebar": {
+    "title": "Benutzerzentrum",
+    "my_orders": "Meine Bestellungen",
+    "my_credits": "Mein Guthaben",
+    "api_keys": "API-Schlüssel"
+  },
+  "header": {
+    "title": "API-Schlüssel",
+    "subtitle": "Halten Sie Ihren API-Schlüssel sicher, um Missbrauch zu verhindern"
+  },
+  "actions": {
+    "create_api_key": "API-Schlüssel erstellen +"
+  },
+  "table": {
+    "name": "Name",
+    "key": "Schlüssel",
+    "created_at": "Erstellungsdatum"
+  },
+  "empty_state": {
+    "message": "Noch keine API-Schlüssel"
+  }
+}

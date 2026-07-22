@@ -1,0 +1,80 @@
+<section class="ghibli-info-section py-5 ghibli-info-bg">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left side - Before/After Image -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="image-comparison-container position-relative">
+                    <div class="before-after-wrapper image-compare-frame">
+                        <img src="{{ page.stats.image_url }}" alt="{{ page.stats.image_alt }}" class="img-fluid w-100 object-cover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side - Content -->
+            <div class="col-lg-6">
+                <div class="content-wrapper ps-lg-4">
+                    <h2 class="ghibli-title mb-4">
+                        {{ page.stats.title if page.stats else common.stats.title }}
+                    </h2>
+                    <p class="ghibli-description mb-4">
+                        {{ page.stats.description if page.stats else common.stats.description }}
+                    </p>
+
+                    <!-- Features List -->
+                    <div class="features-list">
+                        <!-- Feature 1 -->
+                        <div class="feature-item d-flex align-items-start mb-4 feature-glass-item">
+                            <div class="feature-icon me-3 feature-icon-24">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="#667eea"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title mb-2 feature-title-sm">
+                                    {{ (page.stats.features[0].title if page.stats and page.stats.features else common.stats.features[0].title) }}
+                                </h4>
+                                <p class="feature-description mb-0 feature-description-sm">
+                                    {{ (page.stats.features[0].description if page.stats and page.stats.features else common.stats.features[0].description) }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="feature-item d-flex align-items-start mb-4 feature-glass-item">
+                            <div class="feature-icon me-3 feature-icon-24">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 13L13.5 7H10.5L9 13L3 7V9L9 15L10.5 9H13.5L15 15L21 9Z" fill="#f093fb"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title mb-2 feature-title-sm">
+                                    {{ (page.stats.features[1].title if page.stats and page.stats.features else common.stats.features[1].title) }}
+                                </h4>
+                                <p class="feature-description mb-0 feature-description-sm">
+                                    {{ (page.stats.features[1].description if page.stats and page.stats.features else common.stats.features[1].description) }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="feature-item d-flex align-items-start mb-4 feature-glass-item">
+                            <div class="feature-icon me-3 feature-icon-24">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L15.09 8.26L22 9L15.09 9.74L12 16L8.91 9.74L2 9L8.91 8.26L12 2Z" fill="#4facfe"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title mb-2 feature-title-sm">
+                                    {{ (page.stats.features[2].title if page.stats and page.stats.features else common.stats.features[2].title) }}
+                                </h4>
+                                <p class="feature-description mb-0 feature-description-sm">
+                                    {{ (page.stats.features[2].description if page.stats and page.stats.features else common.stats.features[2].description) }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

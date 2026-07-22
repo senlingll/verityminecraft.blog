@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Verity Minecraft 버전 - 다운로드 정보",
+    "description": "Verity Minecraft 버전을 Bedrock, Java, PE별로 비교하고 출처, 호환성, 안전한 업데이트를 안내합니다."
+  },
+  "hero": {
+    "eyebrow": "출처 페이지",
+    "title": "Verity Minecraft 버전",
+    "lede": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
+    "support": "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+  },
+  "download": {
+    "cta": "다운로드 버전",
+    "secondary_cta": "가이드",
+    "url": "https://verityminecraft.blog/#downloads",
+    "note": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+  },
+  "facts": {
+    "title": "버전 가이드",
+    "items": [
+      {
+        "label": "플랫폼",
+        "value": "버전"
+      },
+      {
+        "label": "버전",
+        "value": "Varies"
+      },
+      {
+        "label": "File",
+        "value": "version list"
+      },
+      {
+        "label": "출처 페이지",
+        "value": "CurseForge / Modrinth / Google Play"
+      },
+      {
+        "label": "마지막 확인",
+        "value": "2026년 7월 22일"
+      }
+    ]
+  },
+  "summary": {
+    "eyebrow": "가이드",
+    "title": "Verity Minecraft 버전",
+    "description": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
+    "cards": [
+      {
+        "title": "Verity Minecraft 버전 1",
+        "text": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+      },
+      {
+        "title": "Verity Minecraft 버전 2",
+        "text": "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+      },
+      {
+        "title": "Verity Minecraft 버전 3",
+        "text": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "설치",
+    "title": "설치 Verity Minecraft 버전",
+    "description": "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다.",
+    "items": [
+      {
+        "title": "가이드 1",
+        "text": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. Verity Minecraft 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+      },
+      {
+        "title": "가이드 2",
+        "text": "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+      },
+      {
+        "title": "가이드 3",
+        "text": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+      },
+      {
+        "title": "가이드 4",
+        "text": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다."
+      },
+      {
+        "title": "가이드 5",
+        "text": "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다."
+      }
+    ]
+  },
+  "table": {
+    "eyebrow": "안전 확인",
+    "title": "Verity Minecraft 버전 checklist",
+    "description": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
+    "headers": [
+      "가이드",
+      "안전 확인",
+      "출처 페이지"
+    ],
+    "rows": [
+      [
+        "version list",
+        "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다.",
+        "출처 페이지"
+      ],
+      [
+        "버전",
+        "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
+        "설치"
+      ],
+      [
+        "버전",
+        "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
+        "다운로드"
+      ]
+    ]
+  },
+  "body": {
+    "eyebrow": "안전 확인",
+    "title": "Verity Minecraft 버전 안전 확인",
+    "paragraphs": [
+      "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
+      "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다.",
+      "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
+      "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
+      "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다.",
+      "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
+      "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+    ],
+    "notes": [
+      {
+        "title": "출처 페이지",
+        "text": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+      },
+      {
+        "title": "버전",
+        "text": "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+      },
+      {
+        "title": "안전 확인",
+        "text": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "다운로드",
+    "title": "다운로드",
+    "description": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
+    "links": [
+      {
+        "title": "Bedrock",
+        "url": "/bedrock/",
+        "text": "Bedrock .mcaddon 가이드"
+      },
+      {
+        "title": "Java",
+        "url": "/java/",
+        "text": "Java .jar 가이드"
+      },
+      {
+        "title": "Minecraft PE",
+        "url": "/minecraft-pe/",
+        "text": "PE / Mobile 안전 확인"
+      },
+      {
+        "title": "설치",
+        "url": "/how-to-install/",
+        "text": "가이드"
+      },
+      {
+        "title": "버전",
+        "url": "/versions/",
+        "text": "버전"
+      }
+    ]
+  },
+  "extra": {
+    "eyebrow": "가이드",
+    "title": "Verity Minecraft 버전 가이드",
+    "paragraphs": [
+      "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
+      "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다.",
+      "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
+      "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다."
+    ],
+    "cards": [
+      {
+        "title": "가이드 1",
+        "text": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+      },
+      {
+        "title": "가이드 2",
+        "text": "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+      },
+      {
+        "title": "가이드 3",
+        "text": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "자주 묻는 질문",
+    "title": "Verity Minecraft 버전 자주 묻는 질문",
+    "items": [
+      {
+        "question": "Verity Minecraft 버전 자주 묻는 질문 1?",
+        "answer": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. Verity Minecraft 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+      },
+      {
+        "question": "Verity Minecraft 버전 자주 묻는 질문 2?",
+        "answer": "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+      },
+      {
+        "question": "Verity Minecraft 버전 자주 묻는 질문 3?",
+        "answer": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+      },
+      {
+        "question": "Verity Minecraft 버전 자주 묻는 질문 4?",
+        "answer": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다."
+      }
+    ]
+  }
+}

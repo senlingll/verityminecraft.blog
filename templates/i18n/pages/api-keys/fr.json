@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Clés API - Compte",
+    "description": "Gérez vos clés API pour accéder à ce service."
+  },
+  "sidebar": {
+    "title": "Espace utilisateur",
+    "my_orders": "Mes commandes",
+    "my_credits": "Mes crédits",
+    "api_keys": "Clés API"
+  },
+  "header": {
+    "title": "Clés API",
+    "subtitle": "Gardez votre clé API en sécurité pour éviter tout usage abusif"
+  },
+  "actions": {
+    "create_api_key": "Créer une clé API +"
+  },
+  "table": {
+    "name": "Nom",
+    "key": "Clé",
+    "created_at": "Date de création"
+  },
+  "empty_state": {
+    "message": "Aucune clé API pour le moment"
+  }
+}

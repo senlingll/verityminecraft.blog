@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Verity Minecraft Java Download - Verity JE Mod",
+    "description": "Verity Minecraft Java download guide with Verity JE source links, Minecraft version notes, loader guidance, install steps, and FAQ."
+  },
+  "hero": {
+    "eyebrow": "Java Edition download",
+    "title": "Verity Minecraft Java Download",
+    "lede": "Use this page if you play Minecraft Java Edition and need the Verity JE download path. Java installs are different from Bedrock add-ons, so the most important checks are Minecraft version, loader support, and source page freshness.",
+    "support": "The main button opens the CurseForge Java source after a 15-second confirmation. Modrinth is also a useful source page for checking project status and version context."
+  },
+  "download": {
+    "cta": "Download Java Mod",
+    "secondary_cta": "Read Install Guide",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/verity-je/download/8461257",
+    "note": "You will leave for the verified Java source after the 15-second confirmation."
+  },
+  "facts": {
+    "title": "Java Download Facts",
+    "items": [
+      {"label": "Best for", "value": "Minecraft Java Edition"},
+      {"label": "Known file", "value": "verity-5.7.3.jar"},
+      {"label": "Minecraft versions", "value": "1.21.1 / 1.20.1"},
+      {"label": "File type", "value": ".jar"},
+      {"label": "Sources", "value": "CurseForge / Modrinth"}
+    ]
+  },
+  "summary": {
+    "eyebrow": "Before downloading",
+    "title": "What Java Players Should Check First",
+    "description": "Java Edition mod installs fail most often when the player uses the wrong Minecraft version, wrong loader, or a file intended for Bedrock.",
+    "cards": [
+      {"title": "Confirm Minecraft version", "text": "Check whether the release supports your exact Minecraft version before placing the file into your mods folder."},
+      {"title": "Use a Java mod loader", "text": "A Java .jar mod needs a compatible modded setup. Do not try to import it as a Bedrock add-on."},
+      {"title": "Compare source pages", "text": "CurseForge and Modrinth can help you confirm project metadata, update timing, and file availability."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Install steps",
+    "title": "How to Install Verity JE for Minecraft Java",
+    "description": "Install only after checking the source page and your loader setup.",
+    "items": [
+      {"title": "Open the Java source", "text": "Use the download button to open the Verity JE source page. Review the file title, supported Minecraft versions, and any dependency notes."},
+      {"title": "Download the .jar file", "text": "Save the mod file from the source page. Keep the file name and extension unchanged so your loader can detect it."},
+      {"title": "Place it in the mods folder", "text": "Move the .jar file into the mods folder for the matching Minecraft profile. Use a separate profile if you manage multiple versions."},
+      {"title": "Launch a test profile", "text": "Start Minecraft with the matching loader and version. If the game fails to load, remove the file and recheck version compatibility."},
+      {"title": "Test before main worlds", "text": "Create a test world to confirm behavior before loading a long-term survival or creative world."}
+    ]
+  },
+  "table": {
+    "eyebrow": "Java comparison",
+    "title": "CurseForge vs Modrinth for Verity JE",
+    "description": "Both source paths can be useful. Use the one that best fits your launcher and verification needs.",
+    "headers": ["Source", "Best use", "Note"],
+    "rows": [
+      ["CurseForge", "Download and launcher workflows", "Use the file page for release details and downloads."],
+      ["Modrinth", "Project status and alternative source checking", "Good for checking metadata and version context."],
+      ["Random mirror", "Not recommended", "Can be stale, renamed, or unsafe."]
+    ]
+  },
+  "body": {
+    "eyebrow": "Java safety",
+    "title": "Why Verity Java Downloads Need Version Discipline",
+      "paragraphs": [
+        "Java Edition is powerful because players can manage modded profiles, but that flexibility also makes wrong-version installs common. A mod built for one Minecraft version may not load on another, even when the file name looks close.",
+        "Use the Verity Java download page as a decision layer: confirm that you are actually on Java Edition, open the source listing, check the supported Minecraft version, and only then place the file into the matching profile.",
+        "The safest Java setup starts with a clean profile. If you already run many mods, create a separate test profile for Verity JE first. That makes it easier to tell whether a crash comes from Verity, the loader, Minecraft version mismatch, or a conflict with another mod in your existing pack.",
+        "Pay close attention to how the source page names the supported environment. Java mods often depend on a specific loader family, and a file that works in one loader environment may not work in another. If the source page mentions a loader or Minecraft version that does not match your profile, do not force the install by renaming the file.",
+        "CurseForge and Modrinth are useful in slightly different ways. CurseForge can fit launcher workflows, while Modrinth can be a helpful cross-check for project identity and version metadata. If both pages exist, comparing them can help you avoid a copied listing or a stale file page.",
+        "If Minecraft crashes after installing Verity JE, remove the file and launch again before changing anything else. Then verify your loader, Minecraft version, and mod folder location. A simple one-change-at-a-time troubleshooting loop usually solves more than downloading a different file from a random search result.",
+        "Use this Verity Minecraft Java download guide when search results mix Java, Bedrock, and PE wording. A correct Java result should name the Java Edition path, provide a .jar file context, and tell you which Minecraft profile should load it. If a download page skips those details, it is not giving you enough evidence to install confidently."
+      ],
+    "notes": [
+      {"title": "Do not mix editions", "text": "A Java .jar is not a Bedrock .mcaddon."},
+      {"title": "Use profiles", "text": "Separate modded profiles make troubleshooting easier."},
+      {"title": "Watch updates", "text": "Source pages may update file compatibility after this guide is published."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Related pages",
+    "title": "More Verity Minecraft Java Help",
+    "description": "Use these pages for installation, versions, or non-Java downloads.",
+    "links": [
+      {"title": "How to Install", "url": "/how-to-install/", "text": "Step-by-step setup for each Verity download path."},
+      {"title": "Versions", "url": "/versions/", "text": "Known version snapshot and compatibility notes."},
+      {"title": "Bedrock Download", "url": "/bedrock/", "text": "Use this if you need the .mcaddon add-on path."}
+    ]
+  },
+  "extra": {
+    "eyebrow": "Source decision notes",
+    "title": "How to Check a Verity JE Download Before Installing",
+    "paragraphs": [
+      "Before adding any Java mod to your profile, compare the file page with your launcher setup. The source should make it clear whether the file is meant for your Minecraft version and loader environment. If the page does not match your profile, downloading the file faster will not make the install safer.",
+      "It is also worth keeping a small notes file for your modded profile. Write down Minecraft version, loader, Verity file name, and download date. When a crash happens later, those details make it much easier to identify whether Verity JE changed, another mod updated, or the profile itself moved to a new Minecraft version.",
+      "If you maintain multiple Java installs, separate them by folder and launcher profile. Mixing Verity JE with old libraries, different loaders, or an inherited mods folder makes debugging much harder than starting with a clean profile. Once Verity loads alone, you can add your normal mod list back gradually and identify conflicts with confidence.",
+      "For searchers comparing Verity JE pages, the best result is not always the first download button. Prefer the page that names the edition, loader context, supported Minecraft version, file date, and project relationship clearly. Those details tell you whether the file belongs in your Java setup or whether you accidentally landed on a Bedrock, PE, or copied listing.",
+      "A Verity Minecraft Java download should be treated like any other modded-profile change. Save the file name, source URL, and date, then test in a clean profile before merging it with a larger mod list. That small record gives you a rollback point if the loader, Minecraft version, or another mod later changes."
+    ],
+    "cards": [
+      {"title": "Match profile", "text": "Your Java profile version must match the source page compatibility."},
+      {"title": "Keep file names", "text": "Do not rename jars in a way that hides version or source details."},
+      {"title": "Document changes", "text": "Track the date and file name so troubleshooting has a clear starting point."}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Verity Java Download FAQ",
+    "items": [
+      {"question": "Is Verity Minecraft available for Java Edition?", "answer": "Yes. Verity JE appears as a Java Edition adaptation on Java mod platforms. Check the source page before installing because version and loader details can change."},
+      {"question": "Can I install the Java file on Bedrock?", "answer": "No. Java .jar mods and Bedrock .mcaddon add-ons use different systems. Use the Bedrock page if you play Bedrock."},
+      {"question": "What Minecraft versions does Verity JE support?", "answer": "The current source snapshot reviewed for this site shows the Java file verity-5.7.3.jar with Minecraft versions such as 1.21.1 and 1.20.1. Always confirm the current source page before downloading."},
+      {"question": "Should I use CurseForge or Modrinth?", "answer": "Use the platform that fits your launcher and trust workflow. Checking both can help confirm the project identity and current version notes."}
+    ]
+  }
+}

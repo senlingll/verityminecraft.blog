@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Terms of Service - Verity Minecraft",
+    "description": "Terms of Service for Verity Minecraft, an independent download guide for Verity Minecraft players.",
+    "keywords": "Verity Minecraft terms"
+  },
+  "legal": {
+    "eyebrow": "Site terms",
+    "title": "Terms of Service",
+    "description": "The ground rules for using Verity Minecraft as an independent download and install guide.",
+    "effective_date": "Effective Date: July 22, 2026",
+    "intro": [
+      "These Terms of Service (\"Terms\") govern your use of <strong>verityminecraft.blog</strong>, an independent Verity Minecraft download guide."
+    ],
+    "sections": [
+      {
+        "heading": "1. Service Description",
+        "paragraphs": [
+          "Verity Minecraft provides informational content, version snapshots, source links, install guidance, and safety notes for players looking for Verity Minecraft downloads."
+        ]
+      },
+      {
+        "heading": "2. Independence Disclaimer",
+        "paragraphs": [
+          "Verity Minecraft is not affiliated with, endorsed by, sponsored by, or officially connected to Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners."
+        ]
+      },
+      {
+        "heading": "3. External Download Sources",
+        "paragraphs": [
+          "The site may link to external source pages and store listings. We do not control those websites, their files, their availability, their policies, or future updates."
+        ]
+      },
+      {
+        "heading": "4. Acceptable Use",
+        "bullets": [
+          "Do not attempt to disrupt, scrape abusively, attack, or overload the site.",
+          "Do not submit malicious, unlawful, infringing, or deceptive content through any contact channel.",
+          "Do not misrepresent Verity Minecraft as an official Minecraft or Verity property."
+        ]
+      },
+      {
+        "heading": "5. Accuracy and Updates",
+        "paragraphs": [
+          "Version snapshots and source notes are provided for convenience. External source pages may change after publication, and users should verify platform, version, file type, and compatibility before downloading."
+        ]
+      },
+      {
+        "heading": "6. Disclaimers",
+        "paragraphs": [
+          "The site is provided \"as is\" without warranties of any kind. We do not guarantee uninterrupted availability, error-free content, download availability, or compatibility with your Minecraft installation."
+        ]
+      },
+      {
+        "heading": "7. Contact",
+        "paragraphs": [
+          "Email: <a href=\"mailto:support@verityminecraft.blog\">support@verityminecraft.blog</a>",
+          "Website: <a href=\"https://verityminecraft.blog\" target=\"_blank\" rel=\"noopener\">verityminecraft.blog</a>"
+        ]
+      }
+    ]
+  }
+}
