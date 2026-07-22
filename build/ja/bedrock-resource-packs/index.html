@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Bedrockでダウンロードしたリソースパックを使う方法</title>
+  <meta name="description"
+    content="Minecraft Bedrockでダウンロードしたリソースパックを使う手順。配布元確認、.mcpack/.mcaddonのインポート、ワールドでの有効化、トラブル対策を整理します。">
+  <meta name="google-adsense-account" content="ca-pub-8016227945839388">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/ja/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/bedrock-resource-packs/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/bedrock-resource-packs/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/bedrock-resource-packs/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Minecraft Bedrockでダウンロードしたリソースパックを使う方法">
+  <meta property="og:description" content="Minecraft Bedrockでダウンロードしたリソースパックを使う手順。配布元確認、.mcpack/.mcaddonのインポート、ワールドでの有効化、トラブル対策を整理します。">
+  <meta property="og:url" content="https://verityminecraft.blog/ja/bedrock-resource-packs/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Minecraft Bedrockでダウンロードしたリソースパックを使う方法">
+  <meta name="twitter:description" content="Minecraft Bedrockでダウンロードしたリソースパックを使う手順。配布元確認、.mcpack/.mcaddonのインポート、ワールドでの有効化、トラブル対策を整理します。">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3092 Java\u3001Bedrock\u3001PE \u5411\u3051\u306b\u6574\u7406\u3057\u3001\u30bd\u30fc\u30b9\u3001\u30d0\u30fc\u30b8\u30e7\u30f3\u3001\u5c0e\u5165\u624b\u9806\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-07-23", "datePublished": "2026-07-23", "description": "Minecraft Bedrock\u3067\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3057\u305f\u30ea\u30bd\u30fc\u30b9\u30d1\u30c3\u30af\u3092\u4f7f\u3046\u624b\u9806\u3002\u914d\u5e03\u5143\u78ba\u8a8d\u3001.mcpack/.mcaddon\u306e\u30a4\u30f3\u30dd\u30fc\u30c8\u3001\u30ef\u30fc\u30eb\u30c9\u3067\u306e\u6709\u52b9\u5316\u3001\u30c8\u30e9\u30d6\u30eb\u5bfe\u7b56\u3092\u6574\u7406\u3057\u307e\u3059\u3002", "headline": "Minecraft Bedrock\u3067\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3057\u305f\u30ea\u30bd\u30fc\u30b9\u30d1\u30c3\u30af\u3092\u4f7f\u30467\u3064\u306e\u5b89\u5168\u624b\u9806", "image": "https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp", "mainEntityOfPage": "https://verityminecraft.blog/ja/bedrock-resource-packs/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u30a4\u30f3\u30dd\u30fc\u30c8\u3057\u3066\u5bfe\u8c61\u30ef\u30fc\u30eb\u30c9\u3067\u6709\u52b9\u5316\u3057\u307e\u3059\u3002"}, "name": "Bedrock\u3067\u30d1\u30c3\u30af\u3092\u4f7f\u3046\u306b\u306f\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u672a\u6709\u52b9\u3001Java\u7528\u3001\u7af6\u5408\u3001\u518d\u8d77\u52d5\u4e0d\u8db3\u306a\u3069\u3067\u3059\u3002"}, "name": "\u53cd\u6620\u3055\u308c\u306a\u3044\u7406\u7531\u306f\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u516c\u5f0f\u3001\u4f5c\u8005\u3001CurseForge\u3001MCPEDL\u306a\u3069\u3092\u512a\u5148\u3057\u307e\u3059\u3002"}, "name": "\u3069\u3053\u3067\u5b89\u5168\u306b\u5165\u624b\u3059\u308b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u306f\u3044\u3001\u30ea\u30bd\u30fc\u30b9\u3068\u30d3\u30d8\u30a4\u30d3\u30a2\u3092\u542b\u3080\u5834\u5408\u304c\u3042\u308a\u307e\u3059\u3002"}, "name": ".mcaddon\u306f\u4e21\u65b9\u542b\u3081\u3089\u308c\u308b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u4f5c\u8005\u304c\u660e\u8a18\u3057\u305f\u5834\u5408\u3060\u3051\u3067\u3059\u3002"}, "name": "ZIP\u3092\u30ea\u30cd\u30fc\u30e0\u3057\u3066\u3088\u3044\uff1f"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/ja/" aria-label="Verity Minecraft home">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="ダウンロード">
+      <a href="/ja/#downloads">ダウンロード</a>
+      <a href="/ja/#install">インストール</a>
+      <a href="/ja/#versions">バージョン</a>
+      <a href="/ja/#safety">安全確認</a>
+      <a href="/ja/#faq">よくある質問</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="日本語">日本語</summary>
+        <div class="language-options">
+          
+          <a href="/bedrock-resource-packs/">English</a>
+          
+          <a href="/es/bedrock-resource-packs/">Español</a>
+          
+          <a href="/fr/bedrock-resource-packs/">Français</a>
+          
+          <a href="/de/bedrock-resource-packs/">Deutsch</a>
+          
+          <a href="/pt/bedrock-resource-packs/">Português</a>
+          
+          <a href="/ko/bedrock-resource-packs/">한국어</a>
+          
+          <a href="/it/bedrock-resource-packs/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/ja/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        ダウンロード
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h1 id="article-title">Minecraft Bedrockでダウンロードしたリソースパックを使う7つの安全手順</h1>
+      <p class="hero-lede">Minecraft Bedrock用のリソースパックをダウンロードしたのに反映されない場合、原因はファイル形式、インポート失敗、ワールドでの有効化忘れ、古いミラー配布のどれかであることが多いです。</p>
+      <p class="hero-support">配布元を確認し、拡張子を保ったままインポートし、コピーしたワールドで有効化してから確認します。別のダウンロードを探す前にこの順序で切り分けます。</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/ja/bedrock/">Bedrockガイド</a>
+        
+        <a class="btn btn-secondary" href="/ja/how-to-install/">インストール手順</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp" alt="Bedrockリソースパックのインポートと有効化の流れ" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <figcaption>ダウンロード、インポート、有効化は別の手順です。</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h2 id="answer-title">結論：インポート後、ワールドごとに有効化する</h2>
+      <p>Minecraft Bedrockでダウンロードしたリソースパックを使うには、まずBedrock向けの.mcpack、.mcaddon、または有効なBedrock用ZIP構造か確認します。次にMinecraftで開き、インポート完了の表示を確認し、対象ワールドの設定で有効化します。</p><p>ダウンロードしただけでは反映されません。Bedrockではインポート後もワールドごとの有効化が必要です。特にビヘイビア要素を含む場合は、必ずコピーしたワールドで試してください。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>形式の確認</h3><p>Bedrock、.mcpack、.mcaddon表記を確認します。</p></article>
+      
+      <article class="feature-card"><h3>最初のテスト</h3><p>本番ではなくコピーしたワールドを使います。</p></article>
+      
+      <article class="feature-card"><h3>配布元</h3><p>作者、日付、バージョン、形式が分かるページを優先します。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h2 id="steps-title">Bedrockリソースパックを使う7ステップ</h2>
+      <p>配布元、形式、有効化を順番に確認すると、反映されない原因を早く絞れます。</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>Bedrock向けか確認</h3><p>配布元にBedrock、MCPE、.mcpack、.mcaddonの記載があるか見ます。</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>拡張子を保つ</h3><p>Java用ZIPを勝手に.mcpackへ変えないでください。</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>配布元を読む</h3><p>更新日、対応バージョン、コメントを確認します。</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>インポート</h3><p>Minecraftで開くかファイル管理から取り込みます。</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>表示を待つ</h3><p>成功または失敗メッセージを確認します。</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>ワールドで有効化</h3><p>設定でActive側へ移動します。</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>反映を確認</h3><p>コピーしたワールドで変更箇所を見ます。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">Bedrockリソースパックガイド</p>
+        <h2 id="check-title">インポート前に配布元を確認する</h2>
+        <p>最初に見るべきなのはボタンではなく配布元です。</p><p>良い配布元は作者、形式、日付、対応バージョンを示します。</p><p>これによりBedrockアドオンとJavaの.jarを混同しにくくなります。</p><p>latestという言葉だけで安全とは判断せず、プラットフォームと注記を確認します。</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/bedrock-resource-packs/bedrock-resource-pack-file-check.webp" alt="信頼できる配布元と危険なミラーの比較" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>日付、作者、形式が見える配布元を選びます。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h2 id="table-title">リソースパック、ビヘイビアパック、アドオンの違い</h2>
+      <p>名前と形式で、どこで有効化し、どの程度慎重にテストすべきかが変わります。</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="リソースパック、ビヘイビアパック、アドオンの違い">
+      <div role="row">
+        <strong>種類</strong><strong>変わる内容</strong><strong>対応</strong>
+      </div>
+      
+      <div role="row">
+        <span>リソースパック</span><span>テクスチャ、音、モデル</span><span>Resource Packsで有効化</span>
+      </div>
+      
+      <div role="row">
+        <span>ビヘイビアパック</span><span>ルール、エンティティ、関数</span><span>コピーでテスト</span>
+      </div>
+      
+      <div role="row">
+        <span>アドオン / .mcaddon</span><span>両方を含む場合あり</span><span>必要な部分を有効化</span>
+      </div>
+      
+      <div role="row">
+        <span>Javaパック</span><span>Java Edition向け</span><span>Bedrock互換と決めつけない</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/bedrock-resource-packs/bedrock-resource-pack-world-activation.webp" alt="テストワールドでパックを有効化する図" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>本番前にコピーしたワールドで試します。</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Bedrockリソースパックガイド</p>
+        <h2 id="activate-title">本番ワールドの前にテスト用コピーで有効化する</h2>
+        <p>インポート後もワールドで有効化が必要です。</p><p>ビヘイビアパックはゲーム挙動を変えるため慎重に試します。</p><p>表示されない場合は再起動し、他のパックを外して確認します。</p><p>対応バージョンの注記は重要な手がかりです。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h2 id="mistakes-title">Bedrockパックが壊れて見えるよくある原因</h2>
+      <p>多くはエディション違い、配布元の不明確さ、有効化忘れ、他パックとの競合です。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Java版を使う</h3><p>JavaとBedrockは同じ手順ではありません。</p></article>
+      
+      <article class="feature-card"><h3>有効化忘れ</h3><p>インポートと有効化は別です。</p></article>
+      
+      <article class="feature-card"><h3>古いミラー</h3><p>再配布ファイルは古いことがあります。</p></article>
+      
+      <article class="feature-card"><h3>複数パック同時テスト</h3><p>同じ素材を上書きする場合があります。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h2 id="related-title">関連するVerity Minecraftガイド</h2>
+      <p>リソースパック以外の問題なら、こちらのページも確認してください。</p>
+    </div>
+    <div class="example-grid">
+      
+      <article class="example-card"><h3>Verity Bedrock Download</h3><p>Use this for the Verity .mcaddon source path.</p><a class="text-link" href="/ja/bedrock/">Open Bedrock guide</a></article>
+      
+      <article class="example-card"><h3>How to Install Verity Minecraft</h3><p>Use this for Java, Bedrock, and PE setup differences.</p><a class="text-link" href="/ja/how-to-install/">Read install guide</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraft Versions</h3><p>Use this to compare current source snapshots and platform notes.</p><a class="text-link" href="/ja/versions/">Check versions</a></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockリソースパックガイド</p>
+      <h2 id="sources-title">このガイドで参照した情報</h2>
+      <p>Bedrockのリソースパックとアドオンの流れを確認するための参照元です。個別のパック配布元は必ず再確認してください。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Microsoft Bedrock resource pack documentation</h3><p>Bedrockの挙動確認に使った公式または一次情報です。</p><a class="text-link" href="https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable" target="_blank" rel="noopener">参照元を開く</a></article>
+      
+      <article class="feature-card"><h3>Minecraft Bedrock Add-Ons FAQ</h3><p>Bedrockの挙動確認に使った公式または一次情報です。</p><a class="text-link" href="https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ" target="_blank" rel="noopener">参照元を開く</a></article>
+      
+      <article class="feature-card"><h3>Verity Bedrock source listing</h3><p>Bedrockの挙動確認に使った公式または一次情報です。</p><a class="text-link" href="https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253" target="_blank" rel="noopener">参照元を開く</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faq-title">Minecraft BedrockリソースパックFAQ</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>Bedrockでパックを使うには？</summary><p>インポートして対象ワールドで有効化します。</p></details>
+      
+      <details ><summary>反映されない理由は？</summary><p>未有効、Java用、競合、再起動不足などです。</p></details>
+      
+      <details ><summary>どこで安全に入手する？</summary><p>公式、作者、CurseForge、MCPEDLなどを優先します。</p></details>
+      
+      <details ><summary>.mcaddonは両方含められる？</summary><p>はい、リソースとビヘイビアを含む場合があります。</p></details>
+      
+      <details ><summary>ZIPをリネームしてよい？</summary><p>作者が明記した場合だけです。</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ja/" aria-label="Verity Minecraft home">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft の独立したダウンロード案内です。</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="ダウンロード">
+          <div class="footer-link-group">
+            <p class="footer-link-title">ダウンロード</p>
+          <a href="/ja/#downloads">ダウンロード</a>
+          <a href="/ja/#install">インストール</a>
+          <a href="/ja/#versions">バージョン</a>
+          <a href="/ja/#safety">安全確認</a>
+            <a href="/ja/#faq">よくある質問</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">サイト</p>
+            <a href="/about/">サイトについて</a>
+            <a href="/contact/">お問い合わせ</a>
+            <a href="/privacy-policy/">プライバシーポリシー</a>
+            <a href="/terms-of-service/">利用規約</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft · verityminecraft.blog - Verity Minecraft の独立したダウンロード案内です。</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://pl30483090.effectivecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>

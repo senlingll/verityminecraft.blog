@@ -169,6 +169,11 @@
         "title": "バージョン",
         "url": "/versions/",
         "text": "バージョン"
+      },
+      {
+        "title": "Bedrockリソースパック",
+        "url": "/bedrock-resource-packs/",
+        "text": "インポートした.mcpackや.mcaddonがワールドに表示されないときに使います。"
       }
     ]
   },

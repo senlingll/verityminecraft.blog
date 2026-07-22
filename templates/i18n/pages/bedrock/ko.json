@@ -169,6 +169,11 @@
         "title": "버전",
         "url": "/versions/",
         "text": "버전"
+      },
+      {
+        "title": "Bedrock 리소스 팩",
+        "url": "/bedrock-resource-packs/",
+        "text": "가져온 .mcpack 또는 .mcaddon이 월드에 보이지 않을 때 사용하세요."
       }
     ]
   },

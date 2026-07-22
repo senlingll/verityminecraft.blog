@@ -169,6 +169,11 @@
         "title": "버전",
         "url": "/versions/",
         "text": "버전"
+      },
+      {
+        "title": "Bedrock ??? ?",
+        "url": "/bedrock-resource-packs/",
+        "text": "??? .mcpack ?? .mcaddon? ??? ??? ?? ? ??????"
       }
     ]
   },

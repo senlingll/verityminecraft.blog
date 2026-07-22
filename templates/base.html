@@ -45,15 +45,16 @@
   <meta property="og:title" content="{{ page.meta.title if page.meta.title else common.seo.default_title }}">
   <meta property="og:description" content="{{ page.meta.description if page.meta.description else common.seo.default_description }}">
   <meta property="og:url" content="{{ canonical_url if canonical_url else BASE_URL }}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{{ page.meta.og_type if page.meta and page.meta.og_type else 'website' }}">
   <meta property="og:site_name" content="{{ common.brand.name }}">
-    <meta property="og:image" content="{{ BASE_URL }}/static/images/img2grid/verity-logo.webp">
+  {% set social_image = page.meta.image if page.meta and page.meta.image else '/static/images/img2grid/verity-logo.webp' %}
+    <meta property="og:image" content="{{ BASE_URL }}{{ social_image }}">
   
   <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.meta.title if page.meta.title else common.seo.default_title }}">
   <meta name="twitter:description" content="{{ page.meta.description if page.meta.description else common.seo.default_description }}">
-    <meta name="twitter:image" content="{{ BASE_URL }}/static/images/img2grid/verity-logo.webp">
+    <meta name="twitter:image" content="{{ BASE_URL }}{{ social_image }}">
   
   {% block head %}{% endblock %}
   {% block extra_css %}{% endblock %}

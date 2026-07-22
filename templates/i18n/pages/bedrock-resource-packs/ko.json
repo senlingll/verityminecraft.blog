@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "title": "Minecraft Bedrock 다운로드 리소스 팩 사용 방법",
+    "description": "Minecraft Bedrock에서 다운로드한 리소스 팩을 사용하는 법: 출처 확인, .mcpack/.mcaddon 가져오기, 월드 활성화, 문제 해결.",
+    "image": "/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "Minecraft Bedrock에서 다운로드한 리소스 팩을 쓰는 7가지 안전 단계",
+    "lede": "Minecraft Bedrock 리소스 팩을 다운로드했는데 월드에 보이지 않는다면 파일 형식, 가져오기, 월드 활성화, 오래된 미러 출처 중 하나가 문제인 경우가 많습니다.",
+    "support": "출처를 확인하고 확장자를 유지한 뒤 Minecraft로 가져오고, 복사한 월드에서 활성화한 다음 다른 다운로드를 찾기 전에 설정에서 원인을 확인하세요.",
+    "actions": [
+      {
+        "label": "Bedrock 가이드",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "설치 가이드",
+        "url": "/how-to-install/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+      "alt": "Bedrock 리소스 팩 가져오기와 활성화 흐름",
+      "caption": "다운로드, 가져오기, 활성화는 별도 단계입니다."
+    }
+  },
+  "answer": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "빠른 답: 가져온 뒤 월드별로 활성화해야 합니다",
+    "paragraphs": [
+      "Minecraft Bedrock에서 다운로드한 리소스 팩을 쓰려면 먼저 Bedrock용 파일인지, .mcpack, .mcaddon 또는 올바른 Bedrock ZIP 구조인지 확인합니다. 그다음 Minecraft로 열어 가져오기 메시지를 확인하고 대상 월드 설정에서 활성화합니다.",
+      "다운로드만으로는 적용되지 않습니다. Bedrock은 가져온 뒤에도 월드별 활성화가 필요합니다. 행동 팩이 포함된 경우에는 복사한 월드에서 먼저 테스트하세요."
+    ],
+    "cards": [
+      {
+        "title": "파일 단서",
+        "text": "Bedrock, .mcpack, .mcaddon 표시를 확인하세요."
+      },
+      {
+        "title": "첫 테스트",
+        "text": "메인 월드 대신 복사본을 사용하세요."
+      },
+      {
+        "title": "좋은 출처",
+        "text": "제작자, 날짜, 버전, 형식이 보이는 페이지를 우선하세요."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "Bedrock 리소스 팩 사용 7단계",
+    "description": "출처, 파일 형식, 활성화를 순서대로 확인하면 대부분의 문제를 줄일 수 있습니다.",
+    "items": [
+      {
+        "title": "Bedrock용 확인",
+        "text": "출처에 Bedrock, MCPE, .mcpack, .mcaddon이 있는지 봅니다."
+      },
+      {
+        "title": "확장자 유지",
+        "text": "Java ZIP을 임의로 .mcpack으로 바꾸지 마세요."
+      },
+      {
+        "title": "출처 읽기",
+        "text": "업데이트 날짜, 버전, 댓글을 확인합니다."
+      },
+      {
+        "title": "가져오기",
+        "text": "Minecraft로 열거나 파일 관리자를 사용합니다."
+      },
+      {
+        "title": "메시지 확인",
+        "text": "성공 또는 실패 메시지를 봅니다."
+      },
+      {
+        "title": "월드에서 활성화",
+        "text": "월드 설정에서 Active로 이동합니다."
+      },
+      {
+        "title": "변경 확인",
+        "text": "복사한 월드에서 텍스처나 아이템을 확인합니다."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "가져오기 전에 다운로드 출처 확인",
+    "paragraphs": [
+      "먼저 확인할 것은 버튼이 아니라 출처입니다.",
+      "좋은 출처는 제작자, 형식, 날짜, 버전을 보여줍니다.",
+      "이렇게 하면 Bedrock 애드온과 Java .jar를 혼동하지 않습니다.",
+      "latest 문구만으로 안전하다고 보지 말고 플랫폼과 노트를 확인하세요."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-file-check.webp",
+      "alt": "신뢰 출처와 위험한 미러 비교",
+      "caption": "날짜, 제작자, 형식을 확인하세요."
+    }
+  },
+  "table": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "리소스 팩, 행동 팩, 애드온 차이",
+    "description": "파일 이름과 설명에 따라 어디서 활성화하고 얼마나 조심해 테스트할지 달라집니다.",
+    "headers": [
+      "유형",
+      "변경 내용",
+      "조치"
+    ],
+    "rows": [
+      [
+        "리소스 팩",
+        "텍스처, 소리, 모델",
+        "Resource Packs에서 활성화"
+      ],
+      [
+        "행동 팩",
+        "규칙, 엔티티, 함수",
+        "복사본에서 테스트"
+      ],
+      [
+        "애드온 / .mcaddon",
+        "둘 다 포함 가능",
+        "필요한 부분 모두 활성화"
+      ],
+      [
+        "Java 팩",
+        "Java Edition용",
+        "Bedrock 호환으로 단정하지 않기"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "메인 월드 전에 테스트 월드에서 활성화",
+    "paragraphs": [
+      "가져온 뒤에도 월드에서 활성화해야 합니다.",
+      "행동 팩은 게임 동작을 바꿀 수 있어 더 조심해야 합니다.",
+      "보이지 않으면 재시작하고 다른 팩을 비활성화하세요.",
+      "버전 노트는 호환성 확인에 중요합니다."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-world-activation.webp",
+      "alt": "테스트 월드에서 팩 활성화 그림",
+      "caption": "메인 월드 전에 복사본에서 테스트하세요."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "Bedrock 팩이 작동하지 않는 흔한 이유",
+    "description": "대부분은 에디션 혼동, 약한 출처, 활성화 누락, 다른 팩과의 충돌입니다.",
+    "cards": [
+      {
+        "title": "Java 버전 설치",
+        "text": "Java와 Bedrock 절차는 다릅니다."
+      },
+      {
+        "title": "활성화 누락",
+        "text": "가져오기와 활성화는 다릅니다."
+      },
+      {
+        "title": "오래된 미러",
+        "text": "재업로드 파일은 낡을 수 있습니다."
+      },
+      {
+        "title": "팩을 너무 많이 켬",
+        "text": "팩끼리 같은 텍스처를 덮어쓸 수 있습니다."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "관련 Verity Minecraft 가이드",
+    "description": "문제가 리소스 팩 가져오기만이 아니라면 아래 페이지를 확인하세요.",
+    "links": [
+      {
+        "title": "Verity Bedrock Download",
+        "url": "/bedrock/",
+        "text": "Use this for the Verity .mcaddon source path.",
+        "cta": "Open Bedrock guide"
+      },
+      {
+        "title": "How to Install Verity Minecraft",
+        "url": "/how-to-install/",
+        "text": "Use this for Java, Bedrock, and PE setup differences.",
+        "cta": "Read install guide"
+      },
+      {
+        "title": "Verity Minecraft Versions",
+        "url": "/versions/",
+        "text": "Use this to compare current source snapshots and platform notes.",
+        "cta": "Check versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Bedrock 리소스 팩 가이드",
+    "title": "이 가이드의 참고 자료",
+    "description": "Bedrock 리소스 팩과 애드온 흐름을 확인한 자료입니다. 개별 팩은 설치 전 다시 확인하세요.",
+    "links": [
+      {
+        "title": "Microsoft Bedrock resource pack documentation",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Bedrock 흐름 확인에 사용한 공식 또는 1차 참고 자료입니다.",
+        "cta": "출처 열기"
+      },
+      {
+        "title": "Minecraft Bedrock Add-Ons FAQ",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Bedrock 흐름 확인에 사용한 공식 또는 1차 참고 자료입니다.",
+        "cta": "출처 열기"
+      },
+      {
+        "title": "Verity Bedrock source listing",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+        "text": "Bedrock 흐름 확인에 사용한 공식 또는 1차 참고 자료입니다.",
+        "cta": "출처 열기"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Minecraft Bedrock 리소스 팩 FAQ",
+    "items": [
+      {
+        "question": "다운로드한 리소스 팩은 어떻게 쓰나요?",
+        "answer": "가져온 뒤 대상 월드에서 활성화합니다."
+      },
+      {
+        "question": "왜 작동하지 않나요?",
+        "answer": "비활성, Java용, 충돌, 재시작 부족일 수 있습니다."
+      },
+      {
+        "question": "어디서 더 안전하게 받나요?",
+        "answer": "공식, 제작자, CurseForge, MCPEDL을 우선하세요."
+      },
+      {
+        "question": ".mcaddon은 두 팩을 포함하나요?",
+        "answer": "네, 리소스와 행동 팩을 포함할 수 있습니다."
+      },
+      {
+        "question": "ZIP 이름을 바꿔도 되나요?",
+        "answer": "제작자가 명시한 경우에만 가능합니다."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Bedrock에서 다운로드한 리소스 팩을 쓰는 7가지 안전 단계",
+      "description": "Minecraft Bedrock에서 다운로드한 리소스 팩을 사용하는 법: 출처 확인, .mcpack/.mcaddon 가져오기, 월드 활성화, 문제 해결.",
+      "image": "https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+      "datePublished": "2026-07-23",
+      "dateModified": "2026-07-23",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/ko/bedrock-resource-packs/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "다운로드한 리소스 팩은 어떻게 쓰나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "가져온 뒤 대상 월드에서 활성화합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "왜 작동하지 않나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "비활성, Java용, 충돌, 재시작 부족일 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어디서 더 안전하게 받나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공식, 제작자, CurseForge, MCPEDL을 우선하세요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": ".mcaddon은 두 팩을 포함하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, 리소스와 행동 팩을 포함할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ZIP 이름을 바꿔도 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "제작자가 명시한 경우에만 가능합니다."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1952,3 +1952,119 @@ body.download-site-page .brand-text span {
     border-left: none !important;
   }
 }
+
+/* Editorial guide pages */
+.article-shell {
+  padding-top: 1px;
+}
+
+.article-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 0.72fr);
+  gap: clamp(1.5rem, 3vw, 3rem);
+  align-items: center;
+  padding-top: 72px;
+  padding-bottom: 54px;
+}
+
+.article-hero-copy {
+  min-width: 0;
+}
+
+.article-feature-figure,
+.article-inline-figure {
+  margin: 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.article-feature-figure img,
+.article-inline-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #dff5ff;
+}
+
+.article-feature-figure figcaption,
+.article-inline-figure figcaption {
+  padding: 0.85rem 1rem 1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.55;
+}
+
+.article-answer .section-heading {
+  max-width: 980px;
+}
+
+.article-steps {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.article-media-panel {
+  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
+}
+
+.article-media-panel .article-inline-figure:first-child {
+  order: 0;
+}
+
+.article-guide-page .verity-table [role="row"] {
+  grid-template-columns: 0.75fr 1fr 1fr;
+}
+
+.article-guide-page h2 {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1100px) {
+  .article-hero,
+  .article-media-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .article-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .article-hero {
+    width: min(330px, calc(100vw - 40px));
+    max-width: calc(100vw - 40px);
+    margin-left: 20px;
+    margin-right: 0;
+    padding-top: 44px;
+  }
+
+  .article-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .article-guide-page .verity-table [role="row"] {
+    grid-template-columns: 1fr;
+  }
+
+  .article-guide-page h2 {
+    max-width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.12;
+    text-align: left;
+    word-break: break-word;
+  }
+
+  .article-guide-page .section-heading {
+    width: min(330px, calc(100vw - 40px));
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 0;
+    text-align: left;
+  }
+}

@@ -9,3 +9,4 @@ Core pages include Bedrock .mcaddon guidance, Verity JE Java mod guidance, PE an
 Verity Minecraft is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners.
 
 Contact: support@verityminecraft.blog
+- Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/

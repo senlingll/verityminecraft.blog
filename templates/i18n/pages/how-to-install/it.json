@@ -169,6 +169,11 @@
         "title": "Versioni",
         "url": "/versions/",
         "text": "Versioni"
+      },
+      {
+        "title": "Resource pack Bedrock",
+        "url": "/bedrock-resource-packs/",
+        "text": "Usa questa guida se un .mcpack o .mcaddon importato non appare nel mondo."
       }
     ]
   },

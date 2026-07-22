@@ -18,11 +18,26 @@
   "facts": {
     "title": "PE Download Facts",
     "items": [
-      {"label": "Best for", "value": "PE / mobile searchers"},
-      {"label": "Safer first path", "value": "Bedrock .mcaddon"},
-      {"label": "APK status", "value": "Use caution"},
-      {"label": "Source type", "value": "Store listing or add-on source"},
-      {"label": "Last checked", "value": "July 22, 2026"}
+      {
+        "label": "Best for",
+        "value": "PE / mobile searchers"
+      },
+      {
+        "label": "Safer first path",
+        "value": "Bedrock .mcaddon"
+      },
+      {
+        "label": "APK status",
+        "value": "Use caution"
+      },
+      {
+        "label": "Source type",
+        "value": "Store listing or add-on source"
+      },
+      {
+        "label": "Last checked",
+        "value": "July 23, 2026"
+      }
     ]
   },
   "summary": {
@@ -30,9 +45,18 @@
     "title": "What PE Searchers Usually Mean",
     "description": "Minecraft PE often refers to mobile Bedrock-style play, but download pages use the term loosely. This page helps you separate add-on installs from Android app listings.",
     "cards": [
-      {"title": "If you need the add-on", "text": "Start with the Bedrock page and check whether your mobile device can import the .mcaddon file into Minecraft."},
-      {"title": "If you need a store app", "text": "Use a store listing rather than a random APK mirror. Store pages are still third-party unless the developer relationship is clear."},
-      {"title": "If you see APK mirrors", "text": "Avoid pages that promise latest, safe, or unlocked APK files without a clear developer or source chain."}
+      {
+        "title": "If you need the add-on",
+        "text": "Start with the Bedrock page and check whether your mobile device can import the .mcaddon file into Minecraft."
+      },
+      {
+        "title": "If you need a store app",
+        "text": "Use a store listing rather than a random APK mirror. Store pages are still third-party unless the developer relationship is clear."
+      },
+      {
+        "title": "If you see APK mirrors",
+        "text": "Avoid pages that promise latest, safe, or unlocked APK files without a clear developer or source chain."
+      }
     ]
   },
   "steps": {
@@ -40,40 +64,80 @@
     "title": "How to Approach Verity Minecraft PE Downloads",
     "description": "Use the least risky path that fits your actual device.",
     "items": [
-      {"title": "Identify your Minecraft app", "text": "If your mobile Minecraft can import Bedrock add-ons, the Bedrock .mcaddon path may be enough."},
-      {"title": "Check the Bedrock add-on first", "text": "Open the Bedrock download page on this site and review the add-on source before looking for APK pages."},
-      {"title": "Use store listings carefully", "text": "If you choose a Google Play listing, read the app description, developer name, permissions, and reviews before installing."},
-      {"title": "Avoid unknown APK downloads", "text": "Do not install APK files from random mirrors just because they include Verity, MCPE, or latest in the title."},
-      {"title": "Test with backups", "text": "Keep a backup world and avoid opening valuable worlds immediately after installing a new add-on or companion app."}
+      {
+        "title": "Identify your Minecraft app",
+        "text": "If your mobile Minecraft can import Bedrock add-ons, the Bedrock .mcaddon path may be enough."
+      },
+      {
+        "title": "Check the Bedrock add-on first",
+        "text": "Open the Bedrock download page on this site and review the add-on source before looking for APK pages."
+      },
+      {
+        "title": "Use store listings carefully",
+        "text": "If you choose a Google Play listing, read the app description, developer name, permissions, and reviews before installing."
+      },
+      {
+        "title": "Avoid unknown APK downloads",
+        "text": "Do not install APK files from random mirrors just because they include Verity, MCPE, or latest in the title."
+      },
+      {
+        "title": "Test with backups",
+        "text": "Keep a backup world and avoid opening valuable worlds immediately after installing a new add-on or companion app."
+      }
     ]
   },
   "table": {
     "eyebrow": "PE options",
     "title": "PE Download Options Compared",
     "description": "The right path depends on whether you want an actual add-on file or a companion/store app.",
-    "headers": ["Option", "When to use", "Risk note"],
+    "headers": [
+      "Option",
+      "When to use",
+      "Risk note"
+    ],
     "rows": [
-      ["Bedrock .mcaddon", "You can import add-ons into mobile Minecraft", "Usually the clearest mod/add-on path"],
-      ["Google Play listing", "You want a mobile app-style source", "Check developer, permissions, and reviews"],
-      ["APK mirror", "Almost never needed", "Higher risk and often stale"]
+      [
+        "Bedrock .mcaddon",
+        "You can import add-ons into mobile Minecraft",
+        "Usually the clearest mod/add-on path"
+      ],
+      [
+        "Google Play listing",
+        "You want a mobile app-style source",
+        "Check developer, permissions, and reviews"
+      ],
+      [
+        "APK mirror",
+        "Almost never needed",
+        "Higher risk and often stale"
+      ]
     ]
   },
   "body": {
     "eyebrow": "APK caution",
     "title": "Why Verity Minecraft APK Searches Need Extra Care",
-      "paragraphs": [
-        "APK pages can rank for mod searches even when they are not the maintained mod source. Some pages repackage descriptions, use broad Minecraft PE wording, or present old files as latest releases.",
-        "That does not mean every mobile listing is automatically bad, but it does mean the safest SEO answer is not a blind APK button. The better answer is to show the Bedrock add-on route, explain the store-listing option, and warn users away from unclear mirrors.",
-        "For many mobile players, the phrase Minecraft PE still means a Bedrock-style game experience. That is why the Bedrock .mcaddon path should be considered before installing a separate Android package. If your Minecraft app can import add-ons, a maintained add-on source is usually easier to understand than a third-party app wrapper.",
-        "When a store listing is the path you want, slow down and read the page like a source check. Look at the developer name, update date, screenshots, permissions, and user reviews. A store page can still be third-party, but it gives you more context than an anonymous APK download button.",
-        "Avoid pages that promise unlocked, mod menu, latest APK, or official Minecraft APK unless the source chain is absolutely clear. Those phrases often target search clicks rather than a clean install experience. This site does not host those files because the risk is not worth the small convenience.",
-        "If you do install a mobile companion app or add-on, test it with a disposable world first. Also keep the original Minecraft app updated from its official store source, because compatibility problems can come from the base app version as much as from the Verity file.",
-        "A useful Verity Mod Minecraft PE download page should not push every mobile user toward an APK. It should explain whether the result is a Bedrock add-on, a store app, or a rehosted Android package. That distinction matters because the install steps, permissions, update source, and rollback plan are different for each path."
-      ],
+    "paragraphs": [
+      "APK pages can rank for mod searches even when they are not the maintained mod source. Some pages repackage descriptions, use broad Minecraft PE wording, or present old files as latest releases.",
+      "That does not mean every mobile listing is automatically bad, but it does mean the safest SEO answer is not a blind APK button. The better answer is to show the Bedrock add-on route, explain the store-listing option, and warn users away from unclear mirrors.",
+      "For many mobile players, the phrase Minecraft PE still means a Bedrock-style game experience. That is why the Bedrock .mcaddon path should be considered before installing a separate Android package. If your Minecraft app can import add-ons, a maintained add-on source is usually easier to understand than a third-party app wrapper.",
+      "When a store listing is the path you want, slow down and read the page like a source check. Look at the developer name, update date, screenshots, permissions, and user reviews. A store page can still be third-party, but it gives you more context than an anonymous APK download button.",
+      "Avoid pages that promise unlocked, mod menu, latest APK, or official Minecraft APK unless the source chain is absolutely clear. Those phrases often target search clicks rather than a clean install experience. This site does not host those files because the risk is not worth the small convenience.",
+      "If you do install a mobile companion app or add-on, test it with a disposable world first. Also keep the original Minecraft app updated from its official store source, because compatibility problems can come from the base app version as much as from the Verity file.",
+      "A useful Verity Mod Minecraft PE download page should not push every mobile user toward an APK. It should explain whether the result is a Bedrock add-on, a store app, or a rehosted Android package. That distinction matters because the install steps, permissions, update source, and rollback plan are different for each path."
+    ],
     "notes": [
-      {"title": "Best first step", "text": "Check the Bedrock add-on path before hunting for APK files."},
-      {"title": "Store over mirror", "text": "A store listing is easier to evaluate than a random APK page."},
-      {"title": "No unauthorized files", "text": "This site does not host or recommend unauthorized Minecraft files or unsafe copies."}
+      {
+        "title": "Best first step",
+        "text": "Check the Bedrock add-on path before hunting for APK files."
+      },
+      {
+        "title": "Store over mirror",
+        "text": "A store listing is easier to evaluate than a random APK page."
+      },
+      {
+        "title": "No unauthorized files",
+        "text": "This site does not host or recommend unauthorized Minecraft files or unsafe copies."
+      }
     ]
   },
   "related": {
@@ -81,9 +145,21 @@
     "title": "More Verity Minecraft PE Help",
     "description": "Use these pages to continue with the safer source path.",
     "links": [
-      {"title": "Bedrock Download", "url": "/bedrock/", "text": "Use this if your mobile Minecraft imports .mcaddon files."},
-      {"title": "How to Install", "url": "/how-to-install/", "text": "Follow platform-specific install steps."},
-      {"title": "Versions", "url": "/versions/", "text": "Check known source and version notes."}
+      {
+        "title": "Bedrock Download",
+        "url": "/bedrock/",
+        "text": "Use this if your mobile Minecraft imports .mcaddon files."
+      },
+      {
+        "title": "How to Install",
+        "url": "/how-to-install/",
+        "text": "Follow platform-specific install steps."
+      },
+      {
+        "title": "Versions",
+        "url": "/versions/",
+        "text": "Check known source and version notes."
+      }
     ]
   },
   "extra": {
@@ -96,19 +172,40 @@
       "Before using any Verity Mod Minecraft PE download source, compare the words on the page with the action you expect. Import language usually points toward an add-on, install language may point toward an app, and unlocked or unauthorized wording is a reason to leave. The safest result is the one that explains the source and file type before the button."
     ],
     "cards": [
-      {"title": "Add-on or app", "text": "Identify whether the result installs into Minecraft or installs as a separate app."},
-      {"title": "Permission check", "text": "For store apps, read permissions and reviews before installing."},
-      {"title": "Mirror warning", "text": "Avoid APK pages that cannot explain source, version, or developer identity."}
+      {
+        "title": "Add-on or app",
+        "text": "Identify whether the result installs into Minecraft or installs as a separate app."
+      },
+      {
+        "title": "Permission check",
+        "text": "For store apps, read permissions and reviews before installing."
+      },
+      {
+        "title": "Mirror warning",
+        "text": "Avoid APK pages that cannot explain source, version, or developer identity."
+      }
     ]
   },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Verity Minecraft PE FAQ",
     "items": [
-      {"question": "Is Verity Minecraft PE the same as Bedrock?", "answer": "Many PE-style searches refer to mobile Bedrock behavior, but pages use the terms inconsistently. If your Minecraft app can import add-ons, start with the Bedrock .mcaddon path."},
-      {"question": "Should I download a Verity Minecraft APK?", "answer": "Only use APK-style sources when you clearly understand the developer and source. Random APK mirrors are not recommended because they can be stale or unsafe."},
-      {"question": "Can I install the Bedrock add-on on mobile?", "answer": "Some mobile setups can import .mcaddon files, but device behavior varies. Check your Minecraft app and test in a backup world."},
-      {"question": "Does this site host APK files?", "answer": "No. This site provides guidance and source links. It does not host APK mirrors, unauthorized Minecraft files, or unsafe copies."}
+      {
+        "question": "Is Verity Minecraft PE the same as Bedrock?",
+        "answer": "Many PE-style searches refer to mobile Bedrock behavior, but pages use the terms inconsistently. If your Minecraft app can import add-ons, start with the Bedrock .mcaddon path."
+      },
+      {
+        "question": "Should I download a Verity Minecraft APK?",
+        "answer": "Only use APK-style sources when you clearly understand the developer and source. Random APK mirrors are not recommended because they can be stale or unsafe."
+      },
+      {
+        "question": "Can I install the Bedrock add-on on mobile?",
+        "answer": "Some mobile setups can import .mcaddon files, but device behavior varies. Check your Minecraft app and test in a backup world."
+      },
+      {
+        "question": "Does this site host APK files?",
+        "answer": "No. This site provides guidance and source links. It does not host APK mirrors, unauthorized Minecraft files, or unsafe copies."
+      }
     ]
   }
 }

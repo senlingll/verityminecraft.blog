@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "title": "Utiliser des packs de ressources téléchargés dans Minecraft Bedrock",
+    "description": "Guide pour importer, vérifier et activer un pack de ressources Minecraft Bedrock avec contrôle de source, fichiers .mcpack/.mcaddon et dépannage.",
+    "image": "/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Comment utiliser des packs de ressources téléchargés dans Minecraft Bedrock : 7 étapes sûres",
+    "lede": "Si un pack de ressources Bedrock téléchargé n'apparaît pas en jeu, le problème vient souvent du type de fichier, de l'importation, de l'activation dans le monde ou d'une source copiée trop ancienne.",
+    "support": "La méthode sûre consiste à vérifier la source, garder l'extension, importer le pack, l'activer dans une copie du monde, puis dépanner sans courir vers un autre miroir.",
+    "actions": [
+      {
+        "label": "Voir Bedrock",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Guide d'installation",
+        "url": "/how-to-install/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+      "alt": "Flux d'importation et activation d'un pack Bedrock",
+      "caption": "Télécharger, importer et activer sont trois étapes."
+    }
+  },
+  "answer": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Réponse rapide : importer le pack puis l'activer dans le monde",
+    "paragraphs": [
+      "Pour utiliser un pack de ressources téléchargé dans Minecraft Bedrock, vérifiez d'abord que le fichier est prévu pour Bedrock et qu'il utilise un format comme .mcpack, .mcaddon ou une structure ZIP Bedrock valide. Ouvrez ensuite le fichier avec Minecraft, attendez le message d'importation, puis activez-le dans les paramètres du monde.",
+      "Le téléchargement ne suffit pas. Bedrock peut importer le pack sans l'appliquer au monde actif. Testez-le dans une copie, surtout si le fichier contient aussi un pack de comportement."
+    ],
+    "cards": [
+      {
+        "title": "Bon format",
+        "text": "Cherchez Bedrock, .mcpack ou .mcaddon."
+      },
+      {
+        "title": "Test propre",
+        "text": "Utilisez une copie du monde avant votre sauvegarde principale."
+      },
+      {
+        "title": "Bonne source",
+        "text": "Préférez une page officielle, créateur, CurseForge ou MCPEDL avec date et version."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "7 étapes pour utiliser un pack de ressources Bedrock",
+    "description": "Suivez l'ordre : la source, l'importation et l'activation font partie du même contrôle.",
+    "items": [
+      {
+        "title": "Vérifier Bedrock",
+        "text": "La source doit mentionner Bedrock, MCPE, .mcpack ou .mcaddon."
+      },
+      {
+        "title": "Garder l'extension",
+        "text": "Ne renommez pas un ZIP Java en .mcpack sans consigne du créateur."
+      },
+      {
+        "title": "Lire la source",
+        "text": "Contrôlez date, version, commentaires et instructions."
+      },
+      {
+        "title": "Importer",
+        "text": "Ouvrez le fichier avec Minecraft ou utilisez le gestionnaire de fichiers."
+      },
+      {
+        "title": "Attendre le message",
+        "text": "Minecraft doit annoncer la réussite ou l'échec de l'import."
+      },
+      {
+        "title": "Activer",
+        "text": "Placez le pack dans Actifs dans les paramètres du monde."
+      },
+      {
+        "title": "Tester",
+        "text": "Chargez une copie et vérifiez un élément modifié."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Vérifier la source avant toute importation",
+    "paragraphs": [
+      "La source est le premier contrôle. Les résultats SERP mélangent vidéos, annuaires et pages de packs.",
+      "Une bonne source montre créateur, format, date, versions et notes.",
+      "Pour Verity, cela évite de mélanger Bedrock add-on et Java .jar.",
+      "Le mot latest ne suffit pas : vérifiez plateforme, notes et sauvegarde."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-file-check.webp",
+      "alt": "Comparaison source fiable et miroir risqué",
+      "caption": "La date, le créateur et le format comptent."
+    }
+  },
+  "table": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Pack de ressources, pack de comportement ou add-on ?",
+    "description": "Le libellé du fichier indique où l'activer et comment le tester.",
+    "headers": [
+      "Type",
+      "Effet",
+      "Action"
+    ],
+    "rows": [
+      [
+        "Pack de ressources",
+        "Textures, sons, modèles, interface",
+        "Activer dans Resource Packs."
+      ],
+      [
+        "Pack de comportement",
+        "Règles, entités, fonctions",
+        "Tester dans une copie."
+      ],
+      [
+        "Add-on / .mcaddon",
+        "Peut réunir les deux",
+        "Activer toutes les parties."
+      ],
+      [
+        "Pack Java",
+        "Pour Java Edition",
+        "Ne pas supposer la compatibilité Bedrock."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Activer d'abord le pack dans un monde de test",
+    "paragraphs": [
+      "Après import, activez encore le pack dans le monde.",
+      "Un behavior pack demande plus de prudence car il peut modifier le gameplay.",
+      "Si rien n'apparaît, redémarrez Minecraft et désactivez les autres packs.",
+      "La version indiquée par la source aide le dépannage."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-world-activation.webp",
+      "alt": "Activation dans un monde de test Bedrock",
+      "caption": "Testez dans une copie avant votre monde principal."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Erreurs courantes quand un pack Bedrock ne fonctionne pas",
+    "description": "Les causes les plus fréquentes sont le mauvais format, l'oubli d'activation, une source faible ou un conflit de packs.",
+    "cards": [
+      {
+        "title": "Prendre la version Java",
+        "text": "Le flux Java n'est pas celui de Bedrock."
+      },
+      {
+        "title": "Oublier l'activation",
+        "text": "Importer ne veut pas dire activer."
+      },
+      {
+        "title": "Utiliser un vieux miroir",
+        "text": "Il peut être obsolète."
+      },
+      {
+        "title": "Tester avec trop de packs",
+        "text": "Les packs peuvent se remplacer entre eux."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Guides Verity Minecraft liés",
+    "description": "Utilisez ces pages si le problème dépasse le simple resource pack.",
+    "links": [
+      {
+        "title": "Verity Bedrock Download",
+        "url": "/bedrock/",
+        "text": "Use this for the Verity .mcaddon source path.",
+        "cta": "Open Bedrock guide"
+      },
+      {
+        "title": "How to Install Verity Minecraft",
+        "url": "/how-to-install/",
+        "text": "Use this for Java, Bedrock, and PE setup differences.",
+        "cta": "Read install guide"
+      },
+      {
+        "title": "Verity Minecraft Versions",
+        "url": "/versions/",
+        "text": "Use this to compare current source snapshots and platform notes.",
+        "cta": "Check versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Guide resource pack Bedrock",
+    "title": "Sources utilisées",
+    "description": "Ces références appuient le flux Bedrock. Revérifiez toujours la source du pack précis.",
+    "links": [
+      {
+        "title": "Microsoft Bedrock resource pack documentation",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Référence officielle ou de première main utilisée pour vérifier le fonctionnement Bedrock.",
+        "cta": "Ouvrir"
+      },
+      {
+        "title": "Minecraft Bedrock Add-Ons FAQ",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Référence officielle ou de première main utilisée pour vérifier le fonctionnement Bedrock.",
+        "cta": "Ouvrir"
+      },
+      {
+        "title": "Verity Bedrock source listing",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+        "text": "Référence officielle ou de première main utilisée pour vérifier le fonctionnement Bedrock.",
+        "cta": "Ouvrir"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ Minecraft Bedrock resource pack",
+    "items": [
+      {
+        "question": "Comment utiliser un pack téléchargé ?",
+        "answer": "Importez le fichier Bedrock puis activez-le dans le monde."
+      },
+      {
+        "question": "Pourquoi il ne marche pas ?",
+        "answer": "Il peut ne pas être actif, être pour Java ou être masqué par un autre pack."
+      },
+      {
+        "question": "Où télécharger plus sûrement ?",
+        "answer": "Préférez sources officielles, créateur, CurseForge ou MCPEDL."
+      },
+      {
+        "question": "Un .mcaddon peut-il inclure deux packs ?",
+        "answer": "Oui, ressource et comportement peuvent être inclus."
+      },
+      {
+        "question": "Renommer un ZIP suffit-il ?",
+        "answer": "Non, seulement si le créateur le recommande."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Comment utiliser des packs de ressources téléchargés dans Minecraft Bedrock : 7 étapes sûres",
+      "description": "Guide pour importer, vérifier et activer un pack de ressources Minecraft Bedrock avec contrôle de source, fichiers .mcpack/.mcaddon et dépannage.",
+      "image": "https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+      "datePublished": "2026-07-23",
+      "dateModified": "2026-07-23",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/fr/bedrock-resource-packs/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Comment utiliser un pack téléchargé ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Importez le fichier Bedrock puis activez-le dans le monde."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi il ne marche pas ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il peut ne pas être actif, être pour Java ou être masqué par un autre pack."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où télécharger plus sûrement ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Préférez sources officielles, créateur, CurseForge ou MCPEDL."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un .mcaddon peut-il inclure deux packs ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, ressource et comportement peuvent être inclus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Renommer un ZIP suffit-il ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non, seulement si le créateur le recommande."
+          }
+        }
+      ]
+    }
+  }
+}

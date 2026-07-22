@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "title": "Minecraft Bedrockでダウンロードしたリソースパックを使う方法",
+    "description": "Minecraft Bedrockでダウンロードしたリソースパックを使う手順。配布元確認、.mcpack/.mcaddonのインポート、ワールドでの有効化、トラブル対策を整理します。",
+    "image": "/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "Minecraft Bedrockでダウンロードしたリソースパックを使う7つの安全手順",
+    "lede": "Minecraft Bedrock用のリソースパックをダウンロードしたのに反映されない場合、原因はファイル形式、インポート失敗、ワールドでの有効化忘れ、古いミラー配布のどれかであることが多いです。",
+    "support": "配布元を確認し、拡張子を保ったままインポートし、コピーしたワールドで有効化してから確認します。別のダウンロードを探す前にこの順序で切り分けます。",
+    "actions": [
+      {
+        "label": "Bedrockガイド",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "インストール手順",
+        "url": "/how-to-install/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+      "alt": "Bedrockリソースパックのインポートと有効化の流れ",
+      "caption": "ダウンロード、インポート、有効化は別の手順です。"
+    }
+  },
+  "answer": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "結論：インポート後、ワールドごとに有効化する",
+    "paragraphs": [
+      "Minecraft Bedrockでダウンロードしたリソースパックを使うには、まずBedrock向けの.mcpack、.mcaddon、または有効なBedrock用ZIP構造か確認します。次にMinecraftで開き、インポート完了の表示を確認し、対象ワールドの設定で有効化します。",
+      "ダウンロードしただけでは反映されません。Bedrockではインポート後もワールドごとの有効化が必要です。特にビヘイビア要素を含む場合は、必ずコピーしたワールドで試してください。"
+    ],
+    "cards": [
+      {
+        "title": "形式の確認",
+        "text": "Bedrock、.mcpack、.mcaddon表記を確認します。"
+      },
+      {
+        "title": "最初のテスト",
+        "text": "本番ではなくコピーしたワールドを使います。"
+      },
+      {
+        "title": "配布元",
+        "text": "作者、日付、バージョン、形式が分かるページを優先します。"
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "Bedrockリソースパックを使う7ステップ",
+    "description": "配布元、形式、有効化を順番に確認すると、反映されない原因を早く絞れます。",
+    "items": [
+      {
+        "title": "Bedrock向けか確認",
+        "text": "配布元にBedrock、MCPE、.mcpack、.mcaddonの記載があるか見ます。"
+      },
+      {
+        "title": "拡張子を保つ",
+        "text": "Java用ZIPを勝手に.mcpackへ変えないでください。"
+      },
+      {
+        "title": "配布元を読む",
+        "text": "更新日、対応バージョン、コメントを確認します。"
+      },
+      {
+        "title": "インポート",
+        "text": "Minecraftで開くかファイル管理から取り込みます。"
+      },
+      {
+        "title": "表示を待つ",
+        "text": "成功または失敗メッセージを確認します。"
+      },
+      {
+        "title": "ワールドで有効化",
+        "text": "設定でActive側へ移動します。"
+      },
+      {
+        "title": "反映を確認",
+        "text": "コピーしたワールドで変更箇所を見ます。"
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "インポート前に配布元を確認する",
+    "paragraphs": [
+      "最初に見るべきなのはボタンではなく配布元です。",
+      "良い配布元は作者、形式、日付、対応バージョンを示します。",
+      "これによりBedrockアドオンとJavaの.jarを混同しにくくなります。",
+      "latestという言葉だけで安全とは判断せず、プラットフォームと注記を確認します。"
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-file-check.webp",
+      "alt": "信頼できる配布元と危険なミラーの比較",
+      "caption": "日付、作者、形式が見える配布元を選びます。"
+    }
+  },
+  "table": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "リソースパック、ビヘイビアパック、アドオンの違い",
+    "description": "名前と形式で、どこで有効化し、どの程度慎重にテストすべきかが変わります。",
+    "headers": [
+      "種類",
+      "変わる内容",
+      "対応"
+    ],
+    "rows": [
+      [
+        "リソースパック",
+        "テクスチャ、音、モデル",
+        "Resource Packsで有効化"
+      ],
+      [
+        "ビヘイビアパック",
+        "ルール、エンティティ、関数",
+        "コピーでテスト"
+      ],
+      [
+        "アドオン / .mcaddon",
+        "両方を含む場合あり",
+        "必要な部分を有効化"
+      ],
+      [
+        "Javaパック",
+        "Java Edition向け",
+        "Bedrock互換と決めつけない"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "本番ワールドの前にテスト用コピーで有効化する",
+    "paragraphs": [
+      "インポート後もワールドで有効化が必要です。",
+      "ビヘイビアパックはゲーム挙動を変えるため慎重に試します。",
+      "表示されない場合は再起動し、他のパックを外して確認します。",
+      "対応バージョンの注記は重要な手がかりです。"
+    ],
+    "image": {
+      "src": "/static/images/bedrock-resource-packs/bedrock-resource-pack-world-activation.webp",
+      "alt": "テストワールドでパックを有効化する図",
+      "caption": "本番前にコピーしたワールドで試します。"
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "Bedrockパックが壊れて見えるよくある原因",
+    "description": "多くはエディション違い、配布元の不明確さ、有効化忘れ、他パックとの競合です。",
+    "cards": [
+      {
+        "title": "Java版を使う",
+        "text": "JavaとBedrockは同じ手順ではありません。"
+      },
+      {
+        "title": "有効化忘れ",
+        "text": "インポートと有効化は別です。"
+      },
+      {
+        "title": "古いミラー",
+        "text": "再配布ファイルは古いことがあります。"
+      },
+      {
+        "title": "複数パック同時テスト",
+        "text": "同じ素材を上書きする場合があります。"
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "関連するVerity Minecraftガイド",
+    "description": "リソースパック以外の問題なら、こちらのページも確認してください。",
+    "links": [
+      {
+        "title": "Verity Bedrock Download",
+        "url": "/bedrock/",
+        "text": "Use this for the Verity .mcaddon source path.",
+        "cta": "Open Bedrock guide"
+      },
+      {
+        "title": "How to Install Verity Minecraft",
+        "url": "/how-to-install/",
+        "text": "Use this for Java, Bedrock, and PE setup differences.",
+        "cta": "Read install guide"
+      },
+      {
+        "title": "Verity Minecraft Versions",
+        "url": "/versions/",
+        "text": "Use this to compare current source snapshots and platform notes.",
+        "cta": "Check versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Bedrockリソースパックガイド",
+    "title": "このガイドで参照した情報",
+    "description": "Bedrockのリソースパックとアドオンの流れを確認するための参照元です。個別のパック配布元は必ず再確認してください。",
+    "links": [
+      {
+        "title": "Microsoft Bedrock resource pack documentation",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Bedrockの挙動確認に使った公式または一次情報です。",
+        "cta": "参照元を開く"
+      },
+      {
+        "title": "Minecraft Bedrock Add-Ons FAQ",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Bedrockの挙動確認に使った公式または一次情報です。",
+        "cta": "参照元を開く"
+      },
+      {
+        "title": "Verity Bedrock source listing",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+        "text": "Bedrockの挙動確認に使った公式または一次情報です。",
+        "cta": "参照元を開く"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Minecraft BedrockリソースパックFAQ",
+    "items": [
+      {
+        "question": "Bedrockでパックを使うには？",
+        "answer": "インポートして対象ワールドで有効化します。"
+      },
+      {
+        "question": "反映されない理由は？",
+        "answer": "未有効、Java用、競合、再起動不足などです。"
+      },
+      {
+        "question": "どこで安全に入手する？",
+        "answer": "公式、作者、CurseForge、MCPEDLなどを優先します。"
+      },
+      {
+        "question": ".mcaddonは両方含められる？",
+        "answer": "はい、リソースとビヘイビアを含む場合があります。"
+      },
+      {
+        "question": "ZIPをリネームしてよい？",
+        "answer": "作者が明記した場合だけです。"
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Bedrockでダウンロードしたリソースパックを使う7つの安全手順",
+      "description": "Minecraft Bedrockでダウンロードしたリソースパックを使う手順。配布元確認、.mcpack/.mcaddonのインポート、ワールドでの有効化、トラブル対策を整理します。",
+      "image": "https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
+      "datePublished": "2026-07-23",
+      "dateModified": "2026-07-23",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/ja/bedrock-resource-packs/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bedrockでパックを使うには？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "インポートして対象ワールドで有効化します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "反映されない理由は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "未有効、Java用、競合、再起動不足などです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どこで安全に入手する？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "公式、作者、CurseForge、MCPEDLなどを優先します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": ".mcaddonは両方含められる？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、リソースとビヘイビアを含む場合があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ZIPをリネームしてよい？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "作者が明記した場合だけです。"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -10,3 +10,4 @@
 - [Verity Minecraft PE Guide](https://verityminecraft.blog/minecraft-pe/): PE, mobile, and APK search safety guidance.
 - [How to Install Verity Minecraft](https://verityminecraft.blog/how-to-install/): Step-by-step setup and troubleshooting.
 - [Verity Minecraft Versions](https://verityminecraft.blog/versions/): Version snapshot and compatibility notes.
+- Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/
