@@ -126,3 +126,7 @@ backend/wrangler.toml
 
 # Build outputs
 dist/
+/build/
+/output/
+/old/
+/artifacts/
