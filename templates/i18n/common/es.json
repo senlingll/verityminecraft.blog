@@ -84,5 +84,10 @@
     "description": "Not found",
     "keywords": "404",
     "home_cta": "Descargar"
+  },
+  "download_gate": {
+    "opening": "Abriendo fuente en {seconds}s",
+    "confirming": "Confirmando fuente: {url}",
+    "opened": "La fuente se abri? en una nueva pesta?a. Revisa plataforma, versi?n y tipo de archivo antes de descargar."
   }
 }

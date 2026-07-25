@@ -12,7 +12,7 @@
   "download": {
     "cta": "Download Bedrock Add-on",
     "secondary_cta": "Read Install Guide",
-    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
     "note": "You will leave for the verified Bedrock source after the 15-second confirmation."
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "Known file",
-        "value": "ThatMob's Verity 2.1.0 / V26.30"
+        "value": "ThatMob's Verity 3.1.0 / V26.30"
       },
       {
         "label": "File type",
@@ -36,7 +36,7 @@
       },
       {
         "label": "Last checked",
-        "value": "July 23, 2026"
+        "value": "July 25, 2026"
       }
     ]
   },

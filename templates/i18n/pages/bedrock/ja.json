@@ -12,7 +12,7 @@
   "download": {
     "cta": "ダウンロード Bedrock",
     "secondary_cta": "ガイド",
-    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
     "note": "安全な手順は、Java、Bedrock、PE を選び、期待されるファイルを確認し、ソースページから入手し、コピーしたワールドや新しいプロファイルで試すことです。"
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "バージョン",
-        "value": "ThatMob's Verity 2.1.0 / V26.30"
+        "value": "ThatMob's Verity 3.1.0 / V26.30"
       },
       {
         "label": "File",
@@ -36,7 +36,7 @@
       },
       {
         "label": "最終確認",
-        "value": "2026年7月22日"
+        "value": "2026年7月25日"
       }
     ]
   },

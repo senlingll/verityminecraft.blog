@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Verity Minecraft 다운로드 - Java, Bedrock, PE",
-    "description": "Verity Minecraft 다운로드를 Java, Bedrock, PE별로 정리하고 출처, 버전, 설치, 안전 확인을 안내합니다."
+    "title": "Verity Mod 다운로드 - Verity Minecraft Java, Bedrock, PE",
+    "description": "Verity Minecraft Java, Bedrock, PE용 Verity mod 다운로드 가이드입니다. 확인한 소스, 버전, 설치 단계, 안전 메모를 정리합니다."
   },
   "schema": {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Verity Minecraft 다운로드",
+    "name": "Verity Mod 다운로드",
     "url": "https://verityminecraft.blog/ko/",
-    "description": "Verity Minecraft 다운로드를 Java, Bedrock, PE별로 정리하고 출처, 버전, 설치, 안전 확인을 안내합니다."
+    "description": "Java, Bedrock, PE의 Verity mod 및 Verity Minecraft 사용자를 위한 다운로드 허브입니다."
   },
   "home": {
     "nav": {
@@ -16,241 +16,236 @@
       "compare": "Java vs Bedrock",
       "install": "설치",
       "versions": "버전",
-      "safety": "안전 확인",
-      "faq": "자주 묻는 질문"
+      "safety": "안전",
+      "faq": "FAQ"
     },
     "actions": {
       "download": "다운로드",
       "view_versions": "버전 보기",
-      "install_guide": "가이드",
-      "source": "출처 페이지"
+      "install_guide": "설치 가이드",
+      "source": "소스 페이지"
     },
     "hero": {
-      "eyebrow": "출처 페이지",
-      "title": "Verity Minecraft 다운로드",
-      "highlight": "Java, Bedrock, PE",
-      "lede": "Verity Minecraft 다운로드 는 먼저 에디션을 확인해야 합니다. Java, Bedrock, PE 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
-      "support": "Verity Minecraft 다운로드 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다.",
+      "eyebrow": "확인된 소스 다운로드 허브",
+      "title": "Verity Mod 다운로드",
+      "highlight": "Verity Minecraft Java, Bedrock, PE",
+      "lede": "설치 전 에디션에 맞는 Verity mod 파일과 Verity Minecraft 경로를 선택하세요. 이 페이지는 Bedrock 애드온, Java 모드, CurseForge 모드팩, Minecraft PE식 모바일 안내를 구분합니다.",
+      "support": "주요 버튼은 임의 미러가 아니라 관리되는 소스나 스토어 페이지로 연결됩니다. 선택기, 버전 표, 기기별 설치 단계를 차례로 확인하세요.",
       "facts": [
         {
-          "label": "주요 목적",
-          "value": "다운로드"
+          "label": "주요 의도",
+          "value": "Download"
         },
         {
-          "label": "플랫폼",
+          "label": "모드 경로",
           "value": "Java / Bedrock / PE"
         },
         {
           "label": "마지막 확인",
-          "value": "2026년 7월 22일"
+          "value": "2026년 7월 25일"
         }
-      ]
+      ],
+      "facts_aria": "Verity Minecraft ???? ??"
     },
     "downloads": {
-      "eyebrow": "다운로드",
-      "title": "Verity Minecraft 다운로드",
-      "description": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다. 출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 다운로드 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
-      "status_note": "15 seconds / 15秒 / 15 segundos",
+      "eyebrow": "여기서 시작",
+      "title": "플랫폼별 Verity Mod 다운로드",
+      "description": "이 Verity mod 다운로드 가이드는 잘못된 파일을 피하기 위한 것입니다. Bedrock은 애드온 패키지, Java는 모드 또는 모드팩, PE는 Bedrock 경로나 모바일 페이지를 확인해야 합니다.",
+      "status_note": "다운로드는 사이트를 떠나기 전에 15초 확인을 사용합니다.",
       "cards": [
         {
-          "platform": "Bedrock",
-          "title": "Verity Bedrock Add-on",
-          "description": "Bedrock .mcaddon 가이드",
-          "version": "ThatMob's Verity 2.1.0 / V26.30",
-          "minecraft": "Bedrock add-on",
+          "platform": "Bedrock Edition",
+          "title": "Bedrock용 Verity Mod 애드온",
+          "description": "Minecraft Bedrock, Windows Bedrock, 모바일 Bedrock, .mcaddon 파일을 가져올 수 있는 PE 환경에 적합합니다.",
+          "version": "ThatMob's Verity 3.1.0 / V26.30",
+          "minecraft": "Bedrock 애드온",
           "file_type": ".mcaddon",
           "source": "CurseForge",
-          "status": "출처 페이지",
-          "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+          "status": "Bedrock 기본 소스",
+          "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
           "page_url": "/bedrock/",
-          "cta": "다운로드 Bedrock"
+          "cta": "Bedrock 다운로드"
         },
         {
-          "platform": "Java",
-          "title": "Verity JE Mod",
-          "description": "Java .jar 가이드",
+          "platform": "Java Edition",
+          "title": "Java Edition용 Verity Mod",
+          "description": "호환 로더와 프로젝트 페이지의 Minecraft 버전을 확인할 수 있는 Java 플레이어에게 적합합니다.",
           "version": "verity-5.7.3.jar",
-          "minecraft": "1.21.1 / 1.20.1",
+          "minecraft": "Forge 1.20.1 / NeoForge 1.21.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
-          "status": "출처 페이지",
+          "status": "Java 소스 경로",
           "url": "https://www.curseforge.com/minecraft/mc-mods/verity-je/download/8461257",
           "page_url": "/java/",
-          "cta": "다운로드 Java"
+          "cta": "Java 모드 다운로드"
         },
         {
           "platform": "Minecraft PE",
-          "title": "Verity Mod Minecraft PE",
-          "description": "PE / Mobile 안전 확인",
-          "version": "Varies",
-          "minecraft": "Mobile Bedrock / PE",
-          "file_type": ".mcaddon / app",
-          "source": "Google Play / Bedrock",
-          "status": "안전 확인",
+          "title": "Verity Mod PE / 모바일 안내",
+          "description": "Verity Minecraft PE, Verity mod APK 또는 모바일 안내를 찾았고 외부 소스를 열기 전에 확인이 필요할 때 적합합니다.",
+          "version": "소스에 따라 다름",
+          "minecraft": "모바일 Bedrock / PE",
+          "file_type": ".mcaddon 또는 앱 페이지",
+          "source": "Bedrock 애드온 / Google Play",
+          "status": "주의해서 확인",
           "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.verity.stalker.mobs.birchappsmcpe",
           "page_url": "/minecraft-pe/",
-          "cta": "다운로드 PE"
+          "cta": "PE 소스 열기"
         }
-      ]
+      ],
+      "fact_labels": {
+        "version": "??",
+        "file": "??",
+        "source": "??"
+      }
     },
     "table": {
-      "eyebrow": "버전",
-      "title": "Verity Minecraft 다운로드 - Java, Bedrock, PE",
-      "description": "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다.",
+      "eyebrow": "최신 정보",
+      "title": "확인된 버전 요약",
+      "description": "다운로드 전에 Verity mod와 Verity Minecraft 요약을 확인하세요. 소스 페이지가 더 새 버전을 표시하면 소스를 우선합니다.",
       "headers": [
         "플랫폼",
-        "출처 페이지",
-        "버전",
-        "File",
-        "가이드"
+        "권장 소스",
+        "확인 버전",
+        "파일 형식",
+        "다음 단계"
       ],
       "rows": [
         [
           "Bedrock",
-          "CurseForge",
-          "ThatMob's Verity 2.1.0 / V26.30",
+          "CurseForge Verity - Bedrock Edition",
+          "ThatMob's Verity 3.1.0 / V26.30",
           ".mcaddon",
-          "다운로드"
+          "Bedrock 애드온 다운로드"
         ],
         [
           "Java",
-          "CurseForge / Modrinth",
-          "verity-5.7.3.jar",
+          "CurseForge Verity JE 또는 Modrinth Verity JE",
+          "verity-5.7.3.jar / NeoForge 3.4.1",
           ".jar",
-          "설치"
+          "로더와 Minecraft 버전 확인"
         ],
         [
-          "PE / Mobile",
-          "Google Play / Bedrock",
-          "Varies",
-          ".mcaddon / app",
-          "안전 확인"
+          "PE / 모바일",
+          "Bedrock 애드온 또는 Google Play",
+          "소스에 따라 다름",
+          ".mcaddon / 앱",
+          "알 수 없는 APK 미러 피하기"
         ]
       ]
     },
     "compare": {
-      "eyebrow": "Java vs Bedrock",
-      "title": "Java vs Bedrock: Verity Minecraft 다운로드",
-      "description": "Verity Minecraft 다운로드 는 먼저 에디션을 확인해야 합니다. Java, Bedrock, PE 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다. 안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
+      "eyebrow": "올바르게 선택",
+      "title": "Java vs Bedrock: 어떤 Verity Mod 다운로드가 필요할까요?",
+      "description": "대부분의 오류는 넓은 검색어가 잘못된 에디션 파일로 이어질 때 발생합니다. Java와 Bedrock은 모드 설치 방식이 다릅니다.",
       "items": [
         {
-          "title": "Bedrock",
-          "text": "Verity Minecraft 다운로드 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+          "title": "Bedrock을 선택할 때",
+          "text": "Windows, 모바일 또는 .mcaddon 애드온을 가져올 수 있는 Minecraft Bedrock 환경에서 플레이할 때."
         },
         {
-          "title": "Java",
-          "text": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+          "title": "Java를 선택할 때",
+          "text": "Minecraft Java Edition에서 CurseForge나 Modrinth의 Verity mod를 설치할 수 있는 로더나 런처를 사용할 때."
         },
         {
-          "title": "PE",
-          "text": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 다운로드 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다."
+          "title": "PE 안내를 선택할 때",
+          "text": "Verity Minecraft PE, MCPE, APK를 검색했고 모바일 소스를 열기 전에 확인이 필요할 때."
         }
       ]
     },
     "install": {
-      "eyebrow": "설치",
-      "title": "설치 Verity Minecraft",
-      "description": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
+      "eyebrow": "설치 흐름",
+      "title": "Verity Mod와 Verity Minecraft를 안전하게 설치하는 방법",
+      "description": "단계는 에디션마다 다르지만 원칙은 같습니다. 소스 확인, 파일 형식 확인, 복사본에서 테스트하세요.",
       "steps": [
         {
-          "title": "가이드 1",
-          "text": "Verity Minecraft 다운로드 는 먼저 에디션을 확인해야 합니다. Verity Minecraft 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+          "title": "에디션 선택",
+          "text": "선택기에서 Bedrock, Java, PE를 고릅니다. Java .jar를 Bedrock에 넣거나 Bedrock .mcaddon을 Java mods 폴더에 넣지 마세요."
         },
         {
-          "title": "가이드 2",
-          "text": "Verity Minecraft 다운로드 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+          "title": "소스 열기",
+          "text": "버튼은 카운트다운 후 CurseForge, Modrinth 또는 지정된 스토어 페이지를 엽니다."
         },
         {
-          "title": "가이드 3",
-          "text": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+          "title": "호환성 확인",
+          "text": "소스에서 Minecraft 버전, 로더, 애드온 요구 사항, 날짜, 파일 형식을 확인하세요."
         },
         {
-          "title": "가이드 4",
-          "text": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 다운로드 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다."
-        },
-        {
-          "title": "가이드 5",
-          "text": "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다."
+          "title": "복사한 월드에서 테스트",
+          "text": "호러나 엔티티 애드온은 메인 월드에 적용하기 전에 복사본에서 확인하세요."
         }
       ]
     },
     "safety": {
-      "eyebrow": "안전 확인",
-      "title": "Verity Minecraft 다운로드 안전 확인",
+      "eyebrow": "다운로드 안전",
+      "title": "이 페이지가 임의 미러를 피하는 이유",
       "paragraphs": [
-        "Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드와 Verity Minecraft 다운로드 출처 가이드 요약을 제공합니다.",
-        "Verity Minecraft 다운로드 가이드, Verity Minecraft 다운로드 출처 확인, Verity Minecraft 다운로드 버전 확인을 한 흐름으로 정리해 Java, Bedrock, PE에서 잘못된 파일을 피하게 합니다.",
-        "이 섹션은 Verity Minecraft 다운로드 안전 경로, Verity Minecraft 다운로드 플랫폼별 설치, Verity Minecraft 다운로드 호환성 메모를 함께 정리합니다.",
-        "Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드와 Verity Minecraft 다운로드 출처 가이드 요약을 제공합니다.",
-        "Verity Minecraft 다운로드 가이드, Verity Minecraft 다운로드 출처 확인, Verity Minecraft 다운로드 버전 확인을 한 흐름으로 정리해 Java, Bedrock, PE에서 잘못된 파일을 피하게 합니다.",
-        "이 섹션은 Verity Minecraft 다운로드 안전 경로, Verity Minecraft 다운로드 플랫폼별 설치, Verity Minecraft 다운로드 호환성 메모를 함께 정리합니다.",
-        "Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드와 Verity Minecraft 다운로드 출처 가이드 요약을 제공합니다.",
-        "Verity Minecraft 다운로드 가이드, Verity Minecraft 다운로드 출처 확인, Verity Minecraft 다운로드 버전 확인을 한 흐름으로 정리해 Java, Bedrock, PE에서 잘못된 파일을 피하게 합니다.",
-        "이 섹션은 Verity Minecraft 다운로드 안전 경로, Verity Minecraft 다운로드 플랫폼별 설치, Verity Minecraft 다운로드 호환성 메모를 함께 정리합니다.",
-        "Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드와 Verity Minecraft 다운로드 출처 가이드 요약을 제공합니다.",
-        "Verity Minecraft 다운로드 가이드, Verity Minecraft 다운로드 출처 확인, Verity Minecraft 다운로드 버전 확인을 한 흐름으로 정리해 Java, Bedrock, PE에서 잘못된 파일을 피하게 합니다.",
-        "이 섹션은 Verity Minecraft 다운로드 안전 경로, Verity Minecraft 다운로드 플랫폼별 설치, Verity Minecraft 다운로드 호환성 메모를 함께 정리합니다.",
-        "Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드, Verity Minecraft 다운로드 출처 가이드와 Verity Minecraft 다운로드 출처 가이드 요약을 제공합니다.",
-        "Verity Minecraft 다운로드 가이드, Verity Minecraft 다운로드 출처 확인, Verity Minecraft 다운로드 버전 확인을 한 흐름으로 정리해 Java, Bedrock, PE에서 잘못된 파일을 피하게 합니다.",
-        "이 섹션은 Verity Minecraft 다운로드 안전 경로, Verity Minecraft 다운로드 플랫폼별 설치, Verity Minecraft 다운로드 호환성 메모를 함께 정리합니다.",
-        "Verity Minecraft 다운로드 는 먼저 에디션을 확인해야 합니다. Java, Bedrock, PE 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
-        "Verity Minecraft 다운로드 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다.",
-        "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
-        "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 다운로드 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
-        "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다."
+        "Minecraft 모드 검색은 재호스팅 파일, APK 페이지, 복사된 설명으로 이어질 수 있습니다. 그러면 Java, Bedrock, PE 구분이 흐려집니다.",
+        "이 페이지는 Verity mod 다운로드 가이드이며 미러가 아닙니다. 버튼은 플랫폼이나 제작자가 관리하는 소스로 연결됩니다.",
+        "첫 클릭을 더 안전하게 만들기 위해 Bedrock에는 .mcaddon 맥락, Java에는 로더 확인, PE에는 APK 페이지 주의를 제공합니다.",
+        "올바른 순서는 에디션 확인, 관리되는 소스 열기, 백업 월드나 깨끗한 프로필에서 테스트하는 것입니다.",
+        "Bedrock 소스는 2026년 7월 25일 확인했으며 ThatMob's Verity 3.1.0 / V26.30을 표시합니다. 다시 변경되면 소스를 우선하세요."
       ]
     },
     "versions": {
-      "eyebrow": "버전",
-      "title": "버전",
-      "description": "파일 이름, 확인 날짜, Minecraft 버전, 출처 URL을 적어 두면 나중에 오류가 생겼을 때 모든 모드나 애드온을 지우지 않고 원인을 좁힐 수 있습니다.",
+      "eyebrow": "호환성",
+      "title": "버전 및 호환성 페이지",
+      "description": "플랫폼별 Verity mod 안내, 이전 버전 맥락, 더 자세한 설치 절차가 필요할 때 관련 페이지를 사용하세요.",
       "links": [
         {
-          "title": "Bedrock",
+          "title": "Verity Mod Bedrock 다운로드",
           "url": "/bedrock/",
-          "text": "Bedrock .mcaddon 가이드"
+          "text": ".mcaddon 및 Bedrock 애드온 설치용."
         },
         {
-          "title": "Java",
+          "title": "Verity Mod Java 다운로드",
           "url": "/java/",
-          "text": "Java .jar 가이드"
+          "text": "Verity JE, Java 모드, 로더 확인용."
         },
         {
-          "title": "Minecraft PE",
+          "title": "Minecraft PE 가이드",
           "url": "/minecraft-pe/",
-          "text": "PE / Mobile 안전 확인"
+          "text": "PE, 모바일, APK 검색 및 소스 확인용."
         },
         {
-          "title": "설치",
+          "title": "설치 방법",
           "url": "/how-to-install/",
-          "text": "가이드"
+          "text": "각 에디션별 단계."
         },
         {
           "title": "버전",
           "url": "/versions/",
-          "text": "버전"
+          "text": "확인된 버전, 소스, 호환성."
         }
       ]
     },
     "faq": {
-      "eyebrow": "자주 묻는 질문",
-      "title": "Verity Minecraft 다운로드 자주 묻는 질문",
+      "eyebrow": "FAQ",
+      "title": "Verity Mod / Verity Minecraft 다운로드 FAQ",
       "items": [
         {
-          "question": "Verity Minecraft 다운로드 자주 묻는 질문 1?",
-          "answer": "Verity Minecraft 다운로드 는 먼저 에디션을 확인해야 합니다. Verity Minecraft 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다."
+          "question": "Bedrock용 최고의 Verity mod 다운로드는 무엇인가요?",
+          "answer": ".mcaddon이 필요하면 Bedrock 소스를 사용하세요. 확인된 소스는 ThatMob's Verity 3.1.0 / V26.30을 표시합니다."
         },
         {
-          "question": "Verity Minecraft 다운로드 자주 묻는 질문 2?",
-          "answer": "Verity Minecraft 다운로드 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다."
+          "question": "Minecraft Java Edition에서 Verity mod를 사용할 수 있나요?",
+          "answer": "네. Verity JE는 CurseForge와 Modrinth 같은 Java 플랫폼에 있습니다. 설치 전 로더와 Minecraft 버전을 확인하세요."
         },
         {
-          "question": "Verity Minecraft 다운로드 자주 묻는 질문 3?",
-          "answer": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
+          "question": "Verity Minecraft PE나 APK를 다운로드할 수 있나요?",
+          "answer": "일부 모바일 페이지는 APK 표현을 사용하지만 임의 APK 미러는 위험합니다. 먼저 Bedrock .mcaddon 경로가 충분한지 확인하세요."
         },
         {
-          "question": "Verity Minecraft 다운로드 자주 묻는 질문 4?",
-          "answer": "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 다운로드 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다."
+          "question": "이 사이트는 공식인가요?",
+          "answer": "아니요. 소스 페이지를 안내하고 플랫폼 차이를 설명하는 독립 가이드입니다."
+        },
+        {
+          "question": "왜 다운로드가 15초 기다리나요?",
+          "answer": "외부 소스를 명확히 보여주고 플랫폼, 소스, 파일 형식을 확인할 시간을 주기 위해서입니다."
+        },
+        {
+          "question": "기기만 알 때는 어떤 페이지를 쓰나요?",
+          "answer": "Bedrock과 모바일은 Bedrock 또는 PE에서, Java 런처 사용자는 Java에서 시작하세요."
         }
       ]
     }

@@ -1,6 +1,12 @@
 (() => {
   const links = document.querySelectorAll('[data-download-gate]');
   const status = document.querySelector('[data-download-status]');
+  const i18n = window.DownloadGateI18n || {};
+  const format = (template, values = {}) =>
+    String(template || '').replace(/\{(\w+)\}/g, (_, key) => values[key] ?? '');
+  const openingTemplate = i18n.opening || 'Opening source in {seconds}s';
+  const confirmingTemplate = i18n.confirming || 'Confirming source: {url}';
+  const openedText = i18n.opened || 'Source opened in a new tab. Check platform, version, and file type before downloading.';
 
   links.forEach((link) => {
     link.addEventListener('click', (event) => {
@@ -19,15 +25,15 @@
       let seconds = 15;
       link.dataset.counting = 'true';
       link.setAttribute('aria-disabled', 'true');
-      link.textContent = `Opening source in ${seconds}s`;
+      link.textContent = format(openingTemplate, { seconds });
 
       if (status) {
-        status.textContent = `Confirming source: ${href}`;
+        status.textContent = format(confirmingTemplate, { url: href });
       }
 
       const timer = window.setInterval(() => {
         seconds -= 1;
-        link.textContent = `Opening source in ${seconds}s`;
+        link.textContent = format(openingTemplate, { seconds });
 
         if (seconds <= 0) {
           window.clearInterval(timer);
@@ -37,7 +43,7 @@
           window.open(href, '_blank', 'noopener,noreferrer');
 
           if (status) {
-            status.textContent = 'Source opened in a new tab. Check platform, version, and file type before downloading.';
+            status.textContent = openedText;
           }
         }
       }, 1000);

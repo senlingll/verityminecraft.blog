@@ -12,7 +12,7 @@
   "download": {
     "cta": "다운로드 Bedrock",
     "secondary_cta": "가이드",
-    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8327253",
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
     "note": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "버전",
-        "value": "ThatMob's Verity 2.1.0 / V26.30"
+        "value": "ThatMob's Verity 3.1.0 / V26.30"
       },
       {
         "label": "File",
@@ -36,7 +36,7 @@
       },
       {
         "label": "마지막 확인",
-        "value": "2026년 7월 22일"
+        "value": "2026년 7월 25일"
       }
     ]
   },

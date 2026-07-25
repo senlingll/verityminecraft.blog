@@ -20,7 +20,7 @@
     "items": [
       {
         "label": "Bedrock known file",
-        "value": "ThatMob's Verity 2.1.0 / V26.30"
+        "value": "ThatMob's Verity 3.1.0 / V26.30"
       },
       {
         "label": "Java known file",
@@ -36,7 +36,7 @@
       },
       {
         "label": "Last checked",
-        "value": "July 23, 2026"
+        "value": "July 25, 2026"
       }
     ]
   },
@@ -99,7 +99,7 @@
     "rows": [
       [
         "Bedrock",
-        "ThatMob's Verity 2.1.0 / V26.30",
+        "ThatMob's Verity 3.1.0 / V26.30",
         "Bedrock add-on release",
         "CurseForge Bedrock listing"
       ],

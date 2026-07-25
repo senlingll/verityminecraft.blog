@@ -47,9 +47,9 @@
       <p class="hero-support">{{ home.hero.support }}</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#downloads"><span class="upload-icon" aria-hidden="true"></span>{{ home.actions.download }}</a>
-        <a class="btn btn-secondary" href="/how-to-install/"><span class="grid-icon" aria-hidden="true"></span>{{ home.actions.install_guide }}</a>
+        <a class="btn btn-secondary" href="{% if current_lang != 'en' %}/{{ current_lang }}/how-to-install/{% else %}/how-to-install/{% endif %}"><span class="grid-icon" aria-hidden="true"></span>{{ home.actions.install_guide }}</a>
       </div>
-      <div class="mini-features" aria-label="Verity Minecraft download facts">
+      <div class="mini-features" aria-label="{{ home.hero.facts_aria if home.hero.facts_aria else home.hero.title }}">
         {% for fact in home.hero.facts %}
         <div><strong>{{ fact.value }}</strong><small>{{ fact.label }}</small></div>
         {% endfor %}
@@ -67,9 +67,9 @@
             <h3>{{ card.title }}</h3>
             <p>{{ card.description }}</p>
             <dl class="download-facts">
-              <div><dt>Version</dt><dd>{{ card.version }}</dd></div>
-              <div><dt>File</dt><dd>{{ card.file_type }}</dd></div>
-              <div><dt>Source</dt><dd>{{ card.source }}</dd></div>
+              <div><dt>{{ home.downloads.fact_labels.version }}</dt><dd>{{ card.version }}</dd></div>
+              <div><dt>{{ home.downloads.fact_labels.file }}</dt><dd>{{ card.file_type }}</dd></div>
+              <div><dt>{{ home.downloads.fact_labels.source }}</dt><dd>{{ card.source }}</dd></div>
             </dl>
           </div>
           <div class="download-card-actions">
@@ -136,7 +136,7 @@
       </div>
       <div class="difference-cards">
         {% for card in home.downloads.cards %}
-        <article><h3>{{ card.platform }}</h3><p>{{ card.status }} · {{ card.minecraft }} · {{ card.source }}</p></article>
+        <article><h3>{{ card.platform }}</h3><p>{{ card.status }} &middot; {{ card.minecraft }} &middot; {{ card.source }}</p></article>
         {% endfor %}
       </div>
     </div>
@@ -170,5 +170,8 @@
 {% endblock %}
 
 {% block extra_js %}
+<script>
+  window.DownloadGateI18n = {{ common.download_gate|tojson }};
+</script>
 <script src="{{ url_for('static', filename='js/download-gate.js') }}"></script>
 {% endblock %}

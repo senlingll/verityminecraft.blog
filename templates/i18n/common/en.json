@@ -100,5 +100,10 @@
     "description": "The requested page could not be found.",
     "keywords": "404, page not found, error",
     "home_cta": "Go Home"
+  },
+  "download_gate": {
+    "opening": "Opening source in {seconds}s",
+    "confirming": "Confirming source: {url}",
+    "opened": "Source opened in a new tab. Check platform, version, and file type before downloading."
   }
 }

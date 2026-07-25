@@ -140,5 +140,8 @@
 {% endblock %}
 
 {% block extra_js %}
+<script>
+  window.DownloadGateI18n = {{ common.download_gate|tojson }};
+</script>
 <script src="{{ url_for('static', filename='js/download-gate.js') }}"></script>
 {% endblock %}
