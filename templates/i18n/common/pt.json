@@ -18,8 +18,8 @@
     "copyright_year": "2026"
   },
   "aria": {
-    "primary_navigation": "Área de download",
-    "footer_navigation": "Área de download",
+    "primary_navigation": "Navegação principal",
+    "footer_navigation": "Navegação do rodapé",
     "support_email": "support@verityminecraft.blog",
     "language_selector": "Português"
   },
@@ -60,7 +60,7 @@
     }
   },
   "navigation": {
-    "wiki": "Área de download",
+    "wiki": "Baixas",
     "guide": "Instalar",
     "database": "Versões",
     "progression": "Segurança",
@@ -68,15 +68,16 @@
     "faq": "Perguntas frequentes"
   },
   "footer": {
-    "description": "Guia independente de download do Verity Minecraft.",
-    "section_game": "Área de download",
+    "description": "Guia independente de baixamento do Verity Minecraft.",
+    "section_game": "Área de baixas",
     "section_legal": "Páginas do site",
     "about_us": "Sobre",
     "contact_us": "Contato",
     "privacy_policy": "Política de privacidade",
     "terms_of_service": "Termos de serviço",
-    "copyright": "Guia independente de download do Verity Minecraft.",
-    "disclaimer": "Guia independente de download do Verity Minecraft."
+    "copyright": "Guia independente de baixamento do Verity Minecraft.",
+    "disclaimer": "Guia independente de baixamento do Verity Minecraft.",
+    "bedrock_addons": "Addons Bedrock"
   },
   "error_404": {
     "code": "404",

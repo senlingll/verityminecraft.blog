@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "title": "How to Add Addons to Minecraft Bedrock: 7 Safe Steps",
+    "description": "Learn how to add addons to Minecraft Bedrock safely with .mcaddon checks, import steps, world activation, backup advice, and troubleshooting.",
+    "image": "/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "How to Add Addons to Minecraft Bedrock: 7 Safe Steps",
+    "lede": "To add addons to Minecraft Bedrock, first confirm that the file is meant for Bedrock, keep the original .mcaddon or .mcpack extension, open it with Minecraft, wait for the import message, and then activate the add-on in the world settings. A download alone does not change a world until the correct pack is active.",
+    "support": "This guide focuses on safe source checks, file-type decisions, import behavior, and what to do when an add-on appears to import but does not work. It is written for Verity Minecraft readers who may be moving between Java, Bedrock, PE, resource packs, and behavior packs.",
+    "actions": [
+      {
+        "label": "Check Verity Bedrock",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Resource pack help",
+        "url": "/bedrock-resource-packs/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+      "alt": "Editorial illustration of Source, Import, and Activate steps for a Bedrock add-on package",
+      "caption": "Illustration: add-ons need source checking, import, and world activation; this is not an official screenshot."
+    }
+  },
+  "answer": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "Quick Answer: Add the File, Then Activate It in a World",
+    "paragraphs": [
+      "The safest workflow is source first, file second, world third. Read the source page before you download, make sure it says Minecraft Bedrock or MCPE, then check that the file extension matches the expected package type. Bedrock add-ons commonly arrive as .mcaddon, .mcpack, or a zipped pack structure. A Java .jar file belongs to Java Edition and should not be forced into Bedrock.",
+      "After the file is downloaded, open it with Minecraft Bedrock rather than renaming it. On many devices this starts an import. When the import succeeds, open a copied test world, go to the world settings, and move the behavior pack or resource pack into the Active area. Some add-ons include both parts, so activate both if the source page says the add-on has dependencies.",
+      "If the add-on does nothing, do not immediately download another mirror. First check whether it is active in the target world, whether experiments are required, whether the Minecraft version matches the source notes, and whether you installed a resource pack when the add-on actually needs a behavior pack."
+    ],
+    "cards": [
+      {
+        "title": "Best file signal",
+        "text": "Look for .mcaddon or .mcpack plus explicit Bedrock wording on the source page."
+      },
+      {
+        "title": "Best safety habit",
+        "text": "Test in a copied world before using the add-on in a main survival or realm world."
+      },
+      {
+        "title": "Most common mistake",
+        "text": "Importing the file but forgetting to activate it in the specific world."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "7 Steps to Add Addons to Minecraft Bedrock",
+    "description": "Follow the order below. Most failed installs come from skipping the source check, using a Java file, or importing the add-on without activating it.",
+    "items": [
+      {
+        "title": "Choose a Bedrock source",
+        "text": "Use official, creator, marketplace, CurseForge, MCPEDL, or other maintained pages that show platform, update date, file type, and creator context."
+      },
+      {
+        "title": "Check the package type",
+        "text": "Prefer .mcaddon for a combined add-on or .mcpack for a single pack. Do not rename a Java .jar or Java resource pack and expect Bedrock to read it."
+      },
+      {
+        "title": "Read version notes",
+        "text": "Compare the listed Minecraft Bedrock version with your installed game. If the source page lists a newer file than this guide, the source page wins."
+      },
+      {
+        "title": "Back up the world",
+        "text": "Copy the target world before enabling behavior changes, experimental toggles, or packs that affect mobs, loot, recipes, or generation."
+      },
+      {
+        "title": "Open with Minecraft",
+        "text": "Use the platform's Open with Minecraft flow when available. Wait for the import message before changing world settings."
+      },
+      {
+        "title": "Activate required packs",
+        "text": "Open the world settings, move behavior packs and resource packs into Active, and accept dependency prompts only when they match the source page."
+      },
+      {
+        "title": "Test and troubleshoot",
+        "text": "Load the copied world, check whether the expected feature appears, then review active packs, dependencies, experiments, and version notes if it fails."
+      }
+    ]
+  },
+  "format_check": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "Know the Difference Between .mcaddon, .mcpack, and .jar",
+    "paragraphs": [
+      ".mcaddon usually packages add-on behavior and sometimes resource files together. .mcpack is often a single Bedrock pack, commonly a resource pack but not always enough for gameplay changes by itself. .jar is a Java mod file and belongs to the Java loader ecosystem, not to the Bedrock import flow.",
+      "This distinction matters for Verity Minecraft because the site separates Bedrock add-on downloads from Java mod downloads. If you searched for a Bedrock add-on but downloaded a Java .jar, the fix is not a rename; the fix is to return to the correct source family."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addon-file-types.webp",
+      "alt": "Comparison of .mcaddon, .mcpack, and .jar package types for Minecraft Bedrock add-ons",
+      "caption": "Use file type as an early filter before opening a downloaded add-on."
+    }
+  },
+  "table": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "Add-on Package Decision Table",
+    "description": "Use this table before importing a file from any download page.",
+    "headers": [
+      "Signal",
+      "What it usually means",
+      "What to do"
+    ],
+    "rows": [
+      [
+        ".mcaddon",
+        "Combined Bedrock add-on package",
+        "Open with Minecraft, then activate required packs."
+      ],
+      [
+        ".mcpack",
+        "Single Bedrock pack, often resource-focused",
+        "Import, then check whether a behavior pack is also required."
+      ],
+      [
+        ".jar",
+        "Java Edition mod file",
+        "Use the Java guide instead of trying to import it into Bedrock."
+      ],
+      [
+        "No version date",
+        "Weak source freshness signal",
+        "Look for a maintained source before downloading."
+      ],
+      [
+        "APK mirror",
+        "Usually unrelated to normal add-on import",
+        "Prefer the Bedrock add-on or official store/source path."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "Activate the Add-on in a Copied World",
+    "paragraphs": [
+      "Bedrock can import a package globally while leaving the current world unchanged. That is why a successful import message is not the same as a working add-on. Open the world settings, find behavior packs and resource packs, and move the required entries to Active.",
+      "A copied world protects your main save from broken dependencies, experimental settings, and unexpected mob or block behavior. If the add-on works in the copy, then decide whether to use it in the main world. If it does not work, remove it from the copy and review the source notes instead of stacking more packs on top."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addon-activation-flow.webp",
+      "alt": "Editorial timeline showing Backup, Settings, and Active steps for Bedrock add-ons",
+      "caption": "Backup first, then activate the add-on in the target world settings."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "Troubleshooting: Why the Add-on Does Not Show Up",
+    "description": "Start with the low-risk checks before replacing the file.",
+    "cards": [
+      {
+        "title": "Imported but inactive",
+        "text": "The file was imported, but the target world still has no active behavior or resource pack entry."
+      },
+      {
+        "title": "Wrong edition",
+        "text": "A Java file, Java resource pack, or Java-only mod will not behave like a Bedrock add-on."
+      },
+      {
+        "title": "Missing dependency",
+        "text": "Some add-ons require both behavior and resource packs, or ask for an experiment toggle."
+      },
+      {
+        "title": "Version mismatch",
+        "text": "A pack can import on a newer game but fail because the source page targets a different Bedrock version."
+      },
+      {
+        "title": "Stale mirror",
+        "text": "A mirror may rename, rehost, or delay updates. Prefer source pages with dates, comments, and creator context."
+      },
+      {
+        "title": "Server limits",
+        "text": "Realms and servers may require owner-side pack settings, so a personal-device install may not affect a shared world."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Related",
+    "title": "Related Verity Minecraft Guides",
+    "description": "Use these pages when the problem is the edition, version, or resource-pack side of the install.",
+    "links": [
+      {
+        "title": "Verity Bedrock Download",
+        "url": "/bedrock/",
+        "text": "Use the Verity .mcaddon source path and Bedrock download notes.",
+        "cta": "Open Bedrock guide"
+      },
+      {
+        "title": "How to Install Verity Minecraft",
+        "url": "/how-to-install/",
+        "text": "Compare Java, Bedrock, and PE install flows before choosing a file.",
+        "cta": "Read install guide"
+      },
+      {
+        "title": "Bedrock Resource Packs",
+        "url": "/bedrock-resource-packs/",
+        "text": "Use this when textures or resource packs import but do not appear in the world.",
+        "cta": "Read pack guide"
+      },
+      {
+        "title": "Verity Minecraft Versions",
+        "url": "/versions/",
+        "text": "Check current source snapshots and compatibility reminders.",
+        "cta": "Check versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Sources",
+    "title": "Official and Source References",
+    "description": "These references support the Bedrock add-on workflow and source-first safety checks. Always re-check the exact add-on page before downloading.",
+    "links": [
+      {
+        "title": "Minecraft Help Add-Ons FAQ",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Official Minecraft Help reference for Bedrock add-on concepts and platform context.",
+        "cta": "Open FAQ"
+      },
+      {
+        "title": "Microsoft Bedrock resource pack documentation",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Official creator documentation that explains Bedrock pack structure and packaging ideas.",
+        "cta": "Read docs"
+      },
+      {
+        "title": "Verity Bedrock source listing",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+        "text": "Source page checked for the current Verity Bedrock file path before publishing this guide.",
+        "cta": "Check source"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Bedrock add-ons guide",
+    "title": "Minecraft Bedrock Add-ons FAQ",
+    "items": [
+      {
+        "question": "How do I add addons to Minecraft Bedrock?",
+        "answer": "Download a Bedrock package from a maintained source, open it with Minecraft, wait for import, then activate the required behavior or resource pack in the target world settings."
+      },
+      {
+        "question": "Is .mcaddon the same as .mcpack?",
+        "answer": ".mcaddon often combines add-on parts, while .mcpack is usually one Bedrock pack. The source page should explain whether you need one or both."
+      },
+      {
+        "question": "Can I use Java .jar mods in Bedrock?",
+        "answer": "No. Java .jar mods need a Java Edition loader. Use the Java page if the file is a .jar."
+      },
+      {
+        "question": "Why did the add-on import but not work?",
+        "answer": "It may not be active in the world, may require another pack, may need an experiment toggle, or may target a different Bedrock version."
+      },
+      {
+        "question": "Where should I download Minecraft Bedrock addons?",
+        "answer": "Prefer official, creator, marketplace, CurseForge, MCPEDL, or maintained source pages with update dates, version notes, and creator context."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How to Add Addons to Minecraft Bedrock: 7 Safe Steps",
+      "description": "Learn how to add addons to Minecraft Bedrock safely with .mcaddon checks, import steps, world activation, backup advice, and troubleshooting.",
+      "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/bedrock-addons/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I add addons to Minecraft Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download a Bedrock package from a maintained source, open it with Minecraft, wait for import, then activate the required behavior or resource pack in the target world settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is .mcaddon the same as .mcpack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ".mcaddon often combines add-on parts, while .mcpack is usually one Bedrock pack. The source page should explain whether you need one or both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Java .jar mods in Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Java .jar mods need a Java Edition loader. Use the Java page if the file is a .jar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did the add-on import but not work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It may not be active in the world, may require another pack, may need an experiment toggle, or may target a different Bedrock version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where should I download Minecraft Bedrock addons?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prefer official, creator, marketplace, CurseForge, MCPEDL, or maintained source pages with update dates, version notes, and creator context."
+          }
+        }
+      ]
+    }
+  }
+}

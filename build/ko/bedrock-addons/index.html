@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마인크래프트 베드락 애드온 설치 방법 7단계</title>
+  <meta name="description"
+    content="마인크래프트 베드락 애드온 설치 방법을 .mcaddon 확인, 가져오기, 월드 활성화, 백업, 문제 해결 순서로 정리합니다.">
+  <meta name="google-adsense-account" content="ca-pub-8016227945839388">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/ko/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/bedrock-addons/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/bedrock-addons/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="마인크래프트 베드락 애드온 설치 방법 7단계">
+  <meta property="og:description" content="마인크래프트 베드락 애드온 설치 방법을 .mcaddon 확인, 가져오기, 월드 활성화, 백업, 문제 해결 순서로 정리합니다.">
+  <meta property="og:url" content="https://verityminecraft.blog/ko/bedrock-addons/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="마인크래프트 베드락 애드온 설치 방법 7단계">
+  <meta name="twitter:description" content="마인크래프트 베드락 애드온 설치 방법을 .mcaddon 확인, 가져오기, 월드 활성화, 백업, 문제 해결 순서로 정리합니다.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \ub2e4\uc6b4\ub85c\ub4dc\ub97c Java, Bedrock, PE\ubcc4\ub85c \uc815\ub9ac\ud558\uace0 \ucd9c\ucc98, \ubc84\uc804, \uc124\uce58, \uc548\uc804 \ud655\uc778\uc744 \uc548\ub0b4\ud569\ub2c8\ub2e4.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-07-26", "datePublished": "2026-07-26", "description": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \ubca0\ub4dc\ub77d \uc560\ub4dc\uc628 \uc124\uce58 \ubc29\ubc95\uc744 .mcaddon \ud655\uc778, \uac00\uc838\uc624\uae30, \uc6d4\ub4dc \ud65c\uc131\ud654, \ubc31\uc5c5, \ubb38\uc81c \ud574\uacb0 \uc21c\uc11c\ub85c \uc815\ub9ac\ud569\ub2c8\ub2e4.", "headline": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \ubca0\ub4dc\ub77d \uc560\ub4dc\uc628 \uc124\uce58 \ubc29\ubc95 7\ub2e8\uacc4", "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp", "mainEntityOfPage": "https://verityminecraft.blog/ko/bedrock-addons/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Bedrock \ud328\ud0a4\uc9c0\ub97c Minecraft\ub85c \uc5f4\uace0 \uac00\uc838\uc628 \ub4a4 \uc6d4\ub4dc\uc5d0\uc11c \ud65c\uc131\ud654\ud569\ub2c8\ub2e4."}, "name": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \ubca0\ub4dc\ub77d \uc560\ub4dc\uc628 \uc124\uce58 \ubc29\ubc95\uc740?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": ".mcaddon\uc740 \uc5ec\ub7ec \ubd80\ubd84\uc744 \ud3ec\ud568\ud558\ub294 \uacbd\uc6b0\uac00 \ub9ce\uace0 .mcpack\uc740 \ub2e8\uc77c \ud329\uc785\ub2c8\ub2e4."}, "name": ".mcaddon\uacfc .mcpack\uc740 \uac19\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\uc544\ub2c8\uc694. .jar\ub294 Java Edition\uc6a9\uc785\ub2c8\ub2e4."}, "name": ".jar\ub97c \uc4f8 \uc218 \uc788\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ube44\ud65c\uc131, \uc758\uc874\uc131, \uc2e4\ud5d8 \uc124\uc815, \ubc84\uc804 \ubb38\uc81c\uac00 \uc6d0\uc778\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4."}, "name": "\uc65c \uc791\ub3d9\ud558\uc9c0 \uc54a\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\uacf5\uc2dd, \uc81c\uc791\uc790, marketplace, CurseForge, MCPEDL \ub4f1 \uad00\ub9ac\ub418\ub294 \ucd9c\ucc98\ub97c \uc6b0\uc120\ud558\uc138\uc694."}, "name": "\uc5b4\ub514\uc11c \ub2e4\uc6b4\ub85c\ub4dc\ud558\ub098\uc694?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/ko/" aria-label="Verity Minecraft 홈">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="다운로드">
+      <a href="/ko/#downloads">다운로드</a>
+      <a href="/ko/#install">설치</a>
+      <a href="/ko/#versions">버전</a>
+      <a href="/ko/#safety">안전 확인</a>
+      <a href="/ko/#faq">자주 묻는 질문</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="한국어">한국어</summary>
+        <div class="language-options">
+          
+          <a href="/bedrock-addons/">English</a>
+          
+          <a href="/es/bedrock-addons/">Español</a>
+          
+          <a href="/ja/bedrock-addons/">日本語</a>
+          
+          <a href="/fr/bedrock-addons/">Français</a>
+          
+          <a href="/de/bedrock-addons/">Deutsch</a>
+          
+          <a href="/pt/bedrock-addons/">Português</a>
+          
+          <a href="/it/bedrock-addons/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/ko/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        다운로드
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Bedrock 애드온 안내</p>
+      <h1 id="article-title">마인크래프트 베드락 애드온 설치 방법 7단계</h1>
+      <p class="hero-lede">마인크래프트 베드락에 애드온을 추가하려면 먼저 Bedrock용 파일인지 확인하고 .mcaddon 또는 .mcpack 확장자를 유지한 채 Minecraft로 연 다음, 대상 월드 설정에서 필요한 팩을 활성화해야 합니다.</p>
+      <p class="hero-support">이 가이드는 Verity Minecraft 독자가 Java 모드, PE 검색어, 리소스 팩, Bedrock 애드온을 혼동하지 않도록 설치 흐름을 정리합니다.</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/ko/bedrock/">Bedrock 가이드</a>
+        
+        <a class="btn btn-secondary" href="/ko/bedrock-resource-packs/">리소스 팩</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/bedrock-addons/bedrock-addons-import-flow.webp" alt="Bedrock 애드온의 출처 확인, 가져오기, 활성화 단계를 보여 주는 편집용 일러스트" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <figcaption>일러스트: 다운로드만으로는 끝나지 않으며 가져오기와 월드 활성화가 필요합니다.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 안내</p>
+      <h2 id="answer-title">빠른 답변: 마인크래프트 베드락 애드온 설치 방법</h2>
+      <p>마인크래프트 베드락에 애드온을 추가하려면 먼저 Bedrock용 파일인지 확인하고 .mcaddon 또는 .mcpack 확장자를 유지한 채 Minecraft로 연 다음, 대상 월드 설정에서 필요한 팩을 활성화해야 합니다.</p><p>안전한 흐름은 같습니다. 출처를 확인하고, 파일 형식을 보고, 월드를 백업한 뒤 패키지를 가져오고 대상 월드에서 활성화합니다.</p><p>실패하면 다른 미러를 받기 전에 버전, 필요한 팩, 의존성, 실험 설정을 확인하세요.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>파일 신호</h3><p>.mcaddon 또는 .mcpack과 Bedrock 표기를 확인합니다.</p></article>
+      
+      <article class="feature-card"><h3>안전 습관</h3><p>기본 월드가 아닌 복사본에서 먼저 테스트합니다.</p></article>
+      
+      <article class="feature-card"><h3>흔한 실수</h3><p>가져온 뒤 대상 월드에서 활성화하지 않은 경우입니다.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 안내</p>
+      <h2 id="steps-title">단계: 마인크래프트 베드락 애드온 설치 방법</h2>
+      <p>출처, 파일, 버전, 백업, 가져오기, 활성화, 테스트 순서로 확인합니다.</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>Bedrock 출처 선택</h3><p>플랫폼, 날짜, 파일 형식, 제작자 정보가 있는 페이지를 사용합니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>패키지 확인</h3><p>.mcaddon 또는 .mcpack을 사용하고 Java .jar를 바꾸지 않습니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>버전 확인</h3><p>표기된 Bedrock 버전을 설치된 게임과 비교합니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>월드 백업</h3><p>행동 변경 전에 월드를 복사합니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>Minecraft로 열기</h3><p>가져오기 흐름을 사용하고 완료 메시지를 기다립니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>팩 활성화</h3><p>월드 설정에서 필요한 팩을 활성 상태로 옮깁니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>테스트</h3><p>활성 팩, 의존성, 실험 설정, 버전을 확인합니다.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="format-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">Bedrock 애드온 안내</p>
+        <h2 id="format-title">파일 형식: .mcaddon, .mcpack, .jar</h2>
+        <p>.mcaddon은 동작과 리소스를 함께 담는 경우가 많고, .mcpack은 단일 Bedrock 팩입니다. .jar는 Java Edition용입니다.</p><p>이 구분은 Verity Bedrock 다운로드와 Java 모드를 혼동하지 않게 해 줍니다.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/bedrock-addons/bedrock-addon-file-types.webp" alt="Minecraft Bedrock 애드온의 .mcaddon, .mcpack, .jar 파일 형식을 비교하는 편집용 일러스트" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>일러스트: 다운로드한 파일을 열기 전에 패키지 형식을 비교하세요.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 안내</p>
+      <h2 id="table-title">애드온 패키지 선택표</h2>
+      <p>다운로드 페이지의 파일을 가져오기 전에 이 표로 형식을 확인하세요.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="애드온 패키지 선택표">
+      <div role="row">
+        <strong>신호</strong><strong>의미</strong><strong>조치</strong>
+      </div>
+      
+      <div role="row">
+        <span>.mcaddon</span><span>Bedrock 통합 패키지</span><span>Minecraft로 열고 활성화합니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>.mcpack</span><span>단일 Bedrock 팩</span><span>가져온 뒤 의존성을 확인합니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>.jar</span><span>Java Edition 모드</span><span>Java 가이드를 사용합니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>날짜 없음</span><span>출처 신뢰도 낮음</span><span>관리되는 출처를 찾습니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>APK 미러</span><span>대개 불필요</span><span>Bedrock 출처나 공식 스토어를 우선합니다.</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/bedrock-addons/bedrock-addon-activation-flow.webp" alt="Bedrock 애드온의 백업, 설정, 월드 활성화 흐름을 보여 주는 편집용 타임라인" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>일러스트: 먼저 월드를 백업한 뒤 월드 설정에서 팩을 활성화하세요.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Bedrock 애드온 안내</p>
+        <h2 id="activate-title">복사한 월드에서 활성화</h2>
+        <p>Bedrock은 패키지를 가져와도 현재 월드에 자동 적용하지 않을 수 있습니다.</p><p>복사한 월드는 의존성과 실험 설정을 확인하는 동안 기본 저장 데이터를 보호합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 안내</p>
+      <h2 id="mistakes-title">흔한 오류</h2>
+      <p>파일을 바꾸기 전에 아래 항목을 먼저 확인하세요.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>가져왔지만 비활성</h3><p>대상 월드에서 팩이 활성화되지 않았습니다.</p></article>
+      
+      <article class="feature-card"><h3>에디션 오류</h3><p>Java 파일은 Bedrock 애드온으로 작동하지 않습니다.</p></article>
+      
+      <article class="feature-card"><h3>의존성 부족</h3><p>다른 팩이나 실험 설정이 필요할 수 있습니다.</p></article>
+      
+      <article class="feature-card"><h3>버전 불일치</h3><p>다른 Bedrock 버전용일 수 있습니다.</p></article>
+      
+      <article class="feature-card"><h3>오래된 미러</h3><p>날짜와 제작자 정보가 있는 출처를 우선합니다.</p></article>
+      
+      <article class="feature-card"><h3>서버 제한</h3><p>Realms와 서버는 소유자 설정이 필요할 수 있습니다.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 가이드</p>
+      <h2 id="related-title">관련 가이드</h2>
+      <p>에디션, 버전, 리소스 팩이 원인일 때 이 페이지들을 사용하세요.</p>
+    </div>
+    <div class="example-grid">
+      
+      <article class="example-card"><h3>Verity Bedrock 다운로드</h3><p>.mcaddon 출처와 Bedrock 안내.</p><a class="text-link" href="/ko/bedrock/">열기</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraft 설치</h3><p>Java, Bedrock, PE 흐름 비교.</p><a class="text-link" href="/ko/how-to-install/">읽기</a></article>
+      
+      <article class="example-card"><h3>Bedrock 리소스 팩</h3><p>텍스처나 리소스가 보이지 않을 때.</p><a class="text-link" href="/ko/bedrock-resource-packs/">읽기</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraft 버전</h3><p>호환성 확인.</p><a class="text-link" href="/ko/versions/">보기</a></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 가이드</p>
+      <h2 id="sources-title">Minecraft 공식 도움말의 애드온 정보</h2>
+      <p>Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Minecraft 공식 도움말의 애드온 정보</h3><p>Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.</p><a class="text-link" href="https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ" target="_blank" rel="noopener">열기</a></article>
+      
+      <article class="feature-card"><h3>Bedrock 팩 공식 문서</h3><p>Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.</p><a class="text-link" href="https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable" target="_blank" rel="noopener">열기</a></article>
+      
+      <article class="feature-card"><h3>Verity Bedrock 출처 페이지</h3><p>Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.</p><a class="text-link" href="https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821" target="_blank" rel="noopener">열기</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrock 애드온 안내</p>
+      <h2 id="faq-title">Bedrock 애드온 자주 묻는 질문</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>마인크래프트 베드락 애드온 설치 방법은?</summary><p>Bedrock 패키지를 Minecraft로 열고 가져온 뒤 월드에서 활성화합니다.</p></details>
+      
+      <details ><summary>.mcaddon과 .mcpack은 같나요?</summary><p>.mcaddon은 여러 부분을 포함하는 경우가 많고 .mcpack은 단일 팩입니다.</p></details>
+      
+      <details ><summary>.jar를 쓸 수 있나요?</summary><p>아니요. .jar는 Java Edition용입니다.</p></details>
+      
+      <details ><summary>왜 작동하지 않나요?</summary><p>비활성, 의존성, 실험 설정, 버전 문제가 원인일 수 있습니다.</p></details>
+      
+      <details ><summary>어디서 다운로드하나요?</summary><p>공식, 제작자, marketplace, CurseForge, MCPEDL 등 관리되는 출처를 우선하세요.</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ko/" aria-label="Verity Minecraft 홈">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="다운로드">
+          <div class="footer-link-group">
+            <p class="footer-link-title">다운로드</p>
+          <a href="/ko/#downloads">다운로드</a>
+          <a href="/ko/#install">설치</a>
+          <a href="/ko/#versions">버전</a>
+          <a href="/ko/#safety">안전 확인</a>
+            <a href="/ko/bedrock-addons/">Bedrock 애드온</a>
+            <a href="/ko/#faq">자주 묻는 질문</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">사이트</p>
+            <a href="/about/">소개</a>
+            <a href="/contact/">문의</a>
+            <a href="/privacy-policy/">개인정보 처리방침</a>
+            <a href="/terms-of-service/">이용 약관</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://pl30483090.effectivecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>

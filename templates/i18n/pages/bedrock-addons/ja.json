@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "title": "Minecraft Bedrock アドオンの入れ方：安全な7手順",
+    "description": "Minecraft Bedrock アドオンの入れ方を、.mcaddon確認、インポート、ワールドでの有効化、バックアップ、失敗時の確認まで整理します。",
+    "image": "/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "Minecraft Bedrock アドオンの入れ方：安全な7手順",
+    "lede": "Minecraft Bedrock にアドオンを入れるには、まずBedrock向けのファイルか確認し、.mcaddon または .mcpack の拡張子を保ったまま Minecraft で開きます。その後、対象ワールドの設定で必要なパックを有効化します。",
+    "support": "このページは、Verity Minecraft の読者向けに、Java mod、PE検索、リソースパック、Bedrockアドオンを混同しないための安全な流れをまとめます。",
+    "actions": [
+      {
+        "label": "Bedrock案内",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "リソースパック",
+        "url": "/bedrock-resource-packs/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+      "alt": "Bedrockアドオンの入手元確認、インポート、有効化を示す編集用イラスト",
+      "caption": "イラスト：ダウンロードだけでなく、インポートとワールドでの有効化が必要です。"
+    }
+  },
+  "answer": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "すぐわかる答え: Minecraft Bedrock アドオン 入れ方",
+    "paragraphs": [
+      "Minecraft Bedrock にアドオンを入れるには、まずBedrock向けのファイルか確認し、.mcaddon または .mcpack の拡張子を保ったまま Minecraft で開きます。その後、対象ワールドの設定で必要なパックを有効化します。",
+      "安全な流れは共通です。入手元を確認し、形式を見て、ワールドをバックアップし、インポート後に対象ワールドで有効化します。",
+      "失敗した場合は、別のミラーを探す前にバージョン、必要なパック、依存関係、実験設定を確認してください。"
+    ],
+    "cards": [
+      {
+        "title": "ファイルの目印",
+        "text": ".mcaddon または .mcpack と Bedrock 向けの説明を確認します。"
+      },
+      {
+        "title": "安全な習慣",
+        "text": "メインワールドではなくコピーしたワールドで先に試します。"
+      },
+      {
+        "title": "よくある失敗",
+        "text": "インポート後に対象ワールドで有効化していない状態です。"
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "手順: Minecraft Bedrock アドオン 入れ方",
+    "description": "入手元、ファイル形式、バージョン、バックアップ、インポート、有効化、確認の順で進めます。",
+    "items": [
+      {
+        "title": "Bedrock向けの入手元を選ぶ",
+        "text": "対応プラットフォーム、更新日、形式、作者情報があるページを使います。"
+      },
+      {
+        "title": "パッケージ形式を確認",
+        "text": ".mcaddon または .mcpack を優先し、Javaの .jar をBedrock用に変更しません。"
+      },
+      {
+        "title": "バージョンを読む",
+        "text": "記載されたBedrockバージョンと自分のゲームを比べます。"
+      },
+      {
+        "title": "ワールドをコピー",
+        "text": "挙動変更や実験設定の前にバックアップします。"
+      },
+      {
+        "title": "Minecraftで開く",
+        "text": "端末の「Minecraftで開く」を使い、インポート完了を待ちます。"
+      },
+      {
+        "title": "必要なパックを有効化",
+        "text": "ワールド設定でビヘイビアーパックとリソースパックを有効にします。"
+      },
+      {
+        "title": "確認と修正",
+        "text": "コピーしたワールドで動作、依存関係、実験設定、バージョンを確認します。"
+      }
+    ]
+  },
+  "format_check": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "ファイル形式: .mcaddon, .mcpack, .jar",
+    "paragraphs": [
+      ".mcaddon は挙動とリソースをまとめることが多く、.mcpack は単体のBedrockパックです。.jar はJava Edition用で、Bedrockのインポートには使いません。",
+      "Verity MinecraftではBedrock用とJava用を分けて扱います。.jar を見つけた場合はリネームではなくJavaガイドを確認してください。"
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addon-file-types.webp",
+      "alt": "Minecraft Bedrockアドオンの.mcaddon、.mcpack、.jar形式を比較する編集用イラスト",
+      "caption": "イラスト：ダウンロードしたファイルを開く前に形式を比べます。"
+    }
+  },
+  "table": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "アドオン形式の判断表",
+    "description": "ダウンロードしたファイルを開く前に、この表で形式を確認します。",
+    "headers": [
+      "目印",
+      "意味",
+      "対応"
+    ],
+    "rows": [
+      [
+        ".mcaddon",
+        "Bedrock向けの複合パッケージ",
+        "Minecraftで開き、必要なパックを有効化します。"
+      ],
+      [
+        ".mcpack",
+        "単体のBedrockパック",
+        "不足するビヘイビアーパックがないか確認します。"
+      ],
+      [
+        ".jar",
+        "Java Edition用mod",
+        "Javaガイドを使います。"
+      ],
+      [
+        "日付なし",
+        "更新状況が弱い",
+        "維持されている入手元を探します。"
+      ],
+      [
+        "APKミラー",
+        "通常のアドオン導入には不要",
+        "Bedrockの入手元か公式ストアを優先します。"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "コピーしたワールドで有効化",
+    "paragraphs": [
+      "Bedrockではインポートに成功しても、現在のワールドで自動的に有効になるとは限りません。",
+      "コピーしたワールドで試せば、メインのセーブデータを壊さずに依存関係や実験設定を確認できます。"
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addon-activation-flow.webp",
+      "alt": "Bedrockアドオンのバックアップ、設定、ワールド有効化を示す編集用タイムライン",
+      "caption": "イラスト：先にワールドをバックアップし、その後ワールド設定でパックを有効化します。"
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "よくある失敗",
+    "description": "ファイルを入れ替える前に、次の項目を確認してください。",
+    "cards": [
+      {
+        "title": "インポート済みだが無効",
+        "text": "対象ワールドでパックが有効になっていません。"
+      },
+      {
+        "title": "エディション違い",
+        "text": "Java用ファイルはBedrockアドオンとして動きません。"
+      },
+      {
+        "title": "依存関係不足",
+        "text": "別のパックや実験設定が必要な場合があります。"
+      },
+      {
+        "title": "バージョン違い",
+        "text": "別のBedrock版向けに作られている可能性があります。"
+      },
+      {
+        "title": "古いミラー",
+        "text": "日付と作者情報があるページを優先します。"
+      },
+      {
+        "title": "サーバー制限",
+        "text": "Realmsやサーバーでは所有者側の設定が必要な場合があります。"
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Bedrockアドオンガイド",
+    "title": "関連ガイド",
+    "description": "エディション、バージョン、リソースパックが原因の場合は、これらのページを使います。",
+    "links": [
+      {
+        "title": "Verity Bedrockダウンロード",
+        "url": "/bedrock/",
+        "text": ".mcaddonの入手元とBedrock用注意点。",
+        "cta": "Bedrockを見る"
+      },
+      {
+        "title": "Verity Minecraftの入れ方",
+        "url": "/how-to-install/",
+        "text": "Java、Bedrock、PEの違いを確認します。",
+        "cta": "読む"
+      },
+      {
+        "title": "Bedrockリソースパック",
+        "url": "/bedrock-resource-packs/",
+        "text": "テクスチャやリソースが反映されない場合。",
+        "cta": "読む"
+      },
+      {
+        "title": "Verity Minecraftバージョン",
+        "url": "/versions/",
+        "text": "互換性と入手元の確認。",
+        "cta": "確認"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Bedrockアドオンガイド",
+    "title": "Minecraft公式ヘルプのアドオン情報",
+    "description": "Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。",
+    "links": [
+      {
+        "title": "Minecraft公式ヘルプのアドオン情報",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。",
+        "cta": "開く"
+      },
+      {
+        "title": "Bedrockパック公式ドキュメント",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。",
+        "cta": "開く"
+      },
+      {
+        "title": "Verity Bedrockの入手元ページ",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+        "text": "Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。",
+        "cta": "開く"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Bedrockアドオン案内",
+    "title": "Bedrockアドオンのよくある質問",
+    "items": [
+      {
+        "question": "Minecraft Bedrockにアドオンを入れるには？",
+        "answer": "Bedrock向けパッケージをMinecraftで開き、インポート後に対象ワールドの設定で有効化します。"
+      },
+      {
+        "question": ".mcaddon と .mcpack は同じ？",
+        "answer": ".mcaddon は複数要素を含むことが多く、.mcpack は単体パックです。"
+      },
+      {
+        "question": "Javaの .jar は使える？",
+        "answer": "使えません。.jar はJava Edition用です。"
+      },
+      {
+        "question": "インポートしたのに動かない理由は？",
+        "answer": "ワールドで未有効、依存関係不足、実験設定、バージョン違いが考えられます。"
+      },
+      {
+        "question": "どこでBedrockアドオンを入手する？",
+        "answer": "公式、作者、マーケットプレイス、CurseForge、MCPEDLなど日付があるページを優先します。"
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Bedrock アドオンの入れ方：安全な7手順",
+      "description": "Minecraft Bedrock アドオンの入れ方を、.mcaddon確認、インポート、ワールドでの有効化、バックアップ、失敗時の確認まで整理します。",
+      "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/ja/bedrock-addons/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Minecraft Bedrockにアドオンを入れるには？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bedrock向けパッケージをMinecraftで開き、インポート後に対象ワールドの設定で有効化します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": ".mcaddon と .mcpack は同じ？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ".mcaddon は複数要素を含むことが多く、.mcpack は単体パックです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Javaの .jar は使える？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "使えません。.jar はJava Edition用です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "インポートしたのに動かない理由は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ワールドで未有効、依存関係不足、実験設定、バージョン違いが考えられます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どこでBedrockアドオンを入手する？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "公式、作者、マーケットプレイス、CurseForge、MCPEDLなど日付があるページを優先します。"
+          }
+        }
+      ]
+    }
+  }
+}

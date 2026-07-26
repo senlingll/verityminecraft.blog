@@ -17,8 +17,8 @@
 
         <!-- Horizontal Card Scroller -->
         <div id="ghibliScroller" class="d-flex gap-4 overflow-auto pb-2 smooth-scroll">
-          {% if ghibli_examples and ghibli_examples.items %}
-            {% for item in ghibli_examples.items %}
+          {% if ghibli_examples and ghibli_examples['items'] %}
+            {% for item in ghibli_examples['items'] %}
             <article class="card ghibli-card flex-shrink-0">
               <div class="ghibli-image-container rounded-top-14">
                 <img src="{{ item.image }}" alt="{{ item.title }}" class="w-100 ghibli-example-img img-filter-soft" loading="lazy">

@@ -459,6 +459,27 @@ def localized_bedrock_resource_packs(lang):
     return render_core_page('bedrock-resource-packs', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/bedrock-addons/', strict_slashes=False)
+def bedrock_addons():
+    """
+    渲染 Minecraft Bedrock Add-ons 安装与激活指南页面
+
+    :return: str，Bedrock Add-ons 指南页面 HTML 响应内容
+    """
+    return render_core_page('bedrock-addons', template_name='bedrock-addons-guide.html')
+
+
+@app.route('/<lang>/bedrock-addons/', strict_slashes=False)
+def localized_bedrock_addons(lang):
+    """
+    渲染指定语言的 Minecraft Bedrock Add-ons 安装与激活指南页面
+
+    :param lang: 语言代码
+    :return: str，指定语言的 Bedrock Add-ons 指南页面 HTML 响应内容
+    """
+    return render_core_page('bedrock-addons', template_name='bedrock-addons-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

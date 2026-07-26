@@ -68,15 +68,16 @@
     "faq": "Questions fréquentes"
   },
   "footer": {
-    "description": "Guide indépendant de téléchargement Verity Minecraft.",
+    "description": "Aide indépendante au téléchargement de Verity Minecraft.",
     "section_game": "Téléchargements",
     "section_legal": "Pages légales",
     "about_us": "À propos",
     "contact_us": "Nous contacter",
     "privacy_policy": "Confidentialité",
     "terms_of_service": "Conditions d'utilisation",
-    "copyright": "Guide indépendant de téléchargement Verity Minecraft.",
-    "disclaimer": "Guide indépendant de téléchargement Verity Minecraft."
+    "copyright": "Aide indépendante au téléchargement de Verity Minecraft.",
+    "disclaimer": "Aide indépendante au téléchargement de Verity Minecraft.",
+    "bedrock_addons": "Add-ons Bedrock"
   },
   "error_404": {
     "code": "404",

@@ -11,3 +11,4 @@
 - [How to Install Verity Minecraft](https://verityminecraft.blog/how-to-install/): Step-by-step setup and troubleshooting.
 - [Verity Minecraft Versions](https://verityminecraft.blog/versions/): Version snapshot and compatibility notes.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/
+- [Minecraft Bedrock Add-ons Guide](https://verityminecraft.blog/bedrock-addons/): Safe .mcaddon/.mcpack checks, import steps, world activation, and troubleshooting.

@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "title": "마인크래프트 베드락 애드온 설치 방법 7단계",
+    "description": "마인크래프트 베드락 애드온 설치 방법을 .mcaddon 확인, 가져오기, 월드 활성화, 백업, 문제 해결 순서로 정리합니다.",
+    "image": "/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "마인크래프트 베드락 애드온 설치 방법 7단계",
+    "lede": "마인크래프트 베드락에 애드온을 추가하려면 먼저 Bedrock용 파일인지 확인하고 .mcaddon 또는 .mcpack 확장자를 유지한 채 Minecraft로 연 다음, 대상 월드 설정에서 필요한 팩을 활성화해야 합니다.",
+    "support": "이 가이드는 Verity Minecraft 독자가 Java 모드, PE 검색어, 리소스 팩, Bedrock 애드온을 혼동하지 않도록 설치 흐름을 정리합니다.",
+    "actions": [
+      {
+        "label": "Bedrock 가이드",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "리소스 팩",
+        "url": "/bedrock-resource-packs/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+      "alt": "Bedrock 애드온의 출처 확인, 가져오기, 활성화 단계를 보여 주는 편집용 일러스트",
+      "caption": "일러스트: 다운로드만으로는 끝나지 않으며 가져오기와 월드 활성화가 필요합니다."
+    }
+  },
+  "answer": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "빠른 답변: 마인크래프트 베드락 애드온 설치 방법",
+    "paragraphs": [
+      "마인크래프트 베드락에 애드온을 추가하려면 먼저 Bedrock용 파일인지 확인하고 .mcaddon 또는 .mcpack 확장자를 유지한 채 Minecraft로 연 다음, 대상 월드 설정에서 필요한 팩을 활성화해야 합니다.",
+      "안전한 흐름은 같습니다. 출처를 확인하고, 파일 형식을 보고, 월드를 백업한 뒤 패키지를 가져오고 대상 월드에서 활성화합니다.",
+      "실패하면 다른 미러를 받기 전에 버전, 필요한 팩, 의존성, 실험 설정을 확인하세요."
+    ],
+    "cards": [
+      {
+        "title": "파일 신호",
+        "text": ".mcaddon 또는 .mcpack과 Bedrock 표기를 확인합니다."
+      },
+      {
+        "title": "안전 습관",
+        "text": "기본 월드가 아닌 복사본에서 먼저 테스트합니다."
+      },
+      {
+        "title": "흔한 실수",
+        "text": "가져온 뒤 대상 월드에서 활성화하지 않은 경우입니다."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "단계: 마인크래프트 베드락 애드온 설치 방법",
+    "description": "출처, 파일, 버전, 백업, 가져오기, 활성화, 테스트 순서로 확인합니다.",
+    "items": [
+      {
+        "title": "Bedrock 출처 선택",
+        "text": "플랫폼, 날짜, 파일 형식, 제작자 정보가 있는 페이지를 사용합니다."
+      },
+      {
+        "title": "패키지 확인",
+        "text": ".mcaddon 또는 .mcpack을 사용하고 Java .jar를 바꾸지 않습니다."
+      },
+      {
+        "title": "버전 확인",
+        "text": "표기된 Bedrock 버전을 설치된 게임과 비교합니다."
+      },
+      {
+        "title": "월드 백업",
+        "text": "행동 변경 전에 월드를 복사합니다."
+      },
+      {
+        "title": "Minecraft로 열기",
+        "text": "가져오기 흐름을 사용하고 완료 메시지를 기다립니다."
+      },
+      {
+        "title": "팩 활성화",
+        "text": "월드 설정에서 필요한 팩을 활성 상태로 옮깁니다."
+      },
+      {
+        "title": "테스트",
+        "text": "활성 팩, 의존성, 실험 설정, 버전을 확인합니다."
+      }
+    ]
+  },
+  "format_check": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "파일 형식: .mcaddon, .mcpack, .jar",
+    "paragraphs": [
+      ".mcaddon은 동작과 리소스를 함께 담는 경우가 많고, .mcpack은 단일 Bedrock 팩입니다. .jar는 Java Edition용입니다.",
+      "이 구분은 Verity Bedrock 다운로드와 Java 모드를 혼동하지 않게 해 줍니다."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addon-file-types.webp",
+      "alt": "Minecraft Bedrock 애드온의 .mcaddon, .mcpack, .jar 파일 형식을 비교하는 편집용 일러스트",
+      "caption": "일러스트: 다운로드한 파일을 열기 전에 패키지 형식을 비교하세요."
+    }
+  },
+  "table": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "애드온 패키지 선택표",
+    "description": "다운로드 페이지의 파일을 가져오기 전에 이 표로 형식을 확인하세요.",
+    "headers": [
+      "신호",
+      "의미",
+      "조치"
+    ],
+    "rows": [
+      [
+        ".mcaddon",
+        "Bedrock 통합 패키지",
+        "Minecraft로 열고 활성화합니다."
+      ],
+      [
+        ".mcpack",
+        "단일 Bedrock 팩",
+        "가져온 뒤 의존성을 확인합니다."
+      ],
+      [
+        ".jar",
+        "Java Edition 모드",
+        "Java 가이드를 사용합니다."
+      ],
+      [
+        "날짜 없음",
+        "출처 신뢰도 낮음",
+        "관리되는 출처를 찾습니다."
+      ],
+      [
+        "APK 미러",
+        "대개 불필요",
+        "Bedrock 출처나 공식 스토어를 우선합니다."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "복사한 월드에서 활성화",
+    "paragraphs": [
+      "Bedrock은 패키지를 가져와도 현재 월드에 자동 적용하지 않을 수 있습니다.",
+      "복사한 월드는 의존성과 실험 설정을 확인하는 동안 기본 저장 데이터를 보호합니다."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-addons/bedrock-addon-activation-flow.webp",
+      "alt": "Bedrock 애드온의 백업, 설정, 월드 활성화 흐름을 보여 주는 편집용 타임라인",
+      "caption": "일러스트: 먼저 월드를 백업한 뒤 월드 설정에서 팩을 활성화하세요."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "흔한 오류",
+    "description": "파일을 바꾸기 전에 아래 항목을 먼저 확인하세요.",
+    "cards": [
+      {
+        "title": "가져왔지만 비활성",
+        "text": "대상 월드에서 팩이 활성화되지 않았습니다."
+      },
+      {
+        "title": "에디션 오류",
+        "text": "Java 파일은 Bedrock 애드온으로 작동하지 않습니다."
+      },
+      {
+        "title": "의존성 부족",
+        "text": "다른 팩이나 실험 설정이 필요할 수 있습니다."
+      },
+      {
+        "title": "버전 불일치",
+        "text": "다른 Bedrock 버전용일 수 있습니다."
+      },
+      {
+        "title": "오래된 미러",
+        "text": "날짜와 제작자 정보가 있는 출처를 우선합니다."
+      },
+      {
+        "title": "서버 제한",
+        "text": "Realms와 서버는 소유자 설정이 필요할 수 있습니다."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Bedrock 애드온 가이드",
+    "title": "관련 가이드",
+    "description": "에디션, 버전, 리소스 팩이 원인일 때 이 페이지들을 사용하세요.",
+    "links": [
+      {
+        "title": "Verity Bedrock 다운로드",
+        "url": "/bedrock/",
+        "text": ".mcaddon 출처와 Bedrock 안내.",
+        "cta": "열기"
+      },
+      {
+        "title": "Verity Minecraft 설치",
+        "url": "/how-to-install/",
+        "text": "Java, Bedrock, PE 흐름 비교.",
+        "cta": "읽기"
+      },
+      {
+        "title": "Bedrock 리소스 팩",
+        "url": "/bedrock-resource-packs/",
+        "text": "텍스처나 리소스가 보이지 않을 때.",
+        "cta": "읽기"
+      },
+      {
+        "title": "Verity Minecraft 버전",
+        "url": "/versions/",
+        "text": "호환성 확인.",
+        "cta": "보기"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Bedrock 애드온 가이드",
+    "title": "Minecraft 공식 도움말의 애드온 정보",
+    "description": "Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.",
+    "links": [
+      {
+        "title": "Minecraft 공식 도움말의 애드온 정보",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.",
+        "cta": "열기"
+      },
+      {
+        "title": "Bedrock 팩 공식 문서",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.",
+        "cta": "열기"
+      },
+      {
+        "title": "Verity Bedrock 출처 페이지",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+        "text": "Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.",
+        "cta": "열기"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Bedrock 애드온 안내",
+    "title": "Bedrock 애드온 자주 묻는 질문",
+    "items": [
+      {
+        "question": "마인크래프트 베드락 애드온 설치 방법은?",
+        "answer": "Bedrock 패키지를 Minecraft로 열고 가져온 뒤 월드에서 활성화합니다."
+      },
+      {
+        "question": ".mcaddon과 .mcpack은 같나요?",
+        "answer": ".mcaddon은 여러 부분을 포함하는 경우가 많고 .mcpack은 단일 팩입니다."
+      },
+      {
+        "question": ".jar를 쓸 수 있나요?",
+        "answer": "아니요. .jar는 Java Edition용입니다."
+      },
+      {
+        "question": "왜 작동하지 않나요?",
+        "answer": "비활성, 의존성, 실험 설정, 버전 문제가 원인일 수 있습니다."
+      },
+      {
+        "question": "어디서 다운로드하나요?",
+        "answer": "공식, 제작자, marketplace, CurseForge, MCPEDL 등 관리되는 출처를 우선하세요."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "마인크래프트 베드락 애드온 설치 방법 7단계",
+      "description": "마인크래프트 베드락 애드온 설치 방법을 .mcaddon 확인, 가져오기, 월드 활성화, 백업, 문제 해결 순서로 정리합니다.",
+      "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/ko/bedrock-addons/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "마인크래프트 베드락 애드온 설치 방법은?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bedrock 패키지를 Minecraft로 열고 가져온 뒤 월드에서 활성화합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": ".mcaddon과 .mcpack은 같나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ".mcaddon은 여러 부분을 포함하는 경우가 많고 .mcpack은 단일 팩입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": ".jar를 쓸 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니요. .jar는 Java Edition용입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "왜 작동하지 않나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "비활성, 의존성, 실험 설정, 버전 문제가 원인일 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어디서 다운로드하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공식, 제작자, marketplace, CurseForge, MCPEDL 등 관리되는 출처를 우선하세요."
+          }
+        }
+      ]
+    }
+  }
+}

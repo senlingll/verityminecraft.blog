@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Bedrock アドオンの入れ方：安全な7手順</title>
+  <meta name="description"
+    content="Minecraft Bedrock アドオンの入れ方を、.mcaddon確認、インポート、ワールドでの有効化、バックアップ、失敗時の確認まで整理します。">
+  <meta name="google-adsense-account" content="ca-pub-8016227945839388">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/ja/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/bedrock-addons/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/bedrock-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/bedrock-addons/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Minecraft Bedrock アドオンの入れ方：安全な7手順">
+  <meta property="og:description" content="Minecraft Bedrock アドオンの入れ方を、.mcaddon確認、インポート、ワールドでの有効化、バックアップ、失敗時の確認まで整理します。">
+  <meta property="og:url" content="https://verityminecraft.blog/ja/bedrock-addons/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Minecraft Bedrock アドオンの入れ方：安全な7手順">
+  <meta name="twitter:description" content="Minecraft Bedrock アドオンの入れ方を、.mcaddon確認、インポート、ワールドでの有効化、バックアップ、失敗時の確認まで整理します。">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3092 Java\u3001Bedrock\u3001PE \u5411\u3051\u306b\u6574\u7406\u3057\u3001\u30bd\u30fc\u30b9\u3001\u30d0\u30fc\u30b8\u30e7\u30f3\u3001\u5c0e\u5165\u624b\u9806\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-07-26", "datePublished": "2026-07-26", "description": "Minecraft Bedrock \u30a2\u30c9\u30aa\u30f3\u306e\u5165\u308c\u65b9\u3092\u3001.mcaddon\u78ba\u8a8d\u3001\u30a4\u30f3\u30dd\u30fc\u30c8\u3001\u30ef\u30fc\u30eb\u30c9\u3067\u306e\u6709\u52b9\u5316\u3001\u30d0\u30c3\u30af\u30a2\u30c3\u30d7\u3001\u5931\u6557\u6642\u306e\u78ba\u8a8d\u307e\u3067\u6574\u7406\u3057\u307e\u3059\u3002", "headline": "Minecraft Bedrock \u30a2\u30c9\u30aa\u30f3\u306e\u5165\u308c\u65b9\uff1a\u5b89\u5168\u306a7\u624b\u9806", "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp", "mainEntityOfPage": "https://verityminecraft.blog/ja/bedrock-addons/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Bedrock\u5411\u3051\u30d1\u30c3\u30b1\u30fc\u30b8\u3092Minecraft\u3067\u958b\u304d\u3001\u30a4\u30f3\u30dd\u30fc\u30c8\u5f8c\u306b\u5bfe\u8c61\u30ef\u30fc\u30eb\u30c9\u306e\u8a2d\u5b9a\u3067\u6709\u52b9\u5316\u3057\u307e\u3059\u3002"}, "name": "Minecraft Bedrock\u306b\u30a2\u30c9\u30aa\u30f3\u3092\u5165\u308c\u308b\u306b\u306f\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": ".mcaddon \u306f\u8907\u6570\u8981\u7d20\u3092\u542b\u3080\u3053\u3068\u304c\u591a\u304f\u3001.mcpack \u306f\u5358\u4f53\u30d1\u30c3\u30af\u3067\u3059\u3002"}, "name": ".mcaddon \u3068 .mcpack \u306f\u540c\u3058\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u4f7f\u3048\u307e\u305b\u3093\u3002.jar \u306fJava Edition\u7528\u3067\u3059\u3002"}, "name": "Java\u306e .jar \u306f\u4f7f\u3048\u308b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u30ef\u30fc\u30eb\u30c9\u3067\u672a\u6709\u52b9\u3001\u4f9d\u5b58\u95a2\u4fc2\u4e0d\u8db3\u3001\u5b9f\u9a13\u8a2d\u5b9a\u3001\u30d0\u30fc\u30b8\u30e7\u30f3\u9055\u3044\u304c\u8003\u3048\u3089\u308c\u307e\u3059\u3002"}, "name": "\u30a4\u30f3\u30dd\u30fc\u30c8\u3057\u305f\u306e\u306b\u52d5\u304b\u306a\u3044\u7406\u7531\u306f\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u516c\u5f0f\u3001\u4f5c\u8005\u3001\u30de\u30fc\u30b1\u30c3\u30c8\u30d7\u30ec\u30a4\u30b9\u3001CurseForge\u3001MCPEDL\u306a\u3069\u65e5\u4ed8\u304c\u3042\u308b\u30da\u30fc\u30b8\u3092\u512a\u5148\u3057\u307e\u3059\u3002"}, "name": "\u3069\u3053\u3067Bedrock\u30a2\u30c9\u30aa\u30f3\u3092\u5165\u624b\u3059\u308b\uff1f"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/ja/" aria-label="Verity Minecraft ホーム">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="ダウンロード">
+      <a href="/ja/#downloads">ダウンロード</a>
+      <a href="/ja/#install">インストール</a>
+      <a href="/ja/#versions">バージョン</a>
+      <a href="/ja/#safety">安全確認</a>
+      <a href="/ja/#faq">よくある質問</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="日本語">日本語</summary>
+        <div class="language-options">
+          
+          <a href="/bedrock-addons/">English</a>
+          
+          <a href="/es/bedrock-addons/">Español</a>
+          
+          <a href="/fr/bedrock-addons/">Français</a>
+          
+          <a href="/de/bedrock-addons/">Deutsch</a>
+          
+          <a href="/pt/bedrock-addons/">Português</a>
+          
+          <a href="/ko/bedrock-addons/">한국어</a>
+          
+          <a href="/it/bedrock-addons/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/ja/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        ダウンロード
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Bedrockアドオン案内</p>
+      <h1 id="article-title">Minecraft Bedrock アドオンの入れ方：安全な7手順</h1>
+      <p class="hero-lede">Minecraft Bedrock にアドオンを入れるには、まずBedrock向けのファイルか確認し、.mcaddon または .mcpack の拡張子を保ったまま Minecraft で開きます。その後、対象ワールドの設定で必要なパックを有効化します。</p>
+      <p class="hero-support">このページは、Verity Minecraft の読者向けに、Java mod、PE検索、リソースパック、Bedrockアドオンを混同しないための安全な流れをまとめます。</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/ja/bedrock/">Bedrock案内</a>
+        
+        <a class="btn btn-secondary" href="/ja/bedrock-resource-packs/">リソースパック</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/bedrock-addons/bedrock-addons-import-flow.webp" alt="Bedrockアドオンの入手元確認、インポート、有効化を示す編集用イラスト" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <figcaption>イラスト：ダウンロードだけでなく、インポートとワールドでの有効化が必要です。</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオン案内</p>
+      <h2 id="answer-title">すぐわかる答え: Minecraft Bedrock アドオン 入れ方</h2>
+      <p>Minecraft Bedrock にアドオンを入れるには、まずBedrock向けのファイルか確認し、.mcaddon または .mcpack の拡張子を保ったまま Minecraft で開きます。その後、対象ワールドの設定で必要なパックを有効化します。</p><p>安全な流れは共通です。入手元を確認し、形式を見て、ワールドをバックアップし、インポート後に対象ワールドで有効化します。</p><p>失敗した場合は、別のミラーを探す前にバージョン、必要なパック、依存関係、実験設定を確認してください。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>ファイルの目印</h3><p>.mcaddon または .mcpack と Bedrock 向けの説明を確認します。</p></article>
+      
+      <article class="feature-card"><h3>安全な習慣</h3><p>メインワールドではなくコピーしたワールドで先に試します。</p></article>
+      
+      <article class="feature-card"><h3>よくある失敗</h3><p>インポート後に対象ワールドで有効化していない状態です。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオン案内</p>
+      <h2 id="steps-title">手順: Minecraft Bedrock アドオン 入れ方</h2>
+      <p>入手元、ファイル形式、バージョン、バックアップ、インポート、有効化、確認の順で進めます。</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>Bedrock向けの入手元を選ぶ</h3><p>対応プラットフォーム、更新日、形式、作者情報があるページを使います。</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>パッケージ形式を確認</h3><p>.mcaddon または .mcpack を優先し、Javaの .jar をBedrock用に変更しません。</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>バージョンを読む</h3><p>記載されたBedrockバージョンと自分のゲームを比べます。</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>ワールドをコピー</h3><p>挙動変更や実験設定の前にバックアップします。</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>Minecraftで開く</h3><p>端末の「Minecraftで開く」を使い、インポート完了を待ちます。</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>必要なパックを有効化</h3><p>ワールド設定でビヘイビアーパックとリソースパックを有効にします。</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>確認と修正</h3><p>コピーしたワールドで動作、依存関係、実験設定、バージョンを確認します。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="format-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">Bedrockアドオン案内</p>
+        <h2 id="format-title">ファイル形式: .mcaddon, .mcpack, .jar</h2>
+        <p>.mcaddon は挙動とリソースをまとめることが多く、.mcpack は単体のBedrockパックです。.jar はJava Edition用で、Bedrockのインポートには使いません。</p><p>Verity MinecraftではBedrock用とJava用を分けて扱います。.jar を見つけた場合はリネームではなくJavaガイドを確認してください。</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/bedrock-addons/bedrock-addon-file-types.webp" alt="Minecraft Bedrockアドオンの.mcaddon、.mcpack、.jar形式を比較する編集用イラスト" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>イラスト：ダウンロードしたファイルを開く前に形式を比べます。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオン案内</p>
+      <h2 id="table-title">アドオン形式の判断表</h2>
+      <p>ダウンロードしたファイルを開く前に、この表で形式を確認します。</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="アドオン形式の判断表">
+      <div role="row">
+        <strong>目印</strong><strong>意味</strong><strong>対応</strong>
+      </div>
+      
+      <div role="row">
+        <span>.mcaddon</span><span>Bedrock向けの複合パッケージ</span><span>Minecraftで開き、必要なパックを有効化します。</span>
+      </div>
+      
+      <div role="row">
+        <span>.mcpack</span><span>単体のBedrockパック</span><span>不足するビヘイビアーパックがないか確認します。</span>
+      </div>
+      
+      <div role="row">
+        <span>.jar</span><span>Java Edition用mod</span><span>Javaガイドを使います。</span>
+      </div>
+      
+      <div role="row">
+        <span>日付なし</span><span>更新状況が弱い</span><span>維持されている入手元を探します。</span>
+      </div>
+      
+      <div role="row">
+        <span>APKミラー</span><span>通常のアドオン導入には不要</span><span>Bedrockの入手元か公式ストアを優先します。</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/bedrock-addons/bedrock-addon-activation-flow.webp" alt="Bedrockアドオンのバックアップ、設定、ワールド有効化を示す編集用タイムライン" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>イラスト：先にワールドをバックアップし、その後ワールド設定でパックを有効化します。</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Bedrockアドオン案内</p>
+        <h2 id="activate-title">コピーしたワールドで有効化</h2>
+        <p>Bedrockではインポートに成功しても、現在のワールドで自動的に有効になるとは限りません。</p><p>コピーしたワールドで試せば、メインのセーブデータを壊さずに依存関係や実験設定を確認できます。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオン案内</p>
+      <h2 id="mistakes-title">よくある失敗</h2>
+      <p>ファイルを入れ替える前に、次の項目を確認してください。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>インポート済みだが無効</h3><p>対象ワールドでパックが有効になっていません。</p></article>
+      
+      <article class="feature-card"><h3>エディション違い</h3><p>Java用ファイルはBedrockアドオンとして動きません。</p></article>
+      
+      <article class="feature-card"><h3>依存関係不足</h3><p>別のパックや実験設定が必要な場合があります。</p></article>
+      
+      <article class="feature-card"><h3>バージョン違い</h3><p>別のBedrock版向けに作られている可能性があります。</p></article>
+      
+      <article class="feature-card"><h3>古いミラー</h3><p>日付と作者情報があるページを優先します。</p></article>
+      
+      <article class="feature-card"><h3>サーバー制限</h3><p>Realmsやサーバーでは所有者側の設定が必要な場合があります。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオンガイド</p>
+      <h2 id="related-title">関連ガイド</h2>
+      <p>エディション、バージョン、リソースパックが原因の場合は、これらのページを使います。</p>
+    </div>
+    <div class="example-grid">
+      
+      <article class="example-card"><h3>Verity Bedrockダウンロード</h3><p>.mcaddonの入手元とBedrock用注意点。</p><a class="text-link" href="/ja/bedrock/">Bedrockを見る</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraftの入れ方</h3><p>Java、Bedrock、PEの違いを確認します。</p><a class="text-link" href="/ja/how-to-install/">読む</a></article>
+      
+      <article class="example-card"><h3>Bedrockリソースパック</h3><p>テクスチャやリソースが反映されない場合。</p><a class="text-link" href="/ja/bedrock-resource-packs/">読む</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraftバージョン</h3><p>互換性と入手元の確認。</p><a class="text-link" href="/ja/versions/">確認</a></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオンガイド</p>
+      <h2 id="sources-title">Minecraft公式ヘルプのアドオン情報</h2>
+      <p>Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Minecraft公式ヘルプのアドオン情報</h3><p>Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。</p><a class="text-link" href="https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ" target="_blank" rel="noopener">開く</a></article>
+      
+      <article class="feature-card"><h3>Bedrockパック公式ドキュメント</h3><p>Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。</p><a class="text-link" href="https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable" target="_blank" rel="noopener">開く</a></article>
+      
+      <article class="feature-card"><h3>Verity Bedrockの入手元ページ</h3><p>Bedrockの流れを確認するための参考です。実際のダウンロード前に個別ページを再確認してください。</p><a class="text-link" href="https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821" target="_blank" rel="noopener">開く</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">Bedrockアドオン案内</p>
+      <h2 id="faq-title">Bedrockアドオンのよくある質問</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>Minecraft Bedrockにアドオンを入れるには？</summary><p>Bedrock向けパッケージをMinecraftで開き、インポート後に対象ワールドの設定で有効化します。</p></details>
+      
+      <details ><summary>.mcaddon と .mcpack は同じ？</summary><p>.mcaddon は複数要素を含むことが多く、.mcpack は単体パックです。</p></details>
+      
+      <details ><summary>Javaの .jar は使える？</summary><p>使えません。.jar はJava Edition用です。</p></details>
+      
+      <details ><summary>インポートしたのに動かない理由は？</summary><p>ワールドで未有効、依存関係不足、実験設定、バージョン違いが考えられます。</p></details>
+      
+      <details ><summary>どこでBedrockアドオンを入手する？</summary><p>公式、作者、マーケットプレイス、CurseForge、MCPEDLなど日付があるページを優先します。</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ja/" aria-label="Verity Minecraft ホーム">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft の独立したダウンロード案内です。</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="ダウンロード">
+          <div class="footer-link-group">
+            <p class="footer-link-title">ダウンロード</p>
+          <a href="/ja/#downloads">ダウンロード</a>
+          <a href="/ja/#install">インストール</a>
+          <a href="/ja/#versions">バージョン</a>
+          <a href="/ja/#safety">安全確認</a>
+            <a href="/ja/bedrock-addons/">Bedrockアドオン</a>
+            <a href="/ja/#faq">よくある質問</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">サイト</p>
+            <a href="/about/">サイトについて</a>
+            <a href="/contact/">お問い合わせ</a>
+            <a href="/privacy-policy/">プライバシーポリシー</a>
+            <a href="/terms-of-service/">利用規約</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Verity Minecraft の独立したダウンロード案内です。</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://pl30483090.effectivecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>
