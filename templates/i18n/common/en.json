@@ -93,7 +93,8 @@
     "copyright": "Independent Verity Minecraft download guide.",
     "disclaimer": "Verity Minecraft is an independent fan-made download guide and is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators.",
     "contact_us": "Contact",
-    "bedrock_addons": "Bedrock Add-ons"
+    "bedrock_addons": "Bedrock Add-ons",
+    "java_vs_bedrock": "Java vs Bedrock"
   },
   "error_404": {
     "code": "404",

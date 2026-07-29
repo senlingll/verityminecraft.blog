@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "title": "Minecraft Java vs Bedrock: 10 Differences Explained",
+    "description": "Compare Minecraft Java vs Bedrock across devices, mods, crossplay, servers, performance, redstone, updates, and Verity mod installation.",
+    "image": "/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Edition comparison",
+    "title": "Minecraft Java vs Bedrock: 10 Differences and Which to Choose",
+    "lede": "Choose Java Edition if you want the broadest mod ecosystem, custom servers, and detailed control on Windows, macOS, or Linux. Choose Bedrock Edition if you need console or mobile play, easier crossplay, Marketplace content, and smoother performance on modest hardware.",
+    "support": "For Verity Minecraft, the edition choice also determines the file: Java uses a Forge .jar, while Bedrock uses an add-on package such as .mcaddon. The two files are not interchangeable.",
+    "actions": [
+      {
+        "label": "Open Java guide",
+        "url": "/java/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Open Bedrock guide",
+        "url": "/bedrock/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+      "alt": "Official Minecraft Java and Bedrock artwork showing both editions together",
+      "caption": "Official Minecraft artwork. The editions share the core game, but devices, multiplayer, customization, and Verity files differ."
+    }
+  },
+  "answer": {
+    "eyebrow": "Quick verdict",
+    "title": "Is Minecraft Java or Bedrock Better for You?",
+    "paragraphs": [
+      "Neither edition is universally better. Java is the stronger choice for players who prioritize free community mods, shaders, technical servers, older versions, and advanced settings. Bedrock is usually the practical choice for households that play across Xbox, PlayStation, Switch, Windows, Android, and iOS, because crossplay and controller-friendly performance are built around those platforms.",
+      "If your immediate goal is installing Verity, decide by edition before looking at a version number. The verified Java release is Verity JE 5.7.3 for Forge 1.20.1, published on Modrinth on July 18, 2026. The Bedrock source uses a separate CurseForge add-on listing. A newer-looking number on one edition does not update the other edition."
+    ],
+    "cards": [
+      {
+        "title": "Choose Java for mods",
+        "text": "Best for Forge, Fabric or NeoForge profiles, community launchers, custom servers, shaders, and direct access to mod files."
+      },
+      {
+        "title": "Choose Bedrock for crossplay",
+        "text": "Best when friends use different consoles or mobile devices and you want a simpler shared-world or Realms path."
+      },
+      {
+        "title": "Check what friends own",
+        "text": "Java players cannot directly join Bedrock worlds. The edition used by your group can matter more than any feature list."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Core comparison",
+    "title": "10 Minecraft Java vs Bedrock Differences That Matter",
+    "description": "These are the differences that change what you can install, who you can play with, and how much control you have.",
+    "items": [
+      {
+        "title": "Supported devices",
+        "text": "Java runs on Windows, macOS, and Linux. Bedrock runs on Windows plus modern consoles and mobile devices. Mac and Linux users normally need Java; console players need Bedrock."
+      },
+      {
+        "title": "Crossplay",
+        "text": "Bedrock supports crossplay across its supported platforms when accounts, parental settings, and game versions allow it. Java multiplayer stays within Java Edition unless a server uses a third-party compatibility layer."
+      },
+      {
+        "title": "Mods and add-ons",
+        "text": "Java has the larger open mod ecosystem and loader-based .jar files. Bedrock uses Marketplace content, resource packs, behavior packs, and add-on packages such as .mcpack or .mcaddon."
+      },
+      {
+        "title": "Servers and Realms",
+        "text": "Both editions have Realms and multiplayer servers, but their server lists, software, moderation tools, plugins, and communities are separate. Confirm the server edition before paying or inviting friends."
+      },
+      {
+        "title": "Performance and controls",
+        "text": "Bedrock is designed for a broad hardware range and often performs more consistently on phones, consoles, and lower-end PCs. Java offers deeper video and launch settings but can need tuning or performance mods."
+      },
+      {
+        "title": "Redstone and mechanics",
+        "text": "Most survival systems feel familiar, but redstone timing, quasi-connectivity, mob behavior, combat details, and some farms differ. A tutorial made for one edition may fail in the other."
+      },
+      {
+        "title": "Updates and previews",
+        "text": "Major content arrives on both editions, but Java snapshots and Bedrock Preview or beta builds use different test channels. Experimental features and commands can appear or behave differently."
+      },
+      {
+        "title": "Skins and paid content",
+        "text": "Java makes manual skins, maps, and community downloads straightforward. Bedrock centers its curated Marketplace and Minecoins, while still supporting some external packs depending on device and platform rules."
+      },
+      {
+        "title": "Older versions",
+        "text": "The Java launcher and third-party launchers make older version profiles easier to manage. Bedrock normally follows current platform releases, so downgrading is less direct and may not be supported."
+      },
+      {
+        "title": "Verity installation",
+        "text": "Verity JE 5.7.3 is a Forge 1.20.1 .jar. The Bedrock release is a separate add-on package. Never rename a .jar to .mcaddon or copy a Bedrock pack into a Java mods folder."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Customization",
+    "title": "Java Mods vs Bedrock Add-Ons: The File Difference",
+    "paragraphs": [
+      "Java mods normally arrive as .jar files and depend on a compatible Minecraft version and loader. A correct file can still fail if the profile uses the wrong loader, the wrong game version, or a conflicting mod. This is why the Java download page records Forge 1.20.1 for the current verified Verity JE 5.7.3 file.",
+      "Bedrock customization is divided among resource packs, behavior packs, worlds, Marketplace items, and bundled add-ons. A .mcaddon can contain multiple components, while a .mcpack often represents one pack. After import, you may still need to activate the required resource or behavior pack in the target world.",
+      "The ecosystems also differ in distribution. Java players often use Modrinth, CurseForge, GitHub releases, and loader-aware launchers. Bedrock players may use the Marketplace, official creator pages, or maintained add-on listings. In both cases, the release page should show the edition, date, file type, and compatibility notes."
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-bedrock-addons-official.webp",
+      "alt": "Official Minecraft Add-Ons artwork representing Bedrock customization",
+      "caption": "Official Minecraft Add-Ons artwork. Bedrock add-ons use a different package and activation model from Java .jar mods."
+    }
+  },
+  "table": {
+    "eyebrow": "Decision table",
+    "title": "Minecraft Java vs Bedrock Comparison Table",
+    "description": "Start with device and multiplayer compatibility, then compare customization and performance.",
+    "headers": [
+      "Feature",
+      "Java Edition",
+      "Bedrock Edition"
+    ],
+    "rows": [
+      [
+        "Devices",
+        "Windows, macOS, Linux",
+        "Windows, Xbox, PlayStation, Switch, Android, iOS"
+      ],
+      [
+        "Crossplay",
+        "Java servers and Java Realms",
+        "Cross-platform within Bedrock"
+      ],
+      [
+        "Customization",
+        "Forge/Fabric/NeoForge mods, shaders, datapacks",
+        "Marketplace, add-ons, resource and behavior packs"
+      ],
+      [
+        "Typical mod file",
+        ".jar",
+        ".mcaddon / .mcpack"
+      ],
+      [
+        "Performance",
+        "Flexible but may need tuning",
+        "Optimized for a wider hardware range"
+      ],
+      [
+        "Redstone",
+        "Java timing and quasi-connectivity",
+        "Different timing and component behavior"
+      ],
+      [
+        "Early access",
+        "Snapshots",
+        "Preview and beta"
+      ],
+      [
+        "Verity path",
+        "Verity JE 5.7.3, Forge 1.20.1",
+        "Separate Verity Bedrock add-on listing"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Multiplayer choice",
+    "title": "Choose the Edition Your Friends Can Actually Join",
+    "paragraphs": [
+      "A feature comparison is secondary if your group already owns one edition. Bedrock is the easiest common choice when players are split across console, Windows, and mobile. Java is the natural common choice when everyone plays on desktop and wants modded servers, custom server software, or technical community maps.",
+      "Realms does not bridge the editions. A Java Realm accepts Java clients, and a Bedrock Realm accepts Bedrock clients. Some independently managed Java servers use software such as Geyser to accept Bedrock connections, but that is a server-side compatibility project, not native crossplay, and behavior can differ from a normal client.",
+      "Before buying hosting or installing Verity for a multiplayer session, record four details: edition, Minecraft version, loader or add-on requirement, and server policy. A server may allow a client-side visual mod but reject a gameplay-changing mod, or it may require every player to use the same server pack."
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-bedrock-realms-official.webp",
+      "alt": "Official Minecraft Realms artwork illustrating shared multiplayer worlds",
+      "caption": "Official Minecraft Realms artwork. Realms supports multiplayer, but Java and Bedrock Realms remain separate."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Avoid these errors",
+    "title": "Common Java vs Bedrock Choice Mistakes",
+    "description": "Most edition problems come from checking a feature before checking the device, friends, and file format.",
+    "cards": [
+      {
+        "title": "Buying for the wrong device",
+        "text": "Java does not run natively on consoles or phones. Bedrock does not provide the same macOS or Linux desktop path."
+      },
+      {
+        "title": "Assuming all tutorials match",
+        "text": "Redstone, farms, commands, server setup, and pack installation can differ. Include the edition in every troubleshooting search."
+      },
+      {
+        "title": "Mixing Verity files",
+        "text": "A Java .jar and Bedrock .mcaddon are not alternate extensions for one file. They are different releases for different runtimes."
+      },
+      {
+        "title": "Treating Marketplace as Java mods",
+        "text": "Marketplace content belongs to Bedrock's curated ecosystem. Java loader mods use separate project and file pages."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Next steps",
+    "title": "Choose the Correct Verity Minecraft Path",
+    "description": "Use the comparison to open the page that matches your edition and file type.",
+    "links": [
+      {
+        "title": "Verity Java Download",
+        "url": "/java/",
+        "text": "Verified 5.7.3 file facts, Forge 1.20.1 requirements, and Java install guidance.",
+        "cta": "Open Java guide"
+      },
+      {
+        "title": "Verity Bedrock Download",
+        "url": "/bedrock/",
+        "text": "Bedrock source listing, .mcaddon checks, world backup, and activation guidance.",
+        "cta": "Open Bedrock guide"
+      },
+      {
+        "title": "How to Install Verity",
+        "url": "/how-to-install/",
+        "text": "Follow the correct install flow after you have identified the edition.",
+        "cta": "Read install guide"
+      },
+      {
+        "title": "Verity Version Snapshot",
+        "url": "/versions/",
+        "text": "Compare reviewed versions without mixing Java, Bedrock, and PE release families.",
+        "cta": "Check versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "References",
+    "title": "Official Sources Checked",
+    "description": "Edition features and Java release facts were checked on July 29, 2026. Source pages can change.",
+    "links": [
+      {
+        "title": "Minecraft: Java or Bedrock Edition",
+        "url": "https://www.minecraft.net/en-us/article/java-or-bedrock-edition",
+        "text": "Official comparison covering devices, updates, servers, crossplay, Realms, and content.",
+        "cta": "Read official comparison"
+      },
+      {
+        "title": "Verity JE on Modrinth",
+        "url": "https://modrinth.com/mod/verity-je-official/versions",
+        "text": "First-party project version list used to verify Verity JE 5.7.3, Forge 1.20.1, date, and file size.",
+        "cta": "Check Java versions"
+      },
+      {
+        "title": "Verity Bedrock on CurseForge",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition",
+        "text": "Maintained Bedrock add-on listing; the file page was protected by a Cloudflare challenge during this review.",
+        "cta": "Check Bedrock source"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Minecraft Java vs Bedrock FAQ",
+    "items": [
+      {
+        "question": "What is the biggest difference between Minecraft Java and Bedrock?",
+        "answer": "Platform and ecosystem are the biggest differences. Java focuses on desktop modding and custom servers; Bedrock supports consoles and mobile with easier cross-platform multiplayer."
+      },
+      {
+        "question": "Can Java and Bedrock players play together?",
+        "answer": "Not through native worlds or Realms. Some independently managed Java servers use compatibility software such as Geyser, but that requires server configuration and is not universal."
+      },
+      {
+        "question": "Is Java or Bedrock better for mods?",
+        "answer": "Java has the broader open mod ecosystem with Forge, Fabric, NeoForge, and .jar projects. Bedrock uses add-ons, resource packs, behavior packs, and Marketplace content."
+      },
+      {
+        "question": "Which edition performs better on a low-end device?",
+        "answer": "Bedrock usually targets a wider hardware range and is the practical option on phones, consoles, and modest PCs. Java performance depends more on settings, render distance, JVM resources, and performance mods."
+      },
+      {
+        "question": "Can I install the Verity Java .jar on Bedrock?",
+        "answer": "No. Verity JE 5.7.3 is a Forge 1.20.1 Java .jar. Bedrock requires its own add-on package and world activation flow."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Java vs Bedrock: 10 Differences and Which to Choose",
+      "description": "Compare Minecraft Java vs Bedrock across devices, mods, crossplay, servers, performance, redstone, updates, and Verity mod installation.",
+      "image": "https://verityminecraft.blog/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+      "datePublished": "2026-07-29",
+      "dateModified": "2026-07-29",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/java-vs-bedrock/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the biggest difference between Minecraft Java and Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Java focuses on desktop modding and custom servers, while Bedrock supports consoles and mobile with easier cross-platform multiplayer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Java and Bedrock players play together?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not through native worlds or Realms. Some independent servers use compatibility software, but it requires server configuration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Java or Bedrock better for mods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Java has the broader open mod ecosystem. Bedrock uses add-ons, packs, and Marketplace content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I install the Verity Java .jar on Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Java .jar mods and Bedrock add-on packages use different runtimes and installation systems."
+          }
+        }
+      ]
+    }
+  }
+}

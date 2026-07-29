@@ -480,6 +480,27 @@ def localized_bedrock_addons(lang):
     return render_core_page('bedrock-addons', template_name='bedrock-addons-guide.html', lang=lang)
 
 
+@app.route('/java-vs-bedrock/', strict_slashes=False)
+def java_vs_bedrock():
+    """
+    渲染 Minecraft Java 与 Bedrock 对比指南页面
+
+    :return: str，Java 与 Bedrock 对比指南页面 HTML 响应内容
+    """
+    return render_core_page('java-vs-bedrock', template_name='article-guide.html')
+
+
+@app.route('/<lang>/java-vs-bedrock/', strict_slashes=False)
+def localized_java_vs_bedrock(lang):
+    """
+    渲染指定语言的 Minecraft Java 与 Bedrock 对比指南页面
+
+    :param lang: 语言代码
+    :return: str，指定语言的 Java 与 Bedrock 对比指南页面 HTML 响应内容
+    """
+    return render_core_page('java-vs-bedrock', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

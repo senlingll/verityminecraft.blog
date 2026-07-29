@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "title": "マイクラ Java版とBedrock版の違い10選",
+    "description": "マイクラのJava版とBedrock版を、対応機種、MOD、クロスプレイ、サーバー、動作、レッドストーン、Verityの導入方法で比較します。",
+    "image": "/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "エディション比較",
+    "title": "マイクラ Java版とBedrock版の違い10選：どちらを選ぶ？",
+    "lede": "豊富なMOD、独自サーバー、細かな設定を重視し、Windows・macOS・Linuxで遊ぶならJava版が向いています。家庭用ゲーム機やスマホ、異なる機種の友達とのクロスプレイ、軽快な動作を優先するならBedrock版（統合版）が実用的です。",
+    "support": "Verity Minecraftではエディションによってファイルも変わります。Java版はForge用.jar、Bedrock版は.mcaddonなどのアドオンです。相互に流用できません。",
+    "actions": [
+      {
+        "label": "Java版ガイド",
+        "url": "/java/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Bedrock版ガイド",
+        "url": "/bedrock/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+      "alt": "Java版とBedrock版を一緒に描いたMinecraft公式アート",
+      "caption": "Minecraft公式アート。基本のゲームは共通でも、機種、マルチプレイ、拡張方法、Verityのファイルは異なります。"
+    }
+  },
+  "answer": {
+    "eyebrow": "先に結論",
+    "title": "Java版とBedrock版、あなたに合うのはどちら？",
+    "paragraphs": [
+      "万能な一方はありません。無料のコミュニティMOD、シェーダー、技術系サーバー、旧バージョン、詳細設定を重視するならJava版です。Xbox、PlayStation、Switch、Windows、Android、iOSをまたいで遊ぶ家族や友達にはBedrock版が分かりやすい選択です。",
+      "Verityを導入する場合は、数字より先にエディションを確認してください。確認済みのJava版は2026年7月18日公開のVerity JE 5.7.3（Forge 1.20.1）です。Bedrock版はCurseForgeの別アドオンとして配布されています。"
+    ],
+    "cards": [
+      {
+        "title": "MODならJava版",
+        "text": "Forge、Fabric、NeoForge、コミュニティランチャー、シェーダー、MODファイルを使いたい人向けです。"
+      },
+      {
+        "title": "クロスプレイならBedrock版",
+        "text": "ゲーム機、Windows、スマホが混在するグループで最も始めやすい選択です。"
+      },
+      {
+        "title": "友達の版を確認",
+        "text": "Java版のクライアントはBedrock版のワールドへ直接参加できません。グループの環境を先に揃えましょう。"
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "主な比較",
+    "title": "Java版とBedrock版で重要な10の違い",
+    "description": "導入できるもの、遊べる相手、設定の自由度に関わる違いです。",
+    "items": [
+      {
+        "title": "対応機種",
+        "text": "Java版はWindows、macOS、Linux向けです。Bedrock版はWindows、Xbox、PlayStation、Switch、Android、iOSに対応します。"
+      },
+      {
+        "title": "クロスプレイ",
+        "text": "Bedrock版は対応機種間でクロスプレイできます。Java版のマルチプレイは、通常Java版同士に限られます。"
+      },
+      {
+        "title": "MODとアドオン",
+        "text": "Java版はローダーを使う.jar MODが中心です。Bedrock版はMarketplace、リソースパック、ビヘイビアーパック、.mcpack、.mcaddonを使います。"
+      },
+      {
+        "title": "サーバーとRealms",
+        "text": "両方にRealmsとサーバーがありますが、サーバー一覧、ソフト、プラグイン、コミュニティは別です。契約前に版を確認してください。"
+      },
+      {
+        "title": "動作と操作",
+        "text": "Bedrock版は幅広い機器向けに最適化されています。Java版は映像や起動設定を細かく調整できますが、性能改善MODが必要な場合もあります。"
+      },
+      {
+        "title": "レッドストーンと仕様",
+        "text": "レッドストーンのタイミング、準接続、Mob、戦闘、一部の装置が異なります。解説動画や設計図は対象エディションを確認しましょう。"
+      },
+      {
+        "title": "試験版アップデート",
+        "text": "Java版はスナップショット、Bedrock版はPreviewやベータを使います。実験機能やコマンドの挙動は同一とは限りません。"
+      },
+      {
+        "title": "スキンと有料コンテンツ",
+        "text": "Java版はスキンやマップを手動で扱いやすく、Bedrock版はMarketplaceとMinecoinを中心に提供します。"
+      },
+      {
+        "title": "旧バージョン",
+        "text": "Java版はランチャーで旧版プロファイルを管理しやすい一方、Bedrock版は各ストアの現行版に追随するのが基本です。"
+      },
+      {
+        "title": "Verityの導入",
+        "text": "Verity JE 5.7.3はForge 1.20.1用.jarです。Bedrock版は別アドオンです。.jarを.mcaddonへ改名しても変換できません。"
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "カスタマイズ",
+    "title": "Java版MODとBedrock版アドオンの違い",
+    "paragraphs": [
+      "Java版MODの.jarには対応するMinecraft版とローダーがあります。正しいファイルでも、Forge・Fabric・NeoForgeの違い、ゲーム版、他MODとの競合で起動できないことがあります。",
+      "Bedrock版はリソース、ビヘイビアー、ワールド、Marketplace、アドオンに分かれます。.mcaddonを読み込んだ後も、対象ワールドで必要なパックを有効化する作業が残ります。",
+      "配布経路も異なります。Java版はModrinth、CurseForge、GitHub、対応ランチャー、Bedrock版はMarketplace、制作者ページ、管理されたアドオンページが中心です。"
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-bedrock-addons-official.webp",
+      "alt": "Bedrock版のカスタマイズを表すMinecraft Add-Ons公式アート",
+      "caption": "Minecraft Add-Ons公式アート。Bedrock版アドオンとJava版.jar MODは仕組みが異なります。"
+    }
+  },
+  "table": {
+    "eyebrow": "選択表",
+    "title": "マイクラ Java版とBedrock版の比較表",
+    "description": "まず機種とマルチプレイ、その後に拡張性と動作を比較します。",
+    "headers": [
+      "項目",
+      "Java版",
+      "Bedrock版（統合版）"
+    ],
+    "rows": [
+      [
+        "機種",
+        "Windows、macOS、Linux",
+        "Windows、各種ゲーム機、Android、iOS"
+      ],
+      [
+        "クロスプレイ",
+        "Java版サーバーとRealms",
+        "Bedrock版対応機種間"
+      ],
+      [
+        "拡張",
+        "MOD、シェーダー、データパック",
+        "Marketplace、アドオン、各種パック"
+      ],
+      [
+        "主なファイル",
+        ".jar",
+        ".mcaddon / .mcpack"
+      ],
+      [
+        "動作",
+        "自由度が高いが調整が必要な場合あり",
+        "幅広い機器向けに最適化"
+      ],
+      [
+        "レッドストーン",
+        "Java版固有のタイミング",
+        "一部の挙動が異なる"
+      ],
+      [
+        "試験版",
+        "スナップショット",
+        "Preview / ベータ"
+      ],
+      [
+        "Verity",
+        "5.7.3、Forge 1.20.1",
+        "別のBedrockアドオン"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "マルチプレイ",
+    "title": "友達が参加できるエディションを選ぶ",
+    "paragraphs": [
+      "グループがすでに一方を持っているなら、機能表より参加可否が重要です。ゲーム機、Windows、スマホが混在するならBedrock版、全員がPCでMODサーバーを使うならJava版が自然です。",
+      "Realmsは版をまたぎません。Java RealmはJava版、Bedrock RealmはBedrock版向けです。Geyserを導入したJavaサーバーはBedrock接続を受けられる場合がありますが、標準機能ではありません。",
+      "サーバー契約やVerity導入前に、エディション、Minecraft版、ローダーまたはアドオン要件、サーバー規約を記録してください。"
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-bedrock-realms-official.webp",
+      "alt": "共有ワールドを表すMinecraft Realms公式アート",
+      "caption": "Minecraft Realms公式アート。Realmsはマルチプレイ用ですが、Java版とBedrock版は別です。"
+    }
+  },
+  "mistakes": {
+    "eyebrow": "よくある失敗",
+    "title": "Java版とBedrock版を選ぶときの注意",
+    "description": "機種、友達、ファイル形式を後回しにすると失敗しやすくなります。",
+    "cards": [
+      {
+        "title": "機種を確認しない",
+        "text": "Java版はゲーム機やスマホ向けではなく、Bedrock版はmacOSやLinuxでJava版と同じ導入経路を持ちません。"
+      },
+      {
+        "title": "別版の解説を使う",
+        "text": "レッドストーン、装置、コマンド、サーバー、パック導入は異なります。検索に版名を入れましょう。"
+      },
+      {
+        "title": "Verityファイルを混同",
+        "text": "Java版.jarとBedrock版.mcaddonは、同じファイルの拡張子違いではありません。"
+      },
+      {
+        "title": "MarketplaceをJava MODと思う",
+        "text": "MarketplaceはBedrock版の仕組みです。Java版MODは別のプロジェクトページから入手します。"
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "次の手順",
+    "title": "正しいVerity Minecraft導入先を選ぶ",
+    "description": "決めたエディションとファイル形式に合うガイドを開いてください。",
+    "links": [
+      {
+        "title": "Verity Java版",
+        "url": "/java/",
+        "text": "5.7.3、Forge 1.20.1、Java版導入の確認事項。",
+        "cta": "Java版ガイド"
+      },
+      {
+        "title": "Verity Bedrock版",
+        "url": "/bedrock/",
+        "text": "Bedrock配布元、.mcaddon、バックアップ、有効化の手順。",
+        "cta": "Bedrock版ガイド"
+      },
+      {
+        "title": "Verityの導入方法",
+        "url": "/how-to-install/",
+        "text": "版を確認した後に正しい導入手順を進めます。",
+        "cta": "導入ガイド"
+      },
+      {
+        "title": "Verityバージョン",
+        "url": "/versions/",
+        "text": "Java、Bedrock、PEを混同せず確認します。",
+        "cta": "バージョン確認"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "参照元",
+    "title": "確認した公式情報",
+    "description": "エディション仕様とJava版リリースは2026年7月29日に確認しました。",
+    "links": [
+      {
+        "title": "Minecraft Java版とBedrock版",
+        "url": "https://www.minecraft.net/ja-jp/article/java-or-bedrock-edition",
+        "text": "機種、更新、サーバー、クロスプレイ、Realms、コンテンツの公式比較。",
+        "cta": "公式比較を読む"
+      },
+      {
+        "title": "ModrinthのVerity JE",
+        "url": "https://modrinth.com/mod/verity-je-official/versions",
+        "text": "5.7.3、Forge 1.20.1、公開日、容量の確認に使ったプロジェクト一覧。",
+        "cta": "Java版を確認"
+      },
+      {
+        "title": "CurseForgeのVerity Bedrock",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition",
+        "text": "管理されたBedrockアドオンページ。確認時、ファイルページはCloudflare認証で保護されていました。",
+        "cta": "Bedrock版を確認"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "よくある質問",
+    "title": "Java版とBedrock版のFAQ",
+    "items": [
+      {
+        "question": "Java版とBedrock版の最大の違いは？",
+        "answer": "対応機種と拡張環境です。Java版はPCのMODと独自サーバー、Bedrock版はゲーム機・スマホとクロスプレイに強みがあります。"
+      },
+      {
+        "question": "Java版とBedrock版は一緒に遊べる？",
+        "answer": "標準のワールドやRealmsでは遊べません。一部の管理サーバーはGeyserなどを使いますが、設定が必要です。"
+      },
+      {
+        "question": "MODに向くのはどちら？",
+        "answer": "オープンなMOD環境はJava版が豊富です。Bedrock版はアドオン、各種パック、Marketplaceを使います。"
+      },
+      {
+        "question": "低スペック端末に向くのは？",
+        "answer": "Bedrock版はスマホ、ゲーム機、控えめなPCを含む幅広い機器向けです。Java版は設定や性能改善MODの影響が大きくなります。"
+      },
+      {
+        "question": "Verity Javaの.jarをBedrockに入れられる？",
+        "answer": "入れられません。Verity JE 5.7.3はForge 1.20.1用で、Bedrock版には別アドオンが必要です。"
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "マイクラ Java版とBedrock版の違い10選：どちらを選ぶ？",
+      "description": "Java版とBedrock版を機種、MOD、クロスプレイ、性能、Verity導入で比較します。",
+      "image": "https://verityminecraft.blog/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+      "datePublished": "2026-07-29",
+      "dateModified": "2026-07-29",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/ja/java-vs-bedrock/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Java版とBedrock版の最大の違いは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "対応機種と拡張環境です。Java版はMOD、Bedrock版はクロスプレイに強みがあります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Java版とBedrock版は一緒に遊べる？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "標準のワールドやRealmsでは遊べません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "MODに向くのはどちら？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "オープンなMOD環境はJava版が豊富です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Verity Javaの.jarをBedrockに入れられる？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "入れられません。ファイルと導入方式が異なります。"
+          }
+        }
+      ]
+    }
+  }
+}

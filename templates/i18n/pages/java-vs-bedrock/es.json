@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "title": "Minecraft Java vs Bedrock: 10 diferencias clave",
+    "description": "Compara Minecraft Java y Bedrock por dispositivos, mods, juego cruzado, servidores, rendimiento, redstone, actualizaciones e instalación de Verity.",
+    "image": "/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Comparativa de ediciones",
+    "title": "Minecraft Java vs Bedrock: 10 diferencias y cuál elegir",
+    "lede": "Elige Java Edition si buscas el ecosistema de mods más amplio, servidores personalizados y mayor control en Windows, macOS o Linux. Elige Bedrock Edition si necesitas jugar en consola o móvil, usar juego cruzado con facilidad y obtener un rendimiento más estable en equipos modestos.",
+    "support": "En Verity Minecraft, la edición también determina el archivo: Java usa un .jar para Forge y Bedrock utiliza un complemento como .mcaddon. No son intercambiables.",
+    "actions": [
+      {
+        "label": "Ver guía de Java",
+        "url": "/java/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Ver guía de Bedrock",
+        "url": "/bedrock/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+      "alt": "Arte oficial de Minecraft Java y Bedrock con ambas ediciones",
+      "caption": "Arte oficial de Minecraft. El juego base es similar, pero cambian los dispositivos, el multijugador, la personalización y los archivos de Verity."
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "¿Es mejor Minecraft Java o Bedrock para ti?",
+    "paragraphs": [
+      "Ninguna edición es mejor en todos los casos. Java conviene a quien prioriza mods gratuitos de la comunidad, shaders, servidores técnicos, versiones antiguas y ajustes avanzados. Bedrock suele ser más práctica para familias y grupos repartidos entre Xbox, PlayStation, Switch, Windows, Android e iOS.",
+      "Si quieres instalar Verity, elige primero la edición y después revisa la versión. La versión Java verificada es Verity JE 5.7.3 para Forge 1.20.1, publicada en Modrinth el 18 de julio de 2026. Bedrock tiene una ficha de complemento independiente en CurseForge."
+    ],
+    "cards": [
+      {
+        "title": "Java para mods",
+        "text": "La mejor opción para perfiles Forge, Fabric o NeoForge, launchers comunitarios, shaders y acceso directo a archivos de mods."
+      },
+      {
+        "title": "Bedrock para juego cruzado",
+        "text": "La opción más sencilla cuando los amigos usan consolas, Windows o móviles diferentes."
+      },
+      {
+        "title": "Comprueba qué tienen tus amigos",
+        "text": "Un cliente Java no entra directamente en un mundo Bedrock. La edición del grupo puede pesar más que cualquier función."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Comparación principal",
+    "title": "10 diferencias entre Minecraft Java y Bedrock",
+    "description": "Estas diferencias cambian lo que puedes instalar, con quién puedes jugar y cuánto puedes ajustar.",
+    "items": [
+      {
+        "title": "Dispositivos compatibles",
+        "text": "Java funciona en Windows, macOS y Linux. Bedrock funciona en Windows, consolas actuales, Android e iOS. En Mac o Linux normalmente necesitas Java; en consola necesitas Bedrock."
+      },
+      {
+        "title": "Juego cruzado",
+        "text": "Bedrock permite juego cruzado entre sus plataformas cuando las cuentas, controles parentales y versiones coinciden. Java mantiene su multijugador dentro de Java salvo soluciones de compatibilidad del servidor."
+      },
+      {
+        "title": "Mods y complementos",
+        "text": "Java posee un ecosistema abierto de mods .jar y cargadores. Bedrock usa Marketplace, paquetes de recursos, paquetes de comportamiento y archivos .mcpack o .mcaddon."
+      },
+      {
+        "title": "Servidores y Realms",
+        "text": "Ambas tienen Realms y servidores, pero listas, software, plugins y comunidades son independientes. Confirma la edición antes de pagar un servidor."
+      },
+      {
+        "title": "Rendimiento y controles",
+        "text": "Bedrock está diseñada para más tipos de hardware y suele rendir mejor en móviles, consolas y PC modestos. Java permite más ajustes, aunque puede requerir optimización."
+      },
+      {
+        "title": "Redstone y mecánicas",
+        "text": "La supervivencia es parecida, pero cambian tiempos de redstone, cuasiconectividad, comportamiento de criaturas, combate y algunas granjas. Usa tutoriales de tu edición."
+      },
+      {
+        "title": "Actualizaciones de prueba",
+        "text": "El contenido principal llega a ambas, pero Java usa snapshots y Bedrock usa Preview o betas. Las funciones experimentales no siempre se comportan igual."
+      },
+      {
+        "title": "Skins y contenido de pago",
+        "text": "Java facilita skins, mapas y descargas manuales. Bedrock centra el contenido seleccionado en Marketplace y Minecoins, con límites que dependen del dispositivo."
+      },
+      {
+        "title": "Versiones anteriores",
+        "text": "Java permite gestionar perfiles antiguos con más facilidad. Bedrock suele seguir la versión actual de cada plataforma y no ofrece una bajada de versión sencilla."
+      },
+      {
+        "title": "Instalación de Verity",
+        "text": "Verity JE 5.7.3 es un .jar para Forge 1.20.1. Bedrock usa un complemento separado. No renombres un .jar como .mcaddon ni copies un paquete Bedrock en la carpeta mods."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Personalización",
+    "title": "Mods de Java vs complementos de Bedrock",
+    "paragraphs": [
+      "Los mods de Java suelen ser archivos .jar que dependen de una versión y un cargador compatibles. Un archivo correcto puede fallar si el perfil usa otro cargador, otra versión del juego o un mod incompatible.",
+      "Bedrock divide la personalización entre recursos, comportamientos, mundos, Marketplace y complementos. Un .mcaddon puede agrupar varios componentes; después de importarlo todavía puede ser necesario activar sus paquetes en el mundo.",
+      "También cambia la distribución. Java usa con frecuencia Modrinth, CurseForge, GitHub y launchers con soporte para cargadores. Bedrock usa Marketplace, páginas del creador y fichas mantenidas de complementos."
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-bedrock-addons-official.webp",
+      "alt": "Arte oficial de Minecraft Add-Ons para la personalización de Bedrock",
+      "caption": "Arte oficial de Minecraft Add-Ons. Los complementos Bedrock no usan el mismo sistema que los mods .jar de Java."
+    }
+  },
+  "table": {
+    "eyebrow": "Tabla de decisión",
+    "title": "Tabla comparativa de Minecraft Java vs Bedrock",
+    "description": "Empieza por dispositivo y multijugador; después compara personalización y rendimiento.",
+    "headers": [
+      "Característica",
+      "Java Edition",
+      "Bedrock Edition"
+    ],
+    "rows": [
+      [
+        "Dispositivos",
+        "Windows, macOS, Linux",
+        "Windows y consolas Xbox, PlayStation y Switch, además de Android e iOS"
+      ],
+      [
+        "Juego cruzado",
+        "Servidores y Realms de Java",
+        "Multiplataforma dentro de Bedrock"
+      ],
+      [
+        "Personalización",
+        "Mods, shaders y datapacks",
+        "Marketplace, complementos y paquetes"
+      ],
+      [
+        "Archivo de mod habitual",
+        ".jar",
+        ".mcaddon / .mcpack"
+      ],
+      [
+        "Rendimiento",
+        "Flexible; puede necesitar ajustes",
+        "Optimizada para más hardware"
+      ],
+      [
+        "Redstone",
+        "Tiempos y cuasiconectividad de Java",
+        "Tiempos y componentes diferentes"
+      ],
+      [
+        "Acceso anticipado",
+        "Snapshots",
+        "Preview y beta"
+      ],
+      [
+        "Ruta Verity",
+        "Archivo Verity JE 5.7.3 para Forge 1.20.1",
+        "Ficha separada del complemento Bedrock"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Elección multijugador",
+    "title": "Elige la edición a la que tus amigos puedan entrar",
+    "paragraphs": [
+      "Una lista de funciones importa menos si tu grupo ya tiene una edición. Bedrock es el punto común más sencillo para consola, Windows y móvil. Java encaja si todos juegan en ordenador y quieren servidores con mods o herramientas técnicas.",
+      "Realms no conecta las dos ediciones: un Realm Java acepta Java y un Realm Bedrock acepta Bedrock. Algunos servidores Java usan Geyser para aceptar Bedrock, pero es una capa de compatibilidad del servidor, no juego cruzado nativo.",
+      "Antes de pagar alojamiento o instalar Verity, anota edición, versión de Minecraft, cargador o requisito del complemento y normas del servidor. Un servidor puede prohibir mods que alteren la jugabilidad."
+    ],
+    "image": {
+      "src": "/static/images/java-vs-bedrock/minecraft-bedrock-realms-official.webp",
+      "alt": "Arte oficial de Minecraft Realms sobre mundos multijugador",
+      "caption": "Arte oficial de Minecraft Realms. Realms ofrece multijugador, pero Java y Bedrock siguen separados."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Errores frecuentes",
+    "title": "Errores al elegir Java o Bedrock",
+    "description": "La mayoría aparece por revisar funciones antes que dispositivo, amigos y formato.",
+    "cards": [
+      {
+        "title": "Comprar para otro dispositivo",
+        "text": "Java no funciona de forma nativa en consolas o móviles; Bedrock no ofrece el mismo camino de escritorio en macOS o Linux."
+      },
+      {
+        "title": "Seguir el tutorial equivocado",
+        "text": "Redstone, granjas, comandos, servidores e instalación de paquetes pueden cambiar. Incluye la edición en cada búsqueda."
+      },
+      {
+        "title": "Mezclar archivos de Verity",
+        "text": "El .jar de Java y el .mcaddon de Bedrock son lanzamientos distintos, no extensiones alternativas."
+      },
+      {
+        "title": "Confundir Marketplace con mods Java",
+        "text": "Marketplace pertenece al ecosistema Bedrock; los mods con cargador de Java usan proyectos y archivos distintos."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Siguientes pasos",
+    "title": "Elige la ruta correcta de Verity Minecraft",
+    "description": "Abre la guía que coincida con tu edición y formato.",
+    "links": [
+      {
+        "title": "Descarga de Verity Java",
+        "url": "/java/",
+        "text": "Datos verificados de 5.7.3, requisitos de Forge 1.20.1 y pasos de Java.",
+        "cta": "Ver guía de Java"
+      },
+      {
+        "title": "Descarga de Verity Bedrock",
+        "url": "/bedrock/",
+        "text": "Fuente Bedrock, comprobación .mcaddon, copia del mundo y activación.",
+        "cta": "Ver guía de Bedrock"
+      },
+      {
+        "title": "Cómo instalar Verity",
+        "url": "/how-to-install/",
+        "text": "Sigue el proceso correcto después de identificar la edición.",
+        "cta": "Leer guía de instalación"
+      },
+      {
+        "title": "Versiones de Verity",
+        "url": "/versions/",
+        "text": "Compara versiones sin mezclar Java, Bedrock y PE.",
+        "cta": "Comprobar versiones"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referencias",
+    "title": "Fuentes oficiales comprobadas",
+    "description": "Funciones y versión Java comprobadas el 29 de julio de 2026.",
+    "links": [
+      {
+        "title": "Minecraft: Java o Bedrock",
+        "url": "https://www.minecraft.net/es-es/article/java-or-bedrock-edition",
+        "text": "Comparativa oficial de dispositivos, actualizaciones, servidores, juego cruzado, Realms y contenido.",
+        "cta": "Leer comparación oficial"
+      },
+      {
+        "title": "Verity JE en Modrinth",
+        "url": "https://modrinth.com/mod/verity-je-official/versions",
+        "text": "Lista del proyecto usada para verificar 5.7.3, Forge 1.20.1, fecha y tamaño.",
+        "cta": "Comprobar Java"
+      },
+      {
+        "title": "Verity Bedrock en CurseForge",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition",
+        "text": "Ficha mantenida del complemento; el archivo estaba protegido por un reto Cloudflare durante la revisión.",
+        "cta": "Comprobar Bedrock"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "FAQ de Minecraft Java vs Bedrock",
+    "items": [
+      {
+        "question": "¿Cuál es la mayor diferencia entre Minecraft Java y Bedrock?",
+        "answer": "La plataforma y el ecosistema. Java se centra en mods de escritorio y servidores personalizados; Bedrock incluye consola, móvil y juego cruzado más sencillo."
+      },
+      {
+        "question": "¿Pueden jugar juntos Java y Bedrock?",
+        "answer": "No mediante mundos o Realms nativos. Algunos servidores Java usan compatibilidad como Geyser, pero requieren configuración."
+      },
+      {
+        "question": "¿Java o Bedrock es mejor para mods?",
+        "answer": "Java tiene el ecosistema abierto más amplio. Bedrock usa complementos, paquetes de recursos, comportamiento y Marketplace."
+      },
+      {
+        "question": "¿Qué edición funciona mejor en un equipo modesto?",
+        "answer": "Bedrock suele adaptarse mejor a teléfonos, consolas y PC modestos. Java depende más de ajustes, memoria y mods de rendimiento."
+      },
+      {
+        "question": "¿Puedo instalar el .jar de Verity Java en Bedrock?",
+        "answer": "No. Verity JE 5.7.3 es un .jar de Forge 1.20.1; Bedrock necesita su propio complemento."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Java vs Bedrock: 10 diferencias y cuál elegir",
+      "description": "Compara Minecraft Java y Bedrock por dispositivos, mods, juego cruzado, servidores, rendimiento y Verity.",
+      "image": "https://verityminecraft.blog/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
+      "datePublished": "2026-07-29",
+      "dateModified": "2026-07-29",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/es/java-vs-bedrock/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la mayor diferencia entre Minecraft Java y Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Java se centra en mods de escritorio; Bedrock en consola, móvil y juego cruzado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Pueden jugar juntos Java y Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No mediante mundos o Realms nativos; algunos servidores usan una capa de compatibilidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Java o Bedrock es mejor para mods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Java ofrece más mods abiertos; Bedrock usa complementos, paquetes y Marketplace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo instalar el .jar de Verity Java en Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, son archivos y sistemas de instalación distintos."
+          }
+        }
+      ]
+    }
+  }
+}

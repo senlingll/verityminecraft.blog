@@ -77,7 +77,8 @@
     "terms_of_service": "Términos de servicio",
     "copyright": "Guía independiente de descarga de Verity Minecraft.",
     "disclaimer": "Guía independiente de descarga de Verity Minecraft.",
-    "bedrock_addons": "Addons Bedrock"
+    "bedrock_addons": "Addons Bedrock",
+    "java_vs_bedrock": "Java vs Bedrock"
   },
   "error_404": {
     "code": "404",
