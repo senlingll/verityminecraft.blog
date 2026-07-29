@@ -12,3 +12,4 @@ Contact: support@verityminecraft.blog
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/
 - Minecraft Bedrock add-ons guide: https://verityminecraft.blog/bedrock-addons/ explains safe source checks, .mcaddon/.mcpack differences, import, activation, backup, and troubleshooting.
 - Minecraft Java vs Bedrock guide: https://verityminecraft.blog/java-vs-bedrock/ compares devices, crossplay, mods, servers, performance, and the separate Verity Java and Bedrock install paths.
+- Minecraft Bedrock shaders guide: https://verityminecraft.blog/bedrock-shaders/ compares Vibrant Visuals, RTX/PBR, RenderDragon-compatible packs, device support, source checks, and safe test-world setup.

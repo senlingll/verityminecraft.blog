@@ -71,7 +71,7 @@
           "title": "Verity Mod pour Java Edition",
           "description": "Adapté aux joueurs Java qui utilisent des loaders compatibles et vérifient les versions Minecraft indiquées.",
           "version": "verity-5.7.3.jar",
-          "minecraft": "Forge 1.20.1 / NeoForge 1.21.1",
+          "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Source Java",
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE ou Modrinth Verity JE",
-          "verity-5.7.3.jar / NeoForge 3.4.1",
+          "verity-5.7.3.jar / Forge 1.20.1",
           ".jar",
           "Vérifier loader et version"
         ],

@@ -78,7 +78,8 @@
     "copyright": "Unabhängige Anleitung zum Herunterladen von Verity Minecraft.",
     "disclaimer": "Unabhängige Anleitung zum Herunterladen von Verity Minecraft.",
     "bedrock_addons": "Bedrock-Add-ons",
-    "java_vs_bedrock": "Java vs Bedrock"
+    "java_vs_bedrock": "Java vs Bedrock",
+    "bedrock_shaders": "Bedrock-Shader"
   },
   "error_404": {
     "code": "404",

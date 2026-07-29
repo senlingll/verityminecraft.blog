@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "title": "7 beste Minecraft Bedrock Shader - Anleitung 2026",
+    "description": "Vergleiche die besten Minecraft Bedrock Shader 2026: Vibrant Visuals, RTX, kompatible Packs, Geräteanforderungen und sichere Installation.",
+    "image": "/static/images/bedrock-shaders/bedrock-shaders-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrock-Beleuchtungsratgeber",
+    "title": "7 beste Minecraft Bedrock Shader und sichere Anleitung (2026)",
+    "lede": "Der beste Minecraft Bedrock Shader ist der, den dein aktuelles Gerät und deine Spielversion wirklich darstellen können. Prüfe zuerst Vibrant Visuals, verwende RTX/PBR nur auf einem kompatiblen Windows-PC und behandle ältere RenderDragon-Downloads als versionsgebundene Packs statt als universelle Lösung.",
+    "support": "Dieser Ratgeber bewertet Grafikpfade nach Kompatibilität und nachvollziehbarer Quelle. Er zeigt, was sie ändern und wie du sie prüfst, ohne deine Hauptwelt zu gefährden.",
+    "actions": [
+      {
+        "label": "Bedrock prüfen",
+        "url": "/bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Resource-Pack-Anleitung",
+        "url": "/bedrock-resource-packs/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/bedrock-shaders/bedrock-shaders-feature.webp",
+      "alt": "Redaktionelle Voxel-Landschaft mit normaler und verbesserter Bedrock-Beleuchtung",
+      "caption": "Redaktionelle Illustration, kein Gameplay. Das Ergebnis hängt von Gerät, Welt, Pack und Bedrock-Version ab."
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Welcher Minecraft Bedrock Shader ist 2026 der beste?",
+    "paragraphs": [
+      "Für die meisten Spieler ist Vibrant Visuals der beste erste Versuch, weil es zum aktuellen Bedrock-Grafikpfad gehört und keine unbekannte APK oder EXE benötigt. Wenn die Option in deinen Videoeinstellungen erscheint, kann sie Licht, Schatten, Reflexionen und Atmosphäre verbessern. Verfügbarkeit und Leistung unterscheiden sich nach Plattform und Update; dein Menü ist aussagekräftiger als die Behauptung 'funktioniert überall'.",
+      "Auf kompatiblen Windows-PCs kommen offizielle RTX-Welten oder PBR-Packs für diesen Renderpfad hinzu. Auf Mobilgeräten und Konsolen solltest du Marketplace oder Erstellerseiten mit Bedrock-Version, Geräteliste, Dateiformat und Datum bevorzugen. Eine Datei mit dem bloßen Namen 'Bedrock Shader' reicht als Nachweis nicht aus."
+    ],
+    "cards": [
+      {
+        "title": "Beste allgemeine Wahl",
+        "text": "Vibrant Visuals zuerst testen, wenn es angeboten wird: integriert, aktuell und klar abschaltbar."
+      },
+      {
+        "title": "Beste Windows-Wahl",
+        "text": "RTX/PBR nur mit kompatibler Hardware und ausdrücklich dafür erstellten Inhalten verwenden."
+      },
+      {
+        "title": "Sichere Alternative",
+        "text": "Marketplace oder Ersteller mit Änderungsprotokoll, Versionen, Dateiformat und Anleitung wählen."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Optionen im Vergleich",
+    "title": "7 Bedrock-Shader-Typen nach Einsatzzweck",
+    "description": "Das sind Renderpfade und Pack-Kategorien, keine einzelne Datei für jedes Gerät. Entscheide nach Hardware, Update und Quellenqualität.",
+    "items": [
+      {
+        "title": "Integrierte Vibrant Visuals",
+        "text": "Die beste Gesamtlösung, wenn sie in den Einstellungen erscheint. Kein externer Installer, klarer Schalter. Prüfe zuerst stabile Bildrate, Temperatur und Akku, bevor du Sichtweite und Qualität erhöhst."
+      },
+      {
+        "title": "Marketplace-Inhalte",
+        "text": "Ein kontrollierter Weg für Welten und Packs. Lies, ob der Kauf an eine Welt gebunden, wiederverwendbar oder von einem Grafikmodus abhängig ist. Marketplace garantiert nicht dieselbe Leistung auf allen Geräten."
+      },
+      {
+        "title": "PBR-Packs vom Ersteller",
+        "text": "Für reflektierende, leuchtende oder strukturierte Materialien. Verlange Changelog, Bedrock-Builds und Originalquelle. PBR-Texturen allein aktivieren ohne kompatiblen Renderer kein Raytracing."
+      },
+      {
+        "title": "RTX-Welten unter Windows",
+        "text": "Für Szenen, die gezielt mit Raytracing entworfen wurden. Sie brauchen unterstützte Hardware und verwandeln nicht automatisch jede bestehende Welt."
+      },
+      {
+        "title": "RenderDragon-kompatible Packs",
+        "text": "Nur sinnvoll, wenn der Ersteller die genaue aktuelle Version nennt. Viele alte Mobile-Tutorials importieren ein Pack noch, obwohl der frühere Beleuchtungscode nicht mehr wirkt."
+      },
+      {
+        "title": "Leichte Himmel- und Farb-Packs",
+        "text": "Für schwächere Geräte. Sie verbessern Himmel, Wasser, Nebel, Partikel und Farbstimmung ohne dynamische Shader-Beleuchtung vorzutäuschen. Technisch bleiben sie Resource Packs."
+      },
+      {
+        "title": "Welt- oder Server-Packs",
+        "text": "Für eine bestimmte Karte abgestimmt. Aktiviere sie zuerst in einer Kopie und prüfe Serverdownload, globale Wirkung und sauberes Entfernen."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Kompatibilität zuerst",
+    "title": "Warum Bedrock-Shader je nach Gerät anders funktionieren",
+    "paragraphs": [
+      "Bedrock läuft auf Windows, Konsolen und Mobilgeräten, aber nicht jede Plattform bietet dieselben Grafikfunktionen. Ein PC kann einen RTX-Pfad besitzen, der auf einem Telefon fehlt; Vibrant Visuals kann mit anderen Qualitätsstufen eintreffen. Maßgeblich sind das aktuelle Videomenü und die Geräteliste des Erstellers.",
+      "Auch die Renderer-Generation zählt. Packs von vor RenderDragon können sich als gültige Ressourcen importieren lassen, während ihr alter Shadercode keine sichtbare Beleuchtung mehr erzeugt. 'Import erfolgreich' bestätigt die Paketstruktur, nicht die visuelle Kompatibilität.",
+      "Notiere vor dem Herunterladen genaue Bedrock-Version, Gerät und Betriebssystem, verlangten Renderpfad und letztes Ersteller-Update. Fehlt eine Angabe, ist das Vorschaubild nur ein Beispiel für ein fremdes Setup.",
+      "Schatten, Reflexionen, volumetrische Effekte und hochauflösende Materialien erhöhen GPU- und Speicherlast. Beginne in einer Testwelt mit normaler Sichtweite. Beobachte auf Mobilgeräten Hitze und Akku, auf PCs eine dauerhaft stabile Bildrate."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-shaders/bedrock-shader-compatibility.webp",
+      "alt": "Redaktionelles Diagramm zu Bedrock-Grafikunterschieden auf PC, Konsole und Mobilgerät",
+      "caption": "Redaktionelle Illustration. Dieselbe Welt kann je nach Hardware einen anderen Renderpfad verwenden."
+    }
+  },
+  "table": {
+    "eyebrow": "Vergleichstabelle",
+    "title": "Minecraft Bedrock Shader im Vergleich",
+    "description": "Trenne integrierte Grafik, RTX, shaderartige Packs und normale Resource Packs vor dem Herunterladen.",
+    "headers": [
+      "Option",
+      "Geeignet für",
+      "Vorteil",
+      "Grenze"
+    ],
+    "rows": [
+      [
+        "Vibrant Visuals",
+        "Aktuell unterstützte Geräte",
+        "Integriertes Licht",
+        "Je nach Gerät verfügbar"
+      ],
+      [
+        "RTX/PBR",
+        "Kompatibler Windows-PC",
+        "Raytracing und Materialien",
+        "Spezielle Hardware/Inhalte"
+      ],
+      [
+        "RenderDragon-Pack",
+        "Vom Autor genannte Builds",
+        "Eigener Grafikstil",
+        "Kann nach Updates brechen"
+      ],
+      [
+        "Himmel/Farb-Pack",
+        "Schwächere Geräte",
+        "Leichte Atmosphäre",
+        "Kein echtes dynamisches Licht"
+      ],
+      [
+        "Welt/Server-Pack",
+        "Bestimmte Erfahrung",
+        "Abgestimmte Optik",
+        "Begrenzt übertragbar"
+      ],
+      [
+        "Alter Mobile-Shader",
+        "Meist nicht empfohlen",
+        "Eventuell alte Builds",
+        "Oft veraltet oder gespiegelt"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Sicher einrichten",
+    "title": "Bedrock-Shader installieren und testen",
+    "paragraphs": [
+      "Aktualisiere Minecraft über den Store und öffne vor jedem Herunterladen die Videoeinstellungen. Wenn Vibrant Visuals vorhanden ist, teste es zunächst in einer neuen Welt ohne Drittanbieter-Packs und lege so eine Leistungsbasis fest.",
+      "Prüfe bei einem Pack die Begriffe Minecraft Bedrock, unterstützte Versionen und .mcpack, .mcaddon oder ein dokumentiertes Archiv. Behalte die Endung. Ein Java-.zip oder eine Mod-.jar wird durch Umbenennen nicht zu Bedrock-Inhalt.",
+      "Aktiviere genau ein Pack in einer Weltkopie. Prüfe Tag, Nacht, Innenraum, Wasser, Transparenz, Partikel und Menüs. Bei einem Fehler deaktivierst du zuerst das zuletzt hinzugefügte Pack, statt viele Einstellungen gleichzeitig zu ändern.",
+      "Speichere Quell-URL, Dateiname, Testdatum und Bedrock-Version. Nach einem Spielupdate zeigt diese Notiz, welches Pack geprüft werden muss. Entferne es zuerst in den Welteinstellungen und lösche die lokale Datei erst danach."
+    ],
+    "image": {
+      "src": "/static/images/bedrock-shaders/bedrock-shader-test-world-flow.webp",
+      "alt": "Redaktioneller Ablauf von der Pack-Datei über Einstellungen zur geschützten Testwelt",
+      "caption": "Redaktionelle Illustration. Prüfen, eine Einstellung ändern und in einer Kopie testen."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Fehler vermeiden",
+    "title": "6 häufige Bedrock-Shader-Fehler",
+    "description": "Ein schönes Bild beweist keine Kompatibilität mit Gerät, Renderer oder Welt.",
+    "cards": [
+      {
+        "title": "Java-Shader installieren",
+        "text": "Iris, OptiFine und Java-.zip-Dateien funktionieren nicht in Bedrock und werden durch Umbenennen nicht konvertiert."
+      },
+      {
+        "title": "'Alle Geräte' glauben",
+        "text": "Geräteliste, Build, Datum und aktuelle Berichte sind wichtiger als ein universelles Versprechen."
+      },
+      {
+        "title": "APK oder EXE laden",
+        "text": "Ein Grafik-Pack sollte keine fremde App außerhalb des normalen Minecraft-Wegs verlangen."
+      },
+      {
+        "title": "In der Hauptwelt testen",
+        "text": "Konflikte können Texturen verbergen oder Laden verhindern. Nutze eine Kopie."
+      },
+      {
+        "title": "Leistung ignorieren",
+        "text": "Hitze, Akku, Speicher und stabile Bildrate sind wichtiger als ein Standbild."
+      },
+      {
+        "title": "Pack mit Shader verwechseln",
+        "text": "Himmel und Farben zu ändern ist nicht automatisch dynamisches Licht oder RTX."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Verwandte Anleitungen",
+    "title": "Mit dem richtigen Bedrock-Setup fortfahren",
+    "description": "Quelle prüfen, Pack importieren und Java-Dateien getrennt halten.",
+    "links": [
+      {
+        "title": "Bedrock Resource Packs",
+        "url": "/bedrock-resource-packs/",
+        "text": ".mcpack oder .mcaddon importieren und in der richtigen Welt aktivieren.",
+        "cta": "Anleitung öffnen"
+      },
+      {
+        "title": "Minecraft-Bedrock-Add-ons",
+        "url": "/bedrock-addons/",
+        "text": "Resource- und Behavior-Packs sowie Aktivierung verstehen.",
+        "cta": "Add-on-Anleitung"
+      },
+      {
+        "title": "Minecraft Java oder Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Edition, Dateiformat und Anpassungsweg vergleichen.",
+        "cta": "Editionen vergleichen"
+      },
+      {
+        "title": "Verity-Bedrock-Quelle",
+        "url": "/bedrock/",
+        "text": "Verity-Add-on von Shadern und Java-Dateien trennen.",
+        "cta": "Bedrock öffnen"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Quellen",
+    "title": "Offizielle Grafikquellen",
+    "description": "Diese Seiten beschreiben unterstützte Wege. Kompatibilität kann sich nach der Prüfung vom 29. Juli 2026 ändern.",
+    "links": [
+      {
+        "title": "Minecraft: Vibrant Visuals",
+        "url": "https://www.minecraft.net/de-de/updates/vibrant-visuals",
+        "text": "Offizielle Übersicht zur aktuellen Bedrock-Grafikerweiterung.",
+        "cta": "Vibrant Visuals prüfen"
+      },
+      {
+        "title": "Minecraft Marketplace",
+        "url": "https://www.minecraft.net/de-de/marketplace",
+        "text": "Offizieller Weg zu Welten, Packs und Erstellern.",
+        "cta": "Marketplace öffnen"
+      },
+      {
+        "title": "NVIDIA RTX-Anleitung",
+        "url": "https://www.nvidia.com/de-de/geforce/guides/minecraft-rtx-texturing-guide/",
+        "text": "Technische RTX-Referenz für kompatible PCs.",
+        "cta": "RTX-Anleitung lesen"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Häufige Fragen zu Minecraft-Bedrock-Shadern",
+    "items": [
+      {
+        "question": "Welcher Shader ist für Minecraft Bedrock am besten?",
+        "answer": "Beginne mit Vibrant Visuals, wenn es verfügbar ist. RTX/PBR passt zu kompatiblen Windows-PCs. Drittanbieter-Packs müssen Gerät, Bedrock-Version und Renderer nennen."
+      },
+      {
+        "question": "Gibt es Bedrock-Shader auf Mobilgeräten?",
+        "answer": "Das hängt von Hardware und Build ab. Prüfe Video und aktuelle Hinweise; vermeide Shader-APKs außerhalb des normalen Store-Wegs."
+      },
+      {
+        "question": "Warum ändert ein importierter Shader nichts?",
+        "answer": "Er kann für einen alten Renderer, einen fehlenden Modus, ein Konflikt-Pack oder eine andere Version gebaut sein. Import bedeutet nicht visuelle Kompatibilität."
+      },
+      {
+        "question": "Sind Bedrock-Shader Resource Packs?",
+        "answer": "Viele werden so verteilt, doch ein normales Pack kann Texturen ändern, ohne dynamisches Licht zu erzeugen. RTX/PBR und Vibrant Visuals brauchen spezielle Funktionen."
+      },
+      {
+        "question": "Funktionieren Shader auf Konsolen?",
+        "answer": "Nutze integrierte Optionen und Marketplace-Inhalte der Konsole. Windows- oder Android-Dateien lassen sich nicht automatisch gleich installieren."
+      },
+      {
+        "question": "Kann ich Java-Shader in Bedrock verwenden?",
+        "answer": "Nein. Renderer, Werkzeuge und Formate unterscheiden sich; Umbenennen konvertiert nichts."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "7 beste Minecraft Bedrock Shader und sichere Anleitung (2026)",
+      "description": "Vergleich von Vibrant Visuals, RTX, Packs und Gerätekompatibilität.",
+      "image": "https://verityminecraft.blog/static/images/bedrock-shaders/bedrock-shaders-feature.webp",
+      "datePublished": "2026-07-29",
+      "dateModified": "2026-07-29",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/de/bedrock-shaders/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welcher Bedrock-Shader ist am besten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vibrant Visuals zuerst, RTX/PBR auf kompatibler Hardware."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Shader auf Mobilgeräten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Unterstützung hängt von Hardware und Version ab."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum zeigt ein importiertes Pack keinen Effekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es kann alt, inkompatibel oder konfliktbehaftet sein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktionieren Java-Shader in Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein, Systeme und Formate sind verschieden."
+          }
+        }
+      ]
+    }
+  }
+}

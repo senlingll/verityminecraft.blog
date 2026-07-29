@@ -501,6 +501,27 @@ def localized_java_vs_bedrock(lang):
     return render_core_page('java-vs-bedrock', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/bedrock-shaders/', strict_slashes=False)
+def bedrock_shaders():
+    """
+    渲染 Minecraft Bedrock 光影推荐与安装指南页面
+
+    :return: str，Bedrock 光影指南页面 HTML 响应内容
+    """
+    return render_core_page('bedrock-shaders', template_name='article-guide.html')
+
+
+@app.route('/<lang>/bedrock-shaders/', strict_slashes=False)
+def localized_bedrock_shaders(lang):
+    """
+    渲染指定语言的 Minecraft Bedrock 光影指南页面
+
+    :param lang: 语言代码
+    :return: str，指定语言的 Bedrock 光影指南页面 HTML 响应内容
+    """
+    return render_core_page('bedrock-shaders', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

@@ -78,7 +78,8 @@
     "copyright": "Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.",
     "disclaimer": "Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.",
     "bedrock_addons": "Bedrock 애드온",
-    "java_vs_bedrock": "자바 vs 베드락"
+    "java_vs_bedrock": "자바 vs 베드락",
+    "bedrock_shaders": "베드락 셰이더"
   },
   "error_404": {
     "code": "404",

@@ -78,7 +78,8 @@
     "copyright": "Verity Minecraft の独立したダウンロード案内です。",
     "disclaimer": "Verity Minecraft の独立したダウンロード案内です。",
     "bedrock_addons": "Bedrockアドオン",
-    "java_vs_bedrock": "Java版とBedrock版の違い"
+    "java_vs_bedrock": "Java版とBedrock版の違い",
+    "bedrock_shaders": "統合版シェーダー"
   },
   "error_404": {
     "code": "404",
