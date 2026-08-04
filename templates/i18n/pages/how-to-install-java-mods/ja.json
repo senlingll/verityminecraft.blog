@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Minecraft Java版にMODを入れる方法：安全な7手順",
+    "description": "Minecraft Java版のMOD導入方法を、Fabric・Forge、modsフォルダ、プロファイル作成、互換性確認、エラー対処まで説明します。",
+    "image": "/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Java版MODガイド",
+    "title": "Minecraft Java版にMODを入れる方法：安全な7手順",
+    "lede": "Minecraft Java版にMODを入れるときは、MODが対応するMinecraftのバージョンとローダーを先にそろえます。専用プロファイルにローダーを導入し、元の.jarファイルをそのプロファイルのmodsフォルダへ入れ、メインワールドの前にテストします。",
+    "support": "Fabric、ForgeなどのJava版プロファイルを対象にした手順です。.mcaddonをJava版MODへ変換する方法ではなく、配布元が不明なミラーやファイル名を隠すランチャーも推奨しません。",
+    "actions": [
+      {"label": "Java版の配布元メモ", "url": "/java/", "class": "btn-primary"},
+      {"label": "バージョン確認", "url": "/versions/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp",
+      "alt": "Minecraft Java版MODが配布元からローダー付きプロファイルを通ってテストワールドへ進む編集用イラスト",
+      "caption": "編集用イラストです。実際のランチャー画面ではありません。MODを入れる前にローダーとゲームバージョンを確認します。"
+    }
+  },
+  "answer": {
+    "eyebrow": "先に結論",
+    "title": "短く言えば、ローダーを先に合わせる",
+    "paragraphs": [
+      "Minecraft Java版のMOD導入で大切なのは、MOD単体ではなく対応するプロファイルを作ることです。MODの配布ページでMinecraftのバージョンと対応ローダーを確認し、プロファイルも同じ組み合わせにしてからダウンロードします。",
+      "FabricとForgeは同じフォルダや起動方式ではありません。NeoForge向けのプロジェクトもあり、どれも.jarを使っていてもローダーが違えば読み込めない場合があります。最初は空のプロファイルを使い、ファイル名を変えずに1つずつ追加してください。",
+      "Minecraft Java版の最新リリースと、個別MODの最新ファイルは別の情報です。2026年8月4日に公式バージョン一覧を確認した時点では26.2が最新リリースでしたが、既存のVerity JE配布元はForge 1.20.1向けのファイルを掲載していました。数字だけで判断せず、使うプロファイルとファイルの対応を確認します。"
+    ],
+    "cards": [
+      {"title": "Java版専用", "text": "Java版MODは通常.jarで配布され、Bedrockのインポート画面へ入れるものではありません。"},
+      {"title": "ローダーが重要", "text": "MODのページに書かれたFabric、Forgeなどを選び、同じMinecraftバージョン用に導入します。"},
+      {"title": "混ぜる前にテスト", "text": "空のプロファイルとコピーしたワールドがあれば、バージョン違いと競合を切り分けやすくなります。"}
+    ]
+  },
+  "steps": {
+    "eyebrow": "導入手順",
+    "title": "Minecraft Java版にMODを入れる7ステップ",
+    "description": "次の確認を順番に行います。ダウンロードボタンや古い転載記事ではなく、ファイルとプロファイルの対応を自分で判断するための流れです。",
+    "items": [
+      {"title": "1. Java Editionを使っているか確認する", "text": "公式ランチャーまたは普段使うプロファイルを開きます。Bedrock、Minecraft PE、コンソール版は別のコンテンツ方式です。.mcaddonや.mcpackなら、このJava版.jar手順の対象ではありません。"},
+      {"title": "2. タイトルではなくMODページを読む", "text": "Minecraftのバージョン、ローダー、依存ライブラリ、ファイル名をメモします。『Minecraft対応』だけのページでは、プロファイルを安全に選ぶ情報が足りません。"},
+      {"title": "3. 対応ローダーを導入する", "text": "選んだバージョンのFabric公式インストーラーまたはForge公式ファイルページを使います。できれば専用のプロファイルを作り、MODを追加する前に一度起動します。"},
+      {"title": "4. 管理された配布元から取得する", "text": "ModrinthやCurseForgeのプロジェクトページ、作者が案内するページなど、プロジェクト名とバージョン履歴が確認できる場所を優先します。ボタンが速いという理由だけで改変インストーラーやミラーを選びません。"},
+      {"title": "5. 元の.jarを正しいmodsフォルダへ入れる", "text": "別のインストール先の共通フォルダではなく、対応プロファイルのmodsフォルダを開きます。拡張子とファイル名は変更しません。初回起動後にフォルダが作られる場合は、ゲームを終了してからコピーします。"},
+      {"title": "6. 依存関係を確認して起動する", "text": "MODにはAPI、ライブラリ、設定ファイルが必要なことがあります。対応する依存ファイルだけを追加し、最小構成で起動します。別のコピーを探す前に最初のエラーメッセージを読みます。"},
+      {"title": "7. メインワールドの前にコピーで試す", "text": "新規またはバックアップしたワールドで期待する機能を確認し、正常終了します。その後ほかのMODを1つずつ追加すれば、最初の問題から競合候補を特定できます。"}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "配布元と互換性",
+    "title": "Java版MODを取得する前に確認する5項目",
+    "paragraphs": [
+      "プロジェクトページとファイルページは役割が違います。プロジェクトページは機能を説明し、ファイルページはそのビルドのMinecraftバージョン、ローダー、依存関係を示します。今日導入するならファイル固有の情報を使ってください。",
+      "ローダー名を確認します。Fabric、Forge、NeoForgeのMODはすべて.jarの場合がありますが、ローダーは互換性の一部です。同じプロジェクトに複数のローダー向けファイルがあるなら、最新そうな名前ではなく自分のプロファイルに合うものを選びます。",
+      "依存関係も確認します。Fabric APIなどのライブラリが必要でも、メインページだけでは分かりにくいことがあります。起動時のメッセージに不足しているライブラリが示される場合があるので、名前とバージョンを記録してから探します。",
+      "そのファイルが本当にMODかも見分けます。シェーダー、リソースパック、データパック、MODパック、Java版MODは検索結果で混ざりますが、置き場所と読み込み方式は異なります。シェーダーの.zipをmodsへ入れたり、Bedrockのアドオン名を変えたりしても変換にはなりません。",
+      "最後に配布元の情報を残します。プロジェクトURL、ファイル名、ローダー、Minecraftバージョン、確認日をメモしておけば、後でページが更新されても古い記事だけを信じずに差分を確認できます。"
+    ],
+    "image": {
+      "src": "/static/images/how-to-install-java-mods/java-mod-install-profile-check.webp",
+      "alt": "Java版MODファイル、ローダープロファイル、互換性チェック項目を比較する編集用イラスト",
+      "caption": "編集用イラストです。互換性はファイル、ゲーム、ローダー、依存関係、配布元の5点で確認します。"
+    }
+  },
+  "table": {
+    "eyebrow": "互換性マトリクス",
+    "title": "Java版MODを読み込むために一致させるもの",
+    "description": "次の表を導入前の判断に使います。目立つダウンロードボタンだけでは互換性を確認できません。",
+    "headers": ["確認項目", "一致させるもの", "重要な理由"],
+    "rows": [
+      ["Minecraftバージョン", "ファイルに書かれた正確なバージョン", "別バージョン用のMODは読み込みに失敗したり、予期せぬ動作をしたりします。"],
+      ["ローダー", "Fabric、Forge、NeoForgeなどプロジェクト指定のもの", "ローダーがMODの想定するフックとプロファイル環境を提供します。"],
+      ["ファイル形式", "Java MODは通常.jar、パックやシェーダーは別形式", "拡張子を変えても別のコンテンツ方式には変換できません。"],
+      ["依存関係", "必要なAPI、ライブラリと対応バージョン", "メインMODがあっても必須ライブラリが不足すると起動できません。"],
+      ["配布元と日付", "管理されたページと最近の確認", "ミラーは古いビルドや改名ファイルを残し、更新情報を隠す場合があります。" ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "プロファイルとトラブル対処",
+    "title": "メインワールドを守りながらmodsフォルダを探す",
+    "paragraphs": [
+      "modsフォルダはJava版のインストール先またはプロファイルに属します。場所はランチャーとOSで変わり、カスタムランチャーでは別のインスタンスフォルダが使われます。最初に見つけた.minecraftを決めつけず、実際に使うプロファイルの設定を確認します。",
+      "Windowsの標準ランチャーでは、一般的なゲームディレクトリはAppData内にあります。ただしプロファイルや外部ランチャーが別の場所へ変更していることもあります。選んだプロファイルを一度起動し、ログやセーブの場所を確認してから、そのインスタンスのmodsフォルダを使います。",
+      "空のプロファイルに対象MODと必要な依存関係だけを入れます。タイトル画面まで進んだら、コピーしたワールドで期待する機能を試します。クラッシュした場合は最後に追加したファイルを外して再起動します。1つずつ変える方が、同じファイルを何度もダウンロードするより原因を絞れます。",
+      "MODが表示されない場合は、まず起動プロファイルとローダー、次にフォルダの場所、.jar拡張子、Minecraftバージョン、依存関係、ログの順に確認します。別ローダーや別バージョンのファイルを無理に使わず、対応プロファイルまたは対応ファイルを選びます。",
+      "空のテストが成功してから普段のMODを少しずつ戻します。プロジェクトURL、ファイル名、ローダー、Minecraftバージョン、日付を一覧にしておくと、後の更新でワールドが起動しなくなったときに変更点を追跡できます。"
+    ],
+    "image": {
+      "src": "/static/images/how-to-install-java-mods/java-mod-install-troubleshooting.webp",
+      "alt": "読み込めないMinecraft Java版MODを切り分ける編集用トラブル対処フロー",
+      "caption": "編集用イラストです。最後に追加した変数を外し、最初のエラーを読んでから再テストします。"
+    }
+  },
+  "mistakes": {
+    "eyebrow": "よくある失敗",
+    "title": "Java版MODが表示されない、またはクラッシュする理由",
+    "description": "多くの失敗は互換性やファイル管理が原因で、別のミラーを探せば解決する問題とは限りません。",
+    "cards": [
+      {"title": "Minecraftのバージョン違い", "text": "ランチャーは起動しても、MODが別バージョン向けだと拒否されます。ファイルとプロファイルを一致させます。"},
+      {"title": "ローダー違い", "text": "どちらも.jarだからといってFabricがForgeになるわけではありません。プロジェクト指定のローダーを使います。"},
+      {"title": "パックとMODの混同", "text": "シェーダー、リソースパック、データパックは別のフォルダを使います。移動前に種類を確認します。"},
+      {"title": "依存ライブラリ不足", "text": "メインMODの取得に成功してもAPIやライブラリが必要な場合があります。配布元の一覧に従います。"},
+      {"title": "複数ファイルを同時に追加", "text": "一度に大量のMODを入れると最初の原因が分かりません。1つのMODとコピーしたワールドから始めます。"},
+      {"title": "ミラーを配布元と誤認", "text": "再配布ファイルは古かったり不要なインストーラーを含んだりします。管理されたプロジェクトページを優先します。"}
+    ]
+  },
+  "related": {
+    "eyebrow": "関連するVerityガイド",
+    "title": "Java版と他エディションの導入を分ける",
+    "description": "このページの前提になるプロジェクトのダウンロード情報とエディションの境界を確認できます。",
+    "links": [
+      {"title": "Verity Minecraft Java版ダウンロード", "url": "/java/", "text": "特定のVerity JE MODを導入する前に、現在の配布元、Forgeプロファイル、Javaファイル情報を確認します。", "cta": "Java版メモを開く"},
+      {"title": "Verity Minecraftバージョン", "url": "/versions/", "text": "JavaファイルをBedrockやPEのリリースと混同せず、プラットフォーム別に確認します。", "cta": "バージョンを見る"},
+      {"title": "Verity Minecraftの導入方法", "url": "/how-to-install/", "text": "Java、Bedrock、モバイルの手順が混ざった検索結果を整理する全体ガイドです。", "cta": "全体ガイドを開く"},
+      {"title": "Minecraft Java版とBedrock版の違い", "url": "/java-vs-bedrock/", "text": "端末とプレイグループに合うエディションとコンテンツ方式を確認します。", "cta": "エディションを比較"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "公式リファレンス",
+    "title": "この導入ガイドで確認した主な情報源",
+    "description": "ローダーやランチャーの基本経路を説明するページです。個別MODの互換性は各プロジェクトの管理されたファイルページで確認してください。",
+    "links": [
+      {"title": "Fabric: Installing Mods", "url": "https://docs.fabricmc.net/players/installing-mods", "text": "対応するJava版プロファイルへMODを入れるFabricのプレイヤー向け資料です。", "cta": "Fabric資料を読む"},
+      {"title": "Forge Files", "url": "https://files.minecraftforge.net/net/minecraftforge/forge/", "text": "ゲームバージョン別のForge公式ファイル一覧です。", "cta": "Forgeファイルを見る"},
+      {"title": "Modrinth App", "url": "https://modrinth.com/app", "text": "プロジェクト情報を確認しながらModrinthのプロファイルを管理する公式経路です。", "cta": "Modrinth Appを開く"},
+      {"title": "Minecraft Download", "url": "https://www.minecraft.net/en-us/download", "text": "使用しているエディションとランチャーを確認する公式入口です。", "cta": "Minecraftを確認"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "よくある質問",
+    "title": "Minecraft Java版にMODを入れる方法 FAQ",
+    "items": [
+      {"question": "Minecraft Java版にMODを入れるとき、バージョンを混ぜない方法は？", "answer": "ファイルページでMinecraftバージョンとローダーを確認し、専用プロファイルにローダーを導入して、元の.jarをそのmodsフォルダへ入れます。最初は必要な依存関係だけで試します。"},
+      {"question": "Minecraft Java版ではFabricとForgeのどちらがよいですか？", "answer": "常に一方が優れているわけではありません。使いたいMODやコレクションが指定するローダーを選びます。Fabric、Forge、NeoForgeの対応範囲は異なります。"},
+      {"question": "Minecraft Java版のmodsフォルダはどこですか？", "answer": "起動中のJava版プロファイルが使うゲームディレクトリ内です。WindowsではAppDataが一般的ですが、カスタムランチャーは別のインスタンスを使うことがあります。プロファイル設定を確認してください。"},
+      {"question": "Minecraft Java版のMODが表示されないのはなぜですか？", "answer": "起動プロファイル、ローダー、フォルダ、.jar拡張子、Minecraftバージョン、依存関係を順に確認します。クラッシュ時は別ファイルを探す前に最初のエラーを読みます。"},
+      {"question": "Java版MODをMinecraft Bedrock版やPEに入れられますか？", "answer": "できません。Java版MODとBedrock版アドオンはシステムと形式が異なります。.jarの名前を変えるのではなく、BedrockまたはPE向けガイドを使います。"},
+      {"question": "TLauncherなどの外部ランチャーは使えますか？", "answer": "外部ランチャーはフォルダや方針が異なる場合があります。公式に説明されたインスタンスの場所を確認し、正規のMinecraft環境と管理されたプロジェクト配布元を使ってください。"}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Java版にMODを入れる方法：安全な7手順",
+      "description": "Fabric、Forge、プロファイル、依存関係、トラブル対処を含むMinecraft Java版MOD導入ガイドです。",
+      "image": "https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp",
+      "datePublished": "2026-08-04",
+      "dateModified": "2026-08-04",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/ja/how-to-install-java-mods/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Minecraft Java版にMODを入れるとき、バージョンを混ぜない方法は？", "acceptedAnswer": {"@type": "Answer", "text": "ファイルのバージョンとローダーを合わせ、専用プロファイルで.jarと依存関係をテストします。"}},
+        {"@type": "Question", "name": "Minecraft Java版ではFabricとForgeのどちらがよいですか？", "acceptedAnswer": {"@type": "Answer", "text": "使いたいMODが指定するローダーを選びます。3つのローダーには異なる対応範囲があります。"}},
+        {"@type": "Question", "name": "Minecraft Java版のmodsフォルダはどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "起動中のJava版インスタンスのゲームディレクトリにあります。外部ランチャーでは場所が異なることがあります。"}},
+        {"@type": "Question", "name": "Minecraft Java版のMODが表示されないのはなぜですか？", "acceptedAnswer": {"@type": "Answer", "text": "プロファイル、ローダー、場所、拡張子、バージョン、依存関係と最初のエラーを確認します。"}},
+        {"@type": "Question", "name": "Java版MODをMinecraft Bedrock版やPEに入れられますか？", "acceptedAnswer": {"@type": "Answer", "text": "できません。Java版とBedrock版は別のシステムとファイル形式を使います。"}},
+        {"@type": "Question", "name": "TLauncherなどの外部ランチャーは使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "フォルダが異なるため、公式に説明された場所とプロジェクトの配布元を確認します。"}}
+      ]
+    }
+  }
+}

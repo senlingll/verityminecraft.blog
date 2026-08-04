@@ -12,14 +12,14 @@
   "download": {
     "cta": "Download Java Mod",
     "secondary_cta": "Read Install Guide",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
     "note": "You will leave for the verified Java source after the 15-second confirmation."
   },
   "facts": {
     "title": "Java Download Facts",
     "items": [
       {"label": "Best for", "value": "Minecraft Java Edition"},
-      {"label": "Known file", "value": "verity-5.7.3.jar"},
+      {"label": "Known file", "value": "verity-6.1.jar"},
       {"label": "Minecraft version", "value": "Forge 1.20.1"},
       {"label": "File type", "value": ".jar"},
       {"label": "Sources", "value": "CurseForge / Modrinth"}
@@ -108,7 +108,7 @@
     "items": [
       {"question": "Is Verity Minecraft available for Java Edition?", "answer": "Yes. Verity JE appears as a Java Edition adaptation on Java mod platforms. Check the source page before installing because version and loader details can change."},
       {"question": "Can I install the Java file on Bedrock?", "answer": "No. Java .jar mods and Bedrock .mcaddon add-ons use different systems. Use the Bedrock page if you play Bedrock."},
-      {"question": "What Minecraft version does the current Verity JE file support?", "answer": "The Modrinth API check on July 29, 2026 shows verity-5.7.3.jar as a Forge file for Minecraft 1.20.1. Other project branches may target different versions, so match the exact file rather than combining their compatibility."},
+      {"question": "What Minecraft version does the current Verity JE file support?", "answer": "The Modrinth API check on August 4, 2026 shows verity-6.1.jar as a Forge file for Minecraft 1.20.1. Other project branches may target different versions, so match the exact file rather than combining their compatibility."},
       {"question": "Should I use CurseForge or Modrinth?", "answer": "Use the platform that fits your launcher and trust workflow. Checking both can help confirm the project identity and current version notes."}
     ]
   }

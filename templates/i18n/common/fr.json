@@ -90,7 +90,7 @@
   },
   "download_gate": {
     "opening": "Ouverture de la source dans {seconds}s",
-    "confirming": "V?rification de la source : {url}",
-    "opened": "La source s?est ouverte dans un nouvel onglet. V?rifiez la plateforme, la version et le type de fichier avant de t?l?charger."
+    "confirming": "Vérification de la source : {url}",
+    "opened": "La source s’est ouverte dans un nouvel onglet. Vérifiez la plateforme, la version et le type de fichier avant de télécharger."
   }
 }

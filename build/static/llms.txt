@@ -9,6 +9,7 @@
 - [Verity Java Download](https://verityminecraft.blog/java/): Verity JE Java mod source notes and version guidance.
 - [Verity Minecraft PE Guide](https://verityminecraft.blog/minecraft-pe/): PE, mobile, and APK search safety guidance.
 - [How to Install Verity Minecraft](https://verityminecraft.blog/how-to-install/): Step-by-step setup and troubleshooting.
+- [How to Install Minecraft Java Mods](https://verityminecraft.blog/how-to-install-java-mods/): Fabric, Forge, profile, dependency, mods-folder, and troubleshooting guidance.
 - [Verity Minecraft Versions](https://verityminecraft.blog/versions/): Version snapshot and compatibility notes.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/
 - [Minecraft Bedrock Add-ons Guide](https://verityminecraft.blog/bedrock-addons/): Safe .mcaddon/.mcpack checks, import steps, world activation, and troubleshooting.

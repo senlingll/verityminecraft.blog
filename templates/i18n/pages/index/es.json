@@ -42,7 +42,7 @@
         },
         {
           "label": "Última revisión",
-          "value": "25 de julio de 2026"
+          "value": "4 de agosto de 2026"
         }
       ],
       "facts_aria": "Datos de descarga de Verity Minecraft"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod para Java Edition",
           "description": "Ideal para jugadores de Java que usan loaders compatibles y revisan las versiones de Minecraft indicadas.",
-          "version": "verity-5.7.3.jar",
+          "version": "verity-6.1.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Ruta fuente de Java",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
           "page_url": "/java/",
           "cta": "Descargar mod Java"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE o Modrinth Verity JE",
-          "verity-5.7.3.jar / Forge 1.20.1",
+          "verity-6.1.jar / Forge 1.20.1",
           ".jar",
           "Revisar loader y versión"
         ],
@@ -184,7 +184,7 @@
         "Esta página funciona como guía de descarga de Verity mod, no como espejo. Los botones apuntan a fuentes donde la plataforma o el creador controlan el archivo.",
         "El objetivo es que el primer clic sea más seguro: Bedrock ve contexto .mcaddon, Java ve notas de loader y PE recibe advertencias antes de páginas APK.",
         "Una buena guía debe dejar clara la siguiente decisión: edición, fuente mantenida y prueba en un mundo o perfil limpio.",
-        "La fuente Bedrock se revisó el 25 de julio de 2026 y lista ThatMob's Verity 3.1.0 / V26.30. Si vuelve a cambiar, sigue primero la fuente."
+        "La fuente Bedrock se revisó el 4 de agosto de 2026 y lista ThatMob's Verity 3.1.0 / V26.30. Si vuelve a cambiar, sigue primero la fuente."
       ]
     },
     "versions": {

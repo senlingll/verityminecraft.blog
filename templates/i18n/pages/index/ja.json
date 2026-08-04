@@ -42,7 +42,7 @@
         },
         {
           "label": "最終確認",
-          "value": "2026年7月25日"
+          "value": "2026年8月4日"
         }
       ],
       "facts_aria": "Verity Minecraft ????????"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Java Edition向けVerity Mod",
           "description": "対応ローダーとプロジェクトページのMinecraftバージョンを確認できるJavaプレイヤー向けです。",
-          "version": "verity-5.7.3.jar",
+          "version": "verity-6.1.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Javaのソース経路",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
           "page_url": "/java/",
           "cta": "Java Modをダウンロード"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE または Modrinth Verity JE",
-          "verity-5.7.3.jar / Forge 1.20.1",
+          "verity-6.1.jar / Forge 1.20.1",
           ".jar",
           "ローダーとMinecraftバージョンを確認"
         ],
@@ -184,7 +184,7 @@
         "このページはVerity modのダウンロードガイドであり、ミラーではありません。ボタンは配布元やプラットフォームが管理するソースへ向かいます。",
         "最初のクリックを安全にするため、Bedrockには.mcaddon文脈、Javaにはローダー確認、PEにはAPK系ページへの注意を示します。",
         "正しい順番は、エディション確認、管理されたソース確認、バックアップワールドまたはクリーンなプロファイルでのテストです。",
-        "Bedrockソースは2026年7月25日に確認し、ThatMob's Verity 3.1.0 / V26.30を掲載しています。再度変更された場合はソースを優先してください。"
+        "Bedrockソースは2026年8月4日に確認し、ThatMob's Verity 3.1.0 / V26.30を掲載しています。再度変更された場合はソースを優先してください。"
       ]
     },
     "versions": {

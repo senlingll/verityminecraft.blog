@@ -91,6 +91,6 @@
   "download_gate": {
     "opening": "Abrindo fonte em {seconds}s",
     "confirming": "Confirmando fonte: {url}",
-    "opened": "A fonte abriu em uma nova aba. Confira plataforma, vers?o e tipo de arquivo antes de baixar."
+    "opened": "A fonte abriu em uma nova aba. Confira plataforma, versão e tipo de arquivo antes de baixar."
   }
 }

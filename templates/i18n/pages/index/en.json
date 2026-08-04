@@ -42,7 +42,7 @@
         },
         {
           "label": "Last checked",
-          "value": "July 25, 2026"
+          "value": "August 4, 2026"
         }
       ],
       "facts_aria": "Verity Minecraft download facts"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod for Java Edition",
           "description": "Best for Java players using supported loaders and the Minecraft versions listed on the project page.",
-          "version": "verity-5.7.3.jar",
+          "version": "verity-6.1.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Java source path",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
           "page_url": "/java/",
           "cta": "Download Java Mod"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE or Modrinth Verity JE",
-          "verity-5.7.3.jar / Forge 1.20.1",
+          "verity-6.1.jar / Forge 1.20.1",
           ".jar",
           "Check loader and Minecraft version"
         ],
@@ -184,7 +184,7 @@
         "This site is designed as a Verity mod download guide, not a mirror. The primary buttons point toward source listings where the project owner or platform controls the release.",
         "The practical goal is to make the first click safer: Bedrock users see .mcaddon context, Java players see loader reminders, and PE searchers see caution before APK-style pages.",
         "A good Verity mod download guide should make the next decision obvious. Match your edition, open the maintained source, then test the file in a backup world or clean profile.",
-        "The Bedrock source was rechecked on July 25, 2026 and now lists ThatMob's Verity 3.1.0 / V26.30. If a source page changes again, follow the source page first."
+        "The Bedrock source was rechecked on August 4, 2026 and now lists ThatMob's Verity 3.1.0 / V26.30. If a source page changes again, follow the source page first."
       ]
     },
     "versions": {

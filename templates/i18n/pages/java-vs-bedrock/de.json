@@ -33,7 +33,7 @@
     "title": "Ist Minecraft Java oder Bedrock besser für dich?",
     "paragraphs": [
       "Keine Edition ist immer besser. Java passt zu Community-Mods, Shadern, technischen Servern, älteren Versionen und erweiterten Einstellungen. Bedrock ist für Gruppen auf Xbox, PlayStation, Switch, Windows, Android und iOS meist praktischer.",
-      "Für Verity wählst du zuerst die Edition. Verifiziert ist Verity JE 5.7.3 für Forge 1.20.1, veröffentlicht am 18. Juli 2026 auf Modrinth. Bedrock hat einen getrennten Add-on-Eintrag bei CurseForge. Berücksichtige außerdem vorhandene Welten und Käufe: Spielstände lassen sich nicht einfach zwischen beiden Editionen verschieben, und Marketplace-Inhalte gehören zum Bedrock-Konto statt zu einem Java-Mod-Profil. Wer bereits einen langfristigen Server, eine große Mod-Sammlung oder technische Java-Welten besitzt, sollte bei Java bleiben, solange kein konkreter Crossplay-Grund dagegen spricht. Familien mit mehreren Konsolen profitieren dagegen meist stärker von Bedrock. Prüfe vor einem Kauf auch, ob deine Freunde Realms, einen öffentlichen Server oder nur lokale Welten verwenden, denn diese Entscheidung beeinflusst die gemeinsame Nutzung stärker als kleinere Grafik- oder Menüunterschiede. Sichere wichtige Welten zusätzlich, bevor du Edition, Version oder Mod-Profil wechselst."
+      "Für Verity wählst du zuerst die Edition. Verifiziert ist Verity JE 6.1 für Forge 1.20.1, veröffentlicht am 1. August 2026 auf Modrinth. Bedrock hat einen getrennten Add-on-Eintrag bei CurseForge. Berücksichtige außerdem vorhandene Welten und Käufe: Spielstände lassen sich nicht einfach zwischen beiden Editionen verschieben, und Marketplace-Inhalte gehören zum Bedrock-Konto statt zu einem Java-Mod-Profil. Wer bereits einen langfristigen Server, eine große Mod-Sammlung oder technische Java-Welten besitzt, sollte bei Java bleiben, solange kein konkreter Crossplay-Grund dagegen spricht. Familien mit mehreren Konsolen profitieren dagegen meist stärker von Bedrock. Prüfe vor einem Kauf auch, ob deine Freunde Realms, einen öffentlichen Server oder nur lokale Welten verwenden, denn diese Entscheidung beeinflusst die gemeinsame Nutzung stärker als kleinere Grafik- oder Menüunterschiede. Sichere wichtige Welten zusätzlich, bevor du Edition, Version oder Mod-Profil wechselst."
     ],
     "cards": [
       {
@@ -93,7 +93,7 @@
       },
       {
         "title": "Verity installieren",
-        "text": "Verity JE 5.7.3 ist eine Forge-1.20.1-.jar. Bedrock braucht ein eigenes Add-on; Umbenennen konvertiert nichts."
+        "text": "Verity JE 6.1 ist eine Forge-1.20.1-.jar. Bedrock braucht ein eigenes Add-on; Umbenennen konvertiert nichts."
       }
     ]
   },
@@ -153,7 +153,7 @@
       ],
       [
         "Verity",
-        "5.7.3, Forge 1.20.1",
+        "6.1, Forge 1.20.1",
         "Getrenntes Bedrock-Add-on"
       ],
       [
@@ -208,7 +208,7 @@
       {
         "title": "Verity Java",
         "url": "/java/",
-        "text": "5.7.3, Forge 1.20.1 und Java-Installation.",
+        "text": "6.1, Forge 1.20.1 und Java-Installation.",
         "cta": "Java-Anleitung"
       },
       {
@@ -234,7 +234,7 @@
   "sources": {
     "eyebrow": "Quellen",
     "title": "Geprüfte offizielle Quellen",
-    "description": "Editionseigenschaften und Java-Version am 29. Juli 2026 geprüft.",
+    "description": "Editionseigenschaften und Java-Version am 4. August 2026 geprüft.",
     "links": [
       {
         "title": "Minecraft Java oder Bedrock",
@@ -245,7 +245,7 @@
       {
         "title": "Verity JE auf Modrinth",
         "url": "https://modrinth.com/mod/verity-je-official/versions",
-        "text": "Quelle für 5.7.3, Forge 1.20.1, Datum und Dateigröße.",
+        "text": "Quelle für 6.1, Forge 1.20.1, Datum und Dateigröße.",
         "cta": "Java prüfen"
       },
       {
@@ -278,7 +278,7 @@
       },
       {
         "question": "Kann die Verity-Java-.jar in Bedrock installiert werden?",
-        "answer": "Nein. Verity JE 5.7.3 ist für Forge 1.20.1; Bedrock benötigt ein eigenes Add-on."
+        "answer": "Nein. Verity JE 6.1 ist für Forge 1.20.1; Bedrock benötigt ein eigenes Add-on."
       }
     ]
   },
@@ -290,7 +290,7 @@
       "description": "Vergleich nach Geräten, Mods, Crossplay, Leistung und Verity-Installation.",
       "image": "https://verityminecraft.blog/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-29",
+      "dateModified": "2026-08-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Minecraft-Java-Mods installieren: 7 sichere Schritte",
+    "description": "Erfahre, wie du Mods in Minecraft Java mit Fabric oder Forge installierst, den Mods-Ordner findest, ein Profil testest und Loader-Fehler behebst.",
+    "image": "/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Java-Mod-Anleitung",
+    "title": "Minecraft-Java-Mods installieren: 7 sichere Schritte",
+    "lede": "Um Mods in Minecraft Java zu installieren, müssen Mod, Minecraft-Version und Loader zusammenpassen. Installiere den Loader in einem eigenen Profil, lege die originale .jar-Datei in den Mods-Ordner dieses Profils und teste sie vor dem Hauptwelt-Spielstand.",
+    "support": "Diese Anleitung gilt für Fabric, Forge und ähnliche Java-Profile. Eine Bedrock-.mcaddon-Datei wird dadurch nicht zu einem Java-Mod, und zufällige Mirrors oder Launcher mit versteckter Quelle werden nicht empfohlen.",
+    "actions": [
+      {"label": "Java-Quellhinweise öffnen", "url": "/java/", "class": "btn-primary"},
+      {"label": "Versionshinweise prüfen", "url": "/versions/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp",
+      "alt": "Redaktionelle Darstellung eines Minecraft-Java-Mods von der Quelle über ein Loader-Profil zu einer Testwelt",
+      "caption": "Redaktionelle Illustration, kein echter Launcher-Screenshot: Prüfe Loader und Spielversion, bevor du einen Mod in ein Testprofil legst."
+    }
+  },
+  "answer": {
+    "eyebrow": "Schnelle Antwort",
+    "title": "Die kurze Regel: zuerst der Loader, dann die Datei",
+    "paragraphs": [
+      "Die sicherste Vorgehensweise beim Installieren von Minecraft-Java-Mods ist ein passendes Profil für jeden Mod. Auf der Mod-Seite müssen Minecraft-Version und unterstützter Loader stehen. Dein Profil muss dieselbe Kombination verwenden, bevor du etwas herunterlädst oder kopierst.",
+      "Fabric und Forge sind keine austauschbaren Ordner oder Startmodi. Manche Projekte zielen auch auf NeoForge, und ein Mod für einen Loader funktioniert nicht automatisch mit einem anderen, obwohl beide .jar-Dateien verwenden. Starte mit einem sauberen Profil, behalte den Dateinamen und füge Mods einzeln hinzu.",
+      "Die aktuelle Minecraft-Java-Version kann sich unabhängig von einer Projektversion ändern. Das offizielle Manifest zeigte bei der Prüfung am 4. August 2026 die Release 26.2, während die vorhandene Verity-JE-Quelle eine Forge-Datei für 1.20.1 zeigte. Das sind unterschiedliche Angaben: Entscheidend ist immer die Kombination für dein tatsächliches Profil."
+    ],
+    "cards": [
+      {"title": "Nur Java", "text": "Ein Java-Mod kommt normalerweise als .jar und gehört in ein Java-Mod-Profil, nicht in den Bedrock-Import."},
+      {"title": "Loader beachten", "text": "Wähle Fabric, Forge oder den auf der Projektseite genannten Loader und installiere ihn für dieselbe Minecraft-Version."},
+      {"title": "Vor dem Mischen testen", "text": "Ein sauberes Profil und eine kopierte Welt zeigen, ob ein Versionsfehler, eine Abhängigkeit oder ein Konflikt vorliegt."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Installationsablauf",
+    "title": "Minecraft-Java-Mods Schritt für Schritt installieren",
+    "description": "Arbeite diese sieben Prüfungen der Reihe nach ab. Die Quelle kommt zuerst, damit ein Download-Button oder ein kopiertes Tutorial nicht über deine Kompatibilität entscheidet.",
+    "items": [
+      {"title": "1. Java Edition bestätigen", "text": "Öffne den offiziellen Launcher oder dein übliches Profil. Bedrock, Minecraft PE und Konsolen verwenden andere Inhaltssysteme. Eine .mcaddon- oder .mcpack-Datei gehört nicht zum Java-.jar-Ablauf dieser Anleitung."},
+      {"title": "2. Die Mod-Seite vollständig lesen", "text": "Notiere Minecraft-Version, Loader, Abhängigkeiten und Dateinamen. Eine Seite, die nur 'für Minecraft geeignet' sagt, enthält zu wenig Information für ein sicheres Profil."},
+      {"title": "3. Passenden Loader installieren", "text": "Nutze den offiziellen Fabric-Installer oder die offizielle Forge-Dateiseite für deine Version. Erstelle möglichst eine eigene Installation und starte sie einmal, bevor du einen Mod hinzufügst."},
+      {"title": "4. Von einer gepflegten Quelle laden", "text": "Bevorzuge den Projekt-Eintrag bei Modrinth oder CurseForge, die dokumentierte Autorenseite oder eine Quelle mit Projektidentität und Versionshistorie. Ein Mirror ist nicht automatisch besser, nur weil sein Button schneller wirkt."},
+      {"title": "5. Die originale .jar in den richtigen Mods-Ordner legen", "text": "Öffne den Mods-Ordner des passenden Profils und nicht den globalen Ordner einer anderen Installation. Behalte Dateiname und Erweiterung. Wenn der Loader den Ordner erst nach dem ersten Start anlegt, beende das Spiel vor dem Kopieren."},
+      {"title": "6. Abhängigkeiten prüfen und das Profil testen", "text": "Viele Mods benötigen eine Bibliothek, API oder Konfigurationsdatei. Ergänze passende Versionen, starte mit dem kleinstmöglichen Set und lies die erste Fehlermeldung, statt eine zweite Kopie zu laden."},
+      {"title": "7. Kopierte Welt testen", "text": "Öffne eine neue oder kopierte Welt, prüfe die erwartete Funktion und beende sauber. Füge weitere Mods einzeln hinzu, damit der erste Fehler den wahrscheinlichen Konflikt sichtbar macht."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Quelle und Kompatibilität",
+    "title": "Fünf Details vor dem Download eines Java-Mods prüfen",
+    "paragraphs": [
+      "Die wichtigste Unterscheidung ist die zwischen Projektseite und Dateiseite. Die Projektseite erklärt den Zweck des Mods; die Dateiseite nennt Minecraft-Version, Loader und Abhängigkeiten für genau diesen Build. Für die heutige Installation zählen die dateispezifischen Angaben.",
+      "Prüfe den Loadernamen genau. Fabric-, Forge- und NeoForge-Mods können alle .jar-Dateien sein, aber der Loader ist Teil des Kompatibilitätsvertrags. Ein Projekt kann mehrere Loader-Dateien veröffentlichen. Wähle die Zeile, die zu deinem Profil passt, statt nur die neueste Datei zu nehmen.",
+      "Prüfe danach die Abhängigkeiten. Eine Bibliothek wie Fabric API oder eine loader-spezifische Unterstützung kann zwingend erforderlich sein, auch wenn die Projektseite vollständig wirkt. Launcher-Meldungen nennen oft die fehlende Bibliothek; notiere Name und Version vor der Suche.",
+      "Stelle außerdem fest, ob es wirklich ein Mod ist. Shader, Resource Packs, Datapacks, Modpacks und Java-Mods erscheinen manchmal in denselben Suchergebnissen, verwenden aber unterschiedliche Ordner und Regeln. Eine Shader-.zip gehört nicht in mods, und ein Bedrock-Add-on wird durch Umbenennen nicht zu Java.",
+      "Bewahre zuletzt den Quellenkontext auf. Speichere Projekt-URL, Dateiname, Loader, Minecraft-Version und Prüfdatum. Wenn die Quelle später aktualisiert wird, erkennst du die Änderung, statt einem alten Tutorial zu vertrauen."
+    ],
+    "image": {
+      "src": "/static/images/how-to-install-java-mods/java-mod-install-profile-check.webp",
+      "alt": "Redaktionelle Darstellung einer Java-Mod-Datei, eines Loader-Profils und einer Kompatibilitätsliste",
+      "caption": "Redaktionelle Illustration: Eine kompatible Java-Mod muss zu Datei, Spielversion, Loader, Abhängigkeiten und Quelle passen."
+    }
+  },
+  "table": {
+    "eyebrow": "Kompatibilitätsmatrix",
+    "title": "Was muss übereinstimmen, damit ein Java-Mod lädt?",
+    "description": "Nutze die Tabelle als schnelle Entscheidungshilfe. Ein auffälliger Download-Button ersetzt keine dieser Prüfungen.",
+    "headers": ["Prüfung", "Was übereinstimmen muss", "Warum es wichtig ist"],
+    "rows": [
+      ["Minecraft-Version", "Die genaue Version der Datei", "Ein Mod für eine andere Version kann beim Laden scheitern oder sich unvorhersehbar verhalten."],
+      ["Loader", "Fabric, Forge, NeoForge oder der Projektname", "Der Loader liefert die Hooks und die Profilumgebung, die der Mod erwartet."],
+      ["Dateityp", ".jar für Java-Mods; andere Formate für Packs und Shader", "Eine andere Endung konvertiert kein Inhaltssystem."],
+      ["Abhängigkeiten", "Erforderliche API, Bibliothek und Version", "Der Hauptmod kann vorhanden sein, während eine notwendige Bibliothek fehlt."],
+      ["Quelle und Datum", "Eine gepflegte Seite und aktuelle Prüfung", "Ein Mirror kann einen alten Build, umbenannte Dateien oder fehlende Notizen liefern." ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Profil und Fehlerbehebung",
+    "title": "Den Mods-Ordner finden, ohne die Hauptwelt zu riskieren",
+    "paragraphs": [
+      "Der Mods-Ordner gehört zu einer Java-Installation oder einem Profil. Der genaue Ort hängt vom Launcher und Betriebssystem ab; eigene Launcher können ein separates Instanzverzeichnis verwenden. Öffne die Einstellungen der Instanz, statt den ersten .minecraft-Ordner als sicher anzunehmen.",
+      "Beim Standard-Launcher unter Windows liegt das übliche Spielverzeichnis oft unter AppData. Das ist nur ein Ausgangspunkt: Profile und Launcher von Drittanbietern können den Pfad ändern. Starte das gewählte Profil einmal, finde den Ordner seiner Logs oder Spielstände und verwende dessen Mods-Ordner.",
+      "Lege den Zielmod und nur seine erforderliche Abhängigkeit in ein sauberes Profil. Wenn der Titelbildschirm erscheint, erstelle eine kopierte Welt und prüfe eine erwartete Funktion. Bei einem Absturz entferne die zuletzt hinzugefügte Datei und starte erneut. Dieser Ein-Datei-Test liefert bessere Hinweise als ein weiterer Download.",
+      "Wenn der Mod nicht erscheint, prüfe aktives Profil und Loader, danach Pfad, .jar-Endung, Spielversion, Abhängigkeiten und Logmeldung. Erzwinge keine Datei für einen anderen Loader oder eine andere Version. Wechsle stattdessen das Profil oder wähle eine kompatible Datei.",
+      "Sobald der saubere Test funktioniert, ergänze deine normalen Mods langsam. Führe eine Liste aus URLs, Dateinamen, Loader, Minecraft-Version und Datum. Sie hilft, wenn ein späteres Update eine Abhängigkeit ändert oder die Welt nach mehreren Änderungen nicht mehr lädt."
+    ],
+    "image": {
+      "src": "/static/images/how-to-install-java-mods/java-mod-install-troubleshooting.webp",
+      "alt": "Redaktioneller Ablauf zur Fehlerbehebung bei einem Minecraft-Java-Mod, der nicht lädt",
+      "caption": "Redaktionelle Illustration: Entferne die jüngste Variable, lies den ersten Fehler und teste das Profil erneut, bevor du eine andere Datei änderst."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Häufige Fehler",
+    "title": "Warum ein Java-Mod nicht erscheint oder abstürzt",
+    "description": "Die meisten Probleme entstehen durch Kompatibilität oder Dateiverwaltung, nicht weil ein weiterer Mirror nötig wäre.",
+    "cards": [
+      {"title": "Falsche Minecraft-Version", "text": "Der Launcher kann starten, obwohl der Mod für eine andere Version gebaut wurde. Datei und Profil müssen übereinstimmen."},
+      {"title": "Falscher Loader", "text": "Eine Fabric-Datei wird nicht zu Forge, nur weil beide .jar verwenden. Installiere den Loader des Projekts."},
+      {"title": "Pack und Mod verwechselt", "text": "Shader, Resource Packs und Datapacks nutzen andere Ordner. Prüfe den Projekttyp vor dem Verschieben."},
+      {"title": "Abhängigkeit fehlt", "text": "Eine API oder Bibliothek kann erforderlich sein, obwohl der Hauptmod korrekt geladen wurde. Folge der Projektliste."},
+      {"title": "Viele Dateien auf einmal", "text": "Ein ganzes Pack verdeckt die Ursache des ersten Fehlers. Starte mit einem Mod und einer kopierten Welt."},
+      {"title": "Mirror als Autorität behandeln", "text": "Rehostete Dateien können alt sein oder unerwünschte Installer enthalten. Bevorzuge eine gepflegte Projektseite."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Weitere Verity-Guides",
+    "title": "Java-Installation von anderen Editionen trennen",
+    "description": "Diese Seiten erklären den projektspezifischen Download-Kontext und die Editionsgrenzen, die diese Anleitung voraussetzt.",
+    "links": [
+      {"title": "Verity Minecraft Java Download", "url": "/java/", "text": "Prüfe Verity-JE-Quelle, Forge-Profil und Java-Dateikontext vor der Installation dieses bestimmten Mods.", "cta": "Java-Hinweise öffnen"},
+      {"title": "Verity Minecraft Versionen", "url": "/versions/", "text": "Vergleiche Plattformversionen, ohne eine Java-Datei mit Bedrock oder PE zu verwechseln.", "cta": "Versionen prüfen"},
+      {"title": "Verity Minecraft installieren", "url": "/how-to-install/", "text": "Nutze die Gesamtübersicht, wenn deine Suche Java-, Bedrock- und Mobilhinweise mischt.", "cta": "Installationsübersicht"},
+      {"title": "Minecraft Java vs Bedrock", "url": "/java-vs-bedrock/", "text": "Prüfe, welche Edition und welches Inhaltssystem zu Gerät und Gruppe passen.", "cta": "Editionen vergleichen"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Offizielle Quellen",
+    "title": "Primärquellen für diese Installationsanleitung",
+    "description": "Diese Links erklären Loader- und Launcher-Wege. Die konkrete Kompatibilität steht weiterhin auf der gepflegten Dateiseite des jeweiligen Mods.",
+    "links": [
+      {"title": "Fabric: Installing Mods", "url": "https://docs.fabricmc.net/players/installing-mods", "text": "Fabric-Dokumentation zum Installieren eines Mods in einem passenden Java-Profil.", "cta": "Fabric-Doku lesen"},
+      {"title": "Forge Files", "url": "https://files.minecraftforge.net/net/minecraftforge/forge/", "text": "Offizieller Forge-Dateiindex zur Auswahl der passenden Spielversion.", "cta": "Forge-Dateien öffnen"},
+      {"title": "Modrinth App", "url": "https://modrinth.com/app", "text": "Gepflegte Route zur Verwaltung von Modrinth-Projekten und Profilen mit sichtbarem Projektkontext.", "cta": "Modrinth App öffnen"},
+      {"title": "Minecraft Download", "url": "https://www.minecraft.net/en-us/download", "text": "Offizieller Einstieg, um Edition und Launcher zu bestätigen.", "cta": "Minecraft prüfen"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ: Minecraft-Java-Mods installieren",
+    "items": [
+      {"question": "Wie installiere ich Minecraft-Java-Mods ohne Versionen zu vermischen?", "answer": "Lies die Dateiseite, notiere Version und Loader, installiere den Loader in einem eigenen Profil und lege die originale .jar in dessen Mods-Ordner. Teste zuerst mit den notwendigen Abhängigkeiten."},
+      {"question": "Ist Fabric oder Forge besser für Minecraft-Java-Mods?", "answer": "Keiner ist immer besser. Verwende den Loader, den der Mod oder das Pack nennt. Fabric, Forge und NeoForge haben unterschiedliche Ökosysteme."},
+      {"question": "Wo liegt der Minecraft-Java-Mods-Ordner?", "answer": "Er liegt im Spielverzeichnis des aktiven Java-Profils. Unter Windows ist es oft AppData, aber eigene Launcher können ein anderes Instanzverzeichnis verwenden. Prüfe die Profileinstellungen."},
+      {"question": "Warum erscheint mein Minecraft-Java-Mod nicht?", "answer": "Prüfe aktives Profil, Loader, Pfad, .jar-Endung, Minecraft-Version und Abhängigkeiten. Lies bei einem Absturz den ersten Fehler, bevor du eine Kopie lädst."},
+      {"question": "Kann ich einen Java-Mod auf Minecraft Bedrock oder PE installieren?", "answer": "Nein. Java-Mods und Bedrock-Add-ons verwenden unterschiedliche Systeme und Dateiformate. Nutze die Bedrock- oder PE-Anleitung statt eine .jar umzubenennen."},
+      {"question": "Kann ich einen Launcher eines Drittanbieters wie TLauncher nutzen?", "answer": "Drittanbieter-Launcher können eigene Ordner und Richtlinien verwenden. Folge dem dokumentierten Instanzpfad, nutze eine rechtmäßige Minecraft-Installation und prüfe die Quelle des Projekts."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft-Java-Mods installieren: 7 sichere Schritte",
+      "description": "Kompatibilitätsorientierte Anleitung für Minecraft-Java-Mods mit Fabric, Forge, Profilen, Abhängigkeiten und Fehlerbehebung.",
+      "image": "https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp",
+      "datePublished": "2026-08-04",
+      "dateModified": "2026-08-04",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/de/how-to-install-java-mods/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Wie installiere ich Minecraft-Java-Mods ohne Versionen zu vermischen?", "acceptedAnswer": {"@type": "Answer", "text": "Lies die Datei, gleiche Version und Loader ab, installiere den Loader in einem eigenen Profil und teste die .jar mit ihren Abhängigkeiten."}},
+        {"@type": "Question", "name": "Ist Fabric oder Forge besser für Minecraft-Java-Mods?", "acceptedAnswer": {"@type": "Answer", "text": "Verwende den Loader, den der Mod nennt; Fabric, Forge und NeoForge haben unterschiedliche Ökosysteme."}},
+        {"@type": "Question", "name": "Wo liegt der Minecraft-Java-Mods-Ordner?", "acceptedAnswer": {"@type": "Answer", "text": "Er liegt im Verzeichnis der aktiven Java-Instanz; eigene Launcher können einen anderen Ordner nutzen."}},
+        {"@type": "Question", "name": "Warum erscheint mein Minecraft-Java-Mod nicht?", "acceptedAnswer": {"@type": "Answer", "text": "Prüfe Loader, Pfad, Endung, Version und Abhängigkeiten und lies den ersten Fehler."}},
+        {"@type": "Question", "name": "Kann ich einen Java-Mod auf Minecraft Bedrock oder PE installieren?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Java und Bedrock verwenden unterschiedliche Systeme und Formate."}},
+        {"@type": "Question", "name": "Kann ich einen Launcher eines Drittanbieters wie TLauncher nutzen?", "acceptedAnswer": {"@type": "Answer", "text": "Er kann einen anderen Ordner nutzen; folge dem dokumentierten Pfad und prüfe die Projektquelle."}}
+      ]
+    }
+  }
+}

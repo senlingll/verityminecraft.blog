@@ -42,7 +42,7 @@
         },
         {
           "label": "Última verificação",
-          "value": "25 de julho de 2026"
+          "value": "4 de agosto de 2026"
         }
       ],
       "facts_aria": "Dados de download do Verity Minecraft"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod para Java Edition",
           "description": "Indicado para jogadores Java com loaders compatíveis e versões do Minecraft listadas na página do projeto.",
-          "version": "verity-5.7.3.jar",
+          "version": "verity-6.1.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Caminho fonte Java",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
           "page_url": "/java/",
           "cta": "Baixar mod Java"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE ou Modrinth Verity JE",
-          "verity-5.7.3.jar / Forge 1.20.1",
+          "verity-6.1.jar / Forge 1.20.1",
           ".jar",
           "Verificar loader e versão"
         ],
@@ -184,7 +184,7 @@
         "Esta página é um guia de download do Verity mod, não um espelho. Os botões apontam para fontes onde a plataforma ou criador controla o arquivo.",
         "O objetivo é tornar o primeiro clique mais seguro: Bedrock vê contexto .mcaddon, Java vê notas de loader e PE recebe alerta antes de páginas APK.",
         "A rotina correta é simples: escolha a edição, abra a fonte mantida e teste em um mundo de backup ou perfil limpo.",
-        "A fonte Bedrock foi revisada em 25 de julho de 2026 e lista ThatMob's Verity 3.1.0 / V26.30. Se mudar de novo, siga primeiro a fonte."
+        "A fonte Bedrock foi revisada em 4 de agosto de 2026 e lista ThatMob's Verity 3.1.0 / V26.30. Se mudar de novo, siga primeiro a fonte."
       ]
     },
     "versions": {

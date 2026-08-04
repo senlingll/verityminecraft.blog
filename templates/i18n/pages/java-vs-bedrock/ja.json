@@ -33,7 +33,7 @@
     "title": "Java版とBedrock版、あなたに合うのはどちら？",
     "paragraphs": [
       "万能な一方はありません。無料のコミュニティMOD、シェーダー、技術系サーバー、旧バージョン、詳細設定を重視するならJava版です。Xbox、PlayStation、Switch、Windows、Android、iOSをまたいで遊ぶ家族や友達にはBedrock版が分かりやすい選択です。",
-      "Verityを導入する場合は、数字より先にエディションを確認してください。確認済みのJava版は2026年7月18日公開のVerity JE 5.7.3（Forge 1.20.1）です。Bedrock版はCurseForgeの別アドオンとして配布されています。"
+      "Verityを導入する場合は、数字より先にエディションを確認してください。確認済みのJava版は2026年8月1日公開のVerity JE 6.1（Forge 1.20.1）です。Bedrock版はCurseForgeの別アドオンとして配布されています。"
     ],
     "cards": [
       {
@@ -93,7 +93,7 @@
       },
       {
         "title": "Verityの導入",
-        "text": "Verity JE 5.7.3はForge 1.20.1用.jarです。Bedrock版は別アドオンです。.jarを.mcaddonへ改名しても変換できません。"
+        "text": "Verity JE 6.1はForge 1.20.1用.jarです。Bedrock版は別アドオンです。.jarを.mcaddonへ改名しても変換できません。"
       }
     ]
   },
@@ -158,7 +158,7 @@
       ],
       [
         "Verity",
-        "5.7.3、Forge 1.20.1",
+        "6.1、Forge 1.20.1",
         "別のBedrockアドオン"
       ]
     ]
@@ -208,7 +208,7 @@
       {
         "title": "Verity Java版",
         "url": "/java/",
-        "text": "5.7.3、Forge 1.20.1、Java版導入の確認事項。",
+        "text": "6.1、Forge 1.20.1、Java版導入の確認事項。",
         "cta": "Java版ガイド"
       },
       {
@@ -234,7 +234,7 @@
   "sources": {
     "eyebrow": "参照元",
     "title": "確認した公式情報",
-    "description": "エディション仕様とJava版リリースは2026年7月29日に確認しました。",
+    "description": "エディション仕様とJava版リリースは2026年8月4日に確認しました。",
     "links": [
       {
         "title": "Minecraft Java版とBedrock版",
@@ -245,7 +245,7 @@
       {
         "title": "ModrinthのVerity JE",
         "url": "https://modrinth.com/mod/verity-je-official/versions",
-        "text": "5.7.3、Forge 1.20.1、公開日、容量の確認に使ったプロジェクト一覧。",
+        "text": "6.1、Forge 1.20.1、公開日、容量の確認に使ったプロジェクト一覧。",
         "cta": "Java版を確認"
       },
       {
@@ -278,7 +278,7 @@
       },
       {
         "question": "Verity Javaの.jarをBedrockに入れられる？",
-        "answer": "入れられません。Verity JE 5.7.3はForge 1.20.1用で、Bedrock版には別アドオンが必要です。"
+        "answer": "入れられません。Verity JE 6.1はForge 1.20.1用で、Bedrock版には別アドオンが必要です。"
       }
     ]
   },
@@ -290,7 +290,7 @@
       "description": "Java版とBedrock版を機種、MOD、クロスプレイ、性能、Verity導入で比較します。",
       "image": "https://verityminecraft.blog/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-29",
+      "dateModified": "2026-08-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"

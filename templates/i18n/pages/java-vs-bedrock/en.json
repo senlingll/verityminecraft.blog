@@ -33,7 +33,7 @@
     "title": "Is Minecraft Java or Bedrock Better for You?",
     "paragraphs": [
       "Neither edition is universally better. Java is the stronger choice for players who prioritize free community mods, shaders, technical servers, older versions, and advanced settings. Bedrock is usually the practical choice for households that play across Xbox, PlayStation, Switch, Windows, Android, and iOS, because crossplay and controller-friendly performance are built around those platforms.",
-      "If your immediate goal is installing Verity, decide by edition before looking at a version number. The verified Java release is Verity JE 5.7.3 for Forge 1.20.1, published on Modrinth on July 18, 2026. The Bedrock source uses a separate CurseForge add-on listing. A newer-looking number on one edition does not update the other edition."
+      "If your immediate goal is installing Verity, decide by edition before looking at a version number. The verified Java release is Verity JE 6.1 for Forge 1.20.1, published on Modrinth on August 1, 2026. The Bedrock source uses a separate CurseForge add-on listing. A newer-looking number on one edition does not update the other edition."
     ],
     "cards": [
       {
@@ -93,7 +93,7 @@
       },
       {
         "title": "Verity installation",
-        "text": "Verity JE 5.7.3 is a Forge 1.20.1 .jar. The Bedrock release is a separate add-on package. Never rename a .jar to .mcaddon or copy a Bedrock pack into a Java mods folder."
+        "text": "Verity JE 6.1 is a Forge 1.20.1 .jar. The Bedrock release is a separate add-on package. Never rename a .jar to .mcaddon or copy a Bedrock pack into a Java mods folder."
       }
     ]
   },
@@ -101,7 +101,7 @@
     "eyebrow": "Customization",
     "title": "Java Mods vs Bedrock Add-Ons: The File Difference",
     "paragraphs": [
-      "Java mods normally arrive as .jar files and depend on a compatible Minecraft version and loader. A correct file can still fail if the profile uses the wrong loader, the wrong game version, or a conflicting mod. This is why the Java download page records Forge 1.20.1 for the current verified Verity JE 5.7.3 file.",
+      "Java mods normally arrive as .jar files and depend on a compatible Minecraft version and loader. A correct file can still fail if the profile uses the wrong loader, the wrong game version, or a conflicting mod. This is why the Java download page records Forge 1.20.1 for the current verified Verity JE 6.1 file.",
       "Bedrock customization is divided among resource packs, behavior packs, worlds, Marketplace items, and bundled add-ons. A .mcaddon can contain multiple components, while a .mcpack often represents one pack. After import, you may still need to activate the required resource or behavior pack in the target world.",
       "The ecosystems also differ in distribution. Java players often use Modrinth, CurseForge, GitHub releases, and loader-aware launchers. Bedrock players may use the Marketplace, official creator pages, or maintained add-on listings. In both cases, the release page should show the edition, date, file type, and compatibility notes."
     ],
@@ -158,7 +158,7 @@
       ],
       [
         "Verity path",
-        "Verity JE 5.7.3, Forge 1.20.1",
+        "Verity JE 6.1, Forge 1.20.1",
         "Separate Verity Bedrock add-on listing"
       ]
     ]
@@ -208,7 +208,7 @@
       {
         "title": "Verity Java Download",
         "url": "/java/",
-        "text": "Verified 5.7.3 file facts, Forge 1.20.1 requirements, and Java install guidance.",
+        "text": "Verified 6.1 file facts, Forge 1.20.1 requirements, and Java install guidance.",
         "cta": "Open Java guide"
       },
       {
@@ -234,7 +234,7 @@
   "sources": {
     "eyebrow": "References",
     "title": "Official Sources Checked",
-    "description": "Edition features and Java release facts were checked on July 29, 2026. Source pages can change.",
+    "description": "Edition features and Java release facts were checked on August 4, 2026. Source pages can change.",
     "links": [
       {
         "title": "Minecraft: Java or Bedrock Edition",
@@ -245,7 +245,7 @@
       {
         "title": "Verity JE on Modrinth",
         "url": "https://modrinth.com/mod/verity-je-official/versions",
-        "text": "First-party project version list used to verify Verity JE 5.7.3, Forge 1.20.1, date, and file size.",
+        "text": "First-party project version list used to verify Verity JE 6.1, Forge 1.20.1, date, and file size.",
         "cta": "Check Java versions"
       },
       {
@@ -278,7 +278,7 @@
       },
       {
         "question": "Can I install the Verity Java .jar on Bedrock?",
-        "answer": "No. Verity JE 5.7.3 is a Forge 1.20.1 Java .jar. Bedrock requires its own add-on package and world activation flow."
+        "answer": "No. Verity JE 6.1 is a Forge 1.20.1 Java .jar. Bedrock requires its own add-on package and world activation flow."
       }
     ]
   },
@@ -290,7 +290,7 @@
       "description": "Compare Minecraft Java vs Bedrock across devices, mods, crossplay, servers, performance, redstone, updates, and Verity mod installation.",
       "image": "https://verityminecraft.blog/static/images/java-vs-bedrock/minecraft-java-bedrock-official.webp",
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-29",
+      "dateModified": "2026-08-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"

@@ -24,11 +24,11 @@
       },
       {
         "label": "Java known file",
-        "value": "verity-5.7.3.jar"
+        "value": "verity-6.1.jar"
       },
       {
         "label": "Java versions",
-        "value": "1.20.1 (current 5.7.3 file)"
+        "value": "1.20.1 (current 6.1 file)"
       },
       {
         "label": "PE source type",
@@ -36,7 +36,7 @@
       },
       {
         "label": "Last checked",
-        "value": "July 26, 2026"
+        "value": "August 4, 2026"
       }
     ]
   },
@@ -105,8 +105,8 @@
       ],
       [
         "Java",
-        "verity-5.7.3.jar",
-        "5.7.3 for 1.20.1; older 3.4.1 branch for 1.21.1",
+        "verity-6.1.jar",
+        "6.1 for 1.20.1; older 3.4.1 branch for 1.21.1",
         "CurseForge and Modrinth Java listings"
       ],
       [
@@ -197,7 +197,7 @@
     "items": [
       {
         "question": "What is the latest Verity Minecraft version?",
-        "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-5.7.3.jar, and the source pages should be checked for the newest release before downloading."
+        "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-6.1.jar, and the source pages should be checked for the newest release before downloading."
       },
       {
         "question": "Can I use a Java Verity version on Bedrock?",

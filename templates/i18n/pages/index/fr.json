@@ -42,7 +42,7 @@
         },
         {
           "label": "Dernière vérification",
-          "value": "25 juillet 2026"
+          "value": "4 août 2026"
         }
       ],
       "facts_aria": "Informations de t?l?chargement Verity Minecraft"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod pour Java Edition",
           "description": "Adapté aux joueurs Java qui utilisent des loaders compatibles et vérifient les versions Minecraft indiquées.",
-          "version": "verity-5.7.3.jar",
+          "version": "verity-6.1.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Source Java",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
           "page_url": "/java/",
           "cta": "Télécharger le mod Java"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE ou Modrinth Verity JE",
-          "verity-5.7.3.jar / Forge 1.20.1",
+          "verity-6.1.jar / Forge 1.20.1",
           ".jar",
           "Vérifier loader et version"
         ],
@@ -184,7 +184,7 @@
         "Cette page est un guide Verity mod, pas un miroir. Les boutons pointent vers des sources où la plateforme ou le créateur contrôle la publication.",
         "Le premier clic doit être plus sûr : contexte .mcaddon pour Bedrock, notes de loader pour Java et prudence pour PE.",
         "Le bon ordre est simple : choisir l'édition, ouvrir la source maintenue, puis tester dans un monde ou profil propre.",
-        "La source Bedrock a été vérifiée le 25 juillet 2026 et liste ThatMob's Verity 3.1.0 / V26.30. Si elle change, suivez d'abord la source."
+        "La source Bedrock a été vérifiée le 4 août 2026 et liste ThatMob's Verity 3.1.0 / V26.30. Si elle change, suivez d'abord la source."
       ]
     },
     "versions": {

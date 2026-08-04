@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installer des mods Minecraft Java : 7 étapes sûres</title>
+  <meta name="description"
+    content="Apprenez à installer des mods Minecraft Java avec Fabric ou Forge, trouver le dossier mods, tester un profil et corriger les erreurs courantes.">
+  <meta name="google-adsense-account" content="ca-pub-9042195580058659">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
+    crossorigin="anonymous"></script>
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/fr/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/how-to-install-java-mods/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/how-to-install-java-mods/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Installer des mods Minecraft Java : 7 étapes sûres">
+  <meta property="og:description" content="Apprenez à installer des mods Minecraft Java avec Fabric ou Forge, trouver le dossier mods, tester un profil et corriger les erreurs courantes.">
+  <meta property="og:url" content="https://verityminecraft.blog/fr/how-to-install-java-mods/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Installer des mods Minecraft Java : 7 étapes sûres">
+  <meta name="twitter:description" content="Apprenez à installer des mods Minecraft Java avec Fabric ou Forge, trouver le dossier mods, tester un profil et corriger les erreurs courantes.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Guide pour t\u00e9l\u00e9charger Verity Minecraft sur Java, Bedrock et PE avec sources, versions, installation et conseils s\u00fbrs.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-08-04", "datePublished": "2026-08-04", "description": "Guide de compatibilit\u00e9 pour installer des mods Minecraft Java avec Fabric, Forge, profils, d\u00e9pendances et d\u00e9pannage.", "headline": "Installer des mods Minecraft Java : 7 \u00e9tapes s\u00fbres", "image": "https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp", "mainEntityOfPage": "https://verityminecraft.blog/fr/how-to-install-java-mods/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Lisez le fichier, faites correspondre la version et le loader, installez le loader dans un profil s\u00e9par\u00e9 et testez le .jar avec ses d\u00e9pendances."}, "name": "Comment installer des mods Minecraft Java sans m\u00e9langer les versions ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Utilisez le loader indiqu\u00e9 par le mod ; Fabric, Forge et NeoForge ont des \u00e9cosyst\u00e8mes diff\u00e9rents."}, "name": "Fabric ou Forge est-il meilleur pour les mods Minecraft Java ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Il se trouve dans le r\u00e9pertoire de l\u0027instance Java active ; les launchers personnalis\u00e9s peuvent utiliser un autre dossier."}, "name": "O\u00f9 se trouve le dossier mods de Minecraft Java ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "V\u00e9rifiez le loader, le chemin, l\u0027extension, la version et les d\u00e9pendances, puis lisez la premi\u00e8re erreur."}, "name": "Pourquoi mon mod Minecraft Java n\u0027appara\u00eet-il pas ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Non. Java et Bedrock utilisent des syst\u00e8mes et formats diff\u00e9rents."}, "name": "Puis-je installer un mod Java sur Minecraft Bedrock ou PE ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Il peut utiliser un autre dossier ; suivez son chemin document\u00e9 et v\u00e9rifiez la source du projet."}, "name": "Puis-je utiliser un launcher tiers comme TLauncher ?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/fr/" aria-label="Verity Minecraft home">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Téléchargements">
+      <a href="/fr/#downloads">Téléchargements</a>
+      <a href="/fr/#install">Installer</a>
+      <a href="/fr/#versions">Versions</a>
+      <a href="/fr/#safety">Sécurité</a>
+      <a href="/fr/#faq">Questions fréquentes</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="Français">Français</summary>
+        <div class="language-options">
+          
+          <a href="/how-to-install-java-mods/">English</a>
+          
+          <a href="/es/how-to-install-java-mods/">Español</a>
+          
+          <a href="/ja/how-to-install-java-mods/">日本語</a>
+          
+          <a href="/de/how-to-install-java-mods/">Deutsch</a>
+          
+          <a href="/pt/how-to-install-java-mods/">Português</a>
+          
+          <a href="/ko/how-to-install-java-mods/">한국어</a>
+          
+          <a href="/it/how-to-install-java-mods/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/fr/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        Télécharger
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <meta name="google-adsense-account" content="ca-pub-9042195580058659">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
+     crossorigin="anonymous"></script>
+    <div class="article-hero-copy">
+      <p class="eyebrow">Guide des mods Java</p>
+      <h1 id="article-title">Installer des mods Minecraft Java : 7 étapes sûres</h1>
+      <p class="hero-lede">Pour installer un mod dans Minecraft Java, faites correspondre le mod avec votre version de Minecraft et son loader, installez ce loader dans un profil séparé, placez le fichier .jar d&#39;origine dans le bon dossier mods et testez-le avant d&#39;ouvrir votre monde principal.</p>
+      <p class="hero-support">Ce guide couvre Fabric, Forge et les profils Java similaires. Il ne transforme pas un .mcaddon Bedrock en mod Java et ne recommande pas les miroirs ou launchers qui masquent la source du fichier.</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/fr/java/">Voir les notes Java</a>
+        
+        <a class="btn btn-secondary" href="/fr/versions/">Vérifier les versions</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp" alt="Illustration éditoriale d&#39;un mod Minecraft Java passant d&#39;une source à un profil avec loader puis à un monde de test" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <figcaption>Illustration éditoriale, pas une capture du launcher : identifiez le loader et la version du jeu avant de déplacer un mod dans un profil de test.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Réponse rapide</p>
+      <h2 id="answer-title">La règle courte : le loader avant le fichier</h2>
+      <p>La manière la plus sûre d&#39;installer des mods Minecraft Java consiste à traiter chaque mod comme une partie d&#39;un profil compatible. La page du mod doit indiquer la version de Minecraft et le loader pris en charge. Votre profil doit utiliser la même combinaison avant tout téléchargement ou copier-coller.</p><p>Fabric et Forge ne sont pas des dossiers ou des modes de lancement interchangeables. Certains projets ciblent aussi NeoForge, et un mod conçu pour un loader peut refuser de fonctionner avec un autre, même si les deux utilisent des fichiers .jar. Commencez par un profil propre, gardez le nom du fichier et ajoutez les mods un par un.</p><p>La version actuelle de Minecraft Java peut évoluer indépendamment d&#39;un projet de mod. Le manifeste officiel consulté le 4 août 2026 indiquait 26.2 comme dernière release, tandis que la source Verity JE existante indiquait un fichier Forge 1.20.1. Ce sont deux informations distinctes : faites toujours correspondre la page du mod au profil que vous utilisez réellement.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Java seulement</h3><p>Un mod Java arrive généralement en .jar et appartient à un profil moddé, pas à l&#39;écran d&#39;importation Bedrock.</p></article>
+      
+      <article class="feature-card"><h3>Le loader compte</h3><p>Choisissez Fabric, Forge ou le loader nommé par le projet, puis installez-le pour la même version de Minecraft.</p></article>
+      
+      <article class="feature-card"><h3>Testez avant de mélanger</h3><p>Un profil propre et un monde copié permettent de distinguer une incompatibilité d&#39;une dépendance ou d&#39;un conflit.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Processus d&#39;installation</p>
+      <h2 id="steps-title">Comment installer des mods Minecraft Java étape par étape</h2>
+      <p>Suivez ces sept vérifications dans l&#39;ordre. Le processus commence par la source afin qu&#39;un bouton de téléchargement ou un tutoriel copié ne décide pas de votre compatibilité.</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>1. Confirmez que vous utilisez Java Edition</h3><p>Ouvrez le launcher officiel ou le profil que vous utilisez habituellement. Bedrock, Minecraft PE et les consoles utilisent d&#39;autres systèmes de contenu. Si le fichier est .mcaddon ou .mcpack, il ne correspond pas au flux Java .jar de ce guide.</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>2. Lisez la page du mod, pas seulement le titre</h3><p>Notez la version exacte de Minecraft, le loader, les dépendances et le nom du fichier. Une page qui dit simplement « compatible avec Minecraft » ne donne pas assez d&#39;informations pour choisir un profil sûr.</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>3. Installez le loader compatible</h3><p>Utilisez l&#39;installateur officiel Fabric ou la page officielle des fichiers Forge pour la version choisie. Créez une installation ou un profil séparé si possible et lancez-le une fois avant d&#39;ajouter un mod tiers.</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>4. Téléchargez depuis une source maintenue</h3><p>Préférez la fiche du projet sur Modrinth ou CurseForge, la page documentée de l&#39;auteur ou une source qui affiche l&#39;identité et l&#39;historique des versions. N&#39;utilisez pas un miroir uniquement parce qu&#39;il promet un bouton plus rapide ou un installateur modifié.</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>5. Placez le .jar original dans le bon dossier mods</h3><p>Ouvrez le dossier mods du profil compatible, et non un dossier global d&#39;une autre installation. Gardez l&#39;extension et le nom du fichier. Si le loader crée le dossier après son premier lancement, fermez le jeu avant de copier le fichier.</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>6. Vérifiez les dépendances et testez le profil</h3><p>Beaucoup de mods ont besoin d&#39;une bibliothèque, d&#39;une API ou d&#39;un fichier de configuration. Ajoutez les versions compatibles, lancez le jeu avec le minimum nécessaire et lisez le premier message d&#39;erreur au lieu de télécharger une autre copie.</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>7. Testez un monde copié avant votre pack habituel</h3><p>Ouvrez un monde neuf ou une copie, vérifiez la fonction attendue et quittez correctement. Ajoutez ensuite les autres mods un par un pour que le premier échec indique le conflit probable.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">Source et compatibilité</p>
+        <h2 id="check-title">Cinq détails à vérifier avant de télécharger un mod Java</h2>
+        <p>La première distinction utile est celle entre la page du projet et la page du fichier. La première explique ce que fait le mod ; la seconde indique la version de Minecraft, le loader et les dépendances de cette compilation précise. Pour l&#39;installation du jour, utilisez les informations propres au fichier.</p><p>Vérifiez le nom du loader. Les mods Fabric, Forge et NeoForge peuvent tous être des fichiers .jar, mais le loader fait partie du contrat de compatibilité. Un projet peut publier plusieurs fichiers pour plusieurs loaders : choisissez celui qui correspond à votre profil plutôt que le nom qui semble le plus récent.</p><p>Vérifiez ensuite les dépendances. Une bibliothèque comme Fabric API ou une dépendance liée au loader peut être obligatoire même si la page principale paraît complète. Les messages du launcher indiquent souvent la bibliothèque absente ; notez son nom et sa version avant de la chercher.</p><p>Confirmez également que le téléchargement est bien un mod. Shaders, packs de ressources, datapacks, modpacks et mods Java apparaissent parfois dans les mêmes résultats, mais ils utilisent des dossiers et des règles différentes. Un .zip de shaders ne va pas dans mods et un add-on Bedrock ne devient pas Java en changeant son extension.</p><p>Enfin, gardez le contexte de la source. Enregistrez l&#39;URL du projet, le nom du fichier, le loader, la version de Minecraft et la date de vérification. Si la source évolue, vous saurez ce qui a changé au lieu de suivre un ancien tutoriel.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/how-to-install-java-mods/java-mod-install-profile-check.webp" alt="Illustration éditoriale comparant un fichier de mod Java, un profil avec loader et une liste de compatibilité" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>Illustration éditoriale : un mod Java compatible doit correspondre au fichier, au jeu, au loader, aux dépendances et à la source.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Matrice de compatibilité</p>
+      <h2 id="table-title">Que faut-il faire correspondre pour charger un mod Java ?</h2>
+      <p>Utilisez ce tableau comme outil de décision rapide. Un bouton de téléchargement visible ne remplace aucune de ces vérifications.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Que faut-il faire correspondre pour charger un mod Java ?">
+      <div role="row">
+        <strong>Vérification</strong><strong>À faire correspondre</strong><strong>Pourquoi c&#39;est important</strong>
+      </div>
+      
+      <div role="row">
+        <span>Version Minecraft</span><span>La version exacte indiquée par le fichier</span><span>Un mod compilé pour une autre version peut refuser de se charger ou agir de façon imprévisible.</span>
+      </div>
+      
+      <div role="row">
+        <span>Loader</span><span>Fabric, Forge, NeoForge ou le nom indiqué par le projet</span><span>Le loader fournit les hooks et l&#39;environnement que le mod attend.</span>
+      </div>
+      
+      <div role="row">
+        <span>Type de fichier</span><span>.jar pour un mod Java ; formats différents pour packs et shaders</span><span>Changer une extension ne convertit pas un système de contenu.</span>
+      </div>
+      
+      <div role="row">
+        <span>Dépendances</span><span>L&#39;API, la bibliothèque et les versions requises</span><span>Le mod principal peut être présent alors qu&#39;une bibliothèque obligatoire manque.</span>
+      </div>
+      
+      <div role="row">
+        <span>Source et date</span><span>Une page maintenue et une vérification récente</span><span>Un miroir peut garder un ancien build, renommer le fichier ou cacher les notes.</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/how-to-install-java-mods/java-mod-install-troubleshooting.webp" alt="Flux éditorial de dépannage pour un mod Minecraft Java qui ne se charge pas" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>Illustration éditoriale : retirez la variable la plus récente, lisez la première erreur et retestez avant de modifier un autre fichier.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Profil et dépannage</p>
+        <h2 id="activate-title">Trouver le dossier mods sans risquer son monde principal</h2>
+        <p>Le dossier mods appartient à une installation ou à un profil Java. Son emplacement dépend du launcher et du système, et les launchers personnalisés peuvent utiliser un répertoire d&#39;instance séparé. Ouvrez les paramètres de l&#39;instance au lieu de supposer que le premier dossier .minecraft est celui qui tourne.</p><p>Avec le launcher standard sous Windows, le répertoire habituel se trouve souvent sous AppData. Ce n&#39;est pas une garantie : les profils et launchers tiers peuvent rediriger le dossier. Le test le plus fiable consiste à lancer le profil, repérer le dossier de ses logs ou de ses sauvegardes, puis utiliser son dossier mods.</p><p>Ajoutez le mod visé et uniquement sa dépendance à un profil propre. Si le jeu atteint l&#39;écran titre, créez un monde copié et vérifiez une fonction attendue. En cas de crash, retirez le fichier le plus récent puis relancez. Cette boucle à un seul changement donne des preuves plus utiles qu&#39;un nouveau téléchargement.</p><p>Si le mod n&#39;apparaît pas, vérifiez d&#39;abord le profil et le loader actifs, puis le chemin, l&#39;extension .jar, la version du jeu, les dépendances et le message du log. Ne forcez pas un fichier destiné à un autre loader ou à une autre version : choisissez un fichier compatible.</p><p>Quand le test propre fonctionne, ajoutez progressivement vos autres mods. Gardez un inventaire des URLs, noms de fichiers, loader, version et date. Cette note aide à retrouver le changement responsable après une mise à jour ou un conflit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Erreurs fréquentes</p>
+      <h2 id="mistakes-title">Pourquoi un mod Java n&#39;apparaît pas ou fait planter le jeu</h2>
+      <p>La plupart des échecs viennent de la compatibilité ou de la gestion des fichiers, pas d&#39;un besoin de trouver un autre miroir.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Mauvaise version Minecraft</h3><p>Le launcher peut démarrer alors que le mod est refusé parce qu&#39;il cible une autre version. Faites correspondre le fichier et le profil.</p></article>
+      
+      <article class="feature-card"><h3>Mauvais loader</h3><p>Un fichier Fabric ne devient pas Forge parce que les deux utilisent .jar. Installez le loader indiqué par le projet.</p></article>
+      
+      <article class="feature-card"><h3>Confondre pack et mod</h3><p>Shaders, packs de ressources et datapacks ont des dossiers différents. Vérifiez le type du projet avant de déplacer le fichier.</p></article>
+      
+      <article class="feature-card"><h3>Dépendance absente</h3><p>Une API ou une bibliothèque peut être obligatoire même si le mod principal a été téléchargé correctement. Suivez la liste du projet.</p></article>
+      
+      <article class="feature-card"><h3>Plusieurs fichiers à la fois</h3><p>Ajouter tout un pack masque l&#39;origine du premier échec. Commencez avec un seul mod et un monde copié.</p></article>
+      
+      <article class="feature-card"><h3>Prendre un miroir pour une source</h3><p>Un fichier reconditionné peut être ancien ou accompagné d&#39;un installateur indésirable. Préférez une page maintenue.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Guides Verity associés</p>
+      <h2 id="related-title">Garder l&#39;installation Java séparée des autres éditions</h2>
+      <p>Ces pages expliquent le contexte de téléchargement du projet et les limites entre éditions prises en compte dans ce guide.</p>
+    </div>
+    <div class="example-grid">
+      
+      <article class="example-card"><h3>Téléchargement Verity Minecraft Java</h3><p>Vérifiez la source actuelle de Verity JE, le profil Forge et le contexte du fichier Java.</p><a class="text-link" href="/fr/java/">Voir les notes Java</a></article>
+      
+      <article class="example-card"><h3>Versions de Verity Minecraft</h3><p>Comparez les versions par plateforme sans prendre un fichier Java pour une release Bedrock ou PE.</p><a class="text-link" href="/fr/versions/">Vérifier les versions</a></article>
+      
+      <article class="example-card"><h3>Installer Verity Minecraft</h3><p>Utilisez la vue d&#39;ensemble lorsque votre recherche mélange Java, Bedrock et mobile.</p><a class="text-link" href="/fr/how-to-install/">Ouvrir le guide général</a></article>
+      
+      <article class="example-card"><h3>Minecraft Java ou Bedrock</h3><p>Confirmez l&#39;édition et l&#39;écosystème adaptés à votre appareil et à votre groupe.</p><a class="text-link" href="/fr/java-vs-bedrock/">Comparer les éditions</a></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Références officielles</p>
+      <h2 id="sources-title">Sources principales de ce guide d&#39;installation</h2>
+      <p>Ces liens expliquent les chemins des loaders ou launchers. La compatibilité précise reste définie par la page maintenue de chaque mod.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Fabric : Installing Mods</h3><p>Documentation Fabric pour installer un mod dans un profil Java compatible.</p><a class="text-link" href="https://docs.fabricmc.net/players/installing-mods" target="_blank" rel="noopener">Lire la documentation Fabric</a></article>
+      
+      <article class="feature-card"><h3>Forge Files</h3><p>Index officiel des fichiers Forge pour choisir la version de jeu correspondante.</p><a class="text-link" href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="noopener">Ouvrir les fichiers Forge</a></article>
+      
+      <article class="feature-card"><h3>Modrinth App</h3><p>Chemin maintenu pour gérer les projets et profils Modrinth en conservant leur contexte.</p><a class="text-link" href="https://modrinth.com/app" target="_blank" rel="noopener">Ouvrir Modrinth App</a></article>
+      
+      <article class="feature-card"><h3>Téléchargement Minecraft</h3><p>Entrée officielle pour confirmer l&#39;édition et le launcher utilisé.</p><a class="text-link" href="https://www.minecraft.net/en-us/download" target="_blank" rel="noopener">Vérifier Minecraft</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faq-title">FAQ : installer des mods Minecraft Java</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>Comment installer des mods Minecraft Java sans mélanger les versions ?</summary><p>Lisez la page du fichier, notez la version et le loader, installez ce loader dans un profil séparé puis placez le .jar original dans son dossier mods. Testez d&#39;abord avec les dépendances nécessaires.</p></details>
+      
+      <details ><summary>Fabric ou Forge est-il meilleur pour les mods Minecraft Java ?</summary><p>Aucun n&#39;est toujours meilleur. Utilisez le loader indiqué par le mod ou la collection. Fabric, Forge et NeoForge ont des écosystèmes différents.</p></details>
+      
+      <details ><summary>Où se trouve le dossier mods de Minecraft Java ?</summary><p>Il se trouve dans le répertoire utilisé par le profil Java actif. Sous Windows il est souvent sous AppData, mais un launcher personnalisé peut utiliser une autre instance. Vérifiez ses paramètres.</p></details>
+      
+      <details ><summary>Pourquoi mon mod Minecraft Java n&#39;apparaît-il pas ?</summary><p>Vérifiez le profil et le loader actifs, le chemin, l&#39;extension .jar, la version et les dépendances. En cas de crash, lisez la première erreur avant de télécharger une autre copie.</p></details>
+      
+      <details ><summary>Puis-je installer un mod Java sur Minecraft Bedrock ou PE ?</summary><p>Non. Les mods Java et les add-ons Bedrock utilisent des systèmes et formats différents. Utilisez le guide Bedrock ou PE au lieu de renommer un .jar.</p></details>
+      
+      <details ><summary>Puis-je utiliser un launcher tiers comme TLauncher ?</summary><p>Les launchers tiers peuvent utiliser d&#39;autres dossiers et politiques. Suivez le chemin d&#39;instance documenté, utilisez une installation Minecraft légitime et vérifiez le mod sur sa source maintenue.</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  <script async="async" data-cfasync="false" src="https://pl30605215.effectivecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+  <div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/fr/" aria-label="Verity Minecraft home">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Aide indépendante au téléchargement de Verity Minecraft.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="Téléchargements">
+          <div class="footer-link-group">
+            <p class="footer-link-title">Téléchargements</p>
+          <a href="/fr/#downloads">Téléchargements</a>
+          <a href="/fr/#install">Installer</a>
+          <a href="/fr/#versions">Versions</a>
+          <a href="/fr/#safety">Sécurité</a>
+            <a href="/fr/bedrock-addons/">Add-ons Bedrock</a>
+            <a href="/fr/java-vs-bedrock/">Java vs Bedrock</a>
+            <a href="/fr/bedrock-shaders/">Shaders Bedrock</a>
+            <a href="/fr/#faq">Questions fréquentes</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">Pages légales</p>
+            <a href="/about/">À propos</a>
+            <a href="/contact/">Nous contacter</a>
+            <a href="/privacy-policy/">Confidentialité</a>
+            <a href="/terms-of-service/">Conditions d&#39;utilisation</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Aide indépendante au téléchargement de Verity Minecraft.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>

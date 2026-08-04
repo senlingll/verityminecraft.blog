@@ -12,7 +12,7 @@
   "download": {
     "cta": "Scaricare Java",
     "secondary_cta": "Guida",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
     "note": "Il flusso sicuro è semplice: scegli Java, Bedrock o PE, conferma il file previsto, apri la fonte indicata e prova prima in un mondo copiato o in un profilo pulito."
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "Versioni",
-        "value": "verity-5.7.3.jar"
+        "value": "verity-6.1.jar"
       },
       {
         "label": "File",
@@ -36,7 +36,7 @@
       },
       {
         "label": "Ultimo controllo",
-        "value": "25 luglio 2026"
+        "value": "4 agosto 2026"
       }
     ]
   },

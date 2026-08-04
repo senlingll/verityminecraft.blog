@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마인크래프트 자바 모드 설치 방법: 안전한 7단계</title>
+  <meta name="description"
+    content="Fabric과 Forge로 마인크래프트 자바 모드를 설치하고 mods 폴더, 프로필, 의존성과 흔한 오류를 확인하는 방법을 설명합니다.">
+  <meta name="google-adsense-account" content="ca-pub-9042195580058659">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
+    crossorigin="anonymous"></script>
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/ko/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/how-to-install-java-mods/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/how-to-install-java-mods/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/how-to-install-java-mods/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="마인크래프트 자바 모드 설치 방법: 안전한 7단계">
+  <meta property="og:description" content="Fabric과 Forge로 마인크래프트 자바 모드를 설치하고 mods 폴더, 프로필, 의존성과 흔한 오류를 확인하는 방법을 설명합니다.">
+  <meta property="og:url" content="https://verityminecraft.blog/ko/how-to-install-java-mods/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="마인크래프트 자바 모드 설치 방법: 안전한 7단계">
+  <meta name="twitter:description" content="Fabric과 Forge로 마인크래프트 자바 모드를 설치하고 mods 폴더, 프로필, 의존성과 흔한 오류를 확인하는 방법을 설명합니다.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \ub2e4\uc6b4\ub85c\ub4dc\ub97c Java, Bedrock, PE\ubcc4\ub85c \uc815\ub9ac\ud558\uace0 \ucd9c\ucc98, \ubc84\uc804, \uc124\uce58, \uc548\uc804 \ud655\uc778\uc744 \uc548\ub0b4\ud569\ub2c8\ub2e4.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-08-04", "datePublished": "2026-08-04", "description": "Fabric, Forge, \ud504\ub85c\ud544, \uc758\uc874\uc131, \uc624\ub958 \ud574\uacb0\uc744 \ud3ec\ud568\ud55c \ub9c8\uc778\ud06c\ub798\ud504\ud2b8 Java \ubaa8\ub4dc \ud638\ud658\uc131 \uac00\uc774\ub4dc\uc785\ub2c8\ub2e4.", "headline": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \uc790\ubc14 \ubaa8\ub4dc \uc124\uce58 \ubc29\ubc95: \uc548\uc804\ud55c 7\ub2e8\uacc4", "image": "https://verityminecraft.blog/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp", "mainEntityOfPage": "https://verityminecraft.blog/ko/how-to-install-java-mods/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ud30c\uc77c\uc758 \ubc84\uc804\uacfc \ub85c\ub354\ub97c \ub9de\ucd94\uace0 \ubcc4\ub3c4 \ud504\ub85c\ud544\uc5d0\uc11c .jar\uc640 \uc758\uc874\uc131\uc744 \ud14c\uc2a4\ud2b8\ud569\ub2c8\ub2e4."}, "name": "\ubc84\uc804\uc744 \uc11e\uc9c0 \uc54a\uace0 \ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \uc790\ubc14 \ubaa8\ub4dc\ub97c \uc124\uce58\ud558\ub824\uba74 \uc5b4\ub5bb\uac8c \ud558\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ubaa8\ub4dc\uac00 \uc9c0\uc815\ud55c \ub85c\ub354\ub97c \uc0ac\uc6a9\ud558\uc138\uc694. \uc138 \ub85c\ub354\uc758 \ud638\ud658 \uc0dd\ud0dc\uacc4\ub294 \ub2e4\ub985\ub2c8\ub2e4."}, "name": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \uc790\ubc14 \ubaa8\ub4dc\ub294 Fabric\uacfc Forge \uc911 \ubb34\uc5c7\uc774 \ub354 \uc88b\uc740\uac00\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ud65c\uc131 Java \uc778\uc2a4\ud134\uc2a4\uc758 \uac8c\uc784 \ub514\ub809\ud130\ub9ac\uc5d0 \uc788\uc73c\uba70 \uc0ac\uc6a9\uc790 \uc9c0\uc815 \ub7f0\ucc98\ub294 \ub2e4\ub978 \ud3f4\ub354\ub97c \uc0ac\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."}, "name": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \uc790\ubc14 mods \ud3f4\ub354\ub294 \uc5b4\ub514\uc5d0 \uc788\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ub85c\ub354, \uacbd\ub85c, \ud655\uc7a5\uc790, \ubc84\uc804, \uc758\uc874\uc131\uacfc \uccab \uc624\ub958\ub97c \ud655\uc778\ud558\uc138\uc694."}, "name": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \uc790\ubc14 \ubaa8\ub4dc\uac00 \ub098\ud0c0\ub098\uc9c0 \uc54a\ub294 \uc774\uc720\ub294 \ubb34\uc5c7\uc778\uac00\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. Java\uc640 Bedrock\uc740 \ub2e4\ub978 \uc2dc\uc2a4\ud15c\uacfc \ud30c\uc77c \ud615\uc2dd\uc744 \uc0ac\uc6a9\ud569\ub2c8\ub2e4."}, "name": "\uc790\ubc14 \ubaa8\ub4dc\ub97c Minecraft Bedrock\uc774\ub098 PE\uc5d0 \uc124\uce58\ud560 \uc218 \uc788\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ub2e4\ub978 \ud3f4\ub354\ub97c \uc0ac\uc6a9\ud560 \uc218 \uc788\uc73c\ubbc0\ub85c \ubb38\uc11c\ud654\ub41c \uacbd\ub85c\uc640 \ud504\ub85c\uc81d\ud2b8 \ucd9c\ucc98\ub97c \ud655\uc778\ud558\uc138\uc694."}, "name": "TLauncher \uac19\uc740 \uc11c\ub4dc\ud30c\ud2f0 \ub7f0\ucc98\ub97c \uc0ac\uc6a9\ud560 \uc218 \uc788\ub098\uc694?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/ko/" aria-label="Verity Minecraft 홈">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="다운로드">
+      <a href="/ko/#downloads">다운로드</a>
+      <a href="/ko/#install">설치</a>
+      <a href="/ko/#versions">버전</a>
+      <a href="/ko/#safety">안전 확인</a>
+      <a href="/ko/#faq">자주 묻는 질문</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="한국어">한국어</summary>
+        <div class="language-options">
+          
+          <a href="/how-to-install-java-mods/">English</a>
+          
+          <a href="/es/how-to-install-java-mods/">Español</a>
+          
+          <a href="/ja/how-to-install-java-mods/">日本語</a>
+          
+          <a href="/fr/how-to-install-java-mods/">Français</a>
+          
+          <a href="/de/how-to-install-java-mods/">Deutsch</a>
+          
+          <a href="/pt/how-to-install-java-mods/">Português</a>
+          
+          <a href="/it/how-to-install-java-mods/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/ko/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        다운로드
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <meta name="google-adsense-account" content="ca-pub-9042195580058659">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
+     crossorigin="anonymous"></script>
+    <div class="article-hero-copy">
+      <p class="eyebrow">자바 모드 가이드</p>
+      <h1 id="article-title">마인크래프트 자바 모드 설치 방법: 안전한 7단계</h1>
+      <p class="hero-lede">마인크래프트 자바 모드를 설치할 때는 모드가 지원하는 게임 버전과 로더를 먼저 맞춥니다. 별도 프로필에 로더를 설치하고 원본 .jar 파일을 그 프로필의 mods 폴더에 넣은 뒤, 주 월드를 열기 전에 테스트하세요.</p>
+      <p class="hero-support">Fabric, Forge와 비슷한 자바 프로필을 위한 안내입니다. Bedrock .mcaddon을 자바 모드로 바꾸는 방법이 아니며, 파일 출처를 숨기는 미러나 런처도 권장하지 않습니다.</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/ko/java/">자바 출처 메모 열기</a>
+        
+        <a class="btn btn-secondary" href="/ko/versions/">버전 호환성 확인</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/how-to-install-java-mods/java-mod-install-loader-flow.webp" alt="마인크래프트 자바 모드가 출처에서 로더 프로필을 거쳐 테스트 월드로 이동하는 편집용 일러스트" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <figcaption>편집용 일러스트이며 실제 런처 화면이 아닙니다. 모드를 옮기기 전에 로더와 게임 버전을 확인하세요.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">빠른 결론</p>
+      <h2 id="answer-title">짧은 규칙: 로더를 먼저 맞추고 파일을 넣기</h2>
+      <p>마인크래프트 자바 모드 설치에서 가장 안전한 방법은 모드마다 호환되는 프로필을 사용하는 것입니다. 모드 페이지에 지원하는 마인크래프트 버전과 로더가 표시되어야 하며, 파일을 다운로드하기 전에 프로필도 같은 조합으로 맞춰야 합니다.</p><p>Fabric과 Forge는 서로 바꿔 사용할 수 있는 폴더나 실행 방식이 아닙니다. NeoForge를 대상으로 하는 프로젝트도 있고, 모두 .jar를 사용하더라도 로더가 다르면 로드되지 않을 수 있습니다. 깨끗한 프로필에서 시작하고 파일 이름을 바꾸지 말고 하나씩 추가하세요.</p><p>현재 마인크래프트 자바 릴리스와 개별 프로젝트의 릴리스는 별개입니다. 2026년 8월 4일 공식 버전 목록을 확인했을 때 최신 릴리스는 26.2였지만, 기존 Verity JE 출처에는 Forge 1.20.1용 파일이 표시되어 있었습니다. 숫자만 비교하지 말고 실제 프로필과 파일의 호환성을 확인하세요.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>자바 전용</h3><p>자바 모드는 보통 .jar로 배포되며 Bedrock 가져오기 화면이 아니라 자바 모드 프로필에 들어갑니다.</p></article>
+      
+      <article class="feature-card"><h3>로더가 핵심</h3><p>모드 페이지에 적힌 Fabric, Forge 등의 로더를 선택하고 같은 게임 버전용으로 설치합니다.</p></article>
+      
+      <article class="feature-card"><h3>섞기 전에 테스트</h3><p>깨끗한 프로필과 복사한 월드를 사용하면 버전 오류와 의존성·모드 충돌을 구분하기 쉽습니다.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">설치 순서</p>
+      <h2 id="steps-title">마인크래프트 자바 모드 설치 7단계</h2>
+      <p>아래 확인을 순서대로 진행하세요. 다운로드 버튼이나 오래된 복사 글이 아니라 파일과 프로필의 호환성을 직접 판단하는 과정입니다.</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>1. Java Edition인지 확인하기</h3><p>공식 런처나 평소 사용하는 프로필을 엽니다. Bedrock, Minecraft PE, 콘솔은 다른 콘텐츠 시스템을 사용합니다. 파일이 .mcaddon 또는 .mcpack이라면 이 자바 .jar 절차의 대상이 아닙니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>2. 제목이 아니라 모드 페이지 읽기</h3><p>마인크래프트 버전, 로더, 의존성, 파일 이름을 기록합니다. &#39;마인크래프트 지원&#39;이라고만 적힌 페이지는 안전한 프로필을 고르기에 정보가 부족합니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>3. 호환되는 로더 설치하기</h3><p>선택한 버전에 맞는 Fabric 공식 설치 프로그램이나 Forge 공식 파일 페이지를 사용합니다. 가능하면 별도 프로필을 만들고 모드를 추가하기 전에 한 번 실행하세요.</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>4. 관리되는 출처에서 받기</h3><p>Modrinth 또는 CurseForge 프로젝트 페이지, 제작자가 안내한 페이지처럼 프로젝트 정체성과 버전 이력이 보이는 출처를 우선합니다. 버튼이 빠르다는 이유로 수정된 설치 프로그램이나 미러를 고르지 마세요.</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>5. 원본 .jar를 올바른 mods 폴더에 넣기</h3><p>다른 설치의 공용 폴더가 아니라 호환되는 프로필의 mods 폴더를 엽니다. 확장자와 파일 이름은 유지하세요. 로더가 첫 실행 뒤 폴더를 만들면 게임을 종료한 뒤 파일을 복사합니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>6. 의존성을 확인하고 프로필 테스트하기</h3><p>모드에는 라이브러리, API 또는 설정 파일이 필요할 수 있습니다. 호환되는 의존성만 추가하고 최소 구성으로 실행하세요. 다른 파일을 다시 받기 전에 첫 오류 메시지를 확인합니다.</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>7. 주 월드 전에 복사본에서 테스트하기</h3><p>새 월드나 복사한 월드에서 예상 기능을 확인하고 정상 종료합니다. 이후 다른 모드를 하나씩 추가하면 첫 문제에서 충돌 후보를 찾을 수 있습니다.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">출처와 호환성</p>
+        <h2 id="check-title">자바 모드를 받기 전에 확인할 5가지</h2>
+        <p>프로젝트 페이지와 파일 페이지는 역할이 다릅니다. 프로젝트 페이지는 모드의 기능을 설명하고, 파일 페이지는 해당 빌드의 마인크래프트 버전·로더·의존성을 표시합니다. 오늘 설치할 때는 파일에 붙은 정보를 사용하세요.</p><p>로더 이름을 자세히 확인합니다. Fabric, Forge, NeoForge 모드는 모두 .jar일 수 있지만 로더는 호환성의 일부입니다. 하나의 프로젝트가 여러 로더용 파일을 제공한다면 가장 최신처럼 보이는 이름이 아니라 내 프로필에 맞는 파일을 선택합니다.</p><p>의존성도 확인하세요. Fabric API 같은 라이브러리나 로더별 지원 모드가 필요할 수 있습니다. 실행 오류에 부족한 라이브러리가 표시되는 경우가 있으므로 이름과 버전을 기록한 뒤 찾아보세요.</p><p>다운로드가 정말 모드인지도 구분해야 합니다. 셰이더, 리소스 팩, 데이터 팩, 모드팩, 자바 모드는 검색 결과에서 섞이지만 폴더와 로딩 규칙은 다릅니다. 셰이더 .zip을 mods에 넣거나 Bedrock 애드온 이름을 바꿔도 변환되지 않습니다.</p><p>마지막으로 출처 정보를 보관합니다. 프로젝트 URL, 파일 이름, 로더, 마인크래프트 버전, 확인 날짜를 메모하면 페이지가 업데이트되어도 오래된 글 하나만 믿지 않고 변경점을 확인할 수 있습니다.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/how-to-install-java-mods/java-mod-install-profile-check.webp" alt="자바 모드 파일과 로더 프로필, 호환성 목록을 비교하는 편집용 일러스트" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>편집용 일러스트입니다. 호환성은 파일, 게임, 로더, 의존성, 출처를 함께 확인해야 합니다.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">호환성 표</p>
+      <h2 id="table-title">자바 모드가 로드되려면 무엇이 같아야 하나요?</h2>
+      <p>설치 전에 아래 표를 빠르게 확인하세요. 눈에 띄는 다운로드 버튼만으로는 호환성을 판단할 수 없습니다.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="자바 모드가 로드되려면 무엇이 같아야 하나요?">
+      <div role="row">
+        <strong>확인 항목</strong><strong>맞춰야 할 것</strong><strong>중요한 이유</strong>
+      </div>
+      
+      <div role="row">
+        <span>마인크래프트 버전</span><span>파일에 표시된 정확한 게임 버전</span><span>다른 버전용 모드는 로딩에 실패하거나 예측하기 어려운 동작을 할 수 있습니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>로더</span><span>Fabric, Forge, NeoForge 또는 프로젝트가 지정한 로더</span><span>로더가 모드가 기대하는 훅과 프로필 환경을 제공합니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>파일 형식</span><span>자바 모드는 .jar, 팩과 셰이더는 별도 형식</span><span>확장자를 바꿔도 콘텐츠 시스템이 변환되지 않습니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>의존성</span><span>필요한 API, 라이브러리와 호환 버전</span><span>메인 모드가 있어도 필수 라이브러리가 없으면 시작하지 못합니다.</span>
+      </div>
+      
+      <div role="row">
+        <span>출처와 날짜</span><span>관리되는 페이지와 최근 확인</span><span>미러는 오래된 빌드나 이름이 바뀐 파일을 남길 수 있습니다.</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/how-to-install-java-mods/java-mod-install-troubleshooting.webp" alt="로드되지 않는 마인크래프트 자바 모드를 확인하는 편집용 문제 해결 흐름" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>편집용 일러스트입니다. 마지막으로 추가한 변수를 제거하고 첫 오류를 읽은 뒤 다시 테스트하세요.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">프로필과 문제 해결</p>
+        <h2 id="activate-title">주 월드를 지키면서 mods 폴더 찾기</h2>
+        <p>mods 폴더는 자바 설치 또는 프로필에 속합니다. 정확한 위치는 런처와 운영체제에 따라 다르고, 사용자 지정 런처는 별도의 인스턴스 폴더를 사용할 수 있습니다. 처음 찾은 .minecraft 폴더가 실제 실행 위치라고 단정하지 말고 프로필 설정을 확인하세요.</p><p>Windows 기본 런처의 일반적인 게임 디렉터리는 AppData 안에 있습니다. 하지만 프로필과 외부 런처가 경로를 바꿀 수 있습니다. 선택한 프로필을 한 번 실행하고 로그나 저장 월드가 생기는 위치를 확인한 뒤 그 인스턴스의 mods 폴더를 사용하세요.</p><p>깨끗한 프로필에 대상 모드와 필요한 의존성만 추가합니다. 타이틀 화면까지 들어가면 복사한 월드에서 예상 기능을 확인하세요. 충돌하면 가장 최근 파일을 제거하고 다시 시작합니다. 한 번에 하나만 바꾸는 방식이 여러 번 다운로드하는 것보다 원인을 잘 보여줍니다.</p><p>모드가 나타나지 않으면 활성 프로필과 로더, 폴더 경로, .jar 확장자, 게임 버전, 의존성, 로그 메시지 순서로 확인합니다. 다른 로더나 버전의 파일을 억지로 사용하지 말고 호환되는 프로필 또는 파일을 고르세요.</p><p>깨끗한 테스트가 성공한 다음 평소 쓰는 모드를 조금씩 추가합니다. 프로젝트 URL, 파일 이름, 로더, 마인크래프트 버전, 날짜를 목록으로 남겨두면 업데이트 뒤 월드가 열리지 않을 때 변경점을 추적하기 쉽습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">자주 하는 실수</p>
+      <h2 id="mistakes-title">자바 모드가 나타나지 않거나 충돌하는 이유</h2>
+      <p>대부분은 호환성이나 파일 관리 문제입니다. 다른 미러를 찾는다고 해결되는 문제는 아닙니다.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>마인크래프트 버전 불일치</h3><p>런처는 실행되어도 모드가 다른 버전을 대상으로 하면 거부됩니다. 파일과 프로필을 정확히 맞추세요.</p></article>
+      
+      <article class="feature-card"><h3>잘못된 로더</h3><p>둘 다 .jar라고 해서 Fabric 파일이 Forge 모드가 되지는 않습니다. 프로젝트가 지정한 로더를 설치하세요.</p></article>
+      
+      <article class="feature-card"><h3>팩과 모드 혼동</h3><p>셰이더, 리소스 팩, 데이터 팩은 다른 폴더를 씁니다. 옮기기 전에 프로젝트 유형을 확인하세요.</p></article>
+      
+      <article class="feature-card"><h3>의존성 누락</h3><p>메인 모드를 정상적으로 받았어도 API나 라이브러리가 필요할 수 있습니다. 프로젝트 목록을 따르세요.</p></article>
+      
+      <article class="feature-card"><h3>여러 파일을 한 번에 추가</h3><p>모드팩 전체를 넣으면 첫 오류의 원인이 가려집니다. 모드 하나와 복사한 월드부터 시작하세요.</p></article>
+      
+      <article class="feature-card"><h3>미러를 공식 출처로 착각</h3><p>재배포 파일은 오래되었거나 원치 않는 설치 프로그램을 포함할 수 있습니다. 관리되는 페이지를 우선하세요.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">관련 Verity 가이드</p>
+      <h2 id="related-title">자바 설치와 다른 에디션을 분리하기</h2>
+      <p>이 가이드의 전제가 되는 프로젝트 다운로드 정보와 에디션 경계를 확인할 수 있습니다.</p>
+    </div>
+    <div class="example-grid">
+      
+      <article class="example-card"><h3>Verity Minecraft Java 다운로드</h3><p>특정 Verity JE 모드를 설치하기 전에 현재 출처, Forge 프로필과 Java 파일 정보를 확인하세요.</p><a class="text-link" href="/ko/java/">자바 메모 열기</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraft 버전</h3><p>Java 파일을 Bedrock이나 PE 릴리스와 혼동하지 않고 플랫폼별로 확인하세요.</p><a class="text-link" href="/ko/versions/">버전 확인</a></article>
+      
+      <article class="example-card"><h3>Verity Minecraft 설치 방법</h3><p>검색 결과에 Java, Bedrock, 모바일 절차가 섞여 있을 때 전체 흐름을 확인하세요.</p><a class="text-link" href="/ko/how-to-install/">전체 가이드 열기</a></article>
+      
+      <article class="example-card"><h3>Minecraft Java vs Bedrock</h3><p>기기와 플레이 그룹에 맞는 에디션과 콘텐츠 생태계를 확인하세요.</p><a class="text-link" href="/ko/java-vs-bedrock/">에디션 비교</a></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">공식 참고 자료</p>
+      <h2 id="sources-title">이 설치 가이드에서 확인한 주요 출처</h2>
+      <p>로더와 런처의 기본 경로를 설명하는 자료입니다. 모드별 호환성은 각 프로젝트의 관리되는 파일 페이지를 확인하세요.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Fabric: Installing Mods</h3><p>호환되는 자바 프로필에 모드를 설치하는 Fabric 플레이어 문서입니다.</p><a class="text-link" href="https://docs.fabricmc.net/players/installing-mods" target="_blank" rel="noopener">Fabric 문서 읽기</a></article>
+      
+      <article class="feature-card"><h3>Forge Files</h3><p>게임 버전에 맞는 Forge 공식 파일 목록입니다.</p><a class="text-link" href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="noopener">Forge 파일 열기</a></article>
+      
+      <article class="feature-card"><h3>Modrinth App</h3><p>프로젝트 정보를 확인하며 Modrinth 프로젝트와 프로필을 관리하는 공식 경로입니다.</p><a class="text-link" href="https://modrinth.com/app" target="_blank" rel="noopener">Modrinth App 열기</a></article>
+      
+      <article class="feature-card"><h3>Minecraft Download</h3><p>사용 중인 에디션과 런처를 확인하는 공식 입구입니다.</p><a class="text-link" href="https://www.minecraft.net/en-us/download" target="_blank" rel="noopener">Minecraft 확인</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">자주 묻는 질문</p>
+      <h2 id="faq-title">마인크래프트 자바 모드 설치 FAQ</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>버전을 섞지 않고 마인크래프트 자바 모드를 설치하려면 어떻게 하나요?</summary><p>파일 페이지에서 버전과 로더를 확인하고, 별도 프로필에 로더를 설치한 뒤 원본 .jar를 해당 mods 폴더에 넣습니다. 처음에는 필요한 의존성만으로 테스트하세요.</p></details>
+      
+      <details ><summary>마인크래프트 자바 모드는 Fabric과 Forge 중 무엇이 더 좋은가요?</summary><p>항상 한쪽이 더 좋은 것은 아닙니다. 설치하려는 모드나 컬렉션이 지정한 로더를 사용하세요. Fabric, Forge, NeoForge의 호환 생태계는 서로 다릅니다.</p></details>
+      
+      <details ><summary>마인크래프트 자바 mods 폴더는 어디에 있나요?</summary><p>활성 Java 프로필이 사용하는 게임 디렉터리 안에 있습니다. Windows에서는 AppData가 일반적이지만 사용자 지정 런처는 다른 인스턴스를 사용할 수 있으므로 프로필 설정을 확인하세요.</p></details>
+      
+      <details ><summary>마인크래프트 자바 모드가 나타나지 않는 이유는 무엇인가요?</summary><p>활성 프로필과 로더, 경로, .jar 확장자, 게임 버전, 의존성을 확인하세요. 충돌이 나면 다른 파일을 받기 전에 첫 오류를 읽습니다.</p></details>
+      
+      <details ><summary>자바 모드를 Minecraft Bedrock이나 PE에 설치할 수 있나요?</summary><p>할 수 없습니다. Java 모드와 Bedrock 애드온은 시스템과 파일 형식이 다릅니다. .jar 이름을 바꾸지 말고 Bedrock 또는 PE 가이드를 사용하세요.</p></details>
+      
+      <details ><summary>TLauncher 같은 서드파티 런처를 사용할 수 있나요?</summary><p>서드파티 런처는 폴더와 정책이 다를 수 있습니다. 문서화된 인스턴스 경로를 따르고 정식 Minecraft 환경과 관리되는 프로젝트 출처를 확인하세요.</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  <script async="async" data-cfasync="false" src="https://pl30605215.effectivecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+  <div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ko/" aria-label="Verity Minecraft 홈">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="다운로드">
+          <div class="footer-link-group">
+            <p class="footer-link-title">다운로드</p>
+          <a href="/ko/#downloads">다운로드</a>
+          <a href="/ko/#install">설치</a>
+          <a href="/ko/#versions">버전</a>
+          <a href="/ko/#safety">안전 확인</a>
+            <a href="/ko/bedrock-addons/">Bedrock 애드온</a>
+            <a href="/ko/java-vs-bedrock/">자바 vs 베드락</a>
+            <a href="/ko/bedrock-shaders/">베드락 셰이더</a>
+            <a href="/ko/#faq">자주 묻는 질문</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">사이트</p>
+            <a href="/about/">소개</a>
+            <a href="/contact/">문의</a>
+            <a href="/privacy-policy/">개인정보 처리방침</a>
+            <a href="/terms-of-service/">이용 약관</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>

@@ -12,7 +12,7 @@
   "download": {
     "cta": "Télécharger Java",
     "secondary_cta": "Guide",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
     "note": "Le parcours sûr reste simple : choisir Java, Bedrock ou PE, confirmer l'extension attendue, ouvrir la source officielle ou communautaire maintenue, puis tester dans un monde copié ou un profil propre."
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "Versions",
-        "value": "verity-5.7.3.jar"
+        "value": "verity-6.1.jar"
       },
       {
         "label": "File",
@@ -36,7 +36,7 @@
       },
       {
         "label": "Dernière vérification",
-        "value": "25 juillet 2026"
+        "value": "4 août 2026"
       }
     ]
   },

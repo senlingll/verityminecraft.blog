@@ -522,6 +522,27 @@ def localized_bedrock_shaders(lang):
     return render_core_page('bedrock-shaders', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/how-to-install-java-mods/', strict_slashes=False)
+def how_to_install_java_mods():
+    """
+    渲染 Minecraft Java 模组安装与排错指南页面。
+
+    :return: str，Java 模组安装指南 HTML 响应内容。
+    """
+    return render_core_page('how-to-install-java-mods', template_name='article-guide.html')
+
+
+@app.route('/<lang>/how-to-install-java-mods/', strict_slashes=False)
+def localized_how_to_install_java_mods(lang):
+    """
+    渲染指定语言的 Minecraft Java 模组安装与排错指南页面。
+
+    :param lang: 语言代码。
+    :return: str，指定语言的 Java 模组安装指南 HTML 响应内容。
+    """
+    return render_core_page('how-to-install-java-mods', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

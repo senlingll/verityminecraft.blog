@@ -12,7 +12,7 @@
   "download": {
     "cta": "다운로드 Java",
     "secondary_cta": "가이드",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/yAt0wv1Z/verity-5.7.3.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
     "note": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "버전",
-        "value": "verity-5.7.3.jar"
+        "value": "verity-6.1.jar"
       },
       {
         "label": "File",
@@ -36,7 +36,7 @@
       },
       {
         "label": "마지막 확인",
-        "value": "2026년 7월 25일"
+        "value": "2026년 8월 4일"
       }
     ]
   },
