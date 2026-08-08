@@ -223,6 +223,12 @@
         "url": "/bedrock/",
         "text": "Verity 애드온을 셰이더와 Java 파일에서 분리합니다.",
         "cta": "Bedrock 열기"
+      },
+      {
+        "title": "Minecraft Java 셰이더",
+        "url": "/minecraft-java-shaders/",
+        "text": "Java 셰이더 경로와 로더를 확인하고 Bedrock 셰이더와 혼동하지 않도록 팩을 테스트합니다.",
+        "cta": "Java 셰이더 가이드 열기"
       }
     ]
   },

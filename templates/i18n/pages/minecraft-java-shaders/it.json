@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Shader Minecraft Java: 7 opzioni e setup sicuro (2026)",
+    "description": "Confronta gli shader Minecraft Java, i percorsi Iris e OptiFine, il controllo delle versioni, fonti sicure, installazione e soluzioni allo schermo nero.",
+    "image": "/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida agli shader Java",
+    "title": "Shader Minecraft Java: 7 opzioni e guida all'installazione sicura (2026)",
+    "lede": "Gli shader Minecraft Java possono cambiare acqua, ombre, cielo e luce del sole, ma la scelta giusta è quella che corrisponde alla tua versione di Minecraft, al loader, allo shader pack e al tuo hardware. Questa guida confronta percorsi pratici e spiega come provare una modifica senza rischiare il mondo principale.",
+    "support": "L'ultima versione Java ufficiale verificata l'8 agosto 2026 è la 26.2. Questo non significa che ogni pack o loader supporti la 26.2. Leggi la pagina del progetto, separa i flussi Java e Bedrock e considera gli screenshot come esempi, non come prove di compatibilità.",
+    "actions": [
+      {"label": "Apri le note Java", "url": "/java/", "class": "btn-primary"},
+      {"label": "Vedi installazione mod", "url": "/how-to-install-java-mods/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+      "alt": "Illustrazione editoriale che confronta illuminazione normale e migliorata in un paesaggio a blocchi in stile Java",
+      "caption": "Illustrazione editoriale, non una schermata di gioco né una UI ufficiale di Minecraft. Il risultato dipende da pack, loader, versione e dispositivo."
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Quali sono i migliori shader per Minecraft Java?",
+    "paragraphs": [
+      "I migliori shader per Minecraft Java non sono una soluzione universale. Inizia da un pack mantenuto che indichi le versioni di Minecraft e il loader supportato, poi usa Iris o OptiFine solo quando la documentazione del pack corrisponde al tuo profilo. Iris è spesso il primo percorso da controllare in un ambiente recente; OptiFine resta un'opzione separata con versioni e impostazioni proprie.",
+      "Prima di scegliere un pack, controlla la versione che avvii davvero. Il manifesto ufficiale di Mojang consultato l'8 agosto 2026 indica Java 26.2, mentre molti pack della community e vecchie istruzioni puntano a un'altra versione. Un pack per 1.20.1 non diventa attuale solo perché la pagina appare ancora nei risultati.",
+      "Un setup Java stabile richiede quattro corrispondenze: versione di Minecraft, loader, shader pack e dispositivo. Una scheda grafica veloce non corregge un loader incompatibile e un ZIP scaricato correttamente non dimostra che il pack funzionerà. Usa un profilo pulito, un loader, un pack e un mondo copiato prima di aggiungere mod o un salvataggio importante."
+    ],
+    "cards": [
+      {"title": "Primo percorso: Iris", "text": "Controlla Iris quando la sua pagina e quella del pack indicano la stessa versione di Minecraft. Durante i test usa un profilo separato."},
+      {"title": "Alternativa: OptiFine", "text": "Usa OptiFine solo quando il pack documenta questo percorso per la stessa versione. Le impostazioni non sono uguali a quelle di Iris."},
+      {"title": "Regola sicura: una modifica", "text": "Usa un mondo copiato e aggiungi un pack alla volta. Schermo nero e cali di prestazioni saranno più facili da diagnosticare."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Sette opzioni pratiche",
+    "title": "7 percorsi di shader Minecraft Java per obiettivo",
+    "description": "Sono percorsi decisionali, non promesse di compatibilità universale. Valuta versione, loader, obiettivo visivo e margine di prestazioni.",
+    "items": [
+      {"title": "1. Iris con un pack aggiornato", "text": "Un buon percorso iniziale per un ambiente Java moderno e un profilo separato. Verifica che Iris, il progetto dello shader e la versione di Minecraft corrispondano."},
+      {"title": "2. OptiFine con un pack documentato", "text": "OptiFine è utile quando il pack indica impostazioni e versione compatibili. Non considerare intercambiabili un profilo Iris e uno OptiFine."},
+      {"title": "3. Shader leggeri per PC modesti", "text": "Scegli un pack con preset basso o medio se la priorità è la stabilità dei fotogrammi. Riduci ombre e distanza di rendering prima di scartarlo."},
+      {"title": "4. Pack con illuminazione realistica", "text": "Usali per acqua, ombre e atmosfera più forti quando la GPU ha margine. Leggi le impostazioni richieste invece di fidarti solo di un'immagine promozionale."},
+      {"title": "5. Pack cinematografici per screenshot", "text": "Sono adatti a tour e immagini, ma possono essere pesanti per il gioco quotidiano. Conserva un preset pratico e confronta una scena in movimento."},
+      {"title": "6. Pack di miglioramento in stile vanilla", "text": "Un pack discreto che conserva l'identità di Minecraft è spesso più semplice da mantenere dopo gli aggiornamenti. Migliora acqua e ombre senza cambiare ogni texture."},
+      {"title": "7. Pack datati per una versione precisa", "text": "Possono servire in un profilo vecchio, ma annota versione e loader. Non spostare uno ZIP datato in un profilo attuale solo perché il nome sembra familiare."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Prima la compatibilità",
+    "title": "Quattro controlli prima di scaricare uno shader Java",
+    "paragraphs": [
+      "Un loader per shader e uno shader pack sono cose diverse. Iris o OptiFine fornisce il percorso del profilo Java che può caricare il pack; il file ZIP fornisce l'effetto visivo. Installare solo una delle due parti non crea un menu shader funzionante. Annota loader, pack e versione di Minecraft prima di scaricare.",
+      "Confronta poi la versione esatta del gioco. Il manifesto Java ufficiale è un riferimento per la release attuale, ma non certifica i progetti della community. Un progetto può supportare solo un intervallo di versioni o una build precisa del loader. Se una guida promette compatibilità universale senza indicare la versione, considera l'affermazione non verificata.",
+      "L'hardware è il terzo controllo. Ombre, riflessi ed effetti volumetrici possono aumentare carico GPU, memoria, calore e consumo della batteria. Inizia con distanza di rendering predefinita e preset basso. Su un portatile osserva ventola e batteria; su un desktop confronta la stabilità vicino ad acqua, foreste e caverne.",
+      "Infine controlla la fonte. Preferisci la pagina mantenuta dall'autore, le pagine ufficiali di Iris o OptiFine e una release che mostri nome del file e versioni supportate. Evita mirror che rinominano gli ZIP o chiedono un EXE o APK non collegato. Uno shader pack non dovrebbe richiedere un installer sconosciuto."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shader-compatibility.webp",
+      "alt": "Flusso editoriale che collega versione di Minecraft, loader Java, shader pack e dispositivo",
+      "caption": "Illustrazione editoriale, non un'interfaccia software. Un setup Java stabile richiede la corrispondenza di tutti e quattro i punti."
+    }
+  },
+  "table": {
+    "eyebrow": "Tabella comparativa",
+    "title": "Iris o OptiFine per gli shader Minecraft Java",
+    "description": "Scegli un percorso di loader e verifica poi il pack specifico e la versione di Minecraft sulla pagina mantenuta del progetto.",
+    "headers": ["Percorso", "Adatto a", "Vantaggio principale", "Limite importante"],
+    "rows": [
+      ["Iris", "Chi controlla il supporto Java moderno", "Profilo separato e flusso centrato sugli shader", "Pack, Iris e versione di Minecraft devono corrispondere"],
+      ["OptiFine", "Chi segue le istruzioni OptiFine del pack", "Opzione conosciuta con impostazioni video proprie", "Versioni e impostazioni sono diverse da Iris"],
+      ["Preset leggero", "Portatili e PC meno potenti", "Più margine di prestazioni con un cambiamento minore", "Può eliminare riflessi, effetti volumetrici o ombre avanzate"],
+      ["Preset cinematografico", "Screenshot, tour e mondi dimostrativi", "Atmosfera, riflessi e dettagli delle ombre più forti", "Può essere troppo pesante per giocare ogni giorno"],
+      ["Profilo vecchio", "Chi mantiene una versione Minecraft precedente", "Mantiene insieme pack e mod vecchi", "Deve restare isolato e non prova il supporto attuale"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Installazione sicura",
+    "title": "Come installare e provare gli shader Minecraft Java",
+    "paragraphs": [
+      "Inizia creando o selezionando un profilo Java separato. Annota versione di Minecraft e loader prima di aggiungere uno shader. Se usi già Fabric, Forge o un altro profilo moddato, non modificare per primo quello funzionante. Un profilo di test pulito offre un riferimento e un ritorno semplice.",
+      "Installa il loader dalla fonte mantenuta e avvia il profilo una volta prima di copiare un pack. Segui le istruzioni del loader invece di mescolare un video Iris con un installer OptiFine. La cartella può cambiare tra launcher standard e istanze personalizzate; controlla la directory del profilo attivo.",
+      "Scarica lo ZIP originale dalla pagina release documentata del progetto. Conserva estensione e nome del file e inseriscilo nella cartella shaderpacks del profilo attivo. Non decomprimere il pack salvo istruzioni del progetto. Non mettere uno ZIP shader nella cartella mods e non rinominarlo come mod Java.",
+      "Attiva un solo pack e un solo preset. Prova lo stesso mondo copiato di giorno, di notte, vicino all'acqua e al chiuso. Controlla menu, nuvole, blocchi trasparenti, ombre e stabilità. Se lo schermo diventa nero, disattiva il pack più recente e torna al profilo noto prima di scaricare un altro file.",
+      "Quando il pack funziona da solo, aggiungi altri mod grafici o di gioco uno alla volta. Scrivi loader, versione, pack, preset e data del test. Questo inventario aiuta a capire se un aggiornamento ha cambiato pack, loader, driver grafico o un altro mod."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shader-test-flow.webp",
+      "alt": "Flusso editoriale in tre passaggi da un profilo Java pulito a un mondo copiato e una sola modifica",
+      "caption": "Illustrazione editoriale, non una schermata del launcher. Parti da un profilo pulito, prova una copia del mondo e modifica una variabile alla volta."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Risoluzione dei problemi",
+    "title": "6 errori degli shader Minecraft Java che causano problemi",
+    "description": "La maggior parte dei guasti nasce da incompatibilità o modifiche non controllate, non dalla necessità di un altro mirror.",
+    "cards": [
+      {"title": "Mescolare istruzioni Iris e OptiFine", "text": "Usa il loader indicato dal pack. Installer o cartella dell'altro loader rendono la diagnosi confusa."},
+      {"title": "Usare un pack per un'altra versione", "text": "Uno ZIP può scaricarsi normalmente ed essere comunque incompatibile. Leggi la versione supportata prima di attivarlo."},
+      {"title": "Mettere lo shader in mods", "text": "Pack e mod Java usano cartelle diverse. Uno ZIP non diventa un mod perché i nomi si assomigliano."},
+      {"title": "Provare nel mondo principale", "text": "Usa un mondo nuovo o copiato. Un profilo grafico difettoso è più facile da rimuovere se non è legato al salvataggio principale."},
+      {"title": "Iniziare dal preset più pesante", "text": "Parti da basso o medio con distanza di rendering normale. Controlla la stabilità prima di aumentare ombre o riflessi."},
+      {"title": "Fidarsi di un pulsante generico", "text": "Preferisci una pagina di progetto mantenuta con versione e nome file. Evita mirror che chiedono installer non collegati."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Risorse Verity correlate",
+    "title": "Tieni gli shader Java separati dalle altre edizioni",
+    "description": "Queste pagine coprono fonte Java, profili mod, versioni e differenza con Bedrock usata da questa guida.",
+    "links": [
+      {"title": "Verity Minecraft Java", "url": "/java/", "text": "Controlla fonte Java e contesto del file prima di cambiare profilo.", "cta": "Apri note Java"},
+      {"title": "Come installare mod Java", "url": "/how-to-install-java-mods/", "text": "Rivedi controlli di loader, profilo, dipendenze e cartella mods per i problemi shader.", "cta": "Apri guida Java"},
+      {"title": "Versioni di Verity Minecraft", "url": "/versions/", "text": "Separa la versione corrente di Minecraft da quella supportata da un pack specifico.", "cta": "Vedi note versione"},
+      {"title": "Minecraft Java e Bedrock", "url": "/java-vs-bedrock/", "text": "Conferma l'edizione prima di usare uno ZIP Java o un flusso risorse Bedrock.", "cta": "Confronta edizioni"},
+      {"title": "Shader Minecraft Bedrock", "url": "/bedrock-shaders/", "text": "Usa la guida Bedrock se il tuo dispositivo non utilizza loader Java.", "cta": "Apri guida Bedrock"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Riferimenti di prima parte",
+    "title": "Fonti ufficiali per versioni e loader",
+    "description": "Questi link verificano gli ingressi ufficiali del gioco e dei loader. La release del progetto resta la fonte per la compatibilità specifica del pack.",
+    "links": [
+      {"title": "Pagina ufficiale Minecraft", "url": "https://www.minecraft.net/en-us/download", "text": "Pagina ufficiale per confermare launcher Java e contesto dell'edizione.", "cta": "Controlla Minecraft"},
+      {"title": "Manifesto versioni Java Mojang", "url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json", "text": "Il manifesto ufficiale controllato l'8 agosto 2026 indica Java 26.2; non certifica shader di terze parti.", "cta": "Apri manifesto"},
+      {"title": "Pagina Iris Shaders", "url": "https://www.irisshaders.dev/download/", "text": "Ingresso mantenuto di Iris per verificare un percorso loader Java.", "cta": "Controlla Iris"},
+      {"title": "Pagina OptiFine", "url": "https://optifine.net/downloads", "text": "Indice ufficiale OptiFine per i pack che documentano questo percorso.", "cta": "Controlla OptiFine"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Domande frequenti sugli shader Minecraft Java",
+    "items": [
+      {"question": "Come aggiungo shader a Minecraft Java?", "answer": "Scegli versione e loader compatibili, installa Iris o OptiFine dalla fonte mantenuta, inserisci uno ZIP compatibile in shaderpacks e provalo in un mondo copiato."},
+      {"question": "Come installo shader Minecraft Java senza schermo nero?", "answer": "Usa un profilo pulito, abbina pack, loader e versione, inizia con un preset basso e prova un solo pack. Disattiva l'ultimo pack se lo schermo diventa nero."},
+      {"question": "Iris e OptiFine sono uguali per gli shader Minecraft Java?", "answer": "No. Sono percorsi loader separati con versioni, impostazioni e istruzioni diverse. Segui la documentazione del progetto."},
+      {"question": "Qual è il miglior shader per Minecraft Java?", "answer": "Non esiste un pack migliore per tutti. Scegli un progetto mantenuto adatto a versione, loader, obiettivo visivo e hardware. Un preset leggero può essere migliore ogni giorno."},
+      {"question": "Come attivo gli shader in Minecraft Java?", "answer": "Avvia il profilo con il loader corretto, apri le impostazioni shader o video, seleziona il pack in shaderpacks e prova un mondo copiato."},
+      {"question": "Posso usare uno shader pack Java su Minecraft Bedrock?", "answer": "No. Java e Bedrock usano loader e sistemi di rendering e risorse diversi. Rinominare lo ZIP non lo converte."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Shader Minecraft Java: 7 opzioni e guida all'installazione sicura (2026)",
+      "description": "Guida alla compatibilità degli shader Minecraft Java, di Iris e OptiFine, al controllo delle versioni, all'installazione sicura e al test in un mondo copiato.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+      "datePublished": "2026-08-08",
+      "dateModified": "2026-08-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-java-shaders/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Come aggiungo shader a Minecraft Java?", "acceptedAnswer": {"@type": "Answer", "text": "Scegli versione e loader compatibili, installa Iris o OptiFine, inserisci uno ZIP in shaderpacks e prova un mondo copiato."}},
+        {"@type": "Question", "name": "Come installo shader Minecraft Java senza schermo nero?", "acceptedAnswer": {"@type": "Answer", "text": "Usa un profilo pulito, abbina pack, loader e versione, inizia basso e prova un solo pack."}},
+        {"@type": "Question", "name": "Iris e OptiFine sono uguali per gli shader Minecraft Java?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sono percorsi loader diversi con versioni e istruzioni differenti."}},
+        {"@type": "Question", "name": "Qual è il miglior shader per Minecraft Java?", "acceptedAnswer": {"@type": "Answer", "text": "Scegli un pack mantenuto adatto a versione, loader, obiettivo e hardware; non esiste un pack migliore universale."}},
+        {"@type": "Question", "name": "Come attivo gli shader in Minecraft Java?", "acceptedAnswer": {"@type": "Answer", "text": "Avvia il profilo corretto, apri le impostazioni del loader, seleziona il pack e prova un mondo copiato."}},
+        {"@type": "Question", "name": "Posso usare uno shader pack Java su Minecraft Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "No. Java e Bedrock usano loader, rendering e formati delle risorse diversi."}}
+      ]
+    }
+  }
+}

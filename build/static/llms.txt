@@ -15,3 +15,4 @@
 - [Minecraft Bedrock Add-ons Guide](https://verityminecraft.blog/bedrock-addons/): Safe .mcaddon/.mcpack checks, import steps, world activation, and troubleshooting.
 - [Minecraft Java vs Bedrock](https://verityminecraft.blog/java-vs-bedrock/): Edition comparison covering devices, mods, crossplay, servers, performance, and Verity file compatibility.
 - [Best Minecraft Bedrock Shaders](https://verityminecraft.blog/bedrock-shaders/): Compatibility-first guide to Vibrant Visuals, RTX/PBR, RenderDragon packs, device checks, and safe testing.
+- [Minecraft Java Shaders Guide](https://verityminecraft.blog/minecraft-java-shaders/): Java shader choices, Iris and OptiFine loader checks, version matching, safe installation, and test-world troubleshooting.

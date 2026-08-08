@@ -223,6 +223,12 @@
         "url": "/bedrock/",
         "text": "Verity アドオンをシェーダーや Java ファイルと混同しないためのページです。",
         "cta": "Bedrock版を見る"
+      },
+      {
+        "title": "Minecraft Java版シェーダー",
+        "url": "/minecraft-java-shaders/",
+        "text": "Java版の導入方法、ローダー、テスト手順を確認し、統合版シェーダーと混同しないためのガイドです。",
+        "cta": "Java版ガイドを見る"
       }
     ]
   },

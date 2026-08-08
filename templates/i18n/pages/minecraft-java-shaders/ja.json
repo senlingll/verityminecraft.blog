@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Minecraft Java版シェーダー7選と安全な導入方法（2026年）",
+    "description": "Minecraft Java版シェーダーを比較し、IrisとOptiFineの違い、バージョン確認、安全な導入、黒画面の対処方法を解説します。",
+    "image": "/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Java版シェーダーガイド",
+    "title": "Minecraft Java版シェーダー7選と安全な導入方法（2026年）",
+    "lede": "Minecraft Java版シェーダーは水面、影、空、日差しを大きく変えられます。ただし、最適なシェーダーは見た目が派手なものではなく、Minecraftのバージョン、ローダー、シェーダーパック、PC性能が一致するものです。このガイドでは選び方と、メインワールドを守りながら試す手順を整理します。",
+    "support": "2026年8月8日に確認したMojang公式のJava最新版は26.2でした。これはすべてのシェーダーパックやローダーが26.2に対応するという意味ではありません。プロジェクトの配布ページを読み、Java版と統合版を分け、画像は互換性の証明ではなく参考例として扱ってください。",
+    "actions": [
+      {"label": "Java版の配布情報を見る", "url": "/java/", "class": "btn-primary"},
+      {"label": "Java版Modの導入ガイド", "url": "/how-to-install-java-mods/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+      "alt": "通常の光と強化された光を同じブロック風の湖畔で比較する編集用イラスト",
+      "caption": "編集用の概念イラストであり、実際のゲーム画面やMinecraft公式の画面ではありません。結果はパック、ローダー、バージョン、端末で変わります。"
+    }
+  },
+  "answer": {
+    "eyebrow": "先に結論",
+    "title": "Minecraft Java版でおすすめのシェーダーは？",
+    "paragraphs": [
+      "おすすめのMinecraft Java版シェーダーは、どの環境でも使える1種類のダウンロードではありません。まず、対応するMinecraftバージョンとローダーを明記した更新中のシェーダーパックを選び、その説明に合う場合だけIrisまたはOptiFineを使います。現在のJava環境を調べるなら、Irisは最初に確認しやすいルートの一つです。OptiFineも選択肢ですが、バージョンと設定は別に確認してください。",
+      "選ぶ前に、実際に起動するゲームのバージョンを確認します。2026年8月8日に確認したMojang公式マニフェストではJava版のリリースは26.2でした。一方、コミュニティのパックや古い導入記事は別のバージョンを対象にしている場合があります。1.20.1向けのパックが検索結果に出ても、現在版に対応するとは限りません。",
+      "Java版のシェーダー環境では、Minecraftのバージョン、ローダー、シェーダーパック、PCの4つを合わせます。ZIPを正常に保存できても描画できるとは限りません。最初はクリーンなプロファイルで1つだけ導入し、コピーしたワールドで確認してからModや大切なワールドを追加しましょう。"
+    ],
+    "cards": [
+      {"title": "最初に確認しやすいIris", "text": "Irisの配布ページとシェーダープロジェクトが同じMinecraftバージョンを示している場合に調べます。テスト中は別プロファイルを使います。"},
+      {"title": "別ルートのOptiFine", "text": "パックの説明が同じバージョンのOptiFine導入を指定している場合に使います。Irisの手順と混ぜないでください。"},
+      {"title": "安全の基本は1回に1変更", "text": "コピーしたワールドでパックを1つずつ試すと、黒画面や性能低下の原因を切り分けやすくなります。"}
+    ]
+  },
+  "steps": {
+    "eyebrow": "7つの選び方",
+    "title": "用途別Minecraft Java版シェーダーの7つのルート",
+    "description": "以下は選択のルートであり、すべての環境で動く保証ではありません。バージョン、ローダー、見た目の目的、性能の余裕を順に確認します。",
+    "items": [
+      {"title": "1. 対応パックとIrisを組み合わせる", "text": "現行のJava環境と分離したプロファイルを使いたい人向けの基本ルートです。Iris、パックの配布ページ、Minecraftのバージョンが一致するかを先に確認します。"},
+      {"title": "2. 説明があるパックとOptiFine", "text": "パックがOptiFine向けの設定と対応バージョンを明記している場合に選びます。Iris用のプロファイルとOptiFine用のプロファイルは同じではありません。"},
+      {"title": "3. 低負荷PC向けの軽量シェーダー", "text": "フレームレートの安定を優先するなら、低または中設定を持つパックを選びます。高負荷設定を最初から使わず、影と描画距離を下げて試します。"},
+      {"title": "4. リアルな光を重視するパック", "text": "水、影、空気感を大きく変えるパックはGPUに余裕がある場合に向きます。宣伝画像だけでなく、必要な設定と対応バージョンを読みます。"},
+      {"title": "5. スクリーンショット向けのシネマ系", "text": "建築紹介や撮影には向きますが、サバイバルを毎日遊ぶには重いことがあります。軽いプリセットを残し、静止画ではなく移動中の表示も比較します。"},
+      {"title": "6. バニラ風の控えめな強化", "text": "Minecraftらしい見た目を保つパックは、更新後も扱いやすい傾向があります。水や影を少し改善したい場合に、テクスチャ全体を変えずに済みます。"},
+      {"title": "7. 特定バージョン用の旧パック", "text": "古いプロファイルでは役立つ場合がありますが、Minecraftのバージョンとローダーを名前に残します。ファイル名だけを見て現行プロファイルに入れないでください。"}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "互換性を先に確認",
+    "title": "Java版シェーダーをダウンロードする前の4チェック",
+    "paragraphs": [
+      "シェーダーローダーとシェーダーパックは別のものです。IrisやOptiFineはJava版のプロファイルからパックを読み込むための経路で、ZIPが見た目の効果を提供します。片方だけを入れても動作するメニューはできません。ダウンロード前にローダー名、パック名、Minecraftバージョンをメモしましょう。",
+      "次にゲームの正確なバージョンを比較します。公式Javaマニフェストは現行リリースの参考になりますが、コミュニティ製パックを認証するものではありません。特定のローダー版やバージョン範囲だけを対象にしたプロジェクトもあります。ユニバーサル対応と書かれていても、ファイルページにバージョンがなければ未確認として扱います。",
+      "3つ目はPC性能です。影、反射、ボリューム効果はGPU、メモリ、発熱、バッテリー消費を増やします。描画距離を標準にして低設定から始め、ノートPCではファン音と温度、デスクトップでは水、森、洞窟を移動したときの安定性を見ます。",
+      "最後に配布元を確認します。シェーダー作者の更新中のプロジェクトページ、IrisやOptiFineの公式ページ、ファイル名と対応バージョンが見えるリリースページを優先します。ZIPの名前を変えるミラーや、関係のないEXE・APKを要求するページは避けてください。"
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shader-compatibility.webp",
+      "alt": "Minecraftのバージョン、Javaローダー、シェーダーパック、PCをつなぐ互換性フローの編集用図",
+      "caption": "編集用の概念イラストであり、ソフトウェア画面ではありません。4つの条件がそろって初めて安定した導入になります。"
+    }
+  },
+  "table": {
+    "eyebrow": "比較表",
+    "title": "Minecraft Java版シェーダーで見るIrisとOptiFineの違い",
+    "description": "ローダーのルートを決めたら、選んだパックとMinecraftのバージョンを公式または更新中の配布ページで確認します。",
+    "headers": ["ルート", "向いている人", "主な利点", "重要な制限"],
+    "rows": [
+      ["Iris", "現行Java版のシェーダー対応を調べる人", "専用プロファイルで確認しやすい", "Irisのビルド、パック、Minecraftのバージョンを合わせる必要がある"],
+      ["OptiFine", "パックのOptiFine手順を使う人", "独自のビデオ設定を持つ定番ルート", "Irisとはリリース時期と設定が異なる"],
+      ["軽量プリセット", "ノートPCや低負荷環境", "見た目を変えながら性能の余裕を残せる", "反射や高品質な影を省く場合がある"],
+      ["シネマ系プリセット", "撮影、紹介、展示ワールド", "光、反射、影の表現が強い", "通常プレイには重すぎることがある"],
+      ["旧バージョン用プロファイル", "古いMinecraft環境を維持する人", "旧パックやModをまとめて維持できる", "隔離して使う必要があり、現行版の対応証明にはならない"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "安全な導入",
+    "title": "Minecraft Java版シェーダーの導入とテスト方法",
+    "paragraphs": [
+      "まずJava版の別プロファイルを作成または選択します。パックを追加する前にMinecraftのバージョンとローダーを記録してください。Fabric、Forgeなどの動作中プロファイルを使っている場合も、最初に変更せず、クリーンなテスト用プロファイルを作ると原因を戻しやすくなります。",
+      "更新中の配布元からローダーを導入し、シェーダーパックをコピーする前に一度プロファイルを起動します。Irisの動画とOptiFineのインストーラーを混ぜず、ローダー自身の手順に従います。標準ランチャーとカスタムインスタンスではゲームディレクトリが異なることがあるため、アクティブなプロファイルの設定を確認します。",
+      "シェーダー作者のリリースページから元のZIPをダウンロードします。拡張子とファイル名を保ち、使用中プロファイルのshaderpacksフォルダーに置きます。プロジェクトが指定しない限り解凍しません。シェーダーZIPをmodsフォルダーに入れたり、Java Modに見える名前へ変更したりしないでください。",
+      "最初は1つのパックと1つのプリセットだけを有効にします。同じコピー済みワールドを昼、夜、水辺、屋内で読み込み、メニュー、雲、透明ブロック、影、フレームの安定性を確認します。画面が黒くなったら最新のパックを無効にし、別ファイルを探す前に既知のプロファイルへ戻します。",
+      "単体で動いたら、ほかの見た目系ModやゲームModを1つずつ追加します。ローダー、Minecraftバージョン、パック、プリセット、テスト日を記録しておくと、後の更新がパック、ローダー、グラフィックドライバー、別のModのどれに影響したか分かりやすくなります。"
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shader-test-flow.webp",
+      "alt": "クリーンなJavaプロファイルからコピーしたテストワールドと1つの変更へ進む3段階の編集用フロー",
+      "caption": "編集用の概念イラストであり、ランチャーの実画面ではありません。別プロファイル、コピーしたワールド、1回に1変更を守ります。"
+    }
+  },
+  "mistakes": {
+    "eyebrow": "トラブル対処",
+    "title": "Minecraft Java版シェーダーで起きやすい6つの失敗",
+    "description": "多くの失敗は別のミラーが必要なのではなく、バージョンやローダーの不一致、または変更を重ねすぎたことが原因です。",
+    "cards": [
+      {"title": "IrisとOptiFineの手順を混ぜる", "text": "パックが指定するローダーを使います。別ローダーのインストーラーやフォルダーを使うと原因が分かりにくくなります。"},
+      {"title": "別バージョンのパックを使う", "text": "ZIPを保存できても互換性があるとは限りません。起動前にファイルページの対応バージョンを読みます。"},
+      {"title": "shaderpacksではなくmodsに置く", "text": "シェーダーパックとJava Modは形式もフォルダーも違います。名前が似ていてもZIPはModになりません。"},
+      {"title": "メインワールドで試す", "text": "新規またはコピーしたワールドを使います。長期ワールドに結び付いていなければ、壊れた設定を戻しやすくなります。"},
+      {"title": "最初から重い設定にする", "text": "低または中設定と標準の描画距離から始めます。移動中の安定性を確認してから影や反射を上げます。"},
+      {"title": "出所のないダウンロードボタンを信じる", "text": "対応バージョンとファイル名が見える更新中のページを優先します。関係のないインストーラーを要求するミラーは避けます。"}
+    ]
+  },
+  "related": {
+    "eyebrow": "関連するVerityガイド",
+    "title": "Java版シェーダーと他エディションを分けて考える",
+    "description": "Java版の配布経路、Modプロファイル、バージョン、Bedrockとの境界を確認するためのページです。",
+    "links": [
+      {"title": "Verity Minecraft Java ダウンロード", "url": "/java/", "text": "プロファイルを変更する前に、Java版のソースとファイルの文脈を確認します。", "cta": "Java情報を開く"},
+      {"title": "Java版Modの導入方法", "url": "/how-to-install-java-mods/", "text": "シェーダーの切り分けにも役立つローダー、プロファイル、依存関係、フォルダーの確認です。", "cta": "Java導入ガイド"},
+      {"title": "Verity Minecraft バージョン", "url": "/versions/", "text": "現在のMinecraftリリースと、特定のパックが対応するバージョンを分けて確認します。", "cta": "バージョンを見る"},
+      {"title": "Minecraft Java版と統合版の違い", "url": "/java-vs-bedrock/", "text": "Java版のZIPを使う前に、エディションを確認します。", "cta": "エディション比較"},
+      {"title": "Minecraft統合版シェーダー", "url": "/bedrock-shaders/", "text": "Javaローダーを使わない端末やエディションでは、こちらの統合版ガイドを確認します。", "cta": "統合版ガイド"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "一次情報",
+    "title": "公式のバージョンとローダー情報",
+    "description": "ゲームとローダーの公式入口を確認するためのリンクです。パック固有の対応状況は各プロジェクトの更新ページが最終情報になります。",
+    "links": [
+      {"title": "Minecraft公式ダウンロード", "url": "https://www.minecraft.net/en-us/download", "text": "Javaランチャーとエディションの公式入口を確認します。", "cta": "Minecraftを確認"},
+      {"title": "Mojang Javaバージョンマニフェスト", "url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json", "text": "2026年8月8日に確認した公式マニフェストではJavaリリースは26.2でした。第三者パックの対応を保証するものではありません。", "cta": "マニフェストを開く"},
+      {"title": "Iris Shaders ダウンロード", "url": "https://www.irisshaders.dev/download/", "text": "Java版シェーダーローダーの経路を確認するIrisの更新中ページです。", "cta": "Irisを確認"},
+      {"title": "OptiFine ダウンロード", "url": "https://optifine.net/downloads", "text": "OptiFineを指定するシェーダーパック向けの公式ファイル一覧です。", "cta": "OptiFineを確認"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "よくある質問",
+    "title": "Minecraft Java版シェーダー よくある質問",
+    "items": [
+      {"question": "Minecraft Java版にシェーダーを追加する方法は？", "answer": "対応するMinecraftバージョンとローダーを選び、更新中のIrisまたはOptiFineを導入します。互換性のあるシェーダーZIPをshaderpacksに置き、コピーしたワールドで試します。"},
+      {"question": "黒画面にせずJava版シェーダーを導入するには？", "answer": "クリーンなプロファイルを使い、パック、ローダー、バージョンを合わせ、低設定で1つだけ試します。黒画面なら最新のパックを無効にして説明を確認します。"},
+      {"question": "IrisとOptiFineはJava版シェーダーで同じですか？", "answer": "同じではありません。リリース時期、設定、導入手順が異なる別のローダー経路です。プロジェクトが指定する手順を使います。"},
+      {"question": "Minecraft Java版で一番おすすめのシェーダーは？", "answer": "全員に最適な1種類はありません。バージョン、ローダー、目的、PC性能に合う更新中のパックを選び、日常プレイでは軽量設定も比較します。"},
+      {"question": "Minecraft Java版でシェーダーをオンにする方法は？", "answer": "正しいローダーのプロファイルを起動し、ローダーのシェーダーまたはビデオ設定からshaderpacksのパックを選択して、コピーしたワールドで確認します。"},
+      {"question": "Java版のシェーダーパックを統合版で使えますか？", "answer": "使えません。Java版はJavaローダーとシェーダーパックを使い、統合版は別の描画とリソースの仕組みを使います。ZIPの名前を変えても変換されません。"}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Java版シェーダー7選と安全な導入方法（2026年）",
+      "description": "Minecraft Java版シェーダー、Iris、OptiFine、バージョン確認、安全な導入、テストワールドでの対処をまとめたガイドです。",
+      "image": "https://verityminecraft.blog/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+      "datePublished": "2026-08-08",
+      "dateModified": "2026-08-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/ja/minecraft-java-shaders/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Minecraft Java版にシェーダーを追加する方法は？", "acceptedAnswer": {"@type": "Answer", "text": "対応するバージョンとローダーを選び、IrisまたはOptiFineを導入し、ZIPをshaderpacksに置いてコピーしたワールドで試します。"}},
+        {"@type": "Question", "name": "黒画面にせずJava版シェーダーを導入するには？", "acceptedAnswer": {"@type": "Answer", "text": "クリーンなプロファイルでパック、ローダー、バージョンを合わせ、低設定で1つだけ試します。"}},
+        {"@type": "Question", "name": "IrisとOptiFineはJava版シェーダーで同じですか？", "acceptedAnswer": {"@type": "Answer", "text": "同じではありません。別のローダー経路で、設定と導入手順が異なります。"}},
+        {"@type": "Question", "name": "Minecraft Java版で一番おすすめのシェーダーは？", "acceptedAnswer": {"@type": "Answer", "text": "バージョン、ローダー、目的、PC性能に合う更新中のパックを選びます。全員向けの1種類はありません。"}},
+        {"@type": "Question", "name": "Minecraft Java版でシェーダーをオンにする方法は？", "acceptedAnswer": {"@type": "Answer", "text": "正しいプロファイルのシェーダー設定からパックを選び、コピーしたワールドで確認します。"}},
+        {"@type": "Question", "name": "Java版のシェーダーパックを統合版で使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "使えません。Java版と統合版はローダー、描画、リソース形式が異なります。"}}
+      ]
+    }
+  }
+}

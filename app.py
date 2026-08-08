@@ -522,6 +522,27 @@ def localized_bedrock_shaders(lang):
     return render_core_page('bedrock-shaders', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-java-shaders/', strict_slashes=False)
+def minecraft_java_shaders():
+    """
+    渲染 Minecraft Java 光影选择与安装指南页面。
+
+    :return: str，Java 光影指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-java-shaders', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-java-shaders/', strict_slashes=False)
+def localized_minecraft_java_shaders(lang):
+    """
+    渲染指定语言的 Minecraft Java 光影选择与安装指南页面。
+
+    :param lang: 语言代码
+    :return: str，指定语言的 Java 光影指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-java-shaders', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/how-to-install-java-mods/', strict_slashes=False)
 def how_to_install_java_mods():
     """

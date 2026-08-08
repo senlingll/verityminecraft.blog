@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "마인크래프트 Java 셰이더 7가지와 안전한 설치법 (2026)",
+    "description": "마인크래프트 Java 셰이더, Iris와 OptiFine 경로, 버전 확인, 안전한 다운로드, 설치와 검은 화면 해결법을 비교합니다.",
+    "image": "/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Java 셰이더 안내",
+    "title": "마인크래프트 Java 셰이더 7가지와 안전한 설치 가이드 (2026)",
+    "lede": "마인크래프트 Java 셰이더는 물, 그림자, 하늘과 햇빛을 크게 바꿀 수 있습니다. 하지만 좋은 선택은 가장 화려한 셰이더가 아니라 현재 Minecraft 버전, 로더, 셰이더 팩과 PC 사양에 맞는 선택입니다. 이 글에서는 Java 셰이더 경로를 비교하고 메인 월드를 보호하며 테스트하는 방법을 설명합니다.",
+    "support": "2026년 8월 8일 확인한 Mojang 공식 Java 최신 정식 버전은 26.2입니다. 그렇다고 모든 셰이더 팩과 로더가 26.2를 지원한다는 뜻은 아닙니다. 프로젝트 페이지의 호환성 정보를 읽고 Java와 Bedrock 설치 흐름을 분리하며, 스크린샷은 호환성 증명이 아닌 참고 자료로 보세요.",
+    "actions": [
+      {"label": "Java 소스 정보 열기", "url": "/java/", "class": "btn-primary"},
+      {"label": "Java 모드 설치 가이드", "url": "/how-to-install-java-mods/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+      "alt": "Java 스타일 블록 호수 장면에서 일반 조명과 향상된 조명을 비교하는 편집용 일러스트",
+      "caption": "편집용 일러스트이며 실제 게임 화면이나 Minecraft 공식 화면이 아닙니다. 결과는 팩, 로더, 버전과 기기에 따라 달라집니다."
+    }
+  },
+  "answer": {
+    "eyebrow": "빠른 결론",
+    "title": "마인크래프트 Java에 가장 좋은 셰이더는?",
+    "paragraphs": [
+      "마인크래프트 Java에 가장 좋은 셰이더는 모든 환경에서 작동하는 하나의 다운로드 파일이 아닙니다. 먼저 지원하는 Minecraft 버전과 로더를 명시한 유지 관리 프로젝트를 선택한 다음, 팩 설명과 맞을 때만 Iris 또는 OptiFine을 사용하세요. 최신 Java 환경을 확인하는 첫 경로로는 Iris를 살펴볼 수 있고, OptiFine은 별도의 버전과 설정을 가진 다른 선택지입니다.",
+      "팩을 고르기 전에 실제로 실행하는 게임 버전을 확인해야 합니다. 2026년 8월 8일 확인한 Mojang 공식 매니페스트는 Java 26.2를 가리키지만, 많은 커뮤니티 팩과 오래된 튜토리얼은 다른 버전을 대상으로 합니다. 1.20.1용 팩이 검색 결과에 남아 있다고 해서 현재 버전에 맞는 것은 아닙니다.",
+      "안정적인 Java 셰이더 환경은 Minecraft 버전, 로더, 셰이더 팩, 기기의 네 가지가 맞아야 합니다. 그래픽카드가 빠르더라도 로더 불일치를 해결할 수 없고 ZIP 다운로드가 성공해도 렌더링을 보장하지 않습니다. 깨끗한 프로필에서 팩 하나만 복사한 월드로 테스트한 뒤 모드와 중요한 세이브를 추가하세요."
+    ],
+    "cards": [
+      {"title": "첫 경로: Iris", "text": "Iris 페이지와 셰이더 팩 페이지가 같은 Minecraft 버전을 표시할 때 우선 확인합니다. 테스트 중에는 별도 프로필을 사용하세요."},
+      {"title": "대안 경로: OptiFine", "text": "팩이 같은 버전의 OptiFine 설치와 설정을 안내할 때 사용합니다. Iris 설정과 설치법을 섞지 마세요."},
+      {"title": "안전 원칙: 한 번에 하나", "text": "복사한 월드에 셰이더 팩 하나씩 추가하세요. 검은 화면이나 성능 저하의 원인을 더 쉽게 찾을 수 있습니다."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "실용적인 7가지 선택",
+    "title": "용도별 마인크래프트 Java 셰이더 7가지 경로",
+    "description": "아래는 선택 기준이며 모든 기기에서 작동한다는 보장이 아닙니다. 버전, 로더, 원하는 그래픽과 성능 여유를 함께 확인하세요.",
+    "items": [
+      {"title": "1. 최신 셰이더 팩과 Iris", "text": "현대적인 Java 환경과 별도 프로필을 원하는 사용자에게 좋은 시작점입니다. Iris, 셰이더 프로젝트와 Minecraft 버전이 일치하는지 확인하세요."},
+      {"title": "2. 문서화된 팩과 OptiFine", "text": "팩이 OptiFine 설정과 지원 버전을 명확히 안내할 때 선택합니다. Iris 프로필과 OptiFine 프로필은 서로 바꿔 쓸 수 없습니다."},
+      {"title": "3. 낮은 사양 PC용 가벼운 셰이더", "text": "안정적인 프레임이 중요하면 낮음 또는 중간 프리셋을 제공하는 팩을 고르세요. 처음부터 높은 그림자 설정을 사용하지 마세요."},
+      {"title": "4. 사실적인 조명 팩", "text": "GPU 여유가 있을 때 물, 그림자와 분위기를 강하게 바꾸고 싶은 경우에 적합합니다. 홍보 이미지보다 필요한 설정과 버전을 먼저 읽으세요."},
+      {"title": "5. 스크린샷용 시네마틱 팩", "text": "건축 소개나 촬영에는 좋지만 매일 생존 플레이에는 무거울 수 있습니다. 실용적인 프리셋을 남기고 움직이는 장면도 확인하세요."},
+      {"title": "6. 바닐라 스타일 개선 팩", "text": "Minecraft의 원래 느낌을 유지하는 팩은 업데이트 후 관리가 쉬운 편입니다. 모든 텍스처를 바꾸지 않고 물과 그림자만 개선할 때 적합합니다."},
+      {"title": "7. 특정 버전용 레거시 팩", "text": "오래된 프로필에서는 유용할 수 있지만 Minecraft 버전과 로더를 기록하세요. 파일명이 익숙하다는 이유만으로 현재 프로필에 넣지 마세요."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "호환성 우선",
+    "title": "Java 셰이더 다운로드 전 확인할 네 가지",
+    "paragraphs": [
+      "셰이더 로더와 셰이더 팩은 서로 다른 것입니다. Iris나 OptiFine은 Java 프로필이 팩을 불러오는 경로를 제공하고 ZIP 파일은 시각 효과를 제공합니다. 한쪽만 설치한다고 셰이더 메뉴가 생기지 않습니다. 다운로드 전에 로더, 팩 이름과 Minecraft 버전을 기록하세요.",
+      "다음으로 정확한 게임 버전을 비교합니다. 공식 Java 매니페스트는 현재 출시 버전을 확인하는 참고 자료이지만 커뮤니티 프로젝트를 인증하지는 않습니다. 프로젝트가 특정 로더 빌드나 버전 범위만 지원할 수 있습니다. 튜토리얼이 모든 버전을 지원한다고 해도 파일 페이지에 버전이 없다면 확인되지 않은 주장으로 보세요.",
+      "하드웨어가 세 번째 확인 항목입니다. 그림자, 반사와 볼류메트릭 효과는 GPU 부하, 메모리와 발열을 높일 수 있습니다. 기본 렌더 거리와 낮은 프리셋에서 시작하세요. 노트북에서는 팬과 배터리를 확인하고 데스크톱에서는 물, 숲과 동굴을 이동할 때 프레임 안정성을 비교합니다.",
+      "마지막으로 출처를 확인합니다. 셰이더 제작자의 유지 관리 프로젝트 페이지, Iris와 OptiFine 공식 페이지, 파일 이름과 지원 버전이 보이는 릴리스를 우선하세요. ZIP 이름을 바꾸거나 관련 없는 EXE와 APK 실행을 요구하는 미러는 피하세요. 셰이더 팩에 정체불명의 설치 프로그램이 필요해서는 안 됩니다."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shader-compatibility.webp",
+      "alt": "Minecraft 버전, Java 로더, 셰이더 팩과 기기를 연결하는 편집용 호환성 흐름",
+      "caption": "편집용 일러스트이며 소프트웨어 화면이 아닙니다. 안정적인 Java 환경에는 네 가지 조건이 모두 맞아야 합니다."
+    }
+  },
+  "table": {
+    "eyebrow": "비교표",
+    "title": "마인크래프트 Java 셰이더에서 Iris와 OptiFine 비교",
+    "description": "로더 경로를 고른 뒤 프로젝트의 유지 관리 페이지에서 셰이더 팩과 Minecraft 버전을 다시 확인하세요.",
+    "headers": ["경로", "적합한 사용자", "주요 장점", "중요한 제한"],
+    "rows": [
+      ["Iris", "최신 Java 셰이더 지원을 확인하는 사용자", "별도 프로필과 셰이더 중심 흐름", "팩, Iris와 Minecraft 버전이 맞아야 함"],
+      ["OptiFine", "팩의 OptiFine 안내를 따르는 사용자", "자체 비디오 설정을 가진 익숙한 경로", "Iris와 출시 시기 및 설정이 다름"],
+      ["가벼운 프리셋", "노트북과 낮은 사양 PC", "작은 시각 변화로 성능 여유 확보", "반사, 볼류메트릭 효과 또는 강한 그림자가 빠질 수 있음"],
+      ["시네마틱 프리셋", "스크린샷, 투어와 전시 월드", "강한 분위기, 반사와 그림자 디테일", "일상 플레이에는 너무 무거울 수 있음"],
+      ["오래된 프로필", "이전 Minecraft 버전을 유지하는 사용자", "오래된 팩과 모드를 함께 유지", "분리해서 사용해야 하며 현재 버전 지원 증거가 아님"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "안전한 설치",
+    "title": "마인크래프트 Java 셰이더 설치와 테스트 방법",
+    "paragraphs": [
+      "먼저 별도의 Java 프로필을 만들거나 선택하세요. 셰이더를 추가하기 전에 Minecraft 버전과 로더를 기록합니다. 이미 Fabric과 Forge 또는 다른 모드 프로필을 사용하고 있다면 작동하는 프로필을 먼저 바꾸지 마세요. 깨끗한 테스트 프로필이 기준점과 쉬운 복구 방법을 제공합니다.",
+      "유지 관리되는 출처에서 로더를 설치하고 셰이더 팩을 복사하기 전에 프로필을 한 번 실행하세요. Iris 영상과 OptiFine 설치 프로그램을 섞지 말고 로더의 안내를 따릅니다. 기본 런처와 사용자 지정 인스턴스는 게임 폴더가 다를 수 있으므로 활성 프로필의 디렉터리를 확인하세요.",
+      "프로젝트의 문서화된 릴리스 페이지에서 원본 ZIP을 다운로드합니다. 확장자와 파일명을 유지하고 활성 프로필의 shaderpacks 폴더에 넣으세요. 프로젝트가 지정하지 않는 한 압축을 풀지 않습니다. 셰이더 ZIP을 mods 폴더에 넣거나 Java 모드처럼 이름을 바꾸지 마세요.",
+      "셰이더 팩 하나와 프리셋 하나만 활성화합니다. 같은 복사 월드를 낮, 밤, 물가와 실내에서 테스트하세요. 메뉴, 구름, 투명 블록, 그림자와 프레임 안정성을 확인합니다. 화면이 검게 변하면 최신 팩을 비활성화하고 다른 파일을 받기 전에 정상 프로필로 돌아가세요.",
+      "팩이 단독으로 작동한 뒤 다른 그래픽 또는 게임 모드를 하나씩 추가합니다. 로더, Minecraft 버전, 팩, 프리셋과 테스트 날짜를 기록하세요. 나중에 문제가 생겼을 때 팩, 로더, 그래픽 드라이버 또는 다른 모드 중 무엇이 바뀌었는지 확인할 수 있습니다."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-java-shaders/minecraft-java-shader-test-flow.webp",
+      "alt": "깨끗한 Java 프로필에서 복사한 테스트 월드와 셰이더 하나의 변경으로 이어지는 세 단계 편집용 흐름",
+      "caption": "편집용 일러스트이며 실제 런처 화면이 아닙니다. 깨끗한 프로필, 복사한 월드와 한 번에 하나의 변경을 사용하세요."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "문제 해결",
+    "title": "마인크래프트 Java 셰이더에서 자주 생기는 6가지 실수",
+    "description": "대부분의 문제는 다른 미러가 필요해서가 아니라 버전이나 로더가 맞지 않거나 변경을 한꺼번에 적용해서 생깁니다.",
+    "cards": [
+      {"title": "Iris와 OptiFine 안내를 섞기", "text": "팩이 지정한 로더를 사용하세요. 다른 로더의 설치 프로그램이나 폴더를 사용하면 원인을 찾기 어렵습니다."},
+      {"title": "다른 버전용 팩 사용", "text": "ZIP이 정상적으로 다운로드되어도 호환되지 않을 수 있습니다. 활성화 전에 파일 페이지의 지원 버전을 읽으세요."},
+      {"title": "mods 폴더에 셰이더 넣기", "text": "셰이더 팩과 Java 모드는 다른 폴더를 사용합니다. 이름이 비슷해도 ZIP은 모드가 되지 않습니다."},
+      {"title": "메인 월드에서 테스트", "text": "새 월드나 복사한 월드를 사용하세요. 문제가 있는 그래픽 프로필을 메인 세이브에서 분리할 수 있습니다."},
+      {"title": "가장 무거운 프리셋부터 시작", "text": "기본 렌더 거리와 낮음 또는 중간 설정에서 시작하세요. 안정적인 이동을 확인한 뒤 그림자와 반사를 올립니다."},
+      {"title": "출처 없는 다운로드 버튼 신뢰", "text": "버전과 파일명이 보이는 유지 관리 프로젝트를 우선하세요. 관련 없는 설치 프로그램을 요구하는 미러는 피합니다."}
+    ]
+  },
+  "related": {
+    "eyebrow": "관련 Verity 가이드",
+    "title": "Java 셰이더를 다른 에디션과 분리하기",
+    "description": "이 페이지들은 Java 소스, 모드 프로필, 버전과 Bedrock 경계를 설명합니다.",
+    "links": [
+      {"title": "Verity Minecraft Java 다운로드", "url": "/java/", "text": "프로필을 바꾸기 전에 Java 소스와 파일 정보를 확인하세요.", "cta": "Java 정보 열기"},
+      {"title": "Java 모드 설치 방법", "url": "/how-to-install-java-mods/", "text": "셰이더 문제 해결에 필요한 로더, 프로필, 의존성, 폴더 확인을 볼 수 있습니다.", "cta": "Java 가이드 열기"},
+      {"title": "Verity Minecraft 버전", "url": "/versions/", "text": "현재 Minecraft 버전과 특정 팩이 지원하는 버전을 구분하세요.", "cta": "버전 정보 보기"},
+      {"title": "Minecraft Java와 Bedrock 비교", "url": "/java-vs-bedrock/", "text": "Java ZIP이나 Bedrock 리소스 흐름을 사용하기 전에 에디션을 확인하세요.", "cta": "에디션 비교"},
+      {"title": "Minecraft Bedrock 셰이더", "url": "/bedrock-shaders/", "text": "Java 로더를 사용하지 않는 기기라면 Bedrock 전용 가이드를 확인하세요.", "cta": "Bedrock 가이드 열기"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "1차 출처",
+    "title": "공식 버전 및 로더 출처",
+    "description": "게임과 로더의 공식 진입점을 확인하는 링크입니다. 팩별 호환성은 해당 프로젝트의 릴리스 페이지가 최종 기준입니다.",
+    "links": [
+      {"title": "Minecraft 공식 다운로드", "url": "https://www.minecraft.net/en-us/download", "text": "Java 런처와 에디션 정보를 확인하는 공식 페이지입니다.", "cta": "Minecraft 확인"},
+      {"title": "Mojang Java 버전 매니페스트", "url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json", "text": "2026년 8월 8일 확인한 공식 매니페스트는 Java 26.2를 표시합니다. 서드파티 셰이더 지원을 인증하지는 않습니다.", "cta": "매니페스트 열기"},
+      {"title": "Iris Shaders 다운로드", "url": "https://www.irisshaders.dev/download/", "text": "Java 셰이더 로더 경로를 확인하는 Iris의 유지 관리 페이지입니다.", "cta": "Iris 확인"},
+      {"title": "OptiFine 다운로드", "url": "https://optifine.net/downloads", "text": "OptiFine 설치를 안내하는 셰이더 팩용 공식 파일 목록입니다.", "cta": "OptiFine 확인"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "자주 묻는 질문",
+    "title": "마인크래프트 Java 셰이더 자주 묻는 질문",
+    "items": [
+      {"question": "마인크래프트 Java에 셰이더를 추가하는 방법은?", "answer": "호환되는 Minecraft 버전과 로더를 선택하고 유지 관리되는 Iris 또는 OptiFine을 설치한 뒤, 호환 ZIP을 shaderpacks에 넣고 복사한 월드에서 테스트하세요."},
+      {"question": "검은 화면 없이 Minecraft Java 셰이더를 설치하려면?", "answer": "깨끗한 프로필에서 팩, 로더와 버전을 맞추고 낮은 프리셋으로 팩 하나만 테스트하세요. 화면이 검으면 최신 팩을 비활성화합니다."},
+      {"question": "Iris와 OptiFine은 Minecraft Java 셰이더에서 같은가요?", "answer": "아닙니다. 버전, 설정과 설치법이 다른 별도의 로더 경로입니다. 프로젝트 문서에 맞는 경로를 사용하세요."},
+      {"question": "Minecraft Java에 가장 좋은 셰이더는 무엇인가요?", "answer": "모든 사용자에게 가장 좋은 팩은 없습니다. 버전, 로더, 그래픽 목적과 하드웨어에 맞는 유지 관리 팩을 고르세요. 일상 플레이에는 가벼운 프리셋이 더 나을 수 있습니다."},
+      {"question": "Minecraft Java에서 셰이더를 켜는 방법은?", "answer": "올바른 로더 프로필을 실행하고 로더의 셰이더 또는 비디오 설정에서 shaderpacks의 팩을 선택한 뒤 복사한 월드에서 확인하세요."},
+      {"question": "Java 셰이더 팩을 Minecraft Bedrock에서 사용할 수 있나요?", "answer": "아니요. Java와 Bedrock은 로더, 렌더링과 리소스 시스템이 다릅니다. ZIP 이름을 바꿔도 변환되지 않습니다."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "마인크래프트 Java 셰이더 7가지와 안전한 설치 가이드 (2026)",
+      "description": "마인크래프트 Java 셰이더, Iris, OptiFine, 버전 확인, 안전한 설치와 복사한 월드 테스트를 정리한 호환성 가이드입니다.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-java-shaders/minecraft-java-shaders-feature.webp",
+      "datePublished": "2026-08-08",
+      "dateModified": "2026-08-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/ko/minecraft-java-shaders/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "마인크래프트 Java에 셰이더를 추가하는 방법은?", "acceptedAnswer": {"@type": "Answer", "text": "호환되는 버전과 로더를 고르고 Iris 또는 OptiFine을 설치한 뒤 ZIP을 shaderpacks에 넣어 복사한 월드에서 테스트합니다."}},
+        {"@type": "Question", "name": "검은 화면 없이 Minecraft Java 셰이더를 설치하려면?", "acceptedAnswer": {"@type": "Answer", "text": "깨끗한 프로필에서 팩, 로더와 버전을 맞추고 낮은 설정으로 하나의 팩만 테스트합니다."}},
+        {"@type": "Question", "name": "Iris와 OptiFine은 Minecraft Java 셰이더에서 같은가요?", "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 서로 다른 버전과 설치법을 가진 별도의 로더 경로입니다."}},
+        {"@type": "Question", "name": "Minecraft Java에 가장 좋은 셰이더는 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "버전, 로더, 목적과 하드웨어에 맞는 유지 관리 팩을 선택하세요. 모두에게 맞는 팩은 없습니다."}},
+        {"@type": "Question", "name": "Minecraft Java에서 셰이더를 켜는 방법은?", "acceptedAnswer": {"@type": "Answer", "text": "올바른 프로필을 실행하고 로더 설정에서 팩을 선택한 후 복사한 월드에서 테스트합니다."}},
+        {"@type": "Question", "name": "Java 셰이더 팩을 Minecraft Bedrock에서 사용할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "아니요. Java와 Bedrock은 로더, 렌더링과 리소스 형식이 다릅니다."}}
+      ]
+    }
+  }
+}

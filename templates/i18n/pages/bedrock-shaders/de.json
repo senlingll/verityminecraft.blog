@@ -223,6 +223,12 @@
         "url": "/bedrock/",
         "text": "Verity-Add-on von Shadern und Java-Dateien trennen.",
         "cta": "Bedrock öffnen"
+      },
+      {
+        "title": "Java-Shader für Minecraft",
+        "url": "/minecraft-java-shaders/",
+        "text": "Java-Shader auswählen, Loader abgleichen und Packs testen, ohne sie mit Bedrock-Shadern zu verwechseln.",
+        "cta": "Java-Shader-Anleitung öffnen"
       }
     ]
   },

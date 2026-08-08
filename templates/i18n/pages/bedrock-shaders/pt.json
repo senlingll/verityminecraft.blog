@@ -223,6 +223,12 @@
         "url": "/bedrock/",
         "text": "Separe o add-on Verity de shaders e Java.",
         "cta": "Abrir Bedrock"
+      },
+      {
+        "title": "Shaders do Minecraft Java",
+        "url": "/minecraft-java-shaders/",
+        "text": "Escolha um caminho Java, confirme o loader e teste os packs sem confundi-los com shaders do Bedrock.",
+        "cta": "Abrir guia Java"
       }
     ]
   },
