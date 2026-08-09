@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Minecraft Ressourcenpakete: Java- und Bedrock-Leitfaden",
+    "description": "Minecraft Ressourcenpakete für Java und Bedrock auswählen, installieren, aktivieren und Fehler beheben, ohne Editionen oder Dateiformate zu vermischen.",
+    "image": "/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Leitfaden für Ressourcenpakete",
+    "title": "Minecraft Ressourcenpakete: Installationsleitfaden für Java und Bedrock",
+    "lede": "Minecraft Ressourcenpakete lassen sich zuverlässiger nutzen, wenn du die Edition vor dem Öffnen der Datei prüfst. Dieser Leitfaden vergleicht Java und Bedrock, erklärt typische Dateitypen und zeigt einen risikoarmen Testablauf.",
+    "support": "Beginne mit dem gemeinsamen Ablauf und öffne danach den passenden Editionsleitfaden für die detaillierte Fehlersuche.",
+    "actions": [
+      {"label": "Java und Bedrock vergleichen", "url": "/java-vs-bedrock/", "class": "btn-primary"},
+      {"label": "Bedrock-Leitfaden öffnen", "url": "/bedrock-resource-packs/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+      "alt": "Redaktionelle Gegenüberstellung eines Minecraft Ressourcenpakets für Java am PC und Bedrock mit Controller",
+      "caption": "Die visuelle Idee kann gleich sein, aber Paketformat und Aktivierung unterscheiden sich zwischen Java und Bedrock.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Wähle die Edition vor der Datei",
+    "paragraphs": [
+      "Ein Minecraft Ressourcenpaket verändert visuelle oder akustische Inhalte wie Texturen, Sounds, Schriften und Interface-Grafiken. Es fügt nicht automatisch neue Spielsysteme hinzu. Java Edition nutzt meist ein kompatibles Ressourcenpaket als ZIP, während Bedrock häufig eine Datei wie .mcpack importiert. Ein .mcaddon kann Ressourcen- und Verhaltensteile bündeln.",
+      "Der sichere Ablauf lautet Quelle, Edition, Version. Lies die Seite des Erstellers, bestätige Java oder Bedrock, prüfe die angegebene Minecraft-Version und importiere oder kopiere die Datei erst danach. Ein vertrauter Dateiname beweist weder Sicherheit noch Kompatibilität."
+    ],
+    "cards": [
+      {"title": "Java startet meist mit einer ZIP", "text": "In Java Edition erwartet das Ressourcenpaket-Menü normalerweise eine kompatible ZIP. Entpacke sie nur bei ausdrücklicher Anweisung und verwechsle ein Ressourcenpaket nicht mit einem Java-Mod im JAR-Format."},
+      {"title": "Bedrock importiert meist ein Paket", "text": "Eine kompatible .mcpack-Datei kann Minecraft öffnen und den Import starten. Danach muss das Paket global oder in einer Welt aktiviert werden. Ein .mcaddon kann mehr als eine reine Grafikänderung enthalten."},
+      {"title": "Die Endung ist nur eine Prüfung", "text": "Auch Edition, Version, Quelle, Pakettyp und Aktivierungsort sind wichtig. Bei einer falschen Angabe erscheint das Paket nicht, lädt unvollständig oder zeigt fehlende Inhalte."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Ablauf in sieben Schritten",
+    "title": "Minecraft Ressourcenpakete sicher hinzufügen",
+    "description": "Arbeite diese Prüfungen in der Reihenfolge ab. So wird ein unklarer Dateifehler zu einer kurzen Kompatibilitätsentscheidung und deine Hauptwelt bleibt beim ersten Test geschützt.",
+    "items": [
+      {"title": "Java oder Bedrock bestimmen", "text": "Prüfe die Edition in Launcher, Gerät oder Weltmenü. Java und Bedrock sind getrennte Inhaltssysteme: Eine Java-ZIP ist kein Bedrock-Import und ein Bedrock-Paket ist kein Java-Ordner."},
+      {"title": "Die Quellseite lesen", "text": "Bevorzuge die Seite des Erstellers, ein offizielles Projekt, den Marketplace oder eine gepflegte Release-Seite. Suche nach Datum, Edition, unterstützten Versionen, Dateityp und Abhängigkeiten."},
+      {"title": "Version und Dateityp abgleichen", "text": "Vergleiche die für das Paket genannte Minecraft-Version mit deiner Installation. Bei mehreren Dateien wählst du die passende Edition und Endung. Eine Versionsangabe ist ein Prüfhinweis, keine universelle Garantie."},
+      {"title": "Richtig importieren oder kopieren", "text": "Öffne in Bedrock eine unterstützte .mcpack- oder .mcaddon-Datei. Lege in Java die kompatible ZIP an den vom Ressourcenmenü erwarteten Ort oder folge der dokumentierten Anleitung. Ändere die Endung nicht zum Erzwingen."},
+      {"title": "Das Paket aktivieren", "text": "Importieren ist nicht Aktivieren. Java verwendet die Auswahlseite für Ressourcenpakete; Bedrock kann globale oder weltbezogene Ressourcen nutzen. Prüfe die aktive Liste und die Reihenfolge bei mehreren Paketen."},
+      {"title": "Eine Kopie der Welt testen", "text": "Erstelle oder kopiere vor deiner Haupt-Survivalwelt eine Testwelt. Prüfe verschiedene Blöcke, eine Truhe, Sounds, Schriften und Menüs. So bleibt ein Rückweg möglich, wenn das Paket unvollständig ist."},
+      {"title": "Nur eine Abweichung beheben", "text": "Wenn das Paket nicht erscheint, prüfe Endung, Edition, Version, Importergebnis, aktive Liste und Reihenfolge einzeln. Entferne das neueste Paket aus der Testwelt, bevor du andere Einstellungen oder einen neuen Mirror änderst."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Quelle und Dateityp",
+    "title": "Erkenne die Datei vor dem Öffnen",
+    "paragraphs": [
+      "Auf Dateiseiten werden Ressourcenpaket, Texturpaket, Verhaltenspaket und Add-on oft vermischt. Für eine reine Grafikänderung suchst du normalerweise ein Ressourcenpaket. Ein Verhaltenspaket oder Add-on kann Entitäten, Rezepte, Regeln und andere Abläufe verändern und braucht deshalb andere Aktivierungs- und Kompatibilitätsprüfungen.",
+      "Die offiziellen Minecraft-Help-Anleitungen sind ein guter Ausgangspunkt für den Plattformablauf. Community-Seiten können ergänzen, sollten aber Edition, Datei und Versionshinweise klar nennen. Meide Seiten mit vielen Weiterleitungen, unklarer Datei oder der Behauptung, jede Edition verwende dasselbe Paket."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-file-types.webp",
+      "alt": "Redaktionelles Diagramm einer Minecraft-Quelle mit den Paketformaten ZIP, MCPACK und MCADDON",
+      "caption": "Die Dateiendung hilft bei der Wahl des nächsten Schritts, ersetzt aber nicht die Prüfung von Edition und Version.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Editionsmatrix",
+    "title": "Prüfungen für Java- und Bedrock-Ressourcenpakete",
+    "description": "Nutze diese Tabelle, bevor du eine Datei verschiebst oder eine Welt öffnest.",
+    "headers": ["Prüfung", "Java Edition", "Bedrock Edition", "Zu bestätigen"],
+    "rows": [
+      ["Typisches Grafikpaket", "Kompatible Ressourcen-ZIP", "Importierte .mcpack- oder gebündelte .mcaddon-Datei", "Die Quelle nennt Edition und Pakettyp"],
+      ["Wo es erscheint", "Ressourcenpaket-Menü", "Importergebnis, globale Ressourcen oder Weltressourcen", "Der Import ist fertig und das Paket auswählbar"],
+      ["Typische Abweichung", "Falsche Version oder Mod-JAR", "Falsche Edition, fehlende Aktivierung oder Dateitypfehler", "Datei und Version passen zur Edition"],
+      ["Erster Test", "Kopierte Welt mit ausgewähltem Paket", "Kopierte Welt mit aktivem Paket", "Texturen, Sounds, UI und Reihenfolge funktionieren"],
+      ["Rückweg", "Paket aus der aktiven Liste entfernen", "In Testwelt oder globalen Ressourcen deaktivieren", "Die Hauptwelt war nicht der erste Test"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Aktivierung und Test",
+    "title": "Importieren bedeutet noch nicht Verwenden",
+    "paragraphs": [
+      "Ein erfolgreicher Import zeigt nur, dass Minecraft die Datei erkannt hat. Öffne in Java die Ressourcenpaket-Einstellungen, verschiebe das Paket in die aktive Liste und wende die Änderung an. Wähle in Bedrock globale Ressourcen oder die Ressourcen einer bestimmten Welt und bestätige, dass das Paket dort aktiv angezeigt wird.",
+      "Eine kopierte Testwelt ist eine sinnvolle Sicherheitsgrenze. Dort kannst du fehlende Texturen, unerwartete Sounds und Konflikte in der Reihenfolge prüfen, ohne deine wichtige Welt zu verändern. Wenn zwei Pakete dieselbe Datei ändern, teste sie einzeln und setze die gewünschte Priorität zuerst.",
+      "Bei der Auswahl eines guten Ressourcenpakets zählen nicht nur Screenshots. Achte auf klare Angaben zur Edition, eine nachvollziehbare Versionsspanne, die Größe der Datei und eine gepflegte Quelle. Ein sehr detailliertes Paket kann auf schwächeren Geräten die Ladezeit oder Bildrate beeinflussen. Wenn die Beschreibung eine zusätzliche Abhängigkeit, ein Experiment oder ein Verhaltensteil nennt, behandle es nicht wie ein reines Texturpaket. Lade nicht mehrere Varianten gleichzeitig herunter, nur weil der Name ähnlich klingt. Notiere, welche Datei du getestet hast, und entferne sie aus der Testwelt, bevor du eine zweite Variante vergleichst. So bleibt erkennbar, ob ein fehlender Block, ein schwarzer Menüpunkt oder ein unerwarteter Sound vom Paket selbst, von der Version oder von der Reihenfolge verursacht wird. Prüfe außerdem, ob die Quelle eine klare Rückmeldung zur Aktualisierung gibt und ob die Datei unverändert vom genannten Projekt stammt. Ein sauberer Dateiname, eine nachvollziehbare Beschreibung und eine Testwelt sind hilfreicher als ein Versprechen, jedes Gerät und jede Version zu unterstützen. Schreibe dir die getestete Version und die aktivierte Reihenfolge kurz auf; diese Notiz spart Zeit, wenn du später ein Update oder einen weiteren Pack vergleichen willst. So bleibt deine Prüfung nachvollziehbar und du kannst eine fehlerhafte Variante schnell entfernen."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-install-flow.webp",
+      "alt": "Redaktioneller Ablauf für Minecraft Ressourcenpakete mit Quelle, Import, Aktivierung und Test einer kopierten Welt",
+      "caption": "Der zuverlässige Ablauf lautet Quelle, Import, Aktivierung und Test; ohne den letzten Schritt wird die Rückkehr schwieriger.",
+      "width": 1024,
+      "height": 1536
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Häufige Fehler",
+    "title": "Warum ein Minecraft Ressourcenpaket nicht erscheint",
+    "description": "Die meisten Probleme hängen mit Kompatibilität oder Aktivierung zusammen, nicht mit einer fehlenden Datei-Spiegelseite.",
+    "cards": [
+      {"title": "Java und Bedrock wurden gemischt", "text": "Eine Java-ZIP und ein Bedrock-.mcpack können eine ähnliche Optik versprechen, sind aber nicht austauschbar. Prüfe die Edition vor einer Änderung der Dateiendung."},
+      {"title": "Importiert, aber nicht aktiviert", "text": "Bedrock kann den Import beenden und das Paket deaktiviert lassen. In Java kann es in der verfügbaren Liste stehen, ohne in der aktiven Liste zu sein."},
+      {"title": "Version außerhalb des Bereichs", "text": "Ein Paket für eine andere Version kann teilweise laden oder fehlende Texturen zeigen. Nutze die Kompatibilitätshinweise der Quelle und eine Testwelt."},
+      {"title": "Add-on als reine Grafik behandelt", "text": "Ein .mcaddon oder Verhaltensteil kann zusätzliche Aktivierung, Experimente oder ein passendes Ressourcenpaket benötigen. Lies die Beschreibung des Erstellers."},
+      {"title": "Zu viele Pakete gleichzeitig geändert", "text": "Die Reihenfolge kann den Effekt eines Pakets verdecken. Deaktiviere andere Pakete in der Testwelt, prüfe eine Änderung und füge sie einzeln wieder hinzu."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Verwandte Leitfäden",
+    "title": "Öffne die Seite für deine nächste Frage",
+    "description": "Diese Übersicht hält die Editionsgrenze klar. Die folgenden Seiten führen tiefer in einzelne Abläufe ein.",
+    "links": [
+      {"title": "Minecraft Bedrock Ressourcenpaket-Leitfaden", "url": "/bedrock-resource-packs/", "text": "Prüfe Quelle, .mcpack-Import, Weltaktivierung und Fehlerbehebung für Bedrock.", "cta": "Bedrock-Leitfaden öffnen"},
+      {"title": "Minecraft Java oder Bedrock", "url": "/java-vs-bedrock/", "text": "Vergleiche Geräte, Multiplayer, Mods, Add-ons und Inhaltssysteme vor der Dateiwahl.", "cta": "Editionen vergleichen"},
+      {"title": "Java-Einrichtung und Profile", "url": "/how-to-install-java-mods/", "text": "Nutze die Java-Loader- und Profilprüfung, wenn das Paket Teil einer Mod-Umgebung ist.", "cta": "Java-Einrichtung öffnen"},
+      {"title": "Kompatibilität der Minecraft-Versionen", "url": "/versions/", "text": "Prüfe den aktuellen Editions- und Versionskontext vor einer älteren Anleitung.", "cta": "Versionen prüfen"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Offizielle Quellen",
+      "title": "Für diesen Leitfaden geprüfte Quellen",
+    "description": "Diese offiziellen Seiten stützen den Plattformablauf. Für die Dateien und Kompatibilität eines konkreten Pakets bleibt die Release-Seite des Erstellers maßgeblich.",
+    "links": [
+      {"title": "Minecraft Help: Ressourcenpakete installieren", "url": "https://help.minecraft.net/hc/en-us/articles/4409165790605-How-to-Install-Resource-Packs-in-Minecraft", "text": "Offizielle Anleitung für den Ablauf mit Ressourcenpaketen.", "cta": "Offizielle Hilfe öffnen"},
+      {"title": "Minecraft Help: Verhaltenspakete installieren", "url": "https://help.minecraft.net/hc/en-us/articles/4408903594765-How-to-Install-Behavior-Packs-in-Minecraft", "text": "Offizielle Referenz für die Grenze zu Verhalten und Add-ons.", "cta": "Verhaltenshilfe öffnen"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Fragen zu Minecraft Ressourcenpaketen",
+    "items": [
+      {"question": "Wie füge ich Ressourcenpakete zu Minecraft hinzu?", "answer": "Bestimme Java oder Bedrock und lade ein gepflegtes Paket mit passendem Dateityp herunter. Java fügt eine kompatible ZIP meist über das Ressourcenpaket-Menü hinzu. Bedrock importiert häufig .mcpack oder .mcaddon; danach aktivierst du es global oder in der Zielwelt."},
+      {"question": "Kann ich eine Java-Ressourcen-ZIP in Bedrock nutzen?", "answer": "Nicht automatisch. Eine Java-ZIP nutzt die Struktur und das Menü von Java, während Bedrock eigene Paket- und Manifestregeln erwartet. Suche beim Ersteller nach einer Bedrock-Version, statt die Datei umzubenennen."},
+      {"question": "Sind Minecraft Texturpakete und Ressourcenpakete dasselbe?", "answer": "Texturpaket ist oft eine ältere oder umgangssprachliche Bezeichnung für ein Ressourcenpaket. Ressourcenpakete können zusätzlich Sounds, Schriften oder UI enthalten; lies die Beschreibung bei weitergehenden Versprechen."},
+      {"question": "Wo sollte ich Minecraft Ressourcenpakete herunterladen?", "answer": "Bevorzuge die offizielle Seite des Erstellers, einen offiziellen Marketplace-Eintrag oder eine gepflegte Release-Seite mit Edition, Version, Dateityp und Aktualisierungskontext. Vermeide unklare Mirrors."},
+      {"question": "Warum wird mein Minecraft Ressourcenpaket nicht angezeigt?", "answer": "Prüfe Edition, Dateityp, Version, Importergebnis, aktive Liste und Reihenfolge einzeln. In Bedrock reicht der Import nicht; in Java kann eine ZIP sichtbar, aber nicht aktiv oder inkompatibel sein."},
+      {"question": "Ändern Ressourcenpakete das Minecraft-Gameplay?", "answer": "Ein visuelles Ressourcenpaket ändert normalerweise die Darstellung, nicht die Regeln. Enthält die Datei ein Verhaltenspaket oder Add-on, kann er Entitäten, Rezepte oder andere Abläufe ändern und braucht eigene Hinweise."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Ressourcenpakete: Installationsleitfaden für Java und Bedrock",
+      "description": "Minecraft Ressourcenpakete für Java und Bedrock auswählen, installieren, aktivieren und Fehler beheben, ohne Editionen oder Dateiformate zu vermischen.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/de/minecraft-resource-packs/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Wie füge ich Ressourcenpakete zu Minecraft hinzu?", "acceptedAnswer": {"@type": "Answer", "text": "Bestimme Java oder Bedrock und lade ein gepflegtes Paket im passenden Format herunter. Java fügt eine kompatible ZIP meist über das Ressourcenpaket-Menü hinzu. Bedrock importiert häufig .mcpack oder .mcaddon; danach aktivierst du es global oder in der Zielwelt."}},
+        {"@type": "Question", "name": "Kann ich eine Java-Ressourcen-ZIP in Bedrock nutzen?", "acceptedAnswer": {"@type": "Answer", "text": "Nicht automatisch. Eine Java-ZIP nutzt die Struktur und das Menü von Java, während Bedrock eigene Paket- und Manifestregeln erwartet. Suche beim Ersteller nach einer Bedrock-Version, statt die Datei umzubenennen."}},
+        {"@type": "Question", "name": "Sind Minecraft Texturpakete und Ressourcenpakete dasselbe?", "acceptedAnswer": {"@type": "Answer", "text": "Texturpaket ist oft eine ältere oder umgangssprachliche Bezeichnung für ein Ressourcenpaket. Ressourcenpakete können zusätzlich Sounds, Schriften oder UI enthalten; lies die Beschreibung bei weitergehenden Versprechen."}},
+        {"@type": "Question", "name": "Wo sollte ich Minecraft Ressourcenpakete herunterladen?", "acceptedAnswer": {"@type": "Answer", "text": "Bevorzuge die offizielle Seite des Erstellers, einen offiziellen Marketplace-Eintrag oder eine gepflegte Release-Seite mit Edition, Version, Format und Aktualisierungskontext. Vermeide unklare Mirrors."}},
+        {"@type": "Question", "name": "Warum wird mein Minecraft Ressourcenpaket nicht angezeigt?", "acceptedAnswer": {"@type": "Answer", "text": "Prüfe Edition, Format, Version, Importergebnis, aktive Liste und Reihenfolge einzeln. In Bedrock reicht der Import nicht; in Java kann eine ZIP sichtbar, aber nicht aktiv oder inkompatibel sein."}},
+        {"@type": "Question", "name": "Ändern Ressourcenpakete das Minecraft-Gameplay?", "acceptedAnswer": {"@type": "Answer", "text": "Ein visuelles Ressourcenpaket ändert normalerweise die Darstellung, nicht die Regeln. Enthält der Download ein Verhaltenspaket oder Add-on, kann er Entitäten, Rezepte oder andere Abläufe ändern und braucht eigene Hinweise."}}
+      ]
+    }
+  }
+}

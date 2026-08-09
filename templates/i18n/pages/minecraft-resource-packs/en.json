@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Minecraft Resource Packs: Java & Bedrock Guide",
+    "description": "Learn how to choose, install, activate, and troubleshoot Minecraft resource packs on Java and Bedrock without mixing file formats or editions.",
+    "image": "/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Resource pack guide",
+    "title": "Minecraft Resource Packs: Java and Bedrock Installation Guide",
+    "lede": "Minecraft resource packs are easiest to use when you identify the edition before opening the download. This guide maps the Java and Bedrock paths, explains the common file formats, and gives you a low-risk way to test a pack.",
+    "support": "Use the broad workflow here first, then open the edition-specific guide when you need deeper troubleshooting.",
+    "actions": [
+      {"label": "Compare Java and Bedrock", "url": "/java-vs-bedrock/", "class": "btn-primary"},
+      {"label": "Open the Bedrock pack guide", "url": "/bedrock-resource-packs/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+      "alt": "Editorial comparison of a Minecraft resource pack workflow for Java on a desktop and Bedrock on a controller device",
+      "caption": "Java and Bedrock can use the same visual idea, but the package and activation path are different.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Quick answer",
+    "title": "Choose the edition before the file",
+    "paragraphs": [
+      "A Minecraft resource pack changes visual or audio assets such as textures, sounds, fonts, and interface art. It does not automatically add new gameplay systems. Java Edition commonly uses a compatible resource-pack ZIP, while Bedrock commonly imports a pack file such as .mcpack. Some Bedrock downloads use .mcaddon because they bundle resource and behavior components.",
+      "The safest workflow is source first, edition second, version third. Check the maintained download page, confirm Java or Bedrock, match the Minecraft version when the creator provides one, and only then import or copy the file. A familiar filename is not proof that a pack is safe or compatible."
+    ],
+    "cards": [
+      {"title": "Java usually starts with a ZIP", "text": "In Java Edition, the resource-pack menu normally expects a compatible ZIP. Do not unzip it unless the source instructions specifically require a folder, and do not confuse a resource pack with a Java mod JAR."},
+      {"title": "Bedrock usually imports a pack", "text": "A Bedrock .mcpack can open Minecraft and import the pack. After import, you still need to activate it globally or in a world. An .mcaddon may include more than a visual resource pack."},
+      {"title": "The extension is only one check", "text": "Edition, version, source context, pack type, and activation location all matter. If one of them is wrong, the pack may not appear, may look incomplete, or may cause a world to load with missing assets."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Seven-step workflow",
+    "title": "How to add resource packs to Minecraft safely",
+    "description": "Follow these checks in order. They turn a vague download problem into a short compatibility decision and keep your main world out of the first test.",
+    "items": [
+      {"title": "Identify Java or Bedrock", "text": "Start with the edition shown in your launcher, device, or world menu. Java and Bedrock are separate content ecosystems, so a Java ZIP is not a Bedrock import and a Bedrock package is not a Java resource-pack folder."},
+      {"title": "Read the source page", "text": "Prefer the creator, official project page, marketplace listing, or a maintained release page. Look for an update date, supported edition, supported Minecraft versions, file type, and any required dependency or experiment setting."},
+      {"title": "Match version and format", "text": "Compare the pack's stated Minecraft version with your installation. If the page lists several files, choose the one whose edition and format match. Treat a version label as evidence to check, not as a guarantee that the pack will work everywhere."},
+      {"title": "Import or copy using the right path", "text": "For Bedrock, opening a supported .mcpack or .mcaddon normally starts an import. For Java, place the compatible ZIP where the Java resource-pack menu can see it, or follow the source's documented folder path. Never rename a file just to force an import."},
+      {"title": "Activate the pack", "text": "Importing is not activation. Java uses the resource-pack selection screen; Bedrock can use global resources or a world-specific resource-pack slot. Put the pack in the active list, then check the order if more than one pack changes the same texture."},
+      {"title": "Test a copied world", "text": "Before loading your main survival world, create or copy a test world. Walk through an area with several block types, open a chest, listen for changed sounds, and check menus or fonts. This makes rollback simple if the pack is incomplete."},
+      {"title": "Troubleshoot one mismatch first", "text": "If the pack does not show up, check the extension, edition, version, import result, activation list, and load order one at a time. Remove the newest pack from the test world before changing unrelated settings or downloading another mirror."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Source and format check",
+    "title": "Know what the download is before you open it",
+    "paragraphs": [
+      "The words resource pack, texture pack, behavior pack, and add-on are often mixed together on download pages. For a visual-only change, you usually want a resource pack. A behavior pack or add-on may change entities, recipes, rules, or other game behavior, so its activation and compatibility risks are different.",
+      "The official Minecraft Help instructions are the best starting point for the platform workflow. Community pages can still be useful, but check that the creator identifies the edition, explains the file, and maintains version notes. Avoid a page that hides the download behind several redirects, changes the file type, or claims that every edition uses the same package."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-file-types.webp",
+      "alt": "Editorial diagram showing a Minecraft content source branching into ZIP, MCPACK, and MCADDON package types",
+      "caption": "A source page can lead to different package types; the extension helps you choose the next step, but it does not replace edition and version checks.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Edition matrix",
+    "title": "Java vs Bedrock resource-pack checks",
+    "description": "Use this table to decide which instructions belong to your setup before you move a file or open a world.",
+    "headers": ["Check", "Java Edition", "Bedrock Edition", "What to confirm"],
+    "rows": [
+      ["Common visual package", "Compatible resource-pack ZIP", "Imported .mcpack or bundled .mcaddon", "The source names your edition and pack type"],
+      ["Where it appears", "Resource Packs screen", "Import result, global resources, or world resources", "The import completed and the pack is selectable"],
+      ["Typical mismatch", "Wrong Minecraft version or a mod JAR", "Wrong edition, missing activation, or unsupported pack format", "The file is for the current edition and version"],
+      ["First test", "A copied world with the pack selected", "A copied world with the pack active", "Textures, sounds, UI, and load order behave as expected"],
+      ["Rollback", "Remove the pack from the active list", "Deactivate it in the test world or global resources", "Your main world was not the first place you tested" ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Activation and testing",
+    "title": "Importing is not the same as using the pack",
+    "paragraphs": [
+      "A successful import only proves that Minecraft recognized the file. You still need to choose the pack in the correct resource menu. In Java, open the resource-pack settings, move the pack into the active list, apply the change, and watch for the reload. In Bedrock, decide whether the pack should apply globally or only to one world, then confirm it appears in the active resources for that world.",
+      "A copied test world is a practical safety boundary. It lets you inspect missing textures, unexpected sounds, or an incompatible load order without changing the world you care about. If two packs modify the same asset, test them one at a time and put the intended priority first. Only keep the pack in your main setup after the test is clean."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-install-flow.webp",
+      "alt": "Editorial four-step Minecraft resource pack flow from source and import to activation and a copied-world test",
+      "caption": "The reliable flow is source, import, activate, then test; skipping the last step makes rollback harder.",
+      "width": 1024,
+      "height": 1536
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Common mistakes",
+    "title": "Why a Minecraft resource pack does not appear",
+    "description": "Most failures are compatibility or activation problems rather than proof that you need a different download mirror.",
+    "cards": [
+      {"title": "Java and Bedrock were mixed", "text": "A Java ZIP and a Bedrock .mcpack may describe similar visual changes, but they are not interchangeable packages. Re-check the edition before changing the file extension."},
+      {"title": "The pack was imported but not active", "text": "Bedrock can finish an import while leaving the resource pack inactive. Java can show a pack in the list while it remains on the available side. Check the active list and world settings."},
+      {"title": "The version is outside the supported range", "text": "A pack created for a different version may load partially or show missing textures. Use the source's compatibility notes and test before moving it into a main world."},
+      {"title": "A behavior pack was treated as visual-only", "text": "An .mcaddon or behavior component may need additional activation, experiments, or a matching companion resource pack. Read the source description instead of assuming it is only a texture change."},
+      {"title": "Too many packs changed at once", "text": "Load order can hide the effect of a pack. Disable other packs in the copied world, verify one change, and then add the remaining packs back one at a time."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Related guides",
+    "title": "Open the page that matches your next question",
+    "description": "This overview keeps the edition boundary clear. Use these pages for the deeper workflow or a different content type.",
+    "links": [
+      {"title": "Minecraft Bedrock resource pack guide", "url": "/bedrock-resource-packs/", "text": "Follow the Bedrock download-source, .mcpack import, world activation, and troubleshooting path.", "cta": "Open Bedrock guide"},
+      {"title": "Minecraft Java vs Bedrock comparison", "url": "/java-vs-bedrock/", "text": "Compare device support, multiplayer, mods, add-ons, and the content ecosystem before choosing a file.", "cta": "Compare editions"},
+      {"title": "Java setup and profile checks", "url": "/how-to-install-java-mods/", "text": "Use the Java loader and profile checklist when a resource pack is part of a modded setup.", "cta": "Open Java setup"},
+      {"title": "Minecraft version compatibility notes", "url": "/versions/", "text": "Check the site's current edition and version context before following an older pack instruction.", "cta": "Check versions"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Official references",
+    "title": "Sources checked for this guide",
+    "description": "These official help pages support the platform workflow. A specific creator's release page remains the authority for that pack's files and compatibility.",
+    "links": [
+      {"title": "Minecraft Help: install resource packs", "url": "https://help.minecraft.net/hc/en-us/articles/4409165790605-How-to-Install-Resource-Packs-in-Minecraft", "text": "Official instructions for the resource-pack installation workflow.", "cta": "Open official help"},
+      {"title": "Minecraft Help: install behavior packs", "url": "https://help.minecraft.net/hc/en-us/articles/4408903594765-How-to-Install-Behavior-Packs-in-Minecraft", "text": "Official reference for the behavior-pack boundary that can appear in bundled add-ons.", "cta": "Open behavior-pack help"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Minecraft resource pack questions",
+    "items": [
+      {"question": "How do I add resource packs to Minecraft?", "answer": "First identify Java or Bedrock, then download a pack from a maintained source in the format that matches the edition. Java normally adds a compatible ZIP through the Resource Packs screen. Bedrock commonly imports an .mcpack or .mcaddon, after which you activate it globally or in the target world."},
+      {"question": "Can I use a Java resource-pack ZIP in Bedrock?", "answer": "Not automatically. A Java resource-pack ZIP is built for Java's content structure and menu, while Bedrock expects its own package and manifest conventions. Look for a Bedrock release from the creator instead of renaming the Java file."},
+      {"question": "Are Minecraft texture packs and resource packs the same thing?", "answer": "Players often use texture pack as an older or informal name for a resource pack. Resource packs can include textures plus sounds, fonts, or interface assets, so read the source description when the download promises more than a visual change."},
+      {"question": "Where should I download resource packs for Minecraft?", "answer": "Prefer the creator's official page, an official marketplace listing, or a maintained release page that explains the edition, version, file type, and update context. Avoid invented mirrors or pages that hide what file will be downloaded."},
+      {"question": "Why will my Minecraft resource pack not show up?", "answer": "Check the edition, file type, supported version, import result, active resource list, and load order one at a time. In Bedrock, an imported pack still needs to be activated. In Java, a ZIP can be visible but not active or can be filtered by a version mismatch."},
+      {"question": "Do resource packs change Minecraft gameplay?", "answer": "A visual resource pack normally changes presentation rather than gameplay rules. If the download includes a behavior pack or add-on, it may change entities, recipes, or other behavior, so follow its separate activation and compatibility instructions."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Resource Packs: Java and Bedrock Installation Guide",
+      "description": "Learn how to choose, install, activate, and troubleshoot Minecraft resource packs on Java and Bedrock without mixing file formats or editions.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/minecraft-resource-packs/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "How do I add resource packs to Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "First identify Java or Bedrock, then download a pack from a maintained source in the format that matches the edition. Java normally adds a compatible ZIP through the Resource Packs screen. Bedrock commonly imports an .mcpack or .mcaddon, after which you activate it globally or in the target world."}},
+        {"@type": "Question", "name": "Can I use a Java resource-pack ZIP in Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "Not automatically. A Java resource-pack ZIP is built for Java's content structure and menu, while Bedrock expects its own package and manifest conventions. Look for a Bedrock release from the creator instead of renaming the Java file."}},
+        {"@type": "Question", "name": "Are Minecraft texture packs and resource packs the same thing?", "acceptedAnswer": {"@type": "Answer", "text": "Players often use texture pack as an older or informal name for a resource pack. Resource packs can include textures plus sounds, fonts, or interface assets, so read the source description when the download promises more than a visual change."}},
+        {"@type": "Question", "name": "Where should I download resource packs for Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Prefer the creator's official page, an official marketplace listing, or a maintained release page that explains the edition, version, file type, and update context. Avoid invented mirrors or pages that hide what file will be downloaded."}},
+        {"@type": "Question", "name": "Why will my Minecraft resource pack not show up?", "acceptedAnswer": {"@type": "Answer", "text": "Check the edition, file type, supported version, import result, active resource list, and load order one at a time. In Bedrock, an imported pack still needs to be activated. In Java, a ZIP can be visible but not active or can be filtered by a version mismatch."}},
+        {"@type": "Question", "name": "Do resource packs change Minecraft gameplay?", "acceptedAnswer": {"@type": "Answer", "text": "A visual resource pack normally changes presentation rather than gameplay rules. If the download includes a behavior pack or add-on, it may change entities, recipes, or other behavior, so follow its separate activation and compatibility instructions."}}
+      ]
+    }
+  }
+}

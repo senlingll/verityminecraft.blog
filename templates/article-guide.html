@@ -20,7 +20,7 @@
       </div>
     </div>
     <figure class="article-feature-figure">
-      <img src="{{ page.hero.image.src }}" alt="{{ page.hero.image.alt }}" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <img src="{{ page.hero.image.src }}" alt="{{ page.hero.image.alt }}" width="{{ page.hero.image.width or 1536 }}" height="{{ page.hero.image.height or 1024 }}" fetchpriority="high" decoding="async">
       <figcaption>{{ page.hero.image.caption }}</figcaption>
     </figure>
   </header>
@@ -59,7 +59,7 @@
         {% for paragraph in page.source_check.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
       </div>
       <figure class="article-inline-figure">
-        <img src="{{ page.source_check.image.src }}" alt="{{ page.source_check.image.alt }}" width="1536" height="1024" loading="lazy" decoding="async">
+        <img src="{{ page.source_check.image.src }}" alt="{{ page.source_check.image.alt }}" width="{{ page.source_check.image.width or 1536 }}" height="{{ page.source_check.image.height or 1024 }}" loading="lazy" decoding="async">
         <figcaption>{{ page.source_check.image.caption }}</figcaption>
       </figure>
     </div>
@@ -86,7 +86,7 @@
   <section class="difference section-pad" aria-labelledby="activate-title">
     <div class="difference-panel article-media-panel">
       <figure class="article-inline-figure">
-        <img src="{{ page.activation.image.src }}" alt="{{ page.activation.image.alt }}" width="1536" height="1024" loading="lazy" decoding="async">
+        <img src="{{ page.activation.image.src }}" alt="{{ page.activation.image.alt }}" width="{{ page.activation.image.width or 1536 }}" height="{{ page.activation.image.height or 1024 }}" loading="lazy" decoding="async">
         <figcaption>{{ page.activation.image.caption }}</figcaption>
       </figure>
       <div>

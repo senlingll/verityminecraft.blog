@@ -459,6 +459,27 @@ def localized_bedrock_resource_packs(lang):
     return render_core_page('bedrock-resource-packs', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-resource-packs/', strict_slashes=False)
+def minecraft_resource_packs():
+    """
+    渲染 Minecraft Java 与 Bedrock 资源包跨版本指南页面。
+
+    :return: 资源包指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-resource-packs', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-resource-packs/', strict_slashes=False)
+def localized_minecraft_resource_packs(lang):
+    """
+    渲染指定语言的 Minecraft 资源包指南页面。
+
+    :param lang: 语言代码
+    :return: 指定语言的资源包指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-resource-packs', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/bedrock-addons/', strict_slashes=False)
 def bedrock_addons():
     """

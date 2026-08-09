@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마인크래프트 리소스팩: Java·베드락 설치 가이드</title>
+  <meta name="description"
+    content="마인크래프트 리소스팩을 Java와 베드락에서 선택하고 설치, 적용, 문제 해결하는 방법을 파일 형식과 에디션별로 정리합니다.">
+  <meta name="google-adsense-account" content="ca-pub-9042195580058659">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
+    crossorigin="anonymous"></script>
+
+  <meta name="robots" content="index, follow">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+
+  <link rel="canonical" href="https://verityminecraft.blog/ko/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/minecraft-resource-packs/">
+
+
+
+
+
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/minecraft-resource-packs/">
+
+
+
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/minecraft-resource-packs/">
+
+
+
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="마인크래프트 리소스팩: Java·베드락 설치 가이드">
+  <meta property="og:description" content="마인크래프트 리소스팩을 Java와 베드락에서 선택하고 설치, 적용, 문제 해결하는 방법을 파일 형식과 에디션별로 정리합니다.">
+  <meta property="og:url" content="https://verityminecraft.blog/ko/minecraft-resource-packs/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp">
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="마인크래프트 리소스팩: Java·베드락 설치 가이드">
+  <meta name="twitter:description" content="마인크래프트 리소스팩을 Java와 베드락에서 선택하고 설치, 적용, 문제 해결하는 방법을 파일 형식과 에디션별로 정리합니다.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp">
+
+
+
+
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \ub2e4\uc6b4\ub85c\ub4dc\ub97c Java, Bedrock, PE\ubcc4\ub85c \uc815\ub9ac\ud558\uace0 \ucd9c\ucc98, \ubc84\uc804, \uc124\uce58, \uc548\uc804 \ud655\uc778\uc744 \uc548\ub0b4\ud569\ub2c8\ub2e4.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-08-10", "datePublished": "2026-08-10", "description": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \ub9ac\uc18c\uc2a4\ud329\uc744 Java\uc640 \ubca0\ub4dc\ub77d\uc5d0\uc11c \uc120\ud0dd\ud558\uace0 \uc124\uce58, \uc801\uc6a9, \ubb38\uc81c \ud574\uacb0\ud558\ub294 \ubc29\ubc95\uc744 \ud30c\uc77c \ud615\uc2dd\uacfc \uc5d0\ub514\uc158\ubcc4\ub85c \uc815\ub9ac\ud569\ub2c8\ub2e4.", "headline": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8 \ub9ac\uc18c\uc2a4\ud329: Java\u00b7\ubca0\ub4dc\ub77d \uc124\uce58 \ubc29\ubc95", "image": "https://verityminecraft.blog/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp", "mainEntityOfPage": "https://verityminecraft.blog/ko/minecraft-resource-packs/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Java \ub610\ub294 \ubca0\ub4dc\ub77d\uc744 \uba3c\uc800 \ud655\uc778\ud558\uace0 \uc5d0\ub514\uc158\uc5d0 \ub9de\ub294 \ud615\uc2dd\uc758 \uad00\ub9ac\ub418\ub294 \ub9ac\uc18c\uc2a4\ud329\uc744 \ub2e4\uc6b4\ub85c\ub4dc\ud569\ub2c8\ub2e4. Java\ub294 \ub9ac\uc18c\uc2a4\ud329 \ud654\uba74\uc5d0\uc11c \ud638\ud658 ZIP\uc744 \ucd94\uac00\ud558\uace0, \ubca0\ub4dc\ub77d\uc740 .mcpack \ub610\ub294 .mcaddon\uc744 \uac00\uc838\uc628 \ub4a4 \uc804\uc5ed\uc774\ub098 \ub300\uc0c1 \uc6d4\ub4dc\uc5d0\uc11c \ud65c\uc131\ud654\ud569\ub2c8\ub2e4."}, "name": "\ub9c8\uc778\ud06c\ub798\ud504\ud2b8\uc5d0 \ub9ac\uc18c\uc2a4\ud329\uc744 \uc5b4\ub5bb\uac8c \ucd94\uac00\ud558\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\uc790\ub3d9\uc73c\ub85c\ub294 \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. Java ZIP\uc740 Java\uc758 \uad6c\uc870\uc640 \uba54\ub274\ub97c \uc0ac\uc6a9\ud558\uace0 \ubca0\ub4dc\ub77d\uc740 \ubcc4\ub3c4\uc758 \ud328\ud0a4\uc9c0\uc640 \ub9e4\ub2c8\ud398\uc2a4\ud2b8 \uaddc\uce59\uc744 \uc0ac\uc6a9\ud569\ub2c8\ub2e4. \ud30c\uc77c \uc774\ub984\uc744 \ubc14\uafb8\uc9c0 \ub9d0\uace0 \uc81c\uc791\uc790\uac00 \uc81c\uacf5\ud558\ub294 \ubca0\ub4dc\ub77d \ubc84\uc804\uc744 \ucc3e\uc73c\uc138\uc694."}, "name": "Java \ub9ac\uc18c\uc2a4\ud329 ZIP\uc744 \ubca0\ub4dc\ub77d\uc5d0\uc11c \uc0ac\uc6a9\ud560 \uc218 \uc788\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\ud14d\uc2a4\ucc98\ud329\uc740 \ub9ac\uc18c\uc2a4\ud329\uc744 \uac00\ub9ac\ud0a4\ub294 \uc624\ub798\ub41c \uc774\ub984\uc774\ub098 \uc77c\uc0c1\uc801\uc778 \ud45c\ud604\uc73c\ub85c \uc4f0\uc785\ub2c8\ub2e4. \ub9ac\uc18c\uc2a4\ud329\uc740 \ud14d\uc2a4\ucc98 \uc678\uc5d0 \uc18c\ub9ac, \uae00\uaf34, UI\ub97c \ud3ec\ud568\ud560 \uc218 \uc788\uc73c\ubbc0\ub85c \uc124\uba85\uc744 \ud655\uc778\ud574\uc57c \ud569\ub2c8\ub2e4."}, "name": "\ud14d\uc2a4\ucc98\ud329\uacfc \ub9ac\uc18c\uc2a4\ud329\uc740 \uac19\uc740 \uac83\uc778\uac00\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\uc81c\uc791\uc790 \uacf5\uc2dd \ud398\uc774\uc9c0, \uacf5\uc2dd Marketplace \ub4f1\ub85d, \uc5d0\ub514\uc158\u00b7\ubc84\uc804\u00b7\ud615\uc2dd\u00b7\uc5c5\ub370\uc774\ud2b8 \ub9e5\ub77d\uc744 \uc124\uba85\ud558\ub294 \uad00\ub9ac\ub41c \ub9b4\ub9ac\uc2a4 \ud398\uc774\uc9c0\ub97c \uc6b0\uc120\ud569\ub2c8\ub2e4. \uc2e4\uc81c \ud30c\uc77c\uc744 \uc54c \uc218 \uc5c6\ub294 \ubbf8\ub7ec\ub294 \ud53c\ud558\uc138\uc694."}, "name": "Minecraft \ub9ac\uc18c\uc2a4\ud329\uc740 \uc5b4\ub514\uc11c \ub2e4\uc6b4\ub85c\ub4dc\ud574\uc57c \ud558\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\uc5d0\ub514\uc158, \ud615\uc2dd, \uc9c0\uc6d0 \ubc84\uc804, \uac00\uc838\uc624\uae30 \uacb0\uacfc, \ud65c\uc131 \ubaa9\ub85d, \uc801\uc6a9 \uc21c\uc11c\ub97c \ud55c \ubc88\uc5d0 \ud558\ub098\uc529 \ud655\uc778\ud558\uc138\uc694. \ubca0\ub4dc\ub77d\uc740 \uac00\uc838\uc624\uae30 \ud6c4 \ud65c\uc131\ud654\uac00 \ud544\uc694\ud558\uace0 Java\ub3c4 \ubaa9\ub85d\uc5d0 \ubcf4\uc774\ub294 \uac83\ub9cc\uc73c\ub85c \ud65c\uc131 \uc0c1\ud0dc\ub294 \uc544\ub2d9\ub2c8\ub2e4."}, "name": "\ub9ac\uc18c\uc2a4\ud329\uc774 \uc65c \ud45c\uc2dc\ub418\uc9c0 \uc54a\ub098\uc694?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\uc2dc\uac01 \ub9ac\uc18c\uc2a4\ud329\uc740 \ubcf4\ud1b5 \ud45c\ud604\ub9cc \ubc14\uafb8\uace0 \uaddc\uce59\uc740 \ubc14\uafb8\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \ub3d9\uc791\ud329\uc774\ub098 \uc560\ub4dc\uc628\uc774 \ud3ec\ud568\ub418\uba74 \uc5d4\ud2f0\ud2f0, \ub808\uc2dc\ud53c, \uaddc\uce59 \ub4f1\uc774 \ub2ec\ub77c\uc9c8 \uc218 \uc788\uc73c\ubbc0\ub85c \ubcc4\ub3c4 \ud638\ud658\uc131\uacfc \ud65c\uc131\ud654 \uc548\ub0b4\ub97c \ub530\ub77c\uc57c \ud569\ub2c8\ub2e4."}, "name": "\ub9ac\uc18c\uc2a4\ud329\uc774 \uac8c\uc784\ud50c\ub808\uc774\ub97c \ubc14\uafb8\ub098\uc694?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+
+
+  <header class="site-header">
+    <a class="brand" href="/ko/" aria-label="Verity Minecraft 홈">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="다운로드">
+      <a href="/ko/#downloads">다운로드</a>
+      <a href="/ko/#install">설치</a>
+      <a href="/ko/#versions">버전</a>
+      <a href="/ko/#safety">안전 확인</a>
+      <a href="/ko/#faq">자주 묻는 질문</a>
+    </nav>
+    <div class="header-actions">
+
+      <details class="language-menu">
+        <summary aria-label="한국어">한국어</summary>
+        <div class="language-options">
+
+          <a href="/minecraft-resource-packs/">English</a>
+
+          <a href="/es/minecraft-resource-packs/">Español</a>
+
+          <a href="/ja/minecraft-resource-packs/">日本語</a>
+
+          <a href="/fr/minecraft-resource-packs/">Français</a>
+
+          <a href="/de/minecraft-resource-packs/">Deutsch</a>
+
+          <a href="/pt/minecraft-resource-packs/">Português</a>
+
+          <a href="/it/minecraft-resource-packs/">Italiano</a>
+
+        </div>
+      </details>
+
+      <a class="btn btn-primary btn-small header-cta" href="/ko/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        다운로드
+      </a>
+    </div>
+  </header>
+
+
+  <main>
+
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <meta name="google-adsense-account" content="ca-pub-9042195580058659">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
+     crossorigin="anonymous"></script>
+    <div class="article-hero-copy">
+      <p class="eyebrow">리소스팩 가이드</p>
+      <h1 id="article-title">마인크래프트 리소스팩: Java·베드락 설치 방법</h1>
+      <p class="hero-lede">마인크래프트 리소스팩은 다운로드 파일을 열기 전에 에디션을 확인하면 실패를 줄일 수 있습니다. Java와 베드락의 차이, 주요 파일 형식, 안전한 테스트 방법을 한 페이지에서 정리했습니다.</p>
+      <p class="hero-support">먼저 공통 흐름을 확인하고, 세부 문제는 에디션별 가이드로 이동하세요.</p>
+      <div class="hero-actions">
+
+        <a class="btn btn-primary" href="/ko/java-vs-bedrock/">Java와 베드락 비교</a>
+
+        <a class="btn btn-secondary" href="/ko/bedrock-resource-packs/">베드락 가이드 열기</a>
+
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp" alt="컴퓨터의 Java와 컨트롤러 기기의 베드락에서 마인크래프트 리소스팩을 사용하는 과정을 비교한 편집 일러스트" width="1200" height="800" fetchpriority="high" decoding="async">
+      <figcaption>같은 시각적 변경이라도 Java와 베드락에서는 패키지 형식과 적용 방법이 다릅니다.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">빠른 답변</p>
+      <h2 id="answer-title">파일보다 먼저 에디션을 확인하세요</h2>
+      <p>리소스팩은 텍스처, 소리, 글꼴, 인터페이스 그래픽 같은 시각·음향 요소를 바꾸는 콘텐츠입니다. 자동으로 새로운 게임 시스템을 추가하지는 않습니다. Java Edition은 호환되는 ZIP을 주로 사용하고, 베드락은 .mcpack 같은 파일을 가져오는 방식이 일반적입니다. .mcaddon은 리소스와 동작 요소를 함께 포함할 수 있습니다.</p><p>가장 안전한 순서는 출처, 에디션, 버전 확인입니다. 제작자 페이지의 설명을 읽고 Java 또는 베드락인지, 지원 버전과 파일 형식이 무엇인지 확인한 뒤 가져오거나 복사합니다. 익숙한 파일 이름만으로 안전성이나 호환성을 판단하면 안 됩니다.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+
+      <article class="feature-card"><h3>Java는 보통 ZIP으로 시작</h3><p>Java Edition의 리소스팩 화면은 호환되는 ZIP을 읽습니다. 설명에 별도 지시가 없으면 압축을 풀지 말고, 리소스팩과 JAR 형식의 Java 모드를 혼동하지 마세요.</p></article>
+
+      <article class="feature-card"><h3>베드락은 가져온 뒤 적용</h3><p>호환되는 .mcpack을 열면 Minecraft가 가져오기를 시작할 수 있습니다. 가져오기가 끝나도 전역 또는 월드 설정에서 리소스팩을 활성화해야 합니다.</p></article>
+
+      <article class="feature-card"><h3>확장자만으로 결정하지 않기</h3><p>에디션, 버전, 출처, 콘텐츠 종류, 적용 위치도 확인해야 합니다. 하나라도 다르면 목록에 나타나지 않거나 일부 리소스가 빠질 수 있습니다.</p></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">7단계 흐름</p>
+      <h2 id="steps-title">마인크래프트 리소스팩 설치 순서</h2>
+      <p>아래 확인을 순서대로 진행하면 원인을 알 수 없는 다운로드 문제를 짧은 호환성 판단으로 나눌 수 있습니다. 첫 테스트는 메인 월드가 아닌 복사한 월드에서 진행하세요.</p>
+    </div>
+    <div class="steps article-steps">
+
+      <article class="step-card"><span class="step-number">1</span><h3>Java 또는 베드락 확인</h3><p>런처, 기기, 월드 메뉴에서 에디션을 먼저 확인합니다. Java와 베드락은 콘텐츠 구조가 다르므로 Java ZIP은 베드락 가져오기 파일이 아닙니다.</p></article>
+
+      <article class="step-card"><span class="step-number">2</span><h3>출처 페이지 읽기</h3><p>제작자 공식 페이지, 공식 프로젝트, Marketplace, 관리되는 릴리스 페이지를 우선합니다. 업데이트 날짜, 에디션, 지원 버전, 파일 형식, 필요한 의존성을 확인하세요.</p></article>
+
+      <article class="step-card"><span class="step-number">3</span><h3>버전과 형식 맞추기</h3><p>리소스팩이 안내하는 Minecraft 버전과 현재 설치 버전을 비교합니다. 파일이 여러 개면 에디션과 형식이 일치하는 것을 고릅니다. 버전 표시는 확인할 근거이지 보장은 아닙니다.</p></article>
+
+      <article class="step-card"><span class="step-number">4</span><h3>올바른 방법으로 가져오기</h3><p>베드락에서는 호환되는 .mcpack 또는 .mcaddon을 엽니다. Java에서는 호환 ZIP을 리소스팩 화면에서 보이는 위치에 두거나 문서에 나온 경로를 사용합니다. 확장자를 억지로 바꾸지 마세요.</p></article>
+
+      <article class="step-card"><span class="step-number">5</span><h3>리소스팩 활성화</h3><p>가져오기와 적용은 다릅니다. Java는 리소스팩 선택 화면을 사용하고, 베드락은 전역 또는 월드별 리소스 설정을 사용합니다. 여러 팩이 같은 텍스처를 바꾸면 우선순위도 확인하세요.</p></article>
+
+      <article class="step-card"><span class="step-number">6</span><h3>복사한 월드에서 테스트</h3><p>주요 생존 월드를 열기 전에 테스트 월드를 만들거나 복사합니다. 여러 블록, 상자, 소리, 글꼴, 메뉴를 확인하면 문제가 생겨도 되돌리기 쉽습니다.</p></article>
+
+      <article class="step-card"><span class="step-number">7</span><h3>한 가지 불일치부터 해결</h3><p>표시되지 않으면 확장자, 에디션, 버전, 가져오기 결과, 활성 목록, 적용 순서를 하나씩 확인합니다. 다른 미러를 찾기 전에 테스트 월드에서 가장 최근 팩을 제거하세요.</p></article>
+
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">출처와 형식 확인</p>
+        <h2 id="check-title">파일을 열기 전에 다운로드 내용을 확인하세요</h2>
+        <p>다운로드 페이지에서는 리소스팩, 텍스처팩, 동작팩, 애드온이라는 표현이 섞여 사용됩니다. 시각적인 변경만 원한다면 보통 리소스팩을 찾습니다. 동작팩이나 애드온은 엔티티, 레시피, 규칙을 바꿀 수 있으므로 적용 방법과 호환성 조건이 다릅니다.</p><p>플랫폼별 흐름은 공식 Minecraft Help를 출발점으로 확인하는 것이 좋습니다. 커뮤니티 페이지를 사용하더라도 에디션, 파일 설명, 버전 정보가 있는지 확인하세요. 여러 번 리디렉션되거나 실제 파일 형식이 불분명한 페이지는 피하는 편이 안전합니다.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-resource-packs/minecraft-resource-packs-file-types.webp" alt="마인크래프트 콘텐츠 출처가 ZIP, MCPACK, MCADDON 형식으로 나뉘는 과정을 보여주는 편집 다이어그램" width="1200" height="800" loading="lazy" decoding="async">
+        <figcaption>확장자는 다음 단계를 고르는 단서지만 에디션과 버전 확인을 대신하지 않습니다.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">에디션 매트릭스</p>
+      <h2 id="table-title">Java와 베드락 리소스팩 확인표</h2>
+      <p>파일을 옮기거나 월드를 열기 전에 현재 환경에 맞는 열을 확인하세요.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Java와 베드락 리소스팩 확인표">
+      <div role="row">
+        <strong>확인 항목</strong><strong>Java Edition</strong><strong>Bedrock Edition</strong><strong>확인할 내용</strong>
+      </div>
+
+      <div role="row">
+        <span>일반적인 시각 패키지</span><span>호환 리소스팩 ZIP</span><span>가져온 .mcpack 또는 묶음 .mcaddon</span><span>출처가 에디션과 콘텐츠 종류를 표시하는가</span>
+      </div>
+
+      <div role="row">
+        <span>표시 위치</span><span>리소스팩 화면</span><span>가져오기 결과, 전역 또는 월드 리소스</span><span>가져오기 후 선택 가능한가</span>
+      </div>
+
+      <div role="row">
+        <span>일반적인 불일치</span><span>다른 버전 또는 모드 JAR</span><span>잘못된 에디션, 미적용, 지원하지 않는 형식</span><span>파일과 버전이 에디션에 맞는가</span>
+      </div>
+
+      <div role="row">
+        <span>첫 테스트</span><span>팩을 선택한 복사 월드</span><span>팩을 활성화한 복사 월드</span><span>텍스처, 소리, UI, 우선순위가 정상인가</span>
+      </div>
+
+      <div role="row">
+        <span>되돌리기</span><span>활성 목록에서 팩 제거</span><span>테스트 월드 또는 전역 리소스에서 비활성화</span><span>메인 월드가 첫 테스트가 아니었는가</span>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-resource-packs/minecraft-resource-packs-install-flow.webp" alt="마인크래프트 리소스팩을 출처 확인, 가져오기, 활성화, 복사 월드 테스트로 진행하는 4단계 흐름" width="1024" height="1536" loading="lazy" decoding="async">
+        <figcaption>신뢰할 수 있는 순서는 출처, 가져오기, 활성화, 테스트입니다. 마지막 단계를 건너뛰면 복구가 어려워집니다.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">활성화와 테스트</p>
+        <h2 id="activate-title">가져왔다고 바로 사용하는 것은 아닙니다</h2>
+        <p>가져오기에 성공했다는 것은 Minecraft가 파일을 인식했다는 뜻일 뿐입니다. Java에서는 리소스팩 설정을 열고 활성 목록으로 옮긴 뒤 적용합니다. 베드락에서는 전역 리소스인지 특정 월드용인지 선택하고, 해당 월드의 활성 리소스에 표시되는지 확인합니다.</p><p>복사한 테스트 월드는 안전한 경계가 됩니다. 중요한 월드를 바꾸지 않고 누락된 텍스처, 예상 밖의 소리, 우선순위 충돌을 확인할 수 있습니다. 두 팩이 같은 리소스를 변경한다면 하나씩 시험하고 원하는 팩을 우선순위 앞쪽에 둡니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">자주 생기는 문제</p>
+      <h2 id="mistakes-title">리소스팩이 나타나지 않는 이유</h2>
+      <p>대부분의 문제는 호환성이나 활성화 설정입니다. 다른 미러를 찾기 전에 아래 항목을 확인하세요.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+
+      <article class="feature-card"><h3>Java와 베드락을 섞음</h3><p>Java ZIP과 베드락 .mcpack은 비슷한 시각적 결과를 약속해도 서로 바꿔 쓸 수 없습니다. 확장자를 바꾸기 전에 에디션을 확인하세요.</p></article>
+
+      <article class="feature-card"><h3>가져왔지만 활성화하지 않음</h3><p>베드락은 가져오기가 끝나도 비활성 상태일 수 있습니다. Java도 사용 가능 목록에만 있고 활성 목록으로 옮기지 않았을 수 있습니다.</p></article>
+
+      <article class="feature-card"><h3>지원 버전이 다름</h3><p>다른 버전용 팩은 일부만 로드되거나 누락된 텍스처를 보여줄 수 있습니다. 출처의 호환성 정보와 복사 월드 테스트를 사용하세요.</p></article>
+
+      <article class="feature-card"><h3>애드온을 시각 팩으로 생각함</h3><p>.mcaddon이나 동작 요소는 추가 활성화, 실험 설정, 함께 필요한 리소스팩이 있을 수 있습니다. 제작자 설명을 먼저 읽으세요.</p></article>
+
+      <article class="feature-card"><h3>한꺼번에 여러 팩을 바꿈</h3><p>적용 순서가 팩의 효과를 숨길 수 있습니다. 복사 월드에서 다른 팩을 끄고 하나를 확인한 뒤 나머지를 하나씩 추가하세요.</p></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">관련 가이드</p>
+      <h2 id="related-title">다음 질문에 맞는 페이지 열기</h2>
+      <p>이 개요는 에디션 경계를 설명합니다. 더 자세한 흐름은 아래 페이지에서 확인할 수 있습니다.</p>
+    </div>
+    <div class="example-grid">
+
+      <article class="example-card"><h3>Minecraft Bedrock 리소스팩 가이드</h3><p>베드락 출처 확인, .mcpack 가져오기, 월드 적용과 문제 해결을 자세히 봅니다.</p><a class="text-link" href="/ko/bedrock-resource-packs/">베드락 가이드 열기</a></article>
+
+      <article class="example-card"><h3>Minecraft Java와 베드락 비교</h3><p>파일을 고르기 전에 기기, 멀티플레이, 모드, 애드온 생태계를 비교합니다.</p><a class="text-link" href="/ko/java-vs-bedrock/">에디션 비교</a></article>
+
+      <article class="example-card"><h3>Java 설정과 프로필 확인</h3><p>모드 환경에서 리소스팩을 사용할 때 로더와 프로필 조건을 확인합니다.</p><a class="text-link" href="/ko/how-to-install-java-mods/">Java 설정 열기</a></article>
+
+      <article class="example-card"><h3>Minecraft 버전 호환성</h3><p>오래된 설치 안내를 따르기 전에 현재 에디션과 버전 맥락을 확인합니다.</p><a class="text-link" href="/ko/versions/">버전 확인</a></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">공식 참고 자료</p>
+      <h2 id="sources-title">이 가이드에서 확인한 출처</h2>
+      <p>공식 페이지로 플랫폼별 흐름을 확인했습니다. 특정 팩의 파일과 호환성은 제작자의 릴리스 페이지가 기준입니다.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+
+      <article class="feature-card"><h3>Minecraft Help: 리소스팩 설치</h3><p>리소스팩 설치 흐름에 대한 공식 안내입니다.</p><a class="text-link" href="https://help.minecraft.net/hc/en-us/articles/4409165790605-How-to-Install-Resource-Packs-in-Minecraft" target="_blank" rel="noopener">공식 도움말 열기</a></article>
+
+      <article class="feature-card"><h3>Minecraft Help: 동작팩 설치</h3><p>애드온에 포함될 수 있는 동작 요소를 확인하는 공식 자료입니다.</p><a class="text-link" href="https://help.minecraft.net/hc/en-us/articles/4408903594765-How-to-Install-Behavior-Packs-in-Minecraft" target="_blank" rel="noopener">동작팩 자료 열기</a></article>
+
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">자주 묻는 질문</p>
+      <h2 id="faq-title">마인크래프트 리소스팩 질문</h2>
+    </div>
+    <div class="faq-list">
+
+      <details open><summary>마인크래프트에 리소스팩을 어떻게 추가하나요?</summary><p>Java 또는 베드락을 먼저 확인하고 에디션에 맞는 형식의 관리되는 리소스팩을 다운로드합니다. Java는 리소스팩 화면에서 호환 ZIP을 추가하고, 베드락은 .mcpack 또는 .mcaddon을 가져온 뒤 전역이나 대상 월드에서 활성화합니다.</p></details>
+
+      <details ><summary>Java 리소스팩 ZIP을 베드락에서 사용할 수 있나요?</summary><p>자동으로는 사용할 수 없습니다. Java ZIP은 Java의 구조와 메뉴를 사용하고 베드락은 별도의 패키지와 매니페스트 규칙을 사용합니다. 파일 이름을 바꾸지 말고 제작자가 제공하는 베드락 버전을 찾으세요.</p></details>
+
+      <details ><summary>텍스처팩과 리소스팩은 같은 것인가요?</summary><p>텍스처팩은 리소스팩을 가리키는 오래된 이름이나 일상적인 표현으로 쓰입니다. 리소스팩은 텍스처 외에 소리, 글꼴, UI를 포함할 수 있으므로 설명을 확인해야 합니다.</p></details>
+
+      <details ><summary>Minecraft 리소스팩은 어디서 다운로드해야 하나요?</summary><p>제작자 공식 페이지, 공식 Marketplace 등록, 에디션·버전·형식·업데이트 맥락을 설명하는 관리된 릴리스 페이지를 우선합니다. 실제 파일을 알 수 없는 미러는 피하세요.</p></details>
+
+      <details ><summary>리소스팩이 왜 표시되지 않나요?</summary><p>에디션, 형식, 지원 버전, 가져오기 결과, 활성 목록, 적용 순서를 한 번에 하나씩 확인하세요. 베드락은 가져오기 후 활성화가 필요하고 Java도 목록에 보이는 것만으로 활성 상태는 아닙니다.</p></details>
+
+      <details ><summary>리소스팩이 게임플레이를 바꾸나요?</summary><p>시각 리소스팩은 보통 표현만 바꾸고 규칙은 바꾸지 않습니다. 동작팩이나 애드온이 포함되면 엔티티, 레시피, 규칙 등이 달라질 수 있으므로 별도 호환성과 활성화 안내를 따라야 합니다.</p></details>
+
+    </div>
+  </section>
+</article>
+
+  </main>
+
+  <script async="async" data-cfasync="false" src="https://pl30605215.effectivecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+  <div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+
+
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ko/" aria-label="Verity Minecraft 홈">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="다운로드">
+          <div class="footer-link-group">
+            <p class="footer-link-title">다운로드</p>
+          <a href="/ko/#downloads">다운로드</a>
+          <a href="/ko/#install">설치</a>
+          <a href="/ko/#versions">버전</a>
+          <a href="/ko/#safety">안전 확인</a>
+            <a href="/ko/bedrock-addons/">Bedrock 애드온</a>
+            <a href="/ko/java-vs-bedrock/">자바 vs 베드락</a>
+            <a href="/ko/bedrock-shaders/">베드락 셰이더</a>
+            <a href="/ko/#faq">자주 묻는 질문</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">사이트</p>
+            <a href="/about/">소개</a>
+            <a href="/contact/">문의</a>
+            <a href="/privacy-policy/">개인정보 처리방침</a>
+            <a href="/terms-of-service/">이용 약관</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Verity Minecraft를 위한 독립 다운로드 안내 사이트입니다.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

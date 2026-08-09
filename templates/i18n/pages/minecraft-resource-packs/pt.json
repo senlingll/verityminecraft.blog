@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Pacotes de textura Minecraft: guia Java e Bedrock",
+    "description": "Aprenda a escolher, instalar, ativar e corrigir pacotes de textura do Minecraft no Java e no Bedrock sem misturar edições ou formatos.",
+    "image": "/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia de pacotes de recursos",
+    "title": "Pacotes de textura Minecraft: guia de instalação para Java e Bedrock",
+    "lede": "Os pacotes de recursos do Minecraft funcionam melhor quando você identifica a edição antes de abrir o arquivo. Este guia compara Java e Bedrock, explica os formatos comuns e mostra como testar um pacote com baixo risco.",
+    "support": "Comece pelo fluxo geral e abra o guia da edição quando precisar de uma solução mais específica.",
+    "actions": [
+      {"label": "Comparar Java e Bedrock", "url": "/java-vs-bedrock/", "class": "btn-primary"},
+      {"label": "Abrir o guia Bedrock", "url": "/bedrock-resource-packs/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+      "alt": "Comparação editorial de um pacote de recursos do Minecraft no Java em computador e no Bedrock com controle",
+      "caption": "A mesma ideia visual pode existir no Java e no Bedrock, mas o formato e a ativação são diferentes.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "Escolha a edição antes do arquivo",
+    "paragraphs": [
+      "Um pacote de recursos do Minecraft altera elementos visuais ou sonoros, como texturas, sons, fontes e gráficos da interface. Ele não adiciona automaticamente sistemas de jogo. O Java Edition costuma usar um ZIP compatível, enquanto o Bedrock normalmente importa um arquivo como .mcpack. Alguns arquivos do Bedrock usam .mcaddon para reunir componentes de recursos e comportamento.",
+      "O fluxo mais seguro é fonte, edição e versão. Leia a página do criador, confirme se é Java ou Bedrock, confira a versão do Minecraft quando ela estiver indicada e só então importe ou copie o arquivo. Um nome conhecido não prova que o pacote é seguro ou compatível."
+    ],
+    "cards": [
+      {"title": "Java normalmente começa com ZIP", "text": "No Java Edition, a tela de pacotes de recursos normalmente espera um ZIP compatível. Não descompacte sem instrução clara e não confunda pacote de recursos com mod Java em JAR."},
+      {"title": "Bedrock normalmente importa o pacote", "text": "Abrir um .mcpack compatível pode iniciar a importação no Minecraft. Depois você ainda precisa ativá-lo globalmente ou em um mundo. Um .mcaddon pode conter mais do que uma alteração visual."},
+      {"title": "A extensão é apenas uma verificação", "text": "Edição, versão, fonte, tipo de pacote e local de ativação também importam. Quando um deles está errado, o pacote pode não aparecer ou carregar com recursos faltando."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Fluxo em sete passos",
+    "title": "Como adicionar pacotes de recursos ao Minecraft com segurança",
+    "description": "Faça estas verificações na ordem. Assim, um problema ao baixar o arquivo vira uma decisão curta de compatibilidade e o seu mundo principal fica fora do primeiro teste.",
+    "items": [
+      {"title": "Identifique Java ou Bedrock", "text": "Comece pela edição mostrada no launcher, no dispositivo ou no menu do mundo. Java e Bedrock são ecossistemas separados: um ZIP do Java não é uma importação do Bedrock."},
+      {"title": "Leia a página de origem", "text": "Prefira a página do criador, um projeto oficial, o Marketplace ou uma publicação mantida. Procure data, edição, versões compatíveis, formato e dependências necessárias."},
+      {"title": "Combine versão e formato", "text": "Compare a versão de Minecraft indicada para o pacote com a sua instalação. Se houver vários arquivos, escolha aquele cuja edição e formato coincidem. Uma etiqueta de versão é uma pista, não uma garantia."},
+      {"title": "Importe ou copie pela rota correta", "text": "No Bedrock, abra um .mcpack ou .mcaddon compatível. No Java, coloque o ZIP compatível no local visto pela tela de recursos ou siga o caminho documentado. Não renomeie a extensão para forçar a importação."},
+      {"title": "Ative o pacote", "text": "Importar não é ativar. O Java usa a tela de seleção de pacotes; o Bedrock pode usar recursos globais ou específicos de um mundo. Confira a lista ativa e a ordem quando vários pacotes alteram a mesma textura."},
+      {"title": "Teste uma cópia do mundo", "text": "Antes do seu mundo principal, crie ou copie um mundo de teste. Verifique blocos diferentes, um baú, sons, fontes e menus. Assim fica fácil desfazer a mudança se o pacote estiver incompleto."},
+      {"title": "Corrija uma incompatibilidade por vez", "text": "Se o pacote não aparecer, confira extensão, edição, versão, resultado da importação, lista ativa e ordem de carregamento, um por um. Retire o pacote mais recente do mundo de teste antes de procurar outro mirror."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Fonte e formato",
+    "title": "Saiba o que está baixando antes de abrir",
+    "paragraphs": [
+      "Páginas de arquivos costumam misturar pacote de recursos, pacote de textura, pacote de comportamento e add-on. Para uma alteração visual, normalmente você quer um pacote de recursos. Um pacote de comportamento ou add-on pode alterar entidades, receitas ou regras, então exige outra verificação de compatibilidade e ativação.",
+      "As instruções oficiais do Minecraft Help são um bom ponto de partida para o fluxo da plataforma. Páginas da comunidade podem ajudar, mas verifique se informam a edição, explicam o arquivo e mantêm notas de versão. Evite páginas com muitos redirecionamentos ou que afirmem que todas as edições usam o mesmo pacote."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-file-types.webp",
+      "alt": "Diagrama editorial de uma fonte de conteúdo do Minecraft que leva aos formatos ZIP, MCPACK e MCADDON",
+      "caption": "A extensão ajuda a escolher o próximo passo, mas não substitui as verificações de edição e versão.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Matriz de edição",
+    "title": "Verificações de pacotes no Java e no Bedrock",
+    "description": "Use a tabela antes de mover um arquivo ou abrir um mundo.",
+    "headers": ["Verificação", "Java Edition", "Bedrock Edition", "O que confirmar"],
+    "rows": [
+      ["Pacote visual comum", "ZIP de recursos compatível", ".mcpack importado ou .mcaddon combinado", "A fonte informa a edição e o tipo"],
+      ["Onde aparece", "Tela de pacotes de recursos", "Resultado da importação, recursos globais ou do mundo", "A importação terminou e o pacote pode ser selecionado"],
+      ["Incompatibilidade comum", "Versão errada ou JAR de mod", "Edição errada, ativação ausente ou formato não aceito", "O arquivo corresponde à edição e à versão"],
+      ["Primeiro teste", "Mundo copiado com o pacote selecionado", "Mundo copiado com o pacote ativo", "Texturas, sons, interface e ordem funcionam"],
+      ["Como desfazer", "Remover o pacote da lista ativa", "Desativar no mundo de teste ou nos recursos globais", "O mundo principal não foi o primeiro teste"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Ativação e teste",
+    "title": "Importar não é o mesmo que usar",
+    "paragraphs": [
+      "Uma importação bem-sucedida só mostra que o Minecraft reconheceu o arquivo. No Java, abra as configurações de pacotes, mova o pacote para a lista ativa e aplique a alteração. No Bedrock, escolha recursos globais ou recursos de um mundo e confirme que o pacote aparece entre os recursos ativos desse mundo.",
+      "Um mundo copiado é uma barreira de segurança prática. Nele você pode procurar texturas ausentes, sons inesperados e conflitos de ordem sem alterar o seu mundo principal. Se dois pacotes mudarem o mesmo recurso, teste um por vez e coloque a prioridade desejada primeiro."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-resource-packs/minecraft-resource-packs-install-flow.webp",
+      "alt": "Fluxo editorial em quatro etapas para pacote de recursos do Minecraft: fonte, importação, ativação e teste de mundo copiado",
+      "caption": "O fluxo confiável é fonte, importação, ativação e teste; pular o teste dificulta voltar atrás.",
+      "width": 1024,
+      "height": 1536
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Erros comuns",
+    "title": "Por que o pacote de recursos não aparece",
+    "description": "A maioria dos problemas vem de compatibilidade ou ativação, não da falta de outro mirror.",
+    "cards": [
+      {"title": "Java e Bedrock foram misturados", "text": "Um ZIP do Java e um .mcpack do Bedrock podem prometer uma aparência parecida, mas não são intercambiáveis. Confirme a edição antes de alterar a extensão."},
+      {"title": "Foi importado, mas não ativado", "text": "O Bedrock pode concluir a importação deixando o pacote inativo. No Java, ele pode aparecer na lista disponível sem ser movido para a lista ativa."},
+      {"title": "A versão não é compatível", "text": "Um pacote criado para outra versão pode carregar parcialmente ou mostrar texturas ausentes. Use as notas da fonte e teste em um mundo copiado."},
+      {"title": "Um add-on foi tratado como visual", "text": "Um .mcaddon ou componente de comportamento pode exigir ativação adicional, experimentos ou um pacote de recursos complementar. Leia a descrição do criador."},
+      {"title": "Muitos pacotes mudaram juntos", "text": "A ordem de carregamento pode esconder o efeito de um pacote. Desative os demais no mundo copiado, verifique uma alteração e adicione os outros um por vez."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Guias relacionados",
+    "title": "Abra a página da sua próxima dúvida",
+    "description": "Este guia mantém clara a diferença entre edições. As páginas abaixo aprofundam cada fluxo.",
+    "links": [
+      {"title": "Guia de pacotes de recursos do Minecraft Bedrock", "url": "/bedrock-resource-packs/", "text": "Veja fonte, importação de .mcpack, ativação do mundo e solução de problemas no Bedrock.", "cta": "Abrir guia Bedrock"},
+      {"title": "Minecraft Java vs Bedrock", "url": "/java-vs-bedrock/", "text": "Compare dispositivos, multiplayer, mods, add-ons e ecossistemas antes de escolher um arquivo.", "cta": "Comparar edições"},
+      {"title": "Configuração e perfis do Java", "url": "/how-to-install-java-mods/", "text": "Use a lista de verificação de loader e perfil quando o pacote fizer parte de um ambiente com mods.", "cta": "Abrir configuração Java"},
+      {"title": "Notas de compatibilidade de versões", "url": "/versions/", "text": "Confira o contexto atual antes de seguir uma instrução antiga.", "cta": "Ver versões"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referências oficiais",
+    "title": "Fontes consultadas para este guia",
+    "description": "Estas páginas oficiais explicam o fluxo da plataforma. Para arquivos e compatibilidade de um pacote específico, a página de lançamento do criador continua sendo a referência.",
+    "links": [
+      {"title": "Minecraft Help: instalar pacotes de recursos", "url": "https://help.minecraft.net/hc/en-us/articles/4409165790605-How-to-Install-Resource-Packs-in-Minecraft", "text": "Instruções oficiais para o fluxo de instalação.", "cta": "Abrir ajuda oficial"},
+      {"title": "Minecraft Help: instalar pacotes de comportamento", "url": "https://help.minecraft.net/hc/en-us/articles/4408903594765-How-to-Install-Behavior-Packs-in-Minecraft", "text": "Referência oficial para a diferença entre recursos e comportamento.", "cta": "Abrir ajuda de comportamento"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Dúvidas sobre pacotes de recursos do Minecraft",
+    "items": [
+      {"question": "Como adicionar pacotes de recursos ao Minecraft?", "answer": "Identifique Java ou Bedrock e baixe um pacote mantido no formato da edição. O Java normalmente adiciona um ZIP compatível pela tela de pacotes de recursos. O Bedrock costuma importar .mcpack ou .mcaddon e depois você ativa o pacote globalmente ou no mundo desejado."},
+      {"question": "Posso usar um ZIP de recursos do Java no Bedrock?", "answer": "Não automaticamente. O ZIP do Java usa a estrutura e a tela do Java, enquanto o Bedrock espera suas próprias convenções de pacote e manifesto. Procure uma versão para Bedrock do criador em vez de renomear o arquivo."},
+      {"question": "Pacote de textura e pacote de recursos são a mesma coisa?", "answer": "Pacote de textura é um nome antigo ou informal para pacote de recursos. O pacote também pode incluir sons, fontes e interface, então leia a descrição quando o arquivo prometer mais do que texturas."},
+      {"question": "Onde baixar pacotes de recursos para Minecraft?", "answer": "Prefira a página oficial do criador, um anúncio oficial do Marketplace ou uma página mantida que explique edição, versão, formato e atualização. Evite mirrors que não deixam claro qual arquivo será baixado."},
+      {"question": "Por que meu pacote de recursos não aparece?", "answer": "Confira edição, formato, versão compatível, resultado da importação, lista ativa e ordem de carregamento, um de cada vez. No Bedrock, importar não basta; no Java, um ZIP pode estar visível sem estar ativo ou ser incompatível."},
+      {"question": "Pacotes de recursos mudam a jogabilidade?", "answer": "Um pacote visual normalmente muda a apresentação, não as regras. Se o arquivo incluir pacote de comportamento ou add-on, ele pode mudar entidades, receitas e outros comportamentos e terá instruções próprias."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Pacotes de textura Minecraft: guia de instalação para Java e Bedrock",
+      "description": "Aprenda a escolher, instalar, ativar e corrigir pacotes de textura do Minecraft no Java e no Bedrock sem misturar edições ou formatos.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-resource-packs/minecraft-resource-packs-feature.webp",
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/pt/minecraft-resource-packs/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Como adicionar pacotes de recursos ao Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Identifique Java ou Bedrock e baixe um pacote mantido no formato da edição. O Java normalmente adiciona um ZIP compatível pela tela de pacotes de recursos. O Bedrock costuma importar .mcpack ou .mcaddon e depois você ativa o pacote globalmente ou no mundo desejado."}},
+        {"@type": "Question", "name": "Posso usar um ZIP de recursos do Java no Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "Não automaticamente. O ZIP do Java usa a estrutura e a tela do Java, enquanto o Bedrock espera suas próprias convenções de pacote e manifesto. Procure uma versão para Bedrock do criador em vez de renomear o arquivo."}},
+        {"@type": "Question", "name": "Pacote de textura e pacote de recursos são a mesma coisa?", "acceptedAnswer": {"@type": "Answer", "text": "Pacote de textura é um nome antigo ou informal para pacote de recursos. O pacote também pode incluir sons, fontes e interface, então leia a descrição quando o download prometer mais do que texturas."}},
+        {"@type": "Question", "name": "Onde baixar pacotes de recursos para Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Prefira a página oficial do criador, um anúncio oficial do Marketplace ou uma página mantida que explique edição, versão, formato e atualização. Evite mirrors que não deixam claro qual arquivo será baixado."}},
+        {"@type": "Question", "name": "Por que meu pacote de recursos não aparece?", "acceptedAnswer": {"@type": "Answer", "text": "Confira edição, formato, versão compatível, resultado da importação, lista ativa e ordem de carregamento, um de cada vez. No Bedrock, importar não basta; no Java, um ZIP pode estar visível sem estar ativo ou ser incompatível."}},
+        {"@type": "Question", "name": "Pacotes de recursos mudam a jogabilidade?", "acceptedAnswer": {"@type": "Answer", "text": "Um pacote visual normalmente muda a apresentação, não as regras. Se o download incluir pacote de comportamento ou add-on, ele pode mudar entidades, receitas e outros comportamentos e terá instruções próprias."}}
+      ]
+    }
+  }
+}
