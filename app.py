@@ -585,6 +585,27 @@ def localized_how_to_install_java_mods(lang):
     return render_core_page('how-to-install-java-mods', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-seeds/', strict_slashes=False)
+def minecraft_seeds():
+    """
+    渲染 Minecraft 世界种子选择与测试指南页面。
+
+    :return: Minecraft 世界种子指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-seeds', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-seeds/', strict_slashes=False)
+def localized_minecraft_seeds(lang):
+    """
+    渲染指定语言的 Minecraft 世界种子选择与测试指南页面。
+
+    :param lang: 语言代码
+    :return: 指定语言的 Minecraft 世界种子指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-seeds', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

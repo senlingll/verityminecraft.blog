@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Minecraft Seeds: Anleitung für Java und Bedrock (2026)",
+    "description": "Erfahre, wie Minecraft Seeds funktionieren, wie du Java- und Bedrock-Welten für Survival oder Inselstarts auswählst und einen Seed vor der Hauptwelt prüfst.",
+    "image": "/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Anleitung für Welt-Seeds",
+    "title": "Minecraft Seeds: Java- und Bedrock-Welten auswählen und testen (2026)",
+    "lede": "Minecraft Seeds sind keine universelle Liste magischer Zahlen. Ein guter Seed passt zu deiner Edition, Version, deinem Spawngebiet und deinem Spielziel. Diese Anleitung zeigt, wie du Survival-, Insel-, Dorf-, Biom- und versionsgebundene Seeds vergleichst, ohne einen alten Screenshot als Beweis zu behandeln.",
+    "support": "Nutze eine gepflegte Quelle oder eine Seed Map zur Vorauswahl und erstelle danach eine Testwelt, bevor du eine langfristige Welt beginnst. Java und Bedrock können mit derselben Zahl unterschiedliches Terrain erzeugen, und Updates können das Ergebnis verändern.",
+    "actions": [
+      {"label": "Java und Bedrock vergleichen", "url": "/java-vs-bedrock/", "class": "btn-primary"},
+      {"label": "Versionshinweise ansehen", "url": "/versions/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
+      "alt": "Redaktionelle Illustration, in der ein Minecraft Seed in Dorf-, Insel-, Berg- und Wald-Startgebiete verzweigt",
+      "caption": "Konzeptillustration, kein echtes Gameplay-Bild und keine offizielle Minecraft-Oberfläche. Edition, Version und Welt müssen zusätzlich geprüft werden.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Was bewirken Minecraft Seeds?",
+    "paragraphs": [
+      "Ein Minecraft Seed ist ein Eingabewert, mit dem eine Welt erzeugt wird. Er kann Terrain, Biome, Strukturen, Ozeane, Höhlen und die Umgebung des Spawns beeinflussen. Die Zahl ist aber nur zusammen mit der Edition und der Version sinnvoll, in der sie getestet wurde. Einen Seed ohne diese Angaben als besten Minecraft Seed zu bezeichnen, lässt die entscheidenden Reproduktionsbedingungen aus.",
+      "Beginne bei der Auswahl mit einem Ziel und nicht mit einer zufälligen Liste. Für Survival können Holz, Nahrung und ein Dorf in Spawnnähe wichtig sein. Bei einer Insel zählen Küstenform, Bäume, Tiere und die Entfernung zum Festland. Ein Minecraft Bedrock Seed oder ein versionsgebundener Seed braucht zusätzlich einen Kompatibilitätscheck.",
+      "Behandle jeden veröffentlichten Seed als Kandidaten, den du prüfen musst. Lies die Quellenangaben, notiere Edition und Version, untersuche das Startgebiet mit einer gepflegten Seed Map, wenn sie die Version unterstützt, und öffne eine kopierte Testwelt. Das dauert länger als das Einfügen einer Zahl, verhindert aber falsche Entscheidungen für die Hauptwelt."
+    ],
+    "cards": [
+      {"title": "Die Zahl ist nur ein Eingabewert", "text": "Edition, Version, Einstellungen und geprüfte Region können das Ergebnis verändern. Speichere die Bedingungen zusammen mit dem Seed."},
+      {"title": "Der beste Seed hängt vom Ziel ab", "text": "Dorf, Insel, Berg und Survival-Start verlangen unterschiedliche Landschaften. Vergleiche das Merkmal, das du wirklich brauchst, statt einer universellen Rangliste."},
+      {"title": "Vor der Hauptwelt testen", "text": "Prüfe Spawn, Strukturen, Terrain und Spielbarkeit in einer temporären oder kopierten Welt. Ein Screenshot bestätigt nicht die ersten Minuten deiner Partie."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Fünf Auswahlwege",
+    "title": "Die besten Minecraft Seeds nach Spielziel auswählen",
+    "description": "Diese Kategorien machen aus einer breiten Suche eine kurze, prüfbare Liste. Sie sind Entscheidungshilfen und keine Garantie für jede Version.",
+    "items": [
+      {"title": "1. Survival-freundliche Starts", "text": "Achte auf Holz, Nahrung, Stein und ein möglichst sicheres Terrain nahe dem Spawn. Eine spektakuläre Klippe kann schön, aber für den ersten Tag unpraktisch sein."},
+      {"title": "2. Insel- und Küstenwelten", "text": "Prüfe Bäume, Tiere, Dörfer und den Weg zum Festland, bevor du einen Insel-Seed wählst. Eine schöne Insel ohne frühe Ressourcen eignet sich eher für eine Herausforderung."},
+      {"title": "3. Dörfer und Strukturen", "text": "Kläre, was die Quelle mit nahe meint. Ein Dorf am Spawn ist etwas anderes als eine Struktur mehrere hundert Blöcke entfernt. Notiere die ungefähre Entfernung und teste sie in derselben Version."},
+      {"title": "4. Biome und Bauprojekte", "text": "Bei Bergen, Kirschhainen, dunklen Eichen, Wüsten oder Schnee zählt neben dem Biomnamen auch die Geländeform. Eine Seed Map hilft beim Vergleich der Umgebung."},
+      {"title": "5. Versionsgebundene Entdeckungen", "text": "Eine Suche wie Minecraft 26.2 Seeds gehört zu einem Versionskontext. Schreibe die Version in deine Notizen und prüfe die Quelle nach Änderungen an der Weltgenerierung erneut."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Kompatibilität zuerst",
+    "title": "Vier Prüfungen vor der Verwendung eines Minecraft Seeds",
+    "paragraphs": [
+      "Bestimme zuerst die Edition. Java Edition und Bedrock Edition heißen beide Minecraft, garantieren aber bei derselben Zahl nicht dasselbe Terrain oder dieselben Strukturen. Eine Seite mit nur Minecraft Seeds ist unvollständig, wenn die getestete Edition fehlt. Nutze den Java-vs.-Bedrock-Vergleich, wenn die Plattform unklar ist.",
+      "Notiere danach die genaue Spielversion und wichtige Welteinstellungen. Ein Seed, der in einer Version geprüft wurde, kann nach einer Änderung der Generierung ein anderes Merkmal nahe dem Spawn liefern. Deshalb ist beste Minecraft Seeds für Survival eine datierte Empfehlung und keine dauerhafte Zusage.",
+      "Prüfe außerdem die Belege. Bevorzuge einen ausführlichen Beitrag des Erstellers, eine gepflegte Seed Map oder eine Quelle mit Edition, Version, Koordinaten und einer Beschreibung der tatsächlichen Prüfung. Ein zugeschnittener Screenshot kann ein Dorf zeigen und Entfernung, Ressourcenprobleme oder eine andere Version verbergen.",
+      "Teste zuletzt den Anfang der Welt selbst. Prüfe Spawn, Holz und Nahrung, nahe Strukturen, Geländewechsel und den Weg, den du spielen willst. Bei einer Familienwelt, einem Server oder einer langen Survival-Welt bleibt die Testwelt getrennt, bis das Ergebnis zur Beschreibung passt."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-seeds/minecraft-seeds-compatibility.webp",
+      "alt": "Redaktioneller Vergleich der Java-, Bedrock- und Versionsprüfung vor der Nutzung eines Minecraft Welt-Seeds",
+      "caption": "Konzeptillustration, kein offizieller Spielbildschirm. Edition und Version sind getrennte Prüfungen, auch wenn die Seed-Zahl gleich aussieht.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Entscheidungstabelle",
+    "title": "Minecraft Seed-Prüfung nach Spielziel",
+    "description": "Nutze die Tabelle, um vor einer langfristigen Welt die richtigen Belege zu sammeln. Die letzte Prüfung erfolgt immer in der Edition und Version, die du tatsächlich spielst.",
+    "headers": ["Ziel", "Zuerst prüfen", "Nützlicher Beleg", "Häufige Grenze"],
+    "rows": [
+      ["Survival-Start", "Holz, Nahrung, Schutz und Spawn-Entfernung", "Koordinaten, Edition, Version und kurzer Test", "Ein spektakulärer Spawn kann Ressourcen vermissen"],
+      ["Insel-Seed", "Bäume, Tiere, Festland und Seeroute", "Karte und Prüfung in einer Kopie", "Die Insel kann schön, aber schwierig sein"],
+      ["Dorf oder Struktur", "Typ und Entfernung vom Spawn", "Quellkoordinaten und Test in derselben Version", "Nahe kann mehrere hundert Blöcke bedeuten"],
+      ["Biom oder Bauprojekt", "Geländeform und Nachbarbiome", "Karte rund um das geplante Baugebiet", "Ein Biomname garantiert kein gutes Baugelände"],
+      ["Bedrock Seed", "Bedrock-Edition und genaue Version", "Quellhinweise und lokaler Test", "Java-Ergebnisse dürfen nicht vorausgesetzt werden"],
+      ["Versions-Seed", "Die in der Quelle genannte Version", "Datierte Quelle und Versionsangabe", "Die Weltgenerierung kann sich nach Updates ändern"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Sicherer Testablauf",
+    "title": "Minecraft Seeds testen, ohne die Hauptwelt zu riskieren",
+    "paragraphs": [
+      "Erstelle vor dem Spielstart einen kurzen Datensatz. Schreibe die Seed-Zahl, die Quell-URL, die behauptete Edition, die behauptete Minecraft-Version und den Grund für deine Auswahl auf. Wenn du mehrere Insel- oder Survival-Seeds vergleichst, gib jedem eine kurze Bezeichnung, damit die Ergebnisse nicht vermischt werden.",
+      "Untersuche danach die weitere Umgebung mit einer gepflegten Karte, wenn deren Versionsabdeckung zu deiner Edition passt. Die Karte ist eine Planungshilfe und ersetzt das Spiel nicht. Prüfe Spawn, wichtige Strukturen und die ungefähre Entfernung. Wenn das Tool deine Version nicht unterstützt, behandle das Ergebnis als unbestätigt.",
+      "Erstelle eine neue temporäre Welt oder eine Kopie der geplanten Welt. Gib den Seed über den normalen Welterstellungsweg ein, bestätige Edition und Version und ändere beim Vergleich keine unabhängigen experimentellen Einstellungen. Ein sauberer Test zeigt, ob das Terrain vom Seed oder von einer anderen Konfiguration stammt.",
+      "Spiele die für dich wichtige Anfangsroute. Sammle im Survival Holz und Nahrung, suche Schutz und gehe zur beschriebenen Struktur. Prüfe auf einer Insel die Küste und den Weg zu Ressourcen. Bei einem Bau-Biom gehst du weit genug, um eine wirklich nutzbare Fläche zu beurteilen.",
+      "Erstelle erst dann eine langfristige Welt, einen Server oder eine Familienwelt, wenn der Test zur Quelle passt. Bewahre Seed, Version und Edition gemeinsam auf. Wenn ein Update das Ergebnis ändert, kannst du den Unterschied erklären, statt einen Tippfehler zu vermuten."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-seeds/minecraft-seeds-test-flow.webp",
+      "alt": "Redaktioneller Ablauf zum Aufzeichnen eines Minecraft Seeds, Prüfen des Spawns und Testen einer kopierten Welt",
+      "caption": "Konzeptillustration, keine echte Seed Map und kein Gameplay-Bild. Aufzeichnen, prüfen und testen; die Zahl im Bild ist dekorativ.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Fehlerbehebung",
+    "title": "Sechs Minecraft Seed-Fehler mit schlechtem Ergebnis",
+    "description": "Die meisten Enttäuschungen entstehen durch fehlenden Kontext. Prüfe die Vergleichsbedingungen, bevor du den Seed für fehlerhaft hältst.",
+    "cards": [
+      {"title": "Eine Liste für dauerhaft halten", "text": "Eine Liste der besten Seeds gehört zur getesteten Edition, Version und Zeit. Übertrage die Zahl nicht blind auf jede zukünftige Version."},
+      {"title": "Java und Bedrock mischen", "text": "Derselbe Text beweist nicht dasselbe Terrain. Lies die Editionsangabe und teste die Welt in der Edition, die du nutzt."},
+      {"title": "Nur einem Screenshot vertrauen", "text": "Ein Bild kann Entfernung, fehlende Ressourcen oder eine andere Version verbergen. Suche Koordinaten und laufe den Weg in einer Kopie ab."},
+      {"title": "Welt-Seed und Pflanzen-Seed verwechseln", "text": "Fragen zu Kürbis-, Weizen-, Melonen- oder Kartoffelsamen gehören zur Landwirtschaft und nicht zur Weltgenerierung."},
+      {"title": "In der Hauptwelt testen", "text": "Experimente können deine Planung verändern. Nutze eine temporäre oder kopierte Welt, bis der Seed dein Ziel erfüllt."},
+      {"title": "Einen Versions-Seed als aktuell bezeichnen", "text": "Ein neuer Beitrag bestätigt keine Kompatibilität. Nutze Datum, Version, Quelle und lokalen Test und erkläre die Grenze."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Verity Guides",
+    "title": "Seed-Prüfung mit Edition und Version verbinden",
+    "description": "Diese Seiten beantworten Nachbarfragen, die beim Vergleich eines Minecraft Seeds oder bei der Vorbereitung einer neuen Welt häufig auftauchen.",
+    "links": [
+      {"title": "Minecraft Java und Bedrock", "url": "/java-vs-bedrock/", "text": "Vergleiche die Editionen, bevor du annimmst, dass ein Java Seed oder Ablauf auf Bedrock gleich funktioniert.", "cta": "Editionen vergleichen"},
+      {"title": "Minecraft Versionen", "url": "/versions/", "text": "Verknüpfe deine Seed-Notiz mit dem Minecraft- und Verity-Versionskontext, den du getestet hast.", "cta": "Versionen ansehen"},
+      {"title": "Minecraft installieren", "url": "/how-to-install/", "text": "Nutze den quellennahen Installationsablauf, wenn die Welt Teil einer Mod- oder Add-on-Konfiguration ist.", "cta": "Installationsguide öffnen"},
+      {"title": "Minecraft Ressourcenpakete", "url": "/minecraft-resource-packs/", "text": "Trenne Entscheidungen zur Weltgenerierung von den Datei-Checks für Java und Bedrock.", "cta": "Pack-Anleitung öffnen"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referenzseiten",
+    "title": "Quellen und Tools zur Prüfung von Minecraft Seeds",
+    "description": "Diese Links sind Einstiege für Definitionen und Kartenprüfung. Sie ersetzen keinen Test in der Edition und Version, die du spielst.",
+    "links": [
+      {"title": "Minecraft-Hilfe", "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-", "text": "Offizieller Einstieg in die Minecraft-Hilfe für Support und Begriffe rund um Seeds.", "cta": "Minecraft-Hilfe öffnen"},
+      {"title": "Chunkbase Seed-Karte", "url": "https://www.chunkbase.com/apps/seed-map", "text": "Karten-Tool mit Versionshinweisen, häufigen Fehlern und genannten Grenzen. Prüfe die Abdeckung, bevor du ein Ergebnis übernimmst.", "cta": "Seed-Karte öffnen"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Minecraft Seeds: Häufige Fragen",
+    "items": [
+      {"question": "Was ist ein Minecraft Seed?", "answer": "Ein Eingabewert für die Welterzeugung. Er beeinflusst Terrain, Biome und Strukturen, muss aber zusammen mit der Edition und Version betrachtet werden."},
+      {"question": "Welche Minecraft Seeds sind für Survival am besten?", "answer": "Es gibt keinen besten Seed für alle. Passe Edition und Version an und prüfe Ressourcen, Strukturen und deine Route in einer kopierten Welt."},
+      {"question": "Kann ich einen Java Seed in Bedrock verwenden?", "answer": "Gehe nicht davon aus. Prüfe die Editionsangabe und teste den Seed in Bedrock, weil Terrain und Strukturen abweichen können."},
+      {"question": "Warum erzeugt mein Minecraft Seed eine andere Welt?", "answer": "Prüfe Seed-Text, Edition, Version, Welteinstellungen und Spawngebiet. Ein anderer Kontext kann das Ergebnis verändern."},
+      {"question": "Wie finde ich gute Minecraft Insel-Seeds?", "answer": "Prüfe Inselgröße, Bäume, Tiere, Nahrung, Festlandentfernung und Strukturen mit einer Karte und einer temporären Welt."},
+      {"question": "Wie viele Minecraft Seeds gibt es?", "answer": "Eine feste Zahl ist für alle Editionen und Versionen nicht sinnvoll. Bewahre stattdessen einen reproduzierbaren Kontext statt einer dauerhaften Rangliste auf."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Seeds: Java- und Bedrock-Welten auswählen und testen (2026)",
+      "description": "Praktische Anleitung zur Auswahl, Prüfung und zum Test von Minecraft Welt-Seeds für Java und Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
+      "datePublished": "2026-08-15",
+      "dateModified": "2026-08-15",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/de/minecraft-seeds/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Was ist ein Minecraft Seed?", "acceptedAnswer": {"@type": "Answer", "text": "Ein Eingabewert für eine Welt; das Ergebnis hängt von Edition und Version ab."}},
+        {"@type": "Question", "name": "Welche Minecraft Seeds sind für Survival am besten?", "acceptedAnswer": {"@type": "Answer", "text": "Es gibt keinen universellen besten Seed. Prüfe Edition, Version, Ressourcen und Route in einer Kopie."}},
+        {"@type": "Question", "name": "Kann ich einen Java Seed in Bedrock verwenden?", "acceptedAnswer": {"@type": "Answer", "text": "Nicht voraussetzen; prüfe die Edition und teste den Seed in Bedrock."}},
+        {"@type": "Question", "name": "Warum erzeugt mein Seed eine andere Welt?", "acceptedAnswer": {"@type": "Answer", "text": "Prüfe Text, Edition, Version, Einstellungen und Spawngebiet."}},
+        {"@type": "Question", "name": "Wie finde ich gute Insel-Seeds?", "acceptedAnswer": {"@type": "Answer", "text": "Prüfe Form, Ressourcen, Festlandentfernung und Strukturen mit Karte und Testwelt."}},
+        {"@type": "Question", "name": "Wie viele Minecraft Seeds gibt es?", "acceptedAnswer": {"@type": "Answer", "text": "Eine feste Zahl ist nicht für alle Versionen sinnvoll; bewahre reproduzierbaren Kontext auf."}}
+      ]
+    }
+  }
+}

@@ -169,6 +169,12 @@
         "title": "Versionen",
         "url": "/versions/",
         "text": "Versionen"
+      },
+      {
+        "title": "Minecraft Seeds",
+        "url": "/minecraft-seeds/",
+        "text": "Edition und Version prüfen, bevor du einen Welt-Seed testest.",
+        "cta": "Seed-Guide ansehen"
       }
     ]
   },

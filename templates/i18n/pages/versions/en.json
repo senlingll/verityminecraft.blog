@@ -163,6 +163,12 @@
         "title": "How to Install",
         "url": "/how-to-install/",
         "text": "Install and troubleshooting steps after you choose a version."
+      },
+      {
+        "title": "Minecraft Seeds Guide",
+        "url": "/minecraft-seeds/",
+        "text": "Check edition and version context before testing a world seed.",
+        "cta": "Check seed guide"
       }
     ]
   },

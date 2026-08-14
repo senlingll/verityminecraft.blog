@@ -169,6 +169,12 @@
         "title": "Versiones",
         "url": "/versions/",
         "text": "Versiones"
+      },
+      {
+        "title": "Semillas de Minecraft",
+        "url": "/minecraft-seeds/",
+        "text": "Comprueba la edición y la versión antes de probar un mundo.",
+        "cta": "Ver guía de semillas"
       }
     ]
   },

@@ -9,6 +9,7 @@ Core pages include Bedrock .mcaddon guidance, Verity JE Java mod guidance, PE an
 Verity Minecraft is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners.
 
 Contact: support@verityminecraft.blog
+- Minecraft seeds guide: https://verityminecraft.blog/minecraft-seeds/ explains world-seed selection, Java and Bedrock boundaries, version checks, survival and island goals, seed-map limitations, copied-world testing, and FAQ distinctions between world seeds and crop seeds.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/
 - Minecraft resource packs guide: https://verityminecraft.blog/minecraft-resource-packs/ explains Java and Bedrock formats, source checks, installation, activation, copied-world testing, and troubleshooting.
 - Minecraft Bedrock add-ons guide: https://verityminecraft.blog/bedrock-addons/ explains safe source checks, .mcaddon/.mcpack differences, import, activation, backup, and troubleshooting.
