@@ -118,7 +118,8 @@
       {"title": "Minecraft Java et Bedrock", "url": "/java-vs-bedrock/", "text": "Comparez les éditions avant de supposer qu'une graine ou une méthode Java fonctionne de la même façon sur Bedrock.", "cta": "Comparer les éditions"},
       {"title": "Versions de Minecraft", "url": "/versions/", "text": "Associez chaque note de graine au contexte Minecraft et Verity que vous avez réellement testé.", "cta": "Voir les versions"},
       {"title": "Comment installer Minecraft", "url": "/how-to-install/", "text": "Suivez le flux d'installation basé sur les sources lorsque le monde fait partie d'une configuration avec mods ou add-ons.", "cta": "Ouvrir le manuel"},
-      {"title": "Packs de ressources Minecraft", "url": "/minecraft-resource-packs/", "text": "Séparez les décisions de génération du monde des contrôles de fichiers Java et Bedrock.", "cta": "Ouvrir le manuel des packs"}
+      {"title": "Packs de ressources Minecraft", "url": "/minecraft-resource-packs/", "text": "Séparez les décisions de génération du monde des contrôles de fichiers Java et Bedrock.", "cta": "Ouvrir le manuel des packs"},
+      {"title": "Cartes Minecraft Bedrock", "url": "/minecraft-bedrock-maps/", "text": "Utilisez ce guide pour importer un monde Bedrock déjà construit plutôt que de générer un terrain avec une graine.", "cta": "Ouvrir le guide des cartes Bedrock"}
     ]
   },
   "sources": {

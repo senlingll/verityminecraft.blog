@@ -118,7 +118,8 @@
       {"title": "Minecraft Java vs Bedrock", "url": "/java-vs-bedrock/", "text": "Compare the editions before assuming that a Java seed, file, or workflow transfers to Bedrock.", "cta": "Compare editions"},
       {"title": "Minecraft Versions", "url": "/versions/", "text": "Keep a seed note tied to the Minecraft and Verity version context you actually tested.", "cta": "Review versions"},
       {"title": "How to Install Minecraft", "url": "/how-to-install/", "text": "Use the source-first install workflow when a new world is part of a larger mod or add-on setup.", "cta": "Open install guide"},
-      {"title": "Minecraft Resource Packs", "url": "/minecraft-resource-packs/", "text": "Separate world-generation decisions from Java and Bedrock resource-pack file checks.", "cta": "Open pack guide"}
+      {"title": "Minecraft Resource Packs", "url": "/minecraft-resource-packs/", "text": "Separate world-generation decisions from Java and Bedrock resource-pack file checks.", "cta": "Open pack guide"},
+      {"title": "Minecraft Bedrock Maps", "url": "/minecraft-bedrock-maps/", "text": "Use this guide when you need a finished Bedrock world file rather than a seed that generates terrain.", "cta": "Open Bedrock maps guide"}
     ]
   },
   "sources": {

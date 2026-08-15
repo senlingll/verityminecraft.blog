@@ -118,7 +118,8 @@
       {"title": "Minecraft Java y Bedrock", "url": "/java-vs-bedrock/", "text": "Compara las ediciones antes de asumir que una semilla o un flujo de Java funciona igual en Bedrock.", "cta": "Comparar ediciones"},
       {"title": "Versiones de Minecraft", "url": "/versions/", "text": "Relaciona cada nota de semilla con la versión de Minecraft y Verity que realmente probaste.", "cta": "Ver versiones"},
       {"title": "Cómo instalar Minecraft", "url": "/how-to-install/", "text": "Usa el flujo de instalación basado en fuentes cuando el mundo forme parte de una configuración con mods o add-ons.", "cta": "Abrir guía de instalación"},
-      {"title": "Paquetes de recursos de Minecraft", "url": "/minecraft-resource-packs/", "text": "Separa las decisiones de generación del mundo de las comprobaciones de archivos Java y Bedrock.", "cta": "Abrir guía de paquetes"}
+      {"title": "Paquetes de recursos de Minecraft", "url": "/minecraft-resource-packs/", "text": "Separa las decisiones de generación del mundo de las comprobaciones de archivos Java y Bedrock.", "cta": "Abrir guía de paquetes"},
+      {"title": "Mapas de Minecraft Bedrock", "url": "/minecraft-bedrock-maps/", "text": "Usa esta guía cuando necesites importar un mundo Bedrock terminado en lugar de generar terreno con una semilla.", "cta": "Abrir guía de mapas Bedrock"}
     ]
   },
   "sources": {

@@ -118,7 +118,8 @@
       {"title": "Minecraft Java版と統合版", "url": "/java-vs-bedrock/", "text": "Java版のシードや手順が統合版でも同じだと考える前に、エディションの違いを確認します。", "cta": "エディションを比較"},
       {"title": "Minecraftのバージョン", "url": "/versions/", "text": "シードのメモを、実際に試したMinecraftとVerityのバージョン条件につなげます。", "cta": "バージョンを見る"},
       {"title": "Minecraftのインストール方法", "url": "/how-to-install/", "text": "ワールドがModやアドオンを含む構成の一部なら、出典を確認する導入手順を使います。", "cta": "導入ガイドを開く"},
-      {"title": "Minecraftリソースパック", "url": "/minecraft-resource-packs/", "text": "ワールド生成の判断と、Java・統合版のファイル確認を分けて考えます。", "cta": "パックガイドを開く"}
+      {"title": "Minecraftリソースパック", "url": "/minecraft-resource-packs/", "text": "ワールド生成の判断と、Java・統合版のファイル確認を分けて考えます。", "cta": "パックガイドを開く"},
+      {"title": "Minecraft統合版マップ", "url": "/minecraft-bedrock-maps/", "text": "シードで地形を生成するのではなく、完成した統合版ワールドを読み込むときはこのガイドを使います。", "cta": "統合版マップガイドを開く"}
     ]
   },
   "sources": {

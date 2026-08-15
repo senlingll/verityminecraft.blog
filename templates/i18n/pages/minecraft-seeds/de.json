@@ -118,7 +118,8 @@
       {"title": "Minecraft Java und Bedrock", "url": "/java-vs-bedrock/", "text": "Vergleiche die Editionen, bevor du annimmst, dass ein Java Seed oder Ablauf auf Bedrock gleich funktioniert.", "cta": "Editionen vergleichen"},
       {"title": "Minecraft Versionen", "url": "/versions/", "text": "Verknüpfe deine Seed-Notiz mit dem Minecraft- und Verity-Versionskontext, den du getestet hast.", "cta": "Versionen ansehen"},
       {"title": "Minecraft installieren", "url": "/how-to-install/", "text": "Nutze den quellennahen Installationsablauf, wenn die Welt Teil einer Mod- oder Add-on-Konfiguration ist.", "cta": "Installationsguide öffnen"},
-      {"title": "Minecraft Ressourcenpakete", "url": "/minecraft-resource-packs/", "text": "Trenne Entscheidungen zur Weltgenerierung von den Datei-Checks für Java und Bedrock.", "cta": "Pack-Anleitung öffnen"}
+      {"title": "Minecraft Ressourcenpakete", "url": "/minecraft-resource-packs/", "text": "Trenne Entscheidungen zur Weltgenerierung von den Datei-Checks für Java und Bedrock.", "cta": "Pack-Anleitung öffnen"},
+      {"title": "Minecraft-Bedrock-Karten", "url": "/minecraft-bedrock-maps/", "text": "Nutze diesen Leitfaden, wenn du eine fertige Bedrock-Welt importieren möchtest statt Gelände mit einem Seed zu erzeugen.", "cta": "Bedrock-Karten öffnen"}
     ]
   },
   "sources": {

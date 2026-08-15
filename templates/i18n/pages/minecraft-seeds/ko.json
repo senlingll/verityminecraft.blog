@@ -118,7 +118,8 @@
       {"title": "Minecraft Java와 베드락", "url": "/java-vs-bedrock/", "text": "Java 시드나 절차가 베드락에서도 같은지 가정하기 전에 에디션 차이를 비교합니다.", "cta": "에디션 비교"},
       {"title": "Minecraft 버전", "url": "/versions/", "text": "시드 메모를 실제로 테스트한 Minecraft와 Verity 버전 조건에 연결합니다.", "cta": "버전 확인"},
       {"title": "Minecraft 설치 방법", "url": "/how-to-install/", "text": "월드가 모드나 애드온 설정의 일부라면 출처를 확인하는 설치 흐름을 이용합니다.", "cta": "설치 가이드 열기"},
-      {"title": "Minecraft 리소스 팩", "url": "/minecraft-resource-packs/", "text": "월드 생성 판단과 Java·베드락 파일 확인을 분리해서 생각합니다.", "cta": "팩 가이드 열기"}
+      {"title": "Minecraft 리소스 팩", "url": "/minecraft-resource-packs/", "text": "월드 생성 판단과 Java·베드락 파일 확인을 분리해서 생각합니다.", "cta": "팩 가이드 열기"},
+      {"title": "Minecraft 베드락 맵", "url": "/minecraft-bedrock-maps/", "text": "시드로 지형을 생성하는 대신 완성된 베드락 월드를 가져오려면 이 가이드를 사용하세요.", "cta": "베드락 맵 가이드 열기"}
     ]
   },
   "sources": {

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Mappe Minecraft Bedrock: guida all'importazione (2026)",
+    "description": "Scopri come scegliere, scaricare, importare e testare mappe Minecraft Bedrock senza confondere un mondo .mcworld con un addon o un file Java.",
+    "image": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida alle mappe Bedrock",
+    "title": "Mappe Minecraft Bedrock: come scaricarle, importarle e provarle (2026)",
+    "lede": "Le mappe Minecraft Bedrock vengono spesso importate come file .mcworld, ma il pacchetto è solo il primo passaggio. Controlla l'edizione, confronta la versione indicata con la tua installazione e prova la mappa in un mondo copiato o temporaneo prima di usare il salvataggio principale.",
+    "support": "Questa guida distingue le mappe del mondo, i pacchetti risorse, gli addon e i file Java. Troverai un ordine prudente per l'importazione su Windows e dispositivi mobili e una procedura breve per capire perché il mondo non appare o si carica male.",
+    "actions": [
+      {"label": "Controlla la fonte Bedrock", "url": "/bedrock/", "class": "btn-primary"},
+      {"label": "Confronta gli addon", "url": "/bedrock-addons/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-feature.webp",
+      "alt": "Illustrazione editoriale di un pacchetto mondo Bedrock tra un computer e un tablet",
+      "caption": "Illustrazione concettuale, non uno screenshot ufficiale di Minecraft. Edizione, versione e test locale restano necessari.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Importa un mondo Bedrock e prova prima una copia",
+    "paragraphs": [
+      "Per la maggior parte delle mappe Minecraft Bedrock il percorso è: scegliere una fonte aggiornata, scaricare il pacchetto senza rinominarlo, aprire il file .mcworld con Minecraft, attendere la fine dell'importazione e cercare il nuovo mondo nella schermata Gioca. Se il file è un archivio zip o una cartella mondo, segui le istruzioni della fonte: non ogni file che contiene la parola map è pronto per essere aperto.",
+      "Il controllo dell'edizione è fondamentale. Una mappa Java e una Bedrock possono avere lo stesso tema e le stesse immagini, ma usare cartelle, comandi, pacchetti e versioni diverse. Un file .mcpack è di solito un pacchetto risorse o comportamento e un .mcaddon raccoglie contenuti addon; nessuno dei due va trattato automaticamente come un mondo completo .mcworld.",
+      "L'abitudine più sicura è iniziare in un mondo copiato o temporaneo. Controlla spawn, costruzioni, terreno, dipendenze e obiettivo prima di aprire il file in una sopravvivenza lunga o in un Realm condiviso. Un'immagine di anteprima aiuta a scegliere, ma non dimostra compatibilità e disponibilità attuali."
+    ],
+    "cards": [
+      {"title": "Segnale di un mondo", "text": ".mcworld è un pacchetto comune per un mondo Bedrock. Una fonte con edizione, versione, tipo di file e autore è più facile da verificare di un semplice mirror."},
+      {"title": "Separa i formati", "text": ".mcpack è di solito un pacchetto e .mcaddon un addon. Non considerarli un mondo completo senza una spiegazione chiara della fonte."},
+      {"title": "Primo test", "text": "Apri la mappa importata in una copia o in un mondo temporaneo. Tieni separato il salvataggio principale fino alla verifica."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Ordine sicuro",
+    "title": "Come scaricare e importare mappe Minecraft Bedrock",
+    "description": "La sequenza evita edizione sbagliata, file rinominati, importazioni incomplete e prove fatte sull'unica copia di un mondo importante. Se cerchi come scaricare mappe Minecraft, come installare mappe Minecraft o come aggiungere mappe a Minecraft, controlla prima edizione e pacchetto, poi importa e prova il mondo.",
+    "items": [
+      {"title": "Scegli una fonte con contesto", "text": "Preferisci la pagina dell'autore, il Marketplace, una piattaforma di mappe mantenuta o una community riconosciuta che indichi edizione, versione, formato, data e dipendenze. Un pulsante senza contesto è solo un punto di partenza."},
+      {"title": "Conferma il tipo di pacchetto", "text": "Guarda l'estensione originale prima di aprire o estrarre. .mcworld indica spesso un mondo Bedrock; .mcpack e .mcaddon indicano spesso pacchetti o addon. Un .jar o una cartella mondo Java richiede un altro percorso."},
+      {"title": "Leggi edizione e versione", "text": "Controlla le indicazioni Bedrock, Windows o mobile e confronta la versione citata con quella installata. Conserva le note su esperimenti, pacchetti necessari e versione minima."},
+      {"title": "Proteggi il mondo principale", "text": "Copia il mondo di destinazione o crea un mondo di prova. Una mappa avventura può contenere comandi, esperimenti, pacchetti o grandi aree generate."},
+      {"title": "Scarica senza rinominare", "text": "Salva il file in un percorso noto e mantieni l'estensione originale. Usa Apri con Minecraft solo dopo i controlli. Cambiare .zip in .mcworld non ricostruisce la struttura interna."},
+      {"title": "Attendi l'importazione", "text": "Lascia che Minecraft termini il messaggio di importazione prima di chiudere l'app. Il selettore file cambia secondo il dispositivo; senza conferma, ricontrolla fonte e pacchetto."},
+      {"title": "Apri e prova il mondo", "text": "Cerca la nuova voce nella schermata Gioca, controlla immagine e descrizione e caricala nella copia preparata. Verifica spawn, obiettivo e pacchetti prima del salvataggio originale."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Controllo del file",
+    "title": "Riconoscere una mappa Bedrock, un addon o un file Java",
+    "paragraphs": [
+      "L'estensione è un primo indizio, non una garanzia di sicurezza. .mcworld viene usato spesso per mondi Bedrock, .mcpack per pacchetti risorse o comportamento e .mcaddon per contenuti addon. Una pagina può offrire più file: leggi descrizione e dipendenze prima di scegliere. Se promette Bedrock ma offre solo un .jar o istruzioni Fabric e Forge, pagina e file non corrispondono.",
+      "Una buona fonte descrive il file ricevuto: autore o progetto, edizione, versione, piattaforma, formato, data e immagini coerenti. Non certifica il file, ma offre elementi concreti da confrontare con il pacchetto ricevuto.",
+      "Fai attenzione agli archivi con molte cartelle annidate. Un zip può essere usato perché il browser non conserva l'associazione .mcworld, ma non devi indovinare quale cartella aprire. Controlla se la fonte chiede di rinominare, estrarre una cartella mondo o usare un percorso preciso.",
+      "Per server, famiglia o costruzioni lunghe, conserva URL e data della verifica. Dipendenze e file vecchi possono cambiare. Annotare edizione, versione e formato accanto al nome della mappa rende più facile ripetere un'importazione funzionante."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-file-check.webp",
+      "alt": "Illustrazione editoriale di un pacchetto mondo, una cartella Bedrock, un tablet e una lente",
+      "caption": "Illustrazione concettuale, non un'interfaccia ufficiale. Controlla pacchetto, fonte ed edizione prima dell'importazione."
+    }
+  },
+  "table": {
+    "eyebrow": "Tabella dei formati",
+    "title": "File delle mappe Minecraft Bedrock a confronto",
+    "description": "Usa l'estensione come punto di partenza e confrontala con la fonte. Il formato indica un uso comune, non garantisce che ogni file sia assemblato correttamente.",
+    "headers": ["Cosa cerchi", "Segnale comune", "Cosa controllare", "Dove usarlo"],
+    "rows": [
+      ["Mondo Bedrock completo", ".mcworld", "Edizione, versione, importazione e descrizione", "Nuovo mondo in Gioca"],
+      ["Pacchetto risorse", ".mcpack o cartella", "Tipo, risoluzione, versione e attivazione", "Impostazioni del mondo o globali"],
+      ["Pacchetto comportamento o addon", ".mcpack o .mcaddon", "Dipendenze, esperimenti e risorse", "Impostazioni dopo l'importazione"],
+      ["Mondo Java", ".zip o cartella estratta", "Versione Java, saves e loader", "Salvataggio Java, non import Bedrock"],
+      ["Archivio sconosciuto", ".zip, .rar o nome cambiato", "Fonte, struttura interna e piattaforma", "Non aprire nel mondo principale"],
+      ["Anteprima", "Immagine o video", "File reale ed edizione dichiarata", "Scoperta, non pacchetto d'installazione"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Test del mondo",
+    "title": "Giocare la mappa importata senza rischiare il mondo principale",
+    "paragraphs": [
+      "Una mappa mondo non si attiva come un pacchetto risorse o comportamento. Dopo aver importato .mcworld, cerca e apri il nuovo mondo. Se contiene pacchetti, Minecraft può mostrare risorse o comportamenti da attivare in quel mondo. Un'importazione completata non attiva necessariamente ogni dipendenza.",
+      "Considera il primo caricamento un test di compatibilità. Il mondo deve aprirsi senza errori, lo spawn deve corrispondere alla descrizione e obiettivo e percorso devono essere presenti. Se servono esperimenti, comandi, impostazioni o una versione specifica, annotali prima di invitare altri giocatori o spostare il mondo in un Realm.",
+      "Una copia permette un confronto pulito. Se comando, pacchetto o aggiornamento cambia il risultato, puoi cancellare solo il test. Le mappe grandi possono richiedere tempo al primo caricamento; la miniatura non basta per giudicare la compatibilità.",
+      "Dopo un test riuscito, conserva un backup del mondo funzionante e le note della fonte. Con aggiornamenti, cambi di dispositivo o condivisione, edizione e versione aiutano a ricostruire la configurazione senza partire da una cartella misteriosa."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-test-world.webp",
+      "alt": "Illustrazione editoriale di un mondo di prova copiato che porta dai backup a un'isola Bedrock",
+      "caption": "Illustrazione concettuale, non gameplay. Prova una copia prima di usare un salvataggio a lungo termine."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Risoluzione dei problemi",
+    "title": "Errori comuni con le mappe Minecraft Bedrock",
+    "description": "Controlla un confine alla volta: fonte e pacchetto, importazione locale, poi impostazioni del mondo.",
+    "cards": [
+      {"title": "La mappa è per Java", "text": "Cartella mondo Java, .jar, profilo Fabric o istruzioni Forge non sono un import Bedrock. Cerca una versione indicata per Bedrock."},
+      {"title": "Hai cambiato estensione", "text": "Trasformare .zip in .mcworld non ricostruisce il contenuto. Segui la fonte e conserva l'originale."},
+      {"title": "Importata ma assente", "text": "Controlla la schermata Gioca, riavvia Minecraft se serve e verifica che il file sia stato aperto dall'app corretta."},
+      {"title": "Manca contenuto", "text": "Cerca pacchetti risorse, comportamento, esperimenti o versione minima. Un mondo può aprirsi senza dipendenze."},
+      {"title": "Test nel solo salvataggio", "text": "Usa una copia. Comandi o pacchetti inattesi restano nel test e non nell'originale."},
+      {"title": "La schermata è una prova", "text": "Un'immagine mostra una scena prevista, non formato, versione, dipendenze o disponibilità attuale del file."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Continua con la guida giusta",
+    "title": "Pagine Minecraft collegate a edizioni e file",
+    "description": "Scegli la pagina che corrisponde al contenuto importato. Separare mondi, pacchetti, addon ed edizioni evita molti errori.",
+    "links": [
+      {"title": "Guida Verity Bedrock", "text": "Controlla note del pacchetto e della fonte prima di scaricare un file per una specifica edizione.", "url": "/bedrock/", "cta": "Apri guida Bedrock"},
+      {"title": "Addon Bedrock", "text": "Per .mcaddon o .mcpack che aggiungono comportamento o risorse a un mondo.", "url": "/bedrock-addons/", "cta": "Leggi i passaggi addon"},
+      {"title": "Pacchetti risorse Minecraft", "text": "Confronta formati, attivazione e differenze tra Java e Bedrock per le texture.", "url": "/minecraft-resource-packs/", "cta": "Confronta formati"},
+      {"title": "Seed Minecraft", "text": "Un seed genera un mondo da un numero; non è come importare un mondo di mappa già pronto.", "url": "/minecraft-seeds/", "cta": "Leggi la guida seed"},
+      {"title": "Java o Bedrock", "text": "Controlla i confini dell'edizione quando pagina o file non chiariscono la piattaforma.", "url": "/java-vs-bedrock/", "cta": "Confronta edizioni"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Riferimenti",
+    "title": "Dove verificare i dettagli della piattaforma",
+    "description": "Le pagine ufficiali aiutano a controllare app, dispositivo e spazio di archiviazione. Una fonte esterna di mappe va comunque verificata per edizione e pacchetto.",
+    "links": [
+      {"title": "Centro assistenza Minecraft", "text": "Usa l'assistenza ufficiale per informazioni aggiornate su dispositivo, archiviazione e supporto quando l'importazione dipende dalla piattaforma.", "url": "https://help.minecraft.net/hc/en-us", "cta": "Apri assistenza ufficiale"},
+      {"title": "Pagina ufficiale Minecraft", "text": "Conferma il contesto ufficiale del gioco e della piattaforma prima di diagnosticare una confusione causata da una pagina esterna.", "url": "https://www.minecraft.net/en-us/download", "cta": "Apri la pagina ufficiale"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Domande frequenti sulle mappe Minecraft Bedrock",
+    "items": [
+      {"question": "Quale file si usa di solito per le mappe Minecraft Bedrock?", "answer": ".mcworld è un pacchetto comune per un mondo Bedrock importabile. Alcune fonti offrono zip o cartelle estratte: controlla le istruzioni prima di rinominare o aprire."},
+      {"question": "Posso usare una mappa Java in Bedrock?", "answer": "Non automaticamente. Java e Bedrock usano salvataggi e contenuti diversi. Cerca una versione esplicitamente per Bedrock o una conversione affidabile per quella mappa e versione."},
+      {"question": "Come installo una mappa scaricata in Minecraft Bedrock?", "answer": "Controlla fonte e formato, conserva l'estensione, apri .mcworld con Minecraft, attendi l'importazione e cerca il mondo in Gioca. Prova prima una copia."},
+      {"question": "Perché la mappa Bedrock importata non appare?", "answer": "Cause comuni sono importazione incompleta, pacchetto che è in realtà un addon o file Java, versione incompatibile, app sbagliata o riavvio necessario. Ricontrolla il pacchetto prima di cercare un altro mirror."},
+      {"question": "Una mappa Bedrock è uguale a un addon Bedrock?", "answer": "No. Una mappa è di solito un mondo da caricare; un addon modifica il contenuto con pacchetti risorse e comportamento. La fonte deve spiegare entrambe le fasi se sono insieme."},
+      {"question": "Devo provare una mappa prima di usarla nel mondo principale?", "answer": "Sì. Usa una copia o un mondo temporaneo per controllare spawn, dipendenze, esperimenti, comandi e versione, poi conserva un backup prima di condividere o spostare in un Realm."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Mappe Minecraft Bedrock: come scaricarle, importarle e provarle (2026)",
+      "description": "Guida pratica per scegliere, scaricare, importare e testare mappe Minecraft Bedrock.",
+      "url": "https://verityminecraft.blog/it/minecraft-bedrock-maps/",
+      "image": "https://verityminecraft.blog/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-feature.webp",
+      "datePublished": "2026-08-15",
+      "dateModified": "2026-08-15",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"}
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Quale file si usa di solito per le mappe Minecraft Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": ".mcworld è un pacchetto comune per un mondo Bedrock importabile. Alcune fonti offrono zip o cartelle estratte: controlla le istruzioni prima di rinominare o aprire."}},
+        {"@type": "Question", "name": "Posso usare una mappa Java in Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "Non automaticamente. Java e Bedrock usano salvataggi e contenuti diversi. Cerca una versione esplicitamente per Bedrock o una conversione affidabile per quella mappa e versione."}},
+        {"@type": "Question", "name": "Come installo una mappa scaricata in Minecraft Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "Controlla fonte e formato, conserva l'estensione, apri .mcworld con Minecraft, attendi l'importazione e cerca il mondo in Gioca. Prova prima una copia."}},
+        {"@type": "Question", "name": "Perché la mappa Bedrock importata non appare?", "acceptedAnswer": {"@type": "Answer", "text": "Cause comuni sono importazione incompleta, pacchetto che è in realtà un addon o file Java, versione incompatibile, app sbagliata o riavvio necessario. Ricontrolla il pacchetto prima di cercare un altro mirror."}},
+        {"@type": "Question", "name": "Una mappa Bedrock è uguale a un addon Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "No. Una mappa è di solito un mondo da caricare; un addon modifica il contenuto con pacchetti risorse e comportamento. La fonte deve spiegare entrambe le fasi se sono insieme."}},
+        {"@type": "Question", "name": "Devo provare una mappa prima di usarla nel mondo principale?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Usa una copia o un mondo temporaneo per controllare spawn, dipendenze, esperimenti, comandi e versione, poi conserva un backup prima di condividere o spostare in un Realm."}}
+      ]
+    }
+  }
+}

@@ -606,6 +606,27 @@ def localized_minecraft_seeds(lang):
     return render_core_page('minecraft-seeds', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-bedrock-maps/', strict_slashes=False)
+def minecraft_bedrock_maps():
+    """
+    渲染 Minecraft Bedrock 地图下载、导入与测试指南页面。
+
+    :return: Bedrock 地图指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-bedrock-maps', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-bedrock-maps/', strict_slashes=False)
+def localized_minecraft_bedrock_maps(lang):
+    """
+    渲染指定语言的 Minecraft Bedrock 地图下载、导入与测试指南页面。
+
+    :param lang: 语言代码
+    :return: 指定语言的 Bedrock 地图指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-bedrock-maps', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

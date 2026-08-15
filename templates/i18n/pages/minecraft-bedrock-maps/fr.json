@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Cartes Minecraft Bedrock : manuel d'importation (2026)",
+    "description": "Apprenez à choisir, télécharger, importer et tester une carte Minecraft Bedrock sans confondre un monde .mcworld avec un add-on ou un fichier Java.",
+    "image": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Manuel des cartes Bedrock",
+    "title": "Cartes Minecraft Bedrock : télécharger, importer et tester un monde (2026)",
+    "lede": "Les cartes Minecraft Bedrock sont souvent importées avec un fichier .mcworld, mais le téléchargement n'est que la première étape. Vérifiez l'édition, comparez la version indiquée avec votre installation et essayez la carte dans un monde copié ou temporaire avant d'utiliser votre sauvegarde principale.",
+    "support": "Cette page distingue les cartes du monde, les packs de ressources, les add-ons et les fichiers Java. Elle présente l'ordre d'importation le plus prudent sur Windows et mobile, puis une méthode de dépannage quand le monde n'apparaît pas ou se charge mal.",
+    "actions": [
+      {"label": "Vérifier la source Bedrock", "url": "/bedrock/", "class": "btn-primary"},
+      {"label": "Comparer les add-ons", "url": "/bedrock-addons/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-feature.webp",
+      "alt": "Illustration éditoriale d'un paquet de monde Bedrock passant entre un ordinateur et une tablette",
+      "caption": "Illustration conceptuelle, pas une capture officielle de Minecraft. Une carte doit être vérifiée pour l'édition, la version et l'appareil.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "Importer un monde Bedrock, puis tester une copie",
+    "paragraphs": [
+      "Pour la plupart des cartes Minecraft Bedrock, choisissez une source suivie, téléchargez le paquet sans le renommer, ouvrez le fichier .mcworld avec Minecraft, attendez la fin de l'importation puis cherchez le nouveau monde dans l'écran Jouer. Si le téléchargement est une archive zip ou un dossier de monde, suivez les indications de la source : tout fichier contenant le mot map n'est pas forcément prêt à être ouvert.",
+      "Le contrôle de l'édition est essentiel. Une carte Java et une carte Bedrock peuvent avoir le même thème et les mêmes captures, tout en utilisant des dossiers, des commandes, des packs et des versions différents. Un .mcpack est généralement un pack de ressources ou de comportement, tandis qu'un .mcaddon regroupe du contenu d'add-on ; aucun des deux ne doit être confondu avec un monde .mcworld.",
+      "La meilleure habitude est de commencer dans un monde copié ou temporaire. Vérifiez le point d'apparition, les constructions, le terrain, les dépendances et l'objectif de la carte avant de l'ouvrir dans une longue partie de survie ou un Realm partagé. Une image de présentation aide à choisir, mais ne prouve ni la version ni l'état actuel du fichier."
+    ],
+    "cards": [
+      {"title": "Indice d'un monde", "text": "Le .mcworld est un paquet courant pour un monde Bedrock. Une source qui indique édition, version, type de fichier et créateur est plus facile à vérifier qu'un simple miroir."},
+      {"title": "Séparer les formats", "text": "Un .mcpack est généralement un pack et un .mcaddon un add-on. Ne les considérez pas comme un monde complet sans explication claire de la source."},
+      {"title": "Premier test", "text": "Chargez la carte dans une copie ou un monde temporaire. Gardez la sauvegarde principale à l'écart jusqu'à la fin des vérifications."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Ordre d'importation",
+    "title": "Comment télécharger et importer une carte Minecraft Bedrock",
+    "description": "Cet ordre limite les erreurs d'édition, les extensions modifiées, les importations incomplètes et les essais effectués sur l'unique copie d'un monde important. Si vous cherchez comment télécharger des cartes Minecraft, comment installer une carte Minecraft ou comment ajouter une carte à Minecraft, vérifiez d'abord l'édition et le paquet avant d'importer et de tester le monde.",
+    "items": [
+      {"title": "Choisir une source documentée", "text": "Privilégiez la page du créateur, une liste officielle, une plateforme maintenue ou une communauté reconnue qui indique l'édition, la version, le type de fichier, la date et les dépendances. Un bouton court sans contexte n'est pas une preuve de compatibilité."},
+      {"title": "Confirmer le paquet", "text": "Regardez l'extension originale avant de l'ouvrir. .mcworld désigne souvent un monde Bedrock ; .mcpack et .mcaddon désignent souvent des packs ou des add-ons. Un .jar, un monde Java ou une archive Java demande une autre procédure."},
+      {"title": "Lire l'édition et la version", "text": "Vérifiez les mentions Bedrock, Windows ou mobile, puis comparez la version du jeu indiquée avec celle installée. Notez aussi les expériences, packs requis et versions minimales."},
+      {"title": "Protéger la sauvegarde", "text": "Copiez le monde de destination ou créez un monde de test. Une carte d'aventure peut contenir des commandes, des réglages expérimentaux, des packs ou de grandes zones générées."},
+      {"title": "Télécharger sans renommer", "text": "Conservez l'extension originale et enregistrez le fichier dans un emplacement connu. Utilisez Ouvrir avec Minecraft seulement après le contrôle de la source et du type de fichier. Renommer un zip en .mcworld ne reconstruit pas sa structure."},
+      {"title": "Attendre la fin de l'importation", "text": "Laissez Minecraft terminer son message d'importation. Le sélecteur de fichiers diffère selon l'appareil ; si aucune confirmation n'apparaît, revérifiez le paquet et les instructions au lieu de répéter la même action."},
+      {"title": "Ouvrir et tester le monde", "text": "Trouvez la nouvelle entrée dans Jouer, vérifiez sa miniature et chargez-la dans la copie prévue. Contrôlez le point d'apparition, l'objectif et les packs nécessaires avant de toucher à la sauvegarde originale."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Contrôle du fichier",
+    "title": "Reconnaître une carte Bedrock, un add-on ou un fichier Java",
+    "paragraphs": [
+      "L'extension est un premier indice, pas une garantie de sécurité. .mcworld sert souvent à un monde Bedrock, .mcpack à un pack de ressources ou de comportement et .mcaddon à un ensemble d'add-on. Une page peut proposer plusieurs fichiers : lisez la description et les dépendances avant de choisir. Une page qui promet Bedrock mais ne donne qu'un .jar ou des instructions Fabric et Forge n'est pas cohérente avec le fichier.",
+      "Une bonne page source explique ce que vous téléchargez : identité du créateur, édition, version, plateforme, type de fichier, date et images correspondant au contenu. Ces informations ne certifient pas le fichier, mais elles permettent de comparer la page, le nom et le paquet local.",
+      "Méfiez-vous des archives contenant plusieurs niveaux de dossiers. Le zip peut être utilisé parce qu'un navigateur ne conserve pas l'association .mcworld, mais il ne faut pas deviner quel dossier ouvrir. Vérifiez si la source demande de renommer, d'extraire un dossier de monde ou d'utiliser un chemin précis.",
+      "Pour un serveur, une famille ou une construction longue, conservez l'URL de la source et la date de vérification. Les dépendances et les anciens fichiers peuvent changer. Notez l'édition, la version et le type de fichier à côté du nom de la carte pour pouvoir reproduire une installation fonctionnelle."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-file-check.webp",
+      "alt": "Illustration éditoriale d'un paquet de monde, d'un dossier Bedrock, d'une tablette et d'une loupe",
+      "caption": "Illustration conceptuelle, pas une interface officielle. Vérifiez le paquet, la source et l'édition avant l'importation."
+    }
+  },
+  "table": {
+    "eyebrow": "Tableau des formats",
+    "title": "Les fichiers de cartes Minecraft Bedrock en un coup d'œil",
+    "description": "Utilisez l'extension comme point de départ et comparez-la toujours avec la page source. Un type de fichier décrit un usage courant, pas la qualité de chaque téléchargement.",
+    "headers": ["Ce que vous cherchez", "Indice courant", "À vérifier", "Où l'utiliser"],
+    "rows": [
+      ["Un monde Bedrock complet", ".mcworld", "Édition, version, importation et description", "Nouvelle entrée dans Jouer"],
+      ["Un pack de ressources", ".mcpack ou dossier", "Type, résolution, version et activation", "Réglages du monde ou ressources globales"],
+      ["Un pack de comportement ou add-on", ".mcpack ou .mcaddon", "Dépendances, expériences et parties du pack", "Réglages du monde après importation"],
+      ["Un monde Java", ".zip ou dossier extrait", "Version Java, dossier saves et loader", "Sauvegarde Java, pas importation Bedrock"],
+      ["Une archive inconnue", ".zip, .rar ou nom modifié", "Source, structure interne et plateforme", "Ne pas ouvrir dans le monde principal"],
+      ["Une présentation", "Image ou vidéo", "Présence d'un vrai fichier et édition", "Découverte, pas paquet d'installation"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Test du monde",
+    "title": "Jouer la carte importée sans risquer le monde principal",
+    "paragraphs": [
+      "Une carte du monde ne s'active pas comme un pack de ressources ou de comportement. Après l'importation d'un .mcworld, cherchez et ouvrez le nouveau monde. Si la carte contient des packs, Minecraft peut aussi afficher des ressources ou comportements à activer dans ce monde. L'importation seule n'active pas forcément toutes les dépendances.",
+      "Considérez le premier chargement comme un test de compatibilité. Le monde doit s'ouvrir sans erreur, le point d'apparition doit correspondre à la description et l'objectif ou le parcours doit être présent. Notez les expériences, commandes, réglages ou versions nécessaires avant d'inviter d'autres joueurs ou de déplacer le monde dans un Realm.",
+      "Une copie donne un point de comparaison propre. Si une commande, un pack ou une mise à jour change le terrain, vous pouvez supprimer le test sans perdre la survie. Les grandes cartes peuvent demander plus de temps au premier chargement ; une miniature ne suffit pas à juger la compatibilité.",
+      "Une fois le test validé, gardez une sauvegarde du monde et les notes de la source. Lors d'une mise à jour, d'un changement d'appareil ou d'un partage, les informations d'édition et de version évitent de repartir d'un dossier sans explication."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-test-world.webp",
+      "alt": "Illustration éditoriale d'un monde de test copié menant des sauvegardes vers une île Bedrock",
+      "caption": "Illustration conceptuelle, pas une scène de jeu. Testez une copie avant d'utiliser une sauvegarde longue."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Dépannage",
+    "title": "Erreurs fréquentes avec les cartes Minecraft Bedrock",
+    "description": "Vérifiez une limite à la fois : la source et le paquet, l'importation locale, puis les réglages du monde.",
+    "cards": [
+      {"title": "La carte est pour Java", "text": "Un dossier de monde Java, un .jar, un profil Fabric ou une instruction Forge ne correspond pas à une importation Bedrock. Cherchez une version Bedrock."},
+      {"title": "L'extension a été changée", "text": "Transformer un .zip en .mcworld ne reconstruit pas le contenu. Suivez la source et gardez le fichier original."},
+      {"title": "Le monde n'apparaît pas", "text": "Revérifiez l'écran Jouer, redémarrez Minecraft si nécessaire et confirmez que le fichier a été ouvert avec la bonne application."},
+      {"title": "Le contenu manque", "text": "Cherchez les packs de ressources, de comportement, expériences ou versions minimales. Un monde peut s'ouvrir sans ses dépendances."},
+      {"title": "Essai dans la seule sauvegarde", "text": "Utilisez une copie. Une commande ou un pack inattendu restera limité au test et ne détruira pas l'original."},
+      {"title": "La capture est considérée comme une preuve", "text": "Une image montre une intention, pas le type de fichier, la version, les dépendances ou la disponibilité actuelle du fichier."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Poursuivre avec la bonne page",
+    "title": "Pages Minecraft liées aux éditions et aux fichiers",
+    "description": "Choisissez la page correspondant au contenu que vous importez. Séparer mondes, packs, add-ons et éditions évite de nombreuses erreurs.",
+    "links": [
+      {"title": "Manuel Verity Bedrock", "text": "Consultez les notes de paquet et de source avant de télécharger un fichier pour une édition précise.", "url": "/bedrock/", "cta": "Ouvrir les conseils Bedrock"},
+      {"title": "Add-ons Bedrock", "text": "À utiliser pour un .mcaddon ou .mcpack qui ajoute du comportement ou des ressources à un monde.", "url": "/bedrock-addons/", "cta": "Voir les étapes add-on"},
+      {"title": "Packs de ressources Minecraft", "text": "Comparez les formats, l'activation et les différences entre éditions pour les textures.", "url": "/minecraft-resource-packs/", "cta": "Comparer les formats"},
+      {"title": "Graines Minecraft", "text": "Une graine génère un monde depuis un nombre ; elle ne remplace pas l'importation d'un monde de carte terminé.", "url": "/minecraft-seeds/", "cta": "Lire la page sur les graines"},
+      {"title": "Java ou Bedrock", "text": "Vérifiez les limites d'édition lorsqu'une page ou un fichier ne précise pas la plateforme.", "url": "/java-vs-bedrock/", "cta": "Comparer les éditions"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Références",
+    "title": "Où vérifier les informations de plateforme",
+    "description": "Les pages officielles aident à vérifier l'application, l'appareil et le stockage. Une source externe de cartes doit toujours être contrôlée pour son édition et son paquet.",
+    "links": [
+      {"title": "Centre d'aide Minecraft", "text": "Consultez l'aide officielle pour les informations actuelles sur l'appareil, le stockage et le support lorsque l'importation dépend de la plateforme.", "url": "https://help.minecraft.net/hc/en-us", "cta": "Ouvrir l'aide officielle"},
+      {"title": "Téléchargement officiel Minecraft", "text": "Confirmez le contexte officiel du jeu et de la plateforme avant de diagnostiquer une confusion provenant d'une page de cartes tierce.", "url": "https://www.minecraft.net/en-us/download", "cta": "Ouvrir le téléchargement"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Questions fréquentes sur les cartes Minecraft Bedrock",
+    "items": [
+      {"question": "Quel fichier est généralement utilisé pour une carte Minecraft Bedrock ?", "answer": "Le fichier .mcworld est un paquet courant pour un monde Bedrock importable. Certaines sources proposent un zip ou un dossier extrait : vérifiez leurs instructions avant de renommer ou d'ouvrir le fichier."},
+      {"question": "Puis-je utiliser une carte Java dans Bedrock ?", "answer": "Pas automatiquement. Java et Bedrock utilisent des sauvegardes et des contenus différents. Cherchez une version explicitement prévue pour Bedrock ou une conversion fiable pour cette carte et cette version."},
+      {"question": "Comment installer une carte téléchargée dans Minecraft Bedrock ?", "answer": "Contrôlez la source et le type de fichier, gardez l'extension, ouvrez le .mcworld avec Minecraft, attendez l'importation puis cherchez le monde dans Jouer. Testez d'abord une copie."},
+      {"question": "Pourquoi ma carte Bedrock importée n'apparaît-elle pas ?", "answer": "Une importation incomplète, un add-on ou fichier Java, une version non compatible, la mauvaise application ou un redémarrage nécessaire sont des causes courantes. Revérifiez le paquet avant de chercher un autre miroir."},
+      {"question": "Une carte Bedrock est-elle la même chose qu'un add-on ?", "answer": "Non. Une carte est généralement un monde à charger, tandis qu'un add-on modifie son contenu avec des packs de ressources et de comportement. Une source doit préciser les deux étapes lorsqu'ils sont réunis."},
+      {"question": "Faut-il tester une carte avant de l'utiliser dans le monde principal ?", "answer": "Oui. Utilisez une copie ou un monde temporaire pour vérifier le point d'apparition, les dépendances, les expériences, les commandes et la version, puis gardez une sauvegarde avant le partage."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Cartes Minecraft Bedrock : télécharger, importer et tester un monde (2026)",
+      "description": "Guide pratique pour choisir, télécharger, importer et tester une carte Minecraft Bedrock.",
+      "url": "https://verityminecraft.blog/fr/minecraft-bedrock-maps/",
+      "image": "https://verityminecraft.blog/static/images/minecraft-bedrock-maps/minecraft-bedrock-maps-feature.webp",
+      "datePublished": "2026-08-15",
+      "dateModified": "2026-08-15",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"}
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Quel fichier est généralement utilisé pour une carte Minecraft Bedrock ?", "acceptedAnswer": {"@type": "Answer", "text": "Le fichier .mcworld est un paquet courant pour un monde Bedrock importable. Certaines sources proposent un zip ou un dossier extrait : vérifiez leurs instructions avant de renommer ou d'ouvrir le fichier."}},
+        {"@type": "Question", "name": "Puis-je utiliser une carte Java dans Bedrock ?", "acceptedAnswer": {"@type": "Answer", "text": "Pas automatiquement. Java et Bedrock utilisent des sauvegardes et des contenus différents. Cherchez une version explicitement prévue pour Bedrock ou une conversion fiable pour cette carte et cette version."}},
+        {"@type": "Question", "name": "Comment installer une carte téléchargée dans Minecraft Bedrock ?", "acceptedAnswer": {"@type": "Answer", "text": "Contrôlez la source et le type de fichier, gardez l'extension, ouvrez le .mcworld avec Minecraft, attendez l'importation puis cherchez le monde dans Jouer. Testez d'abord une copie."}},
+        {"@type": "Question", "name": "Pourquoi ma carte Bedrock importée n'apparaît-elle pas ?", "acceptedAnswer": {"@type": "Answer", "text": "Une importation incomplète, un add-on ou fichier Java, une version non compatible, la mauvaise application ou un redémarrage nécessaire sont des causes courantes. Revérifiez le paquet avant de chercher un autre miroir."}},
+        {"@type": "Question", "name": "Une carte Bedrock est-elle la même chose qu'un add-on ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Une carte est généralement un monde à charger, tandis qu'un add-on modifie son contenu avec des packs de ressources et de comportement. Une source doit préciser les deux étapes lorsqu'ils sont réunis."}},
+        {"@type": "Question", "name": "Faut-il tester une carte avant de l'utiliser dans le monde principal ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Utilisez une copie ou un monde temporaire pour vérifier le point d'apparition, les dépendances, les expériences, les commandes et la version, puis gardez une sauvegarde avant le partage."}}
+      ]
+    }
+  }
+}

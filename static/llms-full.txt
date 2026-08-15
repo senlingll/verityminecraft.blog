@@ -10,6 +10,7 @@ Verity Minecraft is not affiliated with Mojang, Microsoft, Minecraft, CurseForge
 
 Contact: support@verityminecraft.blog
 - Minecraft seeds guide: https://verityminecraft.blog/minecraft-seeds/ explains world-seed selection, Java and Bedrock boundaries, version checks, survival and island goals, seed-map limitations, copied-world testing, and FAQ distinctions between world seeds and crop seeds.
+- Minecraft Bedrock maps guide: https://verityminecraft.blog/minecraft-bedrock-maps/ explains how to choose a source, distinguish .mcworld from .mcpack/.mcaddon and Java archives, import a Bedrock world, test a copy, and troubleshoot missing or incompatible maps.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/
 - Minecraft resource packs guide: https://verityminecraft.blog/minecraft-resource-packs/ explains Java and Bedrock formats, source checks, installation, activation, copied-world testing, and troubleshooting.
 - Minecraft Bedrock add-ons guide: https://verityminecraft.blog/bedrock-addons/ explains safe source checks, .mcaddon/.mcpack differences, import, activation, backup, and troubleshooting.

@@ -1651,6 +1651,28 @@ body.img2grid-page .preview-card h2 {
 }
 
 @media (max-width: 520px) {
+  .site-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 6px;
+    padding-inline: 10px;
+  }
+
+  .brand-text {
+    font-size: 18px;
+  }
+
+  .language-menu summary {
+    min-width: 68px;
+    padding-inline: 7px;
+    font-size: 12px;
+  }
+
+  .language-menu summary::after {
+    width: 6px;
+    height: 6px;
+    margin-left: 5px;
+  }
+
   .section-pad {
     padding: 62px 0;
   }
