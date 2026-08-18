@@ -10,6 +10,7 @@
 - [Verity Minecraft PE Guide](https://verityminecraft.blog/minecraft-pe/): PE, mobile, and APK search safety guidance.
 - [How to Install Verity Minecraft](https://verityminecraft.blog/how-to-install/): Step-by-step setup and troubleshooting.
 - [How to Install Minecraft Java Mods](https://verityminecraft.blog/how-to-install-java-mods/): Fabric, Forge, profile, dependency, mods-folder, and troubleshooting guidance.
+- [Minecraft Modpacks Guide](https://verityminecraft.blog/minecraft-modpacks/): Choose a Java modpack by version, loader, RAM, play style, source context, and multiplayer requirements, then install and test it in a separate profile.
 - [Verity Minecraft Versions](https://verityminecraft.blog/versions/): Version snapshot and compatibility notes.
 - [Minecraft Seeds Guide](https://verityminecraft.blog/minecraft-seeds/): Choose and test Java and Bedrock world seeds by goal, edition, version, and copied-world verification.
 - [Minecraft Bedrock Maps Guide](https://verityminecraft.blog/minecraft-bedrock-maps/): Download, identify, import, and safely test Bedrock world files without confusing maps, add-ons, resource packs, and Java archives.

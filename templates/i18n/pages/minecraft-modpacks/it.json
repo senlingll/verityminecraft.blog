@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Modpack Minecraft: scegliere e installare (2026)",
+    "description": "Scopri come scegliere i modpack Minecraft per versione, loader, RAM, fonte e stile di gioco e installarli in un profilo Java separato.",
+    "image": "/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida ai modpack Minecraft",
+    "title": "Modpack Minecraft: come scegliere, installare e risolvere i problemi (2026)",
+    "lede": "Il modpack Minecraft migliore non e sempre quello con l'elenco di funzioni piu lungo. Prima dell'importazione controlla versione di Minecraft, loader, launcher, RAM disponibile e obiettivo della partita.",
+    "support": "Questa guida spiega cosa contiene un modpack, come confrontare Fabric, Forge e NeoForge, come installarlo in un profilo Java separato e come analizzare dipendenze mancanti, crash, avvii lenti e differenze nel multiplayer.",
+    "actions": [
+      {"label": "Leggi installazione mod Java", "url": "/how-to-install-java-mods/", "class": "btn-primary"},
+      {"label": "Confronta Java e Bedrock", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
+      "alt": "Illustrazione editoriale di un modpack Minecraft Java con mondo, strumenti, automazione e file di contenuto accanto a un laptop",
+      "caption": "Illustrazione concettuale, non uno screenshot ufficiale del launcher. Un modpack e un insieme coordinato che deve corrispondere a un profilo Java compatibile.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Scegli prima il profilo e poi il file",
+    "paragraphs": [
+      "I modpack Minecraft raccolgono diversi mod Java, file di configurazione, librerie e talvolta pacchetti di risorse o script in una configurazione ripetibile. E utile perche gli elementi sono scelti per funzionare insieme, ma la compatibilita diventa piu importante rispetto a un singolo mod. Un pack creato per una versione e un loader non e automaticamente adatto a un'altra combinazione.",
+      "Inizia annotando la versione di Minecraft, il loader, il launcher o formato dell'istanza, la RAM consigliata e le istruzioni multiplayer indicate nella pagina del progetto. Poi crea un profilo separato, importa il pack da una fonte che mostra il contesto del progetto e del file, avvia una volta e prova un mondo nuovo o copiato. Non modificare il profilo abituale finche il test non e riuscito.",
+      "La parola modpack indica di solito contenuti per Java Edition. Add-on Bedrock, pacchetti di risorse, shader e modpack Java possono comparire nelle stesse ricerche, ma usano sistemi diversi. Un file .mcaddon o .mcpack non diventa un modpack Java cambiando nome, e un pack Java non va inserito nell'importazione Bedrock."
+    ],
+    "cards": [
+      {"title": "La versione e il primo filtro", "text": "Un pack puo offrire piu release. Scegli il file per la versione di Minecraft del profilo che avvierai e annota quel dato."},
+      {"title": "Il loader fa parte del pack", "text": "Fabric, Forge e NeoForge sono ambienti diversi. Un pack creato per un loader non si scambia automaticamente con un altro."},
+      {"title": "Prova fuori dal mondo principale", "text": "Un'istanza separata e un mondo copiato facilitano la rimozione di un pack rotto, la ricerca di una dipendenza e la protezione di una lunga partita."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Scelta e installazione",
+    "title": "Come installare modpack Minecraft in 7 passaggi",
+    "description": "Segui questo ordine con un launcher, un'istanza Modrinth o CurseForge oppure un'importazione manuale documentata. Riduce gli errori causati da file e profili non corrispondenti.",
+    "items": [
+      {"title": "1. Conferma Java Edition", "text": "I modpack sono normalmente destinati a Minecraft Java Edition. Se il file e .mcaddon o .mcpack, fermati e segui una procedura Bedrock invece di forzarlo in una cartella Java."},
+      {"title": "2. Registra la versione esatta", "text": "Annota la versione indicata dal file del pack, non solo quella di un risultato di ricerca. Una release 26.2 e un profilo 1.20.1 sono obiettivi diversi."},
+      {"title": "3. Abbina il loader", "text": "Controlla Fabric, Forge, NeoForge o l'ambiente gestito dal launcher. Non installare un loader diverso solo perche e gia presente in un altro profilo."},
+      {"title": "4. Controlla RAM e dipendenze", "text": "Leggi RAM minima e consigliata, versione Java, risorse opzionali e dipendenze. Piu RAM non significa sempre piu velocita se il sistema rimane senza memoria."},
+      {"title": "5. Importa in una nuova istanza", "text": "Usa l'azione di importazione documentata o crea un profilo pulito. Conserva archivio e URL del progetto per confrontare eventuali cambiamenti dopo un aggiornamento."},
+      {"title": "6. Avvia una volta senza extra", "text": "Lascia che l'istanza crei le cartelle e avviala solo con il pack. Se fallisce gia qui, versione, loader, Java o file sono cause piu probabili di un'aggiunta successiva."},
+      {"title": "7. Prova un mondo copiato e il multiplayer", "text": "Controlla una funzione attesa in un mondo nuovo o copiato. Per giocare con amici servono la stessa release, lo stesso loader, la stessa versione e gli stessi requisiti server."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Controllo di loader e compatibilita",
+    "title": "Confronta Fabric, Forge e NeoForge prima dell'importazione",
+    "paragraphs": [
+      "Il loader non e un'etichetta decorativa. Definisce hook, librerie e ambiente del profilo attesi dal pack. Fabric compare spesso in raccolte leggere o aggiornate rapidamente, Forge e comune nei grandi ecosistemi di contenuti e NeoForge ha limiti propri di progetto e versione. La scelta corretta e quella indicata dalla release del pack.",
+      "Controlla la pagina del file e non solo il titolo. Cerca versione esatta di Minecraft, loader, runtime Java, dipendenze, componenti client o server e note di aggiornamento. La pagina del progetto descrive l'idea; il file specifico definisce la release installabile.",
+      "Preferisci una pagina mantenuta su Modrinth o CurseForge, la pagina documentata dell'autore o un launcher che conservi i metadati del progetto. Un mirror puo rinominare un archivio, eliminare il changelog, aggiungere un installer indesiderato o lasciare online un file vecchio. Un pulsante da solo non prova la compatibilita.",
+      "La pagina ufficiale per scaricare Minecraft e la documentazione del loader aiutano a confermare il launcher e il percorso base. Non certificano che ogni modpack della comunita funzioni con la versione corrente: servono le note del file e un profilo di test."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-modpacks/minecraft-modpacks-loader-comparison.webp",
+      "alt": "Confronto editoriale dei percorsi Fabric, Forge e NeoForge collegati a versioni Minecraft compatibili",
+      "caption": "Confronto concettuale, non una vera interfaccia del launcher. La coppia versione-loader e il contratto di compatibilita del modpack."
+    }
+  },
+  "table": {
+    "eyebrow": "Matrice decisionale",
+    "title": "Cosa confrontare scegliendo modpack Minecraft",
+    "description": "Usa la riga che corrisponde al tuo vincolo reale. Una lista di funzioni piu lunga non e automaticamente migliore per un computer modesto, un server o la prima installazione.",
+    "headers": ["Controllo", "Cosa confrontare", "Perche conta", "Azione"],
+    "rows": [
+      ["Versione Minecraft", "La versione esatta del file", "Generazione del mondo, API e binari possono cambiare.", "Scegli un file compatibile e annota la versione."],
+      ["Loader", "Fabric, Forge, NeoForge o ambiente indicato", "Il loader fornisce ambiente del profilo e regole delle dipendenze.", "Usa il loader del pack, non quello di un'altra istanza."],
+      ["RAM e Java", "Minimo, valore consigliato e runtime Java", "Un pack grande puo avviarsi lentamente o chiudersi con impostazioni sbagliate.", "Lascia memoria al sistema e prova prima degli shader."],
+      ["Stile di gioco", "Sopravvivenza, quest, automazione, esplorazione, RPG o costruzione", "Progressione e difficolta devono adattarsi all'obiettivo.", "Leggi funzioni e note recenti, non solo la miniatura."],
+      ["Multiplayer", "Pack server, mod client e release condivisa", "File diversi o requisiti server possono impedire l'accesso.", "Concordate una release e provate un mondo senza valore."],
+      ["Contesto della fonte", "Identita, data, changelog e dipendenze", "Archivi ripubblicati possono essere vecchi, rinominati o incompleti.", "Preferisci una pagina mantenuta con metadati visibili."]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Profilo di prova e problemi",
+    "title": "Installa un modpack senza rischiare il mondo principale",
+    "paragraphs": [
+      "Considera il primo avvio un test di compatibilita, non l'inizio di un mondo permanente. Lascia che la nuova istanza crei log, salvataggi e configurazioni propri. Se il launcher usa una cartella di istanza separata, il primo .minecraft trovato potrebbe non essere quello corretto. Il percorso del profilo e la verifica piu affidabile.",
+      "Inizia con il solo pack. Non aggiungere shader, pacchetti di risorse, mod di performance o una seconda raccolta finche il pack base non arriva al menu e apre un mondo copiato o temporaneo. La regola di una modifica alla volta rende utile il primo errore.",
+      "Per i problemi di RAM, confronta la raccomandazione del pack con la memoria totale del computer. Troppa poca memoria puo causare crash; troppa puo lasciare senza risorse il sistema e produrre scatti. Chiudi le app inutili, usa il runtime consigliato e cambia un'impostazione per volta.",
+      "Dopo un test pulito, annota release, versione Minecraft, loader, Java, launcher o percorso dell'istanza e requisiti server. Fai un backup del mondo prima di un aggiornamento importante, cosi puoi tornare al profilo noto se il pack cambia."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-modpacks/minecraft-modpacks-step-flow.webp",
+      "alt": "Flusso editoriale in tre passaggi per scegliere, installare e provare un modpack Minecraft in sicurezza",
+      "caption": "Flusso concettuale, non gameplay: scegli una release compatibile, installa in un profilo separato e prova prima del salvataggio principale."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Errori comuni",
+    "title": "Perche un modpack Minecraft va in crash, rallenta o non si connette",
+    "description": "La maggior parte dei problemi si restringe controllando un confine alla volta. Scaricare lo stesso archivio da un altro mirror spesso elimina indizi utili.",
+    "cards": [
+      {"title": "Versione sbagliata", "text": "Il launcher puo avviarsi anche se il pack richiede un'altra versione. Abbina file e profilo attivo."},
+      {"title": "Loader sbagliato", "text": "Fabric, Forge e NeoForge non sono intercambiabili. Usa il loader del pack e non mescolare profili."},
+      {"title": "RAM insufficiente o eccessiva", "text": "Segui la raccomandazione, lascia memoria al sistema e aumenta gradualmente solo se i dati indicano pressione sulla memoria."},
+      {"title": "Dipendenza mancante", "text": "Puo mancare una libreria, un'API, il runtime Java o un componente server. Leggi il primo errore e le note della release."},
+      {"title": "Extra aggiunti troppo presto", "text": "Shader, risorse e mod di performance possono cambiare l'errore. Riproduci il pack pulito e aggiungi un extra alla volta."},
+      {"title": "Release multiplayer diverse", "text": "Giocatori e server hanno bisogno di file compatibili. Concordate lo stesso file prima di una partita lunga."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Approfondimenti Verity correlati",
+    "title": "Tieni i modpack separati dagli altri contenuti Minecraft",
+    "description": "Usa la pagina che corrisponde al file o all'attivita che hai davvero. Separare modpack Java, mod singoli, add-on Bedrock e pacchetti di risorse evita errori nelle cartelle.",
+    "links": [
+      {"title": "Installare mod Minecraft Java", "url": "/how-to-install-java-mods/", "text": "Segui il flusso per un mod Fabric o Forge, cartella mods, dipendenze ed errori del loader.", "cta": "Leggi i passaggi Java"},
+      {"title": "Minecraft Java e Bedrock", "url": "/java-vs-bedrock/", "text": "Conferma l'edizione prima di trattare un file come modpack Java o add-on Bedrock.", "cta": "Confronta le edizioni"},
+      {"title": "Pacchetti di risorse Minecraft", "url": "/minecraft-resource-packs/", "text": "Usa il percorso delle risorse invece di mettere una texture nella cartella mods.", "cta": "Controlla i formati"},
+      {"title": "Versioni di Verity Minecraft", "url": "/versions/", "text": "Rivedi le note del sito e separale dai dati di compatibilita del file del pack.", "cta": "Vedi le versioni"},
+      {"title": "Add-on Minecraft Bedrock", "url": "/bedrock-addons/", "text": "Passa a questa guida se il file e .mcaddon o .mcpack e la destinazione e Bedrock.", "cta": "Leggi Bedrock"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Riferimenti principali",
+    "title": "Fonti ufficiali e mantenute per configurare i modpack",
+    "description": "Questi link aiutano a confermare launcher, loader e percorsi di scoperta. Versione e dipendenze vanno sempre controllate nel file del pack.",
+    "links": [
+      {"title": "Scaricare Minecraft", "url": "https://www.minecraft.net/it-it/download", "text": "Ingresso ufficiale a launcher ed edizioni per confermare l'ambiente Java.", "cta": "Apri Minecraft"},
+      {"title": "Wiki installazione Fabric", "url": "https://fabricmc.net/wiki/install", "text": "La documentazione Fabric distingue launcher Mojang, launcher alternativi e server.", "cta": "Leggi Fabric"},
+      {"title": "Modrinth Modpacks", "url": "https://modrinth.com/modpacks", "text": "Pagina mantenuta con filtri per categoria, ambiente, versione, loader e licenza.", "cta": "Esplora Modrinth"},
+      {"title": "CurseForge Modpacks", "url": "https://www.curseforge.com/minecraft/modpacks", "text": "Ecosistema importante di progetti e launcher. Controlla il file e le note prima dell'importazione.", "cta": "Apri CurseForge"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Domande frequenti sui modpack Minecraft",
+    "items": [
+      {"question": "Cosa sono i modpack Minecraft?", "answer": "Un modpack Minecraft e una raccolta coordinata di mod Java, configurazioni, librerie e talvolta risorse o script, installata come profilo o istanza compatibile."},
+      {"question": "Come installo un modpack Minecraft senza mescolare le versioni?", "answer": "Scegli il file per versione e loader, importalo in una nuova istanza Java, avvia una volta e prova un mondo copiato prima degli extra o del mondo principale."},
+      {"question": "Posso usare un modpack senza l'app Modrinth?", "answer": "Spesso si, se il pack offre un archivio documentato o un percorso supportato dal launcher. Segui le istruzioni di istanza e loader senza usare cartelle casuali."},
+      {"question": "Perche il mio modpack Minecraft crasha all'avvio?", "answer": "Controlla versione, loader, runtime Java, memoria, dipendenze e primo errore del log. Riproduci il pack pulito prima di provare un altro mirror."},
+      {"question": "Quanta RAM serve per i modpack Minecraft?", "answer": "Dipende da pack, versione, Java e computer. Inizia dalla raccomandazione, lascia memoria al sistema e aumenta gradualmente se ci sono segnali di pressione."},
+      {"question": "Posso usare un modpack Java su Minecraft Bedrock o PE?", "answer": "No. Java usa loader e istanze; Bedrock e PE usano add-on, pacchetti di risorse e attivazione dei mondi. Cerca una release specifica per Bedrock."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Modpack Minecraft: come scegliere, installare e risolvere i problemi (2026)",
+      "description": "Guida di compatibilita per scegliere e installare modpack Minecraft con versione, loader, memoria, fonte e profilo di prova corretti.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
+      "datePublished": "2026-08-19",
+      "dateModified": "2026-08-19",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-modpacks/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Cosa sono i modpack Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Un modpack e una raccolta coordinata di mod Java, configurazioni, librerie e risorse installata come un'istanza compatibile."}},
+        {"@type": "Question", "name": "Come installo un modpack Minecraft senza mescolare le versioni?", "acceptedAnswer": {"@type": "Answer", "text": "Scegli il file per versione e loader, importalo in una nuova istanza Java e prova un mondo copiato prima degli extra."}},
+        {"@type": "Question", "name": "Posso usare un modpack senza l'app Modrinth?", "acceptedAnswer": {"@type": "Answer", "text": "Spesso si se esiste un archivio documentato o un percorso di launcher supportato. Segui le istruzioni di istanza e loader."}},
+        {"@type": "Question", "name": "Perche il mio modpack Minecraft crasha all'avvio?", "acceptedAnswer": {"@type": "Answer", "text": "Controlla versione, loader, Java, memoria, dipendenze e primo errore del log prima di cambiare mirror."}},
+        {"@type": "Question", "name": "Quanta RAM serve per i modpack Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Inizia dalla raccomandazione del pack, lascia memoria al sistema e aumenta gradualmente se ci sono prove di pressione."}},
+        {"@type": "Question", "name": "Posso usare un modpack Java su Minecraft Bedrock o PE?", "acceptedAnswer": {"@type": "Answer", "text": "No. Java usa loader e istanze; Bedrock e PE usano add-on, risorse e attivazione dei mondi."}}
+      ]
+    }
+  }
+}

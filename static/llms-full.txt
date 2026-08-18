@@ -16,5 +16,6 @@ Contact: support@verityminecraft.blog
 - Minecraft Bedrock add-ons guide: https://verityminecraft.blog/bedrock-addons/ explains safe source checks, .mcaddon/.mcpack differences, import, activation, backup, and troubleshooting.
 - Minecraft Java vs Bedrock guide: https://verityminecraft.blog/java-vs-bedrock/ compares devices, crossplay, mods, servers, performance, and the separate Verity Java and Bedrock install paths.
 - Minecraft Java mods install guide: https://verityminecraft.blog/how-to-install-java-mods/ covers loader selection, profile setup, mods-folder placement, dependencies, safe testing, and troubleshooting.
+- Minecraft modpacks guide: https://verityminecraft.blog/minecraft-modpacks/ covers how to choose Minecraft modpacks by version, loader, RAM, play style, source context, and multiplayer requirements, then import and test a pack in a separate Java profile.
 - Minecraft Bedrock shaders guide: https://verityminecraft.blog/bedrock-shaders/ compares Vibrant Visuals, RTX/PBR, RenderDragon-compatible packs, device support, source checks, and safe test-world setup.
 - Minecraft Java shaders guide: https://verityminecraft.blog/minecraft-java-shaders/ compares Java shader paths, Iris and OptiFine loader checks, version matching, safe installation, and test-world troubleshooting.

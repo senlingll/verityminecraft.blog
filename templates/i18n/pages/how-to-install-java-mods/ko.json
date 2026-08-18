@@ -114,7 +114,8 @@
       {"title": "Verity Minecraft Java 다운로드", "url": "/java/", "text": "특정 Verity JE 모드를 설치하기 전에 현재 출처, Forge 프로필과 Java 파일 정보를 확인하세요.", "cta": "자바 메모 열기"},
       {"title": "Verity Minecraft 버전", "url": "/versions/", "text": "Java 파일을 Bedrock이나 PE 릴리스와 혼동하지 않고 플랫폼별로 확인하세요.", "cta": "버전 확인"},
       {"title": "Verity Minecraft 설치 방법", "url": "/how-to-install/", "text": "검색 결과에 Java, Bedrock, 모바일 절차가 섞여 있을 때 전체 흐름을 확인하세요.", "cta": "전체 가이드 열기"},
-      {"title": "Minecraft Java vs Bedrock", "url": "/java-vs-bedrock/", "text": "기기와 플레이 그룹에 맞는 에디션과 콘텐츠 생태계를 확인하세요.", "cta": "에디션 비교"}
+      {"title": "Minecraft Java vs Bedrock", "url": "/java-vs-bedrock/", "text": "기기와 플레이 그룹에 맞는 에디션과 콘텐츠 생태계를 확인하세요.", "cta": "에디션 비교"},
+      {"title": "Minecraft 모드팩 가이드", "url": "/minecraft-modpacks/", "text": "개별 모드와 의존성을 하나씩 추가하는 대신 조합된 Java 모드팩을 설치하려면 이 가이드를 확인하세요.", "cta": "모드팩 선택"}
     ]
   },
   "sources": {

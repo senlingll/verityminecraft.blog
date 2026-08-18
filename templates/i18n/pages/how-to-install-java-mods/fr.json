@@ -114,7 +114,8 @@
       {"title": "Téléchargement Verity Minecraft Java", "url": "/java/", "text": "Vérifiez la source actuelle de Verity JE, le profil Forge et le contexte du fichier Java.", "cta": "Voir les notes Java"},
       {"title": "Versions de Verity Minecraft", "url": "/versions/", "text": "Comparez les versions par plateforme sans prendre un fichier Java pour une release Bedrock ou PE.", "cta": "Vérifier les versions"},
       {"title": "Installer Verity Minecraft", "url": "/how-to-install/", "text": "Utilisez la vue d'ensemble lorsque votre recherche mélange Java, Bedrock et mobile.", "cta": "Ouvrir le guide général"},
-      {"title": "Minecraft Java ou Bedrock", "url": "/java-vs-bedrock/", "text": "Confirmez l'édition et l'écosystème adaptés à votre appareil et à votre groupe.", "cta": "Comparer les éditions"}
+      {"title": "Minecraft Java ou Bedrock", "url": "/java-vs-bedrock/", "text": "Confirmez l'édition et l'écosystème adaptés à votre appareil et à votre groupe.", "cta": "Comparer les éditions"},
+      {"title": "Guide des modpacks Minecraft", "url": "/minecraft-modpacks/", "text": "Consultez ce guide si vous voulez installer un pack Java coordonné plutôt que d'ajouter les mods et dépendances un par un.", "cta": "Choisir un modpack"}
     ]
   },
   "sources": {

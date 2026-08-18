@@ -627,6 +627,27 @@ def localized_minecraft_bedrock_maps(lang):
     return render_core_page('minecraft-bedrock-maps', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-modpacks/', strict_slashes=False)
+def minecraft_modpacks():
+    """
+    渲染 Minecraft Modpacks 选择、安装与兼容性排错指南页面。
+
+    :return: str，Minecraft Modpacks 指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-modpacks', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-modpacks/', strict_slashes=False)
+def localized_minecraft_modpacks(lang):
+    """
+    渲染指定语言的 Minecraft Modpacks 指南页面。
+
+    :param lang: 语言代码
+    :return: str，指定语言的 Minecraft Modpacks 指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-modpacks', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """
