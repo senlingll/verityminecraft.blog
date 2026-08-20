@@ -7,9 +7,6 @@
   <title>{% block title %}{{ page.meta.title if page.meta.title else common.seo.default_title }}{% endblock %}</title>
   <meta name="description"
     content="{% block description %}{{ page.meta.description if page.meta.description else common.seo.default_description }}{% endblock %}">
-  <meta name="google-adsense-account" content="ca-pub-9042195580058659">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9042195580058659"
-    crossorigin="anonymous"></script>
   {% if robots_content is defined and robots_content %}
   <meta name="robots" content="{{ robots_content }}">
   {% elif is_protected_page %}

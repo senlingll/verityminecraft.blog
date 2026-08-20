@@ -101,7 +101,7 @@ try:
         shutil.copytree('static', os.path.join(build_dir, 'static'))
 
     # 复制其他静态文件
-    for file in ['robots.txt', 'sitemap.xml', 'favicon.ico', 'llms.txt', 'llms-full.txt', 'ads.txt', '_redirects']:
+    for file in ['robots.txt', 'sitemap.xml', 'favicon.ico', 'llms.txt', 'llms-full.txt', '_redirects']:
         src = os.path.join('static', file)
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(build_dir, file))
