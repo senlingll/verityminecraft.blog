@@ -45,7 +45,7 @@
           "value": "2026年8月4日"
         }
       ],
-      "facts_aria": "Verity Minecraft ????????"
+      "facts_aria": "Verity Minecraft ダウンロード情報"
     },
     "downloads": {
       "eyebrow": "ここから開始",
@@ -94,9 +94,9 @@
         }
       ],
       "fact_labels": {
-        "version": "?????",
-        "file": "????",
-        "source": "???"
+        "version": "バージョン",
+        "file": "ファイル",
+        "source": "配布元"
       }
     },
     "table": {

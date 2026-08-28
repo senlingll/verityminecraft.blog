@@ -171,9 +171,9 @@
         "text": "버전"
       },
       {
-        "title": "Bedrock ??? ?",
+        "title": "Bedrock 리소스 팩",
         "url": "/bedrock-resource-packs/",
-        "text": "??? .mcpack ?? .mcaddon? ??? ??? ?? ? ??????"
+        "text": "Bedrock에서는 .mcpack 또는 .mcaddon 파일을 가져와 리소스 팩을 추가합니다."
       }
     ]
   },
