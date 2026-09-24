@@ -114,9 +114,9 @@
       <p>{{ page.related.description }}</p>
     </div>
     <div class="example-grid">
-      {% for link in page.related.links %}
+{% for link in page.related.links %}
       <article class="example-card"><h3>{{ link.title }}</h3><p>{{ link.text }}</p><a class="text-link" href="{% if current_lang != 'en' and link.url.startswith('/') %}/{{ current_lang }}{{ link.url }}{% else %}{{ link.url }}{% endif %}">{{ link.cta }}</a></article>
-      {% endfor %}
+{% endfor %}
     </div>
   </section>
 

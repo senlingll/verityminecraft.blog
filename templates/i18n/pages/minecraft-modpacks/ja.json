@@ -11,8 +11,16 @@
     "lede": "おすすめのマイクラ modpack は、機能が一番多いものとは限りません。導入前に Minecraft のバージョン、ローダー、ランチャー、使える RAM、遊びたい内容を確認しましょう。",
     "support": "この記事では modpack の中身、Fabric・Forge・NeoForge の違い、Java版の別プロファイルへの導入手順、依存関係の不足、クラッシュ、起動の遅さ、マルチプレイの不一致を順番に整理します。",
     "actions": [
-      {"label": "Java版 mod の導入手順", "url": "/how-to-install-java-mods/", "class": "btn-primary"},
-      {"label": "Java版とBedrock版を比較", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+      {
+        "label": "Java版 mod の導入手順",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Java版とBedrock版を比較",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-secondary"
+      }
     ],
     "image": {
       "src": "/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
@@ -31,9 +39,18 @@
       "modpack という言葉は通常 Java版のコンテンツを指します。Bedrock版のアドオン、リソースパック、シェーダー、Java版 modpack は検索結果で近くに表示されますが、仕組みは別です。.mcaddon や .mcpack の拡張子を変更しても Java版 modpack にはならず、Java版の pack を Bedrock版のインポート画面に入れることもできません。"
     ],
     "cards": [
-      {"title": "最初にバージョンを確認", "text": "同じ pack に複数の配布版がある場合があります。起動するプロファイルと同じ Minecraft バージョンのファイルを選び、メモを残します。"},
-      {"title": "ローダーも対応条件", "text": "Fabric、Forge、NeoForge は別の環境です。別ローダー用の pack を名前だけで置き換えないでください。"},
-      {"title": "本番ワールドの外で試す", "text": "別インスタンスとコピーしたワールドなら、壊れた pack の切り分けや依存関係の確認をしながら元のワールドを守れます。"}
+      {
+        "title": "最初にバージョンを確認",
+        "text": "同じ pack に複数の配布版がある場合があります。起動するプロファイルと同じ Minecraft バージョンのファイルを選び、メモを残します。"
+      },
+      {
+        "title": "ローダーも対応条件",
+        "text": "Fabric、Forge、NeoForge は別の環境です。別ローダー用の pack を名前だけで置き換えないでください。"
+      },
+      {
+        "title": "本番ワールドの外で試す",
+        "text": "別インスタンスとコピーしたワールドなら、壊れた pack の切り分けや依存関係の確認をしながら元のワールドを守れます。"
+      }
     ]
   },
   "steps": {
@@ -41,13 +58,34 @@
     "title": "マイクラ modpack を導入する7つの手順",
     "description": "ランチャー、Modrinth・CurseForge のインスタンス、または説明された手動導入を使う場合でも、次の順番にするとファイルの取り違えを減らせます。",
     "items": [
-      {"title": "1. Java版か確認する", "text": "modpack は通常 マインクラフトJava版向けです。.mcaddon や .mcpack なら、Java版のフォルダーに入れず Bedrock版の説明を確認します。"},
-      {"title": "2. 正確なバージョンを記録する", "text": "検索結果ではなく pack のファイルページに書かれたバージョンを使います。26.2 と古い1.20.1のプロファイルは別の対応条件です。"},
-      {"title": "3. ローダーを合わせる", "text": "Fabric、Forge、NeoForge、またはランチャー管理の環境かを確認します。別のプロファイルにあるローダーをそのまま使わないでください。"},
-      {"title": "4. RAMと依存関係を確認する", "text": "必要なRAM、推奨値、Javaのバージョン、追加リソース、依存ライブラリを読みます。RAMを増やせば必ず速くなるわけではありません。"},
-      {"title": "5. 新しいインスタンスへ入れる", "text": "説明されているインポート機能を使うか、空のプロファイルを作ります。元のアーカイブとプロジェクトURLを残しておくと更新時に比較できます。"},
-      {"title": "6. 追加要素なしで一度起動する", "text": "インスタンスにフォルダーを作らせ、まず pack だけで起動します。ここで失敗するなら、後から入れた mod よりバージョン、ローダー、Java、ファイルが原因の可能性が高いです。"},
-      {"title": "7. コピーしたワールドとマルチを試す", "text": "新規またはコピーしたワールドで代表的な機能を確認します。友達と遊ぶ場合は、全員が同じ pack、ローダー、バージョン、サーバー条件を使います。"}
+      {
+        "title": "1. Java版か確認する",
+        "text": "modpack は通常 マインクラフトJava版向けです。.mcaddon や .mcpack なら、Java版のフォルダーに入れず Bedrock版の説明を確認します。"
+      },
+      {
+        "title": "2. 正確なバージョンを記録する",
+        "text": "検索結果ではなく pack のファイルページに書かれたバージョンを使います。26.3 と古い1.20.1のプロファイルは別の対応条件です。"
+      },
+      {
+        "title": "3. ローダーを合わせる",
+        "text": "Fabric、Forge、NeoForge、またはランチャー管理の環境かを確認します。別のプロファイルにあるローダーをそのまま使わないでください。"
+      },
+      {
+        "title": "4. RAMと依存関係を確認する",
+        "text": "必要なRAM、推奨値、Javaのバージョン、追加リソース、依存ライブラリを読みます。RAMを増やせば必ず速くなるわけではありません。"
+      },
+      {
+        "title": "5. 新しいインスタンスへ入れる",
+        "text": "説明されているインポート機能を使うか、空のプロファイルを作ります。元のアーカイブとプロジェクトURLを残しておくと更新時に比較できます。"
+      },
+      {
+        "title": "6. 追加要素なしで一度起動する",
+        "text": "インスタンスにフォルダーを作らせ、まず pack だけで起動します。ここで失敗するなら、後から入れた mod よりバージョン、ローダー、Java、ファイルが原因の可能性が高いです。"
+      },
+      {
+        "title": "7. コピーしたワールドとマルチを試す",
+        "text": "新規またはコピーしたワールドで代表的な機能を確認します。友達と遊ぶ場合は、全員が同じ pack、ローダー、バージョン、サーバー条件を使います。"
+      }
     ]
   },
   "source_check": {
@@ -69,14 +107,49 @@
     "eyebrow": "判断表",
     "title": "マイクラ modpack を選ぶときの比較項目",
     "description": "自分の制約に合う行から確認します。機能が多い pack が、低スペックPCやサーバー、初めての導入にとって常に最適とは限りません。",
-    "headers": ["確認項目", "比べるもの", "重要な理由", "取る行動"],
+    "headers": [
+      "確認項目",
+      "比べるもの",
+      "重要な理由",
+      "取る行動"
+    ],
     "rows": [
-      ["Minecraftのバージョン", "ファイルに書かれた正確な release", "ワールド生成、API、バイナリが変わることがあります。", "対応するファイルを選び、バージョンを記録する。"],
-      ["ローダー", "Fabric、Forge、NeoForge、指定された環境", "プロファイル環境と依存関係の規則を提供します。", "pack が指定したローダーを使う。"],
-      ["RAMとJava", "最小値、推奨値、Javaランタイム", "大きな pack は設定次第で起動が遅くなったり落ちたりします。", "OS用のメモリを残し、シェーダー前に試す。"],
-      ["遊び方", "サバイバル、クエスト、自動化、探索、RPG、建築", "進行や難易度が目的に合うかを左右します。", "画像だけでなく機能と更新メモを読む。"],
-      ["マルチプレイ", "サーバー用pack、クライアントmod、共通release", "違うファイルやサーバー条件では接続できないことがあります。", "同じreleaseを決め、重要でないワールドで試す。"],
-      ["配布元の情報", "プロジェクト名、日付、更新履歴、依存関係", "再配布アーカイブは古い、改名済み、不完全な場合があります。", "メタデータが見える管理されたページを使う。"]
+      [
+        "Minecraftのバージョン",
+        "ファイルに書かれた正確な release",
+        "ワールド生成、API、バイナリが変わることがあります。",
+        "対応するファイルを選び、バージョンを記録する。"
+      ],
+      [
+        "ローダー",
+        "Fabric、Forge、NeoForge、指定された環境",
+        "プロファイル環境と依存関係の規則を提供します。",
+        "pack が指定したローダーを使う。"
+      ],
+      [
+        "RAMとJava",
+        "最小値、推奨値、Javaランタイム",
+        "大きな pack は設定次第で起動が遅くなったり落ちたりします。",
+        "OS用のメモリを残し、シェーダー前に試す。"
+      ],
+      [
+        "遊び方",
+        "サバイバル、クエスト、自動化、探索、RPG、建築",
+        "進行や難易度が目的に合うかを左右します。",
+        "画像だけでなく機能と更新メモを読む。"
+      ],
+      [
+        "マルチプレイ",
+        "サーバー用pack、クライアントmod、共通release",
+        "違うファイルやサーバー条件では接続できないことがあります。",
+        "同じreleaseを決め、重要でないワールドで試す。"
+      ],
+      [
+        "配布元の情報",
+        "プロジェクト名、日付、更新履歴、依存関係",
+        "再配布アーカイブは古い、改名済み、不完全な場合があります。",
+        "メタデータが見える管理されたページを使う。"
+      ]
     ]
   },
   "activation": {
@@ -99,12 +172,30 @@
     "title": "modpack が落ちる、重い、接続できない理由",
     "description": "多くの問題は、境界を一つずつ確認すると切り分けられます。同じアーカイブを別ミラーから再取得するだけでは手がかりが消えることがあります。",
     "cards": [
-      {"title": "バージョン違い", "text": "ランチャーは起動しても、pack のファイルが別バージョン向けなら失敗します。ファイルとプロファイルを一致させます。"},
-      {"title": "ローダー違い", "text": "Fabric、Forge、NeoForgeは互換ではありません。pack のローダーを選び、プロファイルを混ぜません。"},
-      {"title": "RAMが少なすぎる・多すぎる", "text": "推奨値を使い、OS用のメモリを残します。メモリ不足の証拠がある場合だけ段階的に増やします。"},
-      {"title": "依存関係が不足", "text": "ライブラリ、API、Java、サーバー側の要素が必要な場合があります。最初のエラーと更新メモを確認します。"},
-      {"title": "追加要素を早く入れた", "text": "シェーダーやリソースパックが問題を変えることがあります。まず pack 単体を再現し、一つずつ追加します。"},
-      {"title": "マルチのreleaseが違う", "text": "プレイヤーとサーバーは対応する同じファイルが必要です。長期ワールドを始める前にreleaseをそろえます。"}
+      {
+        "title": "バージョン違い",
+        "text": "ランチャーは起動しても、pack のファイルが別バージョン向けなら失敗します。ファイルとプロファイルを一致させます。"
+      },
+      {
+        "title": "ローダー違い",
+        "text": "Fabric、Forge、NeoForgeは互換ではありません。pack のローダーを選び、プロファイルを混ぜません。"
+      },
+      {
+        "title": "RAMが少なすぎる・多すぎる",
+        "text": "推奨値を使い、OS用のメモリを残します。メモリ不足の証拠がある場合だけ段階的に増やします。"
+      },
+      {
+        "title": "依存関係が不足",
+        "text": "ライブラリ、API、Java、サーバー側の要素が必要な場合があります。最初のエラーと更新メモを確認します。"
+      },
+      {
+        "title": "追加要素を早く入れた",
+        "text": "シェーダーやリソースパックが問題を変えることがあります。まず pack 単体を再現し、一つずつ追加します。"
+      },
+      {
+        "title": "マルチのreleaseが違う",
+        "text": "プレイヤーとサーバーは対応する同じファイルが必要です。長期ワールドを始める前にreleaseをそろえます。"
+      }
     ]
   },
   "related": {
@@ -112,11 +203,36 @@
     "title": "modpack と他の Minecraft コンテンツを分ける",
     "description": "持っているファイルや作業に合うページを使います。Java版modpack、単体mod、Bedrock版アドオン、リソースパックを分けるとフォルダー間違いを減らせます。",
     "links": [
-      {"title": "マインクラフトJava版 mod の導入", "url": "/how-to-install-java-mods/", "text": "FabricやForgeの単体mod、modsフォルダー、依存関係、ローダーエラーの流れを確認します。", "cta": "Java版の手順を見る"},
-      {"title": "マインクラフトJava版とBedrock版", "url": "/java-vs-bedrock/", "text": "ファイルをJava版modpackかBedrock版アドオンとして扱う前にエディションを確認します。", "cta": "エディション比較"},
-      {"title": "Minecraft リソースパック", "url": "/minecraft-resource-packs/", "text": "テクスチャをmodsフォルダーに入れず、リソースパック用の導入手順を使います。", "cta": "形式を確認"},
-      {"title": "Verityのバージョン", "url": "/versions/", "text": "サイトのバージョン情報と、packファイル固有の対応情報を分けて確認します。", "cta": "バージョンを見る"},
-      {"title": "マインクラフトBedrock版アドオン", "url": "/bedrock-addons/", "text": "ファイルが .mcaddon または .mcpack で、Bedrock版のワールドに有効化する場合はこちらです。", "cta": "Bedrock版の手順"}
+      {
+        "title": "マインクラフトJava版 mod の導入",
+        "url": "/how-to-install-java-mods/",
+        "text": "FabricやForgeの単体mod、modsフォルダー、依存関係、ローダーエラーの流れを確認します。",
+        "cta": "Java版の手順を見る"
+      },
+      {
+        "title": "マインクラフトJava版とBedrock版",
+        "url": "/java-vs-bedrock/",
+        "text": "ファイルをJava版modpackかBedrock版アドオンとして扱う前にエディションを確認します。",
+        "cta": "エディション比較"
+      },
+      {
+        "title": "Minecraft リソースパック",
+        "url": "/minecraft-resource-packs/",
+        "text": "テクスチャをmodsフォルダーに入れず、リソースパック用の導入手順を使います。",
+        "cta": "形式を確認"
+      },
+      {
+        "title": "Verityのバージョン",
+        "url": "/versions/",
+        "text": "サイトのバージョン情報と、packファイル固有の対応情報を分けて確認します。",
+        "cta": "バージョンを見る"
+      },
+      {
+        "title": "マインクラフトBedrock版アドオン",
+        "url": "/bedrock-addons/",
+        "text": "ファイルが .mcaddon または .mcpack で、Bedrock版のワールドに有効化する場合はこちらです。",
+        "cta": "Bedrock版の手順"
+      }
     ]
   },
   "sources": {
@@ -124,22 +240,60 @@
     "title": "modpack 導入を確認する公式・管理された情報源",
     "description": "ランチャー、ローダー、プロジェクトの探し方を確認するためのリンクです。バージョンと依存関係は必ず pack のファイルページで確認します。",
     "links": [
-      {"title": "Minecraft ダウンロード", "url": "https://www.minecraft.net/ja-jp/download", "text": "Java版の環境と公式ランチャーを確認する公式の入口です。", "cta": "Minecraftを開く"},
-      {"title": "Fabric インストール Wiki", "url": "https://fabricmc.net/wiki/install", "text": "Mojangランチャー、別ランチャー、サーバーの導入経路を分けて説明しています。", "cta": "Fabricを読む"},
-      {"title": "Modrinthのmodpack", "url": "https://modrinth.com/modpacks", "text": "カテゴリ、環境、ゲームバージョン、ローダー、ライセンスで絞り込める管理されたページです。", "cta": "Modrinthを見る"},
-      {"title": "CurseForgeのmodpack", "url": "https://www.curseforge.com/minecraft/modpacks", "text": "プロジェクトとランチャーの主要な環境です。導入前に個別ファイルと更新情報を確認します。", "cta": "CurseForgeを見る"}
+      {
+        "title": "Minecraft ダウンロード",
+        "url": "https://www.minecraft.net/ja-jp/download",
+        "text": "Java版の環境と公式ランチャーを確認する公式の入口です。",
+        "cta": "Minecraftを開く"
+      },
+      {
+        "title": "Fabric インストール Wiki",
+        "url": "https://fabricmc.net/wiki/install",
+        "text": "Mojangランチャー、別ランチャー、サーバーの導入経路を分けて説明しています。",
+        "cta": "Fabricを読む"
+      },
+      {
+        "title": "Modrinthのmodpack",
+        "url": "https://modrinth.com/modpacks",
+        "text": "カテゴリ、環境、ゲームバージョン、ローダー、ライセンスで絞り込める管理されたページです。",
+        "cta": "Modrinthを見る"
+      },
+      {
+        "title": "CurseForgeのmodpack",
+        "url": "https://www.curseforge.com/minecraft/modpacks",
+        "text": "プロジェクトとランチャーの主要な環境です。導入前に個別ファイルと更新情報を確認します。",
+        "cta": "CurseForgeを見る"
+      }
     ]
   },
   "faq": {
     "eyebrow": "よくある質問",
     "title": "マイクラ modpack よくある質問",
     "items": [
-      {"question": "Minecraft の modpack とは何ですか？", "answer": "modpack は Java版の複数mod、設定、ライブラリ、場合によってはリソースやスクリプトをまとめた構成です。単体modではなく、対応するプロファイルまたはインスタンスとして導入します。"},
-      {"question": "バージョンを混ぜずにマイクラ modpack を導入する方法は？", "answer": "Minecraftのバージョンとローダーが一致するファイルを選び、新しいJava版インスタンスへ入れて一度起動し、コピーしたワールドでテストしてから追加要素やメインワールドを使います。"},
-      {"question": "Modrinthアプリなしでmodpackを使えますか？", "answer": "packが説明されたアーカイブや対応ランチャーの経路を提供していれば可能な場合があります。任意のフォルダーへ置かず、インスタンスとローダーの説明に従います。"},
-      {"question": "マイクラ modpack が起動時にクラッシュするのはなぜですか？", "answer": "バージョン、ローダー、Java、メモリ、依存関係、ログの最初のエラーを確認します。別ミラーを探す前に pack 単体で再現します。"},
-      {"question": "マイクラのmodpack にはどれくらい RAM が必要ですか？", "answer": "pack、バージョン、Java、PCによって異なります。推奨値から始めてOS用のメモリを残し、メモリ不足の証拠がある場合だけ少しずつ増やします。"},
-      {"question": "Java版 modpack をBedrock版やPEで使えますか？", "answer": "使えません。Java版はローダーとインスタンスを使い、Bedrock版やPEはアドオン、リソースパック、ワールドの有効化を使います。Bedrock版のreleaseを探してください。"}
+      {
+        "question": "Minecraft の modpack とは何ですか？",
+        "answer": "modpack は Java版の複数mod、設定、ライブラリ、場合によってはリソースやスクリプトをまとめた構成です。単体modではなく、対応するプロファイルまたはインスタンスとして導入します。"
+      },
+      {
+        "question": "バージョンを混ぜずにマイクラ modpack を導入する方法は？",
+        "answer": "Minecraftのバージョンとローダーが一致するファイルを選び、新しいJava版インスタンスへ入れて一度起動し、コピーしたワールドでテストしてから追加要素やメインワールドを使います。"
+      },
+      {
+        "question": "Modrinthアプリなしでmodpackを使えますか？",
+        "answer": "packが説明されたアーカイブや対応ランチャーの経路を提供していれば可能な場合があります。任意のフォルダーへ置かず、インスタンスとローダーの説明に従います。"
+      },
+      {
+        "question": "マイクラ modpack が起動時にクラッシュするのはなぜですか？",
+        "answer": "バージョン、ローダー、Java、メモリ、依存関係、ログの最初のエラーを確認します。別ミラーを探す前に pack 単体で再現します。"
+      },
+      {
+        "question": "マイクラのmodpack にはどれくらい RAM が必要ですか？",
+        "answer": "pack、バージョン、Java、PCによって異なります。推奨値から始めてOS用のメモリを残し、メモリ不足の証拠がある場合だけ少しずつ増やします。"
+      },
+      {
+        "question": "Java版 modpack をBedrock版やPEで使えますか？",
+        "answer": "使えません。Java版はローダーとインスタンスを使い、Bedrock版やPEはアドオン、リソースパック、ワールドの有効化を使います。Bedrock版のreleaseを探してください。"
+      }
     ]
   },
   "schema": {
@@ -150,21 +304,69 @@
       "description": "対応するバージョン、ローダー、メモリ、配布元、テスト用プロファイルを確認して マイクラのmodpack を導入するガイドです。",
       "image": "https://verityminecraft.blog/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
       "datePublished": "2026-08-19",
-      "dateModified": "2026-08-19",
-      "author": {"@type": "Organization", "name": "Verity Minecraft"},
-      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
       "mainEntityOfPage": "https://verityminecraft.blog/ja/minecraft-modpacks/"
     },
     "faq": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Minecraft の modpack とは何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "modpack は Java版のmod、設定、ライブラリ、リソースを対応するインスタンスとしてまとめた構成です。"}},
-        {"@type": "Question", "name": "バージョンを混ぜずにマイクラ modpack を導入する方法は？", "acceptedAnswer": {"@type": "Answer", "text": "バージョンとローダーが一致するファイルを新しいJava版インスタンスへ入れ、コピーしたワールドで試します。"}},
-        {"@type": "Question", "name": "Modrinthアプリなしでmodpackを使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "説明されたアーカイブや対応ランチャー経路があれば可能な場合があります。インスタンスとローダーの説明に従います。"}},
-        {"@type": "Question", "name": "マイクラ modpack が起動時にクラッシュするのはなぜですか？", "acceptedAnswer": {"@type": "Answer", "text": "バージョン、ローダー、Java、メモリ、依存関係、ログの最初のエラーを確認します。"}},
-        {"@type": "Question", "name": "マイクラのmodpack にはどれくらい RAM が必要ですか？", "acceptedAnswer": {"@type": "Answer", "text": "packの推奨値から始め、OS用のメモリを残し、必要な証拠がある場合だけ段階的に増やします。"}},
-        {"@type": "Question", "name": "Java版 modpack をBedrock版やPEで使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "使えません。Java版はローダーとインスタンス、Bedrock版やPEはアドオンとワールドの有効化を使います。"}}
+        {
+          "@type": "Question",
+          "name": "Minecraft の modpack とは何ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "modpack は Java版のmod、設定、ライブラリ、リソースを対応するインスタンスとしてまとめた構成です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "バージョンを混ぜずにマイクラ modpack を導入する方法は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "バージョンとローダーが一致するファイルを新しいJava版インスタンスへ入れ、コピーしたワールドで試します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Modrinthアプリなしでmodpackを使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "説明されたアーカイブや対応ランチャー経路があれば可能な場合があります。インスタンスとローダーの説明に従います。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "マイクラ modpack が起動時にクラッシュするのはなぜですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "バージョン、ローダー、Java、メモリ、依存関係、ログの最初のエラーを確認します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "マイクラのmodpack にはどれくらい RAM が必要ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "packの推奨値から始め、OS用のメモリを残し、必要な証拠がある場合だけ段階的に増やします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Java版 modpack をBedrock版やPEで使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "使えません。Java版はローダーとインスタンス、Bedrock版やPEはアドオンとワールドの有効化を使います。"
+          }
+        }
       ]
     }
   }

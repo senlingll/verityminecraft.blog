@@ -16,19 +16,23 @@
     "note": "Return to the homepage download selector for platform-specific buttons."
   },
   "facts": {
-    "title": "Version Snapshot",
+    "title": "Verified Version Snapshot",
     "items": [
       {
         "label": "Bedrock known file",
-        "value": "ThatMob's Verity 3.1.0 / V26.30"
+        "value": "ThatMob's Verity 4.0.0 / V26.50; .mcaddon; 37,688,517 bytes; uploaded 2026-09-17"
       },
       {
-        "label": "Java known file",
-        "value": "verity-6.1.jar"
+        "label": "Java stable file",
+        "value": "verity-5.7.4.jar; stable; Forge/Minecraft 1.20.1; 246,483,796 bytes; released 2026-08-17"
       },
       {
-        "label": "Java versions",
-        "value": "1.20.1 (current 6.1 file)"
+        "label": "Minecraft Java game release",
+        "value": "26.3; released 2026-09-15; official Mojang manifest checked 2026-09-23"
+      },
+      {
+        "label": "Java beta",
+        "value": "v6.0.0-beta.9; released 2026-09-03; beta, not the stable recommendation"
       },
       {
         "label": "PE source type",
@@ -36,7 +40,7 @@
       },
       {
         "label": "Last checked",
-        "value": "August 4, 2026"
+        "value": "September 23, 2026"
       }
     ]
   },
@@ -87,33 +91,39 @@
     ]
   },
   "table": {
-    "eyebrow": "Known versions",
-    "title": "Verity Minecraft Version Snapshot",
-    "description": "This table is designed for quick orientation, not as a replacement for the source pages.",
+    "eyebrow": "Verified releases",
+    "title": "Minecraft and Verity Version Snapshot",
+    "description": "These are separate version tracks. The Mojang game release does not change the Minecraft compatibility target of a Verity mod file.",
     "headers": [
-      "Edition",
-      "Known version",
-      "Minecraft version",
-      "Source path"
+      "Track",
+      "Recorded version",
+      "Platform or compatibility",
+      "Source"
     ],
     "rows": [
       [
-        "Bedrock",
-        "ThatMob's Verity 3.1.0 / V26.30",
-        "Bedrock add-on release",
-        "CurseForge Bedrock listing"
+        "Bedrock add-on",
+        "ThatMob's Verity 4.0.0 / V26.50",
+        ".mcaddon package uploaded 2026-09-17; BDS compatibility must be checked separately",
+        "CurseForge file page"
       ],
       [
-        "Java",
-        "verity-6.1.jar",
-        "6.1 for 1.20.1; older 3.4.1 branch for 1.21.1",
-        "CurseForge and Modrinth Java listings"
+        "Verity Java mod",
+        "verity-5.7.4.jar",
+        "Stable; Forge/Minecraft 1.20.1; 246,483,796 bytes",
+        "Modrinth / CurseForge"
       ],
       [
-        "PE / Mobile",
-        "Varies",
-        "Mobile Bedrock / PE-style installs",
-        "Bedrock add-on or app store listing"
+        "Minecraft Java game",
+        "26.3; released 2026-09-15",
+        "Official game release; checked 2026-09-23",
+        "Mojang version manifest"
+      ],
+      [
+        "PE / mobile",
+        "Varies by source",
+        "Check the app or add-on listing for the target device",
+        "Store or Bedrock source page"
       ]
     ]
   },
@@ -203,7 +213,7 @@
     "items": [
       {
         "question": "What is the latest Verity Minecraft version?",
-        "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-6.1.jar, and the source pages should be checked for the newest release before downloading."
+        "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-5.7.4.jar, and the source pages should be checked for the newest release before downloading."
       },
       {
         "question": "Can I use a Java Verity version on Bedrock?",

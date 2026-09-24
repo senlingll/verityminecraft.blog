@@ -12,7 +12,7 @@
   "download": {
     "cta": "Baixar Bedrock",
     "secondary_cta": "Guia",
-    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/files/8902437",
     "note": "O fluxo seguro é simples: escolha Java, Bedrock ou PE, confirme o arquivo esperado, abra a fonte indicada e teste primeiro em um mundo copiado ou perfil limpo."
   },
   "facts": {
@@ -24,7 +24,7 @@
       },
       {
         "label": "Versões",
-        "value": "ThatMob's Verity 3.1.0 / V26.30"
+        "value": "ThatMob's Verity 4.0.0 / V26.50"
       },
       {
         "label": "File",

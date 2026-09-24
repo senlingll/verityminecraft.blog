@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add-on per server Minecraft Bedrock: installazione e sincronizzazione</title>
+  <meta name="description"
+    content="Scopri come configurare add-on su un server Minecraft Bedrock: backup del mondo, cartelle dei pack, UUID, sincronizzazione dei giocatori e diagnosi.">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/it/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/minecraft-bedrock-server-addons/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/minecraft-bedrock-server-addons/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/minecraft-bedrock-server-addons/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Add-on per server Minecraft Bedrock: installazione e sincronizzazione">
+  <meta property="og:description" content="Scopri come configurare add-on su un server Minecraft Bedrock: backup del mondo, cartelle dei pack, UUID, sincronizzazione dei giocatori e diagnosi.">
+  <meta property="og:url" content="https://verityminecraft.blog/it/minecraft-bedrock-server-addons/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Add-on per server Minecraft Bedrock: installazione e sincronizzazione">
+  <meta name="twitter:description" content="Scopri come configurare add-on su un server Minecraft Bedrock: backup del mondo, cartelle dei pack, UUID, sincronizzazione dei giocatori e diagnosi.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Guida per scaricare Verity Minecraft su Java, Bedrock e PE con fonti, versioni, installazione e note sicure.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-09-25", "datePublished": "2026-09-24", "description": "Guida pratica BDS per salvare un mondo, installare behavior e resource pack, registrare UUID, sincronizzare client e risolvere problemi.", "headline": "Come aggiungere add-on a un server Minecraft Bedrock", "image": "https://verityminecraft.blog/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp", "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-bedrock-server-addons/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Su un Bedrock Dedicated Server che gestisci, arresta e salva il mondo, estrai il pack, copia la cartella in behavior_packs o resource_packs e aggiungi UUID e versione header all\u0027elenco JSON corrispondente del mondo attivo. Riavvia e prova una copia prima di usare il salvataggio principale."}, "name": "Come aggiungo add-on a un server Minecraft Bedrock?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Di solito il file viene importato nel profilo di un client Bedrock, non nel mondo dedicato. Estrai le cartelle e segui la procedura BDS. Un hosting pu\u00f2 avere un flusso diverso: consulta la documentazione del provider."}, "name": "Basta aprire un .mcaddon sul server?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Non sempre. Il server pu\u00f2 offrire i resource pack ai client e texturepack-required pu\u00f2 richiedere di accettare il file scaricato. I behavior pack vengono configurati con il mondo sul server. Versione, piattaforma, pack e impostazioni continuano a incidere sul risultato."}, "name": "Ogni giocatore deve installare lo stesso add-on?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Installa ogni cartella estratta e registra ciascun pack nell\u0027elenco corretto con il proprio UUID header e versione. Aggiungi le dipendenze dichiarate, evita ID duplicati e procedi un pack alla volta su una copia per individuare conflitti e rispettare l\u0027ordine richiesto."}, "name": "Come aggiungo pi\u00f9 add-on a un BDS?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "No. I percorsi si riferiscono a un Bedrock Dedicated Server gestito dal proprietario. Realms non espone lo stesso file system; usa il flusso supportato dal proprietario del Realm. Anche un hosting gestito pu\u00f2 richiedere operazioni nel pannello."}, "name": "Posso usare questi passaggi per Minecraft Realms?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "No. La scheda verificata il 23 settembre 2026 indica versione 4.0.0 per V26.50, ma non \u00e8 un test server dedicato. Confronta manifest e note con la tua build e prova un backup. Il pulsante usa la pagina file ufficiale CurseForge perch\u00e9 non \u00e8 stato verificato un link binario stabile."}, "name": "La pagina di Verity Bedrock conferma la compatibilit\u00e0 BDS?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Verifica che la cartella appartenga al mondo attivo indicato da level-name e che world_behavior_packs.json contenga UUID e versione dell\u0027intestazione di manifest.json. Il pacchetto pu\u00f2 essere presente ma inattivo se \u00e8 associato a un altro mondo o se i valori del manifesto non corrispondono."}, "name": "Perch\u00e9 il pacchetto \u00e8 nella cartella ma non ha effetto sul mondo del server?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "No. La fonte di Verity controllata il 23 settembre 2026 indica la versione 4.0.0 per V26.50, ma una scheda di rilascio non \u00e8 una prova di compatibilit\u00e0 con un server dedicato. Confronta il manifest del pacchetto e le note della fonte con la build BDS e prova tutto su una copia di backup del mondo. Il pulsante per scaricare Bedrock apre la pagina ufficiale del file su CurseForge, perch\u00e9 non \u00e8 stato possibile verificare un link diretto stabile."}, "name": "La scheda di rilascio di Verity Bedrock dimostra la compatibilit\u00e0 con il server?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/it/" aria-label="Verity Minecraft home">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Navigazione principale">
+      <a href="/it/#downloads">Scaricare</a>
+      <a href="/it/#install">Installare</a>
+      <a href="/it/#versions">Versioni</a>
+      <a href="/it/#safety">Sicurezza</a>
+      <a href="/it/#faq">Domande frequenti</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="Italiano">Italiano</summary>
+        <div class="language-options">
+          
+          <a href="/minecraft-bedrock-server-addons/">English</a>
+          
+          <a href="/es/minecraft-bedrock-server-addons/">Español</a>
+          
+          <a href="/ja/minecraft-bedrock-server-addons/">日本語</a>
+          
+          <a href="/fr/minecraft-bedrock-server-addons/">Français</a>
+          
+          <a href="/de/minecraft-bedrock-server-addons/">Deutsch</a>
+          
+          <a href="/pt/minecraft-bedrock-server-addons/">Português</a>
+          
+          <a href="/ko/minecraft-bedrock-server-addons/">한국어</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/it/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        Scaricare
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Guida al server dedicato Bedrock</p>
+      <h1 id="article-title">Come aggiungere add-on a un server Minecraft Bedrock</h1>
+      <p class="hero-lede">Per installare add-on su un server Minecraft Bedrock, arresta e salva il server dedicato, copia ogni pack estratto nella cartella corretta e registra UUID header e versione nell&#39;elenco del mondo attivo. Inizia con un solo pack e fai una prova con un secondo account prima di aggiungerne altri.</p>
+      <p class="hero-support">Questa procedura basata sui file è per un Bedrock Dedicated Server (BDS) gestito da te. È diversa dall&#39;importazione di un file .mcaddon nel tuo mondo locale e non offre accesso diretto ai file di un Realm o al pannello privato di un hosting. Controlla manifest e versione del server prima di modificare un mondo condiviso.</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-secondary" href="/it/bedrock-addons/">Importare un add-on in un mondo personale</a>
+        
+        <a class="btn btn-primary" href="/it/versions/">Controllare le fonti delle versioni</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp" alt="Illustrazione concettuale di pack di comportamento e risorse estratti e installati su un server Bedrock per una prova" width="1200" height="675" fetchpriority="high" decoding="async">
+      <figcaption>Illustrazione editoriale concettuale, non è uno screenshot di Minecraft né una vera interfaccia server. Il server deve caricare il mondo che contiene i riferimenti ai pack.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Risposta rapida</p>
+      <h2 id="answer-title">Copia i file sul server e collegali al mondo che viene caricato</h2>
+      <p>Un Bedrock Dedicated Server non installa un add-on aprendo un file .mcaddon nella console. Quel formato semplifica l&#39;importazione in un client Bedrock. Per BDS, estrai le cartelle dei pack, separa i behavior pack dai resource pack e copiali nelle directory corrispondenti accanto ai file del server.</p><p>Il server usa soltanto i pack registrati per il mondo caricato. Aggiungi l&#39;UUID header e la versione del manifest a world_behavior_packs.json o world_resource_packs.json di quel mondo. Lascia manifest.json nella cartella del pack e usa l&#39;UUID header, non l&#39;UUID di un modulo o il nome della cartella.</p><p>Prima di modificare i file, fai una copia completa del mondo e arresta BDS, così il processo non sovrascrive i cambiamenti. Prova la copia con un account amministratore e uno standard. Conserva la copia di ripristino finché un riavvio e una normale sessione di gioco non terminano senza problemi.</p><p>La scheda sorgente Verity Bedrock controllata il 23 settembre 2026 riporta ThatMob&#39;s Verity 4.0.0 per V26.50, caricato il 17 settembre 2026. La scheda identifica una pubblicazione del pack, ma non dimostra la compatibilità con ogni server dedicato, Realm o mondo. Verifica il manifest e le note della fonte per l&#39;ambiente specifico.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Behavior pack</h3><p>Aggiunge o cambia regole ed entità lato server. Va in behavior_packs e deve comparire nell&#39;elenco dei behavior pack del mondo attivo.</p></article>
+      
+      <article class="feature-card"><h3>Resource pack</h3><p>Fornisce texture, suoni e altre risorse visibili ai client. Va in resource_packs; controlla se chi entra deve accettare il file scaricato.</p></article>
+      
+      <article class="feature-card"><h3>Ambito del mondo</h3><p>La presenza di una cartella non attiva il pack. Gli elenchi dei pack del mondo e la configurazione del server determinano quali contenuti vengono caricati.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Installazione</p>
+      <h2 id="steps-title">Aggiungere un pack a BDS con sette verifiche</h2>
+      <p>Segui questo ordine su un BDS autogestito. I pannelli hosting possono cambiare nomi e percorsi, ma le verifiche su mondo e manifest restano necessarie.</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>Verifica tipo di server e mondo attivo</h3><p>Accertati di gestire un Bedrock Dedicated Server e non un Realm. Leggi level-name in server.properties: indica la cartella del mondo sotto worlds. Con hosting gestito, segui il file manager e le istruzioni del provider invece di presumere che il percorso locale BDS sia uguale.</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>Confronta il pack con la versione del gioco</h3><p>Apri manifest.json e controlla format_version, minimum_engine_version, UUID e versione header, oltre alle dipendenze. Confrontali con la release effettiva del server e il tipo di pack supportato. Nome del file e pagina del progetto non bastano da soli a dimostrare la compatibilità.</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>Ferma il processo e crea un backup</h3><p>Arresta BDS correttamente prima di toccare i dati del mondo. Copia tutta la cartella del mondo attivo e salva anche gli elenchi dei pack e server.properties. Annota nome del mondo e data per ripristinare il salvataggio giusto se il server non si avvia.</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>Estrai e separa le cartelle</h3><p>Estrai il pacchetto scaricato e trova la cartella che contiene direttamente manifest.json. Metti i behavior pack in behavior_packs e i resource pack in resource_packs. Evita un livello di cartelle in più e non lasciare il pack nell&#39;archivio .zip o .mcaddon.</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>Registra il pack per quel mondo</h3><p>In worlds/&lt;nome-mondo&gt;/ aggiungi un oggetto per ciascun pack nel file world_behavior_packs.json o world_resource_packs.json corretto. Usa pack_id per l&#39;UUID header e version come matrice di tre numeri dello stesso header. Mantieni JSON valido e rispetta le dipendenze.</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>Controlla le risorse per i client</h3><p>Se il mondo usa un resource pack, verifica texturepack-required in server.properties. Se attivo, i client compatibili devono accettare il file scaricato offerto; non garantisce che ogni risorsa sia resa correttamente su qualsiasi dispositivo. Spiega la richiesta prima del test.</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>Riavvia e prova una copia</h3><p>Avvia il server e controlla console o log per errori di manifest, dipendenze e JSON. Entra con un client compatibile, verifica regole e grafica, quindi ripeti con un secondo giocatore. Porta il cambio nel mondo principale solo dopo un riavvio pulito e con un piano di ripristino.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">File e ambito</p>
+        <h2 id="check-title">La cartella d&#39;importazione client non è quella del mondo BDS</h2>
+        <p>Su un dispositivo personale, aprire un .mcaddon può importare il contenuto nel profilo Bedrock locale, spesso dentro una cartella com.mojang. Quello spazio client è diverso dalle directory behavior_packs, resource_packs e worlds del server. Copiare un file solo sul tuo PC non fa caricare il pack al server dedicato.</p><p>I percorsi BDS variano in base a sistema operativo, installazione, container e pannello hosting. Parti dalla directory con eseguibile del server e server.properties, poi verifica level-name. Un pannello può mostrare una radice virtuale: segui la mappatura del provider e non incollare un percorso Windows ipotizzato in un container Linux.</p><p>Mantieni manifest.json insieme ai file del pack. L&#39;UUID header identifica il pack nell&#39;elenco del mondo; gli UUID dei moduli hanno uno scopo diverso. Se il creatore dichiara dipendenze, installa anche quei pack e usa esattamente ID e versioni presenti nei relativi manifest.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-bedrock-server-addons/pack-folder-boundaries.webp" alt="Schema concettuale che separa l&#39;importazione Bedrock locale dalle cartelle server per comportamento, risorse e mondi" width="1200" height="800" loading="lazy" decoding="async">
+        <figcaption>Schema concettuale, non screenshot reale. L&#39;archivio del client e quello del server hanno ruoli differenti.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Mappa file BDS</p>
+      <h2 id="table-title">Quale file o cartella usa ciascuna parte di un add-on?</h2>
+      <p>La radice precisa dipende dall&#39;installazione. Questi nomi indicano i ruoli tipici in BDS; verificali con il pacchetto server o la documentazione hosting.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Quale file o cartella usa ciascuna parte di un add-on?">
+      <div role="row">
+        <strong>Elemento</strong><strong>Percorso tipico</strong><strong>Funzione</strong><strong>Controllo prima del riavvio</strong>
+      </div>
+      
+      <div role="row">
+        <span>Cartella behavior pack</span><span>behavior_packs/&lt;pack&gt;/</span><span>Regole e moduli lato server</span><span>manifest.json è nella cartella del pack</span>
+      </div>
+      
+      <div role="row">
+        <span>Cartella resource pack</span><span>resource_packs/&lt;pack&gt;/</span><span>Texture, suoni e file client</span><span>Contenuto estratto e manifest presente</span>
+      </div>
+      
+      <div role="row">
+        <span>Elenco behavior</span><span>worlds/&lt;mondo&gt;/world_behavior_packs.json</span><span>Behavior pack attivi nel mondo</span><span>UUID e versione coincidono con l&#39;header</span>
+      </div>
+      
+      <div role="row">
+        <span>Elenco risorse</span><span>worlds/&lt;mondo&gt;/world_resource_packs.json</span><span>Resource pack attivi nel mondo</span><span>ID e versione corretti; JSON valido</span>
+      </div>
+      
+      <div role="row">
+        <span>Proprietà server</span><span>server.properties</span><span>Mondo caricato e criterio risorse client</span><span>level-name corretto; controlla texturepack-required</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-bedrock-server-addons/client-sync-flow.webp" alt="Illustrazione concettuale di un server Bedrock che applica regole e offre risorse a due dispositivi collegati" width="1200" height="800" loading="lazy" decoding="async">
+        <figcaption>Illustrazione concettuale, non partita reale. Richieste e grafica dipendono da impostazioni, pack, versione e dispositivo.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Sincronizzazione e pack multipli</p>
+        <h2 id="activate-title">Il pack server e l&#39;add-on locale del giocatore non sono sempre la stessa cosa</h2>
+        <p>Un server può offrire ai client il resource pack associato al mondo. texturepack-required stabilisce se il giocatore deve accettarne il trasferimento per entrare. Non installa il behavior pack come add-on locale, non corregge un pack incompatibile e non assicura la stessa grafica su tutte le piattaforme. Prova le versioni esatte di server e client che userai.</p><p>I behavior pack di solito fanno parte della configurazione del mondo sul server; i resource pack forniscono risorse visive e audio ai client. Alcuni add-on includono entrambi. Registra ogni parte nell&#39;elenco corretto: vedere una texture non dimostra che il behavior pack funzioni, e vedere un&#39;entità non prova che tutti gli asset siano arrivati.</p><p>Più add-on possono dipendere l&#39;uno dall&#39;altro. Installa tutte le dipendenze dichiarate, cerca UUID header duplicati e mantieni allineata la versione degli elenchi con la cartella installata. Rispetta l&#39;ordine o gli esperimenti richiesti per quella release. Aggiungi un pack alla volta a una copia del mondo.</p><p>Le frecce dell&#39;illustrazione mostrano il confine concettuale: chi gestisce il server abilita i pack; i client si collegano e possono ricevere risorse. È un&#39;immagine esplicativa, non una schermata di Minecraft, un pannello o una traccia di rete verificata.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Risoluzione dei problemi</p>
+      <h2 id="mistakes-title">Perché un add-on sembra installato ma non cambia il server</h2>
+      <p>Usa il sintomo per individuare il controllo successivo. Cambia un solo elemento per volta e conserva il backup finché il mondo corretto non si carica bene.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>È caricato un altro mondo</h3><p>Confronta level-name con la cartella di cui hai modificato gli elenchi. Un pack valido in un altro salvataggio non è attivo nel mondo corrente.</p></article>
+      
+      <article class="feature-card"><h3>Manifest annidato o ancora compresso</h3><p>Controlla che manifest.json sia direttamente nella cartella destinata al pack. L&#39;estrazione può aver creato una cartella esterna aggiuntiva.</p></article>
+      
+      <article class="feature-card"><h3>UUID o versione non corrispondono</h3><p>Usa UUID e versione header di manifest.json. Non sostituirli con nome cartella, UUID modulo o dati di un pacchetto scaricato in precedenza.</p></article>
+      
+      <article class="feature-card"><h3>Tipo di pack nella cartella sbagliata</h3><p>Sposta il comportamento in behavior_packs e le risorse in resource_packs, poi registra ognuno nel relativo JSON del mondo. L&#39;import client non attiva il server.</p></article>
+      
+      <article class="feature-card"><h3>Dipendenza o esperimento mancante</h3><p>Controlla le dipendenze del manifest e le note della release specifica. Installa insieme le versioni richieste e verifica gli esperimenti del mondo se necessari.</p></article>
+      
+      <article class="feature-card"><h3>I giocatori non vedono le risorse</h3><p>Controlla elenco risorse, richiesta di trasferimento, accettazione client e versione compatibile. Annota la configurazione prima di svuotare una cache; non cancellare subito i mondi server.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Guide correlate</p>
+      <h2 id="related-title">Continua con la guida adatta alla tua configurazione</h2>
+      <p>Queste pagine trattano attività vicine senza confondere importazione locale e configurazione del server dedicato.</p>
+    </div>
+    <div class="example-grid">
+
+      <article class="example-card"><h3>Importare un add-on Bedrock in un mondo personale</h3><p>Usa la procedura client per importare .mcaddon sul tuo dispositivo o nel mondo locale.</p><a class="text-link" href="/it/bedrock-addons/">Leggi guida importazione</a></article>
+
+      <article class="example-card"><h3>Problemi con resource pack Bedrock</h3><p>Controlla formati file, importazione e attivazione nel client Bedrock.</p><a class="text-link" href="/it/bedrock-resource-packs/">Apri guida risorse</a></article>
+
+      <article class="example-card"><h3>Fonti e versioni Bedrock</h3><p>Consulta la pagina fonte di Verity Bedrock e le note di compatibilità del pack.</p><a class="text-link" href="/it/bedrock/">Controlla fonte Bedrock</a></article>
+
+      <article class="example-card"><h3>Riepilogo versioni Minecraft</h3><p>Confronta versione del gioco e del pacchetto prima di testare un mondo condiviso.</p><a class="text-link" href="/it/versions/">Consulta versioni</a></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Fonti</p>
+      <h2 id="sources-title">Documentazione ufficiale da consultare prima di modificare il server</h2>
+      <p>Queste fonti ufficiali descrivono server dedicato e struttura dei pack, ma non certificano la compatibilità di pacchetti di terze parti.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Server dedicato Minecraft Bedrock</h3><p>File ufficiali del server e informazioni sulla piattaforma. Verifica la release adatta al tuo ambiente.</p><a class="text-link" href="https://www.minecraft.net/en-us/download/server/bedrock" target="_blank" rel="noopener">Apri pagina Minecraft</a></article>
+      
+      <article class="feature-card"><h3>Microsoft Learn: pacchetti comportamento</h3><p>Documentazione ufficiale per creatori su struttura e manifest dei behavior pack.</p><a class="text-link" href="https://learn.microsoft.com/en-us/minecraft/creator/documents/behaviorpack?view=minecraft-bedrock-stable" target="_blank" rel="noopener">Leggi documentazione</a></article>
+      
+      <article class="feature-card"><h3>Microsoft Learn: pacchetti risorse</h3><p>Documentazione ufficiale per creatori su file e layout dei resource pack.</p><a class="text-link" href="https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable" target="_blank" rel="noopener">Leggi documentazione</a></article>
+      
+      <article class="feature-card"><h3>Aiuto di Minecraft: domande frequenti sugli add-on Bedrock</h3><p>Informazioni ufficiali per giocatori su add-on Bedrock e comportamento delle piattaforme.</p><a class="text-link" href="https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ" target="_blank" rel="noopener">Apri le domande frequenti ufficiali</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">Domande frequenti</p>
+      <h2 id="faq-title">Domande frequenti sugli add-on per server Minecraft Bedrock</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>Come aggiungo add-on a un server Minecraft Bedrock?</summary><p>Su un Bedrock Dedicated Server che gestisci, arresta e salva il mondo, estrai il pack, copia la cartella in behavior_packs o resource_packs e aggiungi UUID e versione header all&#39;elenco JSON corrispondente del mondo attivo. Riavvia e prova una copia prima di usare il salvataggio principale.</p></details>
+      
+      <details ><summary>Basta aprire un .mcaddon sul server?</summary><p>Di solito il file viene importato nel profilo di un client Bedrock, non nel mondo dedicato. Estrai le cartelle e segui la procedura BDS. Un hosting può avere un flusso diverso: consulta la documentazione del provider.</p></details>
+      
+      <details ><summary>Ogni giocatore deve installare lo stesso add-on?</summary><p>Non sempre. Il server può offrire i resource pack ai client e texturepack-required può richiedere di accettare il file scaricato. I behavior pack vengono configurati con il mondo sul server. Versione, piattaforma, pack e impostazioni continuano a incidere sul risultato.</p></details>
+      
+      <details ><summary>Come aggiungo più add-on a un BDS?</summary><p>Installa ogni cartella estratta e registra ciascun pack nell&#39;elenco corretto con il proprio UUID header e versione. Aggiungi le dipendenze dichiarate, evita ID duplicati e procedi un pack alla volta su una copia per individuare conflitti e rispettare l&#39;ordine richiesto.</p></details>
+      
+      <details ><summary>Posso usare questi passaggi per Minecraft Realms?</summary><p>No. I percorsi si riferiscono a un Bedrock Dedicated Server gestito dal proprietario. Realms non espone lo stesso file system; usa il flusso supportato dal proprietario del Realm. Anche un hosting gestito può richiedere operazioni nel pannello.</p></details>
+      
+      <details ><summary>La pagina di Verity Bedrock conferma la compatibilità BDS?</summary><p>No. La scheda verificata il 23 settembre 2026 indica versione 4.0.0 per V26.50, ma non è un test server dedicato. Confronta manifest e note con la tua build e prova un backup. Il pulsante usa la pagina file ufficiale CurseForge perché non è stato verificato un link binario stabile.</p></details>
+      
+      <details ><summary>Perché il pacchetto è nella cartella ma non ha effetto sul mondo del server?</summary><p>Verifica che la cartella appartenga al mondo attivo indicato da level-name e che world_behavior_packs.json contenga UUID e versione dell&#39;intestazione di manifest.json. Il pacchetto può essere presente ma inattivo se è associato a un altro mondo o se i valori del manifesto non corrispondono.</p></details>
+      
+      <details ><summary>La scheda di rilascio di Verity Bedrock dimostra la compatibilità con il server?</summary><p>No. La fonte di Verity controllata il 23 settembre 2026 indica la versione 4.0.0 per V26.50, ma una scheda di rilascio non è una prova di compatibilità con un server dedicato. Confronta il manifest del pacchetto e le note della fonte con la build BDS e prova tutto su una copia di backup del mondo. Il pulsante per scaricare Bedrock apre la pagina ufficiale del file su CurseForge, perché non è stato possibile verificare un link diretto stabile.</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/it/" aria-label="Verity Minecraft home">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Guida indipendente allo scaricamento di Verity Minecraft.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="Navigazione del piè di pagina">
+          <div class="footer-link-group">
+            <p class="footer-link-title">Scaricamenti</p>
+          <a href="/it/#downloads">Scaricare</a>
+          <a href="/it/#install">Installare</a>
+          <a href="/it/#versions">Versioni</a>
+          <a href="/it/#safety">Sicurezza</a>
+            <a href="/it/bedrock-addons/">Addon Bedrock</a>
+            <a href="/it/java-vs-bedrock/">Java vs Bedrock</a>
+            <a href="/it/bedrock-shaders/">Shader Bedrock</a>
+            <a href="/it/#faq">Domande frequenti</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">Sito</p>
+            <a href="/about/">Chi siamo</a>
+            <a href="/contact/">Contatti</a>
+            <a href="/privacy-policy/">Informativa privacy</a>
+            <a href="/terms-of-service/">Termini di servizio</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Guida indipendente allo scaricamento di Verity Minecraft.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+<script async="async" data-cfasync="false" src="https://pl30605215.profitableratecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+<div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+
+<script src="https://pl30483090.profitableratecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>

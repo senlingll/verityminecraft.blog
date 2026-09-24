@@ -208,6 +208,12 @@
         "url": "/versions/",
         "text": "호환성 확인.",
         "cta": "보기"
+      },
+      {
+        "title": "Bedrock 전용 서버에 애드온 추가",
+        "url": "/minecraft-bedrock-server-addons/",
+        "text": "BDS 폴더, 월드 팩 목록과 클라이언트 동기화를 확인하세요.",
+        "cta": "서버 안내 보기"
       }
     ]
   },
@@ -230,7 +236,7 @@
       },
       {
         "title": "Verity Bedrock 출처 페이지",
-        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/files/8902437",
         "text": "Bedrock 흐름을 확인한 참고 자료입니다. 다운로드 전 정확한 페이지를 다시 확인하세요.",
         "cta": "열기"
       }
@@ -270,7 +276,7 @@
       "description": "마인크래프트 베드락 애드온 설치 방법을 .mcaddon 확인, 가져오기, 월드 활성화, 백업, 문제 해결 순서로 정리합니다.",
       "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
       "datePublished": "2026-07-26",
-      "dateModified": "2026-07-26",
+      "dateModified": "2026-09-25",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"

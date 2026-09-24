@@ -11,8 +11,16 @@
     "lede": "가장 좋은 마인크래프트 모드팩이 항상 기능이 가장 많은 팩은 아닙니다. 가져오기 전에 마인크래프트 버전, 로더, 런처, 사용 가능한 RAM과 플레이 목적을 먼저 확인하세요.",
     "support": "이 가이드는 모드팩의 구성, Fabric·Forge·NeoForge의 차이, 별도 Java 프로필 설치 방법, 누락된 의존성·충돌·느린 시작·멀티플레이 버전 불일치의 확인 순서를 설명합니다.",
     "actions": [
-      {"label": "Java 모드 설치 가이드", "url": "/how-to-install-java-mods/", "class": "btn-primary"},
-      {"label": "Java와 Bedrock 비교", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+      {
+        "label": "Java 모드 설치 가이드",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Java와 Bedrock 비교",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-secondary"
+      }
     ],
     "image": {
       "src": "/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
@@ -31,9 +39,18 @@
       "모드팩은 보통 Java 에디션 콘텐츠를 의미합니다. Bedrock 애드온, 리소스팩, 셰이더와 Java 모드팩은 검색 결과에서 함께 보일 수 있지만 시스템이 서로 다릅니다. .mcaddon이나 .mcpack의 이름을 바꿔도 Java 모드팩이 되지 않으며, Java 팩을 Bedrock 가져오기 화면에 넣을 수도 없습니다."
     ],
     "cards": [
-      {"title": "버전이 첫 번째 필터입니다", "text": "한 팩에 여러 릴리스가 있을 수 있습니다. 실제로 실행할 프로필과 같은 마인크래프트 버전의 파일을 선택하고 기록하세요."},
-      {"title": "로더도 팩의 일부입니다", "text": "Fabric, Forge와 NeoForge는 서로 다른 환경입니다. 한 로더용 팩을 다른 로더용 팩처럼 바꾸어 쓰지 마세요."},
-      {"title": "주 월드 밖에서 테스트하세요", "text": "별도 인스턴스와 복사 월드를 사용하면 깨진 팩과 의존성을 확인하면서 장기간 플레이한 월드를 보호할 수 있습니다."}
+      {
+        "title": "버전이 첫 번째 필터입니다",
+        "text": "한 팩에 여러 릴리스가 있을 수 있습니다. 실제로 실행할 프로필과 같은 마인크래프트 버전의 파일을 선택하고 기록하세요."
+      },
+      {
+        "title": "로더도 팩의 일부입니다",
+        "text": "Fabric, Forge와 NeoForge는 서로 다른 환경입니다. 한 로더용 팩을 다른 로더용 팩처럼 바꾸어 쓰지 마세요."
+      },
+      {
+        "title": "주 월드 밖에서 테스트하세요",
+        "text": "별도 인스턴스와 복사 월드를 사용하면 깨진 팩과 의존성을 확인하면서 장기간 플레이한 월드를 보호할 수 있습니다."
+      }
     ]
   },
   "steps": {
@@ -41,13 +58,34 @@
     "title": "마인크래프트 모드팩 설치 7단계",
     "description": "런처, Modrinth·CurseForge 인스턴스 또는 문서화된 수동 가져오기를 사용할 때 다음 순서를 지키면 파일과 프로필을 잘못 섞는 일을 줄일 수 있습니다.",
     "items": [
-      {"title": "1. Java 에디션인지 확인", "text": "모드팩은 보통 Minecraft Java 에디션용입니다. 파일이 .mcaddon이나 .mcpack이면 Java 폴더에 억지로 넣지 말고 Bedrock 안내를 확인하세요."},
-      {"title": "2. 정확한 버전 기록", "text": "검색 결과가 아니라 팩 파일에 표시된 버전을 적습니다. 26.2와 오래된 1.20.1 프로필은 서로 다른 호환성 대상입니다."},
-      {"title": "3. 로더 맞추기", "text": "Fabric, Forge, NeoForge 또는 런처가 관리하는 환경인지 확인합니다. 다른 프로필에 있는 로더를 그대로 사용하지 마세요."},
-      {"title": "4. RAM과 의존성 확인", "text": "최소·권장 RAM, Java 버전, 선택 리소스와 의존 라이브러리를 읽습니다. RAM을 많이 할당한다고 항상 빨라지는 것은 아닙니다."},
-      {"title": "5. 새 인스턴스로 가져오기", "text": "문서에 나온 가져오기 기능을 사용하거나 깨끗한 프로필을 만듭니다. 원본 압축파일과 프로젝트 URL을 남겨 업데이트를 비교하세요."},
-      {"title": "6. 추가 요소 없이 한 번 실행", "text": "인스턴스가 폴더를 만들도록 한 뒤 팩만 실행합니다. 이 단계에서 실패하면 이후에 추가한 모드보다 버전, 로더, Java 또는 파일이 원인일 가능성이 높습니다."},
-      {"title": "7. 복사 월드와 멀티플레이 테스트", "text": "새 월드나 복사 월드에서 대표 기능을 확인합니다. 친구와 플레이하려면 모두 같은 팩 릴리스, 로더, 버전과 서버 조건을 사용해야 합니다."}
+      {
+        "title": "1. Java 에디션인지 확인",
+        "text": "모드팩은 보통 Minecraft Java 에디션용입니다. 파일이 .mcaddon이나 .mcpack이면 Java 폴더에 억지로 넣지 말고 Bedrock 안내를 확인하세요."
+      },
+      {
+        "title": "2. 정확한 버전 기록",
+        "text": "검색 결과가 아니라 팩 파일에 표시된 버전을 적습니다. 26.3와 오래된 1.20.1 프로필은 서로 다른 호환성 대상입니다."
+      },
+      {
+        "title": "3. 로더 맞추기",
+        "text": "Fabric, Forge, NeoForge 또는 런처가 관리하는 환경인지 확인합니다. 다른 프로필에 있는 로더를 그대로 사용하지 마세요."
+      },
+      {
+        "title": "4. RAM과 의존성 확인",
+        "text": "최소·권장 RAM, Java 버전, 선택 리소스와 의존 라이브러리를 읽습니다. RAM을 많이 할당한다고 항상 빨라지는 것은 아닙니다."
+      },
+      {
+        "title": "5. 새 인스턴스로 가져오기",
+        "text": "문서에 나온 가져오기 기능을 사용하거나 깨끗한 프로필을 만듭니다. 원본 압축파일과 프로젝트 URL을 남겨 업데이트를 비교하세요."
+      },
+      {
+        "title": "6. 추가 요소 없이 한 번 실행",
+        "text": "인스턴스가 폴더를 만들도록 한 뒤 팩만 실행합니다. 이 단계에서 실패하면 이후에 추가한 모드보다 버전, 로더, Java 또는 파일이 원인일 가능성이 높습니다."
+      },
+      {
+        "title": "7. 복사 월드와 멀티플레이 테스트",
+        "text": "새 월드나 복사 월드에서 대표 기능을 확인합니다. 친구와 플레이하려면 모두 같은 팩 릴리스, 로더, 버전과 서버 조건을 사용해야 합니다."
+      }
     ]
   },
   "source_check": {
@@ -69,14 +107,49 @@
     "eyebrow": "선택 기준표",
     "title": "마인크래프트 모드팩을 고를 때 비교할 항목",
     "description": "자신의 실제 제약에 맞는 행부터 확인하세요. 기능이 많은 팩이 저사양 PC, 서버 또는 첫 설치에 항상 더 좋은 선택은 아닙니다.",
-    "headers": ["확인 항목", "비교할 내용", "중요한 이유", "권장 행동"],
+    "headers": [
+      "확인 항목",
+      "비교할 내용",
+      "중요한 이유",
+      "권장 행동"
+    ],
     "rows": [
-      ["Minecraft 버전", "파일에 표시된 정확한 릴리스", "월드 생성, API와 바이너리가 바뀔 수 있습니다.", "호환되는 파일을 고르고 버전을 기록합니다."],
-      ["로더", "Fabric, Forge, NeoForge 또는 지정 환경", "프로필 환경과 의존성 규칙을 제공합니다.", "팩이 지정한 로더를 사용합니다."],
-      ["RAM과 Java", "최소값, 권장값과 Java 런타임", "큰 팩은 설정이 맞지 않으면 느리게 시작하거나 종료됩니다.", "운영체제 메모리를 남기고 셰이더 전에 테스트합니다."],
-      ["플레이 방식", "생존, 퀘스트, 자동화, 탐험, RPG, 건축", "진행 방식과 난이도가 목적에 맞아야 합니다.", "썸네일보다 기능과 최신 메모를 읽습니다."],
-      ["멀티플레이", "서버 팩, 클라이언트 모드와 공통 릴리스", "파일이 다르거나 서버 조건이 다르면 접속할 수 없습니다.", "같은 릴리스를 정하고 중요하지 않은 월드에서 시험합니다."],
-      ["출처 정보", "프로젝트, 날짜, 변경 기록과 의존성", "재배포된 압축파일은 오래되었거나 이름이 바뀌었거나 불완전할 수 있습니다.", "메타데이터가 보이는 관리된 페이지를 사용합니다."]
+      [
+        "Minecraft 버전",
+        "파일에 표시된 정확한 릴리스",
+        "월드 생성, API와 바이너리가 바뀔 수 있습니다.",
+        "호환되는 파일을 고르고 버전을 기록합니다."
+      ],
+      [
+        "로더",
+        "Fabric, Forge, NeoForge 또는 지정 환경",
+        "프로필 환경과 의존성 규칙을 제공합니다.",
+        "팩이 지정한 로더를 사용합니다."
+      ],
+      [
+        "RAM과 Java",
+        "최소값, 권장값과 Java 런타임",
+        "큰 팩은 설정이 맞지 않으면 느리게 시작하거나 종료됩니다.",
+        "운영체제 메모리를 남기고 셰이더 전에 테스트합니다."
+      ],
+      [
+        "플레이 방식",
+        "생존, 퀘스트, 자동화, 탐험, RPG, 건축",
+        "진행 방식과 난이도가 목적에 맞아야 합니다.",
+        "썸네일보다 기능과 최신 메모를 읽습니다."
+      ],
+      [
+        "멀티플레이",
+        "서버 팩, 클라이언트 모드와 공통 릴리스",
+        "파일이 다르거나 서버 조건이 다르면 접속할 수 없습니다.",
+        "같은 릴리스를 정하고 중요하지 않은 월드에서 시험합니다."
+      ],
+      [
+        "출처 정보",
+        "프로젝트, 날짜, 변경 기록과 의존성",
+        "재배포된 압축파일은 오래되었거나 이름이 바뀌었거나 불완전할 수 있습니다.",
+        "메타데이터가 보이는 관리된 페이지를 사용합니다."
+      ]
     ]
   },
   "activation": {
@@ -99,12 +172,30 @@
     "title": "모드팩이 충돌하거나 느리거나 접속되지 않는 이유",
     "description": "대부분의 문제는 한 번에 하나의 경계를 확인하면 좁힐 수 있습니다. 같은 파일을 다른 미러에서 다시 받는 것만으로는 유용한 단서가 사라질 수 있습니다.",
     "cards": [
-      {"title": "잘못된 버전", "text": "런처는 실행되어도 팩 파일이 다른 버전을 요구하면 실패합니다. 파일과 활성 프로필을 맞춥니다."},
-      {"title": "잘못된 로더", "text": "Fabric, Forge와 NeoForge는 서로 교체할 수 없습니다. 팩의 로더를 선택하고 프로필을 섞지 마세요."},
-      {"title": "RAM이 너무 적거나 많음", "text": "권장값을 사용하고 시스템 메모리를 남깁니다. 메모리 부족 근거가 있을 때만 단계적으로 늘립니다."},
-      {"title": "의존성 누락", "text": "라이브러리, API, Java 또는 서버 요소가 필요할 수 있습니다. 첫 오류와 릴리스 메모를 읽으세요."},
-      {"title": "추가 요소를 너무 빨리 넣음", "text": "셰이더와 리소스팩이 오류를 바꿀 수 있습니다. 팩 단독으로 재현한 뒤 하나씩 추가합니다."},
-      {"title": "멀티플레이 릴리스 불일치", "text": "플레이어와 서버는 호환되는 같은 파일을 사용해야 합니다. 장기 월드 전에 릴리스를 맞추세요."}
+      {
+        "title": "잘못된 버전",
+        "text": "런처는 실행되어도 팩 파일이 다른 버전을 요구하면 실패합니다. 파일과 활성 프로필을 맞춥니다."
+      },
+      {
+        "title": "잘못된 로더",
+        "text": "Fabric, Forge와 NeoForge는 서로 교체할 수 없습니다. 팩의 로더를 선택하고 프로필을 섞지 마세요."
+      },
+      {
+        "title": "RAM이 너무 적거나 많음",
+        "text": "권장값을 사용하고 시스템 메모리를 남깁니다. 메모리 부족 근거가 있을 때만 단계적으로 늘립니다."
+      },
+      {
+        "title": "의존성 누락",
+        "text": "라이브러리, API, Java 또는 서버 요소가 필요할 수 있습니다. 첫 오류와 릴리스 메모를 읽으세요."
+      },
+      {
+        "title": "추가 요소를 너무 빨리 넣음",
+        "text": "셰이더와 리소스팩이 오류를 바꿀 수 있습니다. 팩 단독으로 재현한 뒤 하나씩 추가합니다."
+      },
+      {
+        "title": "멀티플레이 릴리스 불일치",
+        "text": "플레이어와 서버는 호환되는 같은 파일을 사용해야 합니다. 장기 월드 전에 릴리스를 맞추세요."
+      }
     ]
   },
   "related": {
@@ -112,11 +203,36 @@
     "title": "모드팩을 다른 Minecraft 콘텐츠와 분리하기",
     "description": "실제로 가진 파일과 작업에 맞는 페이지를 사용하세요. Java 모드팩, 단일 모드, Bedrock 애드온과 리소스팩을 나누면 폴더 실수를 줄일 수 있습니다.",
     "links": [
-      {"title": "마인크래프트 Java 에디션 모드 설치", "url": "/how-to-install-java-mods/", "text": "Fabric·Forge 단일 모드, mods 폴더, 의존성과 로더 오류의 흐름을 확인합니다.", "cta": "Java 모드 단계 보기"},
-      {"title": "Minecraft 에디션 비교: Java와 Bedrock", "url": "/java-vs-bedrock/", "text": "파일을 Java 모드팩 또는 Bedrock 애드온으로 다루기 전에 에디션을 확인합니다.", "cta": "에디션 비교"},
-      {"title": "Minecraft 리소스팩", "url": "/minecraft-resource-packs/", "text": "텍스처를 mods 폴더에 넣지 말고 리소스팩 절차를 사용합니다.", "cta": "형식 확인"},
-      {"title": "Verity 버전 안내", "url": "/versions/", "text": "사이트의 버전 정보와 팩 파일 자체의 호환성 정보를 나누어 확인합니다.", "cta": "버전 보기"},
-      {"title": "Bedrock 애드온 안내", "url": "/bedrock-addons/", "text": "파일이 .mcaddon 또는 .mcpack이고 Bedrock 월드에서 활성화할 때 이 가이드를 사용합니다.", "cta": "Bedrock 단계 보기"}
+      {
+        "title": "마인크래프트 Java 에디션 모드 설치",
+        "url": "/how-to-install-java-mods/",
+        "text": "Fabric·Forge 단일 모드, mods 폴더, 의존성과 로더 오류의 흐름을 확인합니다.",
+        "cta": "Java 모드 단계 보기"
+      },
+      {
+        "title": "Minecraft 에디션 비교: Java와 Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "파일을 Java 모드팩 또는 Bedrock 애드온으로 다루기 전에 에디션을 확인합니다.",
+        "cta": "에디션 비교"
+      },
+      {
+        "title": "Minecraft 리소스팩",
+        "url": "/minecraft-resource-packs/",
+        "text": "텍스처를 mods 폴더에 넣지 말고 리소스팩 절차를 사용합니다.",
+        "cta": "형식 확인"
+      },
+      {
+        "title": "Verity 버전 안내",
+        "url": "/versions/",
+        "text": "사이트의 버전 정보와 팩 파일 자체의 호환성 정보를 나누어 확인합니다.",
+        "cta": "버전 보기"
+      },
+      {
+        "title": "Bedrock 애드온 안내",
+        "url": "/bedrock-addons/",
+        "text": "파일이 .mcaddon 또는 .mcpack이고 Bedrock 월드에서 활성화할 때 이 가이드를 사용합니다.",
+        "cta": "Bedrock 단계 보기"
+      }
     ]
   },
   "sources": {
@@ -124,22 +240,60 @@
     "title": "모드팩 설치를 확인할 공식·관리 출처",
     "description": "런처, 로더와 프로젝트를 찾는 방법을 확인하는 링크입니다. 버전과 의존성은 반드시 팩의 파일 페이지에서 확인하세요.",
     "links": [
-      {"title": "Minecraft 다운로드", "url": "https://www.minecraft.net/ko-kr/download", "text": "Java 환경과 공식 런처를 확인하는 공식 입구입니다.", "cta": "Minecraft 열기"},
-      {"title": "Fabric 설치 Wiki", "url": "https://fabricmc.net/wiki/install", "text": "Mojang 런처, 다른 런처와 서버 설치 경로를 구분해서 설명합니다.", "cta": "Fabric 읽기"},
-      {"title": "Modrinth 모드팩", "url": "https://modrinth.com/modpacks", "text": "카테고리, 환경, 게임 버전, 로더와 라이선스로 필터링할 수 있는 관리 페이지입니다.", "cta": "Modrinth 보기"},
-      {"title": "CurseForge 모드팩", "url": "https://www.curseforge.com/minecraft/modpacks", "text": "프로젝트와 런처를 제공하는 주요 환경입니다. 가져오기 전에 파일과 업데이트 정보를 확인하세요.", "cta": "CurseForge 보기"}
+      {
+        "title": "Minecraft 다운로드",
+        "url": "https://www.minecraft.net/ko-kr/download",
+        "text": "Java 환경과 공식 런처를 확인하는 공식 입구입니다.",
+        "cta": "Minecraft 열기"
+      },
+      {
+        "title": "Fabric 설치 Wiki",
+        "url": "https://fabricmc.net/wiki/install",
+        "text": "Mojang 런처, 다른 런처와 서버 설치 경로를 구분해서 설명합니다.",
+        "cta": "Fabric 읽기"
+      },
+      {
+        "title": "Modrinth 모드팩",
+        "url": "https://modrinth.com/modpacks",
+        "text": "카테고리, 환경, 게임 버전, 로더와 라이선스로 필터링할 수 있는 관리 페이지입니다.",
+        "cta": "Modrinth 보기"
+      },
+      {
+        "title": "CurseForge 모드팩",
+        "url": "https://www.curseforge.com/minecraft/modpacks",
+        "text": "프로젝트와 런처를 제공하는 주요 환경입니다. 가져오기 전에 파일과 업데이트 정보를 확인하세요.",
+        "cta": "CurseForge 보기"
+      }
     ]
   },
   "faq": {
     "eyebrow": "자주 묻는 질문",
     "title": "마인크래프트 모드팩 자주 묻는 질문",
     "items": [
-      {"question": "마인크래프트 모드팩이란 무엇인가요?", "answer": "모드팩은 Java 모드, 설정, 라이브러리와 때로는 리소스나 스크립트를 호환되는 프로필이나 인스턴스로 묶은 구성입니다. 일반적인 단일 모드처럼 설치하지 않습니다."},
-      {"question": "버전을 섞지 않고 마인크래프트 모드팩을 설치하려면?", "answer": "버전과 로더가 맞는 파일을 선택해 새 Java 인스턴스로 가져오고 한 번 실행한 뒤 복사 월드에서 테스트합니다. 그 다음 추가 요소나 주 월드를 사용하세요."},
-      {"question": "Modrinth 앱 없이 모드팩을 사용할 수 있나요?", "answer": "팩이 문서화된 압축파일이나 지원되는 런처 경로를 제공하면 가능한 경우가 있습니다. 파일을 임의 폴더에 넣지 말고 인스턴스와 로더 설명을 따르세요."},
-      {"question": "마인크래프트 모드팩이 시작할 때 충돌하는 이유는 무엇인가요?", "answer": "버전, 로더, Java 런타임, 메모리, 의존성과 로그의 첫 오류를 확인하세요. 다른 미러를 찾기 전에 깨끗한 팩으로 재현합니다."},
-      {"question": "마인크래프트 모드팩에는 RAM이 얼마나 필요한가요?", "answer": "팩, 버전, Java와 컴퓨터에 따라 다릅니다. 권장값에서 시작하고 시스템 메모리를 남긴 뒤 메모리 부족 증거가 있을 때만 조금씩 늘리세요."},
-      {"question": "Java 모드팩을 Bedrock이나 PE에서 사용할 수 있나요?", "answer": "사용할 수 없습니다. Java는 로더와 인스턴스를 사용하고 Bedrock과 PE는 애드온, 리소스팩과 월드 활성화를 사용합니다. Bedrock용 릴리스를 찾으세요."}
+      {
+        "question": "마인크래프트 모드팩이란 무엇인가요?",
+        "answer": "모드팩은 Java 모드, 설정, 라이브러리와 때로는 리소스나 스크립트를 호환되는 프로필이나 인스턴스로 묶은 구성입니다. 일반적인 단일 모드처럼 설치하지 않습니다."
+      },
+      {
+        "question": "버전을 섞지 않고 마인크래프트 모드팩을 설치하려면?",
+        "answer": "버전과 로더가 맞는 파일을 선택해 새 Java 인스턴스로 가져오고 한 번 실행한 뒤 복사 월드에서 테스트합니다. 그 다음 추가 요소나 주 월드를 사용하세요."
+      },
+      {
+        "question": "Modrinth 앱 없이 모드팩을 사용할 수 있나요?",
+        "answer": "팩이 문서화된 압축파일이나 지원되는 런처 경로를 제공하면 가능한 경우가 있습니다. 파일을 임의 폴더에 넣지 말고 인스턴스와 로더 설명을 따르세요."
+      },
+      {
+        "question": "마인크래프트 모드팩이 시작할 때 충돌하는 이유는 무엇인가요?",
+        "answer": "버전, 로더, Java 런타임, 메모리, 의존성과 로그의 첫 오류를 확인하세요. 다른 미러를 찾기 전에 깨끗한 팩으로 재현합니다."
+      },
+      {
+        "question": "마인크래프트 모드팩에는 RAM이 얼마나 필요한가요?",
+        "answer": "팩, 버전, Java와 컴퓨터에 따라 다릅니다. 권장값에서 시작하고 시스템 메모리를 남긴 뒤 메모리 부족 증거가 있을 때만 조금씩 늘리세요."
+      },
+      {
+        "question": "Java 모드팩을 Bedrock이나 PE에서 사용할 수 있나요?",
+        "answer": "사용할 수 없습니다. Java는 로더와 인스턴스를 사용하고 Bedrock과 PE는 애드온, 리소스팩과 월드 활성화를 사용합니다. Bedrock용 릴리스를 찾으세요."
+      }
     ]
   },
   "schema": {
@@ -150,21 +304,69 @@
       "description": "맞는 버전, 로더, 메모리, 출처와 테스트 프로필을 확인해 마인크래프트 모드팩을 선택하고 설치하는 호환성 가이드입니다.",
       "image": "https://verityminecraft.blog/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
       "datePublished": "2026-08-19",
-      "dateModified": "2026-08-19",
-      "author": {"@type": "Organization", "name": "Verity Minecraft"},
-      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
       "mainEntityOfPage": "https://verityminecraft.blog/ko/minecraft-modpacks/"
     },
     "faq": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "마인크래프트 모드팩이란 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "모드팩은 Java 모드, 설정, 라이브러리와 리소스를 호환되는 인스턴스로 묶은 구성입니다."}},
-        {"@type": "Question", "name": "버전을 섞지 않고 마인크래프트 모드팩을 설치하려면?", "acceptedAnswer": {"@type": "Answer", "text": "버전과 로더가 맞는 파일을 새 Java 인스턴스로 가져오고 복사 월드에서 테스트합니다."}},
-        {"@type": "Question", "name": "Modrinth 앱 없이 모드팩을 사용할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "문서화된 압축파일이나 지원 런처 경로가 있으면 가능한 경우가 있습니다. 인스턴스와 로더 설명을 따르세요."}},
-        {"@type": "Question", "name": "마인크래프트 모드팩이 시작할 때 충돌하는 이유는 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "버전, 로더, Java, 메모리, 의존성과 로그의 첫 오류를 확인한 뒤 다른 미러를 찾으세요."}},
-        {"@type": "Question", "name": "마인크래프트 모드팩에는 RAM이 얼마나 필요한가요?", "acceptedAnswer": {"@type": "Answer", "text": "팩의 권장값에서 시작하고 시스템 메모리를 남긴 뒤 필요한 경우에만 단계적으로 늘립니다."}},
-        {"@type": "Question", "name": "Java 모드팩을 Bedrock이나 PE에서 사용할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "사용할 수 없습니다. Java는 로더와 인스턴스, Bedrock과 PE는 애드온과 월드 활성화를 사용합니다."}}
+        {
+          "@type": "Question",
+          "name": "마인크래프트 모드팩이란 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "모드팩은 Java 모드, 설정, 라이브러리와 리소스를 호환되는 인스턴스로 묶은 구성입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "버전을 섞지 않고 마인크래프트 모드팩을 설치하려면?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "버전과 로더가 맞는 파일을 새 Java 인스턴스로 가져오고 복사 월드에서 테스트합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Modrinth 앱 없이 모드팩을 사용할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "문서화된 압축파일이나 지원 런처 경로가 있으면 가능한 경우가 있습니다. 인스턴스와 로더 설명을 따르세요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "마인크래프트 모드팩이 시작할 때 충돌하는 이유는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "버전, 로더, Java, 메모리, 의존성과 로그의 첫 오류를 확인한 뒤 다른 미러를 찾으세요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "마인크래프트 모드팩에는 RAM이 얼마나 필요한가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "팩의 권장값에서 시작하고 시스템 메모리를 남긴 뒤 필요한 경우에만 단계적으로 늘립니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Java 모드팩을 Bedrock이나 PE에서 사용할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "사용할 수 없습니다. Java는 로더와 인스턴스, Bedrock과 PE는 애드온과 월드 활성화를 사용합니다."
+          }
+        }
       ]
     }
   }

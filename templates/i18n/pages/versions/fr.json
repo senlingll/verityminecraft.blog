@@ -16,27 +16,31 @@
     "note": "Le parcours sûr reste simple : choisir Java, Bedrock ou PE, confirmer l'extension attendue, ouvrir la source officielle ou communautaire maintenue, puis tester dans un monde copié ou un profil propre."
   },
   "facts": {
-    "title": "versions Guide",
+    "title": "Résumé des versions vérifiées",
     "items": [
       {
-        "label": "Plateformes",
-        "value": "versions"
+        "label": "Fichier Bedrock vérifié",
+        "value": "ThatMob's Verity 4.0.0 / V26.50 ; .mcaddon ; 37 688 517 octets ; mise en ligne le 17/09/2026"
       },
       {
-        "label": "Versions",
-        "value": "Varies"
+        "label": "Fichier Java stable",
+        "value": "verity-5.7.4.jar ; stable ; Forge/Minecraft 1.20.1 ; 246 483 796 octets ; publié le 17/08/2026"
       },
       {
-        "label": "File",
-        "value": "version list"
+        "label": "Version du jeu Minecraft Java",
+        "value": "26.3 ; publiée le 15/09/2026 ; manifeste officiel Mojang vérifié le 23/09/2026"
       },
       {
-        "label": "Page source",
-        "value": "CurseForge / Modrinth / Google Play"
+        "label": "Bêta Java",
+        "value": "v6.0.0-beta.9 ; publiée le 03/09/2026 ; bêta, pas la version stable recommandée"
+      },
+      {
+        "label": "Source PE",
+        "value": "Add-on ou fiche de boutique"
       },
       {
         "label": "Dernière vérification",
-        "value": "4 août 2026"
+        "value": "23 septembre 2026"
       }
     ]
   },
@@ -87,29 +91,39 @@
     ]
   },
   "table": {
-    "eyebrow": "Sécurité",
-    "title": "Versions de Verity Minecraft checklist",
-    "description": "versions de Verity Minecraft doit commencer par le bon choix d'édition, car versions ne s'installe pas de la même manière sur chaque appareil. Vérifiez la source, le fichier, la version de Minecraft et l'environnement de test.",
+    "eyebrow": "Versions vérifiées",
+    "title": "Versions de Minecraft et de Verity",
+    "description": "Les versions du jeu et des fichiers Verity sont distinctes. La release Mojang ne modifie pas la version Minecraft ciblée par un fichier de mod Verity.",
     "headers": [
-      "Guide",
-      "Sécurité",
-      "Page source"
+      "Élément",
+      "Version relevée",
+      "Plateforme ou compatibilité",
+      "Source"
     ],
     "rows": [
       [
-        "version list",
-        "Une bonne page pour versions de Verity Minecraft ne se limite pas à un bouton. Elle explique la source maintenue, la date, le type de fichier et la raison pour laquelle les miroirs inconnus sont moins fiables.",
-        "Page source"
+        "Add-on Bedrock",
+        "ThatMob's Verity 4.0.0 / V26.50",
+        "Paquet .mcaddon mis en ligne le 17/09/2026 ; compatibilité BDS à vérifier séparément",
+        "Fiche de fichier CurseForge"
       ],
       [
-        "versions",
-        "Le parcours sûr reste simple : choisir Java, Bedrock ou PE, confirmer l'extension attendue, ouvrir la source officielle ou communautaire maintenue, puis tester dans un monde copié ou un profil propre.",
-        "Installer"
+        "Mod Verity Java",
+        "verity-5.7.4.jar",
+        "Stable ; Forge/Minecraft 1.20.1 ; 246 483 796 octets",
+        "Modrinth / CurseForge"
       ],
       [
-        "Versions",
-        "Si la source affiche une version plus récente, la source passe avant ce guide. Cette page sert à rendre versions de Verity Minecraft clair, vérifiable et moins risqué avant l'installation.",
-        "Télécharger"
+        "Jeu Minecraft Java",
+        "26.3 ; publiée le 15/09/2026",
+        "Version officielle du jeu ; vérifiée le 23/09/2026",
+        "Manifeste des versions Mojang"
+      ],
+      [
+        "PE / mobile",
+        "Varie selon la source",
+        "Vérifiez la fiche de l'application ou de l'add-on pour l'appareil visé",
+        "Boutique ou source Bedrock"
       ]
     ]
   },

@@ -214,7 +214,7 @@
       },
       {
         "title": "Verity Bedrock source listing",
-        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/files/8902437",
         "text": "Bedrockの挙動確認に使った公式または一次情報です。",
         "cta": "参照元を開く"
       }
@@ -254,7 +254,7 @@
       "description": "Minecraft Bedrockでダウンロードしたリソースパックを使う手順。配布元確認、.mcpack/.mcaddonのインポート、ワールドでの有効化、トラブル対策を整理します。",
       "image": "https://verityminecraft.blog/static/images/bedrock-resource-packs/bedrock-resource-pack-import-flow.webp",
       "datePublished": "2026-07-23",
-      "dateModified": "2026-07-23",
+      "dateModified": "2026-09-25",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"

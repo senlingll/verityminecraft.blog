@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "title": "Complementos para servidores de Minecraft Bedrock: guía de instalación",
+    "description": "Aprende a instalar complementos en un servidor Bedrock: respalda el mundo, coloca los packs, registra sus UUID y comprueba la sincronización.",
+    "image": "/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guía de servidor dedicado Bedrock",
+    "title": "Cómo añadir complementos a un servidor de Minecraft Bedrock",
+    "lede": "Para añadir complementos a un servidor Minecraft Bedrock, detén y respalda el servidor, copia cada pack extraído a su carpeta correspondiente y registra el UUID de cabecera y la versión en la lista del mundo activo. Empieza con un solo pack y prueba con otra cuenta antes de añadir más.",
+    "support": "Este proceso con archivos es para un Bedrock Dedicated Server (BDS) autogestionado. No es lo mismo que importar un archivo .mcaddon a tu mundo local, y no proporciona acceso directo a los archivos de un Realm o al panel privado de un proveedor. Comprueba el manifiesto del pack y la versión real del servidor antes de cambiar un mundo compartido.",
+    "actions": [
+      {
+        "label": "Importar un complemento en un mundo personal",
+        "url": "/bedrock-addons/",
+        "class": "btn-secondary"
+      },
+      {
+        "label": "Consultar fuentes de versiones",
+        "url": "/versions/",
+        "class": "btn-primary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp",
+      "alt": "Ilustración conceptual de packs de comportamiento y recursos que se instalan en un servidor Bedrock y un mundo de prueba",
+      "caption": "Ilustración editorial conceptual; no es una captura de Minecraft ni una interfaz real. El servidor debe cargar el mundo que contiene las referencias a los packs.",
+      "width": 1200,
+      "height": 675
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "Instala los archivos en el servidor y actívalos en el mundo que carga",
+    "paragraphs": [
+      "Un Bedrock Dedicated Server no instala un complemento abriendo un archivo .mcaddon en la consola del servidor. Ese formato facilita la importación en un cliente Bedrock. Para BDS, extrae las carpetas del pack, separa los packs de comportamiento de los de recursos y cópialos a las carpetas correspondientes junto a los archivos del servidor.",
+      "El servidor solo utiliza los packs registrados para el mundo que carga. Añade el UUID de cabecera y la versión del manifiesto a world_behavior_packs.json o world_resource_packs.json de ese mundo. Conserva manifest.json dentro de la carpeta y utiliza el UUID de cabecera, no un UUID de módulo ni el nombre de la carpeta.",
+      "Antes de editar, copia el mundo completo y detén BDS para que no sobrescriba tus cambios. Prueba una copia con una cuenta administradora y otra de jugador normal. Mantén la copia de recuperación hasta que el servidor se haya reiniciado sin errores y el complemento se haya probado durante una partida normal.",
+      "La ficha de origen de Verity Bedrock revisada el 23 de septiembre de 2026 muestra ThatMob's Verity 4.0.0 para V26.50, subida el 17 de septiembre de 2026. Esa ficha identifica un paquete publicado, pero no demuestra que funcione con cualquier servidor dedicado, Realm o mundo. Comprueba el manifiesto y las notas de la fuente antes de usarlo en un servidor compartido."
+    ],
+    "cards": [
+      {
+        "title": "Pack de comportamiento",
+        "text": "Añade o cambia reglas, entidades y otras funciones del lado del servidor. Va en behavior_packs y se registra en la lista de comportamiento del mundo activo."
+      },
+      {
+        "title": "Pack de recursos",
+        "text": "Aporta texturas, sonidos y otros recursos que ven los clientes. Va en resource_packs; comprueba si los jugadores deben aceptar una descarga al conectarse."
+      },
+      {
+        "title": "Ámbito del mundo",
+        "text": "Que una carpeta exista no significa que esté activa. Las listas de packs del mundo y el valor de nivel del servidor determinan qué contenido se carga."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Instalación",
+    "title": "Añade un pack a BDS en siete comprobaciones",
+    "description": "Sigue este orden en un BDS autogestionado. Los paneles de alojamiento pueden cambiar los nombres o las rutas, pero siguen siendo necesarias las comprobaciones del mundo y del manifiesto.",
+    "items": [
+      {
+        "title": "Confirma el tipo de servidor y el mundo activo",
+        "text": "Comprueba que administras un Bedrock Dedicated Server, no un Realm. Abre server.properties y anota level-name: identifica la carpeta del mundo dentro de worlds. Si usas alojamiento administrado, sigue su gestor de archivos o su guía en vez de suponer que la ruta local de BDS coincide."
+      },
+      {
+        "title": "Compara el pack con la versión del juego",
+        "text": "Abre manifest.json y revisa format_version, minimum_engine_version, el UUID y la versión de cabecera, además de las dependencias. Compáralos con la versión del servidor y el tipo de pack admitido. El nombre del archivo o la página del proyecto, por sí solos, no verifican la compatibilidad."
+      },
+      {
+        "title": "Detén el servidor y crea una copia",
+        "text": "Apaga BDS correctamente antes de modificar el mundo. Copia la carpeta completa del mundo activo y guarda también las listas actuales de packs y server.properties. Etiqueta la copia con el nombre del mundo y la fecha para poder recuperar la partida correcta si el servidor no carga."
+      },
+      {
+        "title": "Extrae y clasifica las carpetas",
+        "text": "Descomprime el archivo y localiza la carpeta que contiene directamente manifest.json. Pon las carpetas de comportamiento en behavior_packs y las de recursos en resource_packs. Evita un nivel de carpeta adicional y no dejes los packs dentro del .zip o .mcaddon."
+      },
+      {
+        "title": "Registra los packs en ese mundo",
+        "text": "En worlds/<nombre-del-mundo>/, añade un objeto por pack a world_behavior_packs.json o world_resource_packs.json, según corresponda. Usa pack_id para el UUID de cabecera y version como la matriz de tres números de esa misma cabecera. Mantén el JSON válido y respeta las dependencias."
+      },
+      {
+        "title": "Revisa la descarga de recursos para clientes",
+        "text": "Si el mundo usa un pack de recursos, revisa texturepack-required en server.properties. Al activarlo, los clientes compatibles reciben una solicitud para aceptar el pack; esto no garantiza que todos los dispositivos muestren cada recurso correctamente. Explica el aviso antes de la prueba."
+      },
+      {
+        "title": "Reinicia y prueba en una copia",
+        "text": "Inicia el servidor y revisa la consola o los registros por errores de manifiesto, dependencias o JSON. Conéctate desde un cliente compatible, prueba el comportamiento y los recursos y luego repite con otra cuenta. Pasa los cambios al mundo principal solo tras un reinicio limpio y con un plan de reversión."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Archivos y alcance",
+    "title": "La carpeta de importación del cliente no es la carpeta del mundo BDS",
+    "paragraphs": [
+      "En un dispositivo personal, abrir un .mcaddon puede importarlo al perfil local de Bedrock, a menudo dentro de una carpeta com.mojang. Esa ubicación del cliente no es la misma que behavior_packs, resource_packs y worlds del servidor. Copiar un archivo solo a tu equipo no hace que el servidor dedicado lo cargue.",
+      "Las rutas de BDS cambian según sistema operativo, instalación, contenedor o panel. Empieza por la carpeta que contiene el ejecutable del servidor y server.properties, y confirma level-name. Un panel puede mostrar una raíz virtual: sigue el mapeo del proveedor y no pegues una ruta de Windows supuesta dentro de un contenedor Linux.",
+      "Mantén manifest.json junto al contenido del pack. El UUID de cabecera identifica el pack en la lista del mundo; los UUID de módulo identifican módulos internos y tienen otra función. Si el creador declara dependencias, instala también esos packs y usa los IDs y las versiones exactos de sus manifiestos."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-server-addons/pack-folder-boundaries.webp",
+      "alt": "Diagrama conceptual que separa el área de importación local de Bedrock de las carpetas de comportamiento, recursos y mundos del servidor",
+      "caption": "Diagrama conceptual, no captura real. El almacenamiento del cliente y el del servidor cumplen funciones distintas.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Mapa de archivos BDS",
+    "title": "Qué archivo o carpeta utiliza cada parte del complemento",
+    "description": "La ruta exacta depende de la instalación. Estos nombres describen las funciones de las carpetas habituales de BDS; compruébalos en el paquete del servidor o la documentación del proveedor.",
+    "headers": [
+      "Elemento",
+      "Ubicación habitual",
+      "Qué controla",
+      "Antes de reiniciar"
+    ],
+    "rows": [
+      [
+        "Carpeta de comportamiento",
+        "behavior_packs/<pack>/",
+        "Reglas y módulos de comportamiento del servidor",
+        "La carpeta contiene manifest.json"
+      ],
+      [
+        "Carpeta de recursos",
+        "resource_packs/<pack>/",
+        "Texturas, sonidos y recursos del cliente",
+        "Contenido extraído y manifiesto presente"
+      ],
+      [
+        "Lista de comportamiento",
+        "worlds/<mundo>/world_behavior_packs.json",
+        "Packs de comportamiento activos en un mundo",
+        "UUID y versión coinciden con la cabecera"
+      ],
+      [
+        "Lista de recursos",
+        "worlds/<mundo>/world_resource_packs.json",
+        "Packs de recursos activos en un mundo",
+        "ID y versión coinciden; JSON válido"
+      ],
+      [
+        "Propiedades",
+        "server.properties",
+        "Mundo seleccionado y política de recursos",
+        "level-name correcto; revisa texturepack-required"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Sincronización y varios packs",
+    "title": "El pack del servidor y el complemento local del jugador no siempre son lo mismo",
+    "paragraphs": [
+      "Un servidor puede ofrecer a los clientes los packs de recursos administrados por el mundo. texturepack-required controla si se exige aceptar la descarga del recurso para entrar. No instala el pack de comportamiento como complemento local, no repara una incompatibilidad ni garantiza el mismo aspecto en cada plataforma. Prueba las versiones exactas de cliente y servidor que utilizarás.",
+      "Los packs de comportamiento suelen formar parte de la configuración del mundo del servidor; los de recursos aportan elementos visuales o sonidos al cliente. Algunos complementos contienen ambos tipos. Registra cada parte en su lista y no concluyas que el pack completo funciona solo porque ves una textura o una entidad.",
+      "Varios complementos pueden depender entre sí. Instala todas las dependencias, busca UUID de cabecera repetidos y alinea la versión de cada lista con la carpeta instalada. Si el creador especifica orden o experimentos necesarios, sigue las instrucciones de esa versión. Añade un pack por vez en una copia para acotar cualquier fallo.",
+      "Las flechas de la ilustración representan el límite conceptual: el administrador instala y activa los packs en el servidor; después los clientes se conectan y quizá reciben recursos. Es arte explicativo, no una captura de Minecraft, un panel ni una traza de protocolo verificada."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-server-addons/client-sync-flow.webp",
+      "alt": "Ilustración conceptual de un servidor Bedrock que aplica reglas y ofrece recursos a dos dispositivos conectados",
+      "caption": "Ilustración conceptual, no una partida real. Los avisos y la representación dependen de la configuración, el pack, la versión y el dispositivo.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Solución de problemas",
+    "title": "Por qué el complemento parece instalado pero no tiene efecto",
+    "description": "Usa la señal de error para acotar la búsqueda. Cambia una sola cosa a la vez y conserva la copia hasta que el mundo corregido cargue sin problemas.",
+    "cards": [
+      {
+        "title": "Se está cargando otro mundo",
+        "text": "Compara level-name con la carpeta cuyos archivos de packs editaste. Un pack válido dentro de otra partida no queda activo en el mundo actual."
+      },
+      {
+        "title": "El manifiesto está anidado o comprimido",
+        "text": "Abre la carpeta destino y confirma que manifest.json está dentro, no escondido en una subcarpeta extra. Comprueba si el archivo creó una carpeta envolvente al descomprimirse."
+      },
+      {
+        "title": "UUID o versión incorrectos",
+        "text": "Usa el UUID y la versión de cabecera de manifest.json. No sustituyas esos valores por el nombre de carpeta, el UUID de módulo o una versión de una descarga anterior."
+      },
+      {
+        "title": "Tipo de pack en la ubicación equivocada",
+        "text": "Coloca comportamiento en behavior_packs y recursos en resource_packs, y regístralos en su JSON correspondiente. Una importación en el cliente no activa el pack del servidor."
+      },
+      {
+        "title": "Falta una dependencia o experimento",
+        "text": "Revisa las dependencias del manifiesto y las notas de la versión concreta. Instala juntas las versiones necesarias y comprueba las opciones experimentales del mundo si el creador las exige."
+      },
+      {
+        "title": "Los jugadores no ven los recursos",
+        "text": "Comprueba la lista del mundo, la política del aviso, la aceptación del cliente y la versión compatible. Si limpias una caché del cliente, registra primero la configuración y no borres el mundo del servidor como primera medida."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Guías relacionadas",
+    "title": "Continúa con la guía adecuada para tu configuración",
+    "description": "Estas páginas cubren tareas cercanas sin mezclar la importación de un mundo local con la configuración de un servidor dedicado.",
+    "links": [
+      {
+        "title": "Importar un complemento a un mundo personal",
+        "url": "/bedrock-addons/",
+        "text": "Sigue el proceso del cliente para importar .mcaddon en tu dispositivo o mundo local.",
+        "cta": "Leer guía de importación"
+      },
+      {
+        "title": "Solucionar problemas de packs de recursos",
+        "url": "/bedrock-resource-packs/",
+        "text": "Comprueba formatos, importación y activación en un cliente Bedrock.",
+        "cta": "Abrir guía de recursos"
+      },
+      {
+        "title": "Fuentes y versiones de Bedrock",
+        "url": "/bedrock/",
+        "text": "Consulta la página de origen de Verity Bedrock y sus notas específicas de compatibilidad.",
+        "cta": "Revisar fuente Bedrock"
+      },
+      {
+        "title": "Resumen de versiones de Minecraft",
+        "url": "/versions/",
+        "text": "Compara las versiones registradas del juego y del paquete antes de probar un mundo compartido.",
+        "cta": "Consultar versiones"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referencias",
+    "title": "Documentación oficial para consultar antes de cambiar el servidor",
+    "description": "Estas fuentes describen la descarga del servidor dedicado, la estructura de los packs y los complementos. No certifican la compatibilidad de un pack de terceros.",
+    "links": [
+      {
+        "title": "Servidor dedicado de Minecraft Bedrock",
+        "url": "https://www.minecraft.net/en-us/download/server/bedrock",
+        "text": "Descargas oficiales e información de plataforma. Elige la versión que corresponda a tu entorno.",
+        "cta": "Abrir página de Minecraft"
+      },
+      {
+        "title": "Microsoft Learn: paquetes de comportamiento",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/behaviorpack?view=minecraft-bedrock-stable",
+        "text": "Documentación oficial para creadores sobre manifiestos y estructura de comportamiento.",
+        "cta": "Leer documentación"
+      },
+      {
+        "title": "Microsoft Learn: paquetes de recursos",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "Documentación oficial para creadores sobre archivos y estructura de recursos.",
+        "cta": "Leer documentación"
+      },
+      {
+        "title": "Ayuda de Minecraft: preguntas frecuentes sobre complementos Bedrock",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "Contexto oficial para jugadores sobre los complementos Bedrock y las plataformas admitidas.",
+        "cta": "Abrir preguntas frecuentes oficiales"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas sobre complementos para servidores Minecraft Bedrock",
+    "items": [
+      {
+        "question": "¿Cómo añado complementos a un servidor Minecraft Bedrock?",
+        "answer": "En un Bedrock Dedicated Server propio, detén y respalda el mundo, extrae el pack, copia la carpeta a behavior_packs o resource_packs y añade el UUID y la versión de cabecera a la lista JSON correspondiente del mundo activo. Reinicia y prueba una copia antes de usar la partida principal."
+      },
+      {
+        "question": "¿Basta con abrir un .mcaddon en el servidor?",
+        "answer": "Normalmente eso importa el paquete al perfil de un cliente Bedrock, no al mundo dedicado. Extrae las carpetas y sigue el proceso de BDS. Los paneles de alojamiento pueden usar otro flujo, así que revisa su documentación."
+      },
+      {
+        "question": "¿Cada jugador debe instalar el mismo complemento?",
+        "answer": "No siempre. El servidor puede ofrecer los packs de recursos al cliente, y texturepack-required puede exigir que el jugador acepte la descarga. El comportamiento se configura en el servidor con el mundo. Aun así, importan la versión, el dispositivo, el pack y los ajustes del servidor."
+      },
+      {
+        "question": "¿Cómo añado varios complementos a un BDS?",
+        "answer": "Instala las carpetas extraídas y registra cada pack en la lista correcta con su UUID de cabecera y versión. Añade las dependencias declaradas, busca IDs repetidos e instala de uno en uno en una copia para detectar conflictos y respetar el orden documentado."
+      },
+      {
+        "question": "¿Puedo aplicar estos pasos a Minecraft Realms?",
+        "answer": "No. Estas rutas son para un Bedrock Dedicated Server administrado por su operador. Realms no expone el mismo sistema de archivos; usa el flujo admitido por el propietario del Realm. Un alojamiento administrado también puede requerir pasos del panel."
+      },
+      {
+        "question": "¿La ficha de Verity Bedrock garantiza la compatibilidad con BDS?",
+        "answer": "No. La ficha revisada el 23 de septiembre de 2026 muestra la versión 4.0.0 para V26.50, pero no es una prueba de servidor dedicado. Compara el manifiesto y las notas con tu BDS y prueba una copia. El botón de descarga usa la página oficial de CurseForge porque no se verificó un enlace directo estable."
+      },
+      {
+        "question": "¿Por qué aparece el paquete en una carpeta, pero no afecta al mundo del servidor?",
+        "answer": "Comprueba que la carpeta coincida con el mundo activo indicado por level-name y que world_behavior_packs.json incluya el UUID y la versión del encabezado de manifest.json. El paquete puede estar instalado y seguir inactivo si se vinculó a otro mundo o si los datos del manifiesto no coinciden."
+      },
+      {
+        "question": "¿La ficha de lanzamiento de Verity Bedrock confirma la compatibilidad con servidores?",
+        "answer": "No. La fuente de Verity consultada el 23 de septiembre de 2026 indica la versión 4.0.0 para V26.50, pero una ficha de lanzamiento no es una prueba de compatibilidad con un servidor dedicado. Compara el manifiesto del paquete y las notas de la fuente con tu versión de BDS y pruébalo en una copia de seguridad del mundo. El botón de descarga de Bedrock lleva a la página oficial del archivo en CurseForge porque no se pudo verificar un enlace directo estable."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Cómo añadir complementos a un servidor de Minecraft Bedrock",
+      "description": "Guía práctica de Bedrock Dedicated Server para respaldar un mundo, instalar packs de comportamiento y recursos, registrar UUID, sincronizar clientes y resolver problemas.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp",
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/es/minecraft-bedrock-server-addons/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo añado complementos a un servidor Minecraft Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En un Bedrock Dedicated Server propio, detén y respalda el mundo, extrae el pack, copia la carpeta a behavior_packs o resource_packs y añade el UUID y la versión de cabecera a la lista JSON correspondiente del mundo activo. Reinicia y prueba una copia antes de usar la partida principal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Basta con abrir un .mcaddon en el servidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normalmente eso importa el paquete al perfil de un cliente Bedrock, no al mundo dedicado. Extrae las carpetas y sigue el proceso de BDS. Los paneles de alojamiento pueden usar otro flujo, así que revisa su documentación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cada jugador debe instalar el mismo complemento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No siempre. El servidor puede ofrecer los packs de recursos al cliente, y texturepack-required puede exigir que el jugador acepte la descarga. El comportamiento se configura en el servidor con el mundo. Aun así, importan la versión, el dispositivo, el pack y los ajustes del servidor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo añado varios complementos a un BDS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Instala las carpetas extraídas y registra cada pack en la lista correcta con su UUID de cabecera y versión. Añade las dependencias declaradas, busca IDs repetidos e instala de uno en uno en una copia para detectar conflictos y respetar el orden documentado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo aplicar estos pasos a Minecraft Realms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Estas rutas son para un Bedrock Dedicated Server administrado por su operador. Realms no expone el mismo sistema de archivos; usa el flujo admitido por el propietario del Realm. Un alojamiento administrado también puede requerir pasos del panel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La ficha de Verity Bedrock garantiza la compatibilidad con BDS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La ficha revisada el 23 de septiembre de 2026 muestra la versión 4.0.0 para V26.50, pero no es una prueba de servidor dedicado. Compara el manifiesto y las notas con tu BDS y prueba una copia. El botón de descarga usa la página oficial de CurseForge porque no se verificó un enlace directo estable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué aparece el paquete en una carpeta, pero no afecta al mundo del servidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprueba que la carpeta coincida con el mundo activo indicado por level-name y que world_behavior_packs.json incluya el UUID y la versión del encabezado de manifest.json. El paquete puede estar instalado y seguir inactivo si se vinculó a otro mundo o si los datos del manifiesto no coinciden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La ficha de lanzamiento de Verity Bedrock confirma la compatibilidad con servidores?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La fuente de Verity consultada el 23 de septiembre de 2026 indica la versión 4.0.0 para V26.50, pero una ficha de lanzamiento no es una prueba de compatibilidad con un servidor dedicado. Compara el manifiesto del paquete y las notas de la fuente con tu versión de BDS y pruébalo en una copia de seguridad del mundo. El botón de descarga de Bedrock lleva a la página oficial del archivo en CurseForge porque no se pudo verificar un enlace directo estable."
+          }
+        }
+      ]
+    }
+  }
+}

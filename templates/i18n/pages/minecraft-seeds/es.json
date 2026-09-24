@@ -11,8 +11,16 @@
     "lede": "Las semillas de Minecraft no son una lista universal de números mágicos. Una buena semilla es la que coincide con tu edición, versión, zona de aparición y objetivo de juego. Esta guía explica cómo comparar comienzos de supervivencia, islas, aldeas, biomas y semillas ligadas a una versión sin tratar una captura antigua como prueba.",
     "support": "Usa una fuente mantenida o un mapa de semillas para descubrir opciones y después crea un mundo de prueba antes de comprometer una partida larga. Java y Bedrock pueden generar terrenos distintos con el mismo número, y las actualizaciones pueden cambiar el resultado.",
     "actions": [
-      {"label": "Comparar Java y Bedrock", "url": "/java-vs-bedrock/", "class": "btn-primary"},
-      {"label": "Ver notas de versiones", "url": "/versions/", "class": "btn-secondary"}
+      {
+        "label": "Comparar Java y Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Ver notas de versiones",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
     ],
     "image": {
       "src": "/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
@@ -31,9 +39,18 @@
       "Trata cada semilla pública como una pista que debes verificar. Lee las notas de la fuente, anota edición y versión, inspecciona el área inicial con una herramienta mantenida cuando corresponda y abre un mundo copiado. El proceso tarda más que pegar un número, pero evita que una captura atractiva se convierta en una mala decisión para tu mundo principal."
     ],
     "cards": [
-      {"title": "El número es solo una entrada", "text": "El mismo número puede comportarse de otra manera si cambian la edición, la versión, la configuración o el área revisada. Guarda todo el contexto junto a la semilla."},
-      {"title": "La mejor depende del objetivo", "text": "Una aldea, una isla, una montaña y un inicio de supervivencia requieren terrenos distintos. Compara la característica que realmente necesitas, no una clasificación universal."},
-      {"title": "Prueba antes del mundo principal", "text": "Usa un mundo temporal o copiado para comprobar la aparición, las estructuras, el terreno y la jugabilidad. Una captura no confirma los primeros minutos de una partida real."}
+      {
+        "title": "El número es solo una entrada",
+        "text": "El mismo número puede comportarse de otra manera si cambian la edición, la versión, la configuración o el área revisada. Guarda todo el contexto junto a la semilla."
+      },
+      {
+        "title": "La mejor depende del objetivo",
+        "text": "Una aldea, una isla, una montaña y un inicio de supervivencia requieren terrenos distintos. Compara la característica que realmente necesitas, no una clasificación universal."
+      },
+      {
+        "title": "Prueba antes del mundo principal",
+        "text": "Usa un mundo temporal o copiado para comprobar la aparición, las estructuras, el terreno y la jugabilidad. Una captura no confirma los primeros minutos de una partida real."
+      }
     ]
   },
   "steps": {
@@ -41,11 +58,26 @@
     "title": "Cómo elegir las mejores semillas de Minecraft para tu objetivo",
     "description": "Estas categorías convierten una búsqueda amplia en una lista corta y comprobable. Son ayudas para decidir, no una promesa de que una semilla funcionará en todas las versiones.",
     "items": [
-      {"title": "1. Comienzos cómodos de supervivencia", "text": "Busca madera, comida, piedra y terreno razonablemente seguro cerca del inicio. Un acantilado llamativo puede ser memorable, pero no siempre es un buen comienzo para el primer día."},
-      {"title": "2. Mundos de isla y costa", "text": "Comprueba la distancia hasta árboles, animales, aldeas y tierra firme antes de elegir una semilla de isla. Una isla bonita sin recursos cercanos puede ser mejor para un reto que para una partida tranquila."},
-      {"title": "3. Aldeas y estructuras", "text": "Confirma qué significa cerca. Una aldea visible desde el inicio no es lo mismo que una estructura a cientos de bloques. Anota la distancia aproximada y pruébala en la misma edición y versión."},
-      {"title": "4. Biomas y construcción", "text": "Para construir en montaña, cerezo, roble oscuro, desierto o nieve, revisa la forma del terreno además del nombre del bioma. Un mapa de semillas ayuda a comparar el área amplia antes de cargar el mundo."},
-      {"title": "5. Descubrimientos de una versión", "text": "Una búsqueda como semillas de Minecraft 26.2 depende de un contexto de versión. Conserva la versión en tus notas y vuelve a comprobar la fuente después de cambios en la generación."}
+      {
+        "title": "1. Comienzos cómodos de supervivencia",
+        "text": "Busca madera, comida, piedra y terreno razonablemente seguro cerca del inicio. Un acantilado llamativo puede ser memorable, pero no siempre es un buen comienzo para el primer día."
+      },
+      {
+        "title": "2. Mundos de isla y costa",
+        "text": "Comprueba la distancia hasta árboles, animales, aldeas y tierra firme antes de elegir una semilla de isla. Una isla bonita sin recursos cercanos puede ser mejor para un reto que para una partida tranquila."
+      },
+      {
+        "title": "3. Aldeas y estructuras",
+        "text": "Confirma qué significa cerca. Una aldea visible desde el inicio no es lo mismo que una estructura a cientos de bloques. Anota la distancia aproximada y pruébala en la misma edición y versión."
+      },
+      {
+        "title": "4. Biomas y construcción",
+        "text": "Para construir en montaña, cerezo, roble oscuro, desierto o nieve, revisa la forma del terreno además del nombre del bioma. Un mapa de semillas ayuda a comparar el área amplia antes de cargar el mundo."
+      },
+      {
+        "title": "5. Descubrimientos de una versión",
+        "text": "Una búsqueda como semillas de Minecraft 26.3 depende de un contexto de versión. Conserva la versión en tus notas y vuelve a comprobar la fuente después de cambios en la generación."
+      }
     ]
   },
   "source_check": {
@@ -69,14 +101,49 @@
     "eyebrow": "Tabla de decisión",
     "title": "Comprobaciones de semillas de Minecraft según el objetivo",
     "description": "Usa la tabla para decidir qué pruebas reunir antes de abrir un mundo largo. La comprobación final debe hacerse en la edición y versión que realmente juegas.",
-    "headers": ["Objetivo", "Comprueba primero", "Prueba útil", "Límite común"],
+    "headers": [
+      "Objetivo",
+      "Comprueba primero",
+      "Prueba útil",
+      "Límite común"
+    ],
     "rows": [
-      ["Inicio de supervivencia", "Madera, comida, refugio y distancia segura", "Coordenadas, edición, versión y prueba corta", "Un inicio espectacular puede carecer de recursos"],
-      ["Semilla de isla", "Árboles, animales, continente y ruta oceánica", "Mapa y comprobación en mundo copiado", "La isla puede ser bonita pero difícil"],
-      ["Aldea o estructura", "Tipo y distancia desde la aparición", "Coordenadas de la fuente y prueba en la versión", "Cerca puede significar cientos de bloques"],
-      ["Bioma o construcción", "Forma del terreno y biomas cercanos", "Mapa del área del proyecto", "El nombre del bioma no garantiza una zona construible"],
-      ["Semilla Bedrock", "Edición Bedrock y versión exacta", "Notas de la fuente y prueba local", "No se puede asumir el resultado de Java"],
-      ["Semilla de una versión", "La versión mencionada por la publicación", "Fuente fechada y etiqueta de versión", "La generación puede cambiar con una actualización"]
+      [
+        "Inicio de supervivencia",
+        "Madera, comida, refugio y distancia segura",
+        "Coordenadas, edición, versión y prueba corta",
+        "Un inicio espectacular puede carecer de recursos"
+      ],
+      [
+        "Semilla de isla",
+        "Árboles, animales, continente y ruta oceánica",
+        "Mapa y comprobación en mundo copiado",
+        "La isla puede ser bonita pero difícil"
+      ],
+      [
+        "Aldea o estructura",
+        "Tipo y distancia desde la aparición",
+        "Coordenadas de la fuente y prueba en la versión",
+        "Cerca puede significar cientos de bloques"
+      ],
+      [
+        "Bioma o construcción",
+        "Forma del terreno y biomas cercanos",
+        "Mapa del área del proyecto",
+        "El nombre del bioma no garantiza una zona construible"
+      ],
+      [
+        "Semilla Bedrock",
+        "Edición Bedrock y versión exacta",
+        "Notas de la fuente y prueba local",
+        "No se puede asumir el resultado de Java"
+      ],
+      [
+        "Semilla de una versión",
+        "La versión mencionada por la publicación",
+        "Fuente fechada y etiqueta de versión",
+        "La generación puede cambiar con una actualización"
+      ]
     ]
   },
   "activation": {
@@ -102,12 +169,30 @@
     "title": "Seis errores con semillas de Minecraft que producen malos resultados",
     "description": "La mayoría de decepciones vienen de perder contexto. Corrige la comparación antes de asumir que la semilla está rota.",
     "cards": [
-      {"title": "Tratar una lista como permanente", "text": "Una lista de mejores semillas depende de la edición, la versión y la fecha de prueba. Guarda ese contexto en lugar de copiar el número a cualquier versión futura."},
-      {"title": "Mezclar Java y Bedrock", "text": "El mismo texto de semilla no demuestra el mismo terreno. Lee la etiqueta de edición y prueba el mundo en la edición que utilizas."},
-      {"title": "Confiar solo en una captura", "text": "Una imagen puede ocultar distancia, recursos o una versión diferente. Busca coordenadas y usa un mundo copiado para comprobar la ruta."},
-      {"title": "Confundir mundo y cultivos", "text": "Las preguntas sobre semillas de calabaza, trigo, melón o patata son preguntas de agricultura. No pertenecen a una guía de semillas de generación mundial."},
-      {"title": "Probar en la partida principal", "text": "Los experimentos pueden cambiar tus planes y llenar el mundo de pruebas. Usa un mundo temporal o copiado hasta que la semilla cumpla tu objetivo."},
-      {"title": "Llamar latest a una semilla de versión", "text": "Una publicación reciente no certifica compatibilidad. Usa fecha, versión, fuente y prueba local, y explica siempre el límite de la recomendación."}
+      {
+        "title": "Tratar una lista como permanente",
+        "text": "Una lista de mejores semillas depende de la edición, la versión y la fecha de prueba. Guarda ese contexto en lugar de copiar el número a cualquier versión futura."
+      },
+      {
+        "title": "Mezclar Java y Bedrock",
+        "text": "El mismo texto de semilla no demuestra el mismo terreno. Lee la etiqueta de edición y prueba el mundo en la edición que utilizas."
+      },
+      {
+        "title": "Confiar solo en una captura",
+        "text": "Una imagen puede ocultar distancia, recursos o una versión diferente. Busca coordenadas y usa un mundo copiado para comprobar la ruta."
+      },
+      {
+        "title": "Confundir mundo y cultivos",
+        "text": "Las preguntas sobre semillas de calabaza, trigo, melón o patata son preguntas de agricultura. No pertenecen a una guía de semillas de generación mundial."
+      },
+      {
+        "title": "Probar en la partida principal",
+        "text": "Los experimentos pueden cambiar tus planes y llenar el mundo de pruebas. Usa un mundo temporal o copiado hasta que la semilla cumpla tu objetivo."
+      },
+      {
+        "title": "Llamar latest a una semilla de versión",
+        "text": "Una publicación reciente no certifica compatibilidad. Usa fecha, versión, fuente y prueba local, y explica siempre el límite de la recomendación."
+      }
     ]
   },
   "related": {
@@ -115,11 +200,36 @@
     "title": "Conecta la comprobación de semillas con la edición y la versión",
     "description": "Estas guías responden preguntas cercanas que suelen aparecer al comparar una semilla o preparar un mundo nuevo.",
     "links": [
-      {"title": "Minecraft Java y Bedrock", "url": "/java-vs-bedrock/", "text": "Compara las ediciones antes de asumir que una semilla o un flujo de Java funciona igual en Bedrock.", "cta": "Comparar ediciones"},
-      {"title": "Versiones de Minecraft", "url": "/versions/", "text": "Relaciona cada nota de semilla con la versión de Minecraft y Verity que realmente probaste.", "cta": "Ver versiones"},
-      {"title": "Cómo instalar Minecraft", "url": "/how-to-install/", "text": "Usa el flujo de instalación basado en fuentes cuando el mundo forme parte de una configuración con mods o add-ons.", "cta": "Abrir guía de instalación"},
-      {"title": "Paquetes de recursos de Minecraft", "url": "/minecraft-resource-packs/", "text": "Separa las decisiones de generación del mundo de las comprobaciones de archivos Java y Bedrock.", "cta": "Abrir guía de paquetes"},
-      {"title": "Mapas de Minecraft Bedrock", "url": "/minecraft-bedrock-maps/", "text": "Usa esta guía cuando necesites importar un mundo Bedrock terminado en lugar de generar terreno con una semilla.", "cta": "Abrir guía de mapas Bedrock"}
+      {
+        "title": "Minecraft Java y Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Compara las ediciones antes de asumir que una semilla o un flujo de Java funciona igual en Bedrock.",
+        "cta": "Comparar ediciones"
+      },
+      {
+        "title": "Versiones de Minecraft",
+        "url": "/versions/",
+        "text": "Relaciona cada nota de semilla con la versión de Minecraft y Verity que realmente probaste.",
+        "cta": "Ver versiones"
+      },
+      {
+        "title": "Cómo instalar Minecraft",
+        "url": "/how-to-install/",
+        "text": "Usa el flujo de instalación basado en fuentes cuando el mundo forme parte de una configuración con mods o add-ons.",
+        "cta": "Abrir guía de instalación"
+      },
+      {
+        "title": "Paquetes de recursos de Minecraft",
+        "url": "/minecraft-resource-packs/",
+        "text": "Separa las decisiones de generación del mundo de las comprobaciones de archivos Java y Bedrock.",
+        "cta": "Abrir guía de paquetes"
+      },
+      {
+        "title": "Mapas de Minecraft Bedrock",
+        "url": "/minecraft-bedrock-maps/",
+        "text": "Usa esta guía cuando necesites importar un mundo Bedrock terminado en lugar de generar terreno con una semilla.",
+        "cta": "Abrir guía de mapas Bedrock"
+      }
     ]
   },
   "sources": {
@@ -127,20 +237,48 @@
     "title": "Fuentes y herramientas para comprobar semillas de Minecraft",
     "description": "Usa estos enlaces como punto de partida para definiciones e inspección con mapas. No sustituyen una prueba en la edición y versión que juegas.",
     "links": [
-      {"title": "Ayuda de Minecraft", "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-", "text": "Entrada oficial de la ayuda de Minecraft para soporte y terminología relacionada con semillas.", "cta": "Abrir la ayuda"},
-      {"title": "Mapa de semillas de Chunkbase", "url": "https://www.chunkbase.com/apps/seed-map", "text": "Herramienta de planificación con notas de versión, errores comunes y límites declarados. Comprueba la cobertura antes de confiar en el resultado.", "cta": "Abrir el mapa"}
+      {
+        "title": "Ayuda de Minecraft",
+        "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-",
+        "text": "Entrada oficial de la ayuda de Minecraft para soporte y terminología relacionada con semillas.",
+        "cta": "Abrir la ayuda"
+      },
+      {
+        "title": "Mapa de semillas de Chunkbase",
+        "url": "https://www.chunkbase.com/apps/seed-map",
+        "text": "Herramienta de planificación con notas de versión, errores comunes y límites declarados. Comprueba la cobertura antes de confiar en el resultado.",
+        "cta": "Abrir el mapa"
+      }
     ]
   },
   "faq": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Preguntas frecuentes sobre semillas de Minecraft",
     "items": [
-      {"question": "¿Qué es una semilla de Minecraft?", "answer": "Es un dato que se usa para generar un mundo. Influye en terreno, biomas, estructuras y la zona de aparición, pero debe entenderse junto con la edición y la versión que la generaron."},
-      {"question": "¿Cuáles son las mejores semillas de Minecraft para supervivencia?", "answer": "No existe una semilla mejor para todo el mundo. Combina edición y versión compatibles y revisa madera, comida, refugio, estructuras y tu ruta en un mundo copiado."},
-      {"question": "¿Puedo usar una semilla de Java en Bedrock?", "answer": "No lo des por hecho. Una semilla de Java no garantiza el mismo terreno o estructuras en Bedrock. Comprueba la etiqueta de edición y haz una prueba local."},
-      {"question": "¿Por qué mi semilla de Minecraft generó otro mundo?", "answer": "Revisa el texto, la edición, la versión, los ajustes del mundo y la zona de aparición. Una diferencia de versión o edición puede cambiar el resultado."},
-      {"question": "¿Cómo encuentro buenas semillas de islas en Minecraft?", "answer": "Filtra la forma de la isla y después comprueba árboles, animales, comida, distancia al continente y estructuras. Usa un mapa mantenido y un mundo temporal."},
-      {"question": "¿Cuántas semillas de Minecraft existen?", "answer": "No hay una cifra única útil para todas las ediciones y versiones. El espacio de valores es enorme y la generación cambia; importa más conservar un contexto reproducible."}
+      {
+        "question": "¿Qué es una semilla de Minecraft?",
+        "answer": "Es un dato que se usa para generar un mundo. Influye en terreno, biomas, estructuras y la zona de aparición, pero debe entenderse junto con la edición y la versión que la generaron."
+      },
+      {
+        "question": "¿Cuáles son las mejores semillas de Minecraft para supervivencia?",
+        "answer": "No existe una semilla mejor para todo el mundo. Combina edición y versión compatibles y revisa madera, comida, refugio, estructuras y tu ruta en un mundo copiado."
+      },
+      {
+        "question": "¿Puedo usar una semilla de Java en Bedrock?",
+        "answer": "No lo des por hecho. Una semilla de Java no garantiza el mismo terreno o estructuras en Bedrock. Comprueba la etiqueta de edición y haz una prueba local."
+      },
+      {
+        "question": "¿Por qué mi semilla de Minecraft generó otro mundo?",
+        "answer": "Revisa el texto, la edición, la versión, los ajustes del mundo y la zona de aparición. Una diferencia de versión o edición puede cambiar el resultado."
+      },
+      {
+        "question": "¿Cómo encuentro buenas semillas de islas en Minecraft?",
+        "answer": "Filtra la forma de la isla y después comprueba árboles, animales, comida, distancia al continente y estructuras. Usa un mapa mantenido y un mundo temporal."
+      },
+      {
+        "question": "¿Cuántas semillas de Minecraft existen?",
+        "answer": "No hay una cifra única útil para todas las ediciones y versiones. El espacio de valores es enorme y la generación cambia; importa más conservar un contexto reproducible."
+      }
     ]
   },
   "schema": {
@@ -151,21 +289,69 @@
       "description": "Guía práctica para elegir, comprobar y probar semillas de mundos de Minecraft en Java y Bedrock.",
       "image": "https://verityminecraft.blog/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
       "datePublished": "2026-08-15",
-      "dateModified": "2026-08-15",
-      "author": {"@type": "Organization", "name": "Verity Minecraft"},
-      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
       "mainEntityOfPage": "https://verityminecraft.blog/es/minecraft-seeds/"
     },
     "faq": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "¿Qué es una semilla de Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Es un dato usado para generar un mundo; influye en terreno, biomas y estructuras, pero depende de edición y versión."}},
-        {"@type": "Question", "name": "¿Cuáles son las mejores semillas de Minecraft para supervivencia?", "acceptedAnswer": {"@type": "Answer", "text": "No hay una semilla universal. Comprueba edición, versión, recursos, estructuras y ruta en un mundo copiado."}},
-        {"@type": "Question", "name": "¿Puedo usar una semilla de Java en Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "No lo asumas; comprueba la edición y prueba la semilla en Bedrock."}},
-        {"@type": "Question", "name": "¿Por qué mi semilla generó otro mundo?", "acceptedAnswer": {"@type": "Answer", "text": "Revisa texto, edición, versión, ajustes del mundo y zona de aparición."}},
-        {"@type": "Question", "name": "¿Cómo encuentro buenas semillas de islas?", "acceptedAnswer": {"@type": "Answer", "text": "Comprueba forma, recursos, distancia al continente y estructuras con un mapa y un mundo temporal."}},
-        {"@type": "Question", "name": "¿Cuántas semillas de Minecraft existen?", "acceptedAnswer": {"@type": "Answer", "text": "No existe una cifra única para todas las versiones; conserva un contexto reproducible."}}
+        {
+          "@type": "Question",
+          "name": "¿Qué es una semilla de Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un dato usado para generar un mundo; influye en terreno, biomas y estructuras, pero depende de edición y versión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las mejores semillas de Minecraft para supervivencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay una semilla universal. Comprueba edición, versión, recursos, estructuras y ruta en un mundo copiado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo usar una semilla de Java en Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No lo asumas; comprueba la edición y prueba la semilla en Bedrock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué mi semilla generó otro mundo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Revisa texto, edición, versión, ajustes del mundo y zona de aparición."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo encuentro buenas semillas de islas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprueba forma, recursos, distancia al continente y estructuras con un mapa y un mundo temporal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas semillas de Minecraft existen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No existe una cifra única para todas las versiones; conserva un contexto reproducible."
+          }
+        }
       ]
     }
   }

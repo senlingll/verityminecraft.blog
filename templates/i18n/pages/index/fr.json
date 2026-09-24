@@ -42,7 +42,7 @@
         },
         {
           "label": "Dernière vérification",
-          "value": "4 août 2026"
+          "value": "23 septembre 2026"
         }
       ],
       "facts_aria": "Informations de t?l?chargement Verity Minecraft"
@@ -57,12 +57,12 @@
           "platform": "Bedrock Edition",
           "title": "Add-on Verity Mod pour Bedrock",
           "description": "Adapté à Minecraft Bedrock, Windows Bedrock, Bedrock mobile et aux installations PE qui acceptent les fichiers .mcaddon.",
-          "version": "ThatMob's Verity 3.1.0 / V26.30",
+          "version": "ThatMob's Verity 4.0.0 / V26.50",
           "minecraft": "Add-on Bedrock",
           "file_type": ".mcaddon",
           "source": "CurseForge",
           "status": "Source Bedrock principale",
-          "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+          "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/files/8902437",
           "page_url": "/bedrock/",
           "cta": "Télécharger Bedrock"
         },
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod pour Java Edition",
           "description": "Adapté aux joueurs Java qui utilisent des loaders compatibles et vérifient les versions Minecraft indiquées.",
-          "version": "verity-6.1.jar",
+          "version": "verity-5.7.4.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Source Java",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/6jRN8Exp/verity-6.1.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/Tc8RyKmi/verity-5.7.4.jar",
           "page_url": "/java/",
           "cta": "Télécharger le mod Java"
         },
@@ -114,14 +114,14 @@
         [
           "Bedrock",
           "CurseForge Verity - Bedrock Edition",
-          "ThatMob's Verity 3.1.0 / V26.30",
+          "ThatMob's Verity 4.0.0 / V26.50",
           ".mcaddon",
           "Télécharger l'add-on Bedrock"
         ],
         [
           "Java",
           "CurseForge Verity JE ou Modrinth Verity JE",
-          "verity-6.1.jar / Forge 1.20.1",
+          "verity-5.7.4.jar / Forge 1.20.1",
           ".jar",
           "Vérifier loader et version"
         ],
@@ -184,7 +184,7 @@
         "Cette page est un guide Verity mod, pas un miroir. Les boutons pointent vers des sources où la plateforme ou le créateur contrôle la publication.",
         "Le premier clic doit être plus sûr : contexte .mcaddon pour Bedrock, notes de loader pour Java et prudence pour PE.",
         "Le bon ordre est simple : choisir l'édition, ouvrir la source maintenue, puis tester dans un monde ou profil propre.",
-        "La source Bedrock a été vérifiée le 4 août 2026 et liste ThatMob's Verity 3.1.0 / V26.30. Si elle change, suivez d'abord la source."
+        "La source Bedrock a été vérifiée le 23 septembre 2026 et liste ThatMob's Verity 4.0.0 / V26.50. Si elle change, suivez d'abord la source."
       ]
     },
     "versions": {
@@ -225,7 +225,7 @@
       "items": [
         {
           "question": "Quel est le meilleur téléchargement Verity mod pour Bedrock ?",
-          "answer": "Utilisez la source Bedrock si vous avez besoin d'un .mcaddon. La source vérifiée liste ThatMob's Verity 3.1.0 / V26.30."
+          "answer": "Utilisez la source Bedrock si vous avez besoin d'un .mcaddon. La source vérifiée liste ThatMob's Verity 4.0.0 / V26.50."
         },
         {
           "question": "Verity mod existe-t-il pour Java Edition ?",

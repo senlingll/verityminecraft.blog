@@ -501,6 +501,27 @@ def localized_bedrock_addons(lang):
     return render_core_page('bedrock-addons', template_name='bedrock-addons-guide.html', lang=lang)
 
 
+@app.route('/minecraft-bedrock-server-addons/', strict_slashes=False)
+def minecraft_bedrock_server_addons():
+    """
+    渲染 Minecraft Bedrock 专用服务器 Add-on 安装指南
+
+    :return: str，服务器 Add-on 指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-bedrock-server-addons', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-bedrock-server-addons/', strict_slashes=False)
+def localized_minecraft_bedrock_server_addons(lang):
+    """
+    渲染指定语言的 Minecraft Bedrock 专用服务器 Add-on 安装指南
+
+    :param lang: 语言代码
+    :return: str，指定语言的服务器 Add-on 指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-bedrock-server-addons', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/java-vs-bedrock/', strict_slashes=False)
 def java_vs_bedrock():
     """

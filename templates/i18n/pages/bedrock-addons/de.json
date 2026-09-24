@@ -208,6 +208,12 @@
         "url": "/versions/",
         "text": "Kompatibilität prüfen.",
         "cta": "Ansehen"
+      },
+      {
+        "title": "Add-ons auf einem Bedrock Dedicated Server einrichten",
+        "url": "/minecraft-bedrock-server-addons/",
+        "text": "Prüfe BDS-Ordner, Welt-Packlisten und die Synchronisierung mit Clients.",
+        "cta": "Serveranleitung lesen"
       }
     ]
   },
@@ -230,7 +236,7 @@
       },
       {
         "title": "Verity-Bedrock-Quellseite",
-        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/download/8503821",
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition/files/8902437",
         "text": "Diese Referenzen stützen den Bedrock-Ablauf. Prüfe vor dem Herunterladen immer die konkrete Seite.",
         "cta": "Öffnen"
       }
@@ -270,7 +276,7 @@
       "description": "So installierst du Minecraft Bedrock Add-ons mit .mcaddon-Prüfung, Import, Weltaktivierung, Backup und Fehlerbehebung.",
       "image": "https://verityminecraft.blog/static/images/bedrock-addons/bedrock-addons-import-flow.webp",
       "datePublished": "2026-07-26",
-      "dateModified": "2026-07-26",
+      "dateModified": "2026-09-25",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"

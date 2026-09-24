@@ -11,8 +11,16 @@
     "lede": "Les graines Minecraft ne sont pas une liste universelle de nombres magiques. Une bonne graine est celle qui correspond à votre édition, votre version, votre point d'apparition et votre objectif de jeu. Ce dossier explique comment comparer des départs de survie, des îles, des villages, des biomes et des graines liées à une version sans prendre une ancienne capture d'écran pour une preuve.",
     "support": "Commencez par une source maintenue ou une carte de graines, puis créez un monde de test avant d'engager une partie longue. Java et Bedrock peuvent produire un terrain différent avec le même nombre, et une mise à jour peut modifier le résultat.",
     "actions": [
-      {"label": "Comparer Java et Bedrock", "url": "/java-vs-bedrock/", "class": "btn-primary"},
-      {"label": "Voir les notes de version", "url": "/versions/", "class": "btn-secondary"}
+      {
+        "label": "Comparer Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Voir les notes de version",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
     ],
     "image": {
       "src": "/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
@@ -31,9 +39,18 @@
       "Considérez chaque graine publiée comme une piste à vérifier. Lisez la source, notez l'édition et la version, inspectez la zone de départ avec une carte maintenue lorsque c'est pertinent, puis ouvrez un monde copié. Cette méthode prend plus de temps que de coller un nombre, mais elle évite qu'une belle capture d'écran devienne une mauvaise décision pour votre monde principal."
     ],
     "cards": [
-      {"title": "Le nombre n'est qu'une entrée", "text": "Le même nombre peut donner un autre résultat si l'édition, la version, les réglages ou la zone examinée changent. Conservez toutes les conditions avec la graine."},
-      {"title": "La meilleure dépend du but", "text": "Un village, une île, une montagne et un départ de survie demandent des terrains différents. Comparez le détail dont vous avez réellement besoin plutôt qu'un classement universel."},
-      {"title": "Tester avant le monde principal", "text": "Utilisez un monde temporaire ou copié pour vérifier le spawn, les structures, le terrain et la jouabilité. Une capture ne montre pas les premières minutes d'une vraie partie."}
+      {
+        "title": "Le nombre n'est qu'une entrée",
+        "text": "Le même nombre peut donner un autre résultat si l'édition, la version, les réglages ou la zone examinée changent. Conservez toutes les conditions avec la graine."
+      },
+      {
+        "title": "La meilleure dépend du but",
+        "text": "Un village, une île, une montagne et un départ de survie demandent des terrains différents. Comparez le détail dont vous avez réellement besoin plutôt qu'un classement universel."
+      },
+      {
+        "title": "Tester avant le monde principal",
+        "text": "Utilisez un monde temporaire ou copié pour vérifier le spawn, les structures, le terrain et la jouabilité. Une capture ne montre pas les premières minutes d'une vraie partie."
+      }
     ]
   },
   "steps": {
@@ -41,11 +58,26 @@
     "title": "Comment choisir les meilleures graines Minecraft pour votre objectif",
     "description": "Ces catégories transforment une recherche large en une courte liste vérifiable. Elles servent à décider et ne garantissent pas qu'une graine fonctionne dans toutes les versions.",
     "items": [
-      {"title": "1. Départs adaptés à la survie", "text": "Cherchez du bois, de la nourriture, de la pierre et un terrain raisonnablement sûr près du spawn. Une falaise spectaculaire peut être mémorable sans être confortable le premier jour."},
-      {"title": "2. Mondes d'île et de côte", "text": "Vérifiez la distance vers les arbres, les animaux, les villages et le continent avant de choisir une graine d'île. Une île magnifique sans ressources proches convient mieux à un défi qu'à une survie détendue."},
-      {"title": "3. Villages et structures", "text": "Vérifiez ce que la source appelle proche. Un village visible depuis le spawn n'est pas un bâtiment situé à plusieurs centaines de blocs. Notez la distance et testez-la dans la même édition et version."},
-      {"title": "4. Biomes et projets de construction", "text": "Pour une montagne, une forêt de cerisiers, un bois sombre, un désert ou un biome enneigé, regardez la forme du terrain en plus du nom du biome. Une carte aide à comparer la zone autour du projet."},
-      {"title": "5. Découvertes liées à une version", "text": "Une recherche comme graines Minecraft 26.2 dépend d'un contexte de version. Gardez la version dans vos notes et vérifiez la source après une modification de la génération du monde."}
+      {
+        "title": "1. Départs adaptés à la survie",
+        "text": "Cherchez du bois, de la nourriture, de la pierre et un terrain raisonnablement sûr près du spawn. Une falaise spectaculaire peut être mémorable sans être confortable le premier jour."
+      },
+      {
+        "title": "2. Mondes d'île et de côte",
+        "text": "Vérifiez la distance vers les arbres, les animaux, les villages et le continent avant de choisir une graine d'île. Une île magnifique sans ressources proches convient mieux à un défi qu'à une survie détendue."
+      },
+      {
+        "title": "3. Villages et structures",
+        "text": "Vérifiez ce que la source appelle proche. Un village visible depuis le spawn n'est pas un bâtiment situé à plusieurs centaines de blocs. Notez la distance et testez-la dans la même édition et version."
+      },
+      {
+        "title": "4. Biomes et projets de construction",
+        "text": "Pour une montagne, une forêt de cerisiers, un bois sombre, un désert ou un biome enneigé, regardez la forme du terrain en plus du nom du biome. Une carte aide à comparer la zone autour du projet."
+      },
+      {
+        "title": "5. Découvertes liées à une version",
+        "text": "Une recherche comme graines Minecraft 26.3 dépend d'un contexte de version. Gardez la version dans vos notes et vérifiez la source après une modification de la génération du monde."
+      }
     ]
   },
   "source_check": {
@@ -69,14 +101,49 @@
     "eyebrow": "Tableau de décision",
     "title": "Contrôles des graines Minecraft selon l'objectif",
     "description": "Utilisez ce tableau pour savoir quelles preuves réunir avant d'ouvrir un monde durable. Le contrôle final doit se faire dans l'édition et la version que vous jouez.",
-    "headers": ["Objectif", "À vérifier d'abord", "Preuve utile", "Limite fréquente"],
+    "headers": [
+      "Objectif",
+      "À vérifier d'abord",
+      "Preuve utile",
+      "Limite fréquente"
+    ],
     "rows": [
-      ["Départ de survie", "Bois, nourriture, abri et distance du spawn", "Coordonnées, édition, version et test court", "Un spawn spectaculaire peut manquer de ressources"],
-      ["Graine d'île", "Arbres, animaux, continent et route maritime", "Carte puis monde copié", "L'île peut être belle mais difficile"],
-      ["Village ou structure", "Type et distance depuis le spawn", "Coordonnées de la source et test dans la version", "Proche peut signifier plusieurs centaines de blocs"],
-      ["Biome ou construction", "Forme du terrain et biomes voisins", "Carte de la zone du projet", "Le nom d'un biome ne garantit pas une bonne zone de construction"],
-      ["Graine Bedrock", "Édition Bedrock et version exacte", "Notes de la source et test local", "Le résultat Java ne peut pas être supposé"],
-      ["Graine liée à une version", "La version citée par la publication", "Source datée et étiquette de version", "La génération peut changer après une mise à jour"]
+      [
+        "Départ de survie",
+        "Bois, nourriture, abri et distance du spawn",
+        "Coordonnées, édition, version et test court",
+        "Un spawn spectaculaire peut manquer de ressources"
+      ],
+      [
+        "Graine d'île",
+        "Arbres, animaux, continent et route maritime",
+        "Carte puis monde copié",
+        "L'île peut être belle mais difficile"
+      ],
+      [
+        "Village ou structure",
+        "Type et distance depuis le spawn",
+        "Coordonnées de la source et test dans la version",
+        "Proche peut signifier plusieurs centaines de blocs"
+      ],
+      [
+        "Biome ou construction",
+        "Forme du terrain et biomes voisins",
+        "Carte de la zone du projet",
+        "Le nom d'un biome ne garantit pas une bonne zone de construction"
+      ],
+      [
+        "Graine Bedrock",
+        "Édition Bedrock et version exacte",
+        "Notes de la source et test local",
+        "Le résultat Java ne peut pas être supposé"
+      ],
+      [
+        "Graine liée à une version",
+        "La version citée par la publication",
+        "Source datée et étiquette de version",
+        "La génération peut changer après une mise à jour"
+      ]
     ]
   },
   "activation": {
@@ -102,12 +169,30 @@
     "title": "Six erreurs de graines Minecraft qui donnent un mauvais résultat",
     "description": "La plupart des déceptions viennent d'un contexte manquant. Corrigez la comparaison avant de penser que la graine est défectueuse.",
     "cards": [
-      {"title": "Prendre une liste pour une vérité permanente", "text": "Une liste de meilleures graines dépend de l'édition, de la version et de la date du test. Gardez ce contexte au lieu de copier le nombre dans chaque version future."},
-      {"title": "Mélanger Java et Bedrock", "text": "Le même texte ne prouve pas le même terrain. Lisez l'étiquette d'édition et testez le monde dans l'édition utilisée."},
-      {"title": "Faire confiance à une capture seule", "text": "Une image peut cacher la distance, les ressources manquantes ou une autre version. Cherchez les coordonnées et parcourez le trajet dans un monde copié."},
-      {"title": "Confondre graine de monde et graine agricole", "text": "Les questions sur les graines de citrouille, de blé, de melon ou de pomme de terre concernent l'agriculture, pas la génération d'un monde."},
-      {"title": "Tester dans la partie principale", "text": "Les expériences peuvent modifier vos plans. Utilisez un monde temporaire ou copié jusqu'à ce que la graine réponde à votre objectif."},
-      {"title": "Appeler actuelle une graine liée à une version", "text": "Une publication récente ne certifie pas la compatibilité. Utilisez une date, une version, une source et un test local, puis expliquez la limite."}
+      {
+        "title": "Prendre une liste pour une vérité permanente",
+        "text": "Une liste de meilleures graines dépend de l'édition, de la version et de la date du test. Gardez ce contexte au lieu de copier le nombre dans chaque version future."
+      },
+      {
+        "title": "Mélanger Java et Bedrock",
+        "text": "Le même texte ne prouve pas le même terrain. Lisez l'étiquette d'édition et testez le monde dans l'édition utilisée."
+      },
+      {
+        "title": "Faire confiance à une capture seule",
+        "text": "Une image peut cacher la distance, les ressources manquantes ou une autre version. Cherchez les coordonnées et parcourez le trajet dans un monde copié."
+      },
+      {
+        "title": "Confondre graine de monde et graine agricole",
+        "text": "Les questions sur les graines de citrouille, de blé, de melon ou de pomme de terre concernent l'agriculture, pas la génération d'un monde."
+      },
+      {
+        "title": "Tester dans la partie principale",
+        "text": "Les expériences peuvent modifier vos plans. Utilisez un monde temporaire ou copié jusqu'à ce que la graine réponde à votre objectif."
+      },
+      {
+        "title": "Appeler actuelle une graine liée à une version",
+        "text": "Une publication récente ne certifie pas la compatibilité. Utilisez une date, une version, une source et un test local, puis expliquez la limite."
+      }
     ]
   },
   "related": {
@@ -115,11 +200,36 @@
     "title": "Relier les graines au contexte d'édition et de version",
     "description": "Ces pages répondent aux questions voisines qui apparaissent souvent lorsque vous comparez une graine ou préparez un nouveau monde.",
     "links": [
-      {"title": "Minecraft Java et Bedrock", "url": "/java-vs-bedrock/", "text": "Comparez les éditions avant de supposer qu'une graine ou une méthode Java fonctionne de la même façon sur Bedrock.", "cta": "Comparer les éditions"},
-      {"title": "Versions de Minecraft", "url": "/versions/", "text": "Associez chaque note de graine au contexte Minecraft et Verity que vous avez réellement testé.", "cta": "Voir les versions"},
-      {"title": "Comment installer Minecraft", "url": "/how-to-install/", "text": "Suivez le flux d'installation basé sur les sources lorsque le monde fait partie d'une configuration avec mods ou add-ons.", "cta": "Ouvrir le manuel"},
-      {"title": "Packs de ressources Minecraft", "url": "/minecraft-resource-packs/", "text": "Séparez les décisions de génération du monde des contrôles de fichiers Java et Bedrock.", "cta": "Ouvrir le manuel des packs"},
-      {"title": "Cartes Minecraft Bedrock", "url": "/minecraft-bedrock-maps/", "text": "Utilisez ce guide pour importer un monde Bedrock déjà construit plutôt que de générer un terrain avec une graine.", "cta": "Ouvrir le guide des cartes Bedrock"}
+      {
+        "title": "Minecraft Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Comparez les éditions avant de supposer qu'une graine ou une méthode Java fonctionne de la même façon sur Bedrock.",
+        "cta": "Comparer les éditions"
+      },
+      {
+        "title": "Versions de Minecraft",
+        "url": "/versions/",
+        "text": "Associez chaque note de graine au contexte Minecraft et Verity que vous avez réellement testé.",
+        "cta": "Voir les versions"
+      },
+      {
+        "title": "Comment installer Minecraft",
+        "url": "/how-to-install/",
+        "text": "Suivez le flux d'installation basé sur les sources lorsque le monde fait partie d'une configuration avec mods ou add-ons.",
+        "cta": "Ouvrir le manuel"
+      },
+      {
+        "title": "Packs de ressources Minecraft",
+        "url": "/minecraft-resource-packs/",
+        "text": "Séparez les décisions de génération du monde des contrôles de fichiers Java et Bedrock.",
+        "cta": "Ouvrir le manuel des packs"
+      },
+      {
+        "title": "Cartes Minecraft Bedrock",
+        "url": "/minecraft-bedrock-maps/",
+        "text": "Utilisez ce guide pour importer un monde Bedrock déjà construit plutôt que de générer un terrain avec une graine.",
+        "cta": "Ouvrir le guide des cartes Bedrock"
+      }
     ]
   },
   "sources": {
@@ -127,20 +237,48 @@
     "title": "Sources et outils pour vérifier les graines Minecraft",
     "description": "Ces liens servent de point de départ pour les définitions et l'inspection par carte. Ils ne remplacent pas un test dans l'édition et la version jouées.",
     "links": [
-      {"title": "Aide Minecraft", "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-", "text": "Point d'entrée officiel de l'aide Minecraft pour le support et le vocabulaire lié aux graines.", "cta": "Ouvrir l'aide Minecraft"},
-      {"title": "Carte de graines Chunkbase", "url": "https://www.chunkbase.com/apps/seed-map", "text": "Outil de planification avec notes de version, erreurs courantes et limites déclarées. Vérifiez la couverture avant de vous fier au résultat.", "cta": "Ouvrir la carte"}
+      {
+        "title": "Aide Minecraft",
+        "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-",
+        "text": "Point d'entrée officiel de l'aide Minecraft pour le support et le vocabulaire lié aux graines.",
+        "cta": "Ouvrir l'aide Minecraft"
+      },
+      {
+        "title": "Carte de graines Chunkbase",
+        "url": "https://www.chunkbase.com/apps/seed-map",
+        "text": "Outil de planification avec notes de version, erreurs courantes et limites déclarées. Vérifiez la couverture avant de vous fier au résultat.",
+        "cta": "Ouvrir la carte"
+      }
     ]
   },
   "faq": {
     "eyebrow": "Foire aux questions",
     "title": "Questions fréquentes sur les graines Minecraft",
     "items": [
-      {"question": "Qu'est-ce qu'une graine Minecraft ?", "answer": "C'est une donnée utilisée pour générer un monde. Elle influence le terrain, les biomes et les structures, mais dépend de l'édition et de la version qui l'ont produite."},
-      {"question": "Quelles sont les meilleures graines Minecraft pour la survie ?", "answer": "Il n'y a pas une graine parfaite pour tout le monde. Faites correspondre l'édition et la version, puis vérifiez les ressources, les structures et votre trajet dans un monde copié."},
-      {"question": "Puis-je utiliser une graine Java dans Bedrock ?", "answer": "Ne le supposez pas. Vérifiez l'étiquette d'édition et testez la graine dans Bedrock, car le terrain et les structures peuvent différer."},
-      {"question": "Pourquoi ma graine Minecraft a-t-elle généré un autre monde ?", "answer": "Vérifiez le texte de la graine, l'édition, la version, les réglages du monde et la zone du spawn. Une différence de contexte peut modifier le résultat."},
-      {"question": "Comment trouver de bonnes graines d'île Minecraft ?", "answer": "Vérifiez la forme de l'île, les arbres, les animaux, la nourriture, la distance du continent et les structures avec une carte puis un monde temporaire."},
-      {"question": "Combien existe-t-il de graines Minecraft ?", "answer": "Il n'y a pas un compte fixe utile pour toutes les éditions et versions. Le plus important est de conserver un contexte reproductible plutôt qu'un nombre permanent."}
+      {
+        "question": "Qu'est-ce qu'une graine Minecraft ?",
+        "answer": "C'est une donnée utilisée pour générer un monde. Elle influence le terrain, les biomes et les structures, mais dépend de l'édition et de la version qui l'ont produite."
+      },
+      {
+        "question": "Quelles sont les meilleures graines Minecraft pour la survie ?",
+        "answer": "Il n'y a pas une graine parfaite pour tout le monde. Faites correspondre l'édition et la version, puis vérifiez les ressources, les structures et votre trajet dans un monde copié."
+      },
+      {
+        "question": "Puis-je utiliser une graine Java dans Bedrock ?",
+        "answer": "Ne le supposez pas. Vérifiez l'étiquette d'édition et testez la graine dans Bedrock, car le terrain et les structures peuvent différer."
+      },
+      {
+        "question": "Pourquoi ma graine Minecraft a-t-elle généré un autre monde ?",
+        "answer": "Vérifiez le texte de la graine, l'édition, la version, les réglages du monde et la zone du spawn. Une différence de contexte peut modifier le résultat."
+      },
+      {
+        "question": "Comment trouver de bonnes graines d'île Minecraft ?",
+        "answer": "Vérifiez la forme de l'île, les arbres, les animaux, la nourriture, la distance du continent et les structures avec une carte puis un monde temporaire."
+      },
+      {
+        "question": "Combien existe-t-il de graines Minecraft ?",
+        "answer": "Il n'y a pas un compte fixe utile pour toutes les éditions et versions. Le plus important est de conserver un contexte reproductible plutôt qu'un nombre permanent."
+      }
     ]
   },
   "schema": {
@@ -151,21 +289,69 @@
       "description": "Manuel pratique pour choisir, vérifier et tester des graines de monde Minecraft sur Java et Bedrock.",
       "image": "https://verityminecraft.blog/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
       "datePublished": "2026-08-15",
-      "dateModified": "2026-08-15",
-      "author": {"@type": "Organization", "name": "Verity Minecraft"},
-      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
       "mainEntityOfPage": "https://verityminecraft.blog/fr/minecraft-seeds/"
     },
     "faq": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Qu'est-ce qu'une graine Minecraft ?", "acceptedAnswer": {"@type": "Answer", "text": "C'est une donnée utilisée pour générer un monde, avec un résultat dépendant de l'édition et de la version."}},
-        {"@type": "Question", "name": "Quelles sont les meilleures graines pour la survie ?", "acceptedAnswer": {"@type": "Answer", "text": "Aucune graine n'est universelle ; vérifiez édition, version, ressources et trajet dans un monde copié."}},
-        {"@type": "Question", "name": "Puis-je utiliser une graine Java dans Bedrock ?", "acceptedAnswer": {"@type": "Answer", "text": "Ne le supposez pas ; vérifiez l'édition et testez la graine dans Bedrock."}},
-        {"@type": "Question", "name": "Pourquoi la graine a-t-elle généré un autre monde ?", "acceptedAnswer": {"@type": "Answer", "text": "Vérifiez le texte, l'édition, la version, les réglages et la zone de spawn."}},
-        {"@type": "Question", "name": "Comment trouver de bonnes graines d'île ?", "acceptedAnswer": {"@type": "Answer", "text": "Vérifiez la forme, les ressources, la distance du continent et les structures avec une carte et un monde temporaire."}},
-        {"@type": "Question", "name": "Combien existe-t-il de graines Minecraft ?", "acceptedAnswer": {"@type": "Answer", "text": "Il n'y a pas un compte fixe utile pour toutes les versions ; gardez un contexte reproductible."}}
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qu'une graine Minecraft ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "C'est une donnée utilisée pour générer un monde, avec un résultat dépendant de l'édition et de la version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les meilleures graines pour la survie ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aucune graine n'est universelle ; vérifiez édition, version, ressources et trajet dans un monde copié."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puis-je utiliser une graine Java dans Bedrock ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne le supposez pas ; vérifiez l'édition et testez la graine dans Bedrock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi la graine a-t-elle généré un autre monde ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vérifiez le texte, l'édition, la version, les réglages et la zone de spawn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment trouver de bonnes graines d'île ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vérifiez la forme, les ressources, la distance du continent et les structures avec une carte et un monde temporaire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien existe-t-il de graines Minecraft ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il n'y a pas un compte fixe utile pour toutes les versions ; gardez un contexte reproductible."
+          }
+        }
       ]
     }
   }

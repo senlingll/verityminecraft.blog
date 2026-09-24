@@ -11,8 +11,16 @@
     "lede": "Das beste Minecraft Modpack ist nicht automatisch das mit der längsten Feature-Liste. Prüfe Minecraft-Version, Loader, Launcher, verfügbaren RAM und dein Spielziel, bevor du ein Pack importierst.",
     "support": "Dieser Leitfaden erklärt den Inhalt eines Modpacks, den Unterschied zwischen Fabric, Forge und NeoForge, die Installation in einer eigenen Java-Instanz sowie typische Probleme mit Abhängigkeiten, Abstürzen, langsamen Starts und Multiplayer-Versionen.",
     "actions": [
-      {"label": "Java-Mod-Installation lesen", "url": "/how-to-install-java-mods/", "class": "btn-primary"},
-      {"label": "Java und Bedrock vergleichen", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+      {
+        "label": "Java-Mod-Installation lesen",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Java und Bedrock vergleichen",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-secondary"
+      }
     ],
     "image": {
       "src": "/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
@@ -31,9 +39,18 @@
       "Der Begriff Modpack meint meistens Inhalte für Java Edition. Bedrock-Add-ons, Ressourcenpakete, Shader und Java-Modpacks können in Suchergebnissen nebeneinander erscheinen, verwenden aber unterschiedliche Systeme. Eine .mcaddon- oder .mcpack-Datei wird durch Umbenennen nicht zu einem Java-Modpack, und ein Java-Pack gehört nicht in den Bedrock-Import."
     ],
     "cards": [
-      {"title": "Version zuerst prüfen", "text": "Ein Pack kann mehrere Releases anbieten. Wähle die Datei für die Minecraft-Version deines Profils und notiere diese Version."},
-      {"title": "Der Loader gehört zum Pack", "text": "Fabric, Forge und NeoForge sind verschiedene Umgebungen. Ein Pack für den einen Loader ist nicht automatisch mit dem anderen austauschbar."},
-      {"title": "Außerhalb des Hauptstands testen", "text": "Eine getrennte Instanz und eine kopierte Welt machen Rückkehr, Abhängigkeitssuche und Schutz eines langen Survival-Stands einfacher."}
+      {
+        "title": "Version zuerst prüfen",
+        "text": "Ein Pack kann mehrere Releases anbieten. Wähle die Datei für die Minecraft-Version deines Profils und notiere diese Version."
+      },
+      {
+        "title": "Der Loader gehört zum Pack",
+        "text": "Fabric, Forge und NeoForge sind verschiedene Umgebungen. Ein Pack für den einen Loader ist nicht automatisch mit dem anderen austauschbar."
+      },
+      {
+        "title": "Außerhalb des Hauptstands testen",
+        "text": "Eine getrennte Instanz und eine kopierte Welt machen Rückkehr, Abhängigkeitssuche und Schutz eines langen Survival-Stands einfacher."
+      }
     ]
   },
   "steps": {
@@ -41,13 +58,34 @@
     "title": "Minecraft Modpacks in 7 bewussten Schritten installieren",
     "description": "Diese Reihenfolge funktioniert mit einem Launcher, einer Modrinth- oder CurseForge-Instanz und einem dokumentierten manuellen Import. So verhinderst du, dass eine falsche Datei dein Profil bestimmt.",
     "items": [
-      {"title": "1. Java Edition bestätigen", "text": "Modpacks richten sich normalerweise an Minecraft Java Edition. Ist die Datei .mcaddon oder .mcpack, lies die Bedrock-Anleitung und erzwinge keinen Java-Ordner."},
-      {"title": "2. Exakte Version notieren", "text": "Übernimm die Version aus der Pack-Datei und nicht nur aus einem Suchsnippet. Eine Version wie 26.2 und ein älteres 1.20.1-Profil sind unterschiedliche Ziele."},
-      {"title": "3. Loader abgleichen", "text": "Prüfe Fabric, Forge, NeoForge oder eine vom Launcher verwaltete Umgebung. Installiere keinen anderen Loader nur deshalb, weil er in einem anderen Profil vorhanden ist."},
-      {"title": "4. RAM und Abhängigkeiten prüfen", "text": "Lies Mindest- und Empfehlungsspeicher, Java-Version, optionale Ressourcen und Dependencies. Mehr RAM ist nicht immer schneller, wenn dem Betriebssystem Speicher fehlt."},
-      {"title": "5. In eine neue Instanz importieren", "text": "Nutze die dokumentierte Importfunktion oder ein sauberes Profil. Bewahre Archiv und Projekt-URL auf, damit du Änderungen nach einem Update vergleichen kannst."},
-      {"title": "6. Einmal ohne Extras starten", "text": "Lass die Instanz ihre Ordner anlegen und starte nur das Pack. Scheitert dieser Start, sind Version, Loader, Java oder die Pack-Datei wahrscheinlicher als ein später hinzugefügter Mod."},
-      {"title": "7. Kopierte Welt und Multiplayer testen", "text": "Prüfe eine erwartete Funktion in einer neuen oder kopierten Welt. Für Multiplayer brauchen alle dieselbe Pack-Version, denselben Loader und die Server-Anforderungen."}
+      {
+        "title": "1. Java Edition bestätigen",
+        "text": "Modpacks richten sich normalerweise an Minecraft Java Edition. Ist die Datei .mcaddon oder .mcpack, lies die Bedrock-Anleitung und erzwinge keinen Java-Ordner."
+      },
+      {
+        "title": "2. Exakte Version notieren",
+        "text": "Übernimm die Version aus der Pack-Datei und nicht nur aus einem Suchsnippet. Eine Version wie 26.3 und ein älteres 1.20.1-Profil sind unterschiedliche Ziele."
+      },
+      {
+        "title": "3. Loader abgleichen",
+        "text": "Prüfe Fabric, Forge, NeoForge oder eine vom Launcher verwaltete Umgebung. Installiere keinen anderen Loader nur deshalb, weil er in einem anderen Profil vorhanden ist."
+      },
+      {
+        "title": "4. RAM und Abhängigkeiten prüfen",
+        "text": "Lies Mindest- und Empfehlungsspeicher, Java-Version, optionale Ressourcen und Dependencies. Mehr RAM ist nicht immer schneller, wenn dem Betriebssystem Speicher fehlt."
+      },
+      {
+        "title": "5. In eine neue Instanz importieren",
+        "text": "Nutze die dokumentierte Importfunktion oder ein sauberes Profil. Bewahre Archiv und Projekt-URL auf, damit du Änderungen nach einem Update vergleichen kannst."
+      },
+      {
+        "title": "6. Einmal ohne Extras starten",
+        "text": "Lass die Instanz ihre Ordner anlegen und starte nur das Pack. Scheitert dieser Start, sind Version, Loader, Java oder die Pack-Datei wahrscheinlicher als ein später hinzugefügter Mod."
+      },
+      {
+        "title": "7. Kopierte Welt und Multiplayer testen",
+        "text": "Prüfe eine erwartete Funktion in einer neuen oder kopierten Welt. Für Multiplayer brauchen alle dieselbe Pack-Version, denselben Loader und die Server-Anforderungen."
+      }
     ]
   },
   "source_check": {
@@ -69,14 +107,49 @@
     "eyebrow": "Entscheidungsmatrix",
     "title": "Was du bei Minecraft Modpacks vergleichen solltest",
     "description": "Wähle die Zeile, die zu deiner tatsächlichen Einschränkung passt. Eine lange Feature-Liste ist für einen kleinen Rechner, einen Server oder den ersten Versuch nicht automatisch besser.",
-    "headers": ["Prüfung", "Vergleichen", "Warum wichtig", "Nächste Aktion"],
+    "headers": [
+      "Prüfung",
+      "Vergleichen",
+      "Warum wichtig",
+      "Nächste Aktion"
+    ],
     "rows": [
-      ["Minecraft-Version", "Exakte Version der Datei", "Worldgen, APIs und Binärdateien können sich ändern.", "Eine passende Datei wählen und die Version notieren."],
-      ["Loader", "Fabric, Forge, NeoForge oder angegebene Umgebung", "Der Loader liefert Profilumgebung und Dependency-Regeln.", "Den Loader des Packs verwenden, nicht den aus einer anderen Instanz."],
-      ["RAM und Java", "Mindestwert, Empfehlung und Java-Laufzeit", "Große Packs starten bei falschen Einstellungen langsam oder stürzen ab.", "Speicher für das System lassen und vor Shadern testen."],
-      ["Spielziel", "Survival, Quests, Automation, Exploration, RPG oder Bauen", "Progression und Schwierigkeit bestimmen, ob das Pack passt.", "Features und aktuelle Hinweise lesen, nicht nur das Vorschaubild."],
-      ["Multiplayer", "Server-Pack, Client-Mods und gemeinsame Release", "Unterschiedliche Dateien oder Server-Anforderungen verhindern den Beitritt.", "Eine Release vereinbaren und eine unwichtige Welt testen."],
-      ["Quellenkontext", "Projekt, Datum, Changelog und Dependencies", "Reuploads können alt, umbenannt oder unvollständig sein.", "Eine gepflegte Seite mit sichtbaren Metadaten nutzen."]
+      [
+        "Minecraft-Version",
+        "Exakte Version der Datei",
+        "Worldgen, APIs und Binärdateien können sich ändern.",
+        "Eine passende Datei wählen und die Version notieren."
+      ],
+      [
+        "Loader",
+        "Fabric, Forge, NeoForge oder angegebene Umgebung",
+        "Der Loader liefert Profilumgebung und Dependency-Regeln.",
+        "Den Loader des Packs verwenden, nicht den aus einer anderen Instanz."
+      ],
+      [
+        "RAM und Java",
+        "Mindestwert, Empfehlung und Java-Laufzeit",
+        "Große Packs starten bei falschen Einstellungen langsam oder stürzen ab.",
+        "Speicher für das System lassen und vor Shadern testen."
+      ],
+      [
+        "Spielziel",
+        "Survival, Quests, Automation, Exploration, RPG oder Bauen",
+        "Progression und Schwierigkeit bestimmen, ob das Pack passt.",
+        "Features und aktuelle Hinweise lesen, nicht nur das Vorschaubild."
+      ],
+      [
+        "Multiplayer",
+        "Server-Pack, Client-Mods und gemeinsame Release",
+        "Unterschiedliche Dateien oder Server-Anforderungen verhindern den Beitritt.",
+        "Eine Release vereinbaren und eine unwichtige Welt testen."
+      ],
+      [
+        "Quellenkontext",
+        "Projekt, Datum, Changelog und Dependencies",
+        "Reuploads können alt, umbenannt oder unvollständig sein.",
+        "Eine gepflegte Seite mit sichtbaren Metadaten nutzen."
+      ]
     ]
   },
   "activation": {
@@ -99,12 +172,30 @@
     "title": "Warum ein Minecraft Modpack abstürzt, ruckelt oder nicht beitreten lässt",
     "description": "Die meisten Probleme lassen sich eingrenzen, wenn du jeweils nur eine Grenze prüfst. Dasselbe Archiv von einem anderen Mirror zu laden, entfernt oft wichtige Hinweise.",
     "cards": [
-      {"title": "Falsche Version", "text": "Der Launcher kann starten, obwohl die Pack-Datei eine andere Minecraft-Version erwartet. Datei und aktives Profil abgleichen."},
-      {"title": "Falscher Loader", "text": "Fabric, Forge und NeoForge sind nicht austauschbar. Den Pack-Loader wählen und Profile nicht mischen."},
-      {"title": "Zu viel oder zu wenig RAM", "text": "Pack-Empfehlung nutzen, System-RAM lassen und die Zuweisung nur schrittweise erhöhen, wenn die Hinweise auf Speicherprobleme zeigen."},
-      {"title": "Dependency fehlt", "text": "Eine Library, API, Java-Laufzeit oder Server-Komponente kann fehlen. Ersten Fehler und Release-Notizen lesen."},
-      {"title": "Extras zu früh hinzugefügt", "text": "Shader, Ressourcen und Performance-Mods können den Fehler verändern. Erst das saubere Pack reproduzieren, dann ein Extra nach dem anderen."},
-      {"title": "Unterschiedliche Multiplayer-Releases", "text": "Spieler und Server brauchen kompatible Dateien und Versionen. Die genaue Pack-Datei vor einer langfristigen Welt vereinbaren."}
+      {
+        "title": "Falsche Version",
+        "text": "Der Launcher kann starten, obwohl die Pack-Datei eine andere Minecraft-Version erwartet. Datei und aktives Profil abgleichen."
+      },
+      {
+        "title": "Falscher Loader",
+        "text": "Fabric, Forge und NeoForge sind nicht austauschbar. Den Pack-Loader wählen und Profile nicht mischen."
+      },
+      {
+        "title": "Zu viel oder zu wenig RAM",
+        "text": "Pack-Empfehlung nutzen, System-RAM lassen und die Zuweisung nur schrittweise erhöhen, wenn die Hinweise auf Speicherprobleme zeigen."
+      },
+      {
+        "title": "Dependency fehlt",
+        "text": "Eine Library, API, Java-Laufzeit oder Server-Komponente kann fehlen. Ersten Fehler und Release-Notizen lesen."
+      },
+      {
+        "title": "Extras zu früh hinzugefügt",
+        "text": "Shader, Ressourcen und Performance-Mods können den Fehler verändern. Erst das saubere Pack reproduzieren, dann ein Extra nach dem anderen."
+      },
+      {
+        "title": "Unterschiedliche Multiplayer-Releases",
+        "text": "Spieler und Server brauchen kompatible Dateien und Versionen. Die genaue Pack-Datei vor einer langfristigen Welt vereinbaren."
+      }
     ]
   },
   "related": {
@@ -112,11 +203,36 @@
     "title": "Modpacks von anderem Minecraft-Inhalt trennen",
     "description": "Nutze die Seite, die zu deiner Datei oder Aufgabe passt. Die Trennung von Java-Modpacks, einzelnen Mods, Bedrock-Add-ons und Ressourcen verhindert typische Ordnerfehler.",
     "links": [
-      {"title": "Minecraft Java Mods installieren", "url": "/how-to-install-java-mods/", "text": "Einzelnen Fabric- oder Forge-Mod, mods-Ordner, Dependencies und Loader-Fehler nachvollziehen.", "cta": "Java-Mod-Schritte lesen"},
-      {"title": "Minecraft Java vs. Bedrock", "url": "/java-vs-bedrock/", "text": "Edition prüfen, bevor eine Datei als Java-Modpack oder Bedrock-Add-on behandelt wird.", "cta": "Editionen vergleichen"},
-      {"title": "Minecraft Ressourcenpakete", "url": "/minecraft-resource-packs/", "text": "Den separaten Ressourcen-Workflow nutzen, statt Texturen in den mods-Ordner zu kopieren.", "cta": "Formate prüfen"},
-      {"title": "Verity Minecraft Versionen", "url": "/versions/", "text": "Die Versionshinweise des Projekts ansehen und sie von den Kompatibilitätsdaten der Pack-Datei trennen.", "cta": "Versionen prüfen"},
-      {"title": "Minecraft-Bedrock-Erweiterungen", "url": "/bedrock-addons/", "text": "Hier wechseln, wenn die Datei .mcaddon oder .mcpack ist und Bedrock aktiviert werden soll.", "cta": "Bedrock-Schritte lesen"}
+      {
+        "title": "Minecraft Java Mods installieren",
+        "url": "/how-to-install-java-mods/",
+        "text": "Einzelnen Fabric- oder Forge-Mod, mods-Ordner, Dependencies und Loader-Fehler nachvollziehen.",
+        "cta": "Java-Mod-Schritte lesen"
+      },
+      {
+        "title": "Minecraft Java vs. Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Edition prüfen, bevor eine Datei als Java-Modpack oder Bedrock-Add-on behandelt wird.",
+        "cta": "Editionen vergleichen"
+      },
+      {
+        "title": "Minecraft Ressourcenpakete",
+        "url": "/minecraft-resource-packs/",
+        "text": "Den separaten Ressourcen-Workflow nutzen, statt Texturen in den mods-Ordner zu kopieren.",
+        "cta": "Formate prüfen"
+      },
+      {
+        "title": "Verity Minecraft Versionen",
+        "url": "/versions/",
+        "text": "Die Versionshinweise des Projekts ansehen und sie von den Kompatibilitätsdaten der Pack-Datei trennen.",
+        "cta": "Versionen prüfen"
+      },
+      {
+        "title": "Minecraft-Bedrock-Erweiterungen",
+        "url": "/bedrock-addons/",
+        "text": "Hier wechseln, wenn die Datei .mcaddon oder .mcpack ist und Bedrock aktiviert werden soll.",
+        "cta": "Bedrock-Schritte lesen"
+      }
     ]
   },
   "sources": {
@@ -124,22 +240,60 @@
     "title": "Offizielle und gepflegte Quellen für Modpack-Setups",
     "description": "Diese Links helfen beim Basissetup von Launcher, Loader und Projektfindung. Version und Dependencies gehören trotzdem auf die konkrete Pack-Datei.",
     "links": [
-      {"title": "Minecraft herunterladen", "url": "https://www.minecraft.net/de-de/download", "text": "Offizieller Launcher- und Editionseinstieg zur Bestätigung deiner Java-Umgebung.", "cta": "Minecraft öffnen"},
-      {"title": "Fabric Installations-Wiki", "url": "https://fabricmc.net/wiki/install", "text": "Fabric dokumentiert Mojang-Launcher, alternative Launcher und Serverpfade getrennt.", "cta": "Fabric lesen"},
-      {"title": "Modrinth Modpacks", "url": "https://modrinth.com/modpacks", "text": "Gepflegte Discovery-Seite mit Filtern für Kategorie, Umgebung, Spielversion, Loader und Lizenz.", "cta": "Modrinth öffnen"},
-      {"title": "CurseForge Modpacks", "url": "https://www.curseforge.com/minecraft/modpacks", "text": "Wichtige Projekt- und Launcher-Plattform. Vor dem Import die konkrete Datei und ihre Hinweise prüfen.", "cta": "CurseForge öffnen"}
+      {
+        "title": "Minecraft herunterladen",
+        "url": "https://www.minecraft.net/de-de/download",
+        "text": "Offizieller Launcher- und Editionseinstieg zur Bestätigung deiner Java-Umgebung.",
+        "cta": "Minecraft öffnen"
+      },
+      {
+        "title": "Fabric Installations-Wiki",
+        "url": "https://fabricmc.net/wiki/install",
+        "text": "Fabric dokumentiert Mojang-Launcher, alternative Launcher und Serverpfade getrennt.",
+        "cta": "Fabric lesen"
+      },
+      {
+        "title": "Modrinth Modpacks",
+        "url": "https://modrinth.com/modpacks",
+        "text": "Gepflegte Discovery-Seite mit Filtern für Kategorie, Umgebung, Spielversion, Loader und Lizenz.",
+        "cta": "Modrinth öffnen"
+      },
+      {
+        "title": "CurseForge Modpacks",
+        "url": "https://www.curseforge.com/minecraft/modpacks",
+        "text": "Wichtige Projekt- und Launcher-Plattform. Vor dem Import die konkrete Datei und ihre Hinweise prüfen.",
+        "cta": "CurseForge öffnen"
+      }
     ]
   },
   "faq": {
     "eyebrow": "Häufige Fragen",
     "title": "Häufige Fragen zu Minecraft-Modpacks",
     "items": [
-      {"question": "Was sind Minecraft Modpacks?", "answer": "Ein Minecraft Modpack ist eine abgestimmte Sammlung aus Java-Mods, Konfigurationen, Bibliotheken und manchmal Ressourcen oder Skripten. Es wird als passendes Profil oder als Instanz installiert, nicht als einzelner normaler Mod."},
-      {"question": "Wie installiere ich Minecraft Modpacks ohne Versionen zu mischen?", "answer": "Wähle die Datei für deine Minecraft-Version und den Loader, importiere sie in eine neue Java-Instanz, starte einmal und teste eine kopierte Welt, bevor du Extras oder den Hauptstand nutzt."},
-      {"question": "Kann ich ein Modpack ohne die Modrinth-App verwenden?", "answer": "Oft ja, wenn das Pack ein dokumentiertes Archiv oder einen unterstützten Launcher-Weg anbietet. Folge den Angaben zu Instanz und Loader und lege das Archiv nicht beliebig ab."},
-      {"question": "Warum stürzt mein Minecraft Modpack beim Start ab?", "answer": "Prüfe Version, Loader, Java-Laufzeit, Speicher, Dependencies und den ersten Log-Fehler. Teste das saubere Pack, bevor du einen anderen Mirror verwendest."},
-      {"question": "Wie viel RAM brauchen Minecraft Modpacks?", "answer": "Das hängt vom Pack, der Version, Java und dem Rechner ab. Mit der Empfehlung beginnen, Speicher für das System lassen und nur bei Hinweisen auf Speicherdruck schrittweise erhöhen."},
-      {"question": "Kann ich ein Java-Modpack in Minecraft Bedrock oder PE verwenden?", "answer": "Nein. Java nutzt Loader und Instanzen, Bedrock und PE nutzen Add-ons, Ressourcenpakete und Weltaktivierung. Suche eine Bedrock-spezifische Veröffentlichung."}
+      {
+        "question": "Was sind Minecraft Modpacks?",
+        "answer": "Ein Minecraft Modpack ist eine abgestimmte Sammlung aus Java-Mods, Konfigurationen, Bibliotheken und manchmal Ressourcen oder Skripten. Es wird als passendes Profil oder als Instanz installiert, nicht als einzelner normaler Mod."
+      },
+      {
+        "question": "Wie installiere ich Minecraft Modpacks ohne Versionen zu mischen?",
+        "answer": "Wähle die Datei für deine Minecraft-Version und den Loader, importiere sie in eine neue Java-Instanz, starte einmal und teste eine kopierte Welt, bevor du Extras oder den Hauptstand nutzt."
+      },
+      {
+        "question": "Kann ich ein Modpack ohne die Modrinth-App verwenden?",
+        "answer": "Oft ja, wenn das Pack ein dokumentiertes Archiv oder einen unterstützten Launcher-Weg anbietet. Folge den Angaben zu Instanz und Loader und lege das Archiv nicht beliebig ab."
+      },
+      {
+        "question": "Warum stürzt mein Minecraft Modpack beim Start ab?",
+        "answer": "Prüfe Version, Loader, Java-Laufzeit, Speicher, Dependencies und den ersten Log-Fehler. Teste das saubere Pack, bevor du einen anderen Mirror verwendest."
+      },
+      {
+        "question": "Wie viel RAM brauchen Minecraft Modpacks?",
+        "answer": "Das hängt vom Pack, der Version, Java und dem Rechner ab. Mit der Empfehlung beginnen, Speicher für das System lassen und nur bei Hinweisen auf Speicherdruck schrittweise erhöhen."
+      },
+      {
+        "question": "Kann ich ein Java-Modpack in Minecraft Bedrock oder PE verwenden?",
+        "answer": "Nein. Java nutzt Loader und Instanzen, Bedrock und PE nutzen Add-ons, Ressourcenpakete und Weltaktivierung. Suche eine Bedrock-spezifische Veröffentlichung."
+      }
     ]
   },
   "schema": {
@@ -150,21 +304,69 @@
       "description": "Kompatibilitäts-Leitfaden für Minecraft-Modpacks mit passender Version, Loader, Speicherzuweisung, Quelle und Testinstanz.",
       "image": "https://verityminecraft.blog/static/images/minecraft-modpacks/minecraft-modpacks-feature.webp",
       "datePublished": "2026-08-19",
-      "dateModified": "2026-08-19",
-      "author": {"@type": "Organization", "name": "Verity Minecraft"},
-      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
       "mainEntityOfPage": "https://verityminecraft.blog/de/minecraft-modpacks/"
     },
     "faq": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Was sind Minecraft Modpacks?", "acceptedAnswer": {"@type": "Answer", "text": "Ein Modpack ist eine abgestimmte Java-Sammlung aus Mods, Konfigurationen, Bibliotheken und Ressourcen, die als kompatible Instanz installiert wird."}},
-        {"@type": "Question", "name": "Wie installiere ich Minecraft Modpacks ohne Versionen zu mischen?", "acceptedAnswer": {"@type": "Answer", "text": "Datei für Version und Loader wählen, in eine neue Java-Instanz importieren, einmal starten und eine kopierte Welt testen."}},
-        {"@type": "Question", "name": "Kann ich ein Modpack ohne die Modrinth-App verwenden?", "acceptedAnswer": {"@type": "Answer", "text": "Oft ja, wenn ein dokumentiertes Archiv oder ein unterstützter Launcher-Weg existiert. Instanz- und Loader-Hinweise befolgen."}},
-        {"@type": "Question", "name": "Warum stürzt mein Minecraft Modpack beim Start ab?", "acceptedAnswer": {"@type": "Answer", "text": "Version, Loader, Java, RAM, Dependencies und den ersten Log-Fehler prüfen, bevor ein anderer Mirror verwendet wird."}},
-        {"@type": "Question", "name": "Wie viel RAM brauchen Minecraft Modpacks?", "acceptedAnswer": {"@type": "Answer", "text": "Mit der Pack-Empfehlung beginnen, System-Speicher lassen und die Zuweisung nur bei konkreten Hinweisen schrittweise erhöhen."}},
-        {"@type": "Question", "name": "Kann ich ein Java-Modpack in Minecraft Bedrock oder PE verwenden?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Java nutzt Loader und Instanzen; Bedrock und PE nutzen Add-ons, Ressourcenpakete und Weltaktivierung."}}
+        {
+          "@type": "Question",
+          "name": "Was sind Minecraft Modpacks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ein Modpack ist eine abgestimmte Java-Sammlung aus Mods, Konfigurationen, Bibliotheken und Ressourcen, die als kompatible Instanz installiert wird."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie installiere ich Minecraft Modpacks ohne Versionen zu mischen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Datei für Version und Loader wählen, in eine neue Java-Instanz importieren, einmal starten und eine kopierte Welt testen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich ein Modpack ohne die Modrinth-App verwenden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oft ja, wenn ein dokumentiertes Archiv oder ein unterstützter Launcher-Weg existiert. Instanz- und Loader-Hinweise befolgen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum stürzt mein Minecraft Modpack beim Start ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Version, Loader, Java, RAM, Dependencies und den ersten Log-Fehler prüfen, bevor ein anderer Mirror verwendet wird."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel RAM brauchen Minecraft Modpacks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mit der Pack-Empfehlung beginnen, System-Speicher lassen und die Zuweisung nur bei konkreten Hinweisen schrittweise erhöhen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich ein Java-Modpack in Minecraft Bedrock oder PE verwenden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Java nutzt Loader und Instanzen; Bedrock und PE nutzen Add-ons, Ressourcenpakete und Weltaktivierung."
+          }
+        }
       ]
     }
   }

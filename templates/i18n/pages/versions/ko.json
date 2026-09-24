@@ -16,27 +16,31 @@
     "note": "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다."
   },
   "facts": {
-    "title": "버전 가이드",
+    "title": "확인된 버전 요약",
     "items": [
       {
-        "label": "플랫폼",
-        "value": "버전"
+        "label": "확인된 Bedrock 파일",
+        "value": "ThatMob's Verity 4.0.0 / V26.50; .mcaddon; 37,688,517바이트; 2026년 9월 17일 업로드"
       },
       {
-        "label": "버전",
-        "value": "Varies"
+        "label": "Java 안정 파일",
+        "value": "verity-5.7.4.jar; 안정 버전; Forge/Minecraft 1.20.1; 246,483,796바이트; 2026년 8월 17일 공개"
       },
       {
-        "label": "File",
-        "value": "version list"
+        "label": "Minecraft Java 게임 릴리스",
+        "value": "26.3; 2026년 9월 15일 출시; Mojang 공식 매니페스트를 9월 23일 확인"
       },
       {
-        "label": "출처 페이지",
-        "value": "CurseForge / Modrinth / Google Play"
+        "label": "Java 베타",
+        "value": "v6.0.0-beta.9; 2026년 9월 3일 공개; 베타이며 안정 버전 권장이 아님"
+      },
+      {
+        "label": "PE 출처 유형",
+        "value": "애드온 또는 스토어 목록"
       },
       {
         "label": "마지막 확인",
-        "value": "2026년 8월 4일"
+        "value": "2026년 9월 23일"
       }
     ]
   },
@@ -87,29 +91,39 @@
     ]
   },
   "table": {
-    "eyebrow": "안전 확인",
-    "title": "Verity Minecraft 버전 checklist",
-    "description": "Verity Minecraft 버전 는 먼저 에디션을 확인해야 합니다. 버전 환경에서는 파일 형식, 설치 방식, 월드 활성화, 호환성 확인이 기기와 런처에 따라 달라질 수 있습니다.",
+    "eyebrow": "확인된 릴리스",
+    "title": "Minecraft 및 Verity 버전 요약",
+    "description": "게임과 Verity 파일은 서로 다른 버전 흐름을 따릅니다. Mojang 게임 릴리스가 Verity 모드 파일의 Minecraft 호환 대상을 바꾸지는 않습니다.",
     "headers": [
-      "가이드",
-      "안전 확인",
-      "출처 페이지"
+      "구분",
+      "기록된 버전",
+      "플랫폼 또는 호환성",
+      "출처"
     ],
     "rows": [
       [
-        "version list",
-        "Verity Minecraft 버전 안내 페이지는 버튼만 보여 주면 부족합니다. 관리되는 출처, 파일 날짜, 확장자, 알 수 없는 미러를 피해야 하는 이유를 함께 설명해야 합니다.",
-        "출처 페이지"
+        "Bedrock 애드온",
+        "ThatMob's Verity 4.0.0 / V26.50",
+        ".mcaddon 패키지, 2026년 9월 17일 업로드; BDS 호환성은 별도 확인",
+        "CurseForge 파일 페이지"
       ],
       [
-        "버전",
-        "안전한 순서는 Java, Bedrock, PE 중 하나를 고르고, 예상 파일을 확인하고, 출처 페이지에서 열고, 복사한 월드나 깨끗한 프로필에서 먼저 시험하는 것입니다.",
-        "설치"
+        "Verity Java 모드",
+        "verity-5.7.4.jar",
+        "안정 버전; Forge/Minecraft 1.20.1; 246,483,796바이트",
+        "Modrinth / CurseForge"
       ],
       [
-        "버전",
-        "출처 페이지에 더 새로운 버전이 있으면 그 출처를 우선합니다. 이 페이지는 Verity Minecraft 버전 경로를 정리해 .jar, .mcaddon, 모바일 앱 링크를 혼동하지 않게 돕습니다.",
-        "다운로드"
+        "Minecraft Java 게임",
+        "26.3; 2026년 9월 15일 출시",
+        "공식 게임 릴리스; 2026년 9월 23일 확인",
+        "Mojang 버전 매니페스트"
+      ],
+      [
+        "PE / 모바일",
+        "출처에 따라 다름",
+        "대상 기기의 앱 또는 애드온 목록 확인",
+        "스토어 또는 Bedrock 출처"
       ]
     ]
   },

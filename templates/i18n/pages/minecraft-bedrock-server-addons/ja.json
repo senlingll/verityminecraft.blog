@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "title": "Minecraft統合版専用サーバーへのアドオン導入ガイド",
+    "description": "Bedrock専用サーバーにアドオンを追加する手順を解説。ワールドのバックアップ、パック配置、UUID登録、参加者との同期、原因の切り分けを確認できます。",
+    "image": "/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Bedrock専用サーバーガイド",
+    "title": "Minecraft統合版サーバーにアドオンを追加する方法",
+    "lede": "Minecraft統合版の専用サーバーにアドオンを追加するときは、サーバーを停止してワールドをバックアップし、展開したパックを種類ごとのフォルダーに配置します。次に、読み込むワールドの一覧へパックのheader UUIDとバージョンを登録してください。まず1つだけ導入し、別のプレイヤーアカウントでも確認します。",
+    "support": "ここで説明するのは、自分でファイルを管理するBedrock専用サーバー（BDS）の手順です。個人の端末で.mcaddonを開いてローカルワールドへ取り込む方法とは異なり、Realmsやホスティング会社の非公開パネルへ直接アクセスする手順でもありません。共有ワールドを変更する前に、manifestと実際のサーバーバージョンを確認しましょう。",
+    "actions": [
+      {
+        "label": "個人ワールドへのアドオン導入",
+        "url": "/bedrock-addons/",
+        "class": "btn-secondary"
+      },
+      {
+        "label": "バージョン情報を確認",
+        "url": "/versions/",
+        "class": "btn-primary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp",
+      "alt": "展開したビヘイビアパックとリソースパックをBedrock専用サーバーへ配置し、テスト用ワールドで確認する概念図",
+      "caption": "編集用の概念図です。Minecraftの実画面や実在するサーバーUIではありません。サーバーがパック参照を含むワールドを読み込む必要があります。",
+      "width": 1200,
+      "height": 675
+    }
+  },
+  "answer": {
+    "eyebrow": "先に結論",
+    "title": "サーバーへファイルを置き、実際に読み込むワールドへ登録する",
+    "paragraphs": [
+      "Bedrock専用サーバーは、サーバーコンソールで.mcaddonを開くだけではアドオンを導入できません。.mcaddonはBedrockクライアントでのインポートに便利な形式です。BDSではパックを展開し、ビヘイビアパックとリソースパックを分けて、サーバーファイルの隣にある種類別フォルダーへコピーします。",
+      "サーバーが使うのは、現在読み込んでいるワールドに登録されたパックです。そのワールドのworld_behavior_packs.jsonまたはworld_resource_packs.jsonに、manifestのheader UUIDとバージョンを追加します。manifest.jsonはパックフォルダー内に残し、モジュールUUIDやフォルダー名ではなくheader UUIDを使ってください。",
+      "変更前にワールド全体をコピーし、サーバーを停止してから作業します。停止中なら、サーバーの書き込みで編集内容が戻ることを避けられます。テスト用コピーを管理者アカウントと一般プレイヤーの両方で確認し、再起動と通常プレイが問題なく終わるまで復元用コピーを保管しましょう。",
+      "2026年9月23日に確認したVerity Bedrockの配布元情報では、ThatMob's Verity 4.0.0（V26.50向け）が2026年9月17日付で掲載されています。これはパックの配布情報であり、すべての専用サーバー、Realm、ワールドで動作する証明ではありません。共有サーバーで使う前に、対象バージョンのmanifestと配布元の注意事項を確認してください。"
+    ],
+    "cards": [
+      {
+        "title": "ビヘイビアパック",
+        "text": "サーバー側のルールやエンティティを追加・変更します。behavior_packsに置き、稼働対象のワールドのビヘイビア一覧にも登録します。"
+      },
+      {
+        "title": "リソースパック",
+        "text": "テクスチャ、音声などクライアントから見える素材を提供します。resource_packsに置き、参加時にプレイヤーがダウンロードを承諾する必要があるか確認します。"
+      },
+      {
+        "title": "ワールド単位の設定",
+        "text": "フォルダーにファイルがあるだけでは有効になりません。ワールドのパック一覧とサーバーのワールド設定が、読み込む内容を決めます。"
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "導入手順",
+    "title": "7つの確認でBedrockサーバーにパックを追加",
+    "description": "自分で管理するBDSでは、次の順序で作業します。ホスティング会社のパネルではパスやフォルダー名が異なる場合がありますが、ワールドとmanifestの確認は必要です。",
+    "items": [
+      {
+        "title": "サーバー種別と対象ワールドを確認",
+        "text": "管理対象がRealmsではなくBedrock専用サーバーであることを確認します。server.propertiesのlevel-nameを読み、worlds内の対象フォルダーを特定してください。管理型ホストではローカル環境のパスを推測せず、ファイルマネージャーや公式手順に従います。"
+      },
+      {
+        "title": "ゲームとパックの対応を確認",
+        "text": "manifest.jsonを開き、format_version、minimum_engine_version、header UUID、header version、依存パックを確認します。実際のサーバーのリリースと対応するパック形式に照らし合わせてください。ファイル名や配布ページの見出しだけでは互換性を判断できません。"
+      },
+      {
+        "title": "サーバーを停止してバックアップ",
+        "text": "ワールドデータに触れる前にBDSを正常終了します。現在のワールドフォルダー全体に加え、パック一覧とserver.propertiesも別に保存してください。ワールド名と日付を記録すれば、起動に失敗した場合に別のセーブを誤って戻すことを避けられます。"
+      },
+      {
+        "title": "パックを展開して種類別に分ける",
+        "text": "ダウンロードを展開し、manifest.jsonが直接入っているフォルダーを探します。ビヘイビアはbehavior_packs、リソースはresource_packsへ配置します。余分な階層ができていないか確認し、.zipや.mcaddonのままサーバーへ置かないでください。"
+      },
+      {
+        "title": "対象ワールドの一覧へ登録",
+        "text": "worlds/<ワールド名>/にあるworld_behavior_packs.jsonまたはworld_resource_packs.jsonへ、種類ごとに1つずつ項目を追加します。pack_idはheader UUID、versionは同じheaderの3つの数値を使います。JSONの構文を保ち、manifestに記載された依存関係も確認します。"
+      },
+      {
+        "title": "クライアントへ配るリソースを確認",
+        "text": "ワールドがリソースパックを使う場合、server.propertiesのtexturepack-requiredを確認します。有効なら、対応するクライアントは提示されたダウンロードを承諾する必要があります。ただし、すべての素材がどの端末でも同じように表示される保証ではありません。事前に参加者へ説明してください。"
+      },
+      {
+        "title": "再起動してコピーでテスト",
+        "text": "サーバー起動後、コンソールやログでmanifest、依存関係、JSONのエラーを確認します。対応するバージョンのクライアントで接続し、動作と見た目を確かめ、別プレイヤーでも試します。正常な再起動と復旧手順を確認してから本番ワールドへ反映します。"
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "保存場所の違い",
+    "title": "クライアントのインポート先とBDSのワールドフォルダーを混同しない",
+    "paragraphs": [
+      "個人端末で.mcaddonを開くと、ローカルのBedrockプロフィールへインポートされることがあります。保存先の一例がcom.mojangフォルダーです。これはサーバーのbehavior_packs、resource_packs、worldsとは別の場所です。自分の端末だけにファイルを置いても、専用サーバーはそのパックを読み込みません。",
+      "BDSのパスはOS、インストール方法、コンテナー、ホスティングパネルで異なります。サーバー実行ファイルとserver.propertiesがあるディレクトリーから確認し、level-nameでワールドを特定してください。パネル上のルートが仮想表示の場合もあるため、ホストのマッピングに従い、Linuxコンテナーに推測したWindowsパスを入力しないでください。",
+      "manifest.jsonはパックのファイルと一緒に保管します。header UUIDはワールド一覧でパックを識別しますが、module UUIDは内部モジュール用で役割が異なります。配布元が依存パックを指定している場合はそれも導入し、各manifestのIDとバージョンをそのまま使います。"
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-server-addons/pack-folder-boundaries.webp",
+      "alt": "ローカルBedrockのインポート領域とサーバーのbehavior、resource、worldsフォルダーを区別する概念図",
+      "caption": "概念図であり実画面ではありません。プレイヤー端末とサーバーの保存先は用途が異なります。",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "BDSファイル一覧",
+    "title": "アドオンの各要素に使うファイルとフォルダー",
+    "description": "ルートパスは導入環境によって異なります。ここでは一般的なBDS上の役割を示すため、サーバーパッケージやホストの説明と照合してください。",
+    "headers": [
+      "項目",
+      "一般的な場所",
+      "役割",
+      "再起動前の確認"
+    ],
+    "rows": [
+      [
+        "ビヘイビアフォルダー",
+        "behavior_packs/<pack>/",
+        "サーバー側のルールとモジュール",
+        "フォルダー内にmanifest.jsonがある"
+      ],
+      [
+        "リソースフォルダー",
+        "resource_packs/<pack>/",
+        "テクスチャ、音声、クライアント素材",
+        "展開済みでmanifestがある"
+      ],
+      [
+        "ビヘイビア一覧",
+        "worlds/<world>/world_behavior_packs.json",
+        "そのワールドで有効なビヘイビア",
+        "UUIDとバージョンがheaderと一致"
+      ],
+      [
+        "リソース一覧",
+        "worlds/<world>/world_resource_packs.json",
+        "そのワールドで有効なリソース",
+        "IDとバージョンが一致しJSONが有効"
+      ],
+      [
+        "サーバー設定",
+        "server.properties",
+        "読み込むワールドと素材配布の設定",
+        "level-nameとtexturepack-requiredを確認"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "参加者との同期",
+    "title": "サーバー用パックとプレイヤー個人のアドオンは別の場合がある",
+    "paragraphs": [
+      "ワールドに登録したリソースパックは、サーバーから参加クライアントへ提示できます。texturepack-requiredは、参加にあたってそのダウンロードの承諾を必須にするかを制御します。この設定はビヘイビアパックをプレイヤーの端末へローカル導入するものではなく、互換性の問題を直すものでもありません。実際に使うサーバーとクライアントの組み合わせで試します。",
+      "ビヘイビアパックは通常、サーバー上のワールド設定の一部として動作します。リソースパックはクライアント側に見た目や音を提供します。アドオンによっては両方のパックを含みます。種類ごとに正しい一覧へ登録し、テクスチャが見えるだけでビヘイビアも有効と判断しないでください。エンティティの表示も全素材の同期を証明しません。",
+      "複数のアドオンは依存関係を持つことがあります。宣言されたパック一式をそろえ、重複したheader UUIDがないか調べ、一覧に書くバージョンと配置したパックを一致させます。配布元が導入順や実験設定を指定しているときは、そのリリースの説明に従います。原因を追いやすくするため、コピーしたワールドに1つずつ追加してください。",
+      "画像の矢印は、運営者がサーバー側でパックを有効にし、その後クライアントが接続してリソースを受け取ることがある、という概念上の境界を示します。Minecraftの実画面、管理パネル、検証済み通信ログではありません。"
+    ],
+    "image": {
+      "src": "/static/images/minecraft-bedrock-server-addons/client-sync-flow.webp",
+      "alt": "Bedrockサーバーがルールを適用し、接続した2台のプレイヤー端末へリソースを提示する概念図",
+      "caption": "マルチプレイの実画面ではなく概念図です。通知や表示は設定、パック、バージョン、端末によって変わります。",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "mistakes": {
+    "eyebrow": "トラブルシューティング",
+    "title": "導入したはずのアドオンがサーバーに反映されない理由",
+    "description": "症状から確認箇所を絞りましょう。変更は一度に1つにし、修正したワールドが正常に読み込まれるまでバックアップを残します。",
+    "cards": [
+      {
+        "title": "別のワールドを読み込んでいる",
+        "text": "server.propertiesのlevel-nameと、一覧を編集したワールドフォルダーを照合します。別のセーブに正しいパックを置いても、現在のワールドでは有効になりません。"
+      },
+      {
+        "title": "manifestが深い階層にある・未展開",
+        "text": "対象フォルダーの直下にmanifest.jsonがあるか確認します。展開時に外側のラッパーフォルダーが追加されていないかも見直してください。"
+      },
+      {
+        "title": "UUIDまたはバージョンが違う",
+        "text": "manifest.jsonのheader UUIDとheader versionを使います。フォルダー名、module UUID、古いファイルの値で代用しないでください。"
+      },
+      {
+        "title": "種類と配置先が違う",
+        "text": "ビヘイビアはbehavior_packs、リソースはresource_packsへ置き、種類に対応するワールドJSONへ登録します。クライアントでのインポートはサーバー上の有効化ではありません。"
+      },
+      {
+        "title": "依存パックや実験設定が不足",
+        "text": "manifestのdependenciesと対象リリースの注意事項を確認します。必要なバージョンをそろえ、配布元が要求するときはワールドの実験設定も見直してください。"
+      },
+      {
+        "title": "プレイヤーに素材が表示されない",
+        "text": "リソース一覧、ダウンロード承諾の設定、クライアント側の承諾、対応バージョンを確認します。キャッシュを消す前に構成を記録し、最初からサーバーワールドを削除しないでください。"
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "関連ガイド",
+    "title": "環境に合った手順を続けて確認",
+    "description": "関連ページでは個人ワールドへのインポートと専用サーバーの設定を分けて説明します。",
+    "links": [
+      {
+        "title": "個人ワールドへBedrockアドオンを導入",
+        "url": "/bedrock-addons/",
+        "text": "端末やローカルワールドへ.mcaddonを取り込むクライアント側の手順です。",
+        "cta": "個人向け手順を読む"
+      },
+      {
+        "title": "Bedrockリソースパックの問題を確認",
+        "url": "/bedrock-resource-packs/",
+        "text": "クライアントでのファイル形式、インポート、ワールド有効化を確認できます。",
+        "cta": "リソースガイドを開く"
+      },
+      {
+        "title": "Bedrockの配布元とバージョン",
+        "url": "/bedrock/",
+        "text": "Verity Bedrockの配布元ページとパック固有の互換性情報を確認します。",
+        "cta": "Bedrockの配布元を見る"
+      },
+      {
+        "title": "Minecraftバージョン情報",
+        "url": "/versions/",
+        "text": "共有ワールドでテストする前にゲームとパックの記録版を比較します。",
+        "cta": "バージョンを確認"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "参照先",
+    "title": "サーバー変更前に確認する公式資料",
+    "description": "公式資料は専用サーバーやパック構造、アドオンの基礎を説明します。第三者パックの互換性を認定するものではありません。",
+    "links": [
+      {
+        "title": "Minecraft統合版専用サーバー",
+        "url": "https://www.minecraft.net/en-us/download/server/bedrock",
+        "text": "公式サーバーダウンロードとプラットフォーム情報。実行環境に合うリリースを確認してください。",
+        "cta": "Minecraft公式ページ"
+      },
+      {
+        "title": "Microsoft Learn: ビヘイビアパック",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/behaviorpack?view=minecraft-bedrock-stable",
+        "text": "ビヘイビアパックの構造とmanifestについての公式作成者向け資料です。",
+        "cta": "公式資料を読む"
+      },
+      {
+        "title": "Microsoft Learn: リソースパック",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack?view=minecraft-bedrock-stable",
+        "text": "リソースパックのファイルと構成についての公式作成者向け資料です。",
+        "cta": "公式資料を読む"
+      },
+      {
+        "title": "Minecraftヘルプ: 統合版アドオンのよくある質問",
+        "url": "https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ",
+        "text": "プレイヤー向けのBedrockアドオンと対応プラットフォームに関する公式説明です。",
+        "cta": "公式ヘルプを開く"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "よくある質問",
+    "title": "Minecraft統合版サーバーのアドオンに関するよくある質問",
+    "items": [
+      {
+        "question": "Minecraft統合版サーバーへアドオンを追加するには？",
+        "answer": "自分で管理するBedrock専用サーバーなら、ワールドを停止・バックアップし、パックを展開してbehavior_packsまたはresource_packsへ置きます。次に、読み込むワールドの対応するJSON一覧へheader UUIDとバージョンを追加します。再起動して、メインのセーブではなくコピーで確認してください。"
+      },
+      {
+        "question": "サーバーで.mcaddonを開くだけで導入できますか？",
+        "answer": "通常はBedrockクライアントのプロフィールへのインポートであり、専用サーバーのワールドへの導入ではありません。パックを展開してBDSの手順を使います。ホストのパネルでは別の操作が必要な場合があるため、その説明を確認してください。"
+      },
+      {
+        "question": "参加する全員が同じアドオンを個別に入れる必要がありますか？",
+        "answer": "必ずしも必要ではありません。サーバーはワールドのリソースパックを提示でき、texturepack-requiredで承諾を必須にできます。ビヘイビアはサーバー上のワールドとともに設定します。ただしバージョン、端末、パック、サーバー設定は結果に影響します。"
+      },
+      {
+        "question": "Bedrock専用サーバーに複数のアドオンを追加するには？",
+        "answer": "展開した各パックを配置し、種類別のワールド一覧へそれぞれのheader UUIDとバージョンを登録します。依存関係をそろえ、IDの重複を調べ、コピーしたワールドへ1つずつ追加すると、競合箇所を絞りやすくなります。"
+      },
+      {
+        "question": "この手順をMinecraft Realmsに使えますか？",
+        "answer": "使えません。ここで説明するファイルパスは、運営者が管理するBedrock専用サーバー向けです。Realmsは同じサーバーファイル領域を公開しないため、Realm所有者が使えるワールドやパックの手順を利用してください。管理型ホストにも独自手順があります。"
+      },
+      {
+        "question": "Verity Bedrockの配布ページはBDS対応の証明ですか？",
+        "answer": "いいえ。2026年9月23日に確認した配布情報にはV26.50向けバージョン4.0.0が掲載されていますが、専用サーバーでの動作試験とは異なります。BDSのビルドとmanifestや配布元の注意事項を照合し、バックアップで試してください。安定した直接ファイルURLを確認できなかったため、Bedrockのダウンロード先は公式CurseForgeファイルページです。"
+      },
+      {
+        "question": "パックがフォルダーにあるのに、サーバー内で反映されないのはなぜですか？",
+        "answer": "level-nameで指定した稼働中ワールドと、パックを置いたワールドフォルダーが一致しているか確認してください。さらにworld_behavior_packs.jsonのUUIDとバージョンがmanifest.jsonのヘッダーと合っている必要があります。別のワールドに登録した場合やマニフェストが食い違う場合、ファイルが存在しても有効になりません。"
+      },
+      {
+        "question": "Verity Bedrockの配布情報だけで、サーバー互換性を確認できますか？",
+        "answer": "できません。2026年9月23日に確認したVerityの配布元情報には、V26.50向けのバージョン4.0.0が掲載されています。ただし、配布情報は専用サーバーでの動作検証を示すものではありません。パックのmanifestと配布元の注意事項をBDSのビルドと照合し、ワールドのバックアップでテストしてください。安定したファイル直リンクを確認できなかったため、BedrockのダウンロードボタンはCurseForgeの公式ファイルページを開きます。"
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft統合版サーバーにアドオンを追加する方法",
+      "description": "Bedrock専用サーバーでのワールドバックアップ、パック配置、UUID登録、クライアント同期、トラブル対応を説明するガイドです。",
+      "image": "https://verityminecraft.blog/static/images/minecraft-bedrock-server-addons/server-addon-install-map.webp",
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/ja/minecraft-bedrock-server-addons/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Minecraft統合版サーバーへアドオンを追加するには？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "自分で管理するBedrock専用サーバーなら、ワールドを停止・バックアップし、パックを展開してbehavior_packsまたはresource_packsへ置きます。次に、読み込むワールドの対応するJSON一覧へheader UUIDとバージョンを追加します。再起動して、メインのセーブではなくコピーで確認してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "サーバーで.mcaddonを開くだけで導入できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通常はBedrockクライアントのプロフィールへのインポートであり、専用サーバーのワールドへの導入ではありません。パックを展開してBDSの手順を使います。ホストのパネルでは別の操作が必要な場合があるため、その説明を確認してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "参加する全員が同じアドオンを個別に入れる必要がありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "必ずしも必要ではありません。サーバーはワールドのリソースパックを提示でき、texturepack-requiredで承諾を必須にできます。ビヘイビアはサーバー上のワールドとともに設定します。ただしバージョン、端末、パック、サーバー設定は結果に影響します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bedrock専用サーバーに複数のアドオンを追加するには？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "展開した各パックを配置し、種類別のワールド一覧へそれぞれのheader UUIDとバージョンを登録します。依存関係をそろえ、IDの重複を調べ、コピーしたワールドへ1つずつ追加すると、競合箇所を絞りやすくなります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "この手順をMinecraft Realmsに使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "使えません。ここで説明するファイルパスは、運営者が管理するBedrock専用サーバー向けです。Realmsは同じサーバーファイル領域を公開しないため、Realm所有者が使えるワールドやパックの手順を利用してください。管理型ホストにも独自手順があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Verity Bedrockの配布ページはBDS対応の証明ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。2026年9月23日に確認した配布情報にはV26.50向けバージョン4.0.0が掲載されていますが、専用サーバーでの動作試験とは異なります。BDSのビルドとmanifestや配布元の注意事項を照合し、バックアップで試してください。安定した直接ファイルURLを確認できなかったため、Bedrockのダウンロード先は公式CurseForgeファイルページです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "パックがフォルダーにあるのに、サーバー内で反映されないのはなぜですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "level-nameで指定した稼働中ワールドと、パックを置いたワールドフォルダーが一致しているか確認してください。さらにworld_behavior_packs.jsonのUUIDとバージョンがmanifest.jsonのヘッダーと合っている必要があります。別のワールドに登録した場合やマニフェストが食い違う場合、ファイルが存在しても有効になりません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Verity Bedrockの配布情報だけで、サーバー互換性を確認できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "できません。2026年9月23日に確認したVerityの配布元情報には、V26.50向けのバージョン4.0.0が掲載されています。ただし、配布情報は専用サーバーでの動作検証を示すものではありません。パックのmanifestと配布元の注意事項をBDSのビルドと照合し、ワールドのバックアップでテストしてください。安定したファイル直リンクを確認できなかったため、BedrockのダウンロードボタンはCurseForgeの公式ファイルページを開きます。"
+          }
+        }
+      ]
+    }
+  }
+}

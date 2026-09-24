@@ -21,9 +21,9 @@
     <aside class="core-fact-panel" aria-label="{{ page.facts.title }}">
       <h2>{{ page.facts.title }}</h2>
       <dl class="download-facts large">
-        {% for item in page.facts['items'] %}
+{% for item in page.facts['items'] %}
         <div><dt>{{ item.label }}</dt><dd>{{ item.value }}</dd></div>
-        {% endfor %}
+{% endfor %}
       </dl>
     </aside>
   </section>
@@ -69,11 +69,11 @@
       <div role="row">
         {% for header in page.table.headers %}<strong>{{ header }}</strong>{% endfor %}
       </div>
-      {% for row in page.table.rows %}
+{% for row in page.table.rows %}
       <div role="row">
         {% for cell in row %}<span>{{ cell }}</span>{% endfor %}
       </div>
-      {% endfor %}
+{% endfor %}
     </div>
   </section>
   {% endif %}

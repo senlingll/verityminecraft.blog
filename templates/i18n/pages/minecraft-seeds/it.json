@@ -11,8 +11,16 @@
     "lede": "I seed Minecraft non sono una lista universale di numeri magici. Il seed utile è quello che corrisponde alla tua edizione, versione, area di spawn e obiettivo di gioco. Questa guida spiega come confrontare partenze survival, isole, villaggi, biomi e seed legati a una versione senza trattare uno screenshot vecchio come una prova.",
     "support": "Usa una fonte mantenuta o una mappa dei seed per trovare i candidati, poi crea un mondo di prova prima di iniziare una partita lunga. Java e Bedrock possono generare terreni diversi con lo stesso numero e gli aggiornamenti possono cambiare il risultato.",
     "actions": [
-      {"label": "Confronta Java e Bedrock", "url": "/java-vs-bedrock/", "class": "btn-primary"},
-      {"label": "Controlla le versioni", "url": "/versions/", "class": "btn-secondary"}
+      {
+        "label": "Confronta Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Controlla le versioni",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
     ],
     "image": {
       "src": "/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
@@ -31,9 +39,18 @@
       "Considera ogni seed pubblicato come un candidato da verificare. Leggi la fonte, annota edizione e versione, osserva l'area iniziale con una mappa mantenuta quando è adatta e apri un mondo copiato. Richiede più tempo che incollare un numero, ma evita di trasformare uno screenshot interessante in una scelta sbagliata per il mondo principale."
     ],
     "cards": [
-      {"title": "Il numero è solo un input", "text": "Edizione, versione, impostazioni e area controllata possono cambiare il risultato. Salva tutte le condizioni insieme al seed."},
-      {"title": "Il migliore dipende dall'obiettivo", "text": "Villaggio, isola, montagna e inizio survival richiedono terreni diversi. Confronta la caratteristica che ti serve davvero, non una classifica universale."},
-      {"title": "Prova prima il mondo principale", "text": "Usa un mondo temporaneo o copiato per verificare spawn, strutture, terreno e giocabilità. Uno screenshot non conferma i primi minuti reali."}
+      {
+        "title": "Il numero è solo un input",
+        "text": "Edizione, versione, impostazioni e area controllata possono cambiare il risultato. Salva tutte le condizioni insieme al seed."
+      },
+      {
+        "title": "Il migliore dipende dall'obiettivo",
+        "text": "Villaggio, isola, montagna e inizio survival richiedono terreni diversi. Confronta la caratteristica che ti serve davvero, non una classifica universale."
+      },
+      {
+        "title": "Prova prima il mondo principale",
+        "text": "Usa un mondo temporaneo o copiato per verificare spawn, strutture, terreno e giocabilità. Uno screenshot non conferma i primi minuti reali."
+      }
     ]
   },
   "steps": {
@@ -41,11 +58,26 @@
     "title": "Come scegliere i migliori seed Minecraft per il tuo obiettivo",
     "description": "Queste categorie trasformano una ricerca ampia in una lista breve e verificabile. Sono criteri di scelta, non una garanzia per ogni versione.",
     "items": [
-      {"title": "1. Partenze adatte al survival", "text": "Cerca legno, cibo, pietra e terreno abbastanza sicuro vicino allo spawn. Una scogliera spettacolare può essere bella senza essere comoda per il primo giorno."},
-      {"title": "2. Mondi di isole e coste", "text": "Controlla distanza da alberi, animali, villaggi e terraferma prima di scegliere un seed di isola. Un'isola bella ma povera di risorse è più adatta a una sfida."},
-      {"title": "3. Villaggi e strutture", "text": "Chiarisci cosa significa vicino nella fonte. Un villaggio visibile dallo spawn è diverso da una struttura a centinaia di blocchi. Annota la distanza e testala nella stessa versione."},
-      {"title": "4. Biomi e costruzioni", "text": "Per montagna, ciliegi, quercia scura, deserto o neve, controlla la forma del terreno oltre al nome del bioma. Una mappa dei seed aiuta a confrontare l'area più ampia."},
-      {"title": "5. Scoperte legate a una versione", "text": "Una ricerca come seed Minecraft 26.2 appartiene a un contesto di versione. Conserva la versione nelle note e ricontrolla la fonte dopo cambiamenti alla generazione."}
+      {
+        "title": "1. Partenze adatte al survival",
+        "text": "Cerca legno, cibo, pietra e terreno abbastanza sicuro vicino allo spawn. Una scogliera spettacolare può essere bella senza essere comoda per il primo giorno."
+      },
+      {
+        "title": "2. Mondi di isole e coste",
+        "text": "Controlla distanza da alberi, animali, villaggi e terraferma prima di scegliere un seed di isola. Un'isola bella ma povera di risorse è più adatta a una sfida."
+      },
+      {
+        "title": "3. Villaggi e strutture",
+        "text": "Chiarisci cosa significa vicino nella fonte. Un villaggio visibile dallo spawn è diverso da una struttura a centinaia di blocchi. Annota la distanza e testala nella stessa versione."
+      },
+      {
+        "title": "4. Biomi e costruzioni",
+        "text": "Per montagna, ciliegi, quercia scura, deserto o neve, controlla la forma del terreno oltre al nome del bioma. Una mappa dei seed aiuta a confrontare l'area più ampia."
+      },
+      {
+        "title": "5. Scoperte legate a una versione",
+        "text": "Una ricerca come seed Minecraft 26.3 appartiene a un contesto di versione. Conserva la versione nelle note e ricontrolla la fonte dopo cambiamenti alla generazione."
+      }
     ]
   },
   "source_check": {
@@ -69,14 +101,49 @@
     "eyebrow": "Tabella decisionale",
     "title": "Controlli dei seed Minecraft in base all'obiettivo",
     "description": "Usa la tabella per capire quali prove raccogliere prima di aprire un mondo a lungo termine. Il controllo finale deve avvenire nell'edizione e versione che giochi davvero.",
-    "headers": ["Obiettivo", "Controlla prima", "Prova utile", "Limite comune"],
+    "headers": [
+      "Obiettivo",
+      "Controlla prima",
+      "Prova utile",
+      "Limite comune"
+    ],
     "rows": [
-      ["Inizio survival", "Legno, cibo, riparo e distanza dallo spawn", "Coordinate, edizione, versione e test breve", "Uno spawn spettacolare può avere poche risorse"],
-      ["Seed di isola", "Alberi, animali, terraferma e rotta sul mare", "Mappa e test in un mondo copiato", "L'isola può essere bella ma difficile"],
-      ["Villaggio o struttura", "Tipo e distanza dallo spawn", "Coordinate della fonte e test nella versione", "Vicino può voler dire centinaia di blocchi"],
-      ["Bioma o costruzione", "Forma del terreno e biomi vicini", "Mappa intorno alla zona del progetto", "Il nome del bioma non garantisce spazio adatto"],
-      ["Seed Bedrock", "Edizione Bedrock e versione esatta", "Note della fonte e test locale", "Non dare per scontato il risultato Java"],
-      ["Seed di una versione", "La versione citata dal post", "Fonte datata ed etichetta di versione", "La generazione può cambiare con gli aggiornamenti"]
+      [
+        "Inizio survival",
+        "Legno, cibo, riparo e distanza dallo spawn",
+        "Coordinate, edizione, versione e test breve",
+        "Uno spawn spettacolare può avere poche risorse"
+      ],
+      [
+        "Seed di isola",
+        "Alberi, animali, terraferma e rotta sul mare",
+        "Mappa e test in un mondo copiato",
+        "L'isola può essere bella ma difficile"
+      ],
+      [
+        "Villaggio o struttura",
+        "Tipo e distanza dallo spawn",
+        "Coordinate della fonte e test nella versione",
+        "Vicino può voler dire centinaia di blocchi"
+      ],
+      [
+        "Bioma o costruzione",
+        "Forma del terreno e biomi vicini",
+        "Mappa intorno alla zona del progetto",
+        "Il nome del bioma non garantisce spazio adatto"
+      ],
+      [
+        "Seed Bedrock",
+        "Edizione Bedrock e versione esatta",
+        "Note della fonte e test locale",
+        "Non dare per scontato il risultato Java"
+      ],
+      [
+        "Seed di una versione",
+        "La versione citata dal post",
+        "Fonte datata ed etichetta di versione",
+        "La generazione può cambiare con gli aggiornamenti"
+      ]
     ]
   },
   "activation": {
@@ -102,12 +169,30 @@
     "title": "Sei errori dei seed Minecraft che portano a risultati sbagliati",
     "description": "La maggior parte delle delusioni nasce da un contesto mancante. Correggi il confronto prima di pensare che il seed sia rotto.",
     "cards": [
-      {"title": "Trattare una lista come permanente", "text": "Una lista dei migliori seed dipende da edizione, versione e data del test. Conserva il contesto invece di copiare il numero in ogni versione futura."},
-      {"title": "Mescolare Java e Bedrock", "text": "Lo stesso testo non dimostra lo stesso terreno. Leggi l'edizione e testa il mondo nell'edizione che usi."},
-      {"title": "Fidarsi solo di uno screenshot", "text": "Un'immagine può nascondere distanza, risorse assenti o un'altra versione. Cerca coordinate e percorri la strada in un mondo copiato."},
-      {"title": "Confondere seed del mondo e dei raccolti", "text": "Domande su semi di zucca, grano, melone o patata riguardano l'agricoltura, non la generazione del mondo."},
-      {"title": "Testare nella partita principale", "text": "Gli esperimenti possono cambiare i tuoi piani. Usa un mondo temporaneo o copiato finché il seed non raggiunge l'obiettivo."},
-      {"title": "Chiamare attuale un seed di versione", "text": "Un post recente non certifica la compatibilità. Usa data, versione, fonte e test locale e spiega il limite."}
+      {
+        "title": "Trattare una lista come permanente",
+        "text": "Una lista dei migliori seed dipende da edizione, versione e data del test. Conserva il contesto invece di copiare il numero in ogni versione futura."
+      },
+      {
+        "title": "Mescolare Java e Bedrock",
+        "text": "Lo stesso testo non dimostra lo stesso terreno. Leggi l'edizione e testa il mondo nell'edizione che usi."
+      },
+      {
+        "title": "Fidarsi solo di uno screenshot",
+        "text": "Un'immagine può nascondere distanza, risorse assenti o un'altra versione. Cerca coordinate e percorri la strada in un mondo copiato."
+      },
+      {
+        "title": "Confondere seed del mondo e dei raccolti",
+        "text": "Domande su semi di zucca, grano, melone o patata riguardano l'agricoltura, non la generazione del mondo."
+      },
+      {
+        "title": "Testare nella partita principale",
+        "text": "Gli esperimenti possono cambiare i tuoi piani. Usa un mondo temporaneo o copiato finché il seed non raggiunge l'obiettivo."
+      },
+      {
+        "title": "Chiamare attuale un seed di versione",
+        "text": "Un post recente non certifica la compatibilità. Usa data, versione, fonte e test locale e spiega il limite."
+      }
     ]
   },
   "related": {
@@ -115,11 +200,36 @@
     "title": "Collegare il controllo del seed al contesto di edizione e versione",
     "description": "Queste pagine rispondono alle domande vicine che emergono quando confronti un seed Minecraft o prepari un nuovo mondo.",
     "links": [
-      {"title": "Minecraft Java e Bedrock", "url": "/java-vs-bedrock/", "text": "Confronta le edizioni prima di pensare che un seed o una procedura Java funzioni allo stesso modo su Bedrock.", "cta": "Confronta le edizioni"},
-      {"title": "Versioni Minecraft", "url": "/versions/", "text": "Collega la nota del seed al contesto di Minecraft e Verity che hai realmente testato.", "cta": "Vedi le versioni"},
-      {"title": "Come installare Minecraft", "url": "/how-to-install/", "text": "Usa il flusso di installazione basato sulle fonti quando il mondo fa parte di una configurazione con mod o add-on.", "cta": "Apri la guida"},
-      {"title": "Resource pack Minecraft", "url": "/minecraft-resource-packs/", "text": "Separa le decisioni sulla generazione del mondo dai controlli dei file Java e Bedrock.", "cta": "Apri la guida pack"},
-      {"title": "Mappe Minecraft Bedrock", "url": "/minecraft-bedrock-maps/", "text": "Usa questa guida quando devi importare un mondo Bedrock già pronto invece di generare il terreno con un seed.", "cta": "Apri la guida mappe Bedrock"}
+      {
+        "title": "Minecraft Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Confronta le edizioni prima di pensare che un seed o una procedura Java funzioni allo stesso modo su Bedrock.",
+        "cta": "Confronta le edizioni"
+      },
+      {
+        "title": "Versioni Minecraft",
+        "url": "/versions/",
+        "text": "Collega la nota del seed al contesto di Minecraft e Verity che hai realmente testato.",
+        "cta": "Vedi le versioni"
+      },
+      {
+        "title": "Come installare Minecraft",
+        "url": "/how-to-install/",
+        "text": "Usa il flusso di installazione basato sulle fonti quando il mondo fa parte di una configurazione con mod o add-on.",
+        "cta": "Apri la guida"
+      },
+      {
+        "title": "Resource pack Minecraft",
+        "url": "/minecraft-resource-packs/",
+        "text": "Separa le decisioni sulla generazione del mondo dai controlli dei file Java e Bedrock.",
+        "cta": "Apri la guida pack"
+      },
+      {
+        "title": "Mappe Minecraft Bedrock",
+        "url": "/minecraft-bedrock-maps/",
+        "text": "Usa questa guida quando devi importare un mondo Bedrock già pronto invece di generare il terreno con un seed.",
+        "cta": "Apri la guida mappe Bedrock"
+      }
     ]
   },
   "sources": {
@@ -127,20 +237,48 @@
     "title": "Fonti e strumenti per controllare i seed Minecraft",
     "description": "Usa questi link come punto di partenza per definizioni e controllo tramite mappa. Non sostituiscono un test nell'edizione e versione che giochi.",
     "links": [
-      {"title": "Assistenza Minecraft", "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-", "text": "Ingresso ufficiale all'assistenza Minecraft per supporto e terminologia sui seed.", "cta": "Apri l'assistenza"},
-      {"title": "Mappa dei seed Chunkbase", "url": "https://www.chunkbase.com/apps/seed-map", "text": "Strumento di pianificazione con note di versione, errori comuni e limiti dichiarati. Controlla la copertura prima di fidarti del risultato.", "cta": "Apri la mappa"}
+      {
+        "title": "Assistenza Minecraft",
+        "url": "https://help.minecraft.net/hc/en-us/articles/360047117091-What-is-a-Minecraft-Seed-",
+        "text": "Ingresso ufficiale all'assistenza Minecraft per supporto e terminologia sui seed.",
+        "cta": "Apri l'assistenza"
+      },
+      {
+        "title": "Mappa dei seed Chunkbase",
+        "url": "https://www.chunkbase.com/apps/seed-map",
+        "text": "Strumento di pianificazione con note di versione, errori comuni e limiti dichiarati. Controlla la copertura prima di fidarti del risultato.",
+        "cta": "Apri la mappa"
+      }
     ]
   },
   "faq": {
     "eyebrow": "Domande frequenti",
     "title": "Domande frequenti sui seed Minecraft",
     "items": [
-      {"question": "Cos'è un seed Minecraft?", "answer": "È un valore usato per generare un mondo. Influenza terreno, biomi e strutture, ma dipende dall'edizione e dalla versione che lo hanno generato."},
-      {"question": "Quali sono i migliori seed Minecraft per survival?", "answer": "Non esiste un seed migliore per tutti. Abbina edizione e versione e controlla risorse, strutture e percorso in un mondo copiato."},
-      {"question": "Posso usare un seed Java in Bedrock?", "answer": "Non dare per scontato lo stesso risultato. Controlla l'edizione e prova il seed in Bedrock perché terreno e strutture possono cambiare."},
-      {"question": "Perché il mio seed Minecraft ha generato un altro mondo?", "answer": "Controlla testo, edizione, versione, impostazioni del mondo e area di spawn. Una differenza di contesto può cambiare il risultato."},
-      {"question": "Come trovo buoni seed di isole Minecraft?", "answer": "Controlla forma dell'isola, alberi, animali, cibo, distanza dalla terraferma e strutture con una mappa e un mondo temporaneo."},
-      {"question": "Quanti seed Minecraft esistono?", "answer": "Non c'è un conteggio fisso utile per tutte le edizioni e versioni. È più importante conservare un contesto riproducibile."}
+      {
+        "question": "Cos'è un seed Minecraft?",
+        "answer": "È un valore usato per generare un mondo. Influenza terreno, biomi e strutture, ma dipende dall'edizione e dalla versione che lo hanno generato."
+      },
+      {
+        "question": "Quali sono i migliori seed Minecraft per survival?",
+        "answer": "Non esiste un seed migliore per tutti. Abbina edizione e versione e controlla risorse, strutture e percorso in un mondo copiato."
+      },
+      {
+        "question": "Posso usare un seed Java in Bedrock?",
+        "answer": "Non dare per scontato lo stesso risultato. Controlla l'edizione e prova il seed in Bedrock perché terreno e strutture possono cambiare."
+      },
+      {
+        "question": "Perché il mio seed Minecraft ha generato un altro mondo?",
+        "answer": "Controlla testo, edizione, versione, impostazioni del mondo e area di spawn. Una differenza di contesto può cambiare il risultato."
+      },
+      {
+        "question": "Come trovo buoni seed di isole Minecraft?",
+        "answer": "Controlla forma dell'isola, alberi, animali, cibo, distanza dalla terraferma e strutture con una mappa e un mondo temporaneo."
+      },
+      {
+        "question": "Quanti seed Minecraft esistono?",
+        "answer": "Non c'è un conteggio fisso utile per tutte le edizioni e versioni. È più importante conservare un contesto riproducibile."
+      }
     ]
   },
   "schema": {
@@ -151,21 +289,69 @@
       "description": "Guida pratica per scegliere, verificare e testare seed di mondo Minecraft su Java e Bedrock.",
       "image": "https://verityminecraft.blog/static/images/minecraft-seeds/minecraft-seeds-feature.webp",
       "datePublished": "2026-08-15",
-      "dateModified": "2026-08-15",
-      "author": {"@type": "Organization", "name": "Verity Minecraft"},
-      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
       "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-seeds/"
     },
     "faq": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Cos'è un seed Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "È un valore usato per generare un mondo; il risultato dipende da edizione e versione."}},
-        {"@type": "Question", "name": "Quali sono i migliori seed per survival?", "acceptedAnswer": {"@type": "Answer", "text": "Non esiste un seed universale. Controlla edizione, versione, risorse e percorso in un mondo copiato."}},
-        {"@type": "Question", "name": "Posso usare un seed Java in Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "Non dare per scontato lo stesso risultato; controlla l'edizione e testa il seed in Bedrock."}},
-        {"@type": "Question", "name": "Perché il seed ha generato un altro mondo?", "acceptedAnswer": {"@type": "Answer", "text": "Controlla testo, edizione, versione, impostazioni e area di spawn."}},
-        {"@type": "Question", "name": "Come trovo buoni seed di isole?", "acceptedAnswer": {"@type": "Answer", "text": "Controlla forma, risorse, distanza dalla terraferma e strutture con mappa e mondo temporaneo."}},
-        {"@type": "Question", "name": "Quanti seed Minecraft esistono?", "acceptedAnswer": {"@type": "Answer", "text": "Non esiste un conteggio fisso utile per tutte le versioni; conserva un contesto riproducibile."}}
+        {
+          "@type": "Question",
+          "name": "Cos'è un seed Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "È un valore usato per generare un mondo; il risultato dipende da edizione e versione."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quali sono i migliori seed per survival?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non esiste un seed universale. Controlla edizione, versione, risorse e percorso in un mondo copiato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usare un seed Java in Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non dare per scontato lo stesso risultato; controlla l'edizione e testa il seed in Bedrock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Perché il seed ha generato un altro mondo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Controlla testo, edizione, versione, impostazioni e area di spawn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come trovo buoni seed di isole?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Controlla forma, risorse, distanza dalla terraferma e strutture con mappa e mondo temporaneo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanti seed Minecraft esistono?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non esiste un conteggio fisso utile per tutte le versioni; conserva un contesto riproducibile."
+          }
+        }
       ]
     }
   }
