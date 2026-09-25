@@ -128,7 +128,7 @@
     </div>
     <div class="feature-grid compact-grid">
       {% for source in page.sources.links %}
-      <article class="feature-card"><h3>{{ source.title }}</h3><p>{{ source.text }}</p><a class="text-link" href="{{ source.url }}" target="_blank" rel="noopener">{{ source.cta }}</a></article>
+      <article class="feature-card"><h3>{{ source.title }}</h3><p>{{ source.text }}</p><a class="text-link" href="{{ source.url }}" target="_blank" rel="{{ source.rel or 'noopener' }}">{{ source.cta }}</a></article>
       {% endfor %}
     </div>
   </section>

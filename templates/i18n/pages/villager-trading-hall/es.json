@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Tradeos de aldeanos en Minecraft: guía para construir la sala",
+    "description": "Construye una sala de tradeos de aldeanos en Minecraft, asigna puestos de trabajo uno a uno y resuelve los problemas de reposición en Java y Bedrock.",
+    "image": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guía de construcción de Minecraft",
+    "title": "Tradeos de aldeanos en Minecraft: construye una sala en 5 pasos",
+    "lede": "Empieza con un puesto seguro, comprueba que un aldeano vincula un único bloque de profesión y completa un intercambio antes de repetir el diseño. Así detectarás problemas de acceso o de vínculo cuando la sala todavía es pequeña.",
+    "support": "La guía explica el diseño compacto, los bloques de profesión, la reposición y las diferencias entre Java y Bedrock que pueden afectar a los tradeos de aldeanos.",
+    "actions": [
+      {
+        "label": "Comparar Java y Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Consultar versiones",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "alt": "Diagrama editorial de una sala de Minecraft con puestos separados para aldeanos y un pasillo central; es un diseño ilustrativo, no una captura del juego.",
+      "caption": "Una fila repetible permite revisar cada aldeano y su bloque de trabajo. Es un diagrama editorial, no una imagen del juego.",
+      "width": 1024,
+      "height": 936
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "Prueba un aldeano antes de construir toda la sala",
+    "paragraphs": [
+      "Una sala de tradeos de aldeanos fiable es un lugar seguro y ordenado donde cada aldeano puede reclamar y usar un bloque de profesión. Construye primero un solo puesto. Lleva allí a un aldeano adulto, coloca el bloque de trabajo correcto, comprueba la profesión, completa un intercambio que quieras conservar y confirma que puede volver a trabajar. Después repite el módulo para añadir profesiones.",
+      "El acceso y la vinculación con los puntos de interés pueden variar entre Java y Bedrock y cambiar con las actualizaciones. Trata el diagrama y las medidas como ideas de planificación, no como un plano universal. Durante las pruebas deja a la vista el bloque y el aldeano; si algo funciona distinto en tu mundo, comprueba las notas de la edición y versión que juegas."
+    ],
+    "cards": [
+      {
+        "title": "Un aldeano y un puesto",
+        "text": "Añade los bloques de trabajo de uno en uno para ver qué aldeano reclama cada uno."
+      },
+      {
+        "title": "Comprueba antes de fijar",
+        "text": "Un intercambio completado ayuda a conservar la profesión y las ofertas antes de mover otros bloques."
+      },
+      {
+        "title": "Amplía tras probar",
+        "text": "Comprueba el acceso y la reposición en tu edición antes de copiar el puesto en una fila larga."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Orden de construcción",
+    "title": "Cómo hacer una sala de tradeos de aldeanos",
+    "description": "Construye primero la sección más pequeña que puedas probar. Así será más fácil diagnosticar el transporte, la profesión y los intercambios.",
+    "items": [
+      {
+        "title": "Elige un lugar seguro y accesible",
+        "text": "Busca una zona llana cerca de tu base, con espacio para crecer y un camino para transportar aldeanos en barca o vagoneta. Ilumina el recorrido, cierra las salidas por las que podrían escapar y mantén alejados a los enemigos. Deja un pasillo de servicio para inspeccionar los puestos y los bloques sin desmontar paredes."
+      },
+      {
+        "title": "Diseña un puesto que puedas repetir",
+        "text": "Reserva una celda sencilla para proteger al aldeano, mostrar su bloque de profesión y permitirte interactuar con él. Coloca un pasillo delante. No existe una cantidad de bloques obligatoria para todos los mundos: prioriza que puedas ver y alcanzar al aldeano, y adapta el espacio a la edición y al método de transporte."
+      },
+      {
+        "title": "Lleva un aldeano adulto",
+        "text": "Traslada un aldeano cada vez mediante una barca, vagoneta o ruta segura. Separa el primer puesto de otros bloques de profesión. Un adulto sin oficio puede tomar una profesión si encuentra el bloque adecuado; un simplón no puede trabajar. Comprueba que el aldeano está en la celda antes de poner más bloques."
+      },
+      {
+        "title": "Coloca el bloque correcto y verifica",
+        "text": "Pon solo el bloque correspondiente a la profesión que buscas. Observa si cambia el oficio y, cuando el juego lo indique, revisa las partículas o la señal de vinculación. Si otro aldeano lo reclama, quita los bloques cercanos que compiten y vuelve a probar antes de comerciar. La tabla siguiente relaciona cada profesión con su bloque."
+      },
+      {
+        "title": "Completa un intercambio que quieras conservar",
+        "text": "Revisa la oferta antes de confirmar. Si te sirve, completa un intercambio para fijar la profesión y las ofertas. Si no te convence y todavía no has comerciado, retira el bloque y espera a que el aldeano se desvincule antes de volver a probar. Después de comerciar, no des por hecho que mover el bloque volverá a generar sus ofertas."
+      },
+      {
+        "title": "Comprueba el acceso y luego repite",
+        "text": "Deja que el aldeano llegue a su puesto durante el horario de trabajo y verifica que repone sus intercambios después de agotar las ofertas. Si no puede hacerlo, resuelve el acceso o la vinculación en esa única celda. Cuando funcione durante un ciclo normal en tu edición, copia el diseño y asigna cada nuevo aldeano por separado."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Ediciones y actualizaciones",
+    "title": "Separa el diseño de la sala de las listas de ofertas",
+    "paragraphs": [
+      "Las notas oficiales de Minecraft Java Edition 26.3, publicadas el 15 de septiembre de 2026, mencionan nuevas ofertas de aldeanos que se desbloquean al subir de nivel. Por eso conviene revisar las ofertas dentro del juego en lugar de copiar una tabla de precios antigua. Esta guía trata del diseño y del uso de los puestos; no promete precios fijos ni enumera todos los intercambios.",
+      "Los aldeanos usan bloques de profesión para escoger un oficio y trabajar. Las referencias de la Wiki de Minecraft sobre aldeanos, comercio y bloques de trabajo explican la mecánica con más detalle. La Wiki está mantenida por la comunidad: compara sus indicaciones con la versión que juegas si una actualización reciente puede haber cambiado el comportamiento.",
+      "Java y Bedrock pueden vincular a los aldeanos con los puestos cercanos de formas distintas. En Bedrock, los aldeanos próximos y los puntos de interés de la aldea pueden hacer que un bloque aparentemente libre pertenezca a otra persona. Aísla un aldeano, observa qué puesto reclama y evita mover muchos bloques a la vez. Una prueba pequeña es más fiable que asumir que un diseño de otra edición funcionará igual."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-workstation-linking.webp",
+      "alt": "Diagrama editorial con un aldeano, su bloque de trabajo, la verificación del oficio y un intercambio de prueba; no es una captura de Minecraft.",
+      "caption": "Vincula un aldeano con un bloque de trabajo, comprueba el resultado y conserva solo la oferta que te interesa. La secuencia es ilustrativa.",
+      "width": 1024,
+      "height": 427
+    }
+  },
+  "table": {
+    "eyebrow": "Referencia de oficios",
+    "title": "Relaciona cada profesión con su bloque de trabajo",
+    "description": "Usa esta lista para encontrar el bloque y pruébalo con un aldeano antes de duplicarlo. Si hay varios candidatos, otro aldeano cercano puede reclamarlo.",
+    "headers": [
+      "Profesión",
+      "Bloque de trabajo",
+      "Qué comprobar"
+    ],
+    "rows": [
+      [
+        "Armero",
+        "Alto horno",
+        "Retira otros altos hornos durante la primera prueba."
+      ],
+      [
+        "Carnicero",
+        "Ahumador",
+        "Comprueba qué aldeano cambia de profesión."
+      ],
+      [
+        "Cartógrafo",
+        "Mesa de cartografía",
+        "Deja una ruta despejada hasta el bloque."
+      ],
+      [
+        "Clérigo",
+        "Soporte para pociones",
+        "Sepáralo de otros puestos mientras pruebas."
+      ],
+      [
+        "Granjero",
+        "Compostador",
+        "Verifica el oficio antes del primer intercambio."
+      ],
+      [
+        "Pescador",
+        "Barril",
+        "No añadas varios barriles antes de confirmar el vínculo."
+      ],
+      [
+        "Flechero",
+        "Mesa de flechas",
+        "Comprueba que lo reclama el aldeano esperado."
+      ],
+      [
+        "Peletero",
+        "Caldero",
+        "Aísla al aldeano de otros candidatos."
+      ],
+      [
+        "Bibliotecario",
+        "Atril",
+        "Revisa la oferta antes de comerciar."
+      ],
+      [
+        "Albañil",
+        "Cortapiedras",
+        "Comprueba el acceso antes de alargar la fila."
+      ],
+      [
+        "Pastor",
+        "Telar",
+        "Coloca un telar cada vez si hay dudas de vínculo."
+      ],
+      [
+        "Herrero de herramientas",
+        "Mesa de herrería",
+        "Confirma que cambia el aldeano de esa celda."
+      ],
+      [
+        "Herrero de armas",
+        "Piedra de afilar",
+        "Quita otras piedras de afilar durante la prueba."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Solución de problemas",
+    "title": "Diagnostica un puesto antes de rehacer toda la sala",
+    "paragraphs": [
+      "Si un aldeano no toma el oficio esperado, comprueba que sea adulto y no un simplón, que no tenga ya una profesión y que ningún aldeano cercano pueda llegar antes al bloque. Retira los puestos que compiten, espera a que se actualice y vuelve a colocar uno solo. Un intercambio completado fija la profesión, así que romper el bloque no convierte automáticamente en novato a un aldeano con el que ya has comerciado.",
+      "Si deja de reponer intercambios, verifica que el aldeano correcto esté vinculado al puesto correcto y pueda usarlo. Busca paredes o bloques que impidan el acceso, comprueba que otro aldeano no lo haya reclamado y observa un periodo de trabajo dentro del juego. Las aldeas de Bedrock y los puestos de Java no se vinculan exactamente igual; prueba una celda con las reglas de tu edición.",
+      "Los precios pueden subir por la demanda o cambiar por mecánicas como los rumores y las curaciones. Un precio mayor no significa automáticamente que la sala esté rota. No apliques a todos los aldeanos un truco de descuento antiguo: comprueba la versión actual y modifica una sola cosa cada vez."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-hall-troubleshooting.webp",
+      "alt": "Diagrama editorial para revisar un aldeano sin oficio, los puestos que compiten, el acceso y la reposición; no muestra una interfaz del juego.",
+      "caption": "Comprueba el aldeano, el bloque de trabajo, el acceso físico y el ciclo de trabajo antes de ampliar la sala.",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Fallos habituales",
+    "title": "Evita estos errores al montar una sala de tradeos",
+    "description": "La mayoría de los problemas se resuelven antes de llenar la habitación de aldeanos y bloques.",
+    "cards": [
+      {
+        "title": "Poner todos los bloques a la vez",
+        "text": "Varios aldeanos pueden reclamar los puestos en un orden inesperado. Añade uno, confirma el vínculo y continúa."
+      },
+      {
+        "title": "Bloquear el acceso al puesto",
+        "text": "Un aldeano puede parecer asignado pero no llegar a usar el bloque. Deja visible el puesto mientras pruebas."
+      },
+      {
+        "title": "Comerciar sin revisar la oferta",
+        "text": "El intercambio fija la profesión y las ofertas. Compruébalas antes si quieres conservar la opción de reiniciar un aldeano sin comerciar."
+      },
+      {
+        "title": "Copiar el diseño entre ediciones",
+        "text": "Un diseño de Java puede comportarse de otra manera en Bedrock. Prueba una celda en tu mundo y versión."
+      },
+      {
+        "title": "Tratar cualquier precio mayor como un problema",
+        "text": "La demanda y otras mecánicas pueden cambiar los precios. Confirma que el aldeano repone antes de modificar la sala."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Guías relacionadas",
+    "title": "Planifica el resto de tu mundo de Minecraft",
+    "description": "Estas páginas cubren decisiones cercanas sin sustituir los pasos de la sala de tradeos.",
+    "links": [
+      {
+        "title": "Java frente a Bedrock",
+        "text": "Compara ediciones, dispositivos, multijugador y compatibilidad antes de elegir qué reglas seguir.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar ediciones"
+      },
+      {
+        "title": "Guía de semillas de Minecraft",
+        "text": "Elige y prueba un mundo con espacio cerca de una aldea antes de establecer tu base principal.",
+        "url": "/minecraft-seeds/",
+        "cta": "Ver cómo comprobar semillas"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referencias",
+    "title": "Fuentes y versión consultada",
+    "description": "Las notas oficiales aportan contexto de versión y las referencias comunitarias amplían las mecánicas de aldeanos.",
+    "links": [
+      {
+        "title": "Notas de versión: Minecraft Java 26.3",
+        "text": "Notas oficiales publicadas el 15 de septiembre de 2026; incluyen ofertas nuevas que se desbloquean al subir de nivel.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Leer las notas oficiales",
+        "rel": "noopener"
+      },
+      {
+        "title": "Aldeanos e intercambios",
+        "text": "Referencias de la comunidad sobre profesiones, comercio y bloques de trabajo. Comprueba la versión y el historial si la mecánica pudo cambiar.",
+        "url": "https://minecraft.wiki/w/Villager",
+        "cta": "Consultar la mecánica",
+        "rel": "nofollow noopener"
+      },
+      {
+        "title": "Tutorial de sala de tradeos",
+        "text": "Un ejemplo de construcción de la comunidad; verifica los vínculos en la edición y versión que juegas.",
+        "url": "https://minecraft.wiki/w/Tutorial:Villager_trading_hall",
+        "cta": "Leer el tutorial comunitario",
+        "rel": "nofollow noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas",
+    "title": "Preguntas frecuentes sobre la sala de aldeanos",
+    "items": [
+      {
+        "question": "¿Cómo hago una sala de tradeos de aldeanos en Minecraft?",
+        "answer": "Construye un puesto protegido, lleva un aldeano adulto, coloca el bloque correcto, comprueba su oficio y revisa una oferta. Comercia solo si quieres fijarla y confirma que puede acceder al puesto y reponer antes de repetir la celda."
+      },
+      {
+        "question": "¿Cuántos aldeanos necesito para una sala de tradeos?",
+        "answer": "No hay un mínimo obligatorio aparte de los aldeanos con los que quieras comerciar. Empieza con uno, prueba su bloque y su ciclo de reposición y añade solo las profesiones u ofertas que uses."
+      },
+      {
+        "question": "¿Cada aldeano necesita un bloque de trabajo?",
+        "answer": "Para tomar o ejercer una profesión necesita su bloque de trabajo. Es más sencillo diagnosticar la sala si cada aldeano tiene un puesto identificado y puede llegar hasta él."
+      },
+      {
+        "question": "¿Por qué mi aldeano no repone sus intercambios?",
+        "answer": "Comprueba si el aldeano correcto está vinculado al bloque, si puede usarlo y si ha tenido ocasión de trabajar. Prueba un puesto y aplica las reglas de tu edición, porque Java y Bedrock no vinculan igual."
+      },
+      {
+        "question": "¿Puedo cambiar las ofertas después de comerciar?",
+        "answer": "No cuentes con reiniciar a un aldeano después de completar un intercambio. El intercambio fija su profesión y sus ofertas. Revisa las ofertas antes del primer comercio si quieres mantener la opción de reiniciar un aldeano sin comerciar."
+      },
+      {
+        "question": "¿Un diseño de Java funciona igual en Bedrock?",
+        "answer": "No siempre. La vinculación con bloques de trabajo y los puntos de interés de la aldea cambian según la edición y pueden variar entre versiones. Prueba un puesto en tu mundo antes de construir toda la sala."
+      },
+      {
+        "question": "¿Por qué han subido los precios de los aldeanos?",
+        "answer": "La demanda y otras mecánicas pueden modificar los precios. Primero comprueba el vínculo y la reposición; después verifica cualquier descuento en las notas de la versión actual."
+      },
+      {
+        "question": "¿Se puede descargar aquí un esquema de la sala?",
+        "answer": "No. La página ofrece un diagrama editorial y comprobaciones de construcción, pero no un mundo, un esquema descargable ni una partida guardada. Usa el dibujo como referencia y confirma cada bloque en tu mundo."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Tradeos de aldeanos en Minecraft: guía para construir la sala",
+      "description": "Construye una sala de tradeos de aldeanos en Minecraft, asigna puestos de trabajo uno a uno y resuelve los problemas de reposición en Java y Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/es/villager-trading-hall/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo hago una sala de tradeos de aldeanos en Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Construye y verifica un puesto: lleva un aldeano adulto, coloca su bloque correcto, revisa una oferta, comercia solo si quieres fijarla y confirma el acceso y la reposición."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántos aldeanos necesito para una sala de tradeos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay un mínimo obligatorio. Empieza con un aldeano y amplía cuando su vínculo y su ciclo de reposición funcionen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué mi aldeano no repone sus intercambios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprueba el vínculo con el bloque de trabajo, el acceso físico y la oportunidad de trabajar. Java y Bedrock no usan exactamente las mismas reglas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Un diseño de Java funciona igual en Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No siempre. La vinculación con los puestos cambia según la edición, así que prueba una sola celda en la versión que juegas."
+          }
+        }
+      ]
+    }
+  }
+}

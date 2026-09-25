@@ -627,6 +627,27 @@ def localized_minecraft_seeds(lang):
     return render_core_page('minecraft-seeds', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/villager-trading-hall/', strict_slashes=False)
+def villager_trading_hall():
+    """
+    渲染 Minecraft 村民交易大厅建造指南。
+
+    :return: 村民交易大厅指南 HTML 响应内容。
+    """
+    return render_core_page('villager-trading-hall', template_name='article-guide.html')
+
+
+@app.route('/<lang>/villager-trading-hall/', strict_slashes=False)
+def localized_villager_trading_hall(lang):
+    """
+    渲染指定语言的 Minecraft 村民交易大厅建造指南。
+
+    :param lang: 语言代码。
+    :return: 指定语言的村民交易大厅指南 HTML 响应内容。
+    """
+    return render_core_page('villager-trading-hall', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/minecraft-bedrock-maps/', strict_slashes=False)
 def minecraft_bedrock_maps():
     """

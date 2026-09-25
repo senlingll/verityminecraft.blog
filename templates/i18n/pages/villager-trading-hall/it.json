@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Scambi villager Minecraft: guida per costruire una sala",
+    "description": "Costruisci una sala per gli scambi villager in Minecraft, assegna le postazioni una alla volta e verifica offerte e ripristino in Java e Bedrock.",
+    "image": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida alle costruzioni di Minecraft",
+    "title": "Scambi villager in Minecraft: costruisci una sala in 5 passaggi",
+    "lede": "Comincia con una sola postazione sicura. Verifica che un villager usi il blocco di lavoro giusto, completa uno scambio che vuoi mantenere e controlla il ripristino delle offerte prima di ripetere il modulo.",
+    "support": "La guida spiega un layout compatto, i blocchi di lavoro delle professioni, i controlli per il ripristino e le differenze tra Java e Bedrock che possono influire sugli scambi.",
+    "actions": [
+      {
+        "label": "Confronta Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Consulta le versioni",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "alt": "Schema editoriale di una sala di Minecraft con postazioni separate per i villager e un corridoio centrale; layout illustrativo, non è una schermata del gioco.",
+      "caption": "Una fila modulare aiuta a controllare ogni villager e il relativo blocco. È uno schema editoriale, non un'immagine di gioco.",
+      "width": 1024,
+      "height": 936
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Prova un villager prima di costruire tutta la sala",
+    "paragraphs": [
+      "Una sala per gli scambi villager affidabile è un luogo sicuro e ordinato in cui ogni villager può reclamare e usare il proprio blocco di lavoro. Costruisci prima una sola postazione. Porta un villager adulto, posa il blocco della professione corretta, verifica il cambio di professione, completa uno scambio che vuoi conservare e controlla che il villager possa lavorare di nuovo. Solo dopo ripeti il modulo per aggiungere altre professioni.",
+      "Accesso e collegamento ai punti di interesse possono comportarsi in modo diverso tra Java e Bedrock e cambiare con gli aggiornamenti. Usa il diagramma e le dimensioni come idee per la disposizione, non come progetto universale. Durante la prova tieni visibili il villager e il blocco. Se il comportamento nel tuo mondo è diverso, consulta le note della versione e dell'edizione a cui stai giocando."
+    ],
+    "cards": [
+      {
+        "title": "Un villager, un blocco",
+        "text": "Aggiungi i blocchi di lavoro uno alla volta per vedere chi li reclama."
+      },
+      {
+        "title": "Controlla prima di fissare",
+        "text": "Uno scambio completato aiuta a mantenere professione e offerte prima di spostare altri blocchi."
+      },
+      {
+        "title": "Espandi dopo una prova",
+        "text": "Verifica accesso e ripristino nella tua edizione prima di copiare la postazione in una fila lunga."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Ordine di costruzione",
+    "title": "Come costruire una sala per gli scambi villager",
+    "description": "Inizia dalla sezione più piccola che puoi testare. Trasporto, assegnazione della professione e scambi saranno più facili da controllare.",
+    "items": [
+      {
+        "title": "Scegli una zona sicura e accessibile",
+        "text": "Cerca un'area pianeggiante vicino alla base, con spazio per espanderti e un percorso per barche o carrelli da miniera. Illumina il passaggio, chiudi le uscite da cui i villager potrebbero scappare e tieni lontani i mob ostili. Lascia un corridoio di servizio per controllare persone e blocchi senza demolire le pareti."
+      },
+      {
+        "title": "Progetta una postazione ripetibile",
+        "text": "Prepara una cella semplice che protegga il villager, mostri il suo blocco di lavoro e ti permetta di interagire. Riserva un corridoio davanti alle celle. Non esiste una misura obbligatoria per ogni mondo: privilegia accesso e visibilità, poi adatta lo spazio alla tua edizione e al metodo di trasporto."
+      },
+      {
+        "title": "Porta un villager adulto alla volta",
+        "text": "Trasporta i villager uno per volta in barca, con un carrello da miniera o lungo un percorso sicuro. Tieni la prima prova lontana da altri blocchi di lavoro. Un adulto senza professione può ottenerne una se trova il blocco adatto; un villager tuttofare non può lavorare. Verifica che sia nella cella prima di posare altre postazioni."
+      },
+      {
+        "title": "Posa il blocco e controlla il collegamento",
+        "text": "Piazza solo il blocco della professione desiderata. Osserva il cambio e, quando il gioco lo mostra, controlla particelle o segnali del collegamento. Se il blocco viene reclamato da un altro villager, rimuovi le postazioni in competizione e riprova prima di commerciare. La tabella associa ogni professione al blocco corretto."
+      },
+      {
+        "title": "Completa solo uno scambio che vuoi mantenere",
+        "text": "Esamina le offerte prima di confermare. Se sono utili, completa uno scambio per bloccare professione e offerte. Se non lo sono e non hai ancora commerciato, rimuovi il blocco e aspetta che il villager si scolleghi prima di riprovare. Dopo uno scambio non dare per scontato che spostare il blocco rigeneri le offerte."
+      },
+      {
+        "title": "Verifica accesso e ripristino, poi copia",
+        "text": "Lascia che il villager raggiunga il blocco durante l'orario di lavoro e controlla che ripristini le offerte usate. Se non accade, risolvi accesso e collegamento nella singola cella. Quando una postazione funziona per un normale ciclo nella tua edizione, duplica il layout e assegna separatamente il villager successivo."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Edizioni e aggiornamenti",
+    "title": "Tieni separati il layout e l'elenco degli scambi",
+    "paragraphs": [
+      "Le note ufficiali di Minecraft Java Edition 26.3, pubblicate il 15 settembre 2026, citano nuovi scambi che si sbloccano quando un villager sale di livello. Controlla quindi le offerte nella versione che stai giocando, invece di copiare una vecchia tabella dei prezzi. Questa guida tratta disposizione e uso delle postazioni; non garantisce prezzi fissi e non elenca tutte le offerte.",
+      "I villager usano i blocchi di lavoro per ottenere una professione e svolgere il proprio lavoro. Le pagine di riferimento del Minecraft Wiki su villager, scambi e blocchi di lavoro spiegano meglio queste meccaniche. Il Wiki è gestito dalla comunità: confronta le indicazioni con la versione del gioco se un aggiornamento recente può aver cambiato il comportamento.",
+      "Java e Bedrock possono collegare i villager ai blocchi vicini in modo diverso. In Bedrock, villager nelle vicinanze e punti di interesse del villaggio possono far assegnare a un altro personaggio una postazione che sembra libera. Isola un villager, osserva quale blocco reclama ed evita di spostarne molti insieme. Una prova piccola è più affidabile che presumere che un layout di un'altra edizione funzioni senza modifiche."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-workstation-linking.webp",
+      "alt": "Schema editoriale con un villager, il blocco di lavoro corretto, la verifica della professione e uno scambio di prova; non è una schermata di Minecraft.",
+      "caption": "Collega un villager a un blocco, verifica il risultato e conserva solo l'offerta utile. Il flusso è illustrativo.",
+      "width": 1024,
+      "height": 427
+    }
+  },
+  "table": {
+    "eyebrow": "Riferimento ai blocchi",
+    "title": "Abbina ogni professione al blocco di lavoro",
+    "description": "Prova ogni abbinamento con un solo villager prima di duplicarlo. Se più villager sono vicini, un altro può reclamare il blocco.",
+    "headers": [
+      "Professione",
+      "Blocco di lavoro",
+      "Controllo prima di espandere"
+    ],
+    "rows": [
+      [
+        "Armaiolo",
+        "Altoforno",
+        "Allontana altri altoforni durante la prova."
+      ],
+      [
+        "Macellaio",
+        "Affumicatore",
+        "Controlla quale villager cambia professione."
+      ],
+      [
+        "Cartografo",
+        "Tavolo da cartografia",
+        "Lascia libero il percorso fino al blocco."
+      ],
+      [
+        "Chierico",
+        "Alambicco",
+        "Tienilo separato dalle altre postazioni mentre provi."
+      ],
+      [
+        "Contadino",
+        "Compostiera",
+        "Verifica la professione prima del primo scambio."
+      ],
+      [
+        "Pescatore",
+        "Barile",
+        "Non aggiungere più barili prima di verificare il collegamento."
+      ],
+      [
+        "Fabbricante di frecce",
+        "Banco da arciere",
+        "Conferma che lo reclama il villager previsto."
+      ],
+      [
+        "Conciatore",
+        "Calderone",
+        "Isola il villager dagli altri candidati."
+      ],
+      [
+        "Bibliotecario",
+        "Leggio",
+        "Controlla l'offerta prima di commerciare."
+      ],
+      [
+        "Scalpellino",
+        "Tagliapietre",
+        "Verifica accesso prima di allungare la fila."
+      ],
+      [
+        "Pastore",
+        "Telaio",
+        "Durante la diagnosi posane uno alla volta."
+      ],
+      [
+        "Fabbro degli attrezzi",
+        "Tavolo da forgiatura",
+        "Conferma il cambio nel posto giusto."
+      ],
+      [
+        "Fabbro d'armi",
+        "Mola",
+        "Rimuovi le altre mole durante la prima prova."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Risoluzione dei problemi",
+    "title": "Controlla una postazione prima di rifare la sala",
+    "paragraphs": [
+      "Se un villager non prende la professione giusta, controlla che sia adulto e non sia un idiota del villaggio, che non abbia già un mestiere e che un altro villager non possa raggiungere il blocco prima di lui. Rimuovi le postazioni concorrenti, aspetta e posane una sola. Uno scambio completato blocca il mestiere: rompere il blocco non rende automaticamente disoccupato un villager con cui hai già commerciato.",
+      "Se le offerte non si ripristinano, verifica che il villager corretto sia collegato al blocco giusto e possa raggiungerlo. Cerca pareti o blocchi che ne impediscono l'uso, controlla che la postazione non sia stata reclamata da un altro personaggio e osserva un periodo di lavoro nel gioco. I collegamenti dei villaggi Bedrock e i blocchi di lavoro Java non sono intercambiabili: prova una cella seguendo le regole della tua edizione.",
+      "La domanda e altre meccaniche possono aumentare i prezzi. Un prezzo più alto non significa automaticamente che la sala sia guasta. Non applicare un vecchio trucco per gli sconti a tutti i villager: verifica la versione corrente e modifica una condizione alla volta."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-hall-troubleshooting.webp",
+      "alt": "Diagramma editoriale che porta dal villager senza mestiere ai controlli su blocchi concorrenti, accesso e ripristino; non mostra l'interfaccia di gioco.",
+      "caption": "Controlla villager, collegamento al blocco, accesso fisico e ciclo di lavoro prima di ampliare la sala.",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Problemi frequenti",
+    "title": "Evita questi errori nella sala per gli scambi",
+    "description": "È più semplice trovare la causa dei problemi prima di riempire lo spazio di villager e blocchi di lavoro.",
+    "cards": [
+      {
+        "title": "Posare tutti i blocchi insieme",
+        "text": "I villager possono reclamarli in un ordine inatteso. Aggiungine uno, controlla il collegamento e continua."
+      },
+      {
+        "title": "Bloccare l'accesso al posto",
+        "text": "Un villager può sembrare assegnato ma non riuscire a usare il blocco. Durante la prova lascia visibile il percorso."
+      },
+      {
+        "title": "Commerciare senza controllare l'offerta",
+        "text": "Uno scambio completato blocca professione e offerte. Esamina il risultato prima, se vuoi poterlo cambiare."
+      },
+      {
+        "title": "Copiare lo stesso piano tra edizioni",
+        "text": "Un layout Java può reagire diversamente in Bedrock. Prova una cella nel mondo e nella versione che usi."
+      },
+      {
+        "title": "Considerare ogni aumento un errore",
+        "text": "La domanda può modificare le offerte. Controlla il ripristino prima di cambiare il layout."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Risorse correlate",
+    "title": "Pianifica anche il resto del tuo mondo Minecraft",
+    "description": "Queste pagine aiutano con decisioni vicine, ma non sostituiscono i passaggi della sala descritti sopra.",
+    "links": [
+      {
+        "title": "Java o Bedrock",
+        "text": "Confronta edizioni, dispositivi, multiplayer e compatibilità prima di scegliere quali regole seguire.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Confronta le edizioni"
+      },
+      {
+        "title": "Guida ai seed di Minecraft",
+        "text": "Scegli e prova un mondo con spazio vicino a un villaggio prima di fissare la base principale.",
+        "url": "/minecraft-seeds/",
+        "cta": "Vedi i controlli dei seed"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Fonti",
+    "title": "Fonti e contesto della versione",
+    "description": "Le note ufficiali danno il contesto della versione; le pagine della comunità approfondiscono le meccaniche.",
+    "links": [
+      {
+        "title": "Note dell'aggiornamento Minecraft Java 26.3",
+        "text": "Note ufficiali del 15 settembre 2026, con una menzione ai nuovi scambi sbloccati salendo di livello.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Leggi le note ufficiali",
+        "rel": "noopener"
+      },
+      {
+        "title": "Villager e scambi",
+        "text": "Riferimenti della comunità su professioni, scambi e blocchi di lavoro. Controlla cronologia e versione se la meccanica potrebbe essere cambiata.",
+        "url": "https://minecraft.wiki/w/Villager",
+        "cta": "Consulta le meccaniche",
+        "rel": "nofollow noopener"
+      },
+      {
+        "title": "Tutorial per una sala villager",
+        "text": "Un esempio di costruzione della comunità; prova il collegamento ai blocchi nella tua edizione e versione.",
+        "url": "https://minecraft.wiki/w/Tutorial:Villager_trading_hall",
+        "cta": "Leggi il tutorial della comunità",
+        "rel": "nofollow noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande",
+    "title": "FAQ sugli scambi villager",
+    "items": [
+      {
+        "question": "Come si costruisce una sala per gli scambi villager in Minecraft?",
+        "answer": "Crea una postazione protetta, porta un villager adulto e posa il blocco corretto. Controlla professione e offerte, completa uno scambio solo se vuoi bloccarlo e verifica accesso e ripristino prima di copiare il modulo."
+      },
+      {
+        "question": "Quanti villager servono in una sala per gli scambi?",
+        "answer": "Non c'è un numero minimo fisso. Inizia con un villager, controlla collegamento e ripristino e aggiungi solo le professioni che usi."
+      },
+      {
+        "question": "Ogni villager ha bisogno di un blocco di lavoro?",
+        "answer": "Per ottenere e svolgere una professione gli serve il relativo blocco. Postazioni identificabili e raggiungibili rendono più semplice trovare i problemi."
+      },
+      {
+        "question": "Perché un villager non ripristina le offerte?",
+        "answer": "Controlla che il villager corretto sia collegato al blocco giusto, possa usarlo e abbia avuto tempo per lavorare. Java e Bedrock hanno regole di collegamento differenti."
+      },
+      {
+        "question": "Posso cambiare gli scambi dopo aver commerciato?",
+        "answer": "Non contare su nuove offerte dopo uno scambio completato: lo scambio blocca professione e offerte. Controlla tutto prima se vuoi riassegnare un villager che non ha ancora commerciato."
+      },
+      {
+        "question": "Un layout Java funziona uguale in Bedrock?",
+        "answer": "Non sempre. Il collegamento a blocchi e punti di interesse varia tra edizioni e può cambiare con gli aggiornamenti. Prova una cella nella versione che giochi."
+      },
+      {
+        "question": "Perché i prezzi degli scambi sono aumentati?",
+        "answer": "La domanda e altre meccaniche possono modificare le offerte. Controlla prima collegamento e ripristino, poi verifica i metodi di sconto nelle note correnti."
+      },
+      {
+        "question": "Posso scaricare qui uno schema della sala?",
+        "answer": "No. La pagina mostra un diagramma editoriale e i controlli di costruzione, ma non distribuisce mondi, file schematici o salvataggi. Usa l'immagine per pianificare e verifica ogni blocco nel tuo mondo."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Scambi villager Minecraft: guida per costruire una sala",
+      "description": "Costruisci una sala per gli scambi villager in Minecraft, assegna le postazioni una alla volta e verifica offerte e ripristino in Java e Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/it/villager-trading-hall/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Come si costruisce una sala per gli scambi villager in Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crea una postazione protetta, porta un villager adulto, posa il blocco corretto e controlla professione e offerta. Completa solo uno scambio da mantenere, quindi verifica accesso e ripristino prima di copiare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanti villager servono in una sala per gli scambi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non c'è un numero minimo fisso. Inizia da uno e amplia dopo aver verificato collegamento e ripristino."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Perché un villager non ripristina le offerte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verifica il collegamento al blocco, l'accesso e il tempo di lavoro. Java e Bedrock non usano regole identiche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un layout Java funziona uguale in Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non sempre. Prova un modulo nell'edizione e nella versione che giochi prima di espandere."
+          }
+        }
+      ]
+    }
+  }
+}

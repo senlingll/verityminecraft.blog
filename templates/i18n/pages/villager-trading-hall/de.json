@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Minecraft Dorfbewohner-Handelshalle: Bauanleitung",
+    "description": "Baue eine Minecraft-Handelshalle für Dorfbewohner, ordne Arbeitsblöcke einzeln zu und prüfe Angebote und Nachschub in Java und Bedrock.",
+    "image": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Minecraft-Bauanleitung",
+    "title": "Minecraft Dorfbewohner: Handelshalle in 5 Schritten bauen",
+    "lede": "Beginne mit einem sicheren Testplatz. Prüfe, ob ein Dorfbewohner genau den vorgesehenen Arbeitsblock beansprucht, führe einen gewünschten Handel aus und kontrolliere den Nachschub, bevor du das Modul wiederholst.",
+    "support": "Diese Anleitung behandelt einen kompakten Grundriss, die Zuordnung der Arbeitsblöcke, die Vorratsauffüllung und wichtige Unterschiede zwischen Java und Bedrock.",
+    "actions": [
+      {
+        "label": "Java und Bedrock vergleichen",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Versionshinweise ansehen",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "alt": "Redaktionelle Blockgrafik einer Minecraft-Handelshalle mit einzelnen Dorfbewohnerplätzen und einem Mittelgang; kein Screenshot aus dem Spiel.",
+      "caption": "Eine wiederholbare Reihe hält Dorfbewohner und Arbeitsblöcke übersichtlich. Die Grafik ist eine Planungsskizze, kein Spielbild.",
+      "width": 1024,
+      "height": 936
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Teste einen Dorfbewohner, bevor du die ganze Halle baust",
+    "paragraphs": [
+      "Eine zuverlässige Handelshalle für Dorfbewohner ist ein sicherer, übersichtlicher Ort, an dem jeder Dorfbewohner seinen Arbeitsblock beanspruchen und benutzen kann. Baue zuerst nur einen Platz. Bringe einen erwachsenen Dorfbewohner hinein, setze den passenden Arbeitsblock, prüfe den Beruf, schließe einen Handel ab, den du behalten möchtest, und kontrolliere, ob der Dorfbewohner wieder arbeitet. Erst danach lohnt es sich, das Modul für weitere Berufe zu kopieren.",
+      "Zugangswege und die Verknüpfung mit Arbeitsplätzen können sich zwischen Java und Bedrock unterscheiden und sich mit Updates ändern. Grundriss und Maße sind Planungshilfen, keine universelle Vorlage. Halte Dorfbewohner und Arbeitsblock beim Test sichtbar. Wenn sich etwas in deiner Welt anders verhält, prüfe die Hinweise für die tatsächlich gespielte Edition und Version."
+    ],
+    "cards": [
+      {
+        "title": "Ein Dorfbewohner, ein Block",
+        "text": "Setze Arbeitsblöcke einzeln, damit du siehst, welcher Dorfbewohner sie beansprucht."
+      },
+      {
+        "title": "Vor dem Handel prüfen",
+        "text": "Ein abgeschlossener Handel hilft dabei, Beruf und Angebot vor späteren Änderungen zu sichern."
+      },
+      {
+        "title": "Nach einem Arbeitstag erweitern",
+        "text": "Prüfe Zugang und Nachschub in deiner Edition, bevor du eine lange Reihe baust."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Bauablauf",
+    "title": "So baust du eine Handelshalle für Dorfbewohner",
+    "description": "Mit einem kleinen Testabschnitt lassen sich Transport, Berufswahl und Handelsbindung leichter prüfen.",
+    "items": [
+      {
+        "title": "Einen sicheren und erreichbaren Standort wählen",
+        "text": "Suche eine ebene Fläche nahe deiner Basis, mit Platz zum Erweitern und einer Route für Boote oder Loren. Beleuchte den Zugang, verschließe mögliche Ausgänge und halte feindliche Kreaturen fern. Ein Servicegang erleichtert die Kontrolle, ohne dass du Wände abbauen musst."
+      },
+      {
+        "title": "Ein wiederholbares Modul planen",
+        "text": "Plane eine Zelle, die den Dorfbewohner schützt, den Arbeitsblock sichtbar hält und dir Interaktion ermöglicht. Vor den Zellen sollte ein Laufweg liegen. Es gibt keine feste Blockzahl für jede Welt. Sichtbarkeit und Zugang sind wichtiger; passe den Platz an Edition und Transportweg an."
+      },
+      {
+        "title": "Einen erwachsenen Dorfbewohner holen",
+        "text": "Transportiere Dorfbewohner einzeln per Boot, Lore oder sicherem Weg. Halte den ersten Testplatz von anderen Arbeitsblöcken getrennt. Ein arbeitsloser Erwachsener kann einen Beruf annehmen, wenn ein passender Block verfügbar ist; ein Nichtsnutz arbeitet nicht. Prüfe die Position, bevor du weitere Blöcke setzt."
+      },
+      {
+        "title": "Den Arbeitsblock einzeln setzen",
+        "text": "Setze nur den Block, der zum gewünschten Beruf gehört. Beobachte den Berufswechsel und, falls angezeigt, Partikel oder andere Hinweise auf die Verknüpfung. Beansprucht ein anderer Dorfbewohner den Block, entferne konkurrierende Arbeitsplätze in der Nähe und versuche es erneut, bevor du handelst. Die Tabelle ordnet Berufe und Blöcke zu."
+      },
+      {
+        "title": "Nur ein gewünschtes Angebot festlegen",
+        "text": "Prüfe das Angebot vor dem Tausch. Wenn es passt, schließe einen Handel ab, um Beruf und Angebot zu sichern. Passt es nicht und wurde noch nicht gehandelt, entferne den Block und warte, bis die Verknüpfung gelöst ist. Nach einem abgeschlossenen Handel solltest du nicht erwarten, dass ein verschobener Block das Angebot neu würfelt."
+      },
+      {
+        "title": "Zugang und Nachschub testen, dann kopieren",
+        "text": "Lass den Dorfbewohner während der Arbeitszeit den Block erreichen und prüfe, ob er erschöpfte Angebote wieder auffüllt. Falls nicht, untersuche Zugang und Verknüpfung in dieser einzelnen Zelle. Läuft sie während eines normalen Arbeitstages in deiner Edition, kopiere den Grundriss und weise jeden weiteren Dorfbewohner einzeln zu."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Edition und Updates",
+    "title": "Grundriss und vollständige Handelslisten getrennt betrachten",
+    "paragraphs": [
+      "Die offiziellen Hinweise zu Minecraft Java Edition 26.3 vom 15.09.2026 erwähnen neue Dorfbewohnerangebote, die beim Aufsteigen freigeschaltet werden. Prüfe Angebote daher im aktuellen Spiel, statt eine alte Preistabelle zu übernehmen. Diese Anleitung konzentriert sich auf den Aufbau und die Nutzung der Arbeitsplätze; sie verspricht weder feste Preise noch eine vollständige Liste aller Angebote.",
+      "Dorfbewohner verwenden Arbeitsblöcke, um einen Beruf anzunehmen und zu arbeiten. Die gemeinschaftlich gepflegten Minecraft-Wiki-Referenzen zu Dorfbewohnern, Handel und Arbeitsplätzen erklären diese Mechaniken ausführlicher. Vergleiche sie mit deiner Spielversion, wenn ein aktuelles Update das Verhalten verändert haben könnte.",
+      "Java und Bedrock verknüpfen Dorfbewohner nicht immer gleich mit Arbeitsblöcken in der Nähe. In Bedrock können benachbarte Dorfbewohner und Dorf-Punkte von Interesse dazu führen, dass eine scheinbar freie Station jemand anderem gehört. Isoliere einen Dorfbewohner, beobachte den beanspruchten Block und verschiebe nicht mehrere Arbeitsplätze gleichzeitig. Ein kleiner Test ist verlässlicher, als einen Grundriss aus einer anderen Edition unverändert zu übernehmen."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-workstation-linking.webp",
+      "alt": "Redaktionelles Ablaufdiagramm mit einem Dorfbewohner, dem passenden Arbeitsblock, Berufsprüfung und einem Testhandel; kein Minecraft-Screenshot.",
+      "caption": "Einen Dorfbewohner einem Arbeitsblock zuordnen, das Ergebnis prüfen und erst dann ein passendes Angebot sichern.",
+      "width": 1024,
+      "height": 427
+    }
+  },
+  "table": {
+    "eyebrow": "Arbeitsblock-Übersicht",
+    "title": "Beruf und passenden Arbeitsblock zuordnen",
+    "description": "Teste jede Zuordnung mit einem Dorfbewohner, bevor du den Block vervielfachst. Befinden sich mehrere geeignete Dorfbewohner in Reichweite, kann ein anderer den Block beanspruchen.",
+    "headers": [
+      "Beruf",
+      "Arbeitsblock",
+      "Vor dem Ausbau prüfen"
+    ],
+    "rows": [
+      [
+        "Rüstungsschmied",
+        "Hochofen",
+        "Andere Hochöfen aus dem Testbereich entfernen."
+      ],
+      [
+        "Metzger",
+        "Räucherofen",
+        "Prüfen, welcher Dorfbewohner den Beruf wechselt."
+      ],
+      [
+        "Kartograf",
+        "Kartentisch",
+        "Den Weg zum Arbeitsblock freihalten."
+      ],
+      [
+        "Kleriker",
+        "Braustand",
+        "Beim Test von anderen Arbeitsplätzen trennen."
+      ],
+      [
+        "Bauer",
+        "Komposter",
+        "Den Beruf vor dem ersten Handel prüfen."
+      ],
+      [
+        "Fischer",
+        "Fass",
+        "Vor der ersten Zuordnung nicht mehrere Fässer setzen."
+      ],
+      [
+        "Pfeilmacher",
+        "Bogentisch",
+        "Prüfen, ob der Bewohner des Zielplatzes ihn beansprucht."
+      ],
+      [
+        "Gerber",
+        "Kessel",
+        "Den Testbewohner von anderen Kandidaten trennen."
+      ],
+      [
+        "Bibliothekar",
+        "Lesepult",
+        "Das Angebot vor dem Handel ansehen."
+      ],
+      [
+        "Steinmetz",
+        "Steinsäge",
+        "Den Zugang vor einer langen Reihe prüfen."
+      ],
+      [
+        "Schäfer",
+        "Webstuhl",
+        "Beim Prüfen immer nur einen Webstuhl setzen."
+      ],
+      [
+        "Werkzeugschmied",
+        "Schmiedetisch",
+        "Den Berufswechsel im vorgesehenen Platz prüfen."
+      ],
+      [
+        "Waffenschmied",
+        "Schleifstein",
+        "Andere Schleifsteine während des Tests entfernen."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Fehlerbehebung",
+    "title": "Einen Platz prüfen, bevor du die Halle neu baust",
+    "paragraphs": [
+      "Nimmt ein Dorfbewohner nicht den gewünschten Beruf an, prüfe, ob er erwachsen und kein Nichtsnutz ist, bereits einen Beruf hat oder ein anderer Dorfbewohner den Block früher erreichen kann. Entferne konkurrierende Arbeitsplätze, warte kurz und setze dann nur einen passenden Block. Ein abgeschlossener Handel bindet den Beruf; das Abbauen des Blocks macht einen bereits gehandelten Dorfbewohner nicht automatisch wieder arbeitslos.",
+      "Füllt ein Dorfbewohner Angebote nicht auf, kontrolliere die Zuordnung zum richtigen Arbeitsblock und ob er diesen tatsächlich benutzen kann. Suche nach Wänden oder Blöcken, die den Zugriff verhindern, prüfe, ob jemand anderes den Platz beansprucht hat, und beobachte eine Arbeitsphase. Bedrock-Dorfverknüpfung und Java-Arbeitsplätze sind nicht austauschbar. Teste daher eine Zelle nach den Regeln deiner Edition.",
+      "Nachfrage und andere Spielmechaniken können Preise erhöhen. Ein höherer Preis allein bedeutet nicht, dass die Halle kaputt ist. Übernimm keine alte Rabattmethode für alle Dorfbewohner. Prüfe zuerst Version und Angebot und ändere jeweils nur eine Bedingung."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-hall-troubleshooting.webp",
+      "alt": "Redaktioneller Fehlerpfad vom Dorfbewohner ohne Beruf über konkurrierende Arbeitsblöcke und Zugang bis zum Nachschub; keine Spieloberfläche.",
+      "caption": "Dorfbewohner, Arbeitsblock, Zugang und Arbeitszyklus der Reihe nach prüfen, bevor du die Halle erweiterst.",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Häufige Fehler",
+    "title": "Diese Probleme beim Hallenbau vermeiden",
+    "description": "Viele Fehler lassen sich leichter finden, solange noch nicht zahlreiche Dorfbewohner und Arbeitsblöcke im selben Raum stehen.",
+    "cards": [
+      {
+        "title": "Alle Arbeitsblöcke gleichzeitig setzen",
+        "text": "Dorfbewohner können sie in unerwarteter Reihenfolge beanspruchen. Setze einen Block und prüfe die Verknüpfung."
+      },
+      {
+        "title": "Den Zugriff auf den Arbeitsblock blockieren",
+        "text": "Ein Beruf kann angezeigt werden, obwohl der Bewohner den Block nicht nutzen kann. Halte den Zugang beim Test sichtbar."
+      },
+      {
+        "title": "Handeln, bevor du das Angebot prüfst",
+        "text": "Ein abgeschlossener Handel bindet Beruf und Angebot. Prüfe alles vorher, wenn du noch ändern möchtest."
+      },
+      {
+        "title": "Einen Grundriss zwischen Editionen kopieren",
+        "text": "Ein Java-Aufbau kann sich in Bedrock anders verhalten. Teste ein Modul in deiner Welt und Version."
+      },
+      {
+        "title": "Jede Preiserhöhung für einen Fehler halten",
+        "text": "Nachfrage kann Angebote ändern. Prüfe den Nachschub, bevor du den Grundriss veränderst."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Verwandte Anleitungen",
+    "title": "Die restliche Minecraft-Welt planen",
+    "description": "Diese Seiten behandeln angrenzende Entscheidungen, ersetzen aber nicht die Bauschritte oben.",
+    "links": [
+      {
+        "title": "Java oder Bedrock",
+        "text": "Vergleiche Editionen, Geräte, Multiplayer und Kompatibilität, bevor du dich für bestimmte Regeln entscheidest.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Editionen vergleichen"
+      },
+      {
+        "title": "Minecraft-Seed-Anleitung",
+        "text": "Wähle und teste eine Welt mit Platz nahe einem Dorf, bevor du deine Hauptbasis festlegst.",
+        "url": "/minecraft-seeds/",
+        "cta": "Seed-Prüfung ansehen"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Quellen",
+    "title": "Quellen und Versionskontext",
+    "description": "Offizielle Hinweise liefern den Versionskontext; Community-Referenzen erläutern die Mechaniken.",
+    "links": [
+      {
+        "title": "Minecraft Java 26.3: Versionshinweise",
+        "text": "Offizielle Hinweise vom 15.09.2026 mit einem Hinweis auf neue Angebote beim Aufsteigen.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Offizielle Hinweise lesen",
+        "rel": "noopener"
+      },
+      {
+        "title": "Dorfbewohner und Handel",
+        "text": "Community-Referenzen zu Berufen, Handel und Arbeitsblöcken. Prüfe Versionsstand und Änderungsgeschichte bei möglichen Änderungen.",
+        "url": "https://minecraft.wiki/w/Villager",
+        "cta": "Mechaniken nachlesen",
+        "rel": "nofollow noopener"
+      },
+      {
+        "title": "Tutorial für eine Handelshalle",
+        "text": "Ein Bau-Beispiel aus der Community; teste die Blockverknüpfung in deiner Edition und Spielversion.",
+        "url": "https://minecraft.wiki/w/Tutorial:Villager_trading_hall",
+        "cta": "Community-Tutorial lesen",
+        "rel": "nofollow noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen",
+    "title": "Fragen zur Handelshalle für Dorfbewohner",
+    "items": [
+      {
+        "question": "Wie baue ich eine Handelshalle für Dorfbewohner in Minecraft?",
+        "answer": "Baue einen geschützten Platz, bringe einen erwachsenen Dorfbewohner hinein und setze den passenden Arbeitsblock. Prüfe Beruf und Angebot, handle nur zum Sichern und teste Zugriff und Nachschub, bevor du den Platz kopierst."
+      },
+      {
+        "question": "Wie viele Dorfbewohner brauche ich für eine Handelshalle?",
+        "answer": "Eine feste Mindestzahl gibt es nicht. Beginne mit einem Dorfbewohner und erweitere, wenn Arbeitsblock und Nachschub funktionieren. Nimm nur Berufe und Angebote auf, die du brauchst."
+      },
+      {
+        "question": "Braucht jeder Dorfbewohner einen Arbeitsblock?",
+        "answer": "Für einen Beruf benötigt der Dorfbewohner den passenden Arbeitsblock. Die Halle lässt sich leichter prüfen, wenn jeder Händler einen erkennbaren und erreichbaren Platz hat."
+      },
+      {
+        "question": "Warum füllt ein Dorfbewohner seine Angebote nicht auf?",
+        "answer": "Prüfe die Zuordnung zum richtigen Arbeitsblock, den physischen Zugang und die Möglichkeit zu arbeiten. Java und Bedrock verknüpfen Arbeitsplätze unterschiedlich."
+      },
+      {
+        "question": "Kann ich Angebote nach einem Handel neu würfeln?",
+        "answer": "Verlasse dich nach einem abgeschlossenen Handel nicht auf neue Angebote. Der Handel bindet Beruf und Angebote. Prüfe alles vorher, wenn du einen noch nicht gehandelten Dorfbewohner neu zuweisen willst."
+      },
+      {
+        "question": "Funktioniert eine Java-Handelshalle gleich in Bedrock?",
+        "answer": "Nicht immer. Arbeitsblock- und Dorfverknüpfung unterscheiden sich nach Edition und können sich mit Updates ändern. Teste einen einzelnen Platz in deiner Spielversion."
+      },
+      {
+        "question": "Warum sind die Handelspreise gestiegen?",
+        "answer": "Nachfrage und andere Mechaniken können Angebote verändern. Prüfe zuerst die Verknüpfung und den Nachschub; kontrolliere Rabattmethoden anhand aktueller Versionshinweise."
+      },
+      {
+        "question": "Kann ich hier einen Hallenplan herunterladen?",
+        "answer": "Nein. Die Seite enthält eine redaktionelle Skizze und Prüfschritte, aber keine Welt, kein Schematic und keinen Spielstand. Nutze die Skizze zur Planung und prüfe jeden Block in deiner Welt."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Dorfbewohner-Handelshalle: Bauanleitung",
+      "description": "Baue eine Minecraft-Handelshalle für Dorfbewohner, ordne Arbeitsblöcke einzeln zu und prüfe Angebote und Nachschub in Java und Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/de/villager-trading-hall/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie baue ich eine Handelshalle für Dorfbewohner in Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Baue einen geschützten Platz, bringe einen Erwachsenen hinein, setze den passenden Arbeitsblock und prüfe Beruf und Angebot. Teste Zugriff und Nachschub, bevor du den Platz kopierst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viele Dorfbewohner brauche ich für eine Handelshalle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es gibt keine feste Mindestzahl. Beginne mit einem Dorfbewohner und erweitere erst nach einem erfolgreichen Arbeits- und Nachschubtest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum füllt ein Dorfbewohner seine Angebote nicht auf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prüfe Arbeitsblock, Zugriff und Arbeitszeit. Die Verknüpfung funktioniert in Java und Bedrock nicht identisch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert eine Java-Handelshalle gleich in Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nicht zwingend. Teste einen Platz in der Edition und Version, die du spielst."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -79,7 +79,8 @@
     "disclaimer": "Verity Minecraft の独立したダウンロード案内です。",
     "bedrock_addons": "Bedrockアドオン",
     "java_vs_bedrock": "Java版とBedrock版の違い",
-    "bedrock_shaders": "統合版シェーダー"
+    "bedrock_shaders": "統合版シェーダー",
+    "villager_trading_hall": "村人交易所ガイド"
   },
   "error_404": {
     "code": "404",

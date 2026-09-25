@@ -9,6 +9,15 @@ Core pages include Bedrock .mcaddon guidance, Verity JE Java mod guidance, PE an
 Verity Minecraft is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners.
 
 Contact: support@verityminecraft.blog
+
+Villager trading-hall construction guide, English: https://verityminecraft.blog/villager-trading-hall/
+Spanish: https://verityminecraft.blog/es/villager-trading-hall/
+Japanese: https://verityminecraft.blog/ja/villager-trading-hall/
+French: https://verityminecraft.blog/fr/villager-trading-hall/
+German: https://verityminecraft.blog/de/villager-trading-hall/
+Portuguese: https://verityminecraft.blog/pt/villager-trading-hall/
+Korean: https://verityminecraft.blog/ko/villager-trading-hall/
+Italian: https://verityminecraft.blog/it/villager-trading-hall/
 - Minecraft seeds guide: https://verityminecraft.blog/minecraft-seeds/ explains world-seed selection, Java and Bedrock boundaries, version checks, survival and island goals, seed-map limitations, copied-world testing, and FAQ distinctions between world seeds and crop seeds.
 - Minecraft Bedrock maps guide: https://verityminecraft.blog/minecraft-bedrock-maps/ explains how to choose a source, distinguish .mcworld from .mcpack/.mcaddon and Java archives, import a Bedrock world, test a copy, and troubleshoot missing or incompatible maps.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/

@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Trocas de aldeões no Minecraft: guia para montar uma sala",
+    "description": "Monte uma sala de trocas de aldeões no Minecraft, vincule bancadas uma a uma e confira ofertas e reposição no Java e no Bedrock.",
+    "image": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia de construção do Minecraft",
+    "title": "Trocas de aldeões no Minecraft: monte uma sala em 5 etapas",
+    "lede": "Comece com um único espaço seguro. Confirme se um aldeão usa a bancada correta, faça uma troca que queira manter e verifique a reposição antes de repetir o módulo.",
+    "support": "O guia apresenta um layout compacto, as bancadas de cada profissão, testes de reposição e diferenças entre Java e Bedrock que afetam as trocas de aldeões.",
+    "actions": [
+      {
+        "label": "Comparar Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Ver notas de versão",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "alt": "Diagrama editorial de uma sala no Minecraft com espaços separados para aldeões e um corredor central; layout ilustrativo, não é uma captura do jogo.",
+      "caption": "Uma fileira modular facilita conferir cada aldeão e sua bancada. A imagem é um diagrama editorial, não uma cena do jogo.",
+      "width": 1024,
+      "height": 936
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "Teste um aldeão antes de construir a sala inteira",
+    "paragraphs": [
+      "Uma sala de trocas de aldeões confiável é um local protegido e organizado onde cada aldeão pode reivindicar e usar uma bancada de profissão. Construa primeiro um espaço. Leve um aldeão adulto, coloque o bloco de trabalho correspondente, confirme a profissão, conclua uma troca que queira manter e verifique se ele consegue trabalhar novamente. Só então repita o módulo para outras profissões.",
+      "O acesso e a vinculação a pontos de interesse podem variar entre Java e Bedrock e mudar com as atualizações. Trate o diagrama e as medidas como ideias de planejamento, não como uma planta universal. Deixe o aldeão e a bancada visíveis durante o teste. Se algo funcionar de outro jeito no seu mundo, confira as notas da edição e da versão que você está jogando."
+    ],
+    "cards": [
+      {
+        "title": "Um aldeão, uma bancada",
+        "text": "Coloque os blocos de trabalho um por vez para descobrir quem reivindicou cada bancada."
+      },
+      {
+        "title": "Confira antes de fixar",
+        "text": "Uma troca concluída ajuda a preservar a profissão e as ofertas antes de mover outros blocos."
+      },
+      {
+        "title": "Amplie após testar",
+        "text": "Confira o acesso e a reposição na sua edição antes de copiar o espaço para uma fileira longa."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Ordem de construção",
+    "title": "Como fazer uma sala de trocas de aldeões",
+    "description": "Comece pela menor seção que possa testar. Assim fica mais fácil diagnosticar transporte, profissão e ofertas.",
+    "items": [
+      {
+        "title": "Escolha um local seguro e acessível",
+        "text": "Procure uma área plana perto da base, com espaço para crescer e um caminho para levar aldeões de barco ou carrinho. Ilumine a entrada, feche saídas por onde eles possam escapar e mantenha criaturas hostis afastadas. Deixe um corredor para inspecionar cada aldeão e bloco sem desmontar as paredes."
+      },
+      {
+        "title": "Planeje um espaço que possa repetir",
+        "text": "Use uma célula simples para proteger o aldeão, mostrar a bancada e permitir que você interaja com ele. Reserve um corredor na frente. Não existe uma medida obrigatória para todo mundo: priorize acesso e visibilidade e ajuste o espaço à edição e ao transporte usado."
+      },
+      {
+        "title": "Leve um aldeão adulto por vez",
+        "text": "Transporte cada aldeão de barco, carrinho ou por uma rota segura. Deixe a primeira célula longe de outras bancadas. Um adulto sem profissão pode assumir um trabalho quando há uma bancada adequada; o aldeão simplório não trabalha. Confirme que ele chegou ao espaço antes de colocar outros blocos."
+      },
+      {
+        "title": "Coloque a bancada e confira o vínculo",
+        "text": "Coloque somente o bloco da profissão desejada. Observe se o aldeão muda de profissão e, quando o jogo mostrar, confira partículas ou outro sinal de vínculo. Se outro aldeão reivindicar o bloco, remova bancadas concorrentes próximas e tente novamente antes de negociar. A tabela relaciona profissões e bancadas."
+      },
+      {
+        "title": "Conclua somente uma troca que queira manter",
+        "text": "Confira as ofertas antes de confirmar. Se forem úteis, conclua uma troca para preservar a profissão e as ofertas. Se não forem e você ainda não negociou, retire a bancada e aguarde o aldeão se desvincular antes de tentar de novo. Não conte que mover o bloco vai sortear ofertas novas depois da troca."
+      },
+      {
+        "title": "Teste o acesso e a reposição antes de copiar",
+        "text": "Deixe o aldeão alcançar a bancada durante o horário de trabalho e confirme se as ofertas são repostas depois do uso. Se não forem, resolva o acesso ou o vínculo naquela célula. Quando um espaço funcionar durante um ciclo normal na sua edição, copie o layout e atribua cada novo aldeão separadamente."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Edições e atualizações",
+    "title": "Separe o layout da sala das listas de ofertas",
+    "paragraphs": [
+      "As notas oficiais do Minecraft Java Edition 26.3, publicadas em 15 de setembro de 2026, mencionam novas trocas desbloqueadas conforme o aldeão sobe de nível. Confira as ofertas no jogo atual em vez de copiar uma tabela de preços antiga. Este guia trata do layout e do uso das bancadas; não promete um preço fixo nem lista todas as ofertas.",
+      "Os aldeões usam blocos de trabalho para assumir profissões e trabalhar. As páginas comunitárias da Wiki do Minecraft sobre aldeões, trocas e blocos de profissão explicam essas mecânicas com mais detalhe. A Wiki é mantida pela comunidade: compare as informações com sua versão quando uma atualização recente puder ter mudado o comportamento.",
+      "Java e Bedrock podem vincular aldeões a bancadas próximas de formas diferentes. No Bedrock, aldeões vizinhos e pontos de interesse da vila podem fazer uma bancada aparentemente livre pertencer a outro aldeão. Isole um aldeão, observe qual bloco ele reivindica e evite mover várias bancadas ao mesmo tempo. Um teste pequeno é mais confiável do que presumir que um layout de outra edição funciona sem ajustes."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-workstation-linking.webp",
+      "alt": "Diagrama editorial com um aldeão, a bancada correspondente, a conferência da profissão e uma troca de teste; não é uma captura de Minecraft.",
+      "caption": "Vincule um aldeão a uma bancada, confira o resultado e preserve somente a oferta desejada. A sequência é ilustrativa.",
+      "width": 1024,
+      "height": 427
+    }
+  },
+  "table": {
+    "eyebrow": "Referência de bancadas",
+    "title": "Associe cada profissão ao bloco de trabalho",
+    "description": "Teste cada combinação com um aldeão antes de duplicar a bancada. Se vários aldeões estiverem por perto, outro pode reivindicar o bloco.",
+    "headers": [
+      "Profissão",
+      "Bloco de trabalho",
+      "O que conferir"
+    ],
+    "rows": [
+      [
+        "Armoreiro",
+        "Alto-forno",
+        "Afaste outros altos-fornos durante o teste."
+      ],
+      [
+        "Açougueiro",
+        "Defumador",
+        "Confira qual aldeão mudou de profissão."
+      ],
+      [
+        "Cartógrafo",
+        "Mesa de cartografia",
+        "Mantenha o caminho até a bancada livre."
+      ],
+      [
+        "Clérigo",
+        "Suporte de poções",
+        "Separe de outros blocos durante o primeiro teste."
+      ],
+      [
+        "Fazendeiro",
+        "Compostor",
+        "Confirme a profissão antes da primeira troca."
+      ],
+      [
+        "Pescador",
+        "Barril",
+        "Não coloque vários barris antes de testar o vínculo."
+      ],
+      [
+        "Flecheiro",
+        "Mesa de flechas",
+        "Confira se o aldeão do espaço correto reivindicou."
+      ],
+      [
+        "Curtidor",
+        "Caldeirão",
+        "Isole o aldeão de outros candidatos."
+      ],
+      [
+        "Bibliotecário",
+        "Púlpito",
+        "Confira as ofertas antes de negociar."
+      ],
+      [
+        "Pedreiro",
+        "Cortador de pedras",
+        "Confira o acesso antes de alongar a fileira."
+      ],
+      [
+        "Pastor",
+        "Tear",
+        "Coloque um tear por vez durante o diagnóstico."
+      ],
+      [
+        "Ferramenteiro",
+        "Bancada de ferraria",
+        "Confirme a profissão do aldeão naquela célula."
+      ],
+      [
+        "Armeiro",
+        "Rebolo",
+        "Afaste outros rebolos durante o primeiro teste."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Solução de problemas",
+    "title": "Diagnostique um espaço antes de reconstruir a sala",
+    "paragraphs": [
+      "Se o aldeão não assumir a profissão desejada, confira se é adulto e não é simplório, se já tem uma profissão e se outro aldeão consegue chegar à bancada primeiro. Retire blocos concorrentes da área de teste, aguarde a atualização e coloque apenas uma bancada. Uma troca concluída fixa a profissão; quebrar o bloco não transforma automaticamente em desempregado um aldeão com quem você já negociou.",
+      "Se o aldeão parar de repor ofertas, verifique se ele está vinculado à bancada certa e consegue usá-la. Procure paredes ou blocos que impeçam o acesso, confira se outro aldeão reivindicou aquele posto e observe um período de trabalho no jogo. As regras de vila e bancada do Bedrock e do Java não são iguais; teste um espaço com as regras da sua edição.",
+      "A demanda e outras mecânicas do jogo podem aumentar preços. Um preço maior não significa automaticamente que a sala está quebrada. Não aplique um método antigo de desconto a todos os aldeões: confira a versão atual e mude uma condição por vez."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-hall-troubleshooting.webp",
+      "alt": "Fluxo editorial para conferir aldeão sem profissão, bancadas concorrentes, acesso e reposição; não mostra a interface do jogo.",
+      "caption": "Confira aldeão, vínculo com a bancada, acesso físico e ciclo de trabalho antes de expandir.",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Falhas comuns",
+    "title": "Evite estes erros ao montar uma sala de trocas",
+    "description": "É mais fácil encontrar a causa dos problemas antes de reunir muitos aldeões e bancadas no mesmo espaço.",
+    "cards": [
+      {
+        "title": "Colocar todas as bancadas de uma vez",
+        "text": "Os aldeões podem reivindicá-las numa ordem inesperada. Coloque uma, confira o vínculo e só então continue."
+      },
+      {
+        "title": "Bloquear o acesso à bancada",
+        "text": "Um aldeão pode parecer atribuído sem conseguir usar o bloco. Deixe o acesso visível durante o teste."
+      },
+      {
+        "title": "Negociar antes de conferir a oferta",
+        "text": "Uma troca concluída fixa a profissão e as ofertas. Confira tudo antes se quiser manter a opção de redefinir."
+      },
+      {
+        "title": "Copiar um layout entre edições",
+        "text": "Um layout Java pode funcionar de outro jeito no Bedrock. Teste um espaço no mundo e na versão em que joga."
+      },
+      {
+        "title": "Tratar todo aumento de preço como falha",
+        "text": "A demanda e outras mecânicas alteram ofertas. Confira a reposição antes de mexer no layout."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Guias relacionados",
+    "title": "Planeje o restante do seu mundo no Minecraft",
+    "description": "Estas páginas ajudam em decisões próximas, sem substituir as etapas de construção desta sala.",
+    "links": [
+      {
+        "title": "Java ou Bedrock",
+        "text": "Compare edições, dispositivos, multijogador e compatibilidade antes de escolher as regras do seu projeto.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar edições"
+      },
+      {
+        "title": "Guia de seeds do Minecraft",
+        "text": "Escolha e teste um mundo com espaço perto de uma vila antes de definir sua base principal.",
+        "url": "/minecraft-seeds/",
+        "cta": "Ver como testar seeds"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referências",
+    "title": "Fontes e contexto de versão",
+    "description": "As notas oficiais fornecem contexto da versão; as referências comunitárias detalham as mecânicas.",
+    "links": [
+      {
+        "title": "Notas da versão Minecraft Java 26.3",
+        "text": "Notas oficiais publicadas em 15 de setembro de 2026, com menção a novas trocas liberadas ao subir de nível.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Ler notas oficiais",
+        "rel": "noopener"
+      },
+      {
+        "title": "Aldeões e trocas",
+        "text": "Referências comunitárias sobre profissões, comércio e bancadas. Confira o histórico e sua versão se a mecânica puder ter mudado.",
+        "url": "https://minecraft.wiki/w/Villager",
+        "cta": "Consultar as mecânicas",
+        "rel": "nofollow noopener"
+      },
+      {
+        "title": "Tutorial de sala de trocas",
+        "text": "Um exemplo de construção da comunidade; teste o vínculo com a edição e versão que você joga.",
+        "url": "https://minecraft.wiki/w/Tutorial:Villager_trading_hall",
+        "cta": "Ler o tutorial comunitário",
+        "rel": "nofollow noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Dúvidas",
+    "title": "Perguntas frequentes sobre a sala de trocas",
+    "items": [
+      {
+        "question": "Como fazer uma sala de trocas de aldeões no Minecraft?",
+        "answer": "Monte um espaço protegido, leve um aldeão adulto e coloque a bancada correspondente. Confira profissão e oferta; negocie apenas se quiser fixá-la. Teste o acesso e a reposição antes de copiar o módulo."
+      },
+      {
+        "question": "Quantos aldeões são necessários para uma sala de trocas?",
+        "answer": "Não existe um mínimo além dos aldeões que você quer usar. Comece com um, teste a bancada e o ciclo de reposição e acrescente somente as profissões necessárias."
+      },
+      {
+        "question": "Cada aldeão precisa de uma bancada?",
+        "answer": "O aldeão precisa do bloco correspondente para assumir e exercer a profissão. Deixar cada bancada identificada e acessível facilita o diagnóstico."
+      },
+      {
+        "question": "Por que meu aldeão não repõe as ofertas?",
+        "answer": "Confira se o aldeão correto está vinculado à bancada, se consegue usá-la e se teve oportunidade de trabalhar. Java e Bedrock usam regras diferentes para esses vínculos."
+      },
+      {
+        "question": "Posso mudar as ofertas depois de negociar?",
+        "answer": "Não conte com uma nova rolagem depois de concluir uma troca. Ela fixa a profissão e as ofertas. Confira o resultado antes da primeira troca se quiser redefinir um aldeão que ainda não negociou."
+      },
+      {
+        "question": "Um layout de Java funciona igual no Bedrock?",
+        "answer": "Nem sempre. A vinculação a bancadas e pontos de interesse varia entre edições e pode mudar com atualizações. Teste um módulo na edição que você joga."
+      },
+      {
+        "question": "Por que os preços das trocas aumentaram?",
+        "answer": "Demanda e outras mecânicas podem alterar as ofertas. Primeiro confira vínculo e reposição; depois verifique qualquer método de desconto nas notas atuais."
+      },
+      {
+        "question": "Posso baixar um esquema da sala por esta página?",
+        "answer": "Não. A página traz um diagrama editorial e verificações de construção, mas não distribui mundo, esquema ou arquivo de mundo salvo. Use o desenho para planejar e confira cada bloco no seu mundo."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Trocas de aldeões no Minecraft: guia para montar uma sala",
+      "description": "Monte uma sala de trocas de aldeões no Minecraft, vincule bancadas uma a uma e confira ofertas e reposição no Java e no Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/pt/villager-trading-hall/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como fazer uma sala de trocas de aldeões no Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monte um espaço protegido, leve um adulto, coloque a bancada correspondente e confira profissão e oferta. Negocie só se quiser fixar e teste acesso e reposição antes de copiar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantos aldeões são necessários para uma sala de trocas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há mínimo fixo. Comece com um aldeão e amplie depois que a bancada e o ciclo de reposição funcionarem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que meu aldeão não repõe as ofertas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confira o vínculo com a bancada, o acesso físico e a oportunidade de trabalho. Java e Bedrock têm regras diferentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Um layout de Java funciona igual no Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nem sempre. Teste um módulo na edição e versão que você joga antes de ampliar."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Trade villageois Minecraft : construire une salle fiable",
+    "description": "Construisez une salle de trade villageois dans Minecraft, reliez les postes un à un et vérifiez le réapprovisionnement sur Java et Bedrock.",
+    "image": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Tutoriel de construction Minecraft",
+    "title": "Trade villageois Minecraft : construisez une salle en 5 étapes",
+    "lede": "Commencez par un seul emplacement sûr. Vérifiez qu'un villageois utilise son poste de travail, faites un échange que vous souhaitez garder, puis confirmez le réapprovisionnement avant de répéter le module.",
+    "support": "Ce tutoriel présente un plan compact, les postes associés aux métiers, les vérifications à faire et les différences Java/Bedrock utiles pour les trades villageois.",
+    "actions": [
+      {
+        "label": "Comparer Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Consulter les versions",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "alt": "Schéma éditorial d'une salle d'échange Minecraft avec des emplacements séparés pour les villageois et une allée centrale ; ce n'est pas une capture du jeu.",
+      "caption": "Une rangée de modules permet de vérifier chaque villageois et son poste. Le visuel est un schéma, pas une image de jeu.",
+      "width": 1024,
+      "height": 936
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "Testez un villageois avant de construire toute la salle",
+    "paragraphs": [
+      "Une salle de trade villageois fiable est un espace sûr et lisible où chaque villageois peut prendre puis utiliser son poste de travail. Construisez d'abord un seul emplacement. Amenez un villageois adulte, posez le bloc de métier correspondant, vérifiez la profession, effectuez un échange à conserver et confirmez qu'il peut travailler à nouveau. Répétez le module seulement après ce test.",
+      "Le chemin d'accès et le rattachement aux points d'intérêt peuvent différer entre Java et Bedrock et évoluer avec les mises à jour. Le schéma et les dimensions sont des idées de planification, pas un plan universel. Gardez le villageois et le poste visibles pendant le test. Si la mécanique réagit autrement dans votre monde, consultez les informations de la version réellement utilisée."
+    ],
+    "cards": [
+      {
+        "title": "Un villageois, un poste",
+        "text": "Ajoutez les blocs un à un pour savoir quel villageois les réclame."
+      },
+      {
+        "title": "Vérifiez avant de verrouiller",
+        "text": "Un échange terminé aide à conserver un métier et ses offres avant de déplacer d'autres blocs."
+      },
+      {
+        "title": "Agrandissez après un cycle",
+        "text": "Testez l'accès et le réapprovisionnement dans votre édition avant de prolonger la rangée."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Ordre de construction",
+    "title": "Comment construire une salle de trade villageois",
+    "description": "Une petite section de test rend le transport, l'attribution du métier et les échanges plus simples à diagnostiquer.",
+    "items": [
+      {
+        "title": "Choisissez un emplacement sûr et accessible",
+        "text": "Cherchez une zone plane près de votre base, avec de la place pour agrandir et un passage pour les bateaux ou wagonnets. Éclairez l'accès, fermez les sorties possibles et éloignez les créatures hostiles. Laissez une allée qui permet d'inspecter les villageois et les postes sans démolir les murs."
+      },
+      {
+        "title": "Dessinez un module facile à répéter",
+        "text": "Prévoyez une cellule qui protège le villageois, montre son poste de travail et vous laisse interagir avec lui. Réservez une allée devant les cellules. Aucune dimension unique ne convient à chaque monde : gardez l'accès et la visibilité, puis adaptez l'espace à l'édition et au moyen de transport."
+      },
+      {
+        "title": "Amenez un seul adulte",
+        "text": "Transportez les villageois un par un avec un bateau, un wagonnet ou un chemin sûr. Éloignez le premier emplacement des autres postes. Un adulte sans profession peut en prendre une lorsqu'un bloc adapté est disponible ; un idiot du village ne travaille pas. Confirmez la position du villageois avant d'ajouter plusieurs postes."
+      },
+      {
+        "title": "Posez le bon bloc et observez le lien",
+        "text": "Placez uniquement le poste correspondant au métier voulu. Vérifiez le changement de profession et, si le jeu le montre, les particules ou le signal de rattachement. Si un autre villageois réclame le bloc, retirez les postes concurrents à proximité et recommencez avant tout échange. Le tableau indique les associations métier/poste."
+      },
+      {
+        "title": "Faites un échange que vous souhaitez garder",
+        "text": "Regardez les offres avant de confirmer. Si elles vous conviennent, terminez un échange pour fixer le métier et les offres. Si elles ne conviennent pas et qu'aucun échange n'a été effectué, retirez le poste et attendez que le villageois s'en détache avant de réessayer. Ne supposez pas qu'un poste déplacé relance les offres après un échange."
+      },
+      {
+        "title": "Vérifiez le travail, puis dupliquez le module",
+        "text": "Laissez le villageois atteindre son poste pendant les heures de travail et vérifiez qu'il réapprovisionne ses échanges après épuisement. S'il ne le fait pas, résolvez l'accès ou le rattachement dans cette seule cellule. Une fois le cycle normal validé dans votre édition, copiez le plan et assignez chaque nouveau villageois séparément."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Éditions et mises à jour",
+    "title": "Ne confondez pas le plan de la salle et la liste des échanges",
+    "paragraphs": [
+      "Les notes officielles de Minecraft Java Edition 26.3, publiées le 15 septembre 2026, mentionnent de nouveaux échanges débloqués quand un villageois gagne un niveau. Vérifiez donc les offres dans la version actuelle au lieu de recopier un ancien tableau de prix. Cet article porte sur le plan de la salle et l'accès aux postes ; il ne garantit pas de prix fixe et ne liste pas toutes les offres.",
+      "Les villageois utilisent des blocs de métier pour exercer leur profession. Les pages de référence du Minecraft Wiki sur les villageois, le commerce et les postes de travail détaillent ces mécanismes. Le Wiki est maintenu par la communauté : comparez ses explications avec votre version lorsqu'une mise à jour récente peut avoir modifié le comportement.",
+      "Java et Bedrock ne rattachent pas toujours les villageois aux postes proches de la même façon. Dans Bedrock, les villageois voisins et les points d'intérêt du village peuvent faire réclamer un poste apparemment libre par une autre personne. Isolez un seul villageois, observez le bloc utilisé et évitez de déplacer plusieurs postes en même temps. Un test réduit est plus fiable que de supposer qu'un plan d'une autre édition fonctionnera sans changement."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-workstation-linking.webp",
+      "alt": "Schéma éditorial montrant un villageois, son poste de travail, la vérification du métier et un échange de test ; il ne s'agit pas d'une capture Minecraft.",
+      "caption": "Reliez un villageois à un poste, vérifiez le résultat, puis gardez seulement l'offre voulue. Le processus est illustratif.",
+      "width": 1024,
+      "height": 427
+    }
+  },
+  "table": {
+    "eyebrow": "Référence des postes",
+    "title": "Associez le métier au bon bloc de travail",
+    "description": "Testez chaque association avec un villageois avant de dupliquer le poste. Un autre villageois admissible peut réclamer un bloc si plusieurs se trouvent à portée.",
+    "headers": [
+      "Métier",
+      "Poste de travail",
+      "À vérifier avant d'agrandir"
+    ],
+    "rows": [
+      [
+        "Armurier",
+        "Haut-fourneau",
+        "Éloignez les autres hauts-fourneaux pendant le test."
+      ],
+      [
+        "Boucher",
+        "Fumoir",
+        "Vérifiez quel villageois change de métier."
+      ],
+      [
+        "Cartographe",
+        "Table de cartographie",
+        "Laissez un chemin dégagé jusqu'au bloc."
+      ],
+      [
+        "Clerc",
+        "Alambic",
+        "Séparez-le des autres postes pendant le test."
+      ],
+      [
+        "Fermier",
+        "Composteur",
+        "Vérifiez le métier avant le premier échange."
+      ],
+      [
+        "Pêcheur",
+        "Tonneau",
+        "N'ajoutez pas plusieurs tonneaux avant le premier lien."
+      ],
+      [
+        "Fabricant de flèches",
+        "Table d'archerie",
+        "Confirmez que le villageois visé le réclame."
+      ],
+      [
+        "Tanneur",
+        "Chaudron",
+        "Isolez le villageois des autres candidats."
+      ],
+      [
+        "Bibliothécaire",
+        "Pupitre",
+        "Inspectez l'offre avant de commercer."
+      ],
+      [
+        "Maçon",
+        "Tailleur de pierre",
+        "Vérifiez l'accès avant de prolonger la rangée."
+      ],
+      [
+        "Berger",
+        "Métier à tisser",
+        "Placez un seul métier à tisser à la fois."
+      ],
+      [
+        "Forgeron d'outils",
+        "Table de forge",
+        "Vérifiez que le bon villageois change de métier."
+      ],
+      [
+        "Forgeron d'armes",
+        "Meule",
+        "Éloignez les autres meules pendant le test."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Dépannage",
+    "title": "Diagnostiquez un emplacement avant de refaire toute la salle",
+    "paragraphs": [
+      "Si le villageois ne prend pas le métier voulu, vérifiez qu'il est adulte, qu'il n'est pas un idiot du village, qu'il n'a pas déjà une profession et qu'un autre villageois ne peut pas atteindre le bloc en premier. Retirez les postes concurrents autour du test, attendez une mise à jour, puis posez un seul bloc. Un échange terminé verrouille le métier : casser le poste ne rend pas automatiquement novice un villageois avec lequel vous avez déjà commercé.",
+      "Si les échanges ne se réapprovisionnent plus, confirmez que le bon villageois est relié au bon poste et peut l'utiliser. Cherchez un mur ou un bloc qui bloque le passage, vérifiez qu'un autre villageois n'a pas réclamé le poste et observez une période de travail dans le jeu. Les liens de village de Bedrock et les postes de Java ne sont pas interchangeables ; testez une seule cellule selon votre édition.",
+      "La demande ou d'autres mécanismes peuvent augmenter les prix. Une offre plus chère ne prouve pas que la salle est cassée. N'appliquez pas une ancienne astuce de réduction à tous les villageois : vérifiez la version actuelle et changez une seule variable à la fois."
+    ],
+    "image": {
+      "src": "/static/images/villager-trading-hall/villager-hall-troubleshooting.webp",
+      "alt": "Schéma éditorial de dépannage : vérifier un villageois sans métier, les postes concurrents, l'accès, puis le réapprovisionnement ; pas d'interface de jeu.",
+      "caption": "Vérifiez le villageois, son poste, l'accès physique et le cycle de travail avant d'agrandir la salle.",
+      "width": 1024,
+      "height": 512
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Erreurs fréquentes",
+    "title": "Évitez ces problèmes pendant l'installation",
+    "description": "La plupart des soucis sont plus simples à résoudre avant de réunir de nombreux villageois et postes dans la même pièce.",
+    "cards": [
+      {
+        "title": "Poser tous les postes en même temps",
+        "text": "Plusieurs villageois peuvent réclamer les blocs dans un ordre inattendu. Ajoutez-en un, vérifiez le lien, puis continuez."
+      },
+      {
+        "title": "Bloquer l'accès au poste",
+        "text": "Un villageois peut sembler assigné mais ne pas pouvoir utiliser son bloc. Gardez le passage observable pendant le test."
+      },
+      {
+        "title": "Échanger sans inspecter l'offre",
+        "text": "Un échange terminé fixe le métier et les offres. Vérifiez le résultat avant de commercer si vous voulez garder une option de réglage."
+      },
+      {
+        "title": "Copier un plan d'une autre édition",
+        "text": "Un plan Java peut réagir différemment dans Bedrock. Testez un emplacement dans votre monde avant d'agrandir."
+      },
+      {
+        "title": "Prendre chaque hausse de prix pour un bug",
+        "text": "La demande et d'autres mécaniques changent les offres. Vérifiez le lien et le réapprovisionnement avant de modifier le plan."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Guides associés",
+    "title": "Préparez aussi le reste de votre monde Minecraft",
+    "description": "Ces pages couvrent des choix proches sans remplacer les étapes de construction ci-dessus.",
+    "links": [
+      {
+        "title": "Java ou Bedrock",
+        "text": "Comparez les éditions, les appareils, le multijoueur et la compatibilité avant de choisir vos règles de construction.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparer les éditions"
+      },
+      {
+        "title": "Graines Minecraft à découvrir",
+        "text": "Choisissez et testez un monde avec de la place près d'un village avant d'installer votre base principale.",
+        "url": "/minecraft-seeds/",
+        "cta": "Voir les vérifications de graine"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Références",
+    "title": "Sources et contexte de version",
+    "description": "Les notes officielles servent de contexte de version ; les références communautaires détaillent les mécaniques.",
+    "links": [
+      {
+        "title": "Notes de version de Minecraft Java 26.3",
+        "text": "Notes officielles publiées le 15 septembre 2026, avec une mention sur les offres débloquées en montant de niveau.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Lire les notes officielles",
+        "rel": "noopener"
+      },
+      {
+        "title": "Villageois et échanges",
+        "text": "Références communautaires sur les métiers, le commerce et les postes de travail. Vérifiez l'historique et votre version en cas de changement récent.",
+        "url": "https://minecraft.wiki/w/Villager",
+        "cta": "Consulter les mécaniques",
+        "rel": "nofollow noopener"
+      },
+      {
+        "title": "Tutoriel de salle de trade",
+        "text": "Un exemple de construction communautaire ; testez les liens des postes dans votre édition et votre version.",
+        "url": "https://minecraft.wiki/w/Tutorial:Villager_trading_hall",
+        "cta": "Lire le tutoriel communautaire",
+        "rel": "nofollow noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "FAQ sur la salle de trade villageois",
+    "items": [
+      {
+        "question": "Comment construire une salle de trade villageois dans Minecraft ?",
+        "answer": "Construisez un emplacement protégé, amenez un villageois adulte, posez le poste correspondant, vérifiez son métier et inspectez une offre. Terminez un échange seulement si vous souhaitez le verrouiller, puis testez l'accès et le réapprovisionnement avant de répéter le module."
+      },
+      {
+        "question": "Combien de villageois faut-il pour une salle de trade ?",
+        "answer": "Il n'y a pas de minimum fixe : il en faut autant que les offres que vous souhaitez utiliser. Commencez par un villageois, vérifiez son poste et son cycle de travail, puis ajoutez les métiers utiles."
+      },
+      {
+        "question": "Chaque villageois a-t-il besoin d'un poste de travail ?",
+        "answer": "Un villageois a besoin du bloc de métier correspondant pour prendre et exercer cette profession. La salle est plus facile à diagnostiquer si chaque poste est identifié et accessible."
+      },
+      {
+        "question": "Pourquoi un villageois ne réapprovisionne-t-il pas ses échanges ?",
+        "answer": "Vérifiez son lien avec le bon poste, son accès physique et la possibilité de travailler. Testez une cellule selon votre édition, car le rattachement Java et Bedrock diffère."
+      },
+      {
+        "question": "Peut-on changer les échanges après un premier trade ?",
+        "answer": "Ne comptez pas sur une nouvelle génération après un échange terminé. Celui-ci verrouille le métier et les offres. Inspectez le résultat avant le premier échange si vous voulez réinitialiser un villageois sans trade."
+      },
+      {
+        "question": "Un plan Java fonctionne-t-il à l'identique dans Bedrock ?",
+        "answer": "Pas nécessairement. Les liens aux postes et aux points d'intérêt du village varient selon l'édition et parfois selon la version. Testez un module dans le jeu réellement utilisé."
+      },
+      {
+        "question": "Pourquoi les prix des villageois ont-ils augmenté ?",
+        "answer": "La demande et d'autres mécaniques peuvent modifier les offres. Vérifiez d'abord le lien et le réapprovisionnement, puis confirmez les méthodes de réduction dans les notes de version actuelles."
+      },
+      {
+        "question": "Peut-on télécharger un schéma de salle sur cette page ?",
+        "answer": "Non. La page fournit un schéma éditorial et des vérifications, pas un monde, un fichier de construction ou une sauvegarde. Utilisez-le comme aide et vérifiez les blocs dans votre monde."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Trade villageois Minecraft : construire une salle fiable",
+      "description": "Construisez une salle de trade villageois dans Minecraft, reliez les postes un à un et vérifiez le réapprovisionnement sur Java et Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/fr/villager-trading-hall/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Comment construire une salle de trade villageois dans Minecraft ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Construisez un poste protégé, amenez un villageois adulte, placez le bloc correspondant, vérifiez une offre et terminez un échange seulement si vous souhaitez le verrouiller. Testez l'accès et le réapprovisionnement avant de dupliquer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de villageois faut-il pour une salle de trade ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il n'y a pas de minimum fixe. Commencez par un villageois et agrandissez après avoir validé son poste et son cycle de travail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi un villageois ne réapprovisionne-t-il pas ses échanges ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vérifiez le lien au poste, l'accès physique et la possibilité de travailler. Java et Bedrock ont des règles de rattachement différentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un plan Java fonctionne-t-il à l'identique dans Bedrock ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pas nécessairement. Les règles de poste diffèrent ; testez un module dans l'édition que vous jouez."
+          }
+        }
+      ]
+    }
+  }
+}

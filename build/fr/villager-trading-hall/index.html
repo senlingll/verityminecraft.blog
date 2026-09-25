@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade villageois Minecraft : construire une salle fiable</title>
+  <meta name="description"
+    content="Construisez une salle de trade villageois dans Minecraft, reliez les postes un à un et vérifiez le réapprovisionnement sur Java et Bedrock.">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/fr/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/villager-trading-hall/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/villager-trading-hall/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/villager-trading-hall/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Trade villageois Minecraft : construire une salle fiable">
+  <meta property="og:description" content="Construisez une salle de trade villageois dans Minecraft, reliez les postes un à un et vérifiez le réapprovisionnement sur Java et Bedrock.">
+  <meta property="og:url" content="https://verityminecraft.blog/fr/villager-trading-hall/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trade villageois Minecraft : construire une salle fiable">
+  <meta name="twitter:description" content="Construisez une salle de trade villageois dans Minecraft, reliez les postes un à un et vérifiez le réapprovisionnement sur Java et Bedrock.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Guide pour t\u00e9l\u00e9charger Verity Minecraft sur Java, Bedrock et PE avec sources, versions, installation et conseils s\u00fbrs.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-09-25", "datePublished": "2026-09-25", "description": "Construisez une salle de trade villageois dans Minecraft, reliez les postes un \u00e0 un et v\u00e9rifiez le r\u00e9approvisionnement sur Java et Bedrock.", "headline": "Trade villageois Minecraft : construire une salle fiable", "image": "https://verityminecraft.blog/static/images/villager-trading-hall/villager-trading-hall-feature.webp", "mainEntityOfPage": "https://verityminecraft.blog/fr/villager-trading-hall/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Construisez un poste prot\u00e9g\u00e9, amenez un villageois adulte, placez le bloc correspondant, v\u00e9rifiez une offre et terminez un \u00e9change seulement si vous souhaitez le verrouiller. Testez l\u0027acc\u00e8s et le r\u00e9approvisionnement avant de dupliquer."}, "name": "Comment construire une salle de trade villageois dans Minecraft ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Il n\u0027y a pas de minimum fixe. Commencez par un villageois et agrandissez apr\u00e8s avoir valid\u00e9 son poste et son cycle de travail."}, "name": "Combien de villageois faut-il pour une salle de trade ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "V\u00e9rifiez le lien au poste, l\u0027acc\u00e8s physique et la possibilit\u00e9 de travailler. Java et Bedrock ont des r\u00e8gles de rattachement diff\u00e9rentes."}, "name": "Pourquoi un villageois ne r\u00e9approvisionne-t-il pas ses \u00e9changes ?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Pas n\u00e9cessairement. Les r\u00e8gles de poste diff\u00e8rent ; testez un module dans l\u0027\u00e9dition que vous jouez."}, "name": "Un plan Java fonctionne-t-il \u00e0 l\u0027identique dans Bedrock ?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/fr/" aria-label="Verity Minecraft home">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Téléchargements">
+      <a href="/fr/#downloads">Téléchargements</a>
+      <a href="/fr/#install">Installer</a>
+      <a href="/fr/#versions">Versions</a>
+      <a href="/fr/#safety">Sécurité</a>
+      <a href="/fr/#faq">Questions fréquentes</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="Français">Français</summary>
+        <div class="language-options">
+          
+          <a href="/villager-trading-hall/">English</a>
+          
+          <a href="/es/villager-trading-hall/">Español</a>
+          
+          <a href="/ja/villager-trading-hall/">日本語</a>
+          
+          <a href="/de/villager-trading-hall/">Deutsch</a>
+          
+          <a href="/pt/villager-trading-hall/">Português</a>
+          
+          <a href="/ko/villager-trading-hall/">한국어</a>
+          
+          <a href="/it/villager-trading-hall/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/fr/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        Télécharger
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Tutoriel de construction Minecraft</p>
+      <h1 id="article-title">Trade villageois Minecraft : construisez une salle en 5 étapes</h1>
+      <p class="hero-lede">Commencez par un seul emplacement sûr. Vérifiez qu&#39;un villageois utilise son poste de travail, faites un échange que vous souhaitez garder, puis confirmez le réapprovisionnement avant de répéter le module.</p>
+      <p class="hero-support">Ce tutoriel présente un plan compact, les postes associés aux métiers, les vérifications à faire et les différences Java/Bedrock utiles pour les trades villageois.</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/fr/java-vs-bedrock/">Comparer Java et Bedrock</a>
+        
+        <a class="btn btn-secondary" href="/fr/versions/">Consulter les versions</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/villager-trading-hall/villager-trading-hall-feature.webp" alt="Schéma éditorial d&#39;une salle d&#39;échange Minecraft avec des emplacements séparés pour les villageois et une allée centrale ; ce n&#39;est pas une capture du jeu." width="1024" height="936" fetchpriority="high" decoding="async">
+      <figcaption>Une rangée de modules permet de vérifier chaque villageois et son poste. Le visuel est un schéma, pas une image de jeu.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Réponse rapide</p>
+      <h2 id="answer-title">Testez un villageois avant de construire toute la salle</h2>
+      <p>Une salle de trade villageois fiable est un espace sûr et lisible où chaque villageois peut prendre puis utiliser son poste de travail. Construisez d&#39;abord un seul emplacement. Amenez un villageois adulte, posez le bloc de métier correspondant, vérifiez la profession, effectuez un échange à conserver et confirmez qu&#39;il peut travailler à nouveau. Répétez le module seulement après ce test.</p><p>Le chemin d&#39;accès et le rattachement aux points d&#39;intérêt peuvent différer entre Java et Bedrock et évoluer avec les mises à jour. Le schéma et les dimensions sont des idées de planification, pas un plan universel. Gardez le villageois et le poste visibles pendant le test. Si la mécanique réagit autrement dans votre monde, consultez les informations de la version réellement utilisée.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Un villageois, un poste</h3><p>Ajoutez les blocs un à un pour savoir quel villageois les réclame.</p></article>
+      
+      <article class="feature-card"><h3>Vérifiez avant de verrouiller</h3><p>Un échange terminé aide à conserver un métier et ses offres avant de déplacer d&#39;autres blocs.</p></article>
+      
+      <article class="feature-card"><h3>Agrandissez après un cycle</h3><p>Testez l&#39;accès et le réapprovisionnement dans votre édition avant de prolonger la rangée.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Ordre de construction</p>
+      <h2 id="steps-title">Comment construire une salle de trade villageois</h2>
+      <p>Une petite section de test rend le transport, l&#39;attribution du métier et les échanges plus simples à diagnostiquer.</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>Choisissez un emplacement sûr et accessible</h3><p>Cherchez une zone plane près de votre base, avec de la place pour agrandir et un passage pour les bateaux ou wagonnets. Éclairez l&#39;accès, fermez les sorties possibles et éloignez les créatures hostiles. Laissez une allée qui permet d&#39;inspecter les villageois et les postes sans démolir les murs.</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>Dessinez un module facile à répéter</h3><p>Prévoyez une cellule qui protège le villageois, montre son poste de travail et vous laisse interagir avec lui. Réservez une allée devant les cellules. Aucune dimension unique ne convient à chaque monde : gardez l&#39;accès et la visibilité, puis adaptez l&#39;espace à l&#39;édition et au moyen de transport.</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>Amenez un seul adulte</h3><p>Transportez les villageois un par un avec un bateau, un wagonnet ou un chemin sûr. Éloignez le premier emplacement des autres postes. Un adulte sans profession peut en prendre une lorsqu&#39;un bloc adapté est disponible ; un idiot du village ne travaille pas. Confirmez la position du villageois avant d&#39;ajouter plusieurs postes.</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>Posez le bon bloc et observez le lien</h3><p>Placez uniquement le poste correspondant au métier voulu. Vérifiez le changement de profession et, si le jeu le montre, les particules ou le signal de rattachement. Si un autre villageois réclame le bloc, retirez les postes concurrents à proximité et recommencez avant tout échange. Le tableau indique les associations métier/poste.</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>Faites un échange que vous souhaitez garder</h3><p>Regardez les offres avant de confirmer. Si elles vous conviennent, terminez un échange pour fixer le métier et les offres. Si elles ne conviennent pas et qu&#39;aucun échange n&#39;a été effectué, retirez le poste et attendez que le villageois s&#39;en détache avant de réessayer. Ne supposez pas qu&#39;un poste déplacé relance les offres après un échange.</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>Vérifiez le travail, puis dupliquez le module</h3><p>Laissez le villageois atteindre son poste pendant les heures de travail et vérifiez qu&#39;il réapprovisionne ses échanges après épuisement. S&#39;il ne le fait pas, résolvez l&#39;accès ou le rattachement dans cette seule cellule. Une fois le cycle normal validé dans votre édition, copiez le plan et assignez chaque nouveau villageois séparément.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">Éditions et mises à jour</p>
+        <h2 id="check-title">Ne confondez pas le plan de la salle et la liste des échanges</h2>
+        <p>Les notes officielles de Minecraft Java Edition 26.3, publiées le 15 septembre 2026, mentionnent de nouveaux échanges débloqués quand un villageois gagne un niveau. Vérifiez donc les offres dans la version actuelle au lieu de recopier un ancien tableau de prix. Cet article porte sur le plan de la salle et l&#39;accès aux postes ; il ne garantit pas de prix fixe et ne liste pas toutes les offres.</p><p>Les villageois utilisent des blocs de métier pour exercer leur profession. Les pages de référence du Minecraft Wiki sur les villageois, le commerce et les postes de travail détaillent ces mécanismes. Le Wiki est maintenu par la communauté : comparez ses explications avec votre version lorsqu&#39;une mise à jour récente peut avoir modifié le comportement.</p><p>Java et Bedrock ne rattachent pas toujours les villageois aux postes proches de la même façon. Dans Bedrock, les villageois voisins et les points d&#39;intérêt du village peuvent faire réclamer un poste apparemment libre par une autre personne. Isolez un seul villageois, observez le bloc utilisé et évitez de déplacer plusieurs postes en même temps. Un test réduit est plus fiable que de supposer qu&#39;un plan d&#39;une autre édition fonctionnera sans changement.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/villager-trading-hall/villager-workstation-linking.webp" alt="Schéma éditorial montrant un villageois, son poste de travail, la vérification du métier et un échange de test ; il ne s&#39;agit pas d&#39;une capture Minecraft." width="1024" height="427" loading="lazy" decoding="async">
+        <figcaption>Reliez un villageois à un poste, vérifiez le résultat, puis gardez seulement l&#39;offre voulue. Le processus est illustratif.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Référence des postes</p>
+      <h2 id="table-title">Associez le métier au bon bloc de travail</h2>
+      <p>Testez chaque association avec un villageois avant de dupliquer le poste. Un autre villageois admissible peut réclamer un bloc si plusieurs se trouvent à portée.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Associez le métier au bon bloc de travail">
+      <div role="row">
+        <strong>Métier</strong><strong>Poste de travail</strong><strong>À vérifier avant d&#39;agrandir</strong>
+      </div>
+      
+      <div role="row">
+        <span>Armurier</span><span>Haut-fourneau</span><span>Éloignez les autres hauts-fourneaux pendant le test.</span>
+      </div>
+      
+      <div role="row">
+        <span>Boucher</span><span>Fumoir</span><span>Vérifiez quel villageois change de métier.</span>
+      </div>
+      
+      <div role="row">
+        <span>Cartographe</span><span>Table de cartographie</span><span>Laissez un chemin dégagé jusqu&#39;au bloc.</span>
+      </div>
+      
+      <div role="row">
+        <span>Clerc</span><span>Alambic</span><span>Séparez-le des autres postes pendant le test.</span>
+      </div>
+      
+      <div role="row">
+        <span>Fermier</span><span>Composteur</span><span>Vérifiez le métier avant le premier échange.</span>
+      </div>
+      
+      <div role="row">
+        <span>Pêcheur</span><span>Tonneau</span><span>N&#39;ajoutez pas plusieurs tonneaux avant le premier lien.</span>
+      </div>
+      
+      <div role="row">
+        <span>Fabricant de flèches</span><span>Table d&#39;archerie</span><span>Confirmez que le villageois visé le réclame.</span>
+      </div>
+      
+      <div role="row">
+        <span>Tanneur</span><span>Chaudron</span><span>Isolez le villageois des autres candidats.</span>
+      </div>
+      
+      <div role="row">
+        <span>Bibliothécaire</span><span>Pupitre</span><span>Inspectez l&#39;offre avant de commercer.</span>
+      </div>
+      
+      <div role="row">
+        <span>Maçon</span><span>Tailleur de pierre</span><span>Vérifiez l&#39;accès avant de prolonger la rangée.</span>
+      </div>
+      
+      <div role="row">
+        <span>Berger</span><span>Métier à tisser</span><span>Placez un seul métier à tisser à la fois.</span>
+      </div>
+      
+      <div role="row">
+        <span>Forgeron d&#39;outils</span><span>Table de forge</span><span>Vérifiez que le bon villageois change de métier.</span>
+      </div>
+      
+      <div role="row">
+        <span>Forgeron d&#39;armes</span><span>Meule</span><span>Éloignez les autres meules pendant le test.</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/villager-trading-hall/villager-hall-troubleshooting.webp" alt="Schéma éditorial de dépannage : vérifier un villageois sans métier, les postes concurrents, l&#39;accès, puis le réapprovisionnement ; pas d&#39;interface de jeu." width="1024" height="512" loading="lazy" decoding="async">
+        <figcaption>Vérifiez le villageois, son poste, l&#39;accès physique et le cycle de travail avant d&#39;agrandir la salle.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Dépannage</p>
+        <h2 id="activate-title">Diagnostiquez un emplacement avant de refaire toute la salle</h2>
+        <p>Si le villageois ne prend pas le métier voulu, vérifiez qu&#39;il est adulte, qu&#39;il n&#39;est pas un idiot du village, qu&#39;il n&#39;a pas déjà une profession et qu&#39;un autre villageois ne peut pas atteindre le bloc en premier. Retirez les postes concurrents autour du test, attendez une mise à jour, puis posez un seul bloc. Un échange terminé verrouille le métier : casser le poste ne rend pas automatiquement novice un villageois avec lequel vous avez déjà commercé.</p><p>Si les échanges ne se réapprovisionnent plus, confirmez que le bon villageois est relié au bon poste et peut l&#39;utiliser. Cherchez un mur ou un bloc qui bloque le passage, vérifiez qu&#39;un autre villageois n&#39;a pas réclamé le poste et observez une période de travail dans le jeu. Les liens de village de Bedrock et les postes de Java ne sont pas interchangeables ; testez une seule cellule selon votre édition.</p><p>La demande ou d&#39;autres mécanismes peuvent augmenter les prix. Une offre plus chère ne prouve pas que la salle est cassée. N&#39;appliquez pas une ancienne astuce de réduction à tous les villageois : vérifiez la version actuelle et changez une seule variable à la fois.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Erreurs fréquentes</p>
+      <h2 id="mistakes-title">Évitez ces problèmes pendant l&#39;installation</h2>
+      <p>La plupart des soucis sont plus simples à résoudre avant de réunir de nombreux villageois et postes dans la même pièce.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Poser tous les postes en même temps</h3><p>Plusieurs villageois peuvent réclamer les blocs dans un ordre inattendu. Ajoutez-en un, vérifiez le lien, puis continuez.</p></article>
+      
+      <article class="feature-card"><h3>Bloquer l&#39;accès au poste</h3><p>Un villageois peut sembler assigné mais ne pas pouvoir utiliser son bloc. Gardez le passage observable pendant le test.</p></article>
+      
+      <article class="feature-card"><h3>Échanger sans inspecter l&#39;offre</h3><p>Un échange terminé fixe le métier et les offres. Vérifiez le résultat avant de commercer si vous voulez garder une option de réglage.</p></article>
+      
+      <article class="feature-card"><h3>Copier un plan d&#39;une autre édition</h3><p>Un plan Java peut réagir différemment dans Bedrock. Testez un emplacement dans votre monde avant d&#39;agrandir.</p></article>
+      
+      <article class="feature-card"><h3>Prendre chaque hausse de prix pour un bug</h3><p>La demande et d&#39;autres mécaniques changent les offres. Vérifiez le lien et le réapprovisionnement avant de modifier le plan.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Guides associés</p>
+      <h2 id="related-title">Préparez aussi le reste de votre monde Minecraft</h2>
+      <p>Ces pages couvrent des choix proches sans remplacer les étapes de construction ci-dessus.</p>
+    </div>
+    <div class="example-grid">
+
+      <article class="example-card"><h3>Java ou Bedrock</h3><p>Comparez les éditions, les appareils, le multijoueur et la compatibilité avant de choisir vos règles de construction.</p><a class="text-link" href="/fr/java-vs-bedrock/">Comparer les éditions</a></article>
+
+      <article class="example-card"><h3>Graines Minecraft à découvrir</h3><p>Choisissez et testez un monde avec de la place près d&#39;un village avant d&#39;installer votre base principale.</p><a class="text-link" href="/fr/minecraft-seeds/">Voir les vérifications de graine</a></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Références</p>
+      <h2 id="sources-title">Sources et contexte de version</h2>
+      <p>Les notes officielles servent de contexte de version ; les références communautaires détaillent les mécaniques.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Notes de version de Minecraft Java 26.3</h3><p>Notes officielles publiées le 15 septembre 2026, avec une mention sur les offres débloquées en montant de niveau.</p><a class="text-link" href="https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3" target="_blank" rel="noopener">Lire les notes officielles</a></article>
+      
+      <article class="feature-card"><h3>Villageois et échanges</h3><p>Références communautaires sur les métiers, le commerce et les postes de travail. Vérifiez l&#39;historique et votre version en cas de changement récent.</p><a class="text-link" href="https://minecraft.wiki/w/Villager" target="_blank" rel="nofollow noopener">Consulter les mécaniques</a></article>
+      
+      <article class="feature-card"><h3>Tutoriel de salle de trade</h3><p>Un exemple de construction communautaire ; testez les liens des postes dans votre édition et votre version.</p><a class="text-link" href="https://minecraft.wiki/w/Tutorial:Villager_trading_hall" target="_blank" rel="nofollow noopener">Lire le tutoriel communautaire</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">Questions</p>
+      <h2 id="faq-title">FAQ sur la salle de trade villageois</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>Comment construire une salle de trade villageois dans Minecraft ?</summary><p>Construisez un emplacement protégé, amenez un villageois adulte, posez le poste correspondant, vérifiez son métier et inspectez une offre. Terminez un échange seulement si vous souhaitez le verrouiller, puis testez l&#39;accès et le réapprovisionnement avant de répéter le module.</p></details>
+      
+      <details ><summary>Combien de villageois faut-il pour une salle de trade ?</summary><p>Il n&#39;y a pas de minimum fixe : il en faut autant que les offres que vous souhaitez utiliser. Commencez par un villageois, vérifiez son poste et son cycle de travail, puis ajoutez les métiers utiles.</p></details>
+      
+      <details ><summary>Chaque villageois a-t-il besoin d&#39;un poste de travail ?</summary><p>Un villageois a besoin du bloc de métier correspondant pour prendre et exercer cette profession. La salle est plus facile à diagnostiquer si chaque poste est identifié et accessible.</p></details>
+      
+      <details ><summary>Pourquoi un villageois ne réapprovisionne-t-il pas ses échanges ?</summary><p>Vérifiez son lien avec le bon poste, son accès physique et la possibilité de travailler. Testez une cellule selon votre édition, car le rattachement Java et Bedrock diffère.</p></details>
+      
+      <details ><summary>Peut-on changer les échanges après un premier trade ?</summary><p>Ne comptez pas sur une nouvelle génération après un échange terminé. Celui-ci verrouille le métier et les offres. Inspectez le résultat avant le premier échange si vous voulez réinitialiser un villageois sans trade.</p></details>
+      
+      <details ><summary>Un plan Java fonctionne-t-il à l&#39;identique dans Bedrock ?</summary><p>Pas nécessairement. Les liens aux postes et aux points d&#39;intérêt du village varient selon l&#39;édition et parfois selon la version. Testez un module dans le jeu réellement utilisé.</p></details>
+      
+      <details ><summary>Pourquoi les prix des villageois ont-ils augmenté ?</summary><p>La demande et d&#39;autres mécaniques peuvent modifier les offres. Vérifiez d&#39;abord le lien et le réapprovisionnement, puis confirmez les méthodes de réduction dans les notes de version actuelles.</p></details>
+      
+      <details ><summary>Peut-on télécharger un schéma de salle sur cette page ?</summary><p>Non. La page fournit un schéma éditorial et des vérifications, pas un monde, un fichier de construction ou une sauvegarde. Utilisez-le comme aide et vérifiez les blocs dans votre monde.</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/fr/" aria-label="Verity Minecraft home">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Aide indépendante au téléchargement de Verity Minecraft.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="Téléchargements">
+          <div class="footer-link-group">
+            <p class="footer-link-title">Téléchargements</p>
+          <a href="/fr/#downloads">Téléchargements</a>
+          <a href="/fr/#install">Installer</a>
+          <a href="/fr/#versions">Versions</a>
+          <a href="/fr/#safety">Sécurité</a>
+            <a href="/fr/bedrock-addons/">Add-ons Bedrock</a>
+            <a href="/fr/java-vs-bedrock/">Java vs Bedrock</a>
+            <a href="/fr/bedrock-shaders/">Shaders Bedrock</a>
+            <a href="/fr/villager-trading-hall/">Salle de trade villageois</a>
+            <a href="/fr/#faq">Questions fréquentes</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">Pages légales</p>
+            <a href="/about/">À propos</a>
+            <a href="/contact/">Nous contacter</a>
+            <a href="/privacy-policy/">Confidentialité</a>
+            <a href="/terms-of-service/">Conditions d&#39;utilisation</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Aide indépendante au téléchargement de Verity Minecraft.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+<script async="async" data-cfasync="false" src="https://pl30605215.profitableratecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+<div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+
+<script src="https://pl30483090.profitableratecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>
