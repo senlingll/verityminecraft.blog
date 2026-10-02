@@ -229,6 +229,12 @@
         "url": "/minecraft-bedrock-maps/",
         "text": "Nutze diesen Leitfaden, wenn du eine fertige Bedrock-Welt importieren möchtest statt Gelände mit einem Seed zu erzeugen.",
         "cta": "Bedrock-Karten öffnen"
+      },
+      {
+        "title": "Minecraft-Prüfungskammern",
+        "text": "So findest du die unterirdische Struktur, bereitest dich vor und nutzt Schlüssel und Tresore.",
+        "url": "/minecraft-trial-chambers/",
+        "cta": "Guide lesen"
       }
     ]
   },

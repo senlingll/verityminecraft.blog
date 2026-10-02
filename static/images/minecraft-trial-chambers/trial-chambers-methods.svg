@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <title>Explanatory diagram: choose between an explorer map route and natural cave exploration</title>
+  <rect width="1200" height="800" rx="28" fill="#F2F8FB"/>
+  <rect x="78" y="115" width="1044" height="260" rx="30" fill="#FFFFFF" stroke="#CFDDE3" stroke-width="8"/>
+  <rect x="78" y="425" width="1044" height="260" rx="30" fill="#FFFFFF" stroke="#CFDDE3" stroke-width="8"/>
+  <circle cx="237" cy="245" r="83" fill="#E8F2F5"/>
+  <path d="M189 191L237 211L285 191V298L237 318L189 298V191Z" fill="#FFFFFF" stroke="#3B6476" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M237 211V318M189 191L237 211L285 191" stroke="#3B6476" stroke-width="8"/>
+  <path d="M238 267L267 219L273 279L238 267Z" fill="#E67B5B"/>
+  <path d="M372 245H824" stroke="#E67B5B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M801 222L832 245L801 268" stroke="#233A53" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M876 299V202L974 157L1070 202V299H876Z" fill="#DCE9E7" stroke="#324B59" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M876 202H1070M905 188V204M937 174V204M970 160V204M1002 174V204M1036 188V204" stroke="#B66B4C" stroke-width="11"/>
+  <rect x="944" y="244" width="58" height="55" rx="4" fill="#314D59"/>
+  <path d="M976 454V553C976 596 932 614 870 614H379" stroke="#6E8995" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="17 21"/>
+  <path d="M405 591L374 614L405 637" stroke="#233A53" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="237" cy="555" r="83" fill="#E8F2F5"/>
+  <path d="M171 607C202 563 213 552 240 505C269 454 307 477 328 459" stroke="#556D7A" stroke-width="34" stroke-linecap="round"/>
+  <path d="M171 607C202 563 213 552 240 505C269 454 307 477 328 459" stroke="#DDE8EC" stroke-width="12" stroke-linecap="round"/>
+  <path d="M182 632H325" stroke="#7B929C" stroke-width="11" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "Câmaras de desafios do Minecraft: como encontrar e explorar",
+    "description": "Encontre câmaras de desafios no Minecraft com mapa de cartógrafo ou comando, prepare-se para os combates e entenda chaves e cofres no Java e Bedrock.",
+    "image": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia de exploração e combate",
+    "title": "Câmaras de desafios do Minecraft: como encontrar, preparar e pegar o saque",
+    "lede": "As câmaras de desafios do Minecraft são estruturas subterrâneas do Mundo Superior, construídas com cobre e tufo. As salas combinam exploração, perigos, geradores de teste e recompensas. No modo sobrevivência, o caminho mais claro é negociar com um aldeão cartógrafo para conseguir um mapa explorador de provas e depois descer com cuidado perto do marcador. Se os comandos estiverem permitidos, um comando de localização ajuda a achar a estrutura, mas não mostra uma entrada segura.",
+    "support": "Este guia separa a busca normal de sobrevivência do uso de comandos, explica o que levar e acompanha a sequência gerador, possível chave de teste e cofre. Comandos e mecânicas podem variar conforme edição e versão; use as sugestões do jogo instalado. Revisado em 3 de outubro de 2026.",
+    "actions": [
+      {
+        "label": "Comparar Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Escolher e testar uma seed",
+        "url": "/minecraft-seeds/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+      "alt": "Diagrama original do caminho entre um mapa, uma descida cuidadosa e uma entrada subterrânea abstrata; não é captura de Minecraft",
+      "caption": "Diagrama explicativo, não é uma cena de jogo nem um mapa de mundo real. Ele mostra por que o marcador exige navegação cuidadosa no subsolo.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "A maneira mais segura de encontrar uma câmara de desafios",
+    "paragraphs": [
+      "Em um mundo comum de sobrevivência, procure um aldeão cartógrafo e confira as trocas conforme ele sobe de nível. Ele pode oferecer um mapa explorador de provas que aponta para uma câmara de desafios próxima. Quando a oferta aparecer, pegue o mapa, siga a direção indicada e planeje uma descida segura por uma caverna ou escada cavada. O mapa aponta para a área da estrutura: não marca uma porta nem garante que a câmara comece exatamente embaixo dos seus pés.",
+      "Se você pode usar comandos, digite a sugestão atual de /locate structure e selecione a opção de câmaras de desafios mostrada pelo jogo. Em versões recentes de Java, o identificador pode aparecer como minecraft:trial_chambers; no Bedrock, siga o preenchimento automático e as permissões dessa edição. O comando exige truques ativados ou permissão de servidor. Ele retorna coordenadas, não um caminho seguro até a entrada, e pode desativar conquistas em alguns mundos.",
+      "Antes de descer, leve comida, escudo, uma arma resistente, blocos extras e uma picareta. Ilumine a rota, mantenha uma saída em mente e enfrente um gerador de teste por vez. Quando o encontro termina, o gerador pode ejetar uma chave de teste. Use a chave correspondente em um cofre para pegar a recompensa; outro jogador abrir o mesmo cofre não consome necessariamente a sua abertura pessoal. A chave e um item específico não são garantidos."
+    ],
+    "cards": [
+      {
+        "title": "Mapa na sobrevivência",
+        "text": "O mapa do cartógrafo é o melhor começo sem truques. Siga o marcador, use referências do terreno e prepare-se para procurar abaixo dele."
+      },
+      {
+        "title": "Comando para testar",
+        "text": "Com truques e permissão, o comando ajuda a localizar a estrutura. Trate a posição como um ponto de referência, não como uma porta."
+      },
+      {
+        "title": "Combata para obter a chave",
+        "text": "Termine cada encontro com uma rota de fuga. O gerador pode dar uma chave; o cofre é outro bloco e precisa da chave adequada."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Escolha uma rota de busca",
+    "title": "Como encontrar câmaras de desafios no Minecraft",
+    "description": "O melhor método depende de você querer manter as conquistas e jogar uma sobrevivência normal. Mapa e cavernas preservam esse estilo; comandos são opcionais e mudam as regras do mundo.",
+    "items": [
+      {
+        "title": "1. Confira a edição e a versão",
+        "text": "As câmaras de desafios chegaram na era de Tricky Trials. Confirme se a versão instalada de Java ou Bedrock já inclui a estrutura e descubra se a área em que você vai procurar foi gerada antes desse recurso. Estruturas novas não surgem retroativamente em todo chunk já criado. Se o mundo começou em uma versão mais antiga, viaje para terreno que ainda não foi explorado."
+      },
+      {
+        "title": "2. Procure o mapa com um cartógrafo",
+        "text": "Negocie com um aldeão cartógrafo até ele poder oferecer o mapa explorador de provas. A oferta e os detalhes da troca podem mudar conforme a edição ou a versão, então confira o que aparece agora em vez de confiar numa lista velha de preços. O mapa funciona na sobrevivência e não exige site de seed, download de terceiros nem comando."
+      },
+      {
+        "title": "3. Siga o marcador pela superfície",
+        "text": "Viaje na direção mostrada e use rios, litoral e relevo como referência. Confira se o marcador do jogador se move como esperado; se estiver na borda do mapa, continue para aquele lado até revelar mais terreno. Leve barco ou blocos apenas se ajudarem na rota. Em uma volta longa pelo oceano, carregue comida e planeje como retornar."
+      },
+      {
+        "title": "4. Procure a estrutura por baixo com segurança",
+        "text": "A câmara de desafios fica no subsolo, então o ponto da superfície é só o início. Procure uma entrada de caverna ou cave uma escada controlada com espaço para recuar. Não cave reto para baixo sem saber se há um buraco, lava ou piso desconhecido. Escute os monstros, observe o cobre e o tufo da estrutura e marque o caminho de volta à superfície."
+      },
+      {
+        "title": "5. Use /locate apenas se for permitido",
+        "text": "Em um mundo de teste ou onde truques são aceitáveis, digite /locate structure e escolha a opção de câmaras de desafios sugerida pela sua versão. Java pode mostrar o identificador com o prefixo minecraft:. No Bedrock, permissões de servidor e conquistas seguem regras diferentes; use a sugestão do jogo em vez de copiar um comando antigo de outra edição."
+      },
+      {
+        "title": "6. Confira o resultado antes de uma viagem longa",
+        "text": "Se o mapa ou comando indicar um lugar sem entrada visível, não conclua que a estrutura sumiu. Ela pode estar sob uma colina, caverna ou fundo do oceano. Verifique edição, versão do mundo, direção do marcador e se o chunk foi criado antes do recurso existir. Um mapa externo de seed ajuda a planejar quando edição e versão correspondem ao seu mundo, mas também não garante uma porta exatamente no ponto marcado."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Escolha o caminho adequado ao seu mundo",
+    "title": "Mapa de sobrevivência ou busca em cavernas?",
+    "paragraphs": [
+      "O mapa explorador é a melhor primeira opção para ter uma rota clara sem ativar truques. Ele troca a procura aleatória por uma direção e um destino visível, mas a parte subterrânea ainda depende de você. Se conquistas ou um save de longo prazo são importantes, faça uma cópia do mundo antes de mudar as configurações.",
+      "Explorar cavernas é mais lento e imprevisível, mas faz parte da sobrevivência normal. Percorra cavernas conectadas, reconheça o cobre e o tufo da estrutura e guarde recursos para voltar. Uma caverna pode passar perto da câmara sem abrir uma sala útil. Marque os caminhos e não gaste toda a comida num beco sem saída.",
+      "Um mapa de seed ou /locate pode ajudar em um mundo criativo de teste. São ferramentas de orientação, não provas de que há uma entrada exposta, uma sala segura ou um item específico. Confira se edição e versão coincidem. O guia de seeds do Minecraft da Verity mostra como verificar uma seed antes de usá-la no seu mundo principal."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-methods.svg",
+      "alt": "Diagrama original que compara o trajeto do mapa explorador com a busca por cavernas naturais; sem interface do jogo",
+      "caption": "Comparação esquemática: mapa na rota de cima, cavernas e exploração cuidadosa na rota de baixo. Não é uma captura de tela.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Comparação de métodos",
+    "title": "Qual método usar para localizar câmaras de desafios?",
+    "description": "Escolha de acordo com as regras do mundo, e não só pela velocidade. Todos os métodos ainda exigem uma navegação subterrânea segura.",
+    "headers": [
+      "Método",
+      "O que precisa",
+      "Melhor uso e limite"
+    ],
+    "rows": [
+      [
+        "Mapa do cartógrafo",
+        "Cartógrafo e a oferta do mapa",
+        "Melhor pista na sobrevivência; aponta a estrutura, não uma porta."
+      ],
+      [
+        "Cavernas ou mineração",
+        "Tempo, comida, luz, blocos e rota de volta",
+        "Mantém as regras normais; a busca é menos previsível."
+      ],
+      [
+        "/locate structure",
+        "Truques ou permissão do servidor; sintaxe da edição",
+        "Rápido para testar; pode afetar conquistas e não fornece caminho seguro."
+      ],
+      [
+        "Mapa de seed na web",
+        "Seed, edição e versão corretas",
+        "Ajuda a planejar um teste; pode errar se versão ou configuração diferir."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Entenda o ciclo das recompensas",
+    "title": "Gerador de teste, chave e cofre: como funciona?",
+    "paragraphs": [
+      "Um gerador de teste é um bloco especial de desafio, não um gerador comum de monstros. Quando um jogador se aproxima, ele pode iniciar um encontro com vários inimigos hostis. As salas, grupos de criaturas e dificuldade variam dentro da estrutura gerada. Não fique parado numa porta sem espaço para recuar: use escudo e cobertura, mantenha a visão do ambiente e saia se sua saúde ou comida estiver baixa.",
+      "Derrotar o encontro encerra o teste atual daquele gerador. Ele pode ejetar uma recompensa, incluindo uma chave de teste, mas a chave não cai todas as vezes. Confira a sala em busca de recursos e marque os geradores que já foram concluídos. Você pode sair e voltar depois; não precisa ativar todos os cômodos numa única expedição.",
+      "Um cofre é um bloco de recompensa separado e trancado. Leve uma chave de teste e use-a no cofre. Cada jogador pode receber a recompensa daquele cofre para si; um colega abrir o bloco não consome necessariamente a sua tentativa pessoal. Cofres ominosos precisam de uma chave de teste ominosa, por isso não espere que uma chave normal abra todo bloco parecido com cofre.",
+      "Testes ominosos aumentam a dificuldade e podem mudar as recompensas disponíveis. Se esta é sua primeira visita, não leve um efeito ominoso nem comece uma versão difícil sem saber o que ela muda. Aprenda primeiro o layout e o ritmo dos geradores, depois decida se o desafio extra vale o risco na edição e versão que você está usando."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-encounter-loop.svg",
+      "alt": "Diagrama original que liga o combate do gerador a uma possível chave e a um cofre separado; não é captura de tela",
+      "caption": "A chave é uma recompensa possível e o cofre é outro bloco. Este é um diagrama das mecânicas, não uma cena real do jogo.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Antes de entrar",
+    "title": "Erros comuns em uma expedição às câmaras de desafios",
+    "description": "Preparar a rota evita que a busca com mapa vire uma missão de resgate dentro de uma caverna.",
+    "cards": [
+      {
+        "title": "Tratar o marcador como uma porta",
+        "text": "O mapa aponta para a estrutura. Talvez você precise achar uma caverna ou descer com cuidado antes de alcançar uma sala."
+      },
+      {
+        "title": "Procurar apenas em chunks antigos",
+        "text": "Estruturas novas não reescrevem o terreno explorado. Vá para terreno não gerado e confira a versão do mundo."
+      },
+      {
+        "title": "Ativar todos os geradores de uma vez",
+        "text": "Vários caminhos e ataques à distância complicam a sala. Mantenha uma saída e limpe um encontro por vez."
+      },
+      {
+        "title": "Esperar uma chave ou saque raro",
+        "text": "Uma chave pode aparecer e os cofres usam uma lista de recompensas. Planeje explorar, não receber um item garantido."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continue explorando",
+    "title": "Guias de Minecraft relacionados",
+    "description": "Estas páginas cobrem decisões próximas sem repetir a explicação das câmaras de desafios.",
+    "links": [
+      {
+        "title": "Seeds de Minecraft",
+        "text": "Escolha um mundo pelo objetivo e confira edição, versão e terreno numa cópia.",
+        "url": "/minecraft-seeds/",
+        "cta": "Conferir seeds"
+      },
+      {
+        "title": "Java e Bedrock",
+        "text": "Compare as edições antes de usar comandos, mapas, mods ou ferramentas de mundo.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar edições"
+      },
+      {
+        "title": "Sala de trocas de aldeões",
+        "text": "Organize os postos de trabalho ao preparar uma rota de troca com um cartógrafo.",
+        "url": "/villager-trading-hall/",
+        "cta": "Ler guia de aldeões"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Fontes primárias e referências",
+    "title": "Confira as regras da edição atual",
+    "description": "Estas referências apoiam os detalhes da estrutura, da atualização e dos comandos. Quando a sintaxe variar, priorize a sugestão do jogo instalado.",
+    "links": [
+      {
+        "title": "Minecraft: visão geral da câmara de desafios",
+        "text": "Descrição oficial de câmaras subterrâneas, mapas de cartógrafo, cobre e tufo, geradores e cofres.",
+        "url": "https://www.minecraft.net/pt-br/article/trial-chamber",
+        "cta": "Abrir visão geral oficial"
+      },
+      {
+        "title": "Atualização Tricky Trials",
+        "text": "Descrição oficial de recursos e imagens da atualização. Este guia não republica essas imagens.",
+        "url": "https://www.minecraft.net/pt-br/updates/tricky-trials",
+        "cta": "Abrir atualização"
+      },
+      {
+        "title": "Referência Bedrock para /locate",
+        "text": "A documentação da Microsoft lista a permissão e a sintaxe para localizar estruturas no Bedrock.",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/reference/content/commandsreference/examples/commands/locate?view=minecraft-bedrock-stable",
+        "cta": "Ler documentação"
+      },
+      {
+        "title": "Tutorial de combate do Minecraft Wiki",
+        "text": "Referência da comunidade para busca e encontros; confira detalhes que mudam conforme a versão.",
+        "url": "https://minecraft.wiki/w/Tutorial:Defeating_trial_chambers",
+        "cta": "Ler tutorial da comunidade"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Dúvidas sobre câmaras de desafios do Minecraft",
+    "items": [
+      {
+        "question": "Como encontro câmaras de desafios no Minecraft sobrevivência?",
+        "answer": "Negocie com um cartógrafo até ele oferecer o mapa explorador de provas, siga o marcador e desça com segurança. Explorar cavernas também funciona sem truques. O mapa indica a área da estrutura, não uma entrada garantida."
+      },
+      {
+        "question": "Qual comando encontra câmaras de desafios no Minecraft Java?",
+        "answer": "Com truques ou permissão, digite /locate structure e selecione a sugestão atual para as câmaras. Java recente pode mostrar minecraft:trial_chambers; use o preenchimento automático."
+      },
+      {
+        "question": "Dá para encontrar câmaras de desafios no Minecraft Bedrock?",
+        "answer": "Sim, se a versão do mundo inclui a estrutura. Use o mapa do cartógrafo ou /locate no Bedrock quando truques e permissões permitirem. Comandos e conquistas podem diferir do Java."
+      },
+      {
+        "question": "Por que meu mapa aponta para um lugar sem entrada?",
+        "answer": "O mapa aponta para uma estrutura subterrânea, não para uma porta. Procure cavernas próximas e confira a edição e quando o terreno foi gerado."
+      },
+      {
+        "question": "Todo gerador de teste dá uma chave de teste?",
+        "answer": "Não. A chave é uma recompensa possível, não uma queda garantida em todos os encontros."
+      },
+      {
+        "question": "Como abro um cofre numa câmara de desafios?",
+        "answer": "Use uma chave de teste num cofre normal e uma chave ominosa num cofre ominoso. Cada jogador pode pegar sua própria recompensa."
+      },
+      {
+        "question": "As câmaras de desafios aparecem em mundos antigos?",
+        "answer": "Elas podem gerar em terreno novo depois que o recurso está disponível, mas chunks já gerados normalmente não são reescritos. Explore além das áreas antigas."
+      },
+      {
+        "question": "Devo começar um teste ominoso na primeira visita?",
+        "answer": "É melhor conhecer os encontros normais e o layout primeiro. Testes ominosos são mais difíceis e podem mudar recompensas; confira as regras da edição."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Câmaras de desafios do Minecraft: como encontrar, preparar e pegar o saque",
+      "description": "Guia atualizado para encontrar câmaras de desafios, preparar-se para os combates e entender chaves e cofres por versão.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+      "datePublished": "2026-10-03",
+      "dateModified": "2026-10-03",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/pt/minecraft-trial-chambers/",
+      "inLanguage": "pt"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como encontro câmaras de desafios no Minecraft sobrevivência?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Obtenha o mapa explorador de provas com um cartógrafo ou procure cavernas, e desça com cuidado. O mapa aponta para a área subterrânea, não para uma entrada garantida."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual comando encontra câmaras de desafios no Minecraft Java?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com truques ou permissão, use /locate structure e a sugestão atual. Java recente pode mostrar minecraft:trial_chambers; use o preenchimento automático."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para encontrar câmaras de desafios no Minecraft Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, se o mundo inclui a estrutura. Use mapa do cartógrafo ou /locate no Bedrock quando truques e permissões permitirem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que meu mapa aponta para um lugar sem entrada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ele aponta para uma estrutura subterrânea, não uma porta. Procure cavernas e confira a edição e o terreno gerado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Todo gerador de teste dá uma chave de teste?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Uma chave é uma recompensa possível, não uma queda garantida em todos os encontros."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como abro um cofre numa câmara de desafios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use uma chave de teste num cofre normal e uma chave ominosa num cofre ominoso. Cada jogador pode receber sua recompensa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "As câmaras de desafios aparecem em mundos antigos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elas geram em terreno novo quando disponíveis; chunks já gerados normalmente não são reescritos. Explore além das áreas antigas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Devo começar um teste ominoso na primeira visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Espere até conhecer os encontros normais. Testes ominosos são mais difíceis e podem mudar recompensas; confira as regras atuais."
+          }
+        }
+      ]
+    }
+  }
+}

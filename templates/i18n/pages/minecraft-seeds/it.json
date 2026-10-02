@@ -229,6 +229,12 @@
         "url": "/minecraft-bedrock-maps/",
         "text": "Usa questa guida quando devi importare un mondo Bedrock già pronto invece di generare il terreno con un seed.",
         "cta": "Apri la guida mappe Bedrock"
+      },
+      {
+        "title": "Camere delle prove Minecraft",
+        "text": "Guida per trovare la struttura sotterranea, prepararsi e capire chiavi e caveau.",
+        "url": "/minecraft-trial-chambers/",
+        "cta": "Leggi la guida"
       }
     ]
   },

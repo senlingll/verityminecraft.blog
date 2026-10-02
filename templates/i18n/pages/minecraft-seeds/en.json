@@ -229,6 +229,12 @@
         "url": "/minecraft-bedrock-maps/",
         "text": "Use this guide when you need a finished Bedrock world file rather than a seed that generates terrain.",
         "cta": "Open Bedrock maps guide"
+      },
+      {
+        "title": "Minecraft Trial Chambers",
+        "text": "Use the new guide to find an underground chamber, prepare, and understand Trial Keys and Vaults.",
+        "url": "/minecraft-trial-chambers/",
+        "cta": "Read the Trial Chambers guide"
       }
     ]
   },

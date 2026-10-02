@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <title>Explanatory diagram: trial spawner encounter, possible key reward, and vault</title>
+  <rect width="1200" height="800" rx="28" fill="#F5F8F9"/>
+  <path d="M135 405H1065" stroke="#B7CDD4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M382 405H515M686 405H816" stroke="#E67B5B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M493 381L522 405L493 429M794 381L823 405L794 429" stroke="#233A53" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="230" cy="405" r="132" fill="#FFFFFF" stroke="#233A53" stroke-width="13"/>
+  <rect x="177" y="347" width="106" height="117" rx="18" fill="#314D59"/>
+  <path d="M199 368H261M199 392H261M199 416H261" stroke="#83C3B8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M199 440H214M246 440H261" stroke="#E67B5B" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="575" cy="405" r="132" fill="#FFFFFF" stroke="#233A53" stroke-width="13"/>
+  <path d="M521 463L521 365L575 326L629 365L629 463" fill="#E5EEF0" stroke="#486573" stroke-width="12" stroke-linejoin="round"/>
+  <circle cx="549" cy="392" r="12" fill="#E67B5B"/>
+  <circle cx="601" cy="392" r="12" fill="#E67B5B"/>
+  <path d="M546 432L557 414L568 432M582 432L593 414L604 432" stroke="#486573" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="575" cy="344" r="12" fill="#83C3B8"/>
+  <circle cx="921" cy="405" r="132" fill="#FFFFFF" stroke="#233A53" stroke-width="13"/>
+  <path d="M866 367H976V458H866V367Z" fill="#D7E2E1" stroke="#486573" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M866 391H976M899 367V391M943 367V391" stroke="#B66B4C" stroke-width="13"/>
+  <path d="M921 402L935 417L921 432L907 417L921 402Z" fill="#E67B5B"/>
+  <path d="M1060 405H1116M1094 383L1118 405L1094 427" stroke="#7A9EAA" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M138 605H1062" stroke="#D7E4E9" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="230" cy="605" r="18" fill="#E67B5B"/><circle cx="575" cy="605" r="18" fill="#83C3B8"/><circle cx="921" cy="605" r="18" fill="#E67B5B"/>
+</svg>

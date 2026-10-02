@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "Chambres d’épreuves Minecraft : guide et butin",
+    "description": "Trouvez les chambres d’épreuves de Minecraft avec une carte de cartographe ou une commande, préparez les combats et comprenez les clés et coffres-forts en Java et Bedrock.",
+    "image": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guide d’exploration et de combat",
+    "title": "Chambres d’épreuves Minecraft : comment les trouver, s’y préparer et récupérer le butin",
+    "lede": "Les chambres d’épreuves de Minecraft sont des structures souterraines de la Surface, construites avec du cuivre et du tuf. Leurs salles mêlent exploration, pièges, générateurs d’épreuves et récompenses. En survie, la méthode la plus claire consiste à faire du commerce avec un cartographe pour obtenir une carte d’exploration, puis à descendre prudemment près de son repère. Si les commandes sont autorisées, la commande de localisation aide à trouver la structure, mais elle ne montre pas une entrée sûre.",
+    "support": "Ce guide distingue la recherche en survie de l’usage des commandes, indique quoi emporter et explique la séquence générateur, clé d’épreuve possible, coffre-fort. Les commandes et certaines mécaniques varient selon l’édition et la version : utilisez les suggestions du jeu installé. Vérifié le 3 octobre 2026.",
+    "actions": [
+      {
+        "label": "Comparer Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Choisir et tester une graine",
+        "url": "/minecraft-seeds/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+      "alt": "Schéma original d’un itinéraire depuis une carte vers une entrée souterraine abstraite ; ce n’est pas une capture de Minecraft",
+      "caption": "Schéma explicatif, ni scène de jeu ni carte d’un monde réel. Il montre pourquoi un repère demande encore une navigation souterraine prudente.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "La méthode la plus sûre pour trouver une chambre d’épreuves",
+    "paragraphs": [
+      "Dans un monde de survie normal, cherchez un villageois cartographe et vérifiez ses échanges à mesure qu’il progresse. Il peut proposer une carte d’exploration qui indique une chambre d’épreuves proche. Achetez-la si l’offre apparaît, suivez la direction indiquée puis préparez une descente prudente par une grotte ou un escalier creusé. La carte mène vers la zone de la structure ; elle ne marque ni porte, ni escalier d’accès, et ne garantit pas que la chambre se trouve juste sous vos pieds.",
+      "Si les commandes sont autorisées, saisissez la suggestion actuelle /locate structure et sélectionnez la chambre d’épreuves proposée par le jeu. Dans les versions récentes de Java, l’identifiant peut s’afficher sous la forme minecraft:trial_chambers ; en Bedrock, fiez-vous à l’autocomplétion et aux permissions de l’édition. Une commande nécessite les triches ou les droits du serveur. Elle fournit des coordonnées, pas un chemin d’entrée sécurisé, et peut désactiver des succès dans certains mondes.",
+      "Avant de descendre, emportez de la nourriture, un bouclier, une arme fiable, des blocs de rechange et une pioche. Éclairez votre chemin, prévoyez une sortie et combattez un générateur d’épreuves à la fois. À la fin de son épreuve, un générateur peut expulser une clé d’épreuve. Utilisez la clé adaptée sur un coffre-fort pour obtenir sa récompense ; l’ouverture par un autre joueur ne consomme pas forcément votre propre récompense. Ni la clé ni un objet précis ne sont garantis."
+    ],
+    "cards": [
+      {
+        "title": "Carte en survie",
+        "text": "La carte du cartographe est le meilleur point de départ sans triche. Suivez le repère, utilisez le terrain et cherchez encore sous terre."
+      },
+      {
+        "title": "Commande pour tester",
+        "text": "Avec les triches et l’autorisation nécessaires, une commande localise la structure. Considérez le résultat comme un point de repère, pas une porte."
+      },
+      {
+        "title": "Combat pour obtenir une clé",
+        "text": "Terminez chaque combat avec une voie de repli. Le générateur peut donner une clé ; le coffre-fort est un bloc distinct."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Choisir un itinéraire",
+    "title": "Comment trouver les chambres d’épreuves dans Minecraft",
+    "description": "La méthode dépend des succès que vous voulez conserver et de votre façon de jouer en survie. Carte et grottes respectent ces règles ; les commandes sont facultatives et modifient les paramètres du monde.",
+    "items": [
+      {
+        "title": "1. Vérifiez l’édition et la version",
+        "text": "Les chambres d’épreuves sont arrivées avec l’ère Tricky Trials. Vérifiez que votre version Java ou Bedrock contient la structure et déterminez si la zone recherchée a été générée avant son arrivée. Les nouvelles structures ne s’ajoutent pas rétroactivement à tous les chunks déjà générés. Si votre monde date d’une version plus ancienne, rejoignez du terrain qui n’a pas encore été exploré."
+      },
+      {
+        "title": "2. Demandez une carte à un cartographe",
+        "text": "Faites des échanges avec un cartographe jusqu’à ce qu’il puisse proposer une carte d’exploration des chambres d’épreuves. L’offre et les détails du commerce peuvent varier selon la version et l’édition : vérifiez l’échange actuel plutôt qu’une ancienne liste de prix. Cette carte convient à la survie et évite les sites de graines, les téléchargements tiers et les commandes."
+      },
+      {
+        "title": "3. Suivez le repère en surface",
+        "text": "Avancez dans la direction indiquée et utilisez rivières, côtes et reliefs comme points de repère. Vérifiez que votre icône se déplace comme prévu. Si elle reste au bord de la carte, continuez dans cette direction pour révéler la suite. N’emportez un bateau ou des blocs que s’ils servent votre itinéraire ; pour un long détour, prévoyez de la nourriture et un chemin de retour."
+      },
+      {
+        "title": "4. Cherchez sous la surface sans risque",
+        "text": "La chambre d’épreuves est souterraine : le point en surface n’est qu’un début. Cherchez une ouverture de grotte ou creusez un escalier contrôlé où vous pourrez reculer. Ne minez pas à la verticale au-dessus d’un vide, de lave ou d’un sol inconnu. Écoutez les monstres, repérez le cuivre et le tuf de la structure et marquez le chemin du retour vers la surface."
+      },
+      {
+        "title": "5. Utilisez /locate uniquement si c’est permis",
+        "text": "Dans un monde de test ou une partie où les triches sont acceptables, saisissez /locate structure puis choisissez la chambre d’épreuves suggérée par la version du jeu. Java peut afficher l’identifiant avec le préfixe minecraft:. Bedrock, les permissions du serveur et les succès ont des règles différentes ; suivez donc les suggestions du jeu plutôt que de copier une vieille commande d’une autre édition."
+      },
+      {
+        "title": "6. Vérifiez avant un long voyage",
+        "text": "Si la carte ou la commande indique un endroit sans entrée visible, ne concluez pas que la structure est absente. Elle peut se trouver sous une colline, une grotte ou le fond marin. Revérifiez édition, version du monde, direction du repère et date de génération du chunk. Une carte de graine peut aider à planifier si elle correspond à la version et à l’édition de votre monde ; elle ne garantit pas non plus une entrée au point exact."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Choisissez la méthode adaptée à votre monde",
+    "title": "Carte de survie ou recherche dans les grottes ?",
+    "paragraphs": [
+      "La carte d’exploration est le meilleur premier choix si vous voulez un itinéraire sans activer les triches. Elle remplace les recherches au hasard par une direction et une destination visible, mais le chemin sous terre reste à trouver. Si les succès ou une sauvegarde de longue durée comptent, copiez votre monde avant de modifier ses réglages.",
+      "Explorer les grottes est plus lent et imprévisible, mais reste une méthode de survie normale. Parcourez les cavités profondes, reconnaissez le cuivre et le tuf de la structure et gardez des ressources pour remonter. Une grotte peut passer près d’une chambre sans déboucher dans une salle utile. Marquez les embranchements et ne dépensez pas toute votre nourriture dans une impasse.",
+      "Une carte de graine ou /locate peut être utile dans un monde de test créatif. Ce sont des outils de repérage, pas la preuve qu’une entrée est exposée, qu’une salle est sûre ou qu’un objet précis tombera. Faites correspondre édition et version. Le guide des graines Minecraft de Verity explique comment vérifier une graine avant de l’utiliser dans votre monde principal."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-methods.svg",
+      "alt": "Schéma original comparant l’itinéraire de la carte d’exploration à la recherche naturelle dans des grottes, sans interface de jeu",
+      "caption": "Comparaison de routes : carte en haut, exploration des grottes et minage prudent en bas. Ce dessin est un schéma, pas une capture.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Comparer les méthodes",
+    "title": "Quelle méthode choisir pour localiser une chambre d’épreuves ?",
+    "description": "Choisissez selon les règles de votre monde, pas seulement selon la vitesse. Les trois méthodes demandent encore de naviguer prudemment sous terre.",
+    "headers": [
+      "Méthode",
+      "Ce qu’il faut",
+      "Utile pour et limite"
+    ],
+    "rows": [
+      [
+        "Carte du cartographe",
+        "Un cartographe et l’offre de carte",
+        "Meilleure piste en survie ; indique la structure, pas une porte."
+      ],
+      [
+        "Grottes ou minage",
+        "Temps, nourriture, lumière, blocs et chemin du retour",
+        "Respecte la survie normale ; la découverte est moins prévisible."
+      ],
+      [
+        "/locate structure",
+        "Triches ou autorisation serveur ; syntaxe de l’édition",
+        "Rapide pour un test ; peut affecter les succès et ne donne pas de route sûre."
+      ],
+      [
+        "Carte web de graines",
+        "Graine, édition et version exactes",
+        "Utile pour planifier un test ; résultats incertains si version ou paramètres diffèrent."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Comprendre les récompenses",
+    "title": "Générateur, clé d’épreuve et coffre-fort : le déroulement",
+    "paragraphs": [
+      "Un générateur d’épreuves est un bloc de défi spécial, pas un générateur de monstres ordinaire. Quand un joueur s’approche, il peut lancer une rencontre contre plusieurs créatures hostiles. Les salles, les adversaires et le niveau du défi varient selon la structure générée. Ne restez pas dans une porte sans espace de repli : servez-vous du bouclier et des obstacles, gardez une ligne de vue et reculez si votre santé ou votre nourriture baisse.",
+      "Vaincre la rencontre termine l’épreuve actuelle du générateur. Il peut expulser une récompense, parfois une clé d’épreuve, mais la clé ne tombe pas à chaque fois. Cherchez des ressources dans la salle et marquez les générateurs déjà terminés. Vous pouvez partir et revenir plus tard ; il n’est pas nécessaire d’activer toutes les salles au cours d’une seule expédition.",
+      "Un coffre-fort est un bloc de récompense verrouillé distinct. Apportez une clé d’épreuve et utilisez-la sur le coffre-fort. Chaque joueur peut réclamer la récompense de ce coffre pour soi ; son ouverture par un coéquipier ne consomme pas forcément votre chance personnelle. Les coffres-forts funestes utilisent une clé d’épreuve funeste. Une clé normale n’ouvre donc pas tous les blocs qui ressemblent à un coffre.",
+      "Les épreuves funestes augmentent le défi et peuvent modifier les récompenses disponibles. Pour une première visite, évitez d’arriver avec un effet funeste ou de lancer la version plus difficile avant d’en comprendre le fonctionnement. Apprenez d’abord le plan des salles et le rythme des générateurs, puis décidez si le risque supplémentaire vaut le coup dans votre édition et votre version actuelles."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-encounter-loop.svg",
+      "alt": "Schéma original reliant une rencontre de générateur à une clé possible puis à un coffre-fort séparé ; ce n’est pas une capture",
+      "caption": "La clé est une récompense possible et le coffre-fort est un autre bloc. Schéma des mécaniques, pas scène de jeu réelle.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Avant d’entrer",
+    "title": "Les erreurs fréquentes pendant une expédition",
+    "description": "Un peu de préparation évite de transformer la recherche sur carte en mission de sauvetage dans une grotte.",
+    "cards": [
+      {
+        "title": "Prendre le repère pour une porte",
+        "text": "La carte montre la structure. Il faut parfois trouver une grotte ou descendre prudemment avant d’atteindre une salle."
+      },
+      {
+        "title": "Chercher uniquement dans les anciens chunks",
+        "text": "Les structures nouvelles ne remplacent pas le terrain exploré. Éloignez-vous et vérifiez la version du monde."
+      },
+      {
+        "title": "Activer tous les générateurs à la fois",
+        "text": "Plusieurs couloirs et attaques à distance compliquent le combat. Gardez une sortie et videz une rencontre à la fois."
+      },
+      {
+        "title": "Compter sur une clé ou un objet rare",
+        "text": "Une clé peut tomber et le coffre-fort utilise une table de récompenses. Prévoyez une exploration, pas un objet garanti."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continuer l’exploration",
+    "title": "Guides Minecraft associés",
+    "description": "Ces pages traitent des décisions voisines sans répéter le parcours des chambres d’épreuves.",
+    "links": [
+      {
+        "title": "Graines Minecraft",
+        "text": "Choisissez un monde selon votre objectif et vérifiez édition, version et terrain dans une copie.",
+        "url": "/minecraft-seeds/",
+        "cta": "Vérifier une graine"
+      },
+      {
+        "title": "Java ou Bedrock",
+        "text": "Comparez les éditions avant d’utiliser commandes, cartes, mods ou outils de monde.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparer les éditions"
+      },
+      {
+        "title": "Salle de commerce des villageois",
+        "text": "Organisez les postes de travail avant de préparer votre itinéraire de commerce avec un cartographe.",
+        "url": "/villager-trading-hall/",
+        "cta": "Lire le guide des villageois"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Sources primaires et références",
+    "title": "Vérifier les règles de votre édition",
+    "description": "Ces références étayent la structure, la mise à jour et les commandes. Si la syntaxe diffère, la suggestion du jeu installé fait foi.",
+    "links": [
+      {
+        "title": "Minecraft : présentation de la chambre d’épreuves",
+        "text": "Description officielle des chambres souterraines, cartes de cartographe, cuivre et tuf, générateurs et coffres-forts.",
+        "url": "https://www.minecraft.net/fr-fr/article/trial-chamber",
+        "cta": "Lire la page officielle"
+      },
+      {
+        "title": "Mise à jour Tricky Trials",
+        "text": "Présentation officielle des fonctions et images de la mise à jour. Ce guide ne republie pas ces images.",
+        "url": "https://www.minecraft.net/fr-fr/updates/tricky-trials",
+        "cta": "Voir la mise à jour"
+      },
+      {
+        "title": "Référence Bedrock de /locate",
+        "text": "Microsoft décrit les permissions et la syntaxe pour localiser une structure dans Bedrock.",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/reference/content/commandsreference/examples/commands/locate?view=minecraft-bedrock-stable",
+        "cta": "Lire la documentation"
+      },
+      {
+        "title": "Tutoriel de combat Minecraft Wiki",
+        "text": "Référence communautaire pour trouver les chambres et préparer les combats ; vérifiez les détails selon la version.",
+        "url": "https://minecraft.wiki/w/Tutorial:Defeating_trial_chambers",
+        "cta": "Lire le tutoriel communautaire"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "FAQ des chambres d’épreuves Minecraft",
+    "items": [
+      {
+        "question": "Comment trouver les chambres d’épreuves de Minecraft en survie ?",
+        "answer": "Faites monter un cartographe jusqu’à l’offre de carte d’exploration, suivez le repère et descendez prudemment. Les grottes sont une autre option sans triche. La carte indique la zone de la structure, pas une entrée garantie."
+      },
+      {
+        "question": "Quelle commande trouve une chambre d’épreuves dans Minecraft Java ?",
+        "answer": "Avec les triches ou l’autorisation nécessaire, saisissez /locate structure et choisissez la suggestion actuelle. Java récent peut afficher minecraft:trial_chambers ; utilisez l’autocomplétion de votre version."
+      },
+      {
+        "question": "Peut-on trouver les chambres d’épreuves dans Minecraft Bedrock ?",
+        "answer": "Oui, si la version du monde inclut la structure. Utilisez une carte de cartographe ou /locate dans Bedrock si les triches et permissions le permettent. Commandes et succès peuvent différer de Java."
+      },
+      {
+        "question": "Pourquoi la carte indique-t-elle un endroit sans entrée ?",
+        "answer": "Elle indique une structure souterraine, pas une porte. Cherchez des grottes proches et vérifiez l’édition ainsi que la génération du terrain."
+      },
+      {
+        "question": "Chaque générateur donne-t-il une clé d’épreuve ?",
+        "answer": "Non. La clé est une récompense possible, pas une garantie à chaque rencontre. Les objets varient, alors ne comptez pas sur un générateur pour un butin rare."
+      },
+      {
+        "question": "Comment ouvrir un coffre-fort de chambre d’épreuves ?",
+        "answer": "Utilisez une clé d’épreuve sur un coffre-fort normal et une clé d’épreuve funeste sur un coffre-fort funeste. Chaque joueur peut réclamer sa récompense."
+      },
+      {
+        "question": "Les chambres d’épreuves apparaissent-elles dans les anciens mondes ?",
+        "answer": "Elles peuvent apparaître dans un terrain nouveau une fois la fonction disponible, mais les chunks déjà générés ne sont généralement pas modifiés. Explorez au-delà des anciennes zones."
+      },
+      {
+        "question": "Faut-il commencer une épreuve funeste lors de la première visite ?",
+        "answer": "Mieux vaut connaître les rencontres normales et le plan des salles. Les épreuves funestes sont plus difficiles et peuvent changer les récompenses ; vérifiez les règles de l’édition."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Chambres d’épreuves Minecraft : comment les trouver, s’y préparer et récupérer le butin",
+      "description": "Guide actualisé selon la version pour trouver les chambres d’épreuves, préparer les combats et comprendre les clés d’épreuve et coffres-forts.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+      "datePublished": "2026-10-03",
+      "dateModified": "2026-10-03",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/fr/minecraft-trial-chambers/",
+      "inLanguage": "fr"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Comment trouver les chambres d’épreuves de Minecraft en survie ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Obtenez une carte d’exploration auprès d’un cartographe ou cherchez des grottes, puis descendez prudemment. Le repère indique la zone souterraine, pas une entrée garantie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle commande trouve une chambre d’épreuves dans Minecraft Java ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avec les triches ou l’autorisation nécessaire, utilisez /locate structure et sa suggestion actuelle. Java récent peut afficher minecraft:trial_chambers ; utilisez l’autocomplétion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on trouver les chambres d’épreuves dans Minecraft Bedrock ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui si le monde inclut la structure. Utilisez une carte de cartographe ou /locate dans Bedrock lorsque les triches et permissions le permettent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi la carte indique-t-elle un endroit sans entrée ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elle marque une structure souterraine, pas une porte. Cherchez une grotte et vérifiez l’édition et le terrain généré."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chaque générateur donne-t-il une clé d’épreuve ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Une clé est une récompense possible et n’est pas garantie à chaque rencontre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment ouvrir un coffre-fort de chambre d’épreuves ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utilisez une clé d’épreuve pour un coffre-fort normal et une clé funeste pour un coffre-fort funeste. Chaque joueur peut réclamer sa récompense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les chambres d’épreuves apparaissent-elles dans les anciens mondes ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elles apparaissent dans du terrain nouveau une fois disponibles ; les chunks déjà générés ne sont généralement pas modifiés. Explorez plus loin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Faut-il commencer une épreuve funeste lors de la première visite ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attendez de connaître les combats normaux. Les épreuves funestes sont plus difficiles et peuvent changer les récompenses ; vérifiez les règles actuelles."
+          }
+        }
+      ]
+    }
+  }
+}

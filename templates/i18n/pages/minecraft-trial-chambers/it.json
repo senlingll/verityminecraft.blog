@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "Camere delle prove Minecraft: trovare e saccheggiare",
+    "description": "Trova le camere delle prove di Minecraft con una mappa del cartografo o i comandi, preparati agli scontri e scopri come funzionano chiavi e caveau in Java e Bedrock.",
+    "image": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida a esplorazione e combattimento",
+    "title": "Camere delle prove Minecraft: come trovarle, prepararsi e raccogliere il bottino",
+    "lede": "Le camere delle prove di Minecraft sono strutture sotterranee dell’Overworld costruite con rame e tufo. Le loro stanze combinano esplorazione, trappole, generatrici di prova e ricompense. In sopravvivenza, il percorso più chiaro è commerciare con un cartografo per ottenere una mappa delle prove e poi scendere con attenzione vicino al suo indicatore. Se i comandi sono consentiti, un comando di localizzazione aiuta a trovare la struttura, ma non indica un ingresso sicuro.",
+    "support": "Questa guida distingue la ricerca in sopravvivenza dai comandi, spiega cosa portare e segue la sequenza generatrice, possibile chiave delle prove e caveau. Comandi e meccaniche possono variare in base a edizione e versione: usa i suggerimenti del gioco che hai installato. Verificato il 3 ottobre 2026.",
+    "actions": [
+      {
+        "label": "Confronta Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Scegli e prova un seed",
+        "url": "/minecraft-seeds/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+      "alt": "Schema originale del percorso da una mappa a un ingresso sotterraneo astratto; non è uno screenshot di Minecraft",
+      "caption": "Schema esplicativo, non è una scena di gioco né una mappa di un mondo reale. Mostra perché un indicatore richiede ancora una discesa prudente.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Il modo più sicuro per trovare una camera delle prove",
+    "paragraphs": [
+      "In un normale mondo sopravvivenza, cerca un abitante cartografo e controlla i suoi scambi mentre sale di livello. Può offrire una mappa delle prove che indica una camera vicina. Quando compare l’offerta, prendi la mappa, segui la direzione e pianifica una discesa sicura attraverso una grotta o una scala scavata. La mappa ti porta nella zona della struttura: non segna una porta, una scala d’accesso o la garanzia che la camera inizi esattamente sotto i tuoi piedi.",
+      "Se i comandi sono consentiti, digita il suggerimento attuale di /locate structure e seleziona la voce delle camere delle prove proposta dal gioco. Nelle versioni Java recenti l’identificatore può apparire come minecraft:trial_chambers; in Bedrock segui il completamento automatico e le autorizzazioni di quell’edizione. Il comando richiede trucchi o permessi del server. Restituisce coordinate, non un percorso sicuro verso l’ingresso, e in alcuni mondi può disattivare gli obiettivi.",
+      "Prima di scendere, porta cibo, scudo, un’arma affidabile, blocchi di riserva e un piccone. Illumina il percorso, tieni a mente un’uscita e affronta una generatrice di prova alla volta. Quando lo scontro termina, la generatrice può espellere una chiave delle prove. Usa la chiave corretta su un caveau per ottenere la ricompensa; se un altro giocatore apre lo stesso caveau, non consuma necessariamente la tua apertura personale. Né la chiave né un oggetto specifico sono garantiti."
+    ],
+    "cards": [
+      {
+        "title": "Mappa in sopravvivenza",
+        "text": "La mappa del cartografo è il punto di partenza migliore senza trucchi. Segui l’indicatore, usa i punti del terreno e cerca sotto la superficie."
+      },
+      {
+        "title": "Comando per i test",
+        "text": "Con trucchi e permessi, un comando può trovare la struttura. Consideralo un punto di riferimento, non la coordinata di una porta."
+      },
+      {
+        "title": "Combatti per accedere",
+        "text": "Completa ogni scontro mantenendo una via di fuga. Una generatrice può dare una chiave; il caveau è un blocco separato."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Scegli un metodo di ricerca",
+    "title": "Come trovare le camere delle prove in Minecraft",
+    "description": "Il metodo migliore dipende dal fatto che tu voglia conservare gli obiettivi e giocare in normale sopravvivenza. Mappa e grotte mantengono questo stile; i comandi sono facoltativi e cambiano le regole del mondo.",
+    "items": [
+      {
+        "title": "1. Controlla edizione e versione",
+        "text": "Le camere delle prove sono arrivate con l’era di Tricky Trials. Verifica che la versione Java o Bedrock installata includa la struttura e controlla quando è stata generata la zona che vuoi cercare. Le strutture nuove non compaiono retroattivamente in tutti i chunk già creati. Se il mondo è iniziato in una versione precedente, raggiungi terreno che non è ancora stato esplorato."
+      },
+      {
+        "title": "2. Cerca una mappa dal cartografo",
+        "text": "Commercia con un cartografo finché può offrire una mappa di esplorazione delle camere delle prove. L’offerta e i dettagli dello scambio possono cambiare per edizione o versione, quindi controlla il mercato attuale invece di affidarti a un vecchio elenco di prezzi. La mappa funziona in sopravvivenza senza siti di seed, download di terze parti o comandi."
+      },
+      {
+        "title": "3. Segui l’indicatore in superficie",
+        "text": "Viaggia nella direzione indicata e usa fiumi, coste e rilievi come riferimenti. Verifica che il simbolo del giocatore si muova come previsto; se rimane sul bordo della mappa, continua nella stessa direzione per rivelare altra zona. Porta una barca o blocchi solo se aiutano il percorso e, per una deviazione lunga, conserva cibo e una via di ritorno."
+      },
+      {
+        "title": "4. Cerca sotto terra con prudenza",
+        "text": "La camera è sotterranea, quindi il punto in superficie è solo l’inizio. Cerca un’apertura in una grotta oppure scava una scala controllata con spazio per arretrare. Non scavare dritto in basso senza sapere se ci sono vuoto, lava o un pavimento sconosciuto. Ascolta i nemici, osserva rame e tufo della struttura e segna la strada per tornare alla superficie."
+      },
+      {
+        "title": "5. Usa /locate solo quando è permesso",
+        "text": "In un mondo di prova o dove i trucchi sono accettati, digita /locate structure e scegli la voce delle camere delle prove suggerita dal gioco attuale. Java può mostrare l’identificatore con il prefisso minecraft:. Bedrock, i permessi del server e gli obiettivi seguono regole diverse: usa il completamento automatico del gioco invece di copiare un vecchio comando di un’altra edizione."
+      },
+      {
+        "title": "6. Verifica prima di un viaggio lungo",
+        "text": "Se mappa o comando indicano un punto senza ingresso visibile, non concludere che la struttura manchi. Può trovarsi sotto una collina, una grotta o il fondale marino. Ricontrolla edizione, versione del mondo, direzione dell’indicatore e generazione del chunk. Una mappa di seed aiuta solo se versione ed edizione corrispondono al mondo; non garantisce una porta proprio sul punto segnato."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Scegli il percorso adatto al tuo mondo",
+    "title": "Mappa di sopravvivenza o ricerca nelle grotte?",
+    "paragraphs": [
+      "La mappa di esplorazione è la prima scelta se vuoi una direzione chiara senza attivare trucchi. Sostituisce il vagare casuale con un obiettivo visibile, ma il percorso sotterraneo va comunque trovato. Se obiettivi o un salvataggio a lungo termine sono importanti, crea una copia del mondo prima di cambiare le impostazioni.",
+      "Esplorare grotte è più lento e meno prevedibile, ma resta un metodo normale di sopravvivenza. Percorri sistemi collegati, riconosci rame e tufo della struttura e tieni risorse per risalire. Una grotta può passare vicino a una camera senza sboccare in una stanza utile. Segna le diramazioni e non consumare tutto il cibo in un vicolo cieco.",
+      "Una mappa di seed o /locate può aiutare in un mondo creativo di prova. Sono strumenti di orientamento, non prove che un ingresso sia esposto, una stanza sia sicura o che compaia un oggetto specifico. Fai corrispondere edizione e versione. La guida ai seed di Minecraft di Verity spiega come controllare un seed prima di usarlo nel mondo principale."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-methods.svg",
+      "alt": "Schema originale che confronta mappa di esplorazione e ricerca naturale nelle grotte, senza interfaccia di gioco",
+      "caption": "Confronto degli itinerari: mappa in alto, grotte ed esplorazione attenta in basso. È uno schema, non uno screenshot.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "table": {
+    "eyebrow": "Confronto dei metodi",
+    "title": "Quale metodo usare per trovare una camera delle prove?",
+    "description": "Scegli in base alle regole del tuo mondo, non solo alla velocità. Tutti i metodi richiedono comunque una navigazione sotterranea sicura.",
+    "headers": [
+      "Metodo",
+      "Requisiti",
+      "Ideale per e limite"
+    ],
+    "rows": [
+      [
+        "Mappa del cartografo",
+        "Cartografo e relativo scambio della mappa",
+        "Migliore pista in sopravvivenza; indica la struttura, non una porta."
+      ],
+      [
+        "Grotte o scavo",
+        "Tempo, cibo, luce, blocchi e strada di ritorno",
+        "Mantiene le regole normali; ricerca meno prevedibile."
+      ],
+      [
+        "/locate structure",
+        "Trucchi o permesso server; sintassi dell’edizione",
+        "Rapido per testare; può influire sugli obiettivi e non indica una via sicura."
+      ],
+      [
+        "Mappa seed online",
+        "Seed, edizione e versione corrette",
+        "Utile per pianificare un test; risultati non affidabili se versione o impostazioni differiscono."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Capire la ricompensa",
+    "title": "Generatrice di prova, chiave e caveau: cosa succede?",
+    "paragraphs": [
+      "Una generatrice di prova è un blocco speciale di sfida, non una normale generatrice di mostri. Quando un giocatore si avvicina, può avviare uno scontro con un gruppo di creature ostili. Stanze, combinazioni di nemici e difficoltà variano nella struttura generata. Non restare in una porta senza spazio per ritirarti: usa scudo e copertura, mantieni la visuale e allontanati se salute o cibo scendono troppo.",
+      "Quando sconfiggi il gruppo, la prova attuale della generatrice termina. Può espellere una ricompensa, inclusa una chiave delle prove, ma non è garantita ogni volta. Controlla la stanza e segna le generatrici già completate. Puoi uscire e tornare più tardi; non serve attivare tutte le stanze in un’unica spedizione.",
+      "Un caveau è un blocco ricompensa distinto e chiuso. Porta una chiave delle prove e usala sul caveau. Ogni giocatore può prendere la ricompensa del caveau per sé; l’apertura di un compagno non consuma automaticamente la tua possibilità personale. I caveau inquietanti richiedono una chiave delle prove inquietante, quindi una chiave normale non apre ogni blocco simile a un caveau.",
+      "Le prove inquietanti aumentano la difficoltà e possono cambiare le ricompense disponibili. Se è la tua prima visita, non portare un effetto inquietante o iniziare la variante difficile senza sapere cosa comporta. Impara prima la disposizione e il ritmo delle generatrici, poi valuta il rischio aggiuntivo per l’edizione e la versione che stai giocando."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-trial-chambers/trial-chambers-encounter-loop.svg",
+      "alt": "Schema originale di uno scontro con generatrice, possibile chiave e caveau separato; non è uno screenshot",
+      "caption": "La chiave è una possibile ricompensa e il caveau è un blocco distinto. Schema delle meccaniche, non una scena reale.",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Prima di entrare",
+    "title": "Errori comuni durante una spedizione nelle camere",
+    "description": "Un po’ di preparazione evita che la ricerca con la mappa diventi un recupero da una grotta.",
+    "cards": [
+      {
+        "title": "Scambiare l’indicatore per una porta",
+        "text": "La mappa indica la struttura. Potresti dover trovare una grotta o scendere con cautela prima di raggiungere una stanza."
+      },
+      {
+        "title": "Cercare solo nei chunk vecchi",
+        "text": "Le strutture nuove non riscrivono il terreno esplorato. Raggiungi zone non generate e verifica la versione."
+      },
+      {
+        "title": "Attivare tutte le generatrici insieme",
+        "text": "Più corridoi e attacchi a distanza rendono la stanza difficile da gestire. Tieni una via d’uscita e affronta una prova alla volta."
+      },
+      {
+        "title": "Aspettarsi chiavi e bottino raro",
+        "text": "Una chiave può cadere e i caveau usano un insieme di ricompense. Pianifica l’esplorazione, non un oggetto garantito."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continua a esplorare",
+    "title": "Guide Minecraft correlate",
+    "description": "Queste guide affrontano decisioni vicine senza ripetere il percorso delle camere delle prove.",
+    "links": [
+      {
+        "title": "Seed di Minecraft",
+        "text": "Scegli un mondo in base al tuo obiettivo e verifica edizione, versione e terreno in una copia.",
+        "url": "/minecraft-seeds/",
+        "cta": "Controlla i seed"
+      },
+      {
+        "title": "Java o Bedrock",
+        "text": "Confronta le edizioni prima di usare comandi, mappe, mod o strumenti per il mondo.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Confronta le edizioni"
+      },
+      {
+        "title": "Sala scambi dei villager",
+        "text": "Organizza le postazioni di lavoro quando prepari un percorso di commercio con il cartografo.",
+        "url": "/villager-trading-hall/",
+        "cta": "Leggi la guida ai villager"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Fonti primarie e riferimenti",
+    "title": "Controlla le regole dell’edizione in uso",
+    "description": "Questi riferimenti riguardano struttura, aggiornamento e comandi. Se la sintassi è diversa, dai priorità ai suggerimenti del gioco attuale.",
+    "links": [
+      {
+        "title": "Minecraft: panoramica della camera delle prove",
+        "text": "Descrizione ufficiale di strutture sotterranee, mappe del cartografo, rame e tufo, generatrici e caveau.",
+        "url": "https://www.minecraft.net/it-it/article/trial-chamber",
+        "cta": "Apri la panoramica ufficiale"
+      },
+      {
+        "title": "Aggiornamento Tricky Trials",
+        "text": "Descrizioni ufficiali delle funzioni e immagini dell’aggiornamento. Questa guida non ripubblica quelle immagini.",
+        "url": "https://www.minecraft.net/it-it/updates/tricky-trials",
+        "cta": "Apri l’aggiornamento"
+      },
+      {
+        "title": "Riferimento Bedrock per /locate",
+        "text": "Microsoft documenta permessi e sintassi per localizzare strutture in Bedrock.",
+        "url": "https://learn.microsoft.com/en-us/minecraft/creator/reference/content/commandsreference/examples/commands/locate?view=minecraft-bedrock-stable",
+        "cta": "Leggi la documentazione"
+      },
+      {
+        "title": "Tutorial di combattimento Minecraft Wiki",
+        "text": "Riferimento della community per ricerca e combattimenti; controlla i dettagli che dipendono dalla versione.",
+        "url": "https://minecraft.wiki/w/Tutorial:Defeating_trial_chambers",
+        "cta": "Leggi il tutorial community"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "FAQ sulle camere delle prove di Minecraft",
+    "items": [
+      {
+        "question": "Come trovo le camere delle prove di Minecraft in sopravvivenza?",
+        "answer": "Fai salire di livello un cartografo finché offre una mappa delle prove, segui l’indicatore e scendi con attenzione. Anche le grotte sono un’opzione senza trucchi. La mappa segna la zona della struttura, non un ingresso garantito."
+      },
+      {
+        "question": "Quale comando trova le camere delle prove in Minecraft Java?",
+        "answer": "Con trucchi o permesso, digita /locate structure e scegli il suggerimento attuale per le camere. Java recente può mostrare minecraft:trial_chambers; usa il completamento automatico."
+      },
+      {
+        "question": "Posso trovare le camere delle prove in Minecraft Bedrock?",
+        "answer": "Sì, se la versione del mondo include la struttura. Usa una mappa del cartografo o /locate in Bedrock se trucchi e permessi lo consentono. Comandi e obiettivi possono differire da Java."
+      },
+      {
+        "question": "Perché la mappa indica un posto senza ingresso?",
+        "answer": "La mappa indica una struttura sotterranea, non una porta. Cerca grotte vicine e controlla edizione e generazione del terreno."
+      },
+      {
+        "question": "Ogni generatrice di prova lascia una chiave?",
+        "answer": "No. La chiave delle prove è una possibile ricompensa, non un drop garantito in ogni scontro."
+      },
+      {
+        "question": "Come apro un caveau delle camere delle prove?",
+        "answer": "Usa una chiave delle prove su un caveau normale e una chiave delle prove inquietante su un caveau inquietante. Ogni giocatore può reclamare la propria ricompensa."
+      },
+      {
+        "question": "Le camere delle prove si generano nei vecchi mondi?",
+        "answer": "Possono apparire in terreno nuovo quando la funzione è disponibile, ma i chunk già generati in genere non vengono riscritti. Esplora oltre le zone vecchie."
+      },
+      {
+        "question": "Conviene iniziare una prova inquietante alla prima visita?",
+        "answer": "È meglio conoscere gli scontri normali e le stanze. Le prove inquietanti sono più difficili e possono cambiare le ricompense; controlla le regole dell’edizione."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Camere delle prove Minecraft: come trovarle, prepararsi e raccogliere il bottino",
+      "description": "Guida aggiornata alla versione per trovare camere delle prove, prepararsi agli scontri e usare chiavi e caveau.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
+      "datePublished": "2026-10-03",
+      "dateModified": "2026-10-03",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-trial-chambers/",
+      "inLanguage": "it"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Come trovo le camere delle prove di Minecraft in sopravvivenza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ottieni una mappa delle prove da un cartografo o cerca nelle grotte, quindi scendi con attenzione. La mappa indica la zona sotterranea, non un ingresso garantito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quale comando trova le camere delle prove in Minecraft Java?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Con trucchi o permesso, usa /locate structure e il suggerimento attuale. Java recente può mostrare minecraft:trial_chambers; usa il completamento automatico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso trovare le camere delle prove in Minecraft Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, se il mondo include la struttura. Usa una mappa del cartografo o /locate in Bedrock quando trucchi e permessi lo consentono."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Perché la mappa indica un posto senza ingresso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indica una struttura sotterranea, non una porta. Cerca una grotta e controlla edizione e terreno generato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ogni generatrice di prova lascia una chiave?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Una chiave è una possibile ricompensa, non è garantita a ogni scontro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come apro un caveau delle camere delle prove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usa una chiave delle prove per un caveau normale e una chiave inquietante per quello inquietante. Ogni giocatore può reclamare la ricompensa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le camere delle prove si generano nei vecchi mondi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si generano in terreno nuovo quando disponibili; i chunk già generati in genere non vengono riscritti. Esplora oltre le zone vecchie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Conviene iniziare una prova inquietante alla prima visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aspetta di conoscere gli scontri normali. Le prove inquietanti sono più difficili e possono cambiare le ricompense; verifica le regole attuali."
+          }
+        }
+      ]
+    }
+  }
+}

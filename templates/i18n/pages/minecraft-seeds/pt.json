@@ -229,6 +229,12 @@
         "url": "/minecraft-bedrock-maps/",
         "text": "Use este guia quando quiser importar um mundo Bedrock pronto em vez de gerar terreno com uma semente.",
         "cta": "Abrir guia de mapas Bedrock"
+      },
+      {
+        "title": "Câmaras de desafios do Minecraft",
+        "text": "Guia para encontrar a estrutura subterrânea, preparar-se e entender chaves e cofres.",
+        "url": "/minecraft-trial-chambers/",
+        "cta": "Ler o guia"
       }
     ]
   },

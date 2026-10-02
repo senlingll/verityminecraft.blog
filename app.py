@@ -627,6 +627,27 @@ def localized_minecraft_seeds(lang):
     return render_core_page('minecraft-seeds', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-trial-chambers/', strict_slashes=False)
+def minecraft_trial_chambers():
+    """
+    渲染 Minecraft 试炼密室探索与战斗指南页面。
+
+    :return: str，Minecraft 试炼密室指南 HTML 响应内容。
+    """
+    return render_core_page('minecraft-trial-chambers', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-trial-chambers/', strict_slashes=False)
+def localized_minecraft_trial_chambers(lang):
+    """
+    渲染指定语言的 Minecraft 试炼密室探索与战斗指南页面。
+
+    :param lang: 语言代码。
+    :return: str，指定语言的试炼密室指南 HTML 响应内容。
+    """
+    return render_core_page('minecraft-trial-chambers', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/villager-trading-hall/', strict_slashes=False)
 def villager_trading_hall():
     """

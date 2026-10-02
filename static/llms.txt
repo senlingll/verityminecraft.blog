@@ -21,6 +21,7 @@
 - [Minecraft Java vs Bedrock](https://verityminecraft.blog/java-vs-bedrock/): Edition comparison covering devices, mods, crossplay, servers, performance, and Verity file compatibility.
 - [Best Minecraft Bedrock Shaders](https://verityminecraft.blog/bedrock-shaders/): Compatibility-first guide to Vibrant Visuals, RTX/PBR, RenderDragon packs, device checks, and safe testing.
 - [Minecraft Java Shaders Guide](https://verityminecraft.blog/minecraft-java-shaders/): Java shader choices, Iris and OptiFine loader checks, version matching, safe installation, and test-world troubleshooting.
+- [Minecraft Trial Chambers Guide](https://verityminecraft.blog/minecraft-trial-chambers/): Find the structure by Trial Explorer Map or permitted command, plan a safe descent, prepare for Trial Spawners, and understand Trial Keys and Vaults.
 - [Villager Trading Hall Guide](https://verityminecraft.blog/villager-trading-hall/): Build a compact villager trading hall, link workstations one at a time, test trades, and troubleshoot Java/Bedrock differences.
 - [Guía de sala de tradeos de aldeanos](https://verityminecraft.blog/es/villager-trading-hall/)
 - [マイクラ村人交易所ガイド](https://verityminecraft.blog/ja/villager-trading-hall/)
@@ -29,3 +30,10 @@
 - [Guia de sala de trocas de aldeões](https://verityminecraft.blog/pt/villager-trading-hall/)
 - [마인크래프트 주민 거래소 가이드](https://verityminecraft.blog/ko/villager-trading-hall/)
 - [Guida alla sala scambi dei villager](https://verityminecraft.blog/it/villager-trading-hall/)
+- ES Trial Chambers guide: https://verityminecraft.blog/es/minecraft-trial-chambers/
+- JA Trial Chambers guide: https://verityminecraft.blog/ja/minecraft-trial-chambers/
+- FR Trial Chambers guide: https://verityminecraft.blog/fr/minecraft-trial-chambers/
+- DE Trial Chambers guide: https://verityminecraft.blog/de/minecraft-trial-chambers/
+- PT Trial Chambers guide: https://verityminecraft.blog/pt/minecraft-trial-chambers/
+- KO Trial Chambers guide: https://verityminecraft.blog/ko/minecraft-trial-chambers/
+- IT Trial Chambers guide: https://verityminecraft.blog/it/minecraft-trial-chambers/

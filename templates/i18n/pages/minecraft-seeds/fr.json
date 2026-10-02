@@ -229,6 +229,12 @@
         "url": "/minecraft-bedrock-maps/",
         "text": "Utilisez ce guide pour importer un monde Bedrock déjà construit plutôt que de générer un terrain avec une graine.",
         "cta": "Ouvrir le guide des cartes Bedrock"
+      },
+      {
+        "title": "Chambres d’épreuves Minecraft",
+        "text": "Guide pour trouver la structure souterraine, se préparer et comprendre clés et coffres-forts.",
+        "url": "/minecraft-trial-chambers/",
+        "cta": "Lire le guide"
       }
     ]
   },
