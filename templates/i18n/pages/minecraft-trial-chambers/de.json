@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Minecraft-Prüfungskammern: finden, kämpfen, Beute",
+    "title": "Minecraft-Prüfungskammern finden: vorbereiten und Beute sichern",
     "description": "So findest du Minecraft-Prüfungskammern mit einer Kartografenkarte oder Befehlen, bereitest dich auf Kämpfe vor und nutzt Schlüssel und Tresore in Java und Bedrock.",
     "image": "/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
     "og_type": "article"
@@ -9,7 +9,7 @@
     "eyebrow": "Erkundungs- und Kampfguide",
     "title": "Minecraft-Prüfungskammern: So findest, meisterst und plünderst du sie",
     "lede": "Minecraft-Prüfungskammern sind unterirdische Strukturen in der Oberwelt aus Kupfer und Tuff. Ihre Räume verbinden Erkundung, Gefahren, Prüfungs-Spawner und Beute. Im normalen Überlebensmodus ist ein Handel mit einem Kartografen der verlässlichste Start: Er kann eine Prüfungskammer-Karte anbieten, die dich zur Struktur führt. Mit aktivierten Cheats hilft ein Suchbefehl, doch auch er zeigt keinen sicheren Eingang.",
-    "support": "Dieser Guide trennt normale Suche von Befehlen, erklärt die Vorbereitung und zeigt den Ablauf vom Spawner über einen möglichen Prüfungsschlüssel bis zum Tresor. Befehle und einzelne Mechaniken können sich nach Edition und Version unterscheiden; nutze daher die Vorschläge deiner aktuellen Spielversion. Geprüft am 3. Oktober 2026.",
+    "support": "Dieser Leitfaden trennt normale Suche von Befehlen, erklärt die Vorbereitung und zeigt den Ablauf vom Spawner über einen möglichen Prüfungsschlüssel bis zum Tresor. Befehle und einzelne Mechaniken können sich nach Edition und Version unterscheiden; nutze daher die Vorschläge deiner aktuellen Spielversion. Geprüft am 4. Oktober 2026.",
     "actions": [
       {
         "label": "Java und Bedrock vergleichen",
@@ -36,7 +36,7 @@
     "paragraphs": [
       "Suche in einer normalen Überlebenswelt einen Kartografen und prüfe seine Angebote, während er im Beruf aufsteigt. Er kann eine Karte zur nächsten Prüfungskammer verkaufen. Sobald das Angebot erscheint, nimm die Karte, folge ihrer Richtung und plane einen vorsichtigen Abstieg durch eine Höhle oder einen kontrollierten Tunnel. Die Karte weist auf den Bereich der Struktur hin. Sie ist weder eine eingezeichnete Tür noch eine Treppe und garantiert nicht, dass die Kammer direkt unter deinen Füßen beginnt.",
       "Wenn Befehle erlaubt sind, gib den aktuellen Vorschlag für /locate structure ein und wähle den Eintrag für Trial Chambers beziehungsweise Prüfungskammern aus der Autovervollständigung. In neueren Java-Versionen kann die Kennung minecraft:trial_chambers lauten. Bedrock verwendet eigene Vorschläge und Berechtigungen. Befehle benötigen Cheats oder Serverrechte; sie liefern Koordinaten, keinen sicheren Weg hinein, und können in manchen Welten Erfolge deaktivieren.",
-      "Nimm vor dem Abstieg Essen, Schild, eine gute Waffe, Ersatzblöcke und eine Spitzhacke mit. Beleuchte deinen Weg, behalte einen Rückzug im Kopf und kämpfe jeweils gegen einen Prüfungs-Spawner. Nach einem abgeschlossenen Kampf kann ein Prüfungsschlüssel ausgeworfen werden. Mit dem passenden Schlüssel öffnest du einen Tresor. Wenn ein Mitspieler denselben Tresor nutzt, verbraucht das nicht automatisch deine persönliche Belohnung. Schlüssel und bestimmte Beute sind jedoch nicht garantiert."
+      "Nimm vor dem Abstieg Essen, Schild, eine gute Waffe, Ersatzblöcke und eine Spitzhacke mit. Beleuchte deinen Weg, behalte einen Rückzug im Kopf und kämpfe jeweils gegen einen Prüfungs-Spawner. Nach einem abgeschlossenen Kampf kann ein Prüfungsschlüssel ausgeworfen werden. Mit dem passenden Schlüssel öffnest du einen Tresor. Jeder Spieler kann denselben Tresor einmal für die eigene Belohnung öffnen, auch wenn ein Mitspieler ihn bereits geöffnet hat. Schlüssel und bestimmte Beute sind jedoch nicht garantiert."
     ],
     "cards": [
       {
@@ -90,7 +90,7 @@
     "paragraphs": [
       "Die Karte ist die beste erste Wahl, wenn du ohne Cheats eine klare Route möchtest. Sie ersetzt zielloses Suchen durch eine Richtung und ein sichtbares Ziel, aber den Weg unter die Erde musst du selbst finden. Wenn Erfolge oder ein langfristiger Spielstand wichtig sind, lege eine Weltkopie an, bevor du Einstellungen änderst.",
       "Höhlen zu erkunden ist langsamer und weniger vorhersehbar, gehört aber zum normalen Überlebensmodus. Durchsuche verbundene Höhlensysteme, achte auf die Kupfer-Tuff-Blöcke der Struktur und behalte genug Ressourcen für den Rückweg. Eine Höhle kann nahe an einer Prüfungskammer vorbeiführen, ohne eine brauchbare Kammer zu öffnen. Markiere Abzweigungen und verbrauche nicht alle Vorräte in einer Sackgasse.",
-      "Eine Seed-Karte oder /locate kann in einer kreativen Testwelt helfen. Beides ist ein Werkzeug, aber kein Beweis für einen offenen Eingang, einen sicheren Raum oder einen bestimmten Gegenstand. Edition und Version müssen übereinstimmen. Unser Guide zu Minecraft-Seeds erklärt, wie du einen Seed prüfst, bevor du ihn in deiner Hauptwelt verwendest."
+      "Eine Seed-Karte oder /locate kann in einer kreativen Testwelt helfen. Beides ist ein Werkzeug, aber kein Beweis für einen offenen Eingang, einen sicheren Raum oder einen bestimmten Gegenstand. Edition und Version müssen übereinstimmen. Unser Leitfaden zu Minecraft-Seeds erklärt, wie du einen Seed prüfst, bevor du ihn in deiner Hauptwelt verwendest."
     ],
     "image": {
       "src": "/static/images/minecraft-trial-chambers/trial-chambers-methods.svg",
@@ -138,7 +138,7 @@
     "paragraphs": [
       "Ein Prüfungs-Spawner ist ein besonderer Herausforderungsblock und kein gewöhnlicher Monster-Spawner. Nähert sich ein Spieler, kann er einen Kampf gegen mehrere feindliche Kreaturen beginnen. Raum, Gegner und Herausforderung unterscheiden sich innerhalb der generierten Struktur. Bleib nicht ohne Rückzugsplatz in einer Türöffnung stehen. Schild, Deckung und freie Sicht helfen; wenn Gesundheit oder Essen knapp werden, zieh dich zurück.",
       "Sind alle Gegner des aktuellen Kampfes besiegt, endet die Prüfung dieses Spawners. Er kann eine Belohnung auswerfen, darunter einen Prüfungsschlüssel, aber nicht bei jedem Kampf. Prüfe den Raum nach Vorräten und markiere, welche Spawner du bereits geschafft hast. Du kannst die Struktur später weiter erkunden; du musst nicht alle Räume in einem einzigen Durchgang aktivieren.",
-      "Ein Tresor ist ein separater verschlossener Belohnungsblock. Nimm einen Prüfungsschlüssel mit und wende ihn auf den Tresor an. Jeder Spieler kann die Belohnung dieses Tresors für sich selbst beanspruchen; wenn ein Mitspieler ihn öffnet, ist deine persönliche Chance nicht automatisch verbraucht. Ominöse Tresore benötigen einen ominösen Prüfungsschlüssel. Ein normaler Schlüssel passt also nicht zu jedem Tresor.",
+      "Ein Tresor ist ein separater verschlossener Belohnungsblock. Nimm einen Prüfungsschlüssel mit und wende ihn auf den Tresor an. Jeder Spieler kann denselben Tresor einmal für die eigene Belohnung öffnen, auch wenn ein Mitspieler ihn bereits geöffnet hat. Ominöse Tresore benötigen einen ominösen Prüfungsschlüssel. Ein normaler Schlüssel passt also nicht zu jedem Tresor.",
       "Ominöse Prüfungen erhöhen die Schwierigkeit und können die verfügbaren Belohnungen ändern. Wenn du zum ersten Mal in der Kammer bist, solltest du keinen ominösen Effekt mitbringen oder sofort die schwierige Variante starten. Lerne zuerst Aufbau und Spawner-Rhythmus kennen. Entscheide danach, ob sich die zusätzliche Gefahr in deiner aktuellen Edition und Version lohnt."
     ],
     "image": {
@@ -174,7 +174,7 @@
   },
   "related": {
     "eyebrow": "Weiter erkunden",
-    "title": "Weitere Minecraft-Guides",
+    "title": "Weitere Minecraft-Leitfadens",
     "description": "Diese Seiten behandeln benachbarte Entscheidungen, ohne den Ablauf der Prüfungskammern zu wiederholen.",
     "links": [
       {
@@ -193,7 +193,7 @@
         "title": "Dorfbewohner-Handelshalle",
         "text": "Richte Arbeitsplätze sauber ein, wenn du deinen Kartografen-Handelsweg vorbereitest.",
         "url": "/villager-trading-hall/",
-        "cta": "Dorfbewohner-Guide lesen"
+        "cta": "Dorfbewohner-Leitfaden lesen"
       }
     ]
   },
@@ -254,7 +254,7 @@
       },
       {
         "question": "Wie öffne ich einen Tresor in einer Prüfungskammer?",
-        "answer": "Nutze einen Prüfungsschlüssel für einen normalen Tresor und einen ominösen Schlüssel für einen ominösen Tresor. Jeder Spieler kann seine eigene Belohnung beanspruchen."
+        "answer": "Nutze einen Prüfungsschlüssel für einen normalen Tresor und einen ominösen Schlüssel für einen ominösen Tresor. Jeder Spieler kann denselben Tresor einmal für die eigene Belohnung öffnen, auch wenn ein anderer Spieler ihn bereits geöffnet hat."
       },
       {
         "question": "Generieren Prüfungskammern in alten Minecraft-Welten?",
@@ -271,10 +271,10 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Minecraft-Prüfungskammern: So findest, meisterst und plünderst du sie",
-      "description": "Versionsbewusster Guide zur Suche nach Minecraft-Prüfungskammern, zur Vorbereitung auf Kämpfe und zum Einsatz von Schlüsseln und Tresoren.",
+      "description": "Versionsbewusster Leitfaden zur Suche nach Minecraft-Prüfungskammern, zur Vorbereitung auf Kämpfe und zum Einsatz von Schlüsseln und Tresoren.",
       "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"
@@ -335,7 +335,7 @@
           "name": "Wie öffne ich einen Tresor in einer Prüfungskammer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Verwende einen Prüfungsschlüssel für einen normalen und einen ominösen Schlüssel für einen ominösen Tresor. Jeder Spieler kann seine Belohnung beanspruchen."
+            "text": "Verwende einen Prüfungsschlüssel für einen normalen und einen ominösen Schlüssel für einen ominösen Tresor. Jeder Spieler kann denselben Tresor einmal für die eigene Belohnung öffnen, auch wenn ein anderer Spieler ihn bereits geöffnet hat."
           }
         },
         {

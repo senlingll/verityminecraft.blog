@@ -8,8 +8,8 @@
   "hero": {
     "eyebrow": "Guida a esplorazione e combattimento",
     "title": "Camere delle prove Minecraft: come trovarle, prepararsi e raccogliere il bottino",
-    "lede": "Le camere delle prove di Minecraft sono strutture sotterranee dell’Overworld costruite con rame e tufo. Le loro stanze combinano esplorazione, trappole, generatrici di prova e ricompense. In sopravvivenza, il percorso più chiaro è commerciare con un cartografo per ottenere una mappa delle prove e poi scendere con attenzione vicino al suo indicatore. Se i comandi sono consentiti, un comando di localizzazione aiuta a trovare la struttura, ma non indica un ingresso sicuro.",
-    "support": "Questa guida distingue la ricerca in sopravvivenza dai comandi, spiega cosa portare e segue la sequenza generatrice, possibile chiave delle prove e caveau. Comandi e meccaniche possono variare in base a edizione e versione: usa i suggerimenti del gioco che hai installato. Verificato il 3 ottobre 2026.",
+    "lede": "Le camere delle prove di Minecraft sono strutture sotterranee dell’Overworld costruite con rame e tufo. Le loro stanze combinano esplorazione, trappole, generatori di prova e ricompense. In sopravvivenza, il percorso più chiaro è commerciare con un cartografo per ottenere una mappa delle prove e poi scendere con attenzione vicino al suo indicatore. Se i comandi sono consentiti, un comando di localizzazione aiuta a trovare la struttura, ma non indica un ingresso sicuro.",
+    "support": "Questa guida distingue la ricerca in sopravvivenza dai comandi, spiega cosa portare e segue la sequenza generatore, possibile chiave delle prove e caveau. Comandi e meccaniche possono variare in base a edizione e versione: usa i suggerimenti del gioco che hai installato. Verificato il 4 ottobre 2026.",
     "actions": [
       {
         "label": "Confronta Java e Bedrock",
@@ -36,7 +36,7 @@
     "paragraphs": [
       "In un normale mondo sopravvivenza, cerca un abitante cartografo e controlla i suoi scambi mentre sale di livello. Può offrire una mappa delle prove che indica una camera vicina. Quando compare l’offerta, prendi la mappa, segui la direzione e pianifica una discesa sicura attraverso una grotta o una scala scavata. La mappa ti porta nella zona della struttura: non segna una porta, una scala d’accesso o la garanzia che la camera inizi esattamente sotto i tuoi piedi.",
       "Se i comandi sono consentiti, digita il suggerimento attuale di /locate structure e seleziona la voce delle camere delle prove proposta dal gioco. Nelle versioni Java recenti l’identificatore può apparire come minecraft:trial_chambers; in Bedrock segui il completamento automatico e le autorizzazioni di quell’edizione. Il comando richiede trucchi o permessi del server. Restituisce coordinate, non un percorso sicuro verso l’ingresso, e in alcuni mondi può disattivare gli obiettivi.",
-      "Prima di scendere, porta cibo, scudo, un’arma affidabile, blocchi di riserva e un piccone. Illumina il percorso, tieni a mente un’uscita e affronta una generatrice di prova alla volta. Quando lo scontro termina, la generatrice può espellere una chiave delle prove. Usa la chiave corretta su un caveau per ottenere la ricompensa; se un altro giocatore apre lo stesso caveau, non consuma necessariamente la tua apertura personale. Né la chiave né un oggetto specifico sono garantiti."
+      "Prima di scendere, porta cibo, scudo, un’arma affidabile, blocchi di riserva e un piccone. Illumina il percorso, tieni a mente un’uscita e affronta un generatore di prova alla volta. Quando lo scontro termina, il generatore può espellere una chiave delle prove. Usa la chiave corretta su un caveau per ottenere la ricompensa; ogni giocatore può aprire lo stesso caveau una volta per ottenere la propria ricompensa, anche se un altro giocatore lo ha già aperto. Né la chiave né un oggetto specifico sono garantiti."
     ],
     "cards": [
       {
@@ -49,7 +49,7 @@
       },
       {
         "title": "Combatti per accedere",
-        "text": "Completa ogni scontro mantenendo una via di fuga. Una generatrice può dare una chiave; il caveau è un blocco separato."
+        "text": "Completa ogni scontro mantenendo una via di fuga. Un generatore può dare una chiave; il caveau è un blocco separato."
       }
     ]
   },
@@ -134,16 +134,16 @@
   },
   "activation": {
     "eyebrow": "Capire la ricompensa",
-    "title": "Generatrice di prova, chiave e caveau: cosa succede?",
+    "title": "Generatore di prova, chiave e caveau: cosa succede?",
     "paragraphs": [
-      "Una generatrice di prova è un blocco speciale di sfida, non una normale generatrice di mostri. Quando un giocatore si avvicina, può avviare uno scontro con un gruppo di creature ostili. Stanze, combinazioni di nemici e difficoltà variano nella struttura generata. Non restare in una porta senza spazio per ritirarti: usa scudo e copertura, mantieni la visuale e allontanati se salute o cibo scendono troppo.",
-      "Quando sconfiggi il gruppo, la prova attuale della generatrice termina. Può espellere una ricompensa, inclusa una chiave delle prove, ma non è garantita ogni volta. Controlla la stanza e segna le generatrici già completate. Puoi uscire e tornare più tardi; non serve attivare tutte le stanze in un’unica spedizione.",
-      "Un caveau è un blocco ricompensa distinto e chiuso. Porta una chiave delle prove e usala sul caveau. Ogni giocatore può prendere la ricompensa del caveau per sé; l’apertura di un compagno non consuma automaticamente la tua possibilità personale. I caveau inquietanti richiedono una chiave delle prove inquietante, quindi una chiave normale non apre ogni blocco simile a un caveau.",
-      "Le prove inquietanti aumentano la difficoltà e possono cambiare le ricompense disponibili. Se è la tua prima visita, non portare un effetto inquietante o iniziare la variante difficile senza sapere cosa comporta. Impara prima la disposizione e il ritmo delle generatrici, poi valuta il rischio aggiuntivo per l’edizione e la versione che stai giocando."
+      "Un generatore di prova è un blocco speciale di sfida, non un normale generatore di mostri. Quando un giocatore si avvicina, può avviare uno scontro con un gruppo di creature ostili. Stanze, combinazioni di nemici e difficoltà variano nella struttura generata. Non restare in una porta senza spazio per ritirarti: usa scudo e copertura, mantieni la visuale e allontanati se salute o cibo scendono troppo.",
+      "Quando sconfiggi il gruppo, la prova attuale del generatore termina. Può espellere una ricompensa, inclusa una chiave delle prove, ma non è garantita ogni volta. Controlla la stanza e segna i generatori già completati. Puoi uscire e tornare più tardi; non serve attivare tutte le stanze in un’unica spedizione.",
+      "Un caveau è un blocco ricompensa distinto e chiuso. Porta una chiave delle prove e usala sul caveau. Ogni giocatore può aprire lo stesso caveau una volta per ottenere la propria ricompensa, anche se un altro giocatore lo ha già aperto. I caveau inquietanti richiedono una chiave delle prove inquietante, quindi una chiave normale non apre ogni blocco simile a un caveau.",
+      "Le prove inquietanti aumentano la difficoltà e possono cambiare le ricompense disponibili. Se è la tua prima visita, non portare un effetto inquietante o iniziare la variante difficile senza sapere cosa comporta. Impara prima la disposizione e il ritmo dei generatori, poi valuta il rischio aggiuntivo per l’edizione e la versione che stai giocando."
     ],
     "image": {
       "src": "/static/images/minecraft-trial-chambers/trial-chambers-encounter-loop.svg",
-      "alt": "Schema originale di uno scontro con generatrice, possibile chiave e caveau separato; non è uno screenshot",
+      "alt": "Schema originale di uno scontro con generatore, possibile chiave e caveau separato; non è uno screenshot",
       "caption": "La chiave è una possibile ricompensa e il caveau è un blocco distinto. Schema delle meccaniche, non una scena reale.",
       "width": 1200,
       "height": 800
@@ -163,7 +163,7 @@
         "text": "Le strutture nuove non riscrivono il terreno esplorato. Raggiungi zone non generate e verifica la versione."
       },
       {
-        "title": "Attivare tutte le generatrici insieme",
+        "title": "Attivare tutti i generatori insieme",
         "text": "Più corridoi e attacchi a distanza rendono la stanza difficile da gestire. Tieni una via d’uscita e affronta una prova alla volta."
       },
       {
@@ -204,7 +204,7 @@
     "links": [
       {
         "title": "Minecraft: panoramica della camera delle prove",
-        "text": "Descrizione ufficiale di strutture sotterranee, mappe del cartografo, rame e tufo, generatrici e caveau.",
+        "text": "Descrizione ufficiale di strutture sotterranee, mappe del cartografo, rame e tufo, generatori e caveau.",
         "url": "https://www.minecraft.net/it-it/article/trial-chamber",
         "cta": "Apri la panoramica ufficiale"
       },
@@ -249,12 +249,12 @@
         "answer": "La mappa indica una struttura sotterranea, non una porta. Cerca grotte vicine e controlla edizione e generazione del terreno."
       },
       {
-        "question": "Ogni generatrice di prova lascia una chiave?",
+        "question": "Ogni generatore di prova lascia una chiave?",
         "answer": "No. La chiave delle prove è una possibile ricompensa, non un drop garantito in ogni scontro."
       },
       {
         "question": "Come apro un caveau delle camere delle prove?",
-        "answer": "Usa una chiave delle prove su un caveau normale e una chiave delle prove inquietante su un caveau inquietante. Ogni giocatore può reclamare la propria ricompensa."
+        "answer": "Usa una chiave delle prove su un caveau normale e una chiave delle prove inquietante su un caveau inquietante. Ogni giocatore può aprire un caveau una volta per ottenere la propria ricompensa, anche se un altro giocatore lo ha già aperto."
       },
       {
         "question": "Le camere delle prove si generano nei vecchi mondi?",
@@ -274,7 +274,7 @@
       "description": "Guida aggiornata alla versione per trovare camere delle prove, prepararsi agli scontri e usare chiavi e caveau.",
       "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"
@@ -324,7 +324,7 @@
         },
         {
           "@type": "Question",
-          "name": "Ogni generatrice di prova lascia una chiave?",
+          "name": "Ogni generatore di prova lascia una chiave?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No. Una chiave è una possibile ricompensa, non è garantita a ogni scontro."
@@ -335,7 +335,7 @@
           "name": "Come apro un caveau delle camere delle prove?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usa una chiave delle prove per un caveau normale e una chiave inquietante per quello inquietante. Ogni giocatore può reclamare la ricompensa."
+            "text": "Usa una chiave delle prove per un caveau normale e una chiave inquietante per quello inquietante. Ogni giocatore può aprire un caveau una volta per ottenere la propria ricompensa, anche se un altro giocatore lo ha già aperto."
           }
         },
         {

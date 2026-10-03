@@ -9,7 +9,7 @@
     "eyebrow": "Guía de exploración y combate",
     "title": "Cámaras de desafío de Minecraft: cómo encontrarlas, prepararte y obtener botín",
     "lede": "Las cámaras de desafío de Minecraft son estructuras subterráneas del mundo normal, construidas con cobre y toba. Sus salas combinan exploración, peligros, generadores de prueba y recompensas. En supervivencia, la ruta más clara es comerciar con un aldeano cartógrafo para conseguir un mapa de explorador de pruebas y bajar con cuidado cerca de su marcador. Si tienes activados los trucos, un comando de localización puede ayudar, pero no señala una entrada segura.",
-    "support": "Esta guía separa la búsqueda normal de supervivencia del uso de comandos, explica qué llevar y recorre el ciclo de generador, posible llave de prueba y bóveda. Las sugerencias de comandos y algunas mecánicas pueden variar por edición y versión; utiliza las opciones que ofrece tu juego. Revisado el 3 de octubre de 2026.",
+    "support": "Esta guía separa la búsqueda normal de supervivencia del uso de comandos, explica qué llevar y recorre el ciclo de generador, posible llave de desafío y bóveda. Las sugerencias de comandos y algunas mecánicas pueden variar por edición y versión; utiliza las opciones que ofrece tu juego. Revisado el 4 de octubre de 2026.",
     "actions": [
       {
         "label": "Comparar Java y Bedrock",
@@ -36,7 +36,7 @@
     "paragraphs": [
       "En un mundo de supervivencia normal, busca un aldeano cartógrafo y revisa sus intercambios a medida que sube de nivel. Puede ofrecer un mapa de explorador de pruebas que señala una cámara cercana. Cuando aparezca la oferta, compra el mapa y avanza en la dirección indicada. Después prepara una bajada segura por una cueva o una escalera excavada. El mapa te orienta hacia la zona de la estructura; no marca una puerta, una escalera de acceso ni garantiza que la cámara esté abierta justo debajo de tus pies.",
       "Si puedes usar comandos, escribe el comando actual /locate structure y selecciona la entrada de las cámaras de desafío que sugiera tu juego. En versiones recientes de Java puede aparecer el identificador minecraft:trial_chambers; en Bedrock debes seguir el autocompletado y los permisos de esa edición. Los comandos requieren trucos o permisos del servidor. Devuelven coordenadas, no una ruta de entrada, y en algunos mundos pueden desactivar logros.",
-      "Antes de bajar, lleva comida, escudo, un arma resistente, bloques de repuesto y un pico. Ilumina la ruta, conserva una salida y lucha contra un generador de prueba cada vez. Al terminar el encuentro, el generador puede expulsar una llave de prueba. Usa la llave correspondiente en una bóveda para reclamar su recompensa; que otro jugador use esa misma bóveda no consume necesariamente tu apertura personal. Ni la llave ni un objeto concreto están garantizados."
+      "Antes de bajar, lleva comida, escudo, un arma resistente, bloques de repuesto y un pico. Ilumina la ruta, conserva una salida y lucha contra un generador de desafío cada vez. Al terminar el encuentro, el generador puede expulsar una llave de desafío. Usa la llave correspondiente en una bóveda para reclamar su recompensa; cada jugador puede abrir esa misma bóveda una vez para recibir su propia recompensa, aunque otra persona ya la haya abierto. Ni la llave ni un objeto concreto están garantizados."
     ],
     "cards": [
       {
@@ -134,16 +134,16 @@
   },
   "activation": {
     "eyebrow": "Entiende la recompensa",
-    "title": "Generador, llave de prueba y bóveda: qué ocurre",
+    "title": "Generador, llave de desafío y bóveda: qué ocurre",
     "paragraphs": [
-      "El generador de prueba es un bloque especial de desafío, no un generador de monstruos común. Cuando se acerca un jugador, puede iniciar un encuentro con varios enemigos hostiles. Las salas, la combinación de criaturas y el reto cambian dentro de la estructura. No te coloques en una puerta sin espacio para retroceder: utiliza escudo, cobertura y buena visibilidad, y sal de la sala si te queda poca salud o comida.",
-      "Al derrotar el encuentro termina la prueba actual de ese generador. Puede expulsar una recompensa, incluida una llave de prueba, pero no está garantizada cada vez. Revisa la sala por si hay recursos y apunta qué generadores ya limpiaste. Puedes marcharte y volver más tarde; no tienes que activar todas las salas de una sola vez.",
-      "Una bóveda es un bloque de recompensa cerrado por separado. Acércate con una llave de prueba y úsala en la bóveda. Cada jugador puede reclamar la recompensa de esa bóveda para sí mismo; que un compañero la abra no consume necesariamente tu oportunidad personal. Las bóvedas ominosas usan una llave de prueba ominosa, así que una llave normal no abre todos los bloques que parezcan una bóveda.",
-      "Las pruebas ominosas aumentan la dificultad y pueden cambiar las recompensas. Si es tu primera visita, no lleves un efecto ominoso ni empieces una prueba difícil sin saber qué implica. Aprende el diseño de las salas y el ritmo de los generadores antes de decidir si el reto extra compensa en tu edición y versión actuales."
+      "El generador de desafío es un bloque especial de desafío, no un generador de monstruos común. Cuando se acerca un jugador, puede iniciar un encuentro con varios enemigos hostiles. Las salas, la combinación de criaturas y el reto cambian dentro de la estructura. No te coloques en una puerta sin espacio para retroceder: utiliza escudo, cobertura y buena visibilidad, y sal de la sala si te queda poca salud o comida.",
+      "Al derrotar el encuentro termina la prueba actual de ese generador. Puede expulsar una recompensa, incluida una llave de desafío, pero no está garantizada cada vez. Revisa la sala por si hay recursos y apunta qué generadores ya limpiaste. Puedes marcharte y volver más tarde; no tienes que activar todas las salas de una sola vez.",
+      "Una bóveda es un bloque de recompensa cerrado por separado. Acércate con una llave de desafío y úsala en la bóveda. Cada jugador puede abrir esa bóveda una vez para recibir su propia recompensa, aunque otro jugador ya la haya abierto. Las bóvedas ominosas usan una llave de desafío ominosa, así que una llave normal no abre todos los bloques que parezcan una bóveda.",
+      "Las pruebas siniestras aumentan la dificultad y pueden cambiar las recompensas. Si es tu primera visita, no lleves un efecto ominoso ni empieces una prueba difícil sin saber qué implica. Aprende el diseño de las salas y el ritmo de los generadores antes de decidir si el reto extra compensa en tu edición y versión actuales."
     ],
     "image": {
       "src": "/static/images/minecraft-trial-chambers/trial-chambers-encounter-loop.svg",
-      "alt": "Esquema original del encuentro con un generador de prueba, una posible llave y una bóveda independiente; no es una captura",
+      "alt": "Esquema original del encuentro con un generador de desafío, una posible llave y una bóveda independiente; no es una captura",
       "caption": "La llave es una recompensa posible y la bóveda es otro bloque. Diagrama de mecánicas, no una escena del juego.",
       "width": 1200,
       "height": 800
@@ -250,11 +250,11 @@
       },
       {
         "question": "¿Todos los generadores de prueba dan una llave?",
-        "answer": "No. La llave de prueba es una recompensa posible, no una garantía de cada encuentro. Los objetos varían, así que no dependas de un generador para conseguir un botín raro."
+        "answer": "No. La llave de desafío es una recompensa posible, no una garantía de cada encuentro. Los objetos varían, así que no dependas de un generador para conseguir un botín raro."
       },
       {
         "question": "¿Cómo abro una bóveda de la cámara de desafío?",
-        "answer": "Usa una llave de prueba en una bóveda normal y una llave de prueba ominosa en una bóveda ominosa. La bóveda es distinta del generador, y cada jugador puede reclamar su propia recompensa."
+        "answer": "Usa una llave de desafío en una bóveda normal y una llave de desafío ominosa en una bóveda ominosa. La bóveda es distinta del generador, y cada jugador puede abrir una bóveda una vez para recibir su propia recompensa, aunque otro jugador ya la haya abierto."
       },
       {
         "question": "¿Aparecen cámaras de desafío en mundos antiguos?",
@@ -262,7 +262,7 @@
       },
       {
         "question": "¿Conviene empezar una prueba ominosa en la primera visita?",
-        "answer": "Es mejor conocer antes una prueba normal y el diseño del lugar. Las pruebas ominosas son más difíciles y pueden cambiar las recompensas; comprueba las reglas actuales de tu edición."
+        "answer": "Es mejor conocer antes una prueba normal y el diseño del lugar. Las pruebas siniestras son más difíciles y pueden cambiar las recompensas; comprueba las reglas actuales de tu edición."
       }
     ]
   },
@@ -274,7 +274,7 @@
       "description": "Guía actualizada por versión para encontrar cámaras de desafío, prepararte para los encuentros y usar llaves de prueba y bóvedas.",
       "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"
@@ -327,7 +327,7 @@
           "name": "¿Todos los generadores de prueba dan una llave?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Una llave de prueba es una recompensa posible, no una garantía en cada encuentro."
+            "text": "No. Una llave de desafío es una recompensa posible, no una garantía en cada encuentro."
           }
         },
         {
@@ -335,7 +335,7 @@
           "name": "¿Cómo abro una bóveda de la cámara de desafío?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usa una llave de prueba para una bóveda normal y una llave ominosa para una ominosa. Cada jugador puede reclamar su recompensa."
+            "text": "Usa una llave de desafío para una bóveda normal y una llave de desafío ominosa para una bóveda ominosa. Cada jugador puede reclamar su recompensa."
           }
         },
         {

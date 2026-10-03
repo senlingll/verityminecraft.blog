@@ -9,7 +9,7 @@
     "eyebrow": "Guide d’exploration et de combat",
     "title": "Chambres d’épreuves Minecraft : comment les trouver, s’y préparer et récupérer le butin",
     "lede": "Les chambres d’épreuves de Minecraft sont des structures souterraines de la Surface, construites avec du cuivre et du tuf. Leurs salles mêlent exploration, pièges, générateurs d’épreuves et récompenses. En survie, la méthode la plus claire consiste à faire du commerce avec un cartographe pour obtenir une carte d’exploration, puis à descendre prudemment près de son repère. Si les commandes sont autorisées, la commande de localisation aide à trouver la structure, mais elle ne montre pas une entrée sûre.",
-    "support": "Ce guide distingue la recherche en survie de l’usage des commandes, indique quoi emporter et explique la séquence générateur, clé d’épreuve possible, coffre-fort. Les commandes et certaines mécaniques varient selon l’édition et la version : utilisez les suggestions du jeu installé. Vérifié le 3 octobre 2026.",
+    "support": "Ce guide distingue la recherche en survie de l’usage des commandes, indique quoi emporter et explique la séquence générateur, clé d’épreuve possible, coffre-fort. Les commandes et certaines mécaniques varient selon l’édition et la version : utilisez les suggestions du jeu installé. Vérifié le 4 octobre 2026.",
     "actions": [
       {
         "label": "Comparer Java et Bedrock",
@@ -36,7 +36,7 @@
     "paragraphs": [
       "Dans un monde de survie normal, cherchez un villageois cartographe et vérifiez ses échanges à mesure qu’il progresse. Il peut proposer une carte d’exploration qui indique une chambre d’épreuves proche. Achetez-la si l’offre apparaît, suivez la direction indiquée puis préparez une descente prudente par une grotte ou un escalier creusé. La carte mène vers la zone de la structure ; elle ne marque ni porte, ni escalier d’accès, et ne garantit pas que la chambre se trouve juste sous vos pieds.",
       "Si les commandes sont autorisées, saisissez la suggestion actuelle /locate structure et sélectionnez la chambre d’épreuves proposée par le jeu. Dans les versions récentes de Java, l’identifiant peut s’afficher sous la forme minecraft:trial_chambers ; en Bedrock, fiez-vous à l’autocomplétion et aux permissions de l’édition. Une commande nécessite les triches ou les droits du serveur. Elle fournit des coordonnées, pas un chemin d’entrée sécurisé, et peut désactiver des succès dans certains mondes.",
-      "Avant de descendre, emportez de la nourriture, un bouclier, une arme fiable, des blocs de rechange et une pioche. Éclairez votre chemin, prévoyez une sortie et combattez un générateur d’épreuves à la fois. À la fin de son épreuve, un générateur peut expulser une clé d’épreuve. Utilisez la clé adaptée sur un coffre-fort pour obtenir sa récompense ; l’ouverture par un autre joueur ne consomme pas forcément votre propre récompense. Ni la clé ni un objet précis ne sont garantis."
+      "Avant de descendre, emportez de la nourriture, un bouclier, une arme fiable, des blocs de rechange et une pioche. Éclairez votre chemin, prévoyez une sortie et combattez un générateur d’épreuves à la fois. À la fin de son épreuve, un générateur peut expulser une clé d’épreuve. Utilisez la clé adaptée sur un coffre-fort pour obtenir sa récompense ; chaque joueur peut ouvrir ce coffre-fort une fois pour sa propre récompense, même si un autre l’a déjà ouvert. Ni la clé ni un objet précis ne sont garantis."
     ],
     "cards": [
       {
@@ -138,7 +138,7 @@
     "paragraphs": [
       "Un générateur d’épreuves est un bloc de défi spécial, pas un générateur de monstres ordinaire. Quand un joueur s’approche, il peut lancer une rencontre contre plusieurs créatures hostiles. Les salles, les adversaires et le niveau du défi varient selon la structure générée. Ne restez pas dans une porte sans espace de repli : servez-vous du bouclier et des obstacles, gardez une ligne de vue et reculez si votre santé ou votre nourriture baisse.",
       "Vaincre la rencontre termine l’épreuve actuelle du générateur. Il peut expulser une récompense, parfois une clé d’épreuve, mais la clé ne tombe pas à chaque fois. Cherchez des ressources dans la salle et marquez les générateurs déjà terminés. Vous pouvez partir et revenir plus tard ; il n’est pas nécessaire d’activer toutes les salles au cours d’une seule expédition.",
-      "Un coffre-fort est un bloc de récompense verrouillé distinct. Apportez une clé d’épreuve et utilisez-la sur le coffre-fort. Chaque joueur peut réclamer la récompense de ce coffre pour soi ; son ouverture par un coéquipier ne consomme pas forcément votre chance personnelle. Les coffres-forts funestes utilisent une clé d’épreuve funeste. Une clé normale n’ouvre donc pas tous les blocs qui ressemblent à un coffre.",
+      "Un coffre-fort est un bloc de récompense verrouillé distinct. Apportez une clé d’épreuve et utilisez-la sur le coffre-fort. Chaque joueur peut ouvrir ce coffre-fort une fois pour sa propre récompense, même si un autre joueur l’a déjà ouvert. Les coffres-forts funestes utilisent une clé d’épreuve funeste. Une clé normale n’ouvre donc pas tous les blocs qui ressemblent à un coffre.",
       "Les épreuves funestes augmentent le défi et peuvent modifier les récompenses disponibles. Pour une première visite, évitez d’arriver avec un effet funeste ou de lancer la version plus difficile avant d’en comprendre le fonctionnement. Apprenez d’abord le plan des salles et le rythme des générateurs, puis décidez si le risque supplémentaire vaut le coup dans votre édition et votre version actuelles."
     ],
     "image": {
@@ -254,7 +254,7 @@
       },
       {
         "question": "Comment ouvrir un coffre-fort de chambre d’épreuves ?",
-        "answer": "Utilisez une clé d’épreuve sur un coffre-fort normal et une clé d’épreuve funeste sur un coffre-fort funeste. Chaque joueur peut réclamer sa récompense."
+        "answer": "Utilisez une clé d’épreuve sur un coffre-fort normal et une clé d’épreuve funeste sur un coffre-fort funeste. Chaque joueur peut ouvrir un coffre-fort une fois pour sa propre récompense, même si un autre joueur l’a déjà ouvert."
       },
       {
         "question": "Les chambres d’épreuves apparaissent-elles dans les anciens mondes ?",
@@ -274,7 +274,7 @@
       "description": "Guide actualisé selon la version pour trouver les chambres d’épreuves, préparer les combats et comprendre les clés d’épreuve et coffres-forts.",
       "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"
@@ -335,7 +335,7 @@
           "name": "Comment ouvrir un coffre-fort de chambre d’épreuves ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Utilisez une clé d’épreuve pour un coffre-fort normal et une clé funeste pour un coffre-fort funeste. Chaque joueur peut réclamer sa récompense."
+            "text": "Utilisez une clé d’épreuve pour un coffre-fort normal et une clé funeste pour un coffre-fort funeste. Chaque joueur peut ouvrir un coffre-fort une fois pour sa propre récompense, même si un autre joueur l’a déjà ouvert."
           }
         },
         {

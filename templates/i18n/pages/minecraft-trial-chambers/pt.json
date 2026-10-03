@@ -9,7 +9,7 @@
     "eyebrow": "Guia de exploração e combate",
     "title": "Câmaras de desafios do Minecraft: como encontrar, preparar e pegar o saque",
     "lede": "As câmaras de desafios do Minecraft são estruturas subterrâneas do Mundo Superior, construídas com cobre e tufo. As salas combinam exploração, perigos, geradores de teste e recompensas. No modo sobrevivência, o caminho mais claro é negociar com um aldeão cartógrafo para conseguir um mapa explorador de provas e depois descer com cuidado perto do marcador. Se os comandos estiverem permitidos, um comando de localização ajuda a achar a estrutura, mas não mostra uma entrada segura.",
-    "support": "Este guia separa a busca normal de sobrevivência do uso de comandos, explica o que levar e acompanha a sequência gerador, possível chave de teste e cofre. Comandos e mecânicas podem variar conforme edição e versão; use as sugestões do jogo instalado. Revisado em 3 de outubro de 2026.",
+    "support": "Este guia separa a busca normal de sobrevivência do uso de comandos, explica o que levar e acompanha a sequência gerador, possível chave de desafio e cofre. Comandos e mecânicas podem variar conforme edição e versão; use as sugestões do jogo instalado. Revisado em 4 de outubro de 2026.",
     "actions": [
       {
         "label": "Comparar Java e Bedrock",
@@ -36,7 +36,7 @@
     "paragraphs": [
       "Em um mundo comum de sobrevivência, procure um aldeão cartógrafo e confira as trocas conforme ele sobe de nível. Ele pode oferecer um mapa explorador de provas que aponta para uma câmara de desafios próxima. Quando a oferta aparecer, pegue o mapa, siga a direção indicada e planeje uma descida segura por uma caverna ou escada cavada. O mapa aponta para a área da estrutura: não marca uma porta nem garante que a câmara comece exatamente embaixo dos seus pés.",
       "Se você pode usar comandos, digite a sugestão atual de /locate structure e selecione a opção de câmaras de desafios mostrada pelo jogo. Em versões recentes de Java, o identificador pode aparecer como minecraft:trial_chambers; no Bedrock, siga o preenchimento automático e as permissões dessa edição. O comando exige truques ativados ou permissão de servidor. Ele retorna coordenadas, não um caminho seguro até a entrada, e pode desativar conquistas em alguns mundos.",
-      "Antes de descer, leve comida, escudo, uma arma resistente, blocos extras e uma picareta. Ilumine a rota, mantenha uma saída em mente e enfrente um gerador de teste por vez. Quando o encontro termina, o gerador pode ejetar uma chave de teste. Use a chave correspondente em um cofre para pegar a recompensa; outro jogador abrir o mesmo cofre não consome necessariamente a sua abertura pessoal. A chave e um item específico não são garantidos."
+      "Antes de descer, leve comida, escudo, uma arma resistente, blocos extras e uma picareta. Ilumine a rota, mantenha uma saída em mente e enfrente um gerador de desafios por vez. Quando o encontro termina, o gerador pode ejetar uma chave de desafio. Use a chave correspondente em um cofre para pegar a recompensa; cada jogador pode abrir esse mesmo cofre uma vez para receber sua própria recompensa, mesmo que outra pessoa já o tenha aberto. A chave e um item específico não são garantidos."
     ],
     "cards": [
       {
@@ -134,12 +134,12 @@
   },
   "activation": {
     "eyebrow": "Entenda o ciclo das recompensas",
-    "title": "Gerador de teste, chave e cofre: como funciona?",
+    "title": "Gerador de desafios, chave e cofre: como funciona?",
     "paragraphs": [
-      "Um gerador de teste é um bloco especial de desafio, não um gerador comum de monstros. Quando um jogador se aproxima, ele pode iniciar um encontro com vários inimigos hostis. As salas, grupos de criaturas e dificuldade variam dentro da estrutura gerada. Não fique parado numa porta sem espaço para recuar: use escudo e cobertura, mantenha a visão do ambiente e saia se sua saúde ou comida estiver baixa.",
-      "Derrotar o encontro encerra o teste atual daquele gerador. Ele pode ejetar uma recompensa, incluindo uma chave de teste, mas a chave não cai todas as vezes. Confira a sala em busca de recursos e marque os geradores que já foram concluídos. Você pode sair e voltar depois; não precisa ativar todos os cômodos numa única expedição.",
-      "Um cofre é um bloco de recompensa separado e trancado. Leve uma chave de teste e use-a no cofre. Cada jogador pode receber a recompensa daquele cofre para si; um colega abrir o bloco não consome necessariamente a sua tentativa pessoal. Cofres ominosos precisam de uma chave de teste ominosa, por isso não espere que uma chave normal abra todo bloco parecido com cofre.",
-      "Testes ominosos aumentam a dificuldade e podem mudar as recompensas disponíveis. Se esta é sua primeira visita, não leve um efeito ominoso nem comece uma versão difícil sem saber o que ela muda. Aprenda primeiro o layout e o ritmo dos geradores, depois decida se o desafio extra vale o risco na edição e versão que você está usando."
+      "Um gerador de desafios é um bloco especial de desafio, não um gerador comum de monstros. Quando um jogador se aproxima, ele pode iniciar um encontro com vários inimigos hostis. As salas, grupos de criaturas e dificuldade variam dentro da estrutura gerada. Não fique parado numa porta sem espaço para recuar: use escudo e cobertura, mantenha a visão do ambiente e saia se sua saúde ou comida estiver baixa.",
+      "Derrotar o encontro encerra o desafio atual daquele gerador. Ele pode ejetar uma recompensa, incluindo uma chave de desafio, mas a chave não cai todas as vezes. Confira a sala em busca de recursos e marque os geradores que já foram concluídos. Você pode sair e voltar depois; não precisa ativar todos os cômodos numa única expedição.",
+      "Um cofre é um bloco de recompensa separado e trancado. Leve uma chave de desafio e use-a no cofre. Cada jogador pode abrir o mesmo cofre uma vez para receber sua própria recompensa, mesmo que outra pessoa já o tenha aberto. Cofres ominosos precisam de uma chave de desafio ominosa, por isso não espere que uma chave normal abra todo bloco parecido com cofre.",
+      "Desafios sombrios aumentam a dificuldade e podem mudar as recompensas disponíveis. Se esta é sua primeira visita, não leve um efeito ominoso nem comece uma versão difícil sem saber o que ela muda. Aprenda primeiro o layout e o ritmo dos geradores, depois decida se o desafio extra vale o risco na edição e versão que você está usando."
     ],
     "image": {
       "src": "/static/images/minecraft-trial-chambers/trial-chambers-encounter-loop.svg",
@@ -249,20 +249,20 @@
         "answer": "O mapa aponta para uma estrutura subterrânea, não para uma porta. Procure cavernas próximas e confira a edição e quando o terreno foi gerado."
       },
       {
-        "question": "Todo gerador de teste dá uma chave de teste?",
+        "question": "Todo gerador de desafios dá uma chave de desafio?",
         "answer": "Não. A chave é uma recompensa possível, não uma queda garantida em todos os encontros."
       },
       {
         "question": "Como abro um cofre numa câmara de desafios?",
-        "answer": "Use uma chave de teste num cofre normal e uma chave ominosa num cofre ominoso. Cada jogador pode pegar sua própria recompensa."
+        "answer": "Use uma chave de desafio num cofre normal e uma chave de desafio ominosa num cofre ominoso. Cada jogador pode abrir um cofre uma vez para receber sua própria recompensa, mesmo que outra pessoa já o tenha aberto."
       },
       {
         "question": "As câmaras de desafios aparecem em mundos antigos?",
         "answer": "Elas podem gerar em terreno novo depois que o recurso está disponível, mas chunks já gerados normalmente não são reescritos. Explore além das áreas antigas."
       },
       {
-        "question": "Devo começar um teste ominoso na primeira visita?",
-        "answer": "É melhor conhecer os encontros normais e o layout primeiro. Testes ominosos são mais difíceis e podem mudar recompensas; confira as regras da edição."
+        "question": "Devo começar um desafio sombrio na primeira visita?",
+        "answer": "É melhor conhecer os encontros normais e o layout primeiro. Desafios sombrios são mais difíceis e podem mudar recompensas; confira as regras da edição."
       }
     ]
   },
@@ -274,7 +274,7 @@
       "description": "Guia atualizado para encontrar câmaras de desafios, preparar-se para os combates e entender chaves e cofres por versão.",
       "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"
@@ -324,7 +324,7 @@
         },
         {
           "@type": "Question",
-          "name": "Todo gerador de teste dá uma chave de teste?",
+          "name": "Todo gerador de desafios dá uma chave de desafio?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Não. Uma chave é uma recompensa possível, não uma queda garantida em todos os encontros."
@@ -335,7 +335,7 @@
           "name": "Como abro um cofre numa câmara de desafios?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Use uma chave de teste num cofre normal e uma chave ominosa num cofre ominoso. Cada jogador pode receber sua recompensa."
+            "text": "Use uma chave de desafio num cofre normal e uma chave de desafio ominosa num cofre ominoso. Cada jogador pode abrir um cofre uma vez para receber sua própria recompensa, mesmo que outra pessoa já o tenha aberto."
           }
         },
         {
@@ -348,10 +348,10 @@
         },
         {
           "@type": "Question",
-          "name": "Devo começar um teste ominoso na primeira visita?",
+          "name": "Devo começar um desafio sombrio na primeira visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Espere até conhecer os encontros normais. Testes ominosos são mais difíceis e podem mudar recompensas; confira as regras atuais."
+            "text": "Espere até conhecer os encontros normais. Desafios sombrios são mais difíceis e podem mudar recompensas; confira as regras atuais."
           }
         }
       ]

@@ -9,7 +9,7 @@
     "eyebrow": "Exploration and combat guide",
     "title": "Minecraft Trial Chambers: How to Find, Prepare, and Loot",
     "lede": "Minecraft Trial Chambers are underground Overworld structures built from copper and tuff, with rooms that mix exploration, hazards, Trial Spawners, and loot. The reliable survival route is to trade with a Cartographer for a Trial Explorer Map, then descend carefully near its marker. If cheats are enabled, a locate command can help you find the structure faster, but it does not reveal a safe doorway.",
-    "support": "This guide separates normal survival from command-assisted discovery, explains what to bring, and follows the Trial Spawner → possible Trial Key → Vault sequence. Mechanics and command suggestions can change by edition and release, so use your current game's autocomplete and notes. Reviewed October 3, 2026.",
+    "support": "This guide separates normal survival from command-assisted discovery, explains what to bring, and follows the Trial Spawner → possible Trial Key → Vault sequence. Mechanics and command suggestions can change by edition and release, so use your current game's autocomplete and notes. Reviewed October 4, 2026.",
     "actions": [
       {
         "label": "Compare Java and Bedrock",
@@ -36,7 +36,7 @@
     "paragraphs": [
       "In a regular survival world, find a Cartographer villager and check the map trades as the villager levels up. A Trial Explorer Map can point toward a nearby Trial Chamber. Buy the map if the offer is available, then travel in the direction it shows and plan a careful route down through a cave or a mined staircase. The map guides you to the structure area; it is not a marked entrance, staircase, or guarantee that the chamber will open directly beneath your feet.",
       "If you are allowed to use commands, use the game's current /locate structure suggestion for Trial Chambers. In current Java releases, the resource name may appear as minecraft:trial_chambers; in Bedrock, rely on that edition's autocomplete and permission rules. Commands need cheats or the right server permission. They return coordinates, not an entrance path, and using them can disable achievements in some worlds.",
-      "Before going down, bring food, a shield, a sturdy weapon, spare blocks, and a pickaxe. Light your route, keep an exit in mind, and fight one Trial Spawner at a time. When a spawner's encounter ends, it may eject a Trial Key. Use a matching key on a Vault for its reward; another player using the same vault does not consume your personal opening. A key drop and a particular reward are not guaranteed."
+      "Before going down, bring food, a shield, a sturdy weapon, spare blocks, and a pickaxe. Light your route, keep an exit in mind, and fight one Trial Spawner at a time. When a spawner's encounter ends, it may eject a Trial Key. Use a matching key on a Vault for its reward; each player may open a given Vault once for a personal reward, even if another player has already opened it. A key drop and a particular reward are not guaranteed."
     ],
     "cards": [
       {
@@ -138,7 +138,7 @@
     "paragraphs": [
       "A Trial Spawner is a special challenge block, not a regular monster spawner. When a player approaches, it can start an encounter with a group of hostile mobs. The exact room, mob mix, and challenge vary across the generated structure. Do not stand in a doorway with no retreat space: use a shield, cover, and clear line of sight, and back out when your health or food is low.",
       "Defeating the encounter ends that spawner's current trial. It may eject a reward, which can include a Trial Key, but the key is not guaranteed every time. Check the room for supplies and mark which spawners you have already cleared. You can leave and return later; there is no need to activate every room in one uninterrupted run.",
-      "A Vault is a separate locked reward block. Bring a Trial Key to it and use the key on the Vault. Each player can claim a given Vault's reward for themselves; a teammate opening it does not necessarily use up your own chance. Ominous Vaults use an Ominous Trial Key, so do not assume an ordinary Trial Key will open every vault-looking block.",
+      "A Vault is a separate locked reward block. Bring a Trial Key to it and use the key on the Vault. Each player may open a given Vault once for a personal reward, even if another player has already opened it. Ominous Vaults use an Ominous Trial Key, so do not assume an ordinary Trial Key will open every vault-looking block.",
       "Ominous Trials raise the challenge and change which rewards can be available. If this is your first visit, do not carry an ominous effect or start an ominous encounter just because it is there. Learn the room layout and basic spawner rhythm first, then decide whether the harder variant is worth the extra risk in your current edition and version."
     ],
     "image": {
@@ -254,7 +254,7 @@
       },
       {
         "question": "How do I open a Trial Chamber Vault?",
-        "answer": "Use a Trial Key on a standard Vault. Ominous Vaults require an Ominous Trial Key. A Vault is separate from the Trial Spawner, and each player can claim a Vault's reward for themselves."
+        "answer": "Use a Trial Key on a standard Vault. Ominous Vaults require an Ominous Trial Key. A Vault is separate from the Trial Spawner, and each player may open a given Vault once for a personal reward, even if another player has already opened it."
       },
       {
         "question": "Do Trial Chambers generate in old Minecraft worlds?",
@@ -274,7 +274,7 @@
       "description": "A version-aware guide to finding Minecraft Trial Chambers, preparing for their encounters, and understanding Trial Keys and Vaults.",
       "image": "https://verityminecraft.blog/static/images/minecraft-trial-chambers/trial-chambers-search-route.svg",
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-04",
       "author": {
         "@type": "Organization",
         "name": "Verity Minecraft"
@@ -335,7 +335,7 @@
           "name": "How do I open a Trial Chamber Vault?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Use a Trial Key on a standard Vault and an Ominous Trial Key on an Ominous Vault. Each player can claim the reward for themselves."
+            "text": "Use a Trial Key on a standard Vault and an Ominous Trial Key on an Ominous Vault. Each player may open a given Vault once for a personal reward, even if another player has already opened it."
           }
         },
         {
