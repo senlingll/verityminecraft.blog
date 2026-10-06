@@ -125,3 +125,12 @@ try:
 except Exception as e:
     print(f"Error during build process: {e}", file=sys.stderr)
     sys.exit(1)
+
+if __name__ == "__main__":
+    from pathlib import Path
+
+    _indexnow_root = Path(__file__).resolve().parent
+    _indexnow_source = _indexnow_root / "81544a9028bb51600238ec3bf18dfbef.txt"
+    _indexnow_target = _indexnow_root / "build" / "81544a9028bb51600238ec3bf18dfbef.txt"
+    _indexnow_target.parent.mkdir(parents=True, exist_ok=True)
+    _indexnow_target.write_bytes(_indexnow_source.read_bytes())
