@@ -711,6 +711,27 @@ def localized_minecraft_modpacks(lang):
     return render_core_page('minecraft-modpacks', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-enchantments/', strict_slashes=False)
+def minecraft_enchantments():
+    """
+    渲染 Minecraft 附魔选择与资源管理指南页面。
+
+    :return: Minecraft 附魔指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-enchantments', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-enchantments/', strict_slashes=False)
+def localized_minecraft_enchantments(lang):
+    """
+    渲染指定语言的 Minecraft 附魔指南页面。
+
+    :param lang: 语言代码
+    :return: 指定语言的 Minecraft 附魔指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-enchantments', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/versions/', strict_slashes=False)
 def versions():
     """

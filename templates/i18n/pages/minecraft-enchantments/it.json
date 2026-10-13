@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Incantesimi Minecraft: migliori scelte, librerie e guida al livello 30",
+    "description": "Guida pratica agli incantesimi di Minecraft: priorità per armi, armature e strumenti, 15 librerie, ordine dell'incudine e differenze Java/Bedrock.",
+    "image": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida pratica alla sopravvivenza",
+    "title": "Incantesimi Minecraft: scelte migliori, librerie e come rilanciare",
+    "lede": "Gli incantesimi di Minecraft sono più semplici quando separi il lancio del tavolo dal piano finale dell'incudine. Costruisci la stanza completa, spendi solo esperienza recuperabile e considera la prima offerta come un indizio. Questa guida copre spada, armatura, strumenti, arco e tridente per non sprecare libri rari su un oggetto non ancora verificato.",
+    "support": "I consigli valgono per la sopravvivenza Java e Bedrock corrente. Nomi, livelli, tesori e comandi possono cambiare con un aggiornamento: controlla il tooltip dell'edizione installata prima di modificare il mondo principale. Verificato il 14 ottobre 2026.",
+    "actions": [
+      {
+        "label": "Confronta Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Prepara un profilo Java",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "alt": "Illustrazione voxel originale di un tavolo degli incantesimi di Minecraft con libro, spada di diamante, armatura e piccone; non è una schermata di gioco",
+      "caption": "Illustrazione editoriale originale, non grafica ufficiale e non cattura di Minecraft.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Come ottenere incantesimi migliori",
+    "paragraphs": [
+      "Per una sopravvivenza affidabile, usa un tavolo con fino a 15 librerie e lo spazio d'aria necessario. Porta lapislazzuli e un oggetto di riserva. Le tre offerte sono casuali, ma l'effetto visibile dà informazioni sul tiro. Se nessuna è utile, incanta un libro o strumento economico per cambiare la lista prima di rischiare il diamante.",
+      "Usa il tavolo per i primi miglioramenti e l'incudine per unire libri compatibili. La mola rimuove la maggior parte degli effetti applicati e restituisce un po' di esperienza, ma non conserva un solo incantesimo. Ripristino è normalmente un tesoro ottenuto da bottino o scambi, non un'offerta standard del tavolo.",
+      "La combinazione migliore dipende dal lavoro. Una spada richiede danno e durata, un piccone parte da efficienza e durata, gli stivali scelgono tra caduta e movimento, mentre l'arco porta al compromesso tra Infinity e Mending. Java e Bedrock condividono il sistema generale ma possono differire per scambi, combattimento e comandi."
+    ],
+    "cards": [
+      {
+        "title": "Usa il tavolo come filtro",
+        "text": "Quindici librerie alzano il limite normale ma non garantiscono il risultato. Cambia offerta con un oggetto economico."
+      },
+      {
+        "title": "Concludi con l'incudine",
+        "text": "I libri rendono il piano mirato. Controlla livelli e messaggio Troppo costoso."
+      },
+      {
+        "title": "Segna la versione",
+        "text": "Tesori, abitanti e combattimento possono cambiare. Il tooltip corrente è la verifica finale."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Procedura ripetibile",
+    "title": "Come incantare senza sprecare livelli",
+    "description": "Segui questa sequenza quando hai diamanti ma non ancora una fonte sicura di libri, abitanti o esperienza.",
+    "items": [
+      {
+        "title": "1. Conferma edizione e obiettivo",
+        "text": "Scegli Java, Bedrock, copia di prova o regole del server. Definisci miniera, corpo a corpo, distanza, viaggio o strumento permanente."
+      },
+      {
+        "title": "2. Costruisci la stanza",
+        "text": "Metti il tavolo e fino a 15 librerie con il canale libero. Tieni lapislazzuli, libri e oggetti economici vicino."
+      },
+      {
+        "title": "3. Prova con un oggetto economico",
+        "text": "Leggi l'offerta su un libro o strumento di pietra. Accetta solo qualcosa di utile per ruotare la lista prima del diamante."
+      },
+      {
+        "title": "4. Raccogli libri e abitanti",
+        "text": "Usa bottino e bibliotecari dopo aver verificato le regole attuali. Fai una copia prima di modificare la sala degli scambi."
+      },
+      {
+        "title": "5. Pianifica l'ordine dell'incudine",
+        "text": "Unisci libri compatibili e applica il risultato finché il costo resta ragionevole. La penalità del lavoro precedente cresce presto."
+      },
+      {
+        "title": "6. Testa in una copia",
+        "text": "Controlla durata, danno, velocità e caduta. Annota versione e seed per i confronti futuri."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "La stazione giusta",
+    "title": "Quante librerie servono per un incantesimo di livello 30?",
+    "paragraphs": [
+      "L'obiettivo pratico è 15 librerie per il livello normale più alto. Lascia il blocco d'aria richiesto tra tavolo e librerie: torce, tappeti e altri blocchi possono interrompere il collegamento. Aggiungerne altre non aumenta ancora il livello.",
+      "Un'offerta di livello 30 non promette tre effetti perfetti. Il numero indica il costo; oggetto, tiro e compatibilità determinano il risultato. Se il livello alto non appare, controlla spazio, esperienza, lapislazzuli e tipo di oggetto. Java e Bedrock possono mostrare testi diversi.",
+      "La stanza aiuta anche a gestire le risorse. Tieni le scorte vicine ma lascia un'uscita. Non inserire il tavolo in una sala abitanti non testata: un cambio di postazione può rompere collegamenti e percorsi."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-bookshelf-setup.webp",
+      "alt": "Illustrazione voxel originale di un tavolo degli incantesimi dentro un anello di librerie con spazio aperto e sfere d'esperienza; arte esplicativa",
+      "caption": "Vista illustrativa. Mantieni lo spazio visibile tra tavolo e librerie durante il test del livello 30.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Tabella decisionale",
+    "title": "Priorità degli incantesimi per oggetto",
+    "description": "Usa questo schema come punto di partenza, poi controlla conflitti, edizione e stile di gioco.",
+    "headers": [
+      "Oggetto",
+      "Inizia con",
+      "Controlla"
+    ],
+    "rows": [
+      [
+        "Spada",
+        "Danno, durata e un effetto speciale compatibile",
+        "Non forzare percorsi di danno incompatibili."
+      ],
+      [
+        "Piccone",
+        "Efficienza e durata",
+        "Fortuna e Tocco di seta hanno obiettivi diversi; due picconi sono spesso migliori."
+      ],
+      [
+        "Armatura",
+        "Protezione e durata",
+        "Le varianti di protezione competono sul pezzo; gli stivali hanno scelte proprie."
+      ],
+      [
+        "Arco o balestra",
+        "Durata e un piano a distanza",
+        "Infinity e Mending sono un compromesso; verifica le frecce."
+      ],
+      [
+        "Libro Mending",
+        "Scambi, bottino o libro compatibile",
+        "Stato di tesoro e disponibilità dell'abitante dipendono dalla versione."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Scegli per attività",
+    "title": "I migliori incantesimi per combattimento, miniera e viaggio",
+    "paragraphs": [
+      "Per combattere, inizia con un'arma sostituibile. Danno e durata aiutano nelle grotte, ma non sostituiscono cibo, scudo e posizione. Prova il nuovo effetto in uno scontro breve.",
+      "Per scavare, Efficienza e Durata cambiano subito il ritmo. Fortuna e Tocco di seta servono a scopi diversi, quindi due picconi sono più flessibili. Mending è utile per un equipaggiamento lungo, ma il modo di ottenerlo dipende da bottino, scambi ed edizione.",
+      "Per armatura e viaggio, Protezione è una base valida quando non conosci il pericolo. Gli stivali richiedono una scelta tra caduta, movimento e acqua. Scegli arco, balestra, tridente o canna in base all'attività, non a una classifica universale.",
+      "Se un effetto non si applica, di solito è una regola di compatibilità. Controlla tipo, conflitti e livello massimo. La mola rimuove l'insieme applicato, non un singolo effetto."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-equipment-choices.webp",
+      "alt": "Illustrazione voxel originale con spada e armatura incantate, strumenti, arco e stivali intorno a un'incudine; non è una cattura",
+      "caption": "Confronto illustrativo per attività. Scegli l'effetto utile e verifica i conflitti prima di spendere livelli.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Prima di spendere",
+    "title": "Errori comuni con gli incantesimi",
+    "description": "La maggior parte dei livelli persi deriva da una pianificazione debole.",
+    "cards": [
+      {
+        "title": "Mettere subito il diamante",
+        "text": "Ruota il tavolo con un libro o strumento economico e proteggi il materiale difficile da sostituire."
+      },
+      {
+        "title": "Pensare che livello 30 sia perfetto",
+        "text": "È una fascia di costo, non una promessa. Leggi gli effetti reali."
+      },
+      {
+        "title": "Ignorare l'ordine dell'incudine",
+        "text": "Il lavoro precedente aumenta il prezzo. Unisci i libri con un ordine pensato."
+      },
+      {
+        "title": "Copiare una lista di un'altra edizione",
+        "text": "Scambi, nomi e combattimento cambiano. Controlla tooltip e copia del mondo."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Risorse correlate",
+    "title": "Risorse Minecraft correlate",
+    "description": "Queste pagine coprono edizione, profilo e abitanti utili accanto a un piano di incantesimi.",
+    "links": [
+      {
+        "title": "Java o Bedrock",
+        "text": "Confronta le edizioni prima di copiare consigli su combattimento, scambi o comandi.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Confronta edizioni"
+      },
+      {
+        "title": "Installare mod Java",
+        "text": "Usa un profilo separato quando le mod cambiano strumenti o prove.",
+        "url": "/how-to-install-java-mods/",
+        "cta": "Apri l'aiuto profilo"
+      },
+      {
+        "title": "Sala degli scambi",
+        "text": "Controlla postazioni e bibliotecari prima di cercare libri specifici.",
+        "url": "/villager-trading-hall/",
+        "cta": "Risorsa per abitanti"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Riferimenti",
+    "title": "Controlla le regole attuali della tua edizione",
+    "description": "La decisione pratica è qui; queste fonti aiutano per i dettagli sensibili alla versione.",
+    "links": [
+      {
+        "title": "Panoramica ufficiale degli incantesimi",
+        "text": "Contesto ufficiale Minecraft per incantare gli oggetti.",
+        "url": "https://www.minecraft.net/en-us/article/enchanting",
+        "cta": "Apri articolo ufficiale",
+        "rel": "noopener"
+      },
+      {
+        "title": "Centro assistenza Minecraft",
+        "text": "Supporto quando un aggiornamento cambia una meccanica o un'etichetta.",
+        "url": "https://help.minecraft.net/hc/en-us",
+        "cta": "Apri assistenza",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: incantamento",
+        "text": "Tabelle della community su conflitti e tesori; verifica la versione.",
+        "url": "https://minecraft.wiki/w/Enchanting",
+        "cta": "Leggi riferimento",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: incudine",
+        "text": "Ordine di combinazione e costo del lavoro precedente.",
+        "url": "https://minecraft.wiki/w/Anvil",
+        "cta": "Controlla incudine",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Domande frequenti sugli incantesimi di Minecraft",
+    "items": [
+      {
+        "question": "Quante librerie servono per il livello 30?",
+        "answer": "Usa 15 librerie con lo spazio d'aria richiesto. Gli oggetti nel canale possono interrompere il collegamento; altre librerie non alzano il livello normale."
+      },
+      {
+        "question": "Quali sono i migliori incantesimi?",
+        "answer": "Non esiste una lista unica. Efficienza e Durata aiutano gli strumenti, Protezione e Durata l'armatura, mentre attività ed edizione decidono l'arma."
+      },
+      {
+        "question": "Come ottengo incantesimi migliori?",
+        "answer": "Costruisci le 15 librerie, rinnova le offerte con un oggetto economico e cerca libri mirati tramite bottino o scambi. Leggi gli effetti, non solo il numero 30."
+      },
+      {
+        "question": "Posso togliere un solo incantesimo?",
+        "answer": "La mola rimuove l'insieme applicato e restituisce un po' di esperienza, ma non conserva selettivamente un effetto."
+      },
+      {
+        "question": "Mending appare sul tavolo?",
+        "answer": "Di norma è un tesoro ottenuto dai percorsi di bottino o scambio ammessi dalla versione, non un'offerta normale."
+      },
+      {
+        "question": "Fortuna o Tocco di seta?",
+        "answer": "Fortuna aumenta alcuni drop, Tocco di seta raccoglie il blocco. Due picconi evitano il conflitto."
+      },
+      {
+        "question": "Qual è l'ordine dell'incudine?",
+        "answer": "Unisci libri compatibili e applica il risultato finché il costo è ragionevole. Prova prima in una copia."
+      },
+      {
+        "question": "Java e Bedrock sono uguali?",
+        "answer": "Il sistema generale è simile, ma scambi, testi, combattimento e comandi possono variare. Controlla tooltip e documentazione dell'edizione."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Incantesimi Minecraft: scelte migliori, librerie e come rilanciare",
+      "description": "Guida pratica agli incantesimi di Minecraft: priorità per armi, armature e strumenti, 15 librerie, ordine dell'incudine e differenze Java/Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-enchantments/",
+      "inLanguage": "it"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quante librerie servono per il livello 30?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usa 15 librerie con lo spazio d'aria richiesto. Gli oggetti nel canale possono interrompere il collegamento; altre librerie non alzano il livello normale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quali sono i migliori incantesimi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non esiste una lista unica. Efficienza e Durata aiutano gli strumenti, Protezione e Durata l'armatura, mentre attività ed edizione decidono l'arma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come ottengo incantesimi migliori?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costruisci le 15 librerie, rinnova le offerte con un oggetto economico e cerca libri mirati tramite bottino o scambi. Leggi gli effetti, non solo il numero 30."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso togliere un solo incantesimo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La mola rimuove l'insieme applicato e restituisce un po' di esperienza, ma non conserva selettivamente un effetto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mending appare sul tavolo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Di norma è un tesoro ottenuto dai percorsi di bottino o scambio ammessi dalla versione, non un'offerta normale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fortuna o Tocco di seta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fortuna aumenta alcuni drop, Tocco di seta raccoglie il blocco. Due picconi evitano il conflitto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual è l'ordine dell'incudine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unisci libri compatibili e applica il risultato finché il costo è ragionevole. Prova prima in una copia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Java e Bedrock sono uguali?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il sistema generale è simile, ma scambi, testi, combattimento e comandi possono variare. Controlla tooltip e documentazione dell'edizione."
+          }
+        }
+      ]
+    }
+  }
+}

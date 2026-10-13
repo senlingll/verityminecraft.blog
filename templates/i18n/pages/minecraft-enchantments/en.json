@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Minecraft Enchantments Guide: Best Enchants, Bookshelves & Removal",
+    "description": "Learn Minecraft enchantments with a practical table for weapons, armor and tools, the 15-bookshelf setup, anvil and grindstone choices, and Java/Bedrock caveats.",
+    "image": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Practical survival guide",
+    "title": "Minecraft Enchantments: Best Choices, Bookshelves, and How to Reroll",
+    "lede": "Minecraft enchantments are easiest to manage when you separate the table roll from the final anvil plan. Build a full bookshelf setup, spend only the levels you can replace, and treat the first offered enchantment as a clue rather than a promise. This guide gives a version-aware route for choosing useful sword, armor, tool, bow, and trident enchants without wasting rare books or a good diamond item.",
+    "support": "The recommendations below describe normal Java and Bedrock survival. Names, caps, treasure rules, and command behavior can change with a release, so check the current in-game tooltip before committing a long-term world. Reviewed October 14, 2026.",
+    "actions": [
+      {
+        "label": "Compare Java and Bedrock first",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Set up a safe Java profile",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "alt": "Original explanatory voxel illustration of a Minecraft enchanting table with an enchanted book, diamond sword, armor, and pickaxe in a library; not a real gameplay screenshot",
+      "caption": "Original editorial illustration, not official Minecraft artwork or a gameplay capture. It introduces the four equipment decisions covered below.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Quick answer",
+    "title": "How to Get Better Minecraft Enchantments",
+    "paragraphs": [
+      "For a dependable survival setup, place an enchanting table with up to 15 bookshelves around it, leaving the required air gap, and bring lapis lazuli plus a spare item. The table's three offers are random, but the visible enchantment gives you useful information about that roll. If none of the three options helps, enchant a cheap book or tool to refresh the list, then return to the item you actually care about.",
+      "Use the enchanting table for early and mid-game upgrades, then use an anvil to combine compatible books and repair a planned item. A grindstone removes most applied enchantments and returns some experience, but it cannot preserve a single enchantment. Treasure enchantments, such as Mending, are normally found through loot or trading rather than a standard table roll. Do not assume a high level number means a better result: compatibility and the item's job matter more.",
+      "The best set depends on the task. A survival sword usually values durability, damage, and a compatible special edge; a pickaxe often starts with efficiency and durability; boots may need fall and movement protection; a bow needs a choice between Infinity and Mending. Java and Bedrock share the broad system but can differ in trade availability, combat details, and command syntax. Verify the installed edition and release before copying a list from an older guide."
+    ],
+    "cards": [
+      {
+        "title": "Use the table as a filter",
+        "text": "A 15-bookshelf room raises the level ceiling, but the offer is still a roll. Refresh poor offers with a low-cost item instead of burning a rare tool."
+      },
+      {
+        "title": "Finish with an anvil",
+        "text": "Books let you target a specific plan and combine compatible effects. Watch the level cost and rename or merge items before the anvil says Too Expensive."
+      },
+      {
+        "title": "Keep a version boundary",
+        "text": "Mending, treasure rules, villager trades, and combat effects can vary by edition or update. Use the current tooltip and official notes as the final check."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "A repeatable setup",
+    "title": "How to Enchant Items Without Wasting Levels",
+    "description": "Use this sequence when a new world has diamonds but not yet a reliable supply of books, villagers, or experience.",
+    "items": [
+      {
+        "title": "1. Confirm the edition and job",
+        "text": "Decide whether the item is for Java or Bedrock survival, a copied test world, or a server with special rules. Write down the job first: branch mining, melee, ranged combat, travel, or a long-term tool. The job tells you which effects are essential and which conflicts are acceptable."
+      },
+      {
+        "title": "2. Build the table room",
+        "text": "Craft the table, place up to 15 bookshelves around it with the required open space, and keep a safe path to the exit. Put chests for lapis, spare books, and cheap refresh items nearby. A clean room makes it easier to see whether a missing level is caused by layout, experience, or the item itself."
+      },
+      {
+        "title": "3. Roll on a cheap item first",
+        "text": "Insert a low-cost book, stone tool, or spare iron item and read the offered enchantment. If the offers are poor, take the cheapest useful one to rotate the list. This spends a little experience but protects the diamond pickaxe or armor piece you intend to keep."
+      },
+      {
+        "title": "4. Gather books and villagers",
+        "text": "Explore libraries, fish or loot when appropriate, and trade with Librarians only after checking the current edition's rules. A trade is useful because it lets you target an effect, but prices and restocking behavior can vary. Keep a backup world before changing a trading hall or locking a valuable offer."
+      },
+      {
+        "title": "5. Combine in a planned order",
+        "text": "Use the anvil to merge books with the same effect, then apply the resulting book to the item when the cost is still reasonable. Put the most important book on the item first when a long sequence could push the prior-work penalty too high. Repair with matching materials or a second item only when the total cost remains practical."
+      },
+      {
+        "title": "6. Test before the main save",
+        "text": "Try the finished item in a copied world or a controlled cave. Check durability, attack behavior, mining speed, fall damage, and any edition-specific interaction. Keep the seed and version in your notes so a later update does not make an old screenshot or command look like a universal rule."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Build the right station",
+    "title": "How Many Bookshelves for a Level 30 Enchant?",
+    "paragraphs": [
+      "The practical target is 15 bookshelves for the highest normal enchanting-table tier. The shelves should form a ring or an equivalent layout with one clear block of air between the table and the shelves; torches, carpets, blocks, or other objects in that channel can interrupt the connection. You do not need to surround the table on every side, and adding more than the effective maximum does not keep raising the level.",
+      "A level 30 offer is not a guarantee of three perfect effects. The displayed level is the cost tier, while the item, the roll, and compatibility determine the actual result. If the table never shows a high tier, check the bookshelf gap, your available experience, the lapis slot, and whether the item can receive the effect. Bedrock and Java can show different wording, so compare the current interface rather than an old screenshot.",
+      "The room is also a resource-management tool. Store lapis, books, and a cheap refresh item nearby, but leave enough space to retreat if a hostile mob enters. When villagers or an anvil are part of the plan, do not build the enchanting room inside an untested trading hall: workstation linking and pathing errors can turn a small layout change into a larger repair job."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-bookshelf-setup.webp",
+      "alt": "Original voxel illustration of a Minecraft enchanting table inside a bookshelf ring with an open gap and floating experience orbs; explanatory art, not a gameplay screenshot",
+      "caption": "Illustrative setup view. The visible gap between the table and bookshelves is the part to preserve when testing a level 30 roll.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Decision table",
+    "title": "Best Enchantment Priorities by Item",
+    "description": "Treat this as a starting plan, then check conflicts, edition rules, and the way you actually play.",
+    "headers": [
+      "Item or goal",
+      "Start with",
+      "Watch for"
+    ],
+    "rows": [
+      [
+        "Sword for general survival",
+        "Durability, damage, and one compatible special effect",
+        "Do not combine mutually exclusive damage paths just because both names look strong."
+      ],
+      [
+        "Pickaxe for mining",
+        "Efficiency and Durability; add a second utility pick when needed",
+        "Silk Touch and Fortune are a choice on one tool; keep separate copies for flexibility."
+      ],
+      [
+        "Armor for exploration",
+        "Protection, Durability, and task-specific pieces",
+        "Protection variants conflict on one piece, and boots have special fall or movement choices."
+      ],
+      [
+        "Bow or crossbow",
+        "Durability plus a clear ranged-use plan",
+        "Infinity and Mending are a famous tradeoff; confirm the edition and your arrow supply."
+      ],
+      [
+        "Mending or a treasure book",
+        "Targeted trading, loot, or a compatible book",
+        "Treasure status and villager availability are version-sensitive; never promise a table roll."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Choose effects by job",
+    "title": "Best Minecraft Enchantments for Combat, Mining, and Travel",
+    "paragraphs": [
+      "For combat, start with the weapon you can replace. A sword used for caves and general mobs benefits from reliable damage and durability, while a specialized weapon may favor a different compatible effect. Keep a shield and food plan in mind; a perfect damage list does not fix poor positioning. When testing a new release, compare the tooltip and a short combat session before spending several books on a whole armor set.",
+      "For mining, Efficiency changes the feel of a tool immediately, and Durability reduces trips back to storage. Fortune and Silk Touch serve different goals, so many players keep two pickaxes rather than trying to force one tool to do everything. Mending is valuable for a long-term kit, but the way you obtain it can depend on loot, trading, and edition rules. A copied world is the right place to test a villager or an anvil sequence.",
+      "For armor and travel, general Protection is a sensible baseline when you do not know the next danger. Boots deserve their own decision because fall damage, movement, and water travel pull in different directions. A bow, crossbow, trident, or fishing rod should be chosen around the activity rather than a universal tier list. The strongest-looking effect is not always the one that saves resources in your world.",
+      "When an effect cannot be applied, that is usually a compatibility rule rather than a broken table. Check whether another enchantment conflicts, whether the item type is supported, and whether the book is already at its maximum level. The grindstone is useful for clearing an unwanted result, but it is not a selective editor: it removes the applied enchantment set together."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-equipment-choices.webp",
+      "alt": "Original voxel illustration grouping enchanted sword and armor, mining tools, a bow, and travel boots around an anvil; editorial comparison art, not a real game screenshot",
+      "caption": "Illustrative comparison of equipment jobs. Choose the effect that supports the activity, then verify conflicts before spending levels.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Before you spend levels",
+    "title": "Common Minecraft Enchanting Mistakes",
+    "description": "Most wasted levels come from a planning error rather than a rare bug.",
+    "cards": [
+      {
+        "title": "Putting the diamond item in first",
+        "text": "Roll a cheap book or tool to refresh the table. Protect the item whose material and mining time would be expensive to replace."
+      },
+      {
+        "title": "Treating level 30 as a perfect result",
+        "text": "The number is a cost tier, not a promise of the best combination. Read the actual effects and keep a targeted book plan."
+      },
+      {
+        "title": "Ignoring anvil order",
+        "text": "Repeated merges can increase the prior-work penalty. Combine compatible books in a sensible sequence and stop when the cost is no longer practical."
+      },
+      {
+        "title": "Copying an old edition list",
+        "text": "Names, trade rules, caps, and combat details can change. Use the current tooltip and a copied test world before changing a main save."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Keep the setup stable",
+    "title": "Related Minecraft Guides",
+    "description": "These guides cover the edition, profile, and villager decisions that often sit beside an enchanting plan.",
+    "links": [
+      {
+        "title": "Java vs Bedrock",
+        "text": "Compare edition differences before copying a combat, trading, or command tip.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Compare editions"
+      },
+      {
+        "title": "Install Java mods safely",
+        "text": "Keep a separate profile when a mod changes tools, loot, or the way you test a world.",
+        "url": "/how-to-install-java-mods/",
+        "cta": "Open the profile guide"
+      },
+      {
+        "title": "Villager trading hall",
+        "text": "Plan workstation linking and trade checks before building a Librarian route for targeted books.",
+        "url": "/villager-trading-hall/",
+        "cta": "Review villager setup"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Primary references",
+    "title": "Check the Current Rules in Your Edition",
+    "description": "The guide keeps the practical decision in one place, while these references help confirm version-sensitive mechanics.",
+    "links": [
+      {
+        "title": "Minecraft enchanting overview",
+        "text": "Official Minecraft guidance and feature context for enchanting items.",
+        "url": "https://www.minecraft.net/en-us/article/enchanting",
+        "cta": "Open official article",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Help Center",
+        "text": "Official support articles are useful when a release changes a mechanic or interface label.",
+        "url": "https://help.minecraft.net/hc/en-us",
+        "cta": "Open support center",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: Enchanting",
+        "text": "Community-maintained tables for conflicts, treasure status, and edition details; verify against your release.",
+        "url": "https://minecraft.wiki/w/Enchanting",
+        "cta": "Read community reference",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: Anvil mechanics",
+        "text": "A reference for combining order, prior-work cost, and repair behavior.",
+        "url": "https://minecraft.wiki/w/Anvil",
+        "cta": "Check anvil details",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Minecraft Enchantments FAQ",
+    "items": [
+      {
+        "question": "How many bookshelves do I need for a level 30 enchantment in Minecraft?",
+        "answer": "Use up to 15 bookshelves with the required open gap between the shelves and the enchanting table. More shelves do not keep raising the normal table tier, and the layout can be interrupted by objects in that gap."
+      },
+      {
+        "question": "What are the best enchantments in Minecraft?",
+        "answer": "There is no single best list for every world. Efficiency and Durability are strong mining priorities, Protection and Durability are a practical armor baseline, and a sword, bow, or boots should be matched to the activity and edition."
+      },
+      {
+        "question": "How do I get better enchantments in Minecraft?",
+        "answer": "Build the 15-bookshelf setup, roll on a cheap item to refresh poor offers, and use targeted books through loot or trading. Read the actual offered effects instead of assuming that level 30 is automatically best."
+      },
+      {
+        "question": "Can I remove one enchantment from an item?",
+        "answer": "A grindstone removes the applied enchantment set and returns some experience, but it does not selectively keep one effect. Curses and certain special cases may not behave like ordinary enchantments."
+      },
+      {
+        "question": "Is Mending available from an enchanting table?",
+        "answer": "Mending is generally treated as a treasure enchantment rather than a normal table offer. Obtain it through the current edition's supported loot or trading paths and verify the release rules before building a villager hall."
+      },
+      {
+        "question": "Should I choose Fortune or Silk Touch on a pickaxe?",
+        "answer": "They support different jobs. Fortune increases eligible drops, while Silk Touch collects the block itself. Many players keep separate pickaxes so a single tool does not have to cover conflicting goals."
+      },
+      {
+        "question": "What is the best order for combining enchanted books?",
+        "answer": "Combine compatible books in a planned sequence, then apply the combined book when the anvil cost is reasonable. Repeated prior work can push the cost too high, so test the sequence in a copy before using rare materials."
+      },
+      {
+        "question": "Do Java and Bedrock enchantments work the same way?",
+        "answer": "The broad system is shared, but trade availability, wording, combat details, and command behavior can differ. Check the current tooltip and edition documentation for a main-world decision."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Enchantments: Best Choices, Bookshelves, and How to Reroll",
+      "description": "Learn Minecraft enchantments with a practical table for weapons, armor and tools, the 15-bookshelf setup, anvil and grindstone choices, and Java/Bedrock caveats.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/minecraft-enchantments/",
+      "inLanguage": "en"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many bookshelves do I need for a level 30 enchantment in Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use up to 15 bookshelves with the required open gap between the shelves and the enchanting table. More shelves do not keep raising the normal table tier, and the layout can be interrupted by objects in that gap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best enchantments in Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single best list for every world. Efficiency and Durability are strong mining priorities, Protection and Durability are a practical armor baseline, and a sword, bow, or boots should be matched to the activity and edition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get better enchantments in Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Build the 15-bookshelf setup, roll on a cheap item to refresh poor offers, and use targeted books through loot or trading. Read the actual offered effects instead of assuming that level 30 is automatically best."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I remove one enchantment from an item?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A grindstone removes the applied enchantment set and returns some experience, but it does not selectively keep one effect. Curses and certain special cases may not behave like ordinary enchantments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mending available from an enchanting table?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mending is generally treated as a treasure enchantment rather than a normal table offer. Obtain it through the current edition's supported loot or trading paths and verify the release rules before building a villager hall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I choose Fortune or Silk Touch on a pickaxe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They support different jobs. Fortune increases eligible drops, while Silk Touch collects the block itself. Many players keep separate pickaxes so a single tool does not have to cover conflicting goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best order for combining enchanted books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Combine compatible books in a planned sequence, then apply the combined book when the anvil cost is reasonable. Repeated prior work can push the cost too high, so test the sequence in a copy before using rare materials."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do Java and Bedrock enchantments work the same way?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The broad system is shared, but trade availability, wording, combat details, and command behavior can differ. Check the current tooltip and edition documentation for a main-world decision."
+          }
+        }
+      ]
+    }
+  }
+}

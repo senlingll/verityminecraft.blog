@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Minecraft-Verzauberungen: beste Effekte, Bücherregale und Schleifstein",
+    "description": "Praxisratgeber zu Minecraft-Verzauberungen: Prioritäten für Waffen, Rüstung und Werkzeuge, 15 Bücherregale, Amboss-Reihenfolge und Unterschiede zwischen Java und Bedrock.",
+    "image": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Praxisratgeber für den Überlebensmodus",
+    "title": "Minecraft-Verzauberungen: beste Auswahl, Bücherregale und neu würfeln",
+    "lede": "Minecraft-Verzauberungen werden übersichtlicher, wenn du den Zufallswurf am Zaubertisch vom späteren Amboss-Plan trennst. Baue die Bücherregal-Anordnung, verwende nur ersetzbare Erfahrung und behandle das erste Angebot als Hinweis. Dieser Ratgeber hilft dir bei Schwert, Rüstung, Werkzeug, Bogen und Dreizack, ohne seltene Bücher an ein ungeprüftes Diamant-Item zu verschwenden.",
+    "support": "Die Empfehlungen beziehen sich auf normalen Java- und Bedrock-Survival. Namen, Höchststufen, Schatzregeln und Befehle können sich mit einem Update ändern. Prüfe deshalb den Tooltip deiner Installation, bevor du dein Hauptweltsave veränderst. Stand: 14. Oktober 2026.",
+    "actions": [
+      {
+        "label": "Java und Bedrock vergleichen",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Java-Profil sicher einrichten",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "alt": "Originale voxelartige Erklärungsgrafik mit Zaubertisch, Buch, Diamantschwert, Rüstung und Spitzhacke in einer Bibliothek; kein Minecraft-Screenshot",
+      "caption": "Originale redaktionelle Illustration, kein offizielles Minecraft-Artwork und kein echter Spielmitschnitt.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "So bekommst du bessere Verzauberungen",
+    "paragraphs": [
+      "Für einen zuverlässigen Survival-Aufbau stellst du den Zaubertisch mit bis zu 15 Bücherregalen und dem nötigen Luftabstand auf. Nimm Lapislazuli und ein Ersatz-Item mit. Die drei Angebote sind zufällig, aber der sichtbare Effekt verrät etwas über den Wurf. Wenn nichts passt, verzaubere ein billiges Buch oder Werkzeug und erneuere die Liste.",
+      "Der Tisch eignet sich für frühe Verbesserungen; der Amboss verbindet passende Bücher und repariert den geplanten Gegenstand. Ein Schleifstein entfernt die meisten angewendeten Effekte und gibt etwas Erfahrung zurück, kann aber nicht nur einen einzelnen Effekt behalten. Reparatur ist normalerweise ein Schatz-Effekt aus Beute oder Handel und kein gewöhnliches Tischangebot.",
+      "Die beste Kombination hängt von der Aufgabe ab. Ein Schwert braucht verlässlichen Schaden und Haltbarkeit, eine Spitzhacke meist Effizienz und Haltbarkeit, Stiefel wählen zwischen Fallschutz und Bewegung, und beim Bogen entsteht der bekannte Konflikt zwischen Unendlichkeit und Reparatur. Java und Bedrock teilen das System, können aber Handel, Kampf und Befehle unterschiedlich behandeln."
+    ],
+    "cards": [
+      {
+        "title": "Den Tisch als Filter nutzen",
+        "text": "15 Bücherregale erhöhen die normale Stufe, garantieren aber kein perfektes Ergebnis. Würfle mit einem billigen Gegenstand neu."
+      },
+      {
+        "title": "Mit dem Amboss abschließen",
+        "text": "Gezielte Bücher machen den Plan berechenbarer. Achte auf die Kosten und die Meldung Zu teuer."
+      },
+      {
+        "title": "Versionsgrenzen notieren",
+        "text": "Reparatur, Schatzregeln, Dorfbewohner und Kampf können sich ändern. Der aktuelle Tooltip ist entscheidend."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Wiederholbarer Ablauf",
+    "title": "Items verzaubern, ohne Erfahrung zu verschwenden",
+    "description": "Diese Reihenfolge eignet sich für Welten mit Diamanten, aber noch ohne sichere Bücher-, Villager- oder XP-Quelle.",
+    "items": [
+      {
+        "title": "1. Edition und Aufgabe klären",
+        "text": "Entscheide zwischen Java, Bedrock, Testkopie und Serverregeln. Notiere zuerst die Aufgabe: Mine, Nahkampf, Fernkampf, Reise oder dauerhaftes Werkzeug."
+      },
+      {
+        "title": "2. Zauberraum bauen",
+        "text": "Platziere Tisch und bis zu 15 Bücherregale mit freiem Kanal. Lege Lapislazuli, Bücher und billige Wechsel-Items bereit und halte einen Fluchtweg frei."
+      },
+      {
+        "title": "3. Billig würfeln",
+        "text": "Prüfe die Angebote an einem Buch oder Eisenwerkzeug. Nimm nur etwas Nützliches, um die Liste zu drehen, bevor du den Diamantgegenstand einlegst."
+      },
+      {
+        "title": "4. Bücher und Händler sammeln",
+        "text": "Nutze Beute und Bibliothekare, nachdem du die aktuelle Handelsregel geprüft hast. Sichere ein Backup, bevor du einen Handelssaal umbaust."
+      },
+      {
+        "title": "5. Amboss-Reihenfolge planen",
+        "text": "Verbinde gleiche und kompatible Bücher zuerst. Setze wichtige Bücher rechtzeitig auf das Item, damit die Vorarbeitsstrafe nicht alles zu teuer macht."
+      },
+      {
+        "title": "6. In einer Kopie testen",
+        "text": "Prüfe Haltbarkeit, Schaden, Abbaugeschwindigkeit und Fallschaden in einer Weltkopie. Notiere Version und Seed für spätere Updates."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Die richtige Station",
+    "title": "Wie viele Bücherregale braucht eine Level-30-Verzauberung?",
+    "paragraphs": [
+      "Das praktische Ziel sind 15 Bücherregale für die höchste normale Tischstufe. Zwischen Regal und Tisch muss der nötige Luftblock bleiben; Fackeln, Teppiche oder andere Blöcke können die Verbindung unterbrechen. Mehr Regale erhöhen die normale Stufe nicht weiter.",
+      "Level 30 verspricht keine drei perfekten Effekte. Die Zahl beschreibt die Kostengruppe, während Itemtyp, Wurf und Kompatibilität das Ergebnis bestimmen. Wenn keine hohe Stufe erscheint, prüfe Abstand, XP, Lapislazuli und die Eignung des Items. Java und Bedrock können die Oberfläche unterschiedlich beschriften.",
+      "Der Raum ist auch eine Ressourcenstation. Lagere Vorräte in der Nähe, lasse aber Platz zum Rückzug. Baue den Tisch nicht ungetestet in einen Handelssaal ein, weil ein kleiner Arbeitsplatzwechsel die Verknüpfung mehrerer Dorfbewohner stören kann."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-bookshelf-setup.webp",
+      "alt": "Originale voxelartige Grafik mit Zaubertisch in einem Bücherregalring, freiem Abstand und Erfahrungskugeln; Erklärungsgrafik statt Gameplay",
+      "caption": "Illustrative Ansicht. Der sichtbare Abstand zwischen Tisch und Regalen ist beim Testen einer Level-30-Stufe wichtig.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Entscheidungstabelle",
+    "title": "Verzauberungs-Prioritäten nach Gegenstand",
+    "description": "Nutze die Tabelle als Startpunkt und prüfe danach Konflikte, Edition und Spielweise.",
+    "headers": [
+      "Gegenstand",
+      "Beginne mit",
+      "Achte auf"
+    ],
+    "rows": [
+      [
+        "Schwert",
+        "Schaden, Haltbarkeit und ein kompatibler Spezialeffekt",
+        "Unvereinbare Schadenswege nicht blind kombinieren."
+      ],
+      [
+        "Spitzhacke",
+        "Effizienz und Haltbarkeit",
+        "Behutsam zwischen Behutsamkeit und Glück wählen; oft sind zwei Spitzhacken sinnvoll."
+      ],
+      [
+        "Erkundungsrüstung",
+        "Schutz und Haltbarkeit",
+        "Schutzvarianten konkurrieren auf einem Rüstungsteil; Stiefel haben eigene Entscheidungen."
+      ],
+      [
+        "Bogen oder Armbrust",
+        "Haltbarkeit und ein klarer Fernkampfplan",
+        "Unendlichkeit und Reparatur sind ein bekannter Tausch; prüfe deine Pfeilquelle."
+      ],
+      [
+        "Reparaturbuch",
+        "Handel, Beute oder kompatibles Buch",
+        "Schatzstatus und Händlerangebot sind versionsabhängig."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Nach Aufgabe wählen",
+    "title": "Die besten Minecraft-Verzauberungen für Kampf, Mine und Reise",
+    "paragraphs": [
+      "Beim Kampf startest du mit einer Waffe, die du ersetzen kannst. Schaden und Haltbarkeit helfen in Höhlen, aber eine perfekte Liste ersetzt keine Deckung, Nahrung oder ein Schild. Teste neue Effekte zuerst in einer kurzen Begegnung.",
+      "Beim Abbauen verändern Effizienz und Haltbarkeit den Alltag sofort. Glück und Behutsamkeit verfolgen verschiedene Ziele; zwei Spitzhacken sind oft flexibler als ein Kompromiss. Reparatur lohnt sich langfristig, aber die Beschaffung hängt von Beute, Handel und Edition ab.",
+      "Für Rüstung ist Schutz ein guter Ausgangspunkt, wenn die nächste Gefahr unbekannt ist. Stiefel verlangen eine eigene Wahl zwischen Fall-, Bewegungs- und Wassereffekten. Wähle Bogen, Armbrust, Dreizack oder Angel nach der Aktivität statt nach einer universellen Rangliste.",
+      "Wenn ein Effekt nicht angewendet werden kann, liegt meist eine Kompatibilitätsregel vor. Prüfe Itemtyp, Konflikte und Maximalstufe. Der Schleifstein löscht die angewendete Gruppe, ist aber kein selektiver Editor."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-equipment-choices.webp",
+      "alt": "Originale voxelartige Vergleichsgrafik mit verzaubertem Schwert, Rüstung, Werkzeugen, Bogen und Stiefeln um einen Amboss; kein echter Spielmitschnitt",
+      "caption": "Illustrativer Vergleich nach Aufgaben. Wähle den Effekt für deine Aktivität und prüfe Konflikte vor dem Ausgeben von XP.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Vor dem Ausgeben",
+    "title": "Häufige Fehler beim Verzaubern",
+    "description": "Meist gehen Level durch Planung verloren, nicht durch einen seltenen Fehler.",
+    "cards": [
+      {
+        "title": "Diamant-Item zuerst einlegen",
+        "text": "Würfle mit einem billigen Buch oder Werkzeug und schütze Material, das schwer zu ersetzen ist."
+      },
+      {
+        "title": "Level 30 als Garantie ansehen",
+        "text": "Die Zahl ist eine Kostengruppe, kein Versprechen. Lies die echten Effekte."
+      },
+      {
+        "title": "Amboss-Reihenfolge ignorieren",
+        "text": "Vorarbeit erhöht die Kosten. Kombiniere kompatible Bücher in einer sinnvollen Reihenfolge."
+      },
+      {
+        "title": "Alte Editionsliste kopieren",
+        "text": "Handel, Namen und Kampfeffekte ändern sich. Prüfe Tooltip und Weltkopie."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Verwandte Ratgeber",
+    "title": "Verwandte Minecraft-Ratgeber",
+    "description": "Diese Seiten decken Edition, Profil und Dorfbewohner ab, die oft neben einem Verzauberungsplan gebraucht werden.",
+    "links": [
+      {
+        "title": "Java oder Bedrock",
+        "text": "Vergleiche die Edition, bevor du Kampf-, Handels- oder Befehlstipps übernimmst.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Edition vergleichen"
+      },
+      {
+        "title": "Java-Mods sicher installieren",
+        "text": "Halte ein eigenes Profil bereit, wenn Mods Werkzeuge oder Tests verändern.",
+        "url": "/how-to-install-java-mods/",
+        "cta": "Profilhilfe öffnen"
+      },
+      {
+        "title": "Dorfbewohner-Handelshalle",
+        "text": "Prüfe Arbeitsplätze, bevor du einen Bibliothekarweg für gezielte Bücher baust.",
+        "url": "/villager-trading-hall/",
+        "cta": "Handelshilfe öffnen"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Quellen",
+    "title": "Aktuelle Regeln deiner Edition prüfen",
+    "description": "Die praktische Entscheidung steht hier; die folgenden Quellen helfen bei versionsabhängigen Details.",
+    "links": [
+      {
+        "title": "Offizieller Verzauberungsüberblick",
+        "text": "Offizieller Minecraft-Kontext zum Verzaubern von Gegenständen.",
+        "url": "https://www.minecraft.net/en-us/article/enchanting",
+        "cta": "Offiziellen Artikel öffnen",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft-Hilfezentrum",
+        "text": "Supportquelle, wenn ein Update Mechanik oder Oberfläche ändert.",
+        "url": "https://help.minecraft.net/hc/en-us",
+        "cta": "Hilfezentrum öffnen",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: Verzauberung",
+        "text": "Community-Tabellen zu Konflikten und Schatzstatus; mit deiner Version prüfen.",
+        "url": "https://minecraft.wiki/w/Enchanting",
+        "cta": "Referenz lesen",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: Amboss",
+        "text": "Details zu Kombinationsreihenfolge und Vorarbeitskosten.",
+        "url": "https://minecraft.wiki/w/Anvil",
+        "cta": "Ambossdetails prüfen",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Häufige Fragen zu Minecraft-Verzauberungen",
+    "items": [
+      {
+        "question": "Wie viele Bücherregale brauche ich für Level 30?",
+        "answer": "Nutze 15 Bücherregale mit dem nötigen freien Abstand. Mehr Regale erhöhen die normale Tischstufe nicht; Gegenstände im Kanal können die Verbindung unterbrechen."
+      },
+      {
+        "question": "Was sind die besten Verzauberungen?",
+        "answer": "Es gibt keine Liste für jede Welt. Effizienz und Haltbarkeit helfen beim Abbauen, Schutz und Haltbarkeit bei Rüstung; Waffe und Edition bestimmen den Rest."
+      },
+      {
+        "question": "Wie bekomme ich bessere Verzauberungen?",
+        "answer": "Baue 15 Regale, erneuere schlechte Angebote mit einem billigen Gegenstand und suche gezielte Bücher über Beute oder Handel. Lies die Effekte statt nur Level 30 zu sehen."
+      },
+      {
+        "question": "Kann ich nur eine Verzauberung entfernen?",
+        "answer": "Der Schleifstein entfernt die angewendete Gruppe und gibt etwas XP zurück, behält aber nicht selektiv einen Effekt."
+      },
+      {
+        "question": "Gibt es Reparatur am Zaubertisch?",
+        "answer": "Reparatur gilt normalerweise als Schatzverzauberung und kommt über die aktuell erlaubten Beute- oder Handelswege, nicht als normales Tischangebot."
+      },
+      {
+        "question": "Glück oder Behutsamkeit auf der Spitzhacke?",
+        "answer": "Glück erhöht bestimmte Drops, Behutsamkeit sammelt den Block. Viele Spieler behalten zwei Spitzhacken."
+      },
+      {
+        "question": "Welche Amboss-Reihenfolge ist richtig?",
+        "answer": "Kombiniere passende Bücher geplant und wende das Ergebnis an, solange die Kosten sinnvoll bleiben. Teste es zuerst in einer Kopie."
+      },
+      {
+        "question": "Sind Java und Bedrock gleich?",
+        "answer": "Das Grundsystem ist ähnlich, aber Handel, Bezeichnungen, Kampf und Befehle können abweichen. Prüfe Tooltip und Editionsdokumentation."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft-Verzauberungen: beste Auswahl, Bücherregale und neu würfeln",
+      "description": "Praxisratgeber zu Minecraft-Verzauberungen: Prioritäten für Waffen, Rüstung und Werkzeuge, 15 Bücherregale, Amboss-Reihenfolge und Unterschiede zwischen Java und Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/de/minecraft-enchantments/",
+      "inLanguage": "de"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viele Bücherregale brauche ich für Level 30?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nutze 15 Bücherregale mit dem nötigen freien Abstand. Mehr Regale erhöhen die normale Tischstufe nicht; Gegenstände im Kanal können die Verbindung unterbrechen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Verzauberungen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es gibt keine Liste für jede Welt. Effizienz und Haltbarkeit helfen beim Abbauen, Schutz und Haltbarkeit bei Rüstung; Waffe und Edition bestimmen den Rest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie bekomme ich bessere Verzauberungen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Baue 15 Regale, erneuere schlechte Angebote mit einem billigen Gegenstand und suche gezielte Bücher über Beute oder Handel. Lies die Effekte statt nur Level 30 zu sehen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich nur eine Verzauberung entfernen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Schleifstein entfernt die angewendete Gruppe und gibt etwas XP zurück, behält aber nicht selektiv einen Effekt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Reparatur am Zaubertisch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reparatur gilt normalerweise als Schatzverzauberung und kommt über die aktuell erlaubten Beute- oder Handelswege, nicht als normales Tischangebot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Glück oder Behutsamkeit auf der Spitzhacke?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Glück erhöht bestimmte Drops, Behutsamkeit sammelt den Block. Viele Spieler behalten zwei Spitzhacken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Amboss-Reihenfolge ist richtig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kombiniere passende Bücher geplant und wende das Ergebnis an, solange die Kosten sinnvoll bleiben. Teste es zuerst in einer Kopie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sind Java und Bedrock gleich?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das Grundsystem ist ähnlich, aber Handel, Bezeichnungen, Kampf und Befehle können abweichen. Prüfe Tooltip und Editionsdokumentation."
+          }
+        }
+      ]
+    }
+  }
+}

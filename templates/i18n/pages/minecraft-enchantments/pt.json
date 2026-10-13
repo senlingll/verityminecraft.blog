@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Encantamentos do Minecraft: melhores opções, estantes e guia de nível 30",
+    "description": "Guia prático de encantamentos do Minecraft: prioridades para armas, armaduras e ferramentas, 15 estantes, ordem da bigorna e diferenças entre Java e Bedrock.",
+    "image": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia prático de sobrevivência",
+    "title": "Encantamentos do Minecraft: melhores escolhas, estantes e como refazer a oferta",
+    "lede": "Os encantamentos do Minecraft ficam mais fáceis quando você separa a rolagem da mesa do plano final na bigorna. Monte a sala de estantes, gaste apenas experiência que possa recuperar e trate a primeira oferta como uma pista. Este guia cobre espada, armadura, ferramentas, arco e tridente para evitar livros raros em um item que ainda não foi testado.",
+    "support": "As recomendações consideram a sobrevivência normal de Java e Bedrock. Nomes, limites, tesouros e comandos podem mudar em uma atualização; confira a dica da sua edição antes de alterar o mundo principal. Revisado em 14 de outubro de 2026.",
+    "actions": [
+      {
+        "label": "Comparar Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Preparar um perfil Java",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "alt": "Ilustração voxel original de uma mesa de encantamentos do Minecraft com livro, espada de diamante, armadura e picareta; não é captura de jogo",
+      "caption": "Ilustração editorial original, sem ser arte oficial nem captura de Minecraft.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "Como conseguir encantamentos melhores",
+    "paragraphs": [
+      "Para uma sobrevivência consistente, coloque a mesa com até 15 estantes e o espaço de ar necessário. Leve lápis-lazúli e um item reserva. As três ofertas são aleatórias, mas o efeito visível informa sobre a rolagem. Se nenhuma ajudar, encante um livro ou ferramenta barata para renovar a lista antes de arriscar seu item de diamante.",
+      "Use a mesa nas primeiras melhorias e a bigorna para combinar livros compatíveis. A pedra de amolar remove a maioria dos efeitos aplicados e devolve alguma experiência, mas não preserva apenas um encantamento. Remendo normalmente é tesouro obtido por saque ou troca, não uma oferta normal da mesa.",
+      "A melhor combinação depende da atividade. Uma espada pede dano e durabilidade, uma picareta começa com eficiência e durabilidade, botas escolhem entre queda e movimento, e o arco traz o dilema entre Infinidade e Remendo. Java e Bedrock compartilham o sistema geral, mas trocas, combate e comandos podem mudar."
+    ],
+    "cards": [
+      {
+        "title": "Use a mesa como filtro",
+        "text": "Quinze estantes aumentam o limite normal, mas não garantem o resultado. Renove com um item barato."
+      },
+      {
+        "title": "Finalize na bigorna",
+        "text": "Livros tornam o plano direcionado. Observe os níveis e a mensagem Caro demais."
+      },
+      {
+        "title": "Registre a versão",
+        "text": "Tesouros, aldeões e combate podem mudar. A dica atual do jogo tem prioridade."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Rotina repetível",
+    "title": "Como encantar sem desperdiçar níveis",
+    "description": "Use esta ordem quando a casa já tem diamantes, mas ainda não possui uma fonte segura de livros, aldeões ou experiência.",
+    "items": [
+      {
+        "title": "1. Confirme edição e objetivo",
+        "text": "Escolha Java, Bedrock, cópia de teste ou regras do servidor. Defina mineração, combate, distância, viagem ou ferramenta permanente."
+      },
+      {
+        "title": "2. Monte a sala",
+        "text": "Coloque a mesa e até 15 estantes com o canal aberto. Deixe lápis-lazúli, livros e itens baratos por perto."
+      },
+      {
+        "title": "3. Role com item barato",
+        "text": "Leia a oferta em um livro ou ferramenta de pedra. Aceite apenas algo útil para girar a lista antes do diamante."
+      },
+      {
+        "title": "4. Junte livros e aldeões",
+        "text": "Use saque e bibliotecários depois de verificar as regras atuais. Faça uma cópia antes de mexer no salão de trocas."
+      },
+      {
+        "title": "5. Planeje a ordem da bigorna",
+        "text": "Una livros compatíveis e aplique o resultado enquanto o custo for razoável. A penalidade de trabalho anterior cresce rápido."
+      },
+      {
+        "title": "6. Teste em uma cópia",
+        "text": "Confira durabilidade, dano, velocidade e queda. Anote versão e seed para comparar após atualizações."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "A estação certa",
+    "title": "Quantas estantes são necessárias para um encantamento de nível 30?",
+    "paragraphs": [
+      "O alvo prático é 15 estantes para o maior nível normal da mesa. Deixe o bloco de ar exigido entre estantes e mesa; tochas, carpetes e outros blocos podem interromper a ligação. Colocar mais estantes não continua aumentando o nível.",
+      "Uma oferta de nível 30 não promete três efeitos perfeitos. O número indica o custo; item, rolagem e compatibilidade definem o resultado. Se o nível alto não aparece, confira espaço, experiência, lápis-lazúli e tipo de item. Java e Bedrock podem usar textos diferentes na interface.",
+      "A sala também organiza recursos. Guarde suprimentos próximos, mas mantenha saída. Não misture a mesa a um salão de aldeões sem testar, pois uma troca de estação pode quebrar ligações e caminhos."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-bookshelf-setup.webp",
+      "alt": "Ilustração voxel original de uma mesa de encantamentos dentro de um anel de estantes com espaço aberto e orbes de experiência; arte explicativa",
+      "caption": "Vista ilustrativa da montagem. Preserve o espaço entre mesa e estantes ao testar o nível 30.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Tabela de decisão",
+    "title": "Prioridades por item",
+    "description": "Use como início e depois confira conflitos, edição e seu estilo de jogo.",
+    "headers": [
+      "Item",
+      "Comece com",
+      "Atenção"
+    ],
+    "rows": [
+      [
+        "Espada de sobrevivência",
+        "Dano, durabilidade e um efeito compatível",
+        "Não force caminhos de dano que entram em conflito."
+      ],
+      [
+        "Picareta",
+        "Eficiência e durabilidade",
+        "Fortuna e Toque de Seda têm objetivos diferentes; duas picaretas dão flexibilidade."
+      ],
+      [
+        "Armadura",
+        "Proteção e durabilidade",
+        "Variantes de proteção competem na mesma peça; botas têm escolhas próprias."
+      ],
+      [
+        "Arco ou besta",
+        "Durabilidade e um plano de distância",
+        "Infinidade e Remendo são uma troca; confirme sua fonte de flechas."
+      ],
+      [
+        "Livro de Remendo",
+        "Troca, saque ou livro compatível",
+        "Estado de tesouro e oferta de aldeão dependem da versão."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Escolha pela tarefa",
+    "title": "Melhores encantamentos para combate, mineração e viagem",
+    "paragraphs": [
+      "No combate, comece com uma arma substituível. Dano e durabilidade ajudam em cavernas, mas não substituem comida, escudo e posicionamento. Teste efeitos novos em uma luta curta.",
+      "Na mineração, Eficiência e Durabilidade mudam o ritmo imediatamente. Fortuna e Toque de Seda servem a objetivos diferentes, então duas picaretas costumam ser mais flexíveis. Remendo é ótimo para um kit duradouro, mas a obtenção depende de saque, troca e edição.",
+      "Para armadura e viagem, Proteção é uma base segura quando o próximo perigo é desconhecido. Botas exigem escolher entre queda, movimento e água. Escolha arco, besta, tridente ou vara conforme a atividade, não por uma lista universal.",
+      "Se um efeito não pode ser aplicado, normalmente existe uma regra de compatibilidade. Confira tipo, conflitos e nível máximo. A pedra de amolar remove o conjunto aplicado, não um efeito isolado."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-equipment-choices.webp",
+      "alt": "Ilustração voxel original com espada e armadura encantadas, ferramentas, arco e botas ao redor de uma bigorna; não é captura",
+      "caption": "Comparação ilustrativa por atividade. Escolha o efeito útil e confirme conflitos antes de gastar níveis.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Antes de gastar",
+    "title": "Erros comuns ao encantar",
+    "description": "A maioria dos níveis perdidos vem de planejamento ruim.",
+    "cards": [
+      {
+        "title": "Colocar o diamante primeiro",
+        "text": "Gire a mesa com livro ou ferramenta barata e proteja o material difícil de repor."
+      },
+      {
+        "title": "Tratar nível 30 como garantia",
+        "text": "É uma faixa de custo, não uma promessa. Leia os efeitos reais."
+      },
+      {
+        "title": "Ignorar a ordem da bigorna",
+        "text": "O trabalho anterior aumenta o preço. Una livros com uma sequência planejada."
+      },
+      {
+        "title": "Copiar lista de outra edição",
+        "text": "Trocas, nomes e combate mudam. Verifique a dica e uma cópia do mundo."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Guias relacionados",
+    "title": "Guias relacionados de Minecraft",
+    "description": "Estas páginas cobrem edição, perfil e aldeões que costumam acompanhar um plano de encantamentos.",
+    "links": [
+      {
+        "title": "Java ou Bedrock",
+        "text": "Compare edições antes de copiar dicas de combate, troca ou comando.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar edições"
+      },
+      {
+        "title": "Instalar mods Java",
+        "text": "Use um perfil separado quando mods mudarem ferramentas ou testes.",
+        "url": "/how-to-install-java-mods/",
+        "cta": "Abrir guia de perfil"
+      },
+      {
+        "title": "Salão de trocas",
+        "text": "Confira estações e bibliotecários antes de buscar livros específicos.",
+        "url": "/villager-trading-hall/",
+        "cta": "Ver guia de aldeões"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referências",
+    "title": "Confira as regras atuais da sua edição",
+    "description": "A decisão prática está nesta página; estas referências ajudam nos detalhes sensíveis à versão.",
+    "links": [
+      {
+        "title": "Visão oficial de encantamentos",
+        "text": "Contexto oficial do Minecraft para encantar itens.",
+        "url": "https://www.minecraft.net/en-us/article/enchanting",
+        "cta": "Abrir artigo oficial",
+        "rel": "noopener"
+      },
+      {
+        "title": "Central de ajuda do Minecraft",
+        "text": "Suporte quando uma atualização muda mecânica ou texto.",
+        "url": "https://help.minecraft.net/hc/en-us",
+        "cta": "Abrir suporte",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: encantamento",
+        "text": "Tabelas comunitárias de conflitos e tesouros; confira sua versão.",
+        "url": "https://minecraft.wiki/w/Enchanting",
+        "cta": "Ler referência",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: bigorna",
+        "text": "Ordem de combinação e custo de trabalho anterior.",
+        "url": "https://minecraft.wiki/w/Anvil",
+        "cta": "Conferir bigorna",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Perguntas frequentes sobre encantamentos do Minecraft",
+    "items": [
+      {
+        "question": "Quantas estantes preciso para nível 30?",
+        "answer": "Use 15 estantes com o espaço de ar exigido. Objetos no canal podem interromper a ligação; estantes extras não elevam o nível normal."
+      },
+      {
+        "question": "Quais são os melhores encantamentos?",
+        "answer": "Não há uma lista única. Eficiência e Durabilidade ajudam ferramentas, Proteção e Durabilidade a armadura, e a atividade decide a arma."
+      },
+      {
+        "question": "Como conseguir encantamentos melhores?",
+        "answer": "Monte as 15 estantes, renove ofertas com um item barato e procure livros por saque ou troca. Leia os efeitos, não apenas o número 30."
+      },
+      {
+        "question": "Posso remover só um encantamento?",
+        "answer": "A pedra de amolar remove o conjunto e devolve alguma experiência, mas não mantém seletivamente um efeito."
+      },
+      {
+        "question": "Remendo aparece na mesa?",
+        "answer": "Normalmente é um tesouro obtido pelos caminhos de saque ou troca permitidos na edição atual, não uma oferta comum."
+      },
+      {
+        "question": "Fortuna ou Toque de Seda?",
+        "answer": "Fortuna aumenta certos drops e Toque de Seda coleta o bloco. Duas picaretas evitam o conflito."
+      },
+      {
+        "question": "Qual ordem usar na bigorna?",
+        "answer": "Combine livros compatíveis e aplique o resultado enquanto o custo for razoável. Teste primeiro em uma cópia."
+      },
+      {
+        "question": "Java e Bedrock são iguais?",
+        "answer": "O sistema geral é parecido, mas trocas, textos, combate e comandos podem variar. Verifique a dica e a documentação da edição."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Encantamentos do Minecraft: melhores escolhas, estantes e como refazer a oferta",
+      "description": "Guia prático de encantamentos do Minecraft: prioridades para armas, armaduras e ferramentas, 15 estantes, ordem da bigorna e diferenças entre Java e Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/pt/minecraft-enchantments/",
+      "inLanguage": "pt"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quantas estantes preciso para nível 30?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use 15 estantes com o espaço de ar exigido. Objetos no canal podem interromper a ligação; estantes extras não elevam o nível normal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais são os melhores encantamentos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há uma lista única. Eficiência e Durabilidade ajudam ferramentas, Proteção e Durabilidade a armadura, e a atividade decide a arma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como conseguir encantamentos melhores?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monte as 15 estantes, renove ofertas com um item barato e procure livros por saque ou troca. Leia os efeitos, não apenas o número 30."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso remover só um encantamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pedra de amolar remove o conjunto e devolve alguma experiência, mas não mantém seletivamente um efeito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remendo aparece na mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normalmente é um tesouro obtido pelos caminhos de saque ou troca permitidos na edição atual, não uma oferta comum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fortuna ou Toque de Seda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fortuna aumenta certos drops e Toque de Seda coleta o bloco. Duas picaretas evitam o conflito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual ordem usar na bigorna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Combine livros compatíveis e aplique o resultado enquanto o custo for razoável. Teste primeiro em uma cópia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Java e Bedrock são iguais?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O sistema geral é parecido, mas trocas, textos, combate e comandos podem variar. Verifique a dica e a documentação da edição."
+          }
+        }
+      ]
+    }
+  }
+}

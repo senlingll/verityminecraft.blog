@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Enchantements Minecraft : meilleurs choix, bibliothèques et méthode niveau 30",
+    "description": "Conseils pratiques sur les enchantements Minecraft : priorités pour armes, armures et outils, 15 bibliothèques, ordre de l'enclume et différences Java/Bedrock.",
+    "image": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Conseils pratiques de survie",
+    "title": "Enchantements Minecraft : meilleurs choix, bibliothèques et relance",
+    "lede": "Les enchantements Minecraft deviennent plus simples lorsque tu sépares le tirage de la table du plan final à l'enclume. Construis l'installation complète, dépense seulement une expérience récupérable et considère la première offre comme un indice. Cette méthode couvre épée, armure, outils, arc et trident pour éviter de gaspiller un livre rare sur un objet que tu n'as pas encore testé.",
+    "support": "Ces conseils décrivent la survie Java et Bedrock courante. Les noms, niveaux, trésors et commandes peuvent changer avec une mise à jour : vérifie l'infobulle de ton édition avant de modifier ton monde principal. Vérifié le 14 octobre 2026.",
+    "actions": [
+      {
+        "label": "Comparer Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Préparer un profil Java",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "alt": "Illustration voxel originale d'une table d'enchantement Minecraft avec livre, épée en diamant, armure et pioche dans une bibliothèque; pas une capture de jeu",
+      "caption": "Illustration éditoriale originale, ni artwork officiel ni capture de Minecraft.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "Obtenir de meilleurs enchantements Minecraft",
+    "paragraphs": [
+      "Pour une survie fiable, installe la table avec jusqu'à 15 bibliothèques et l'espace d'air requis. Prends du lapis et un objet de rechange. Les offres sont aléatoires, mais l'effet visible donne une information sur le tirage. Si rien ne convient, enchante un livre ou un outil bon marché pour renouveler la liste avant de risquer ton objet en diamant.",
+      "Utilise la table pour les premières améliorations, puis l'enclume pour combiner les livres compatibles. La meule enlève la plupart des enchantements appliqués et rend un peu d'expérience, mais elle ne conserve pas un seul effet. Mending est généralement un enchantement de trésor obtenu par butin ou commerce, pas une offre ordinaire de table.",
+      "Le meilleur ensemble dépend de l'activité. Une épée demande dégâts et solidité, une pioche commence avec efficacité et solidité, les bottes choisissent entre chute et déplacement, et l'arc pose le choix Infinity/Mending. Java et Bedrock partagent le système général, mais les échanges, le combat et les commandes peuvent différer."
+    ],
+    "cards": [
+      {
+        "title": "Filtrer avec la table",
+        "text": "Quinze bibliothèques augmentent le plafond normal mais ne garantissent pas un résultat parfait. Renouvelle avec un objet peu coûteux."
+      },
+      {
+        "title": "Finir à l'enclume",
+        "text": "Les livres rendent le plan ciblé. Surveille le coût et le message Trop cher."
+      },
+      {
+        "title": "Garder la version en tête",
+        "text": "Les trésors, villageois et détails de combat changent parfois. L'infobulle actuelle prime."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Méthode reproductible",
+    "title": "Enchanter sans gaspiller ses niveaux",
+    "description": "Cette routine convient à une nouvelle partie qui possède des diamants mais pas encore une source sûre de livres et d'expérience.",
+    "items": [
+      {
+        "title": "1. Confirmer l'édition et le but",
+        "text": "Choisis Java, Bedrock, copie de test ou règles de serveur. Note d'abord l'activité : mine, mêlée, distance, voyage ou outil permanent."
+      },
+      {
+        "title": "2. Construire la salle",
+        "text": "Place la table et jusqu'à 15 bibliothèques avec un canal d'air libre. Garde lapis, livres et objets de rotation à portée."
+      },
+      {
+        "title": "3. Tirer sur un objet bon marché",
+        "text": "Lis l'offre sur un livre ou outil en pierre. Prends l'option utile la moins chère pour faire tourner la liste avant de poser le diamant."
+      },
+      {
+        "title": "4. Réunir livres et villageois",
+        "text": "Utilise butin et bibliothécaires après avoir vérifié les règles de ton édition. Fais une copie avant de modifier une salle de commerce."
+      },
+      {
+        "title": "5. Planifier l'ordre de l'enclume",
+        "text": "Fusionne les livres compatibles puis applique le résultat quand le prix reste raisonnable. La pénalité de travail préalable peut vite monter."
+      },
+      {
+        "title": "6. Tester dans une copie",
+        "text": "Vérifie solidité, dégâts, vitesse et chute. Note la version et la graine pour comparer après une mise à jour."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "La bonne installation",
+    "title": "Combien de bibliothèques pour un enchantement niveau 30 ?",
+    "paragraphs": [
+      "La cible pratique est 15 bibliothèques pour le niveau normal maximal. Laisse le bloc d'air demandé entre elles et la table : torches, tapis ou blocs peuvent interrompre le lien. Ajouter davantage de bibliothèques n'augmente pas encore le niveau.",
+      "Une offre niveau 30 ne promet pas trois effets parfaits. Le nombre indique le palier de coût; l'objet, le tirage et la compatibilité déterminent le résultat. Si le niveau élevé n'apparaît pas, vérifie l'espace, l'expérience, le lapis et le type d'objet. L'interface Java et Bedrock peut employer des mots différents.",
+      "La salle sert aussi à gérer les ressources. Range les fournitures près de la table, mais garde une sortie. Ne l'intègre pas à une salle de villageois non testée : un déplacement de poste peut perturber les liens et les trajets."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-bookshelf-setup.webp",
+      "alt": "Illustration voxel originale d'une table d'enchantement dans un anneau de bibliothèques avec espace libre et orbes d'expérience; art explicatif",
+      "caption": "Vue illustrative de l'installation. Conserve l'espace visible entre table et bibliothèques pendant le test niveau 30.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Tableau de décision",
+    "title": "Priorités d'enchantement par objet",
+    "description": "Commence avec ce plan, puis vérifie conflits, édition et façon de jouer.",
+    "headers": [
+      "Objet",
+      "Commencer par",
+      "À surveiller"
+    ],
+    "rows": [
+      [
+        "Épée de survie",
+        "Dégâts, solidité et un effet spécial compatible",
+        "Ne mélange pas deux voies de dégâts incompatibles."
+      ],
+      [
+        "Pioche",
+        "Efficacité et solidité",
+        "Fortune et Toucher de soie servent des objectifs différents; deux pioches sont souvent utiles."
+      ],
+      [
+        "Armure d'exploration",
+        "Protection et solidité",
+        "Les variantes de protection se concurrencent; les bottes ont leurs propres choix."
+      ],
+      [
+        "Arc ou arbalète",
+        "Solidité et plan de tir clair",
+        "Infinity et Mending sont un compromis; vérifie tes flèches."
+      ],
+      [
+        "Livre Mending",
+        "Commerce, butin ou livre compatible",
+        "Le statut de trésor et le commerce dépendent de la version."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Choisir selon l'usage",
+    "title": "Meilleurs enchantements pour combat, minage et voyage",
+    "paragraphs": [
+      "En combat, commence par une arme remplaçable. Dégâts et solidité aident dans les grottes, mais aucune liste ne remplace nourriture, bouclier et positionnement. Teste un nouvel effet sur une courte rencontre.",
+      "Pour miner, Efficacité et Solidité changent immédiatement le rythme. Fortune et Toucher de soie ont des buts opposés, donc deux pioches sont souvent plus flexibles. Mending est utile à long terme, mais son obtention dépend du butin, du commerce et de l'édition.",
+      "Pour l'armure, Protection est une base raisonnable lorsque le danger est inconnu. Les bottes demandent un choix entre chute, mouvement et eau. Choisis arc, arbalète, trident ou canne selon l'activité plutôt qu'une liste universelle.",
+      "Un effet impossible à appliquer indique généralement une incompatibilité. Vérifie le type d'objet, les conflits et le niveau maximal. La meule retire l'ensemble appliqué; ce n'est pas un éditeur sélectif."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-equipment-choices.webp",
+      "alt": "Illustration voxel originale regroupant épée et armure enchantées, outils, arc et bottes autour d'une enclume; pas une capture",
+      "caption": "Comparaison illustrative par activité. Choisis l'effet utile puis vérifie les conflits avant de dépenser.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Avant de dépenser",
+    "title": "Erreurs fréquentes d'enchantement",
+    "description": "Les niveaux perdus viennent surtout d'une mauvaise planification.",
+    "cards": [
+      {
+        "title": "Mettre le diamant en premier",
+        "text": "Fais tourner la table avec un livre ou outil peu coûteux."
+      },
+      {
+        "title": "Prendre niveau 30 pour une garantie",
+        "text": "C'est un palier de coût, pas une promesse. Lis les effets réels."
+      },
+      {
+        "title": "Oublier l'ordre de l'enclume",
+        "text": "La pénalité de travail préalable augmente; fusionne avec méthode."
+      },
+      {
+        "title": "Copier une liste d'une autre édition",
+        "text": "Commerce, noms et combat peuvent changer. Vérifie l'infobulle et une copie."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Ressources associées",
+    "title": "Ressources Minecraft associées",
+    "description": "Ces pages couvrent l'édition, le profil et les villageois qui accompagnent souvent un plan d'enchantement.",
+    "links": [
+      {
+        "title": "Java ou Bedrock",
+        "text": "Compare les éditions avant de copier un conseil de combat, commerce ou commande.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparer les éditions"
+      },
+      {
+        "title": "Installer des mods Java",
+        "text": "Garde un profil séparé lorsque les mods changent les tests et les outils.",
+        "url": "/how-to-install-java-mods/",
+        "cta": "Voir l'aide du profil"
+      },
+      {
+        "title": "Salle de commerce",
+        "text": "Vérifie les postes et bibliothécaires avant de chercher un livre précis.",
+        "url": "/villager-trading-hall/",
+        "cta": "Voir la ressource villageois"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Références",
+    "title": "Vérifier les règles de ton édition",
+    "description": "La décision pratique est ici; ces références aident pour les détails sensibles à la version.",
+    "links": [
+      {
+        "title": "Présentation officielle de l'enchantement",
+        "text": "Contexte officiel Minecraft pour enchanter les objets.",
+        "url": "https://www.minecraft.net/en-us/article/enchanting",
+        "cta": "Ouvrir l'article officiel",
+        "rel": "noopener"
+      },
+      {
+        "title": "Centre d'aide Minecraft",
+        "text": "Support officiel lorsqu'une mise à jour change une mécanique ou un libellé.",
+        "url": "https://help.minecraft.net/hc/en-us",
+        "cta": "Ouvrir le support",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki : enchantement",
+        "text": "Tableaux communautaires des conflits et trésors; vérifie ta version.",
+        "url": "https://minecraft.wiki/w/Enchanting",
+        "cta": "Lire la référence",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki : enclume",
+        "text": "Ordre de combinaison et coût de travail préalable.",
+        "url": "https://minecraft.wiki/w/Anvil",
+        "cta": "Vérifier l'enclume",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Questions fréquentes sur les enchantements Minecraft",
+    "items": [
+      {
+        "question": "Combien de bibliothèques faut-il pour le niveau 30 ?",
+        "answer": "Utilise 15 bibliothèques avec l'espace d'air demandé. Les objets dans ce canal peuvent interrompre le lien et les bibliothèques supplémentaires ne montent pas le palier normal."
+      },
+      {
+        "question": "Quels sont les meilleurs enchantements ?",
+        "answer": "Il n'existe pas une liste universelle. Efficacité et Solidité aident les outils, Protection et Solidité l'armure, puis l'activité et l'édition décident pour l'arme."
+      },
+      {
+        "question": "Comment obtenir de meilleurs enchantements ?",
+        "answer": "Construis les 15 bibliothèques, renouvelle les offres avec un objet bon marché et cherche les livres ciblés par butin ou commerce. Lis les effets, pas seulement le nombre 30."
+      },
+      {
+        "question": "Puis-je retirer un seul enchantement ?",
+        "answer": "La meule retire l'ensemble appliqué et rend un peu d'expérience, mais ne conserve pas sélectivement un effet."
+      },
+      {
+        "question": "Mending apparaît-il sur la table ?",
+        "answer": "Il est généralement considéré comme un trésor et s'obtient par les voies de butin ou de commerce admises par l'édition, pas comme une offre ordinaire."
+      },
+      {
+        "question": "Fortune ou Toucher de soie ?",
+        "answer": "Fortune augmente certains drops; Toucher de soie récupère le bloc. Deux pioches évitent ce conflit."
+      },
+      {
+        "question": "Quel ordre pour combiner les livres ?",
+        "answer": "Fusionne les livres compatibles puis applique le résultat tant que le prix reste raisonnable. Teste la séquence dans une copie."
+      },
+      {
+        "question": "Java et Bedrock sont-ils identiques ?",
+        "answer": "Le système général est partagé, mais commerce, textes, combat et commandes peuvent différer. Vérifie l'infobulle et la documentation de ton édition."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Enchantements Minecraft : meilleurs choix, bibliothèques et relance",
+      "description": "Conseils pratiques sur les enchantements Minecraft : priorités pour armes, armures et outils, 15 bibliothèques, ordre de l'enclume et différences Java/Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/fr/minecraft-enchantments/",
+      "inLanguage": "fr"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien de bibliothèques faut-il pour le niveau 30 ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utilise 15 bibliothèques avec l'espace d'air demandé. Les objets dans ce canal peuvent interrompre le lien et les bibliothèques supplémentaires ne montent pas le palier normal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les meilleurs enchantements ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il n'existe pas une liste universelle. Efficacité et Solidité aident les outils, Protection et Solidité l'armure, puis l'activité et l'édition décident pour l'arme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment obtenir de meilleurs enchantements ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Construis les 15 bibliothèques, renouvelle les offres avec un objet bon marché et cherche les livres ciblés par butin ou commerce. Lis les effets, pas seulement le nombre 30."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puis-je retirer un seul enchantement ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La meule retire l'ensemble appliqué et rend un peu d'expérience, mais ne conserve pas sélectivement un effet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mending apparaît-il sur la table ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il est généralement considéré comme un trésor et s'obtient par les voies de butin ou de commerce admises par l'édition, pas comme une offre ordinaire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fortune ou Toucher de soie ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fortune augmente certains drops; Toucher de soie récupère le bloc. Deux pioches évitent ce conflit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel ordre pour combiner les livres ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fusionne les livres compatibles puis applique le résultat tant que le prix reste raisonnable. Teste la séquence dans une copie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Java et Bedrock sont-ils identiques ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le système général est partagé, mais commerce, textes, combat et commandes peuvent différer. Vérifie l'infobulle et la documentation de ton édition."
+          }
+        }
+      ]
+    }
+  }
+}

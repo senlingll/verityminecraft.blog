@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Encantamientos de Minecraft: mejores opciones, libros y mesa de nivel 30",
+    "description": "Guía práctica de encantamientos de Minecraft: prioridades para armas, armaduras y herramientas, 15 estanterías, y cómo usar y quitar encantamientos en Java y Bedrock.",
+    "image": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guía práctica de supervivencia",
+    "title": "Encantamientos de Minecraft: mejores opciones, estanterías y cómo volver a tirar",
+    "lede": "Los encantamientos de Minecraft se entienden mejor si separas la tirada de la mesa del plan final con el yunque. Construye una sala completa de estanterías, gasta solo la experiencia que puedas recuperar y toma la primera oferta como una pista, no como una obligación. Esta guía reúne armas, armaduras, herramientas, arcos y tridentes sin hacerte gastar libros raros en un objeto que todavía no has probado.",
+    "support": "Las recomendaciones describen la supervivencia normal de Java y Bedrock. Los nombres, límites, tesoros y comandos pueden cambiar con una versión; revisa el texto que muestra tu juego antes de invertir en tu mundo principal. Revisado el 14 de octubre de 2026.",
+    "actions": [
+      {
+        "label": "Comparar Java y Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Preparar un perfil Java",
+        "url": "/how-to-install-java-mods/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "alt": "Ilustración voxel original de una mesa de encantamientos de Minecraft con libro, espada de diamante, armadura y pico en una biblioteca; no es una captura de juego",
+      "caption": "Ilustración editorial original, no arte oficial ni captura de Minecraft. Presenta las cuatro decisiones de equipo de esta guía.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "Cómo conseguir mejores encantamientos en Minecraft",
+    "paragraphs": [
+      "Para una partida de supervivencia estable, coloca una mesa de encantamientos con hasta 15 estanterías y el espacio de aire necesario, y lleva lapislázuli y un objeto de repuesto. Las tres ofertas son aleatorias, pero el encantamiento visible informa sobre esa tirada. Si ninguna sirve, encanta un libro u objeto barato para cambiar la lista y vuelve después al objeto de diamante.",
+      "Usa la mesa para las mejoras iniciales y el yunque para combinar libros compatibles y reparar un objeto planificado. La piedra de afilar elimina la mayoría de los encantamientos aplicados y devuelve algo de experiencia, pero no conserva solo uno. Reparación suele ser un encantamiento de tesoro que se obtiene mediante botín o comercio, no una oferta normal de la mesa. Un número de nivel alto tampoco garantiza la mejor combinación.",
+      "La mejor combinación depende de la tarea. Una espada de supervivencia suele necesitar daño y durabilidad; un pico empieza con eficiencia y durabilidad; las botas pueden priorizar caída o movimiento; y un arco obliga a pensar en Infinidad o Reparación. Java y Bedrock comparten la idea general, pero pueden cambiar el comercio, el combate y los comandos. Comprueba edición y versión antes de copiar una lista antigua."
+    ],
+    "cards": [
+      {
+        "title": "Usa la mesa como filtro",
+        "text": "Quince estanterías elevan el techo normal, pero la oferta sigue siendo una tirada. Cambia una mala lista con un objeto barato en lugar de arriesgar una herramienta rara."
+      },
+      {
+        "title": "Termina con el yunque",
+        "text": "Los libros permiten apuntar a un plan concreto. Vigila el coste de niveles y combina antes de que el yunque muestre Demasiado caro."
+      },
+      {
+        "title": "Respeta la versión",
+        "text": "Reparación, tesoros, aldeanos y combate pueden variar por edición. El tooltip actual y las notas oficiales tienen prioridad."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Preparación repetible",
+    "title": "Cómo encantar sin desperdiciar niveles",
+    "description": "Sigue esta secuencia cuando ya tengas diamantes, pero todavía no una reserva segura de libros, aldeanos o experiencia.",
+    "items": [
+      {
+        "title": "1. Confirma la edición y el objetivo",
+        "text": "Decide si el objeto es para Java, Bedrock, una copia de prueba o un servidor con reglas propias. Define la tarea: minería, combate, distancia, viaje o herramienta permanente. Esa tarea indica qué efecto es esencial y qué conflicto puedes aceptar."
+      },
+      {
+        "title": "2. Construye la sala",
+        "text": "Fabrica la mesa, coloca hasta 15 estanterías con el hueco abierto y deja una salida segura. Guarda lapislázuli, libros y objetos baratos cerca. Así puedes distinguir un problema de diseño de uno causado por nivel, lapislázuli u objeto incompatible."
+      },
+      {
+        "title": "3. Tira primero con algo barato",
+        "text": "Coloca un libro, herramienta de piedra o hierro y lee la oferta. Si es mala, acepta la opción útil más barata para rotar la lista. Gastar poca experiencia protege el pico o la armadura de diamante que realmente quieres conservar."
+      },
+      {
+        "title": "4. Reúne libros y aldeanos",
+        "text": "Explora, consigue botín y comercia con bibliotecarios después de revisar las reglas de tu edición. Un comercio permite buscar un efecto concreto, pero los precios y el reabastecimiento cambian. Haz una copia antes de modificar una sala de aldeanos."
+      },
+      {
+        "title": "5. Combina en un orden pensado",
+        "text": "Fusiona libros compatibles en el yunque y aplica el resultado cuando el coste sea razonable. Coloca pronto el libro más importante si una cadena larga puede elevar demasiado la penalización de trabajo previo. Detente si reparar deja de ser práctico."
+      },
+      {
+        "title": "6. Prueba antes del mundo principal",
+        "text": "Usa una copia y comprueba durabilidad, daño, velocidad de minería o caída. Anota la semilla y la versión para no convertir una captura antigua en una regla universal después de una actualización."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Construye la estación correcta",
+    "title": "¿Cuántas estanterías hacen falta para un encantamiento de nivel 30?",
+    "paragraphs": [
+      "El objetivo práctico son 15 estanterías para el nivel normal más alto de la mesa. Deben formar un anillo o distribución equivalente con un bloque de aire entre ellas y la mesa; antorchas, alfombras u otros objetos en ese canal pueden cortar la conexión. No necesitas rodearla por todos los lados y añadir más estanterías no sigue aumentando el nivel.",
+      "Una oferta de nivel 30 no promete tres efectos perfectos. El número es el coste, mientras que el objeto, la tirada y la compatibilidad deciden el resultado. Si nunca aparece un nivel alto, revisa el hueco, la experiencia, el lapislázuli y si el objeto admite ese efecto. Java y Bedrock pueden mostrar palabras distintas, así que usa la interfaz actual.",
+      "La sala también ayuda a administrar recursos. Guarda suministros cerca, pero deja espacio para retirarte si entra un enemigo. Si tu plan incluye aldeanos o un yunque, no mezcles el cuarto de encantamientos con una sala de comercio sin probarla: un pequeño cambio de estaciones puede causar problemas de enlace y movimiento."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-bookshelf-setup.webp",
+      "alt": "Ilustración voxel original de una mesa de encantamientos dentro de un anillo de estanterías con hueco abierto y orbes de experiencia; arte explicativo, no captura",
+      "caption": "Vista ilustrativa de la instalación. Conserva el hueco visible entre mesa y estanterías cuando pruebes una oferta de nivel 30.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Tabla de decisión",
+    "title": "Prioridades de encantamiento por objeto",
+    "description": "Úsalo como punto de partida y después comprueba conflictos, edición y tu manera real de jugar.",
+    "headers": [
+      "Objeto o meta",
+      "Empieza con",
+      "Vigila"
+    ],
+    "rows": [
+      [
+        "Espada de supervivencia",
+        "Daño, durabilidad y un efecto especial compatible",
+        "No juntes rutas de daño incompatibles solo porque sus nombres parezcan fuertes."
+      ],
+      [
+        "Pico de minería",
+        "Eficiencia y durabilidad; añade otro pico si hace falta",
+        "Toque de seda y Fortuna cumplen funciones distintas; guarda copias separadas."
+      ],
+      [
+        "Armadura de exploración",
+        "Protección, durabilidad y piezas según la tarea",
+        "Las variantes de protección chocan en una pieza y las botas tienen decisiones propias."
+      ],
+      [
+        "Arco o ballesta",
+        "Durabilidad y un plan de combate a distancia",
+        "Infinidad y Reparación forman un intercambio conocido; confirma edición y flechas."
+      ],
+      [
+        "Reparación o libro de tesoro",
+        "Comercio, botín o un libro compatible",
+        "El estado de tesoro y la disponibilidad del aldeano dependen de la versión."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Elige por función",
+    "title": "Mejores encantamientos de Minecraft para combate, minería y viaje",
+    "paragraphs": [
+      "Para combatir, empieza por un arma que puedas reemplazar. Una espada para cuevas necesita daño y durabilidad fiables, mientras que un arma especializada puede preferir otro efecto compatible. Mantén comida y escudo en el plan; una lista perfecta no arregla una mala posición. Prueba una pelea corta en la versión actual antes de gastar libros en toda la armadura.",
+      "Para minar, Eficiencia cambia inmediatamente la sensación de la herramienta y Durabilidad reduce los viajes al almacén. Fortuna y Toque de seda tienen objetivos distintos, por lo que muchos jugadores guardan dos picos. Reparación es útil para un equipo permanente, pero su obtención depende de botín, comercio y edición. Una copia del mundo es el lugar correcto para ensayar la secuencia.",
+      "Para armadura y viaje, Protección general es una base razonable cuando no conoces el peligro siguiente. Las botas requieren una decisión separada porque caída, movimiento y agua compiten. Elige arco, ballesta, tridente o caña según la actividad, no según una lista universal. El efecto más llamativo no siempre ahorra más recursos en tu mundo.",
+      "Si un efecto no se puede aplicar, normalmente es una regla de compatibilidad. Comprueba el tipo de objeto, los conflictos y el nivel máximo del libro. La piedra de afilar sirve para limpiar un resultado no deseado, pero no es un editor selectivo: quita el conjunto aplicado."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-enchantments/minecraft-enchantments-equipment-choices.webp",
+      "alt": "Ilustración voxel original que agrupa espada y armadura encantadas, herramientas de minería, arco y botas alrededor de un yunque; comparación editorial, no captura",
+      "caption": "Comparación ilustrativa por tareas. Elige el efecto que sirve a la actividad y confirma los conflictos antes de gastar niveles.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Antes de gastar niveles",
+    "title": "Errores comunes al encantar en Minecraft",
+    "description": "La mayoría de los niveles perdidos se deben a una mala planificación, no a un fallo raro.",
+    "cards": [
+      {
+        "title": "Poner primero el objeto de diamante",
+        "text": "Usa un libro o herramienta barata para cambiar la oferta y protege el objeto que costaría mucho reemplazar."
+      },
+      {
+        "title": "Creer que nivel 30 es perfecto",
+        "text": "Es un coste, no una promesa. Lee los efectos reales y prepara libros específicos."
+      },
+      {
+        "title": "Ignorar el orden del yunque",
+        "text": "Las fusiones repetidas aumentan la penalización de trabajo previo. Combina con un orden sensato."
+      },
+      {
+        "title": "Copiar una lista de otra edición",
+        "text": "Los nombres, comercios y detalles de combate cambian. Revisa tooltip y copia antes de alterar tu mundo principal."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Mantén estable la configuración",
+    "title": "Guías de Minecraft relacionadas",
+    "description": "Estas páginas cubren la edición, el perfil y los aldeanos que suelen acompañar un plan de encantamientos.",
+    "links": [
+      {
+        "title": "Java frente a Bedrock",
+        "text": "Compara diferencias de edición antes de copiar un consejo de combate, comercio o comandos.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar ediciones"
+      },
+      {
+        "title": "Instalar mods Java con seguridad",
+        "text": "Usa un perfil separado cuando un mod cambie herramientas, botín o pruebas de mundo.",
+        "url": "/how-to-install-java-mods/",
+        "cta": "Abrir guía de perfiles"
+      },
+      {
+        "title": "Sala de comercio de aldeanos",
+        "text": "Revisa estaciones y bibliotecarios antes de construir una ruta para libros concretos.",
+        "url": "/villager-trading-hall/",
+        "cta": "Revisar aldeanos"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referencias primarias",
+    "title": "Comprueba las reglas actuales de tu edición",
+    "description": "La guía concentra la decisión práctica; estas referencias ayudan a confirmar mecánicas sensibles a la versión.",
+    "links": [
+      {
+        "title": "Panorama oficial de encantamientos",
+        "text": "Contexto oficial de Minecraft para encantar objetos.",
+        "url": "https://www.minecraft.net/en-us/article/enchanting",
+        "cta": "Abrir artículo oficial",
+        "rel": "noopener"
+      },
+      {
+        "title": "Centro de ayuda de Minecraft",
+        "text": "Consulta de soporte oficial cuando una versión cambia una mecánica o una etiqueta.",
+        "url": "https://help.minecraft.net/hc/en-us",
+        "cta": "Abrir centro de ayuda",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: encantamiento",
+        "text": "Tablas comunitarias de conflictos y tesoros; verifica siempre tu versión.",
+        "url": "https://minecraft.wiki/w/Enchanting",
+        "cta": "Leer referencia",
+        "rel": "noopener"
+      },
+      {
+        "title": "Minecraft Wiki: yunque",
+        "text": "Referencia para el orden de combinación y el coste de trabajo previo.",
+        "url": "https://minecraft.wiki/w/Anvil",
+        "cta": "Ver mecánicas del yunque",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes sobre encantamientos de Minecraft",
+    "items": [
+      {
+        "question": "¿Cuántas estanterías necesito para un encantamiento de nivel 30?",
+        "answer": "Usa 15 estanterías con el hueco abierto requerido entre ellas y la mesa. Más estanterías no elevan el nivel normal y los objetos en el hueco pueden cortar la conexión."
+      },
+      {
+        "question": "¿Cuáles son los mejores encantamientos de Minecraft?",
+        "answer": "No existe una lista única. Eficiencia y Durabilidad son prioridades de minería, Protección y Durabilidad una base de armadura, y el arma debe adaptarse a la actividad y edición."
+      },
+      {
+        "question": "¿Cómo consigo mejores encantamientos?",
+        "answer": "Construye la sala de 15 estanterías, cambia ofertas con un objeto barato y busca libros concretos mediante botín o comercio. Lee los efectos, no solo el número 30."
+      },
+      {
+        "question": "¿Puedo quitar un solo encantamiento?",
+        "answer": "La piedra de afilar elimina el conjunto aplicado y devuelve algo de experiencia, pero no conserva selectivamente un efecto. Las maldiciones y casos especiales pueden comportarse distinto."
+      },
+      {
+        "question": "¿Reparación sale en la mesa?",
+        "answer": "Normalmente se considera un encantamiento de tesoro y se obtiene por botín o comercio según las reglas actuales, no como una oferta normal de mesa."
+      },
+      {
+        "question": "¿Fortuna o Toque de seda para el pico?",
+        "answer": "Fortuna aumenta ciertos drops y Toque de seda recoge el bloque. Son objetivos distintos; muchos jugadores conservan dos picos."
+      },
+      {
+        "question": "¿En qué orden combino libros encantados?",
+        "answer": "Combina libros compatibles y aplica el resultado cuando el coste sea razonable. La penalización de trabajo previo puede volver demasiado caro un orden repetido, así que pruébalo en una copia."
+      },
+      {
+        "question": "¿Java y Bedrock tienen los mismos encantamientos?",
+        "answer": "Comparten el sistema general, pero pueden cambiar comercios, nombres, combate y comandos. Revisa el tooltip y la documentación de la edición instalada."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Encantamientos de Minecraft: mejores opciones, estanterías y cómo volver a tirar",
+      "description": "Guía práctica de encantamientos de Minecraft: prioridades para armas, armaduras y herramientas, 15 estanterías, y cómo usar y quitar encantamientos en Java y Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-enchantments/minecraft-enchantments-feature.webp",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/es/minecraft-enchantments/",
+      "inLanguage": "es"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuántas estanterías necesito para un encantamiento de nivel 30?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usa 15 estanterías con el hueco abierto requerido entre ellas y la mesa. Más estanterías no elevan el nivel normal y los objetos en el hueco pueden cortar la conexión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los mejores encantamientos de Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No existe una lista única. Eficiencia y Durabilidad son prioridades de minería, Protección y Durabilidad una base de armadura, y el arma debe adaptarse a la actividad y edición."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo consigo mejores encantamientos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Construye la sala de 15 estanterías, cambia ofertas con un objeto barato y busca libros concretos mediante botín o comercio. Lee los efectos, no solo el número 30."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo quitar un solo encantamiento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La piedra de afilar elimina el conjunto aplicado y devuelve algo de experiencia, pero no conserva selectivamente un efecto. Las maldiciones y casos especiales pueden comportarse distinto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Reparación sale en la mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normalmente se considera un encantamiento de tesoro y se obtiene por botín o comercio según las reglas actuales, no como una oferta normal de mesa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Fortuna o Toque de seda para el pico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fortuna aumenta ciertos drops y Toque de seda recoge el bloque. Son objetivos distintos; muchos jugadores conservan dos picos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿En qué orden combino libros encantados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Combina libros compatibles y aplica el resultado cuando el coste sea razonable. La penalización de trabajo previo puede volver demasiado caro un orden repetido, así que pruébalo en una copia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Java y Bedrock tienen los mismos encantamientos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comparten el sistema general, pero pueden cambiar comercios, nombres, combate y comandos. Revisa el tooltip y la documentación de la edición instalada."
+          }
+        }
+      ]
+    }
+  }
+}
