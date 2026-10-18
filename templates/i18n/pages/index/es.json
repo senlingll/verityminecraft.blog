@@ -42,7 +42,7 @@
         },
         {
           "label": "Última revisión",
-          "value": "23 de septiembre de 2026"
+          "value": "18 de octubre de 2026"
         }
       ],
       "facts_aria": "Datos de descarga de Verity Minecraft"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod para Java Edition",
           "description": "Ideal para jugadores de Java que usan loaders compatibles y revisan las versiones de Minecraft indicadas.",
-          "version": "verity-5.7.4.jar",
+          "version": "verity-6.0.0-beta.9.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Ruta fuente de Java",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/Tc8RyKmi/verity-5.7.4.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/NK8aevfA/verity-6.0.0-beta.9.jar",
           "page_url": "/java/",
           "cta": "Descargar mod Java"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE o Modrinth Verity JE",
-          "verity-5.7.4.jar / Forge 1.20.1",
+          "verity-6.0.0-beta.9.jar / Forge 1.20.1",
           ".jar",
           "Revisar loader y versión"
         ],
@@ -184,7 +184,7 @@
         "Esta página funciona como guía de descarga de Verity mod, no como espejo. Los botones apuntan a fuentes donde la plataforma o el creador controlan el archivo.",
         "El objetivo es que el primer clic sea más seguro: Bedrock ve contexto .mcaddon, Java ve notas de loader y PE recibe advertencias antes de páginas APK.",
         "Una buena guía debe dejar clara la siguiente decisión: edición, fuente mantenida y prueba en un mundo o perfil limpio.",
-        "La fuente Bedrock se revisó el 23 de septiembre de 2026 y lista ThatMob's Verity 4.0.0 / V26.50. Si vuelve a cambiar, sigue primero la fuente."
+        "La fuente Bedrock se revisó el 18 de octubre de 2026 y lista ThatMob's Verity 4.0.0 / V26.50. Si vuelve a cambiar, sigue primero la fuente."
       ]
     },
     "versions": {
@@ -216,6 +216,11 @@
           "title": "Versiones",
           "url": "/versions/",
           "text": "Versiones conocidas, fuentes y compatibilidad."
+        },
+        {
+          "title": "¿Qué es Verity Mod?",
+          "url": "/verity-mod-guide/",
+          "text": "Explica el compañero, las ediciones y los datos de fuente verificados."
         }
       ]
     },

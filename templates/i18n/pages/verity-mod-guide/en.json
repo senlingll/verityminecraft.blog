@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "What Is Verity Mod? Minecraft Features, Editions, and Limits",
+    "description": "What is Verity Mod in Minecraft? Learn the AI companion concept, Java and Bedrock boundaries, verified version facts, and safe source checks.",
+    "image": "/static/images/verity-mod-guide/verity-mod-ai-companion.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Verity Mod explained",
+    "title": "What Is Verity Mod? A Clear Minecraft Guide to Features and Editions",
+    "lede": "What is Verity Mod? It is a Minecraft companion mod built around Verity, a small yellow AI character that can respond to players, follow configured interactions, and add a story-like presence to a Java Edition world. The name is also used for separate Bedrock add-on listings, so the first useful answer is to identify the edition and file type.",
+    "support": "This guide explains what the mod does, what it does not prove, how Java and Bedrock releases differ, and how to check a source before installing. It is an informational overview, not a claim that every Verity file works on every device.",
+    "actions": [
+      {"label": "Open Java source path", "url": "/java/", "class": "btn-primary"},
+      {"label": "Compare editions", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/verity-mod-guide/verity-mod-ai-companion.webp",
+      "alt": "Verity Minecraft companion character shown in a real Java mod scene",
+      "caption": "Real Verity JE project media: the companion is presented as an in-world character rather than a generic menu widget."
+    }
+  },
+  "answer": {
+    "eyebrow": "Short answer",
+    "title": "What Is Verity Mod in Minecraft?",
+    "paragraphs": [
+      "Verity Mod is a Minecraft companion experience centered on an in-world character called Verity. The Java Edition project describes a small intelligent yellow sphere that can interact with a player, react to prompts, and support a more conversational style of play. That makes it different from a texture pack or a simple decorative mob: the appeal is the interaction layer and the character's responses.",
+      "The phrase can be confusing because search results mix Verity JE for Java with Bedrock add-on pages and mobile listings. A Java .jar, a Bedrock .mcaddon, and an app or APK listing are separate release paths. Treat the edition, loader, Minecraft version, and source page as part of the definition whenever you ask what Verity Mod is. The current Java snapshot checked on October 18, 2026 lists `verity-6.0.0-beta.9.jar` for Forge and Minecraft 1.20.1, with a verified Modrinth file size of 257,904,342 bytes."
+    ],
+    "cards": [
+      {"title": "A character-first mod", "text": "The core idea is an interactive companion in the world, with dialogue and reactions that make exploration feel more personal."},
+      {"title": "Edition changes the answer", "text": "Java uses a loader and .jar file. Bedrock uses an add-on package and a different activation flow. Similar names do not make the files interchangeable."},
+      {"title": "Version facts need a source", "text": "A project page can change independently from Minecraft's own release. Check the file page, loader, supported game version, and review date together."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "How it works",
+    "title": "How Does Verity Mod Work in a Minecraft World?",
+    "description": "Use this model to understand the experience before downloading a file. It separates the character concept from the technical requirements that make a release load.",
+    "items": [
+      {"title": "The mod adds an in-world companion", "text": "After a compatible Java profile loads the mod, Verity appears as a character or entity that can be encountered in the world. The screenshots show the character in a normal Minecraft scene, not only in a launcher preview."},
+      {"title": "Interaction is the main feature", "text": "Verity can respond to configured prompts or player actions. The exact commands, voice options, or AI behavior depend on the release and its configuration, so do not assume every version exposes the same controls."},
+      {"title": "The loader controls compatibility", "text": "A Java mod file is only one part of the setup. Match Forge or another named loader, Minecraft version, dependencies, and the profile's mods folder before judging whether the mod works."},
+      {"title": "A test world keeps the experiment reversible", "text": "Create a copied world or clean profile first. This lets you check dialogue, entity behavior, performance, and conflicts without risking a main save."},
+      {"title": "The source page supplies the missing details", "text": "Read the maintained project page for release notes, supported versions, configuration requirements, and known limitations. A search snippet cannot establish compatibility."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "What you can see",
+    "title": "The Visual Evidence Shows a Companion, Not a Universal AI Promise",
+    "paragraphs": [
+      "The real project screenshots used on this page show Verity inside Minecraft scenes: a character appears near the player, a dialogue moment is visible, and another scene shows the feature in context. Those images are useful evidence for the intended experience, but they are not proof that every build has identical behavior or that a screenshot represents a Bedrock file.",
+      "The phrase AI companion should also be read precisely. It describes the style of interaction presented by the project; it does not guarantee a specific model, response quality, voice mode, privacy policy, or always-online service. Check the project documentation for what is local, what requires a key or service, and what settings are available in the exact release you install.",
+      "When comparing pages, look for a named project, a release date, a file type, a supported Minecraft version, and an installation path. A page that only repeats latest, free, or APK without these facts is not enough to identify what Verity Mod is."
+    ],
+    "image": {
+      "src": "/static/images/verity-mod-guide/verity-mod-dialogue-scene.webp",
+      "alt": "Verity character in a Minecraft dialogue scene from the Verity JE project",
+      "caption": "Project media illustrates the dialogue-oriented experience; the exact controls still depend on the release notes."
+    }
+  },
+  "table": {
+    "eyebrow": "Edition check",
+    "title": "Java Verity Mod vs Bedrock Verity Add-on",
+    "description": "Use the table before clicking a download button. It prevents the most common mistake: treating a shared name as a shared package.",
+    "headers": ["Path", "Typical file", "What it needs", "Best use of this site"],
+    "rows": [
+      ["Java Edition / Verity JE", ".jar", "A matching loader, Minecraft profile, dependencies, and a mods folder", "Open the Java page and verify the release file"],
+      ["Bedrock Edition", ".mcaddon or pack files", "Bedrock import plus world-level pack activation", "Open the Bedrock page and inspect the source listing"],
+      ["PE or mobile search", "Varies by source", "A verified store or Bedrock-compatible source; avoid unknown APK mirrors", "Use the PE guide for source and platform context"],
+      ["Minecraft resource pack", ".zip or Bedrock pack", "A separate resource-pack workflow; it is not the Verity companion mod", "Use the resource-pack guide for texture and import questions"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Feature boundaries",
+    "title": "What Verity Mod Does Not Automatically Mean",
+    "paragraphs": [
+      "A page about what Verity Mod is should also state its limits. A Java release does not become a Bedrock add-on by renaming the extension. A Bedrock listing does not prove Java loader compatibility. A project screenshot does not prove that a particular file supports your Minecraft build, and a current Minecraft release does not automatically update a third-party mod.",
+      "The latest verified Java file in this site's snapshot is `v6.0.0-beta.9`, released September 3, 2026, for Forge/Minecraft 1.20.1. It is labeled beta, so readers should treat it as a source-specific compatibility fact rather than a promise of stable support for every current Minecraft version. The direct Modrinth file URL was checked with HTTP 200 and the expected Java archive MIME type; the source page remains the place to recheck future changes.",
+      "If you need Bedrock, use the separate Bedrock source path. The CurseForge page was unavailable to this check because it returned Cloudflare 403, so this guide does not invent a direct Bedrock file URL or claim a newer Bedrock version. That distinction is part of answering the question accurately."
+    ],
+    "image": {
+      "src": "/static/images/verity-mod-guide/verity-mod-feature-scene.webp",
+      "alt": "Verity feature scene in Minecraft showing the companion in the world",
+      "caption": "A feature scene helps explain the mod's role in play, while version and platform claims still require source checks."
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Common confusion",
+    "title": "Mistakes to Avoid When Researching Verity Mod",
+    "description": "These checks keep an informational search from turning into a mismatched or stale install.",
+    "cards": [
+      {"title": "Confusing Verity with every search result", "text": "The name can refer to Java, Bedrock, PE, community pages, or unrelated results. Read the platform label and project identity."},
+      {"title": "Renaming a file", "text": "Changing .jar to .mcaddon, or changing a ZIP extension without creator instructions, does not convert the package."},
+      {"title": "Calling a beta stable", "text": "The reviewed Java file is beta. Preserve that label and check the exact Minecraft and loader target."},
+      {"title": "Treating screenshots as compatibility proof", "text": "Screenshots show the intended feature. They cannot confirm dependencies, performance, online requirements, or support for your profile."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Continue with the right intent",
+    "title": "Related Verity Minecraft Pages",
+    "description": "Choose the next page based on the question you actually need to solve.",
+    "links": [
+      {"title": "Verity Mod Java Download", "url": "/java/", "text": "Use this when you already know you need the Java .jar path, loader, and file checks.", "cta": "Open Java guide"},
+      {"title": "Verity Mod Bedrock Download", "url": "/bedrock/", "text": "Use this for the separate Bedrock add-on source and import workflow.", "cta": "Open Bedrock guide"},
+      {"title": "How to Install Verity Minecraft", "url": "/how-to-install/", "text": "Use this when the question has moved from what it is to how to install it.", "cta": "Read install guide"},
+      {"title": "Verity Minecraft Versions", "url": "/versions/", "text": "Use this to compare the reviewed Java and Bedrock release snapshots.", "cta": "Check versions"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Sources",
+    "title": "Sources Checked for This Explanation",
+    "description": "These pages support the project identity, Java release context, and edition boundaries. Source pages can change, so recheck the exact file before installing.",
+    "links": [
+      {"title": "Verity JE project website", "url": "https://www.verityje-mod.com/", "text": "Project media and feature context used for the visual examples.", "cta": "Open project site", "rel": "noopener"},
+      {"title": "Verity JE on Modrinth", "url": "https://modrinth.com/mod/verity-je", "text": "Project identity, release channel, and Java platform context.", "cta": "Open Modrinth", "rel": "noopener"},
+      {"title": "Verified Java file URL", "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/NK8aevfA/verity-6.0.0-beta.9.jar", "text": "HTTP 200 Java archive checked on October 18, 2026; use the project page to confirm future releases.", "cta": "View file source", "rel": "nofollow noopener"},
+      {"title": "Minecraft Bedrock documentation", "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/addonsintroduction", "text": "First-party context for why Bedrock add-ons use a separate workflow from Java mods.", "cta": "Open documentation", "rel": "noopener"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "What Is Verity Mod? FAQ",
+    "items": [
+      {"question": "What is Verity Mod in Minecraft?", "answer": "Verity Mod is a Minecraft companion experience centered on an interactive character called Verity. The Java project presents it as a small intelligent companion with dialogue or reactions, while Bedrock listings are separate add-on paths."},
+      {"question": "Is Verity Mod a real Minecraft mod?", "answer": "Verity JE is listed as a Java Minecraft project on Modrinth and related project pages. Confirm the exact file, loader, Minecraft version, and source before calling a particular download compatible."},
+      {"question": "How does the Verity Mod AI companion work?", "answer": "The mod presents Verity as an in-world character that can respond to prompts or player actions. The exact commands, voice behavior, services, and configuration depend on the release documentation."},
+      {"question": "Is Verity Mod available for Bedrock?", "answer": "There are separate Bedrock add-on listings using the Verity name, but they do not use the Java .jar workflow. Check the Bedrock source page and do not rename a Java file into a Bedrock package."},
+      {"question": "What Minecraft version does Verity JE support?", "answer": "The Java file verified for this guide is v6.0.0-beta.9 for Forge and Minecraft 1.20.1, released September 3, 2026. That is a source snapshot, not a guarantee for every newer Minecraft version."},
+      {"question": "Should I download Verity Mod from an APK mirror?", "answer": "No general APK claim can establish the identity or compatibility of a Minecraft mod. Use a maintained project, store, or platform page and keep PE or mobile searches separate from Java mod downloads."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "What Is Verity Mod? A Clear Minecraft Guide to Features and Editions",
+      "description": "What is Verity Mod in Minecraft? Learn the AI companion concept, Java and Bedrock boundaries, verified version facts, and safe source checks.",
+      "image": "https://verityminecraft.blog/static/images/verity-mod-guide/verity-mod-ai-companion.webp",
+      "datePublished": "2026-10-18",
+      "dateModified": "2026-10-18",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/verity-mod-guide/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What is Verity Mod in Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Verity Mod is a Minecraft companion experience centered on an interactive character called Verity. The Java project presents it as a small intelligent companion with dialogue or reactions, while Bedrock listings are separate add-on paths."}},
+        {"@type": "Question", "name": "Is Verity Mod a real Minecraft mod?", "acceptedAnswer": {"@type": "Answer", "text": "Verity JE is listed as a Java Minecraft project on Modrinth and related project pages. Confirm the exact file, loader, Minecraft version, and source before calling a particular download compatible."}},
+        {"@type": "Question", "name": "How does the Verity Mod AI companion work?", "acceptedAnswer": {"@type": "Answer", "text": "The mod presents Verity as an in-world character that can respond to prompts or player actions. The exact commands, voice behavior, services, and configuration depend on the release documentation."}},
+        {"@type": "Question", "name": "Is Verity Mod available for Bedrock?", "acceptedAnswer": {"@type": "Answer", "text": "There are separate Bedrock add-on listings using the Verity name, but they do not use the Java .jar workflow. Check the Bedrock source page and do not rename a Java file into a Bedrock package."}},
+        {"@type": "Question", "name": "What Minecraft version does Verity JE support?", "acceptedAnswer": {"@type": "Answer", "text": "The Java file verified for this guide is v6.0.0-beta.9 for Forge and Minecraft 1.20.1, released September 3, 2026. That is a source snapshot, not a guarantee for every newer Minecraft version."}},
+        {"@type": "Question", "name": "Should I download Verity Mod from an APK mirror?", "acceptedAnswer": {"@type": "Answer", "text": "No general APK claim can establish the identity or compatibility of a Minecraft mod. Use a maintained project, store, or platform page and keep PE or mobile searches separate from Java mod downloads."}}
+      ]
+    }
+  }
+}

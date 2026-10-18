@@ -13,6 +13,7 @@
 - [Minecraft Modpacks Guide](https://verityminecraft.blog/minecraft-modpacks/): Choose a Java modpack by version, loader, RAM, play style, source context, and multiplayer requirements, then install and test it in a separate profile.
 - [Minecraft Enchantments Guide](https://verityminecraft.blog/minecraft-enchantments/): Choose enchantments for weapons, armor, tools, bows, and travel; build the 15-bookshelf setup; and plan anvil, grindstone, Java, and Bedrock decisions.
 - [Verity Minecraft Versions](https://verityminecraft.blog/versions/): Version snapshot and compatibility notes.
+- [What Is Verity Mod?](https://verityminecraft.blog/verity-mod-guide/): Explain the Verity companion concept, Java and Bedrock boundaries, verified version facts, and source checks.
 - [Minecraft Seeds Guide](https://verityminecraft.blog/minecraft-seeds/): Choose and test Java and Bedrock world seeds by goal, edition, version, and copied-world verification.
 - [Minecraft Bedrock Maps Guide](https://verityminecraft.blog/minecraft-bedrock-maps/): Download, identify, import, and safely test Bedrock world files without confusing maps, add-ons, resource packs, and Java archives.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/

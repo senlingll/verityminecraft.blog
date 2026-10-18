@@ -23,15 +23,15 @@
         "value": "ThatMob's Verity 4.0.0 / V26.50; .mcaddon; 37,688,517바이트; 2026년 9월 17일 업로드"
       },
       {
-        "label": "Java 안정 파일",
-        "value": "verity-5.7.4.jar; 안정 버전; Forge/Minecraft 1.20.1; 246,483,796바이트; 2026년 8월 17일 공개"
+        "label": "Java 최신 확인 파일",
+        "value": "verity-6.0.0-beta.9.jar; 베타; Forge/Minecraft 1.20.1; 257,904,342바이트; 2026년 9월 3일 공개"
       },
       {
         "label": "Minecraft Java 게임 릴리스",
         "value": "26.3; 2026년 9월 15일 출시; Mojang 공식 매니페스트를 9월 23일 확인"
       },
       {
-        "label": "Java 베타",
+        "label": "Java 버전 상태",
         "value": "v6.0.0-beta.9; 2026년 9월 3일 공개; 베타이며 안정 버전 권장이 아님"
       },
       {
@@ -40,7 +40,7 @@
       },
       {
         "label": "마지막 확인",
-        "value": "2026년 9월 23일"
+        "value": "2026년 10월 18일"
       }
     ]
   },
@@ -109,8 +109,8 @@
       ],
       [
         "Verity Java 모드",
-        "verity-5.7.4.jar",
-        "안정 버전; Forge/Minecraft 1.20.1; 246,483,796바이트",
+        "verity-6.0.0-beta.9.jar",
+        "베타; Forge/Minecraft 1.20.1; 257,904,342바이트",
         "Modrinth / CurseForge"
       ],
       [

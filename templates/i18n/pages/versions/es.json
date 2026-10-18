@@ -23,16 +23,16 @@
         "value": "ThatMob's Verity 4.0.0 / V26.50; .mcaddon; 37.688.517 bytes; subida el 17-09-2026"
       },
       {
-        "label": "Archivo Java estable",
-        "value": "verity-5.7.4.jar; estable; Forge/Minecraft 1.20.1; 246.483.796 bytes; publicado el 17-08-2026"
+        "label": "Archivo Java verificado más reciente",
+        "value": "verity-6.0.0-beta.9.jar; beta; Forge/Minecraft 1.20.1; 257.904.342 bytes; publicado el 03-09-2026"
       },
       {
         "label": "Versión del juego Minecraft Java",
         "value": "26.3; publicada el 15-09-2026; manifiesto oficial de Mojang consultado el 23-09-2026"
       },
       {
-        "label": "Beta de Java",
-        "value": "v6.0.0-beta.9; publicada el 03-09-2026; beta, no es la versión estable recomendada"
+        "label": "Estado de la versión Java",
+        "value": "v6.0.0-beta.9; publicada el 03-09-2026; beta más reciente; comprueba la fuente antes de instalar"
       },
       {
         "label": "Fuente PE",
@@ -40,7 +40,7 @@
       },
       {
         "label": "Última revisión",
-        "value": "23 de septiembre de 2026"
+        "value": "18 de octubre de 2026"
       }
     ]
   },
@@ -109,8 +109,8 @@
       ],
       [
         "Mod Verity Java",
-        "verity-5.7.4.jar",
-        "Estable; Forge/Minecraft 1.20.1; 246.483.796 bytes",
+        "verity-6.0.0-beta.9.jar",
+        "Beta; Forge/Minecraft 1.20.1; 257.904.342 bytes",
         "Modrinth / CurseForge"
       ],
       [

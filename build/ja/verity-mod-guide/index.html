@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verity Modとは？Minecraftの機能・エディション・注意点</title>
+  <meta name="description"
+    content="Verity Modとは何かをMinecraft向けに解説。AIコンパニオンの考え方、JavaとBedrockの違い、確認済みバージョン、導入前の確認方法を紹介します。">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/ja/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/verity-mod-guide/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/verity-mod-guide/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/verity-mod-guide/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Verity Modとは？Minecraftの機能・エディション・注意点">
+  <meta property="og:description" content="Verity Modとは何かをMinecraft向けに解説。AIコンパニオンの考え方、JavaとBedrockの違い、確認済みバージョン、導入前の確認方法を紹介します。">
+  <meta property="og:url" content="https://verityminecraft.blog/ja/verity-mod-guide/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/verity-mod-guide/verity-mod-ai-companion.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Verity Modとは？Minecraftの機能・エディション・注意点">
+  <meta name="twitter:description" content="Verity Modとは何かをMinecraft向けに解説。AIコンパニオンの考え方、JavaとBedrockの違い、確認済みバージョン、導入前の確認方法を紹介します。">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/verity-mod-guide/verity-mod-ai-companion.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3092 Java\u3001Bedrock\u3001PE \u5411\u3051\u306b\u6574\u7406\u3057\u3001\u30bd\u30fc\u30b9\u3001\u30d0\u30fc\u30b8\u30e7\u30f3\u3001\u5c0e\u5165\u624b\u9806\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-10-18", "datePublished": "2026-10-18", "description": "Verity Mod\u3068\u306f\u4f55\u304b\u3092Minecraft\u5411\u3051\u306b\u89e3\u8aac\u3002AI\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u3001Java\u3068Bedrock\u306e\u9055\u3044\u3001\u78ba\u8a8d\u6e08\u307f\u30d0\u30fc\u30b8\u30e7\u30f3\u3092\u7d39\u4ecb\u3057\u307e\u3059\u3002", "headline": "Verity Mod\u3068\u306f\uff1fMinecraft\u3067\u5206\u304b\u308b\u6a5f\u80fd\u3068\u30a8\u30c7\u30a3\u30b7\u30e7\u30f3", "image": "https://verityminecraft.blog/static/images/verity-mod-guide/verity-mod-ai-companion.webp", "mainEntityOfPage": "https://verityminecraft.blog/ja/verity-mod-guide/", "publisher": {"@type": "Organization", "name": "Verity Minecraft"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Verity\u3068\u3044\u3046\u30a4\u30f3\u30bf\u30e9\u30af\u30c6\u30a3\u30d6\u306a\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u3092\u4e2d\u5fc3\u306b\u3057\u305f\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u4f53\u9a13\u3067\u3059\u3002Java\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3068Bedrock\u306e\u63b2\u8f09\u306f\u5225\u7d4c\u8def\u3067\u3059\u3002"}, "name": "Minecraft\u306eVerity Mod\u3068\u306f\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Verity JE\u306fModrinth\u306a\u3069\u3067Java\u5411\u3051\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3068\u3057\u3066\u63b2\u8f09\u3055\u308c\u3066\u3044\u307e\u3059\u3002"}, "name": "Verity Mod\u306f\u5b9f\u5728\u3059\u308bMinecraft Mod\u3067\u3059\u304b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Verity\u540d\u306eBedrock\u30a2\u30c9\u30aa\u30f3\u63b2\u8f09\u306f\u3042\u308a\u307e\u3059\u304c\u3001Java\u306e.jar\u624b\u9806\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002"}, "name": "Bedrock\u7248\u306eVerity Mod\u306f\u3042\u308a\u307e\u3059\u304b\uff1f"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT8473SMLS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-BT8473SMLS");
+  </script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/ja/" aria-label="Verity Minecraft ホーム">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="ダウンロード">
+      <a href="/ja/#downloads">ダウンロード</a>
+      <a href="/ja/#install">インストール</a>
+      <a href="/ja/#versions">バージョン</a>
+      <a href="/ja/#safety">安全確認</a>
+      <a href="/ja/#faq">よくある質問</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="日本語">日本語</summary>
+        <div class="language-options">
+          
+          <a href="/verity-mod-guide/">English</a>
+          
+          <a href="/es/verity-mod-guide/">Español</a>
+          
+          <a href="/fr/verity-mod-guide/">Français</a>
+          
+          <a href="/de/verity-mod-guide/">Deutsch</a>
+          
+          <a href="/pt/verity-mod-guide/">Português</a>
+          
+          <a href="/ko/verity-mod-guide/">한국어</a>
+          
+          <a href="/it/verity-mod-guide/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/ja/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        ダウンロード
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Verity Mod解説</p>
+      <h1 id="article-title">Verity Modとは？Minecraftで分かる機能とエディション</h1>
+      <p class="hero-lede">Verity Modとは、Verityという小さな黄色いAIキャラクターをMinecraftの世界に登場させ、プレイヤーとの反応や会話を楽しむコンパニオン系のModです。同じ名前でBedrock向けアドオンも見つかるため、最初にエディションとファイル形式を分けて考える必要があります。</p>
+      <p class="hero-support">このページでは機能の意味、画像から判断できないこと、JavaとBedrockの境界、導入前に確認すべき情報を整理します。すべてのファイルがすべての端末で動くという意味ではありません。</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/ja/java/">Javaの情報を見る</a>
+        
+        <a class="btn btn-secondary" href="/ja/java-vs-bedrock/">エディションを比較</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/verity-mod-guide/verity-mod-ai-companion.webp" alt="Java版Verity Modの実際のゲーム内コンパニオン場面" width="1536" height="1024" fetchpriority="high" decoding="async">
+      <figcaption>Verity JEプロジェクトの実素材。コンパニオンがゲーム内の場面に登場しています。</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">先に結論</p>
+      <h2 id="answer-title">MinecraftのVerity Modとは？</h2>
+      <p>Verity Modは、Verityというキャラクターを中心にしたMinecraftのコンパニオン体験です。Java向けプロジェクトでは、黄色い小さな知的な存在がプレイヤーに反応し、入力や行動に応じた会話的な遊び方を提供します。テクスチャパックや飾りのMobだけを追加するModとは目的が異なります。</p><p>検索結果ではJava版のVerity JE、Bedrockアドオン、モバイル向けページが混ざります。Javaの.jar、Bedrockの.mcaddon、アプリやAPKは別の導入経路です。2026年10月18日に確認したJavaファイルは `verity-6.0.0-beta.9.jar`、Forge/Minecraft 1.20.1向けで、Modrinth上のサイズは257,904,342 bytesです。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>キャラクター中心のMod</h3><p>探索中に会話や反応を返す存在を追加し、世界に物語性を加えます。</p></article>
+      
+      <article class="feature-card"><h3>エディションで答えが変わる</h3><p>Javaはloaderと.jar、Bedrockはアドオンのインポートを使います。名前だけでは互換性はありません。</p></article>
+      
+      <article class="feature-card"><h3>バージョンは出典で確認</h3><p>ファイル名、loader、Minecraftの対象バージョン、確認日を同じページで確認します。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">仕組み</p>
+      <h2 id="steps-title">Verity ModはMinecraft内でどう動く？</h2>
+      <p>コンパニオンという体験と、実際に読み込むための技術条件を分けて確認します。</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>世界にコンパニオンを追加</h3><p>互換性のあるJavaプロファイルで起動すると、Verityがキャラクターやエンティティとして世界に現れます。</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>対話が中心の機能</h3><p>入力やプレイヤーの行動に反応します。コマンド、音声、設定はバージョンによって異なります。</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>loaderが互換性を決める</h3><p>指定されたForgeなどのloader、Minecraft、依存関係、プロファイルのmodsフォルダを揃えます。</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>コピーしたワールドで試す</h3><p>会話、動作、競合を確認し、メインのセーブデータを守ります。</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>公式プロジェクトページを読む</h3><p>導入条件、リリースノート、既知の制限は、実際に使うファイルのページで確認します。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">画像から分かること</p>
+        <h2 id="check-title">画像はコンパニオンの例であり、万能なAIの保証ではない</h2>
+        <p>このページの実際のプロジェクト画像には、プレイヤーの近くにいるVerityや会話の場面が写っています。想定された体験を理解する材料ですが、すべてのビルドが同じ動作をすることや、Bedrock版であることを証明するものではありません。</p><p>AIコンパニオンという表現だけでは、使用モデル、回答品質、音声、プライバシー、常時接続の有無は分かりません。正確なリリースの説明を読み、外部サービスやキーが必要か確認してください。</p><p>プロジェクト名、日付、ファイル形式、Minecraftの対象バージョン、導入方法がそろったページを優先します。latestやfree、APKだけを強調するページではVerity Modの内容を特定できません。</p><p></p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/verity-mod-guide/verity-mod-dialogue-scene.webp" alt="Minecraft内でVerityが会話している実際の場面" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>会話を重視した体験の例。具体的な操作はリリースノートで確認します。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">エディション確認</p>
+      <h2 id="table-title">Java版Verity ModとBedrock版Verityアドオン</h2>
+      <p>ダウンロード前に、ファイルと必要な手順を比べてください。</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Java版Verity ModとBedrock版Verityアドオン">
+      <div role="row">
+        <strong>経路</strong><strong>主なファイル</strong><strong>必要なもの</strong><strong>見るページ</strong>
+      </div>
+      
+      <div role="row">
+        <span>Java / Verity JE</span><span>.jar</span><span>loader、プロファイル、依存関係、modsフォルダ</span><span>Javaページとファイル情報</span>
+      </div>
+      
+      <div role="row">
+        <span>Bedrock</span><span>.mcaddonまたはpack</span><span>インポート後、ワールドで有効化</span><span>Bedrockページと出典</span>
+      </div>
+      
+      <div role="row">
+        <span>PE・モバイル</span><span>出典により異なる</span><span>確認できるストアまたはBedrock出典</span><span>PEガイド</span>
+      </div>
+      
+      <div role="row">
+        <span>リソースパック</span><span>.zipまたはBedrock pack</span><span>テクスチャ用の別手順</span><span>リソースパックガイド</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/verity-mod-guide/verity-mod-feature-scene.webp" alt="Minecraft内でVerityの機能が分かる実際の場面" width="1536" height="1024" loading="lazy" decoding="async">
+        <figcaption>機能の役割を示す画像。バージョン情報は必ず出典で再確認します。</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">境界線</p>
+        <h2 id="activate-title">Verity Modという名前だけでは分からないこと</h2>
+        <p>Javaの.jarの拡張子を変えてもBedrockアドオンにはなりません。Bedrockの掲載ページもJava loaderへの対応を保証しません。ゲーム画像だけでは依存関係、性能、使用中のMinecraftへの対応も確認できません。</p><p>このガイドで確認したJavaファイルは `v6.0.0-beta.9`。2026年9月3日公開、Forge/Minecraft 1.20.1向けで、beta表記です。新しいMinecraftの安定対応を意味する数字ではありません。</p><p>確認時にCurseForgeのBedrockページはCloudflareの403を返しました。そのため、未確認の直接URLや新しいBedrock版を作っていません。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">よくある混同</p>
+      <h2 id="mistakes-title">Verity Modを調べるときの注意点</h2>
+      <p>次の確認で古いファイルやエディション違いを避けられます。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>検索結果を一つのModだと思う</h3><p>Java、Bedrock、PE、コミュニティページが混ざります。プラットフォームを見ます。</p></article>
+      
+      <article class="feature-card"><h3>拡張子だけを変更する</h3><p>.jarを.mcaddonに変えてもパッケージは変換されません。</p></article>
+      
+      <article class="feature-card"><h3>betaをstableと呼ぶ</h3><p>確認したJavaファイルはbetaです。Forge 1.20.1向けという条件を残します。</p></article>
+      
+      <article class="feature-card"><h3>画像を互換性の証拠にする</h3><p>画像は体験の例であり、依存関係や対応バージョンの証明ではありません。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">次に読む</p>
+      <h2 id="related-title">関連するVerity Minecraftページ</h2>
+      <p>解決したい質問に合うページを選んでください。</p>
+    </div>
+    <div class="example-grid">
+
+      <article class="example-card"><h3>Verity Mod Javaダウンロード</h3><p>.jar、loader、Java版の確認はこちら。</p><a class="text-link" href="/ja/java/">Javaガイドを開く</a></article>
+
+      <article class="example-card"><h3>Verity Mod Bedrockダウンロード</h3><p>Bedrockアドオンの出典とインポートはこちら。</p><a class="text-link" href="/ja/bedrock/">Bedrockガイドを開く</a></article>
+
+      <article class="example-card"><h3>Verity Minecraftの導入方法</h3><p>何かではなく、導入方法を知りたいときに使います。</p><a class="text-link" href="/ja/how-to-install/">導入ガイドを読む</a></article>
+
+      <article class="example-card"><h3>Verity Minecraftのバージョン</h3><p>確認済みのJavaとBedrockのスナップショットを比較します。</p><a class="text-link" href="/ja/versions/">バージョンを見る</a></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">出典</p>
+      <h2 id="sources-title">この解説で確認した出典</h2>
+      <p>プロジェクトの同一性、Java版の情報、エディションの違いを確認したページです。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Verity JEプロジェクトサイト</h3><p>プロジェクトの画像と機能の文脈。</p><a class="text-link" href="https://www.verityje-mod.com/" target="_blank" rel="noopener">サイトを開く</a></article>
+      
+      <article class="feature-card"><h3>ModrinthのVerity JE</h3><p>プロジェクト、バージョン、Javaの情報。</p><a class="text-link" href="https://modrinth.com/mod/verity-je" target="_blank" rel="noopener">Modrinthを開く</a></article>
+      
+      <article class="feature-card"><h3>確認済みJavaファイル</h3><p>2026年10月18日にHTTP 200を確認したJavaアーカイブ。</p><a class="text-link" href="https://cdn.modrinth.com/data/on1Y0osD/versions/NK8aevfA/verity-6.0.0-beta.9.jar" target="_blank" rel="nofollow noopener">ファイルを見る</a></article>
+      
+      <article class="feature-card"><h3>Bedrockアドオンの公式資料</h3><p>Java ModとBedrockアドオンを分けるための一次資料。</p><a class="text-link" href="https://learn.microsoft.com/en-us/minecraft/creator/documents/addonsintroduction" target="_blank" rel="noopener">資料を開く</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faq-title">Verity Modとは？よくある質問</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>MinecraftのVerity Modとは？</summary><p>Verityというインタラクティブなキャラクターを中心にしたコンパニオン体験です。JavaプロジェクトとBedrockの掲載は別経路です。</p></details>
+      
+      <details ><summary>Verity Modは実在するMinecraft Modですか？</summary><p>Verity JEはModrinthなどでJava向けプロジェクトとして掲載されています。導入前にファイル、loader、Minecraft、出典を確認してください。</p></details>
+      
+      <details ><summary>Verity ModのAIコンパニオンはどう動きますか？</summary><p>ゲーム内のVerityが入力やプレイヤーの行動に反応します。コマンド、音声、設定はバージョンの説明に従います。</p></details>
+      
+      <details ><summary>Bedrock版のVerity Modはありますか？</summary><p>Verity名のBedrockアドオン掲載はありますが、Javaの.jar手順ではありません。Javaファイルの拡張子を変更しないでください。</p></details>
+      
+      <details ><summary>Verity JEはどのMinecraftバージョンに対応しますか？</summary><p>確認済みファイルは2026年9月3日公開のv6.0.0-beta.9、Forge/Minecraft 1.20.1向けです。</p></details>
+      
+      <details ><summary>APKミラーからVerity Modを入れるべきですか？</summary><p>いいえ。保守されたプロジェクト、ストア、プラットフォームを使い、モバイル検索とJava Modを分けてください。</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ja/" aria-label="Verity Minecraft ホーム">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft の独立したダウンロード案内です。</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="ダウンロード">
+          <div class="footer-link-group">
+            <p class="footer-link-title">ダウンロード</p>
+          <a href="/ja/#downloads">ダウンロード</a>
+          <a href="/ja/#install">インストール</a>
+          <a href="/ja/#versions">バージョン</a>
+          <a href="/ja/#safety">安全確認</a>
+            <a href="/ja/bedrock-addons/">Bedrockアドオン</a>
+            <a href="/ja/java-vs-bedrock/">Java版とBedrock版の違い</a>
+            <a href="/ja/bedrock-shaders/">統合版シェーダー</a>
+            <a href="/ja/villager-trading-hall/">村人交易所ガイド</a>
+            <a href="/ja/#faq">よくある質問</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">サイト</p>
+            <a href="/about/">サイトについて</a>
+            <a href="/contact/">お問い合わせ</a>
+            <a href="/privacy-policy/">プライバシーポリシー</a>
+            <a href="/terms-of-service/">利用規約</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Verity Minecraft の独立したダウンロード案内です。</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+<script async="async" data-cfasync="false" src="https://pl30605215.profitableratecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+<div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+
+<script src="https://pl30483090.profitableratecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>

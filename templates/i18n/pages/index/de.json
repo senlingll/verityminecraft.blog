@@ -42,7 +42,7 @@
         },
         {
           "label": "Zuletzt geprüft",
-          "value": "23. September 2026"
+          "value": "18. Oktober 2026"
         }
       ],
       "facts_aria": "Verity Minecraft Download-Fakten"
@@ -70,12 +70,12 @@
           "platform": "Java Edition",
           "title": "Verity Mod für Java Edition",
           "description": "Geeignet für Java-Spieler mit kompatiblen Loadern und den auf der Projektseite genannten Minecraft-Versionen.",
-          "version": "verity-5.7.4.jar",
+          "version": "verity-6.0.0-beta.9.jar",
           "minecraft": "Forge 1.20.1",
           "file_type": ".jar",
           "source": "CurseForge / Modrinth",
           "status": "Java-Quellpfad",
-          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/Tc8RyKmi/verity-5.7.4.jar",
+          "url": "https://cdn.modrinth.com/data/on1Y0osD/versions/NK8aevfA/verity-6.0.0-beta.9.jar",
           "page_url": "/java/",
           "cta": "Java-Mod herunterladen"
         },
@@ -121,7 +121,7 @@
         [
           "Java",
           "CurseForge Verity JE oder Modrinth Verity JE",
-          "verity-5.7.4.jar / Forge 1.20.1",
+          "verity-6.0.0-beta.9.jar / Forge 1.20.1",
           ".jar",
           "Loader und Minecraft-Version prüfen"
         ],
@@ -184,7 +184,7 @@
         "Diese Seite ist ein Verity-mod-Download-Guide, kein Mirror. Die Buttons zeigen auf Quellen, bei denen Plattform oder Ersteller die Veröffentlichung kontrollieren.",
         "Der erste Klick soll sicherer werden: Bedrock sieht .mcaddon-Kontext, Java sieht Loader-Hinweise und PE-Sucher erhalten Warnungen vor APK-Seiten.",
         "Die Reihenfolge ist einfach: Edition wählen, gepflegte Quelle öffnen und danach in einer Backup-Welt oder einem sauberen Profil testen.",
-        "Die Bedrock-Quelle wurde am 23. September 2026 geprüft und listet ThatMob's Verity 4.0.0 / V26.50. Wenn die Quelle erneut wechselt, folgen Sie zuerst der Quelle."
+        "Die Bedrock-Quelle wurde am 18. Oktober 2026 geprüft und listet ThatMob's Verity 4.0.0 / V26.50. Wenn die Quelle erneut wechselt, folgen Sie zuerst der Quelle."
       ]
     },
     "versions": {
@@ -216,6 +216,11 @@
           "title": "Versionen",
           "url": "/versions/",
           "text": "Bekannte Versionen, Quellen und Kompatibilität."
+        },
+        {
+          "title": "Was ist der Verity-Mod?",
+          "url": "/verity-mod-guide/",
+          "text": "Begleiter-Konzept, Editionsgrenzen und geprüfte Quellen verstehen."
         }
       ]
     },

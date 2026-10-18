@@ -669,6 +669,27 @@ def localized_villager_trading_hall(lang):
     return render_core_page('villager-trading-hall', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/verity-mod-guide/', strict_slashes=False)
+def verity_mod_guide():
+    """
+    渲染 Verity Mod 功能、版本与平台边界说明页面。
+
+    :return: str，Verity Mod 解释指南 HTML 响应内容
+    """
+    return render_core_page('verity-mod-guide', template_name='article-guide.html')
+
+
+@app.route('/<lang>/verity-mod-guide/', strict_slashes=False)
+def localized_verity_mod_guide(lang):
+    """
+    渲染指定语言的 Verity Mod 功能、版本与平台边界说明页面。
+
+    :param lang: 页面语言代码
+    :return: str，指定语言的 Verity Mod 解释指南 HTML 响应内容
+    """
+    return render_core_page('verity-mod-guide', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/minecraft-bedrock-maps/', strict_slashes=False)
 def minecraft_bedrock_maps():
     """

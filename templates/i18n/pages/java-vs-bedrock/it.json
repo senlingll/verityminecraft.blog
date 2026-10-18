@@ -33,7 +33,7 @@
     "title": "Minecraft Java o Bedrock: quale edizione fa per te?",
     "paragraphs": [
       "Nessuna edizione è migliore in assoluto. Java è indicata per mod della community, shader, server tecnici, vecchie versioni e impostazioni avanzate. Bedrock è più pratica per gruppi su Xbox, PlayStation, Switch, Windows, Android e iOS.",
-      "Per installare Verity scegli prima l'edizione. La versione Java verificata è Verity JE 5.7.4 per Forge 1.20.1, pubblicata su Modrinth il 17 agosto 2026. Bedrock ha una pagina add-on separata su CurseForge."
+      "Per installare Verity scegli prima l'edizione. La versione Java verificata è Verity JE 6.0.0-beta.9 per Forge 1.20.1, pubblicata su Modrinth il 3 settembre 2026. Bedrock ha una pagina add-on separata su CurseForge."
     ],
     "cards": [
       {
@@ -93,7 +93,7 @@
       },
       {
         "title": "Installazione Verity",
-        "text": "Verity JE 5.7.4 è un .jar Forge 1.20.1. Bedrock richiede un add-on proprio; rinominare il file non lo converte."
+        "text": "Verity JE 6.0.0-beta.9 è un .jar Forge 1.20.1. Bedrock richiede un add-on proprio; rinominare il file non lo converte."
       }
     ]
   },
@@ -153,7 +153,7 @@
       ],
       [
         "Verity",
-        "5.7.4, Forge 1.20.1",
+        "6.0.0-beta.9, Forge 1.20.1",
         "Add-on Bedrock separato"
       ],
       [
@@ -208,7 +208,7 @@
       {
         "title": "Verity Java",
         "url": "/java/",
-        "text": "5.7.4, Forge 1.20.1 e installazione Java.",
+        "text": "6.0.0-beta.9, Forge 1.20.1 e installazione Java.",
         "cta": "Guida Java"
       },
       {
@@ -234,7 +234,7 @@
   "sources": {
     "eyebrow": "Riferimenti",
     "title": "Fonti ufficiali verificate",
-    "description": "Funzioni e versione Java verificate il 23 settembre 2026.",
+    "description": "Funzioni e versione Java verificate il 18 ottobre 2026.",
     "links": [
       {
         "title": "Minecraft Java o Bedrock",
@@ -245,7 +245,7 @@
       {
         "title": "Verity JE su Modrinth",
         "url": "https://modrinth.com/mod/verity-je-official/versions",
-        "text": "Fonte per 5.7.4, Forge 1.20.1, data e dimensione.",
+        "text": "Fonte per 6.0.0-beta.9, Forge 1.20.1, data e dimensione.",
         "cta": "Verifica Java"
       },
       {
@@ -278,7 +278,7 @@
       },
       {
         "question": "Posso installare il .jar Verity Java su Bedrock?",
-        "answer": "No. Verity JE 5.7.4 è per Forge 1.20.1; Bedrock richiede il suo add-on."
+        "answer": "No. Verity JE 6.0.0-beta.9 è per Forge 1.20.1; Bedrock richiede il suo add-on."
       }
     ]
   },

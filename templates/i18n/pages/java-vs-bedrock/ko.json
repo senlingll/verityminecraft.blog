@@ -33,7 +33,7 @@
     "title": "자바와 베드락 중 나에게 맞는 에디션은?",
     "paragraphs": [
       "모든 상황에서 더 좋은 에디션은 없습니다. 커뮤니티 모드, 셰이더, 기술 서버, 이전 버전과 고급 설정을 중시하면 자바가 유리합니다. Xbox, PlayStation, Switch, Windows, Android, iOS가 섞인 그룹은 베드락이 편합니다.",
-      "Verity를 설치할 때는 버전 번호보다 에디션을 먼저 확인하세요. 확인된 자바 릴리스는 2026년 8월 17일 Modrinth에 공개된 Forge 1.20.1용 Verity JE 5.7.4입니다. 베드락은 별도 CurseForge 애드온입니다."
+      "Verity를 설치할 때는 버전 번호보다 에디션을 먼저 확인하세요. 확인된 자바 릴리스는 2026년 9월 3일 Modrinth에 공개된 Forge 1.20.1용 Verity JE 6.0.0-beta.9입니다. 베드락은 별도 CurseForge 애드온입니다."
     ],
     "cards": [
       {
@@ -93,7 +93,7 @@
       },
       {
         "title": "Verity 설치",
-        "text": "Verity JE 5.7.4은 Forge 1.20.1용 .jar입니다. 베드락은 전용 애드온이 필요하며 이름을 바꿔도 변환되지 않습니다."
+        "text": "Verity JE 6.0.0-beta.9은 Forge 1.20.1용 .jar입니다. 베드락은 전용 애드온이 필요하며 이름을 바꿔도 변환되지 않습니다."
       }
     ]
   },
@@ -153,7 +153,7 @@
       ],
       [
         "Verity",
-        "5.7.4, Forge 1.20.1",
+        "6.0.0-beta.9, Forge 1.20.1",
         "별도 베드락 애드온"
       ],
       [
@@ -208,7 +208,7 @@
       {
         "title": "Verity 자바",
         "url": "/java/",
-        "text": "5.7.4, Forge 1.20.1과 자바 설치.",
+        "text": "6.0.0-beta.9, Forge 1.20.1과 자바 설치.",
         "cta": "자바 가이드"
       },
       {
@@ -234,7 +234,7 @@
   "sources": {
     "eyebrow": "참고 자료",
     "title": "확인한 공식 출처",
-    "description": "에디션 기능과 자바 버전은 2026년 9월 23일 확인했습니다.",
+    "description": "에디션 기능과 자바 버전은 2026년 10월 18일 확인했습니다.",
     "links": [
       {
         "title": "Minecraft Java와 Bedrock",
@@ -245,7 +245,7 @@
       {
         "title": "Modrinth의 Verity JE",
         "url": "https://modrinth.com/mod/verity-je-official/versions",
-        "text": "5.7.4, Forge 1.20.1, 날짜와 파일 크기 출처.",
+        "text": "6.0.0-beta.9, Forge 1.20.1, 날짜와 파일 크기 출처.",
         "cta": "자바 확인"
       },
       {
@@ -278,7 +278,7 @@
       },
       {
         "question": "Verity 자바 .jar를 베드락에 설치할 수 있나요?",
-        "answer": "아니요. Verity JE 5.7.4은 Forge 1.20.1용이며 베드락은 전용 애드온이 필요합니다."
+        "answer": "아니요. Verity JE 6.0.0-beta.9은 Forge 1.20.1용이며 베드락은 전용 애드온이 필요합니다."
       }
     ]
   },

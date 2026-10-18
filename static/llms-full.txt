@@ -6,6 +6,8 @@ The homepage focuses on direct download intent: users choose Bedrock, Java, or P
 
 Core pages include Bedrock .mcaddon guidance, Verity JE Java mod guidance, PE and APK search caution, a unified install tutorial, and a version snapshot page. The site recommends source listings and store pages over random mirrors, encourages users to verify file type and Minecraft version, and suggests testing downloads in backup worlds.
 
+The Verity Mod explainer answers what is Verity Mod, describes the companion concept shown by the Verity JE project, separates Java .jar files from Bedrock .mcaddon listings, records the verified Java beta snapshot, and explains why screenshots or APK mirrors cannot establish compatibility.
+
 Verity Minecraft is not affiliated with Mojang, Microsoft, Minecraft, CurseForge, Modrinth, Google Play, or the Verity creators. Names and trademarks belong to their respective owners.
 
 Contact: support@verityminecraft.blog
