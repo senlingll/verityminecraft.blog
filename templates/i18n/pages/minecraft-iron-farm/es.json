@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Granja de hierro en Minecraft: 7 pasos para Java y Bedrock (2026)",
+    "description": "Construye una granja de hierro en Minecraft con una prueba pequeña. Revisa aldeanos, camas, aparición, recolección y diferencias entre ediciones.",
+    "image": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guía de construcción de Minecraft",
+    "title": "Granja de hierro en Minecraft: 7 pasos seguros para Java y Bedrock",
+    "lede": "Una granja de hierro en Minecraft es más estable cuando pruebas primero una celda pequeña. Protege a los aldeanos, coloca las camas y estaciones de trabajo de tu edición, controla la zona de aparición y añade después el agua y las tolvas. Así detectas un problema de conexión o de aparición antes de tocar tu mundo principal.",
+    "support": "Las mecánicas pueden cambiar entre Java, Bedrock y versiones del juego. Las imágenes son ilustraciones editoriales originales; verifica edición y versión en un mundo copiado antes de ampliar.",
+    "actions": [
+      {
+        "label": "Comparar Java y Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Consultar versiones",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "alt": "Ilustración editorial original de una granja de hierro de Minecraft con aldeanos, camas, plataforma de gólems, agua, tolvas y cofre; no es una captura oficial.",
+      "caption": "La ilustración muestra aldeanos y camas arriba, una zona de aparición controlada en el centro y la recolección abajo. Es un gráfico original, no una captura.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "¿Qué necesita una granja de hierro en Minecraft?",
+    "paragraphs": [
+      "Una granja fiable necesita una configuración de aldea válida para tu edición, un lugar seguro donde los aldeanos puedan dormir o vincularse a sus puntos de interés, una zona de aparición del gólem y un sistema de recolección. Las cantidades y distancias no son universales: Java y Bedrock aplican reglas distintas. El primer objetivo es observar un ciclo en un mundo copiado, no perseguir la mayor tasa desde el inicio.",
+      "Prepara bloques, camas, estaciones de trabajo del diseño, cristal o vallas, agua, señales o trampillas, tolvas y un cofre. Conserva un transporte seguro para los aldeanos. Un zombi solo pertenece a los diseños que lo indican; su línea de visión debe poder cerrarse y los aldeanos deben seguir durmiendo y trabajando.",
+      "El error más común es usar una granja Java como plano de Bedrock. Anota edición, versión, aldeanos, camas, estaciones, superficie de aparición y recolección. Cambia una sola variable cada vez para que el diagnóstico sea claro."
+    ],
+    "cards": [
+      {
+        "title": "Celda de aldeanos",
+        "text": "Mantén visibles y protegidos a los aldeanos para revisar camas, estaciones y enlaces."
+      },
+      {
+        "title": "Superficie de aparición",
+        "text": "Define una zona y elimina los lugares alternativos."
+      },
+      {
+        "title": "Línea de recolección",
+        "text": "Añade agua, tolvas y cofre después de validar la aparición."
+      },
+      {
+        "title": "Nota de versión",
+        "text": "Escribe Java o Bedrock y la versión junto al plano."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Secuencia de construcción",
+    "title": "Cómo construir una granja de hierro en Minecraft en 7 pasos",
+    "description": "Construye primero la versión mínima que puedas probar. El orden separa enlaces, aparición y recolección.",
+    "items": [
+      {
+        "title": "1. Elige un sitio de prueba",
+        "text": "Aléjate de aldeas naturales, camas y estaciones cercanas. Una plataforma elevada facilita ver apariciones extrañas y deja pasillos para revisar."
+      },
+      {
+        "title": "2. Anota edición y versión",
+        "text": "Escribe Java o Bedrock, la versión y las condiciones del tutorial. El mismo diseño puede cambiar cuando cambia el centro de la aldea."
+      },
+      {
+        "title": "3. Cierra la cámara",
+        "text": "Transporta un aldeano cada vez y bloquea las salidas. Deja visibles su cara, cama y estación; no mezcles la prueba con una sala de comercio."
+      },
+      {
+        "title": "4. Coloca camas y estaciones",
+        "text": "Observa qué aldeano reclama cada punto. Retira bloques competidores y espera un ciclo normal antes de decorar."
+      },
+      {
+        "title": "5. Construye una zona de aparición",
+        "text": "Crea una plataforma plana e intencional. Revisa techo, cuevas, agua y bordes para que el gólem no aparezca fuera del recorrido."
+      },
+      {
+        "title": "6. Añade agua y tolvas",
+        "text": "Cuando aparezca un gólem en el lugar correcto, guía el agua hacia tolvas y cofre. Prueba con un objeto y vuelve al estado anterior si se atasca."
+      },
+      {
+        "title": "7. Comprueba un ciclo",
+        "text": "Observa enlaces, aparición, desplazamiento y hierro en el cofre. Registra tiempo y versión antes de duplicar módulos."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Vista de diagnóstico",
+    "title": "Revisa la zona de aparición antes de mover a los aldeanos",
+    "paragraphs": [
+      "Cuando no hay hierro, muchos jugadores cambian primero camas y aldeanos. Mira arriba, abajo y alrededor de la plataforma: otra superficie, cueva, agua o techo puede ser la causa. Un gólem fuera puede indicar que la lógica funciona pero la recolección está mal delimitada.",
+      "La zona roja de la imagen es una idea de diagnóstico, no un número universal de bloques. Compárala con tu diseño y elimina un lugar competidor cada vez. No cambies la cámara de aldeanos y la superficie al mismo tiempo.",
+      "Registra edición y versión, qué aldeano se vinculó a cada cama o estación, dónde apareció el primer gólem y si llegó un objeto al cofre. Ese registro señala la capa que falla mejor que una foto de la torre final."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp",
+      "alt": "Ilustración editorial original vista desde arriba de una granja de hierro de Minecraft con aldeanos, camas, agua, gólem y zona SPAWN CHECK; no es una captura de juego.",
+      "caption": "Usa la zona roja para buscar superficies competidoras antes de mover aldeanos.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Comprobación de edición",
+    "title": "Comprobaciones de una granja Java frente a Bedrock",
+    "description": "La tabla indica qué verificar sin prometer un diseño o rendimiento universal.",
+    "headers": [
+      "Comprobación",
+      "Java",
+      "Bedrock",
+      "Acción segura"
+    ],
+    "rows": [
+      [
+        "Identidad de aldea",
+        "Confirma los supuestos de conexión del diseño.",
+        "Confirma cómo camas, aldeanos y puntos fijan el centro.",
+        "Prueba una celda."
+      ],
+      [
+        "Camas y estaciones",
+        "Sigue los enlaces y el ciclo del tutorial.",
+        "Vigila que otro aldeano no reclame el bloque.",
+        "Retira competidores."
+      ],
+      [
+        "Zona de aparición",
+        "Limpia las superficies que alcanza el diseño Java.",
+        "Revisa el área más amplia que usa Bedrock.",
+        "Marca y examina."
+      ],
+      [
+        "Recolección",
+        "Comprueba agua, tolvas y caída.",
+        "Comprueba agua, tolvas y caída.",
+        "Envía un objeto de prueba."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Límites entre ediciones",
+    "title": "No copies una granja Java en Bedrock sin volver a probarla",
+    "paragraphs": [
+      "Java y Bedrock comparten aldeanos, camas, estaciones y gólems, pero la identidad de la aldea, los enlaces y el espacio de aparición pueden ser distintos. Indica siempre edición y versión en el plano; no lo trates como una receta universal de tres aldeanos.",
+      "La imagen comparativa es una ilustración original, no una captura oficial. Separa la estructura común de las reglas de cada edición, lee las notas de versión y reproduce la celda mínima en el juego que usas.",
+      "El rendimiento también depende de distancia del jugador, simulación, cuevas, otras aldeas y pausas de recolección. Mide tu propio ciclo y anota la versión."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp",
+      "alt": "Ilustración editorial original que compara conceptos de granjas de hierro de Minecraft Java y Bedrock con aldeanos, camas, agua y recolección; no es gameplay oficial.",
+      "caption": "El objetivo es el mismo, pero las reglas de aldea pueden cambiar. Usa la imagen como lista de comprobación.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Fallos comunes",
+    "title": "Por qué no funciona una granja de hierro de Minecraft",
+    "description": "Cambia una sola capa cada vez para conservar la evidencia.",
+    "cards": [
+      {
+        "title": "No aparece ningún gólem",
+        "text": "Revisa edición, enlaces, camas, estaciones y duración del ciclo antes de añadir aldeanos."
+      },
+      {
+        "title": "Aparece fuera",
+        "text": "Busca techos, cuevas, plataformas, agua y estructuras cercanas; elimina un competidor cada vez."
+      },
+      {
+        "title": "El hierro no llega",
+        "text": "Sigue agua, orientación de tolvas y zona de caída con un objeto de prueba."
+      },
+      {
+        "title": "Cambia el ritmo",
+        "text": "Conserva la celda original, añade un módulo y registra camas, estaciones, distancia y versión."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Sigue aprendiendo",
+    "title": "Guías útiles para la misma preparación",
+    "description": "Estas páginas ayudan a elegir edición, revisar aldeanos, planificar equipo y comprobar versiones.",
+    "links": [
+      {
+        "title": "Java frente a Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Compara reglas antes de copiar el diseño.",
+        "cta": "Comparar ediciones"
+      },
+      {
+        "title": "Sala de comercio de aldeanos",
+        "url": "/villager-trading-hall/",
+        "text": "Revisa estaciones antes de acercar aldeanos.",
+        "cta": "Revisar aldeanos"
+      },
+      {
+        "title": "Encantamientos de Minecraft",
+        "url": "/minecraft-enchantments/",
+        "text": "Planifica hierro, herramientas y libros para la supervivencia.",
+        "cta": "Planificar equipo"
+      },
+      {
+        "title": "Notas de versión",
+        "url": "/versions/",
+        "text": "Comprueba la versión antes de seguir un tutorial antiguo.",
+        "cta": "Ver versiones"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Nota de fuente",
+    "title": "Usa las notas de versión para las comprobaciones sensibles",
+    "description": "El artículo oficial de Java 26.3 aporta contexto; no sustituye una prueba de granja por edición.",
+    "links": [
+      {
+        "title": "Notas de Minecraft Java Edition 26.3",
+        "text": "Lee la nota oficial y vuelve a probar en la versión que juegas.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Abrir nota oficial",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes sobre granjas de hierro",
+    "items": [
+      {
+        "question": "¿Cuántos aldeanos necesita una granja de hierro?",
+        "answer": "Depende del diseño y la edición. Prueba la celda mínima del tutorial y confirma aldeanos, camas, estaciones y enlaces antes de ampliar."
+      },
+      {
+        "question": "¿Puedo copiar una granja Java en Bedrock?",
+        "answer": "No sin volver a probarla. El centro de la aldea, los puntos de interés y la zona de aparición pueden comportarse distinto. Usa un plan Bedrock en un mundo copiado."
+      },
+      {
+        "question": "¿Hace falta un zombi?",
+        "answer": "Solo si el diseño lo usa. No es un requisito universal; la línea de visión debe poder cerrarse y los aldeanos deben dormir y trabajar."
+      },
+      {
+        "question": "¿Por qué aparece el gólem fuera?",
+        "answer": "Busca superficies válidas, cuevas, techos, agua y aldeas cercanas. Elimina un lugar competidor cada vez."
+      },
+      {
+        "question": "¿Cómo aumento la velocidad?",
+        "answer": "Documenta un ciclo, modifica una sola variable y mide de nuevo. Un diseño grande sin referencia es difícil de corregir."
+      },
+      {
+        "question": "¿Es un diseño oficial?",
+        "answer": "No. Las imágenes son ilustraciones editoriales originales; los bloques y cantidades dependen de juego, edición y versión."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Granja de hierro en Minecraft: 7 pasos para Java y Bedrock (2026)",
+      "description": "Construye una granja de hierro en Minecraft con una prueba pequeña. Revisa aldeanos, camas, aparición, recolección y diferencias entre ediciones.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://verityminecraft.blog/es/minecraft-iron-farm/"
+      }
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuántos aldeanos necesita una granja de hierro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del diseño y la edición. Prueba la celda mínima del tutorial y confirma aldeanos, camas, estaciones y enlaces antes de ampliar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo copiar una granja Java en Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No sin volver a probarla. El centro de la aldea, los puntos de interés y la zona de aparición pueden comportarse distinto. Usa un plan Bedrock en un mundo copiado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hace falta un zombi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solo si el diseño lo usa. No es un requisito universal; la línea de visión debe poder cerrarse y los aldeanos deben dormir y trabajar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué aparece el gólem fuera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Busca superficies válidas, cuevas, techos, agua y aldeas cercanas. Elimina un lugar competidor cada vez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo aumento la velocidad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Documenta un ciclo, modifica una sola variable y mide de nuevo. Un diseño grande sin referencia es difícil de corregir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es un diseño oficial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Las imágenes son ilustraciones editoriales originales; los bloques y cantidades dependen de juego, edición y versión."
+          }
+        }
+      ]
+    }
+  }
+}

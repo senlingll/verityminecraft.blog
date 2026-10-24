@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Iron Farm: 7 Steps for Java and Bedrock (2026)</title>
+  <meta name="description"
+    content="Build a Minecraft iron farm with a test-first layout. Check villagers, beds, spawn area, collection, Java/Bedrock differences, and common fixes.">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/minecraft-iron-farm/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/minecraft-iron-farm/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Minecraft Iron Farm: 7 Steps for Java and Bedrock (2026)">
+  <meta property="og:description" content="Build a Minecraft iron farm with a test-first layout. Check villagers, beds, spawn area, collection, Java/Bedrock differences, and common fixes.">
+  <meta property="og:url" content="https://verityminecraft.blog/minecraft-iron-farm/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Minecraft Iron Farm: 7 Steps for Java and Bedrock (2026)">
+  <meta name="twitter:description" content="Build a Minecraft iron farm with a test-first layout. Check villagers, beds, spawn area, collection, Java/Bedrock differences, and common fixes.">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "A download hub for Verity Minecraft Java, Bedrock, and PE players with source notes, install help, and version guidance.", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-10-25", "datePublished": "2026-10-25", "description": "Build a Minecraft iron farm with a test-first layout. Check villagers, beds, spawn area, collection, Java/Bedrock differences, and common fixes.", "headline": "Minecraft Iron Farm: 7 Steps for Java and Bedrock (2026)", "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp", "mainEntityOfPage": {"@id": "https://verityminecraft.blog/minecraft-iron-farm/", "@type": "WebPage"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "There is no single number that works for every design and edition. Follow the chosen tutorial\u0027s assumptions, start with its smallest test cell, and confirm villager, bed, workstation, and village links before expanding."}, "name": "How many villagers does a Minecraft iron farm need?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Not safely without retesting. Java and Bedrock can differ in village identity, point-of-interest linking, spawn space, and timing. Treat a Java build as a reference for concepts, then use a Bedrock-specific plan and a copied world."}, "name": "Can I copy a Java iron farm to Bedrock?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Only if the specific design uses a scare mechanic. A zombie is not a universal requirement. If you add one, make the sight line reversible and confirm that villagers still meet the edition\u0027s normal sleep and work conditions."}, "name": "Do I need a zombie for an iron farm?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Search the full area for other valid surfaces, caves, roofs, water pockets, or nearby village structures. Remove one competing location at a time and keep the villager chamber unchanged while you test."}, "name": "Why is my iron farm spawning golems outside the platform?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "First document one complete cycle. Then improve one variable, such as collection downtime or a competing spawn surface, and measure again. A larger build without a controlled baseline is difficult to diagnose."}, "name": "How can I make an iron farm faster?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "No. The diagrams on this page are original editorial illustrations. They explain the relationships to inspect; the game, edition, version, and chosen tutorial determine the blocks and counts you should use."}, "name": "Is this an official Minecraft farm design?"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT8473SMLS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-BT8473SMLS");
+  </script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Verity Minecraft home">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="/#downloads">Downloads</a>
+      <a href="/#install">Install</a>
+      <a href="/#versions">Versions</a>
+      <a href="/#safety">Safety</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="Choose language">English</summary>
+        <div class="language-options">
+          
+          <a href="/es/minecraft-iron-farm/">Español</a>
+          
+          <a href="/ja/minecraft-iron-farm/">日本語</a>
+          
+          <a href="/fr/minecraft-iron-farm/">Français</a>
+          
+          <a href="/de/minecraft-iron-farm/">Deutsch</a>
+          
+          <a href="/pt/minecraft-iron-farm/">Português</a>
+          
+          <a href="/ko/minecraft-iron-farm/">한국어</a>
+          
+          <a href="/it/minecraft-iron-farm/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        Download
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">Minecraft build guide</p>
+      <h1 id="article-title">Minecraft Iron Farm: 7 Safe Steps for Java and Bedrock</h1>
+      <p class="hero-lede">A Minecraft iron farm works best when you test one small cell before building a tall, complicated tower. Start with a protected villager area, the beds and workstations your edition expects, a controlled spawn platform, and a simple water-and-hopper collection line. This guide keeps the layout easy to inspect so you can find a linking or spawning problem before it costs a main survival world.</p>
+      <p class="hero-support">Mechanics can change between Java, Bedrock, and game releases. Treat the diagrams on this page as an editorial plan, then verify the current edition and version in a copied world before expanding the farm.</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/java-vs-bedrock/">Compare Java and Bedrock</a>
+        
+        <a class="btn btn-secondary" href="/versions/">Check version notes</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp" alt="Original editorial illustration of a Minecraft iron farm with villagers, beds, a golem platform, water channels, hoppers, and a chest; not an official gameplay screenshot." width="768" height="768" fetchpriority="high" decoding="async">
+      <figcaption>The illustration shows the main relationships to test: villagers and beds above, a controlled spawn area below, and collection at the bottom. It is an original guide graphic, not a real game capture.</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">Quick answer</p>
+      <h2 id="answer-title">What Does a Minecraft Iron Farm Need?</h2>
+      <p>A dependable Minecraft iron farm needs a valid village-like setup for your edition, a safe place for villagers to sleep or link to their points of interest, an iron golem spawn area, and a collection system. The exact counts and distances are not universal: Java and Bedrock use different village and spawning rules, and a recent update can change a design that worked in an older release. The useful first goal is a farm that produces one test cycle in a copied world, not the highest possible rate.</p><p>Prepare building blocks, beds, the workstations required by the design, glass or fences for a visible villager chamber, water buckets, signs or gates for water control, hoppers, and at least one chest. Keep spare blocks and a way to move villagers safely. A zombie scare design is a separate choice, not a requirement you should add automatically; if you use one, make the line of sight reversible and test that villagers can still follow the edition&#39;s work and sleep rules.</p><p>The biggest mistake is treating a popular Java layout as a Bedrock blueprint. Before copying a tutorial, write down the edition, Minecraft version, number of villagers, bed arrangement, workstation arrangement, spawn surface, and collection method it assumes. Then change one variable at a time. That record turns an iron farm from a mysterious redstone build into a small system you can diagnose.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Villager cell</h3><p>Keep each villager visible and protected while you confirm beds, workstations, and movement are linked to the intended cell.</p></article>
+      
+      <article class="feature-card"><h3>Spawn surface</h3><p>Give golems one deliberate area to appear, then remove nearby blocks and water pockets that create competing locations.</p></article>
+      
+      <article class="feature-card"><h3>Collection line</h3><p>Use water, hoppers, and a chest only after the spawning test works; a blocked hopper can look like a failed farm.</p></article>
+      
+      <article class="feature-card"><h3>Version note</h3><p>Record Java or Bedrock and the game version beside the build so a future update does not silently change your assumptions.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">Build sequence</p>
+      <h2 id="steps-title">How to Build a Minecraft Iron Farm in 7 Steps</h2>
+      <p>Build the smallest testable version first. The order below separates village linking, spawning, and collection so each layer can be checked on its own.</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>1. Choose a quiet test site</h3><p>Pick a location away from natural villages, extra beds, and nearby workstations. A raised platform or open coastline makes unwanted spawn spots easier to see. Build the first version in a copied world or a temporary survival area, and leave a walkway around every chamber so you can inspect it without breaking the farm.</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>2. Write the edition and version on your plan</h3><p>Before placing blocks, note Java or Bedrock, the game version, and the tutorial assumptions you are following. The phrase iron farm covers several designs. A layout that relies on a Java village center may not behave the same way in Bedrock, so keep the edition check visible in your notes and in the final test.</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>3. Build a protected villager chamber</h3><p>Move villagers one at a time and close every escape route before adding the next one. Leave enough room to see their faces, beds, and workstations. Do not mix the test chamber with a trading hall until the farm works: an unrelated workstation or bed can be claimed by the wrong villager and make the result impossible to read.</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>4. Add beds and workstations deliberately</h3><p>Place the beds and workstations required by the chosen design, then watch which villager claims each point of interest. Let the villagers complete the normal linking or work cycle for your edition. If a link looks wrong, remove competing blocks and test again before adding a scare device, decorative roof, or second cell.</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>5. Build one controlled spawn area</h3><p>Create a flat, well-lit or otherwise intentional platform according to the design. Keep the edges, roof, water channels, and nearby caves in mind: a golem that appears outside the collection route can make a working farm look empty. The spawn-check illustration is a reminder to inspect the whole area, not just the block under the villagers.</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>6. Add water and collection</h3><p>Once a golem appears in the intended area, add signs, gates, or walls to guide water toward hoppers and a chest. Test every hopper with a single item and make sure the chest is reachable. If the farm stops after collection is added, temporarily remove the water and return to the last known working state.</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>7. Run a one-cycle acceptance test</h3><p>Stay nearby long enough to observe a complete cycle: villagers remain linked, a golem appears in the target area, water moves it to the kill or drop zone, and iron reaches the chest. Write down the result, the time, and the edition. Only then duplicate the module or add rate improvements.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">Troubleshooting view</p>
+        <h2 id="check-title">Check the Spawn Area Before Rebuilding the Villager Room</h2>
+        <p>When a farm produces no iron, players often move beds or replace villagers first. Start with the visible spawn area instead. Look above, below, and beside the platform for a second valid surface, a water pocket, a cave, or a roof that changes the available space. If a golem appears outside the intended route, the village logic may be working and the collection boundary is the real problem.</p><p>The illustration marks a single spawn zone in red so the diagnosis is concrete. It is not a universal block count. Compare its shape with the rules of the design and your edition, then remove one competing surface at a time. Keep the villager chamber unchanged while you test; changing villagers, beds, spawn blocks, and hoppers together removes the evidence you need.</p><p>A useful log has four entries: the exact edition and version, which villagers linked to which beds or workstations, where the first golem appeared, and whether an item reached the chest. That small record is more reliable than a screenshot of a finished tower because it tells you which layer failed.</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp" alt="Original editorial top-down illustration of a Minecraft iron farm spawn area with three villagers, beds, water channels, a golem, and a highlighted spawn zone labeled SPAWN CHECK; not a gameplay screenshot." width="768" height="768" loading="lazy" decoding="async">
+        <figcaption>Use the red area as a diagnostic idea: inspect every competing surface before moving villagers. The label is part of an original explanatory graphic, not an in-game interface.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">Edition check</p>
+      <h2 id="table-title">Java vs Bedrock Iron Farm Checks</h2>
+      <p>Use this table to decide what to verify. It intentionally avoids promising one universal layout or rate.</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Java vs Bedrock Iron Farm Checks">
+      <div role="row">
+        <strong>Check</strong><strong>Java focus</strong><strong>Bedrock focus</strong><strong>Safe action</strong>
+      </div>
+      
+      <div role="row">
+        <span>Village identity</span><span>Confirm the design&#39;s village and linking assumptions.</span><span>Confirm how nearby beds, villagers, and points of interest define the village center.</span><span>Test one small cell before expansion.</span>
+      </div>
+      
+      <div role="row">
+        <span>Beds and workstations</span><span>Match the tutorial&#39;s required links and work cycle.</span><span>Watch for nearby villagers or points of interest claiming the wrong block.</span><span>Remove competing blocks and observe one cycle.</span>
+      </div>
+      
+      <div role="row">
+        <span>Spawn area</span><span>Clear the surfaces the chosen Java design can reach.</span><span>Clear the wider village area the Bedrock design can use.</span><span>Mark the intended platform and inspect around it.</span>
+      </div>
+      
+      <div role="row">
+        <span>Collection</span><span>Check water direction, hoppers, and the drop zone.</span><span>Check water direction, hoppers, and the drop zone.</span><span>Send one test item through every hopper.</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp" alt="Original editorial comparison illustration of Java and Bedrock Minecraft iron farm concepts with villagers, beds, golem paths, water, and collection areas; not official gameplay footage." width="768" height="768" loading="lazy" decoding="async">
+        <figcaption>Java and Bedrock share the goal but not every village assumption. Treat this comparison as a checklist for retesting, not as a universal blueprint.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Edition boundaries</p>
+        <h2 id="activate-title">Do Not Copy a Java Iron Farm Into Bedrock Without Retesting</h2>
+        <p>Java and Bedrock can share the words villager, bed, workstation, and iron golem while still producing different farm behavior. The differences matter most around village identity, point-of-interest linking, golem spawning, and the space that counts as a valid target. That is why a design should be labeled by edition and version instead of being advertised as a universal three-villager recipe.</p><p>The comparison graphic shows two concept layouts, not official game screenshots. Use it to ask the right question: which parts of this design are structural, and which parts depend on the edition? Open the current version notes before a large build, then reproduce the smallest working test in the edition you actually play. If the test fails, keep the edition-specific page or tutorial nearby and do not repair it by adding random beds or villagers.</p><p>A rate claim also needs context. Distance from the player, simulation or render settings, nearby caves, other villages, and collection downtime can all change the observed output. Report your own one-cycle test and the version you used rather than copying a number that belongs to another release.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">Common failure modes</p>
+      <h2 id="mistakes-title">Why a Minecraft Iron Farm Is Not Working</h2>
+      <p>Change one layer at a time so the cause stays visible.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>No golem appears</h3><p>Check edition, villager links, beds, workstations, and the time needed for the normal cycle. Do not add more villagers until the current links are understood.</p></article>
+      
+      <article class="feature-card"><h3>Golem appears outside</h3><p>Inspect roofs, caves, nearby platforms, and water pockets. Mark or remove competing surfaces before rebuilding the chamber.</p></article>
+      
+      <article class="feature-card"><h3>Iron never reaches the chest</h3><p>Trace the water path, hopper orientation, and drop zone with one test item. A collection fault can hide a healthy spawn system.</p></article>
+      
+      <article class="feature-card"><h3>Rates change after expansion</h3><p>Keep the original cell unchanged and add one module at a time. Record the new beds, workstations, distance, and version before comparing output.</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">Continue learning</p>
+      <h2 id="related-title">Guides That Help With the Same Setup</h2>
+      <p>Use these pages for edition choice, villager workstations, equipment planning, and version checks around an iron farm.</p>
+    </div>
+    <div class="example-grid">
+
+      <article class="example-card"><h3>Java vs Bedrock</h3><p>Compare the edition rules before you copy a farm layout.</p><a class="text-link" href="/java-vs-bedrock/">Compare editions</a></article>
+
+      <article class="example-card"><h3>Villager trading hall</h3><p>Review workstation linking before you place villagers near a farm.</p><a class="text-link" href="/villager-trading-hall/">Review villager setup</a></article>
+
+      <article class="example-card"><h3>Minecraft enchantments</h3><p>Plan iron, tools, and books as part of a longer survival setup.</p><a class="text-link" href="/minecraft-enchantments/">Plan equipment</a></article>
+
+      <article class="example-card"><h3>Version notes</h3><p>Check release context before trusting an older farm tutorial.</p><a class="text-link" href="/versions/">Check versions</a></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">Source note</p>
+      <h2 id="sources-title">Use Release Notes for Version-Sensitive Checks</h2>
+      <p>The official Java 26.3 article is linked for release context. It does not replace an edition-specific farm test or guarantee a fixed design.</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Minecraft Java Edition 26.3</h3><p>Read the official release note, then retest the farm in the version you actually play.</p><a class="text-link" href="https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3" target="_blank" rel="noopener">Open official release note</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faq-title">Minecraft Iron Farm FAQ</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>How many villagers does a Minecraft iron farm need?</summary><p>There is no single number that works for every design and edition. Follow the chosen tutorial&#39;s assumptions, start with its smallest test cell, and confirm villager, bed, workstation, and village links before expanding.</p></details>
+      
+      <details ><summary>Can I copy a Java iron farm to Bedrock?</summary><p>Not safely without retesting. Java and Bedrock can differ in village identity, point-of-interest linking, spawn space, and timing. Treat a Java build as a reference for concepts, then use a Bedrock-specific plan and a copied world.</p></details>
+      
+      <details ><summary>Do I need a zombie for an iron farm?</summary><p>Only if the specific design uses a scare mechanic. A zombie is not a universal requirement. If you add one, make the sight line reversible and confirm that villagers still meet the edition&#39;s normal sleep and work conditions.</p></details>
+      
+      <details ><summary>Why is my iron farm spawning golems outside the platform?</summary><p>Search the full area for other valid surfaces, caves, roofs, water pockets, or nearby village structures. Remove one competing location at a time and keep the villager chamber unchanged while you test.</p></details>
+      
+      <details ><summary>How can I make an iron farm faster?</summary><p>First document one complete cycle. Then improve one variable, such as collection downtime or a competing spawn surface, and measure again. A larger build without a controlled baseline is difficult to diagnose.</p></details>
+      
+      <details ><summary>Is this an official Minecraft farm design?</summary><p>No. The diagrams on this page are original editorial illustrations. They explain the relationships to inspect; the game, edition, version, and chosen tutorial determine the blocks and counts you should use.</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/" aria-label="Verity Minecraft home">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft helps players find the right Verity download path for Java Edition, Bedrock Edition, and PE-style mobile installs without confusing mirrors.</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="Email support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="Footer navigation">
+          <div class="footer-link-group">
+            <p class="footer-link-title">Downloads</p>
+          <a href="/#downloads">Downloads</a>
+          <a href="/#install">Install</a>
+          <a href="/#versions">Versions</a>
+          <a href="/#safety">Safety</a>
+            <a href="/bedrock-addons/">Bedrock Add-ons</a>
+            <a href="/java-vs-bedrock/">Java vs Bedrock</a>
+            <a href="/bedrock-shaders/">Bedrock Shaders</a>
+            <a href="/villager-trading-hall/">Villager Trading Hall Guide</a>
+            <a href="/#faq">FAQ</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">Site</p>
+            <a href="/about/">About Us</a>
+            <a href="/contact/">Contact</a>
+            <a href="/privacy-policy/">Privacy Policy</a>
+            <a href="/terms-of-service/">Terms of Service</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Independent Verity Minecraft download guide.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+<script async="async" data-cfasync="false" src="https://pl30605215.profitableratecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+<div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+
+<script src="https://pl30483090.profitableratecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>

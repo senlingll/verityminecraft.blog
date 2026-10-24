@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Farm di ferro Minecraft: 7 passaggi per Java e Bedrock (2026)",
+    "description": "Costruisci una farm di ferro Minecraft iniziando da un test piccolo. Controlla villager, letti, area di spawn, raccolta e differenze tra edizioni.",
+    "image": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida di costruzione Minecraft",
+    "title": "Farm di ferro Minecraft: 7 passaggi sicuri per Java e Bedrock",
+    "lede": "Una farm di ferro Minecraft è più affidabile se provi prima una cella piccola. Proteggi i villager, posiziona letti e blocchi di lavoro previsti dall'edizione, delimita lo spawn e aggiungi solo dopo acqua e tramogge. Così trovi un problema di collegamento o spawn prima di modificare il mondo principale.",
+    "support": "Le meccaniche possono cambiare tra Java, Bedrock e versioni del gioco. Le immagini sono illustrazioni editoriali originali: verifica edizione e versione in un mondo copiato prima di espandere.",
+    "actions": [
+      {
+        "label": "Confronta Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Controlla le versioni",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "alt": "Illustrazione editoriale originale di una farm di ferro Minecraft con villager, letti, piattaforma del golem, acqua, tramogge e cassa; non è uno screenshot ufficiale.",
+      "caption": "La figura mostra i rapporti da testare: villager e letti sopra, spawn controllato al centro, raccolta sotto. È un'immagine originale.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Cosa serve per una farm di ferro Minecraft?",
+    "paragraphs": [
+      "Una farm affidabile richiede una configurazione di villaggio valida per la tua edizione, uno spazio sicuro dove i villager possano dormire o collegarsi ai punti di interesse, un'area di spawn del golem e una raccolta. Numeri e distanze non sono universali: Java e Bedrock usano regole diverse. Il primo obiettivo è osservare un ciclo in un mondo copiato, non inseguire subito il rendimento massimo.",
+      "Prepara blocchi, letti, blocchi di lavoro del progetto, vetro o recinzioni, acqua, cartelli o botole, tramogge e una cassa. Mantieni un trasporto sicuro per i villager. Uno zombie va usato solo nei progetti che lo richiedono; la visuale deve poter essere chiusa e sonno e lavoro devono restare possibili.",
+      "L'errore più comune è usare un progetto Java come schema Bedrock. Scrivi edizione, versione, villager, letti, blocchi di lavoro, superficie di spawn e raccolta. Cambia una variabile alla volta per mantenere il problema leggibile."
+    ],
+    "cards": [
+      {
+        "title": "Cella dei villager",
+        "text": "Tieni i villager visibili e protetti per controllare letti, blocchi e collegamenti."
+      },
+      {
+        "title": "Superficie di spawn",
+        "text": "Definisci una sola area e rimuovi i punti concorrenti."
+      },
+      {
+        "title": "Raccolta",
+        "text": "Aggiungi acqua, tramogge e cassa dopo il test di spawn."
+      },
+      {
+        "title": "Nota di versione",
+        "text": "Scrivi Java o Bedrock e la versione accanto al progetto."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Sequenza di costruzione",
+    "title": "Come fare una farm di ferro Minecraft in 7 passaggi",
+    "description": "Costruisci prima la versione minima testabile. La sequenza separa collegamenti, spawn e raccolta.",
+    "items": [
+      {
+        "title": "1. Scegli il luogo di prova",
+        "text": "Allontanati da villaggi naturali, letti e blocchi di lavoro vicini. Una piattaforma alta rende visibili gli spawn errati e lascia spazio per controllare."
+      },
+      {
+        "title": "2. Scrivi edizione e versione",
+        "text": "Indica Java o Bedrock, versione e ipotesi del tutorial. La stessa forma può comportarsi diversamente quando cambia il centro del villaggio."
+      },
+      {
+        "title": "3. Chiudi la cella",
+        "text": "Trasporta un villager alla volta e blocca le uscite. Lascia visibili volto, letto e blocco di lavoro; rimanda la sala scambi a dopo il test."
+      },
+      {
+        "title": "4. Posiziona letti e blocchi",
+        "text": "Osserva quale villager reclama ogni punto. Rimuovi i blocchi concorrenti e attendi un ciclo prima delle decorazioni."
+      },
+      {
+        "title": "5. Crea l'area di spawn",
+        "text": "Costruisci una superficie piana intenzionale. Controlla tetto, grotte, acqua e bordi per evitare che il golem nasca fuori percorso."
+      },
+      {
+        "title": "6. Aggiungi acqua e raccolta",
+        "text": "Dopo uno spawn corretto, porta l'acqua verso tramogge e cassa. Prova con un oggetto e torna allo stato precedente se la raccolta si blocca."
+      },
+      {
+        "title": "7. Verifica un ciclo",
+        "text": "Osserva collegamenti, spawn, percorso e ferro nella cassa. Registra tempo e versione prima di duplicare il modulo."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Vista di diagnosi",
+    "title": "Controlla lo spawn prima di spostare i villager",
+    "paragraphs": [
+      "Quando non arriva ferro, si spostano subito letti e villager. Controlla invece sopra, sotto e accanto alla piattaforma: una superficie diversa, una grotta, acqua o un tetto possono essere la causa. Un golem fuori percorso può indicare che la logica funziona ma la raccolta è delimitata male.",
+      "L'area rossa dell'immagine è un modello di diagnosi, non un numero universale di blocchi. Confrontala con le regole del progetto e rimuovi un punto concorrente alla volta. Non cambiare insieme la cella dei villager e la superficie.",
+      "Annota edizione e versione, collegamenti tra villager, letti e blocchi, luogo del primo spawn e arrivo dell'oggetto nella cassa. Questo registro mostra il livello guasto meglio di una foto della torre finita."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp",
+      "alt": "Illustrazione editoriale originale dall'alto di una farm di ferro Minecraft con villager, letti, acqua, golem e area SPAWN CHECK; non è gameplay.",
+      "caption": "Usa l'area rossa per cercare superfici concorrenti prima di spostare i villager.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Controllo edizione",
+    "title": "Controlli Java e Bedrock per una farm di ferro",
+    "description": "La tabella indica cosa verificare senza promettere un progetto universale.",
+    "headers": [
+      "Controllo",
+      "Java",
+      "Bedrock",
+      "Azione sicura"
+    ],
+    "rows": [
+      [
+        "Identità del villaggio",
+        "Verifica le ipotesi di collegamento del progetto.",
+        "Verifica come letti, villager e punti definiscono il centro.",
+        "Prova una cella."
+      ],
+      [
+        "Letti e blocchi",
+        "Segui collegamenti e ciclo del tutorial.",
+        "Controlla che un altro villager non reclami il blocco.",
+        "Rimuovi i concorrenti."
+      ],
+      [
+        "Area di spawn",
+        "Libera le superfici raggiunte dal progetto Java.",
+        "Controlla l'area più ampia usata da Bedrock.",
+        "Segna e ispeziona."
+      ],
+      [
+        "Raccolta",
+        "Prova acqua, tramogge e caduta.",
+        "Prova acqua, tramogge e caduta.",
+        "Invia un oggetto."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Confini tra edizioni",
+    "title": "Non copiare una farm Java in Bedrock senza rifare il test",
+    "paragraphs": [
+      "Java e Bedrock condividono villager, letti, blocchi di lavoro e golem, ma identità del villaggio, collegamenti e spazio di spawn possono cambiare. Indica sempre edizione e versione invece di promettere una ricetta universale con tre villager.",
+      "Il confronto è un'illustrazione editoriale originale, non uno screenshot ufficiale. Separa la struttura comune dalle regole dell'edizione, leggi le note di versione e ricrea la cella minima nel gioco che usi.",
+      "Anche il rendimento dipende da distanza del giocatore, simulazione, grotte, altri villaggi e pause della raccolta. Misura il tuo ciclo e scrivi la versione utilizzata."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp",
+      "alt": "Illustrazione editoriale originale che confronta concetti di farm di ferro Minecraft Java e Bedrock con villager, letti, acqua e raccolta; non è gameplay ufficiale.",
+      "caption": "L'obiettivo è lo stesso, le regole del villaggio non sempre. Usa l'immagine come lista di controllo.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Errori comuni",
+    "title": "Perché una farm di ferro Minecraft non funziona",
+    "description": "Cambia un solo livello alla volta per conservare le prove.",
+    "cards": [
+      {
+        "title": "Nessun golem",
+        "text": "Controlla edizione, collegamenti, letti, blocchi e durata del ciclo prima di aggiungere villager."
+      },
+      {
+        "title": "Golem fuori area",
+        "text": "Cerca tetti, grotte, acqua, piattaforme e strutture vicine e rimuovi un concorrente alla volta."
+      },
+      {
+        "title": "Il ferro non arriva",
+        "text": "Segui acqua, direzione delle tramogge e zona di caduta con un oggetto di prova."
+      },
+      {
+        "title": "Rendimento diverso dopo l'espansione",
+        "text": "Lascia invariata la cella, aggiungi un modulo e annota letti, blocchi, distanza e versione."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continua a leggere",
+    "title": "Guide utili per la stessa preparazione",
+    "description": "Usa queste pagine per edizione, villager, equipaggiamento e versioni.",
+    "links": [
+      {
+        "title": "Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Confronta l'edizione prima di copiare il progetto.",
+        "cta": "Confronta"
+      },
+      {
+        "title": "Sala scambi",
+        "url": "/villager-trading-hall/",
+        "text": "Controlla i blocchi prima di avvicinare i villager.",
+        "cta": "Controlla villager"
+      },
+      {
+        "title": "Incantesimi Minecraft",
+        "url": "/minecraft-enchantments/",
+        "text": "Pianifica ferro, strumenti e libri per la sopravvivenza.",
+        "cta": "Pianifica equipaggiamento"
+      },
+      {
+        "title": "Note di versione",
+        "url": "/versions/",
+        "text": "Verifica la versione prima di un tutorial vecchio.",
+        "cta": "Vedi versioni"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Nota della fonte",
+    "title": "Usa le note di versione per i controlli sensibili",
+    "description": "L'articolo ufficiale Java 26.3 dà contesto alla versione, ma non sostituisce il test per edizione.",
+    "links": [
+      {
+        "title": "Note ufficiali di Minecraft Java Edition 26.3",
+        "text": "Leggi la nota ufficiale e riprova nella versione che usi.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Apri la nota ufficiale",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ della farm di ferro Minecraft",
+    "items": [
+      {
+        "question": "Quanti villager servono?",
+        "answer": "Dipende da progetto ed edizione. Prova la cella minima del tutorial e conferma collegamenti, letti e blocchi prima di espandere."
+      },
+      {
+        "question": "Posso copiare una farm Java in Bedrock?",
+        "answer": "Non senza un nuovo test. Centro del villaggio, punti e spawn possono cambiare. Usa un progetto Bedrock in un mondo copiato."
+      },
+      {
+        "question": "Serve uno zombie?",
+        "answer": "Solo se lo prevede il progetto. Non è una regola generale; sonno e lavoro devono restare possibili."
+      },
+      {
+        "question": "Perché il golem appare fuori?",
+        "answer": "Controlla superfici, grotte, tetti, acqua e villaggi vicini. Rimuovi un punto concorrente alla volta."
+      },
+      {
+        "question": "Come aumento il rendimento?",
+        "answer": "Misura un ciclo, migliora una variabile e misura di nuovo. Un grande progetto senza riferimento è difficile da correggere."
+      },
+      {
+        "question": "Le immagini sono ufficiali?",
+        "answer": "No. Sono illustrazioni editoriali originali; blocchi e numeri dipendono da edizione, versione e progetto scelto."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Farm di ferro Minecraft: 7 passaggi per Java e Bedrock (2026)",
+      "description": "Costruisci una farm di ferro Minecraft iniziando da un test piccolo. Controlla villager, letti, area di spawn, raccolta e differenze tra edizioni.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://verityminecraft.blog/it/minecraft-iron-farm/"
+      }
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanti villager servono?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dipende da progetto ed edizione. Prova la cella minima del tutorial e conferma collegamenti, letti e blocchi prima di espandere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso copiare una farm Java in Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non senza un nuovo test. Centro del villaggio, punti e spawn possono cambiare. Usa un progetto Bedrock in un mondo copiato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Serve uno zombie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solo se lo prevede il progetto. Non è una regola generale; sonno e lavoro devono restare possibili."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Perché il golem appare fuori?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Controlla superfici, grotte, tetti, acqua e villaggi vicini. Rimuovi un punto concorrente alla volta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come aumento il rendimento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misura un ciclo, migliora una variabile e misura di nuovo. Un grande progetto senza riferimento è difficile da correggere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le immagini sono ufficiali?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sono illustrazioni editoriali originali; blocchi e numeri dipendono da edizione, versione e progetto scelto."
+          }
+        }
+      ]
+    }
+  }
+}

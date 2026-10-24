@@ -235,6 +235,12 @@
         "text": "Wähle und teste eine Welt mit Platz nahe einem Dorf, bevor du deine Hauptbasis festlegst.",
         "url": "/minecraft-seeds/",
         "cta": "Seed-Prüfung ansehen"
+      },
+      {
+        "title": "Minecraft Eisenfarm",
+        "text": "Plane eine testbare Eisenversorgung neben deiner Dorfbewohner-Anlage.",
+        "url": "/minecraft-iron-farm/",
+        "cta": "Eisenfarm lesen"
       }
     ]
   },

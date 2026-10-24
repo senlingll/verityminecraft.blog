@@ -235,6 +235,12 @@
         "text": "Choose and test a world with space near a village before committing your main survival base.",
         "url": "/minecraft-seeds/",
         "cta": "Explore seed checks"
+      },
+      {
+        "title": "Minecraft iron farm",
+        "text": "Plan a test-first iron supply beside your villager setup.",
+        "url": "/minecraft-iron-farm/",
+        "cta": "Read iron farm guide"
       }
     ]
   },

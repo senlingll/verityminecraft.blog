@@ -199,6 +199,12 @@
         "text": "Plan workstation linking and trade checks before building a Librarian route for targeted books.",
         "url": "/villager-trading-hall/",
         "cta": "Review villager setup"
+      },
+      {
+        "title": "Minecraft iron farm",
+        "text": "Plan a test-first iron supply beside your villager setup.",
+        "url": "/minecraft-iron-farm/",
+        "cta": "Read iron farm guide"
       }
     ]
   },

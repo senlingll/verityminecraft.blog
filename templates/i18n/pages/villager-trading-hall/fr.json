@@ -235,6 +235,12 @@
         "text": "Choisissez et testez un monde avec de la place près d'un village avant d'installer votre base principale.",
         "url": "/minecraft-seeds/",
         "cta": "Voir les vérifications de graine"
+      },
+      {
+        "title": "Ferme à fer Minecraft",
+        "text": "Testez une réserve de fer à côté de votre installation de villageois.",
+        "url": "/minecraft-iron-farm/",
+        "cta": "Lire le guide du fer"
       }
     ]
   },

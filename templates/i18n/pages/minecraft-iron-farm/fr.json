@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Ferme à fer Minecraft : 7 étapes Java et Bedrock (2026)",
+    "description": "Construisez une ferme à fer Minecraft avec un petit test. Vérifiez villageois, lits, zone de spawn, collecte et différences Java/Bedrock.",
+    "image": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guide de construction Minecraft",
+    "title": "Ferme à fer Minecraft : 7 étapes sûres pour Java et Bedrock",
+    "lede": "Une ferme à fer Minecraft est plus fiable quand on teste d'abord une petite cellule. Protégez les villageois, placez les lits et postes de travail attendus par l'édition, créez une zone de spawn contrôlée, puis ajoutez l'eau et les entonnoirs. Vous pourrez repérer un mauvais lien ou un mauvais spawn avant de modifier votre monde principal.",
+    "support": "Les règles peuvent changer entre Java, Bedrock et les versions du jeu. Les schémas sont des illustrations originales : vérifiez toujours l'édition et la version dans un monde copié avant d'agrandir la ferme.",
+    "actions": [
+      {
+        "label": "Comparer Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Voir les versions",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "alt": "Illustration éditoriale originale d'une ferme à fer Minecraft avec villageois, lits, plateforme de golem, eau, entonnoirs et coffre ; ce n'est pas une capture officielle.",
+      "caption": "Le schéma montre les relations à tester : villageois et lits en haut, zone de spawn contrôlée au centre, collecte en bas. C'est une illustration originale.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "De quoi une ferme à fer Minecraft a-t-elle besoin ?",
+    "paragraphs": [
+      "Une ferme à fer fiable demande une configuration de village valide pour votre édition, un espace sûr où les villageois peuvent dormir ou se lier à leurs points d'intérêt, une zone de spawn du golem et une collecte. Les nombres et les distances ne sont pas universels : Java et Bedrock appliquent des règles différentes. Commencez par observer un cycle dans un monde copié, plutôt que de viser tout de suite le meilleur rendement.",
+      "Préparez des blocs, des lits, les postes de travail du design, du verre ou des barrières, des seaux d'eau, des panneaux ou trappes, des entonnoirs et un coffre. Gardez une méthode de transport sûre pour les villageois. Un zombie n'est nécessaire que dans les designs qui l'utilisent ; s'il est présent, sa ligne de vue doit pouvoir être coupée et les villageois doivent encore dormir et travailler normalement.",
+      "L'erreur classique consiste à copier une ferme Java dans Bedrock. Notez l'édition, la version, le nombre de villageois, les lits, les postes, la surface de spawn et la collecte avant de commencer. Modifiez une seule variable à la fois pour garder un diagnostic lisible."
+    ],
+    "cards": [
+      {
+        "title": "Cellule de villageois",
+        "text": "Gardez les villageois visibles et protégés pour vérifier lits, postes et liens."
+      },
+      {
+        "title": "Surface de spawn",
+        "text": "Réservez une seule zone et retirez les surfaces concurrentes."
+      },
+      {
+        "title": "Collecte",
+        "text": "Ajoutez eau, entonnoirs et coffre après le test de spawn."
+      },
+      {
+        "title": "Note de version",
+        "text": "Écrivez Java ou Bedrock et la version près du plan."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Séquence de construction",
+    "title": "Comment construire une ferme à fer Minecraft en 7 étapes",
+    "description": "Construisez d'abord la plus petite version testable. La séquence sépare liens, spawn et collecte.",
+    "items": [
+      {
+        "title": "1. Choisir un site de test",
+        "text": "Éloignez-vous des villages naturels, lits et postes voisins. Un emplacement surélevé permet de voir les spawns inattendus et de laisser un passage d'inspection."
+      },
+      {
+        "title": "2. Écrire l'édition et la version",
+        "text": "Notez Java ou Bedrock, la version et les hypothèses du tutoriel. Le même dessin peut avoir un autre résultat si le centre du village change."
+      },
+      {
+        "title": "3. Fermer la cellule",
+        "text": "Transportez un villageois à la fois et bloquez les sorties. Laissez visibles son visage, son lit et son poste. Ne mélangez pas la salle de commerce pendant le test."
+      },
+      {
+        "title": "4. Placer lits et postes",
+        "text": "Posez les points d'intérêt puis observez qui les revendique. Retirez les blocs concurrents et attendez un cycle avant les décorations."
+      },
+      {
+        "title": "5. Créer une zone de spawn",
+        "text": "Construisez une plateforme plate et volontaire. Vérifiez toit, grottes, eau et bords afin qu'un golem ne naisse pas hors du trajet."
+      },
+      {
+        "title": "6. Ajouter eau et collecte",
+        "text": "Quand un golem apparaît au bon endroit, guidez l'eau vers entonnoirs et coffre. Testez avec un objet puis revenez à l'état précédent si la collecte bloque."
+      },
+      {
+        "title": "7. Valider un cycle",
+        "text": "Observez les liens, le spawn, le déplacement et l'arrivée du fer dans le coffre. Notez le temps et la version avant toute extension."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Vue de dépannage",
+    "title": "Vérifiez la zone de spawn avant de déplacer les villageois",
+    "paragraphs": [
+      "Quand le fer manque, on déplace souvent lits et villageois trop tôt. Inspectez d'abord au-dessus, dessous et autour de la plateforme : une autre surface, une grotte, une poche d'eau ou un toit peut être la vraie cause. Un golem hors du trajet indique parfois que le village fonctionne mais que la collecte est mal délimitée.",
+      "La zone rouge du schéma est une idée de diagnostic, pas un nombre universel de blocs. Comparez-la aux règles de votre design et retirez une surface concurrente à la fois. Ne changez pas simultanément la cellule, les lits, le spawn et les entonnoirs.",
+      "Consignez édition et version, liens villageois-lits-postes, emplacement du premier golem et arrivée ou non d'un objet dans le coffre. Ce journal indique quelle couche échoue mieux qu'une image de la tour terminée."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp",
+      "alt": "Illustration éditoriale originale vue du dessus d'une ferme à fer Minecraft avec villageois, lits, eau, golem et zone de spawn marquée SPAWN CHECK ; pas une capture de jeu.",
+      "caption": "La zone rouge aide à inspecter les surfaces concurrentes avant de déplacer les villageois.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Contrôle d'édition",
+    "title": "Contrôles Java et Bedrock pour une ferme à fer",
+    "description": "Le tableau indique quoi vérifier sans promettre un plan ou un rendement universel.",
+    "headers": [
+      "Contrôle",
+      "Java",
+      "Bedrock",
+      "Action sûre"
+    ],
+    "rows": [
+      [
+        "Identité du village",
+        "Vérifier les hypothèses de liaison du design.",
+        "Vérifier comment lits, villageois et points d'intérêt fixent le centre.",
+        "Tester une cellule."
+      ],
+      [
+        "Lits et postes",
+        "Suivre les liens et le cycle du tutoriel.",
+        "Surveiller les revendications par un autre villageois.",
+        "Retirer les concurrents."
+      ],
+      [
+        "Zone de spawn",
+        "Libérer les surfaces atteignables par le design Java.",
+        "Libérer la zone plus large utilisée par le village Bedrock.",
+        "Marquer puis inspecter."
+      ],
+      [
+        "Collecte",
+        "Tester eau, entonnoirs et chute.",
+        "Tester eau, entonnoirs et chute.",
+        "Faire passer un objet."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Limites d'édition",
+    "title": "Ne copiez pas une ferme Java dans Bedrock sans la retester",
+    "paragraphs": [
+      "Java et Bedrock parlent tous deux de villageois, lits, postes et golems, mais l'identité du village, les liens et l'espace de spawn peuvent différer. Étiquetez donc chaque plan par édition et version au lieu de promettre une recette universelle.",
+      "L'image comparative est une illustration originale, pas une capture officielle. Séparez les éléments structurels des éléments dépendant de l'édition, consultez les notes de version et reproduisez la plus petite cellule dans le jeu que vous utilisez.",
+      "Le rendement dépend aussi de la distance du joueur, de la simulation, des grottes, des autres villages et des arrêts de collecte. Mesurez votre propre cycle et indiquez la version utilisée."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp",
+      "alt": "Illustration éditoriale originale comparant des concepts de fermes à fer Minecraft Java et Bedrock ; villageois, lits, eau et collecte ; pas de gameplay officiel.",
+      "caption": "Le but est commun, les hypothèses de village ne le sont pas toujours. Utilisez l'image comme liste de contrôle.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Erreurs courantes",
+    "title": "Pourquoi une ferme à fer Minecraft ne fonctionne pas",
+    "description": "Ne changez qu'une couche à la fois pour garder les preuves.",
+    "cards": [
+      {
+        "title": "Aucun golem",
+        "text": "Revérifiez édition, liens, lits, postes et durée du cycle avant d'ajouter des villageois."
+      },
+      {
+        "title": "Golem hors zone",
+        "text": "Cherchez toit, grotte, eau, plateforme ou structure voisine et retirez un concurrent à la fois."
+      },
+      {
+        "title": "Fer absent du coffre",
+        "text": "Suivez l'eau, l'orientation des entonnoirs et la chute avec un seul objet."
+      },
+      {
+        "title": "Rendement différent après extension",
+        "text": "Conservez la cellule originale, ajoutez un module et notez lits, postes, distance et version."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "À lire ensuite",
+    "title": "Guides utiles pour la même préparation",
+    "description": "Ces pages aident à choisir l'édition, organiser les villageois, préparer l'équipement et vérifier la version.",
+    "links": [
+      {
+        "title": "Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Comparez les règles avant de copier un plan.",
+        "cta": "Comparer"
+      },
+      {
+        "title": "Salle de commerce",
+        "url": "/villager-trading-hall/",
+        "text": "Vérifiez les postes avant d'approcher les villageois.",
+        "cta": "Voir les villageois"
+      },
+      {
+        "title": "Enchantements Minecraft",
+        "url": "/minecraft-enchantments/",
+        "text": "Planifiez fer, outils et livres pour la survie.",
+        "cta": "Préparer l'équipement"
+      },
+      {
+        "title": "Notes de version",
+        "url": "/versions/",
+        "text": "Contrôlez la version avant un ancien tutoriel.",
+        "cta": "Voir les versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Note de source",
+    "title": "Utilisez les notes de version pour les contrôles sensibles",
+    "description": "L'article officiel Java 26.3 donne le contexte de version ; il ne remplace pas un test par édition.",
+    "links": [
+      {
+        "title": "Notes officielles de Minecraft Java Edition 26.3",
+        "text": "Lisez la note officielle puis retestez dans votre version.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Ouvrir la note officielle",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ de la ferme à fer Minecraft",
+    "items": [
+      {
+        "question": "Combien de villageois faut-il ?",
+        "answer": "Le nombre dépend du design et de l'édition. Testez la cellule minimale du tutoriel et confirmez liens, lits et postes avant d'agrandir."
+      },
+      {
+        "question": "Puis-je copier une ferme Java dans Bedrock ?",
+        "answer": "Pas sans retest. Le centre du village, les points d'intérêt et le spawn peuvent se comporter autrement. Utilisez un plan Bedrock dans un monde copié."
+      },
+      {
+        "question": "Un zombie est-il obligatoire ?",
+        "answer": "Seulement si le design le demande. Ce n'est pas une règle générale ; assurez-vous que sommeil et travail restent possibles."
+      },
+      {
+        "question": "Pourquoi le golem apparaît-il dehors ?",
+        "answer": "Inspectez surfaces, grottes, toits, eau et villages voisins. Retirez une zone concurrente à la fois."
+      },
+      {
+        "question": "Comment augmenter le rendement ?",
+        "answer": "Mesurez un cycle, améliorez une variable, puis mesurez encore. Une grande construction sans référence est difficile à corriger."
+      },
+      {
+        "question": "Les images sont-elles officielles ?",
+        "answer": "Non. Ce sont des illustrations éditoriales originales qui indiquent quoi inspecter ; les blocs et nombres dépendent de l'édition et de la version."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Ferme à fer Minecraft : 7 étapes Java et Bedrock (2026)",
+      "description": "Construisez une ferme à fer Minecraft avec un petit test. Vérifiez villageois, lits, zone de spawn, collecte et différences Java/Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://verityminecraft.blog/fr/minecraft-iron-farm/"
+      }
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien de villageois faut-il ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le nombre dépend du design et de l'édition. Testez la cellule minimale du tutoriel et confirmez liens, lits et postes avant d'agrandir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puis-je copier une ferme Java dans Bedrock ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pas sans retest. Le centre du village, les points d'intérêt et le spawn peuvent se comporter autrement. Utilisez un plan Bedrock dans un monde copié."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un zombie est-il obligatoire ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seulement si le design le demande. Ce n'est pas une règle générale ; assurez-vous que sommeil et travail restent possibles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi le golem apparaît-il dehors ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inspectez surfaces, grottes, toits, eau et villages voisins. Retirez une zone concurrente à la fois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment augmenter le rendement ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesurez un cycle, améliorez une variable, puis mesurez encore. Une grande construction sans référence est difficile à corriger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les images sont-elles officielles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Ce sont des illustrations éditoriales originales qui indiquent quoi inspecter ; les blocs et nombres dépendent de l'édition et de la version."
+          }
+        }
+      ]
+    }
+  }
+}

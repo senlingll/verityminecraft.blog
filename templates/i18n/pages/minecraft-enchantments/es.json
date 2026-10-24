@@ -199,6 +199,12 @@
         "text": "Revisa estaciones y bibliotecarios antes de construir una ruta para libros concretos.",
         "url": "/villager-trading-hall/",
         "cta": "Revisar aldeanos"
+      },
+      {
+        "title": "Granja de hierro",
+        "text": "Planifica una reserva de hierro con una prueba junto a tus aldeanos.",
+        "url": "/minecraft-iron-farm/",
+        "cta": "Leer guía de hierro"
       }
     ]
   },

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マイクラ鉄トラップの作り方：Java版・統合版7ステップ（2026）</title>
+  <meta name="description"
+    content="マイクラ鉄トラップを小さく検証する作り方。村人、ベッド、湧き層、回収、Java版と統合版の違い、失敗時の確認を解説します。">
+  
+  <meta name="robots" content="index, follow">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;650;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link href="/static/css/site.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/static/images/img2grid/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/img2grid/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/img2grid/favicon-16x16.png">
+  
+  <link rel="canonical" href="https://verityminecraft.blog/ja/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="x-default" href="https://verityminecraft.blog/minecraft-iron-farm/">
+  
+  
+  
+  
+  
+  <link rel="alternate" hreflang="de" href="https://verityminecraft.blog/de/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="https://verityminecraft.blog/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="es" href="https://verityminecraft.blog/es/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="fr" href="https://verityminecraft.blog/fr/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="it" href="https://verityminecraft.blog/it/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="ja" href="https://verityminecraft.blog/ja/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="ko" href="https://verityminecraft.blog/ko/minecraft-iron-farm/">
+  
+  
+  
+  <link rel="alternate" hreflang="pt" href="https://verityminecraft.blog/pt/minecraft-iron-farm/">
+  
+  
+  
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="マイクラ鉄トラップの作り方：Java版・統合版7ステップ（2026）">
+  <meta property="og:description" content="マイクラ鉄トラップを小さく検証する作り方。村人、ベッド、湧き層、回収、Java版と統合版の違い、失敗時の確認を解説します。">
+  <meta property="og:url" content="https://verityminecraft.blog/ja/minecraft-iron-farm/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Verity Minecraft">
+  
+    <meta property="og:image" content="https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="マイクラ鉄トラップの作り方：Java版・統合版7ステップ（2026）">
+  <meta name="twitter:description" content="マイクラ鉄トラップを小さく検証する作り方。村人、ベッド、湧き層、回収、Java版と統合版の違い、失敗時の確認を解説します。">
+    <meta name="twitter:image" content="https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp">
+  
+  
+  
+  
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "description": "Verity Minecraft \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3092 Java\u3001Bedrock\u3001PE \u5411\u3051\u306b\u6574\u7406\u3057\u3001\u30bd\u30fc\u30b9\u3001\u30d0\u30fc\u30b8\u30e7\u30f3\u3001\u5c0e\u5165\u624b\u9806\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002", "name": "Verity Minecraft", "url": "https://verityminecraft.blog/"}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Organization", "name": "Verity Minecraft"}, "dateModified": "2026-10-25", "datePublished": "2026-10-25", "description": "\u30de\u30a4\u30af\u30e9\u306e\u9244\u30c8\u30e9\u30c3\u30d7\u3092\u5c0f\u3055\u304f\u691c\u8a3c\u3059\u308b\u4f5c\u308a\u65b9\u3002\u6751\u4eba\u3001\u30d9\u30c3\u30c9\u3001\u6e67\u304d\u5c64\u3001\u56de\u53ce\u3001Java\u7248\u3068\u7d71\u5408\u7248\u306e\u9055\u3044\u3001\u5931\u6557\u6642\u306e\u78ba\u8a8d\u3092\u89e3\u8aac\u3057\u307e\u3059\u3002", "headline": "\u30de\u30a4\u30af\u30e9\u9244\u30c8\u30e9\u30c3\u30d7\u306e\u4f5c\u308a\u65b9\uff1aJava\u7248\u30fb\u7d71\u5408\u72487\u30b9\u30c6\u30c3\u30d7\uff082026\uff09", "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp", "mainEntityOfPage": {"@id": "https://verityminecraft.blog/ja/minecraft-iron-farm/", "@type": "WebPage"}}
+</script>
+<script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u8a2d\u8a08\u3068\u30a8\u30c7\u30a3\u30b7\u30e7\u30f3\u3067\u7570\u306a\u308a\u307e\u3059\u3002\u53c2\u8003\u8a2d\u8a08\u306e\u6700\u5c0f\u69cb\u6210\u3092\u30b3\u30d4\u30fc\u3057\u305f\u30ef\u30fc\u30eb\u30c9\u3067\u8a66\u3057\u3001\u6751\u4eba\u3001\u30d9\u30c3\u30c9\u3001\u8077\u696d\u30d6\u30ed\u30c3\u30af\u306e\u7d10\u3065\u304d\u3092\u78ba\u8a8d\u3057\u3066\u304b\u3089\u5897\u3084\u3057\u307e\u3059\u3002"}, "name": "\u9244\u30c8\u30e9\u30c3\u30d7\u306b\u6751\u4eba\u306f\u4f55\u4eba\u5fc5\u8981\u3067\u3059\u304b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u518d\u691c\u8a3c\u306a\u3057\u306b\u306f\u4f7f\u3048\u307e\u305b\u3093\u3002\u6751\u306e\u4e2d\u5fc3\u3001\u30dd\u30a4\u30f3\u30c8\u306e\u7d10\u3065\u304d\u3001\u6e67\u304d\u7bc4\u56f2\u304c\u5909\u308f\u308b\u5834\u5408\u304c\u3042\u308a\u307e\u3059\u3002\u7d71\u5408\u7248\u5411\u3051\u8a2d\u8a08\u3067\u5c0f\u3055\u304f\u8a66\u3057\u307e\u3059\u3002"}, "name": "Java\u7248\u306e\u9244\u30c8\u30e9\u30c3\u30d7\u3092\u7d71\u5408\u7248\u3067\u4f7f\u3048\u307e\u3059\u304b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u305d\u306e\u8a2d\u8a08\u304c\u4f7f\u3046\u5834\u5408\u3060\u3051\u3067\u3059\u3002\u5fc5\u9808\u6761\u4ef6\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u4f7f\u3046\u306a\u3089\u8996\u7dda\u3092\u906e\u308c\u308b\u3088\u3046\u306b\u3057\u3001\u6751\u4eba\u304c\u7761\u7720\u3068\u4ed5\u4e8b\u3092\u3067\u304d\u308b\u304b\u78ba\u8a8d\u3057\u307e\u3059\u3002"}, "name": "\u30be\u30f3\u30d3\u306f\u5fc5\u9808\u3067\u3059\u304b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u5225\u306e\u8db3\u5834\u3001\u6d1e\u7a9f\u3001\u5c4b\u6839\u3001\u6c34\u3001\u8fd1\u304f\u306e\u6751\u3092\u63a2\u3057\u307e\u3059\u3002\u6751\u4eba\u90e8\u5c4b\u3092\u5909\u3048\u305a\u3001\u7af6\u5408\u30921\u3064\u305a\u3064\u5916\u3057\u307e\u3059\u3002"}, "name": "\u306a\u305c\u6e67\u304d\u5c64\u306e\u5916\u306b\u51fa\u307e\u3059\u304b\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u307e\u305a1\u30b5\u30a4\u30af\u30eb\u3092\u8a18\u9332\u3057\u3001\u7af6\u5408\u3059\u308b\u6e67\u304d\u5834\u6240\u3084\u56de\u53ce\u505c\u6b62\u306a\u30691\u9805\u76ee\u3060\u3051\u6539\u5584\u3057\u3066\u6e2c\u308a\u76f4\u3057\u307e\u3059\u3002"}, "name": "\u52b9\u7387\u3092\u4e0a\u3052\u308b\u306b\u306f\uff1f"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "\u3044\u3044\u3048\u3002\u753b\u50cf\u306f\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u89e3\u8aac\u56f3\u3067\u3059\u3002\u5177\u4f53\u7684\u306a\u30d6\u30ed\u30c3\u30af\u6570\u306f\u30b2\u30fc\u30e0\u3001\u30a8\u30c7\u30a3\u30b7\u30e7\u30f3\u3001\u30d0\u30fc\u30b8\u30e7\u30f3\u3001\u63a1\u7528\u3059\u308b\u8a2d\u8a08\u306b\u5408\u308f\u305b\u3066\u304f\u3060\u3055\u3044\u3002"}, "name": "\u516c\u5f0f\u306e\u8a2d\u8a08\u3067\u3059\u304b\uff1f"}]}
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqf8czio0d");
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT8473SMLS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-BT8473SMLS");
+  </script>
+</head>
+
+<body class="img2grid-page download-site-page guide-page article-guide-page">
+  
+  
+  <header class="site-header">
+    <a class="brand" href="/ja/" aria-label="Verity Minecraft ホーム">
+      <img class="brand-mark" src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" fetchpriority="high" decoding="async">
+      <span class="brand-text">Verity<span>Minecraft</span></span>
+    </a>
+    <nav class="nav-links" aria-label="ダウンロード">
+      <a href="/ja/#downloads">ダウンロード</a>
+      <a href="/ja/#install">インストール</a>
+      <a href="/ja/#versions">バージョン</a>
+      <a href="/ja/#safety">安全確認</a>
+      <a href="/ja/#faq">よくある質問</a>
+    </nav>
+    <div class="header-actions">
+      
+      <details class="language-menu">
+        <summary aria-label="日本語">日本語</summary>
+        <div class="language-options">
+          
+          <a href="/minecraft-iron-farm/">English</a>
+          
+          <a href="/es/minecraft-iron-farm/">Español</a>
+          
+          <a href="/fr/minecraft-iron-farm/">Français</a>
+          
+          <a href="/de/minecraft-iron-farm/">Deutsch</a>
+          
+          <a href="/pt/minecraft-iron-farm/">Português</a>
+          
+          <a href="/ko/minecraft-iron-farm/">한국어</a>
+          
+          <a href="/it/minecraft-iron-farm/">Italiano</a>
+          
+        </div>
+      </details>
+      
+      <a class="btn btn-primary btn-small header-cta" href="/ja/#downloads">
+        <span class="upload-icon" aria-hidden="true"></span>
+        ダウンロード
+      </a>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+<article class="page-shell verity-shell article-shell" id="top">
+  <header class="article-hero section-band" aria-labelledby="article-title">
+    <div class="article-hero-copy">
+      <p class="eyebrow">マインクラフト建築ガイド</p>
+      <h1 id="article-title">マイクラ鉄トラップ：Java版・統合版で安全に試す7ステップ</h1>
+      <p class="hero-lede">マイクラの鉄トラップは、いきなり大きな塔を作らず、小さな区画で動作を確認すると安定します。村人を守る部屋、エディションに合ったベッドと職業ブロック、管理しやすい湧き層、水流とホッパーの回収ラインを順番に確認しましょう。メインワールドを壊す前に、リンクや湧き場所の問題を見つけられます。</p>
+      <p class="hero-support">Java版、統合版、ゲームバージョンによって仕様は変わります。図は考え方を示すオリジナル解説図なので、拡張前にコピーしたワールドで現在の仕様を確認してください。</p>
+      <div class="hero-actions">
+        
+        <a class="btn btn-primary" href="/ja/java-vs-bedrock/">Java版と統合版を比較</a>
+        
+        <a class="btn btn-secondary" href="/ja/versions/">バージョンを確認</a>
+        
+      </div>
+    </div>
+    <figure class="article-feature-figure">
+      <img src="/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp" alt="村人、ベッド、アイアンゴーレムの湧き層、水流、ホッパー、チェストを描いたマイクラ鉄トラップのオリジナル解説図。公式ゲーム画面ではありません。" width="768" height="768" fetchpriority="high" decoding="async">
+      <figcaption>上に村人とベッド、中央に管理した湧き場所、下に回収を配置した関係図です。実際のプレイ画面ではなく、記事用のオリジナル図です。</figcaption>
+    </figure>
+  </header>
+
+  <section class="section-pad article-answer" aria-labelledby="answer-title">
+    <div class="section-heading">
+      <p class="eyebrow">先に結論</p>
+      <h2 id="answer-title">マイクラの鉄トラップに必要なもの</h2>
+      <p>安定した鉄トラップには、エディションに合った村の判定、村人が安全にベッドや職業ブロックへ紐づく場所、アイアンゴーレムの湧き場所、そして回収設備が必要です。人数や距離に万能な答えはありません。Java版と統合版で村の扱いが異なり、アップデートで古い設計が変わることもあります。まずはコピーしたワールドで1回の動作を確認しましょう。</p><p>建築ブロック、ベッド、設計で指定された職業ブロック、村人を見られるガラスや柵、水バケツ、看板やトラップドア、ホッパー、チェストを用意します。村人を安全に移動する手段も残しておきます。ゾンビを使う設計は選択肢であり必須条件ではありません。使う場合は視線を遮れるようにし、睡眠と仕事の条件を確認します。</p><p>Java版の人気設計を統合版へそのまま移すのが典型的な失敗です。作る前にエディション、バージョン、村人の数、ベッド、職業ブロック、湧き層、回収方法を書き出し、一度に1つだけ変えてください。これで原因を追える装置になります。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>村人の区画</h3><p>村人、ベッド、職業ブロックの紐づきを見える状態で確認します。</p></article>
+      
+      <article class="feature-card"><h3>湧き層</h3><p>ゴーレムが湧く場所を1つにし、周囲の別の足場をなくします。</p></article>
+      
+      <article class="feature-card"><h3>回収ライン</h3><p>湧きを確認してから水流、ホッパー、チェストを追加します。</p></article>
+      
+      <article class="feature-card"><h3>バージョン記録</h3><p>設計の横にJava版・統合版とバージョンを書き残します。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="steps-title">
+    <div class="section-heading">
+      <p class="eyebrow">建築手順</p>
+      <h2 id="steps-title">マイクラ鉄トラップの作り方：7ステップ</h2>
+      <p>最初は検証できる最小構成にします。村の紐づき、湧き、回収を分けて確認する順番です。</p>
+    </div>
+    <div class="steps article-steps">
+      
+      <article class="step-card"><span class="step-number">1</span><h3>1. 検証場所を選ぶ</h3><p>自然生成の村、余分なベッド、近くの職業ブロックから離れます。高い場所なら意図しない湧きを見つけやすく、周囲に点検用の通路も作れます。</p></article>
+      
+      <article class="step-card"><span class="step-number">2</span><h3>2. エディションとバージョンを書く</h3><p>Java版か統合版か、ゲームバージョン、参考にする設計の前提をメモします。村の中心や紐づきが違うため、形だけをコピーしないでください。</p></article>
+      
+      <article class="step-card"><span class="step-number">3</span><h3>3. 村人の部屋を閉じる</h3><p>村人は1人ずつ運び、逃げ道を塞ぎます。顔、ベッド、職業ブロックが見える広さにし、動作確認までは交易所と混ぜません。</p></article>
+      
+      <article class="step-card"><span class="step-number">4</span><h3>4. ベッドと職業ブロックを置く</h3><p>設計で指定されたポイントを置き、どの村人が何を獲得したかを観察します。競合するブロックを外し、装飾を足す前に通常のサイクルを待ちます。</p></article>
+      
+      <article class="step-card"><span class="step-number">5</span><h3>5. 湧き場所を1つ作る</h3><p>平らで意図した湧き層を作ります。屋根、洞窟、水、端を調べ、回収経路の外に湧く場所を残しません。</p></article>
+      
+      <article class="step-card"><span class="step-number">6</span><h3>6. 水流と回収を追加する</h3><p>狙った場所にゴーレムが湧いた後、水をホッパーとチェストへ流します。アイテム1個でホッパーの向きを確認し、止まったら水を外して直前の状態に戻します。</p></article>
+      
+      <article class="step-card"><span class="step-number">7</span><h3>7. 1サイクルを確認する</h3><p>村人の紐づき、湧き、移動、チェストへの鉄を観察し、時間とバージョンを記録します。拡張はその後です。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="check-title">
+    <div class="difference-panel article-media-panel">
+      <div>
+        <p class="eyebrow">トラブル確認</p>
+        <h2 id="check-title">村人を動かす前に湧き場所を確認する</h2>
+        <p>鉄が出ないとき、先にベッドや村人を動かしがちです。まず湧き層の上下左右を見て、別の足場、洞窟、水たまり、屋根がないか確認します。外にゴーレムが出るなら村の判定は動いており、回収範囲が原因かもしれません。</p><p>図の赤い範囲は診断の考え方を示すもので、万能なブロック数ではありません。設計とエディションの条件に照らし、競合する場所を1つずつ取り除きます。村人部屋を同時に変更しないことが重要です。</p><p>エディションとバージョン、村人とベッドや職業ブロックの組み合わせ、最初の湧き場所、チェストに届いたかの4点をメモします。完成写真より、どの層が失敗したかが分かります。</p>
+      </div>
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp" alt="3人の村人、ベッド、水流、アイアンゴーレム、赤い湧き範囲を描いたマイクラ鉄トラップのオリジナル俯瞰図。ゲーム画面ではありません。" width="768" height="768" loading="lazy" decoding="async">
+        <figcaption>赤い範囲は診断用の考え方です。村人を動かす前に周囲の別の足場を確認します。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="table-title">
+    <div class="section-heading">
+      <p class="eyebrow">エディション確認</p>
+      <h2 id="table-title">Java版と統合版の鉄トラップ確認表</h2>
+      <p>万能な設計や効率を約束せず、先に確認すべき点を整理します。</p>
+    </div>
+    <div class="compare-table verity-table" role="table" aria-label="Java版と統合版の鉄トラップ確認表">
+      <div role="row">
+        <strong>確認点</strong><strong>Java版</strong><strong>統合版</strong><strong>安全な行動</strong>
+      </div>
+      
+      <div role="row">
+        <span>村の判定</span><span>設計が前提にする紐づきを確認する。</span><span>ベッド、村人、ポイントが中心をどう決めるか確認する。</span><span>小さな区画で試す。</span>
+      </div>
+      
+      <div role="row">
+        <span>ベッドと職業</span><span>参考設計のリンクと仕事の周期に合わせる。</span><span>別の村人がブロックを獲得しないか見る。</span><span>競合を外して観察する。</span>
+      </div>
+      
+      <div role="row">
+        <span>湧き場所</span><span>Java設計が届く足場を空ける。</span><span>統合版の村が使える周囲を広く空ける。</span><span>意図した層を印して調べる。</span>
+      </div>
+      
+      <div role="row">
+        <span>回収</span><span>水、ホッパー、落下先を確認する。</span><span>水、ホッパー、落下先を確認する。</span><span>アイテム1個を通す。</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="difference section-pad" aria-labelledby="activate-title">
+    <div class="difference-panel article-media-panel">
+      <figure class="article-inline-figure">
+        <img src="/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp" alt="Java版と統合版のマイクラ鉄トラップの考え方を比較するオリジナル図。村人、ベッド、水流、ゴーレム、回収を示し、公式ゲーム画面ではありません。" width="768" height="768" loading="lazy" decoding="async">
+        <figcaption>目的は同じでも村の前提は異なります。比較図は再検証のチェックリストとして使います。</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">エディションの境界</p>
+        <h2 id="activate-title">Java版の鉄トラップを統合版へそのまま移さない</h2>
+        <p>Java版と統合版は村人、ベッド、職業ブロック、ゴーレムという言葉を共有しますが、村の判定やポイントの紐づき、湧きの有効範囲が同じとは限りません。設計にはエディションとバージョンを明記し、万能な3人レシピとは考えないでください。</p><p>比較図は公式スクリーンショットではなく、考え方を並べたオリジナル図です。構造として共通する部分と、エディションに依存する部分を分けて考えます。現在のバージョンノートを確認し、実際に遊ぶ環境で最小構成を再現してください。</p><p>効率の数字にも距離、シミュレーション設定、洞窟、別の村、回収の停止時間が影響します。他のバージョンの数字ではなく、自分の1サイクルと使用バージョンを記録しましょう。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" aria-labelledby="mistakes-title">
+    <div class="section-heading">
+      <p class="eyebrow">よくある失敗</p>
+      <h2 id="mistakes-title">マイクラの鉄トラップが動かない理由</h2>
+      <p>証拠を残すため、1つの層だけを変更します。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>ゴーレムが出ない</h3><p>エディション、村人の紐づき、ベッド、職業ブロック、周期を確認します。原因が分からないまま村人を増やしません。</p></article>
+      
+      <article class="feature-card"><h3>外に出る</h3><p>屋根、洞窟、別の足場、水、近くの構造を探し、競合を1つずつなくします。</p></article>
+      
+      <article class="feature-card"><h3>鉄がチェストに届かない</h3><p>水流、ホッパーの向き、落下場所をアイテム1個で追います。湧きが正常でも回収だけ失敗します。</p></article>
+      
+      <article class="feature-card"><h3>拡張後に効率が変わる</h3><p>元の区画を変えず、1モジュールずつ増やし、ベッド、職業、距離、バージョンを記録します。</p></article>
+      
+    </div>
+  </section>
+
+  <section class="section-pad examples" aria-labelledby="related-title">
+    <div class="section-heading">
+      <p class="eyebrow">関連ガイド</p>
+      <h2 id="related-title">同じ準備に役立つページ</h2>
+      <p>エディション、村人、装備、バージョンの確認には次のページを使えます。</p>
+    </div>
+    <div class="example-grid">
+
+      <article class="example-card"><h3>Java版と統合版</h3><p>設計をコピーする前にエディションを比較します。</p><a class="text-link" href="/ja/java-vs-bedrock/">エディション比較</a></article>
+
+      <article class="example-card"><h3>村人交易所</h3><p>村人を近づける前に職業ブロックの紐づきを確認します。</p><a class="text-link" href="/ja/villager-trading-hall/">村人を確認</a></article>
+
+      <article class="example-card"><h3>マイクラのエンチャント</h3><p>鉄、道具、本を長期ワールドの計画に入れます。</p><a class="text-link" href="/ja/minecraft-enchantments/">装備を計画</a></article>
+
+      <article class="example-card"><h3>バージョンノート</h3><p>古いチュートリアルを使う前にリリースを確認します。</p><a class="text-link" href="/ja/versions/">バージョンを見る</a></article>
+
+    </div>
+  </section>
+
+  <section class="section-pad article-sources" aria-labelledby="sources-title">
+    <div class="section-heading">
+      <p class="eyebrow">出典メモ</p>
+      <h2 id="sources-title">バージョン依存の確認にはリリースノートを使う</h2>
+      <p>公式Java 26.3記事はバージョンの背景用です。エディション別の実地テストの代わりにはなりません。</p>
+    </div>
+    <div class="feature-grid compact-grid">
+      
+      <article class="feature-card"><h3>Minecraft Java Edition 26.3 の公式ノート</h3><p>公式ノートを読み、実際の環境で鉄トラップを再テストします。</p><a class="text-link" href="https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3" target="_blank" rel="noopener">公式ノートを開く</a></article>
+      
+    </div>
+  </section>
+
+  <section id="faq" class="faq section-pad" aria-labelledby="faq-title">
+    <div class="section-heading">
+      <p class="eyebrow">よくある質問</p>
+      <h2 id="faq-title">マイクラ鉄トラップ FAQ</h2>
+    </div>
+    <div class="faq-list">
+      
+      <details open><summary>鉄トラップに村人は何人必要ですか？</summary><p>設計とエディションで異なります。参考設計の最小構成をコピーしたワールドで試し、村人、ベッド、職業ブロックの紐づきを確認してから増やします。</p></details>
+      
+      <details ><summary>Java版の鉄トラップを統合版で使えますか？</summary><p>再検証なしには使えません。村の中心、ポイントの紐づき、湧き範囲が変わる場合があります。統合版向け設計で小さく試します。</p></details>
+      
+      <details ><summary>ゾンビは必須ですか？</summary><p>その設計が使う場合だけです。必須条件ではありません。使うなら視線を遮れるようにし、村人が睡眠と仕事をできるか確認します。</p></details>
+      
+      <details ><summary>なぜ湧き層の外に出ますか？</summary><p>別の足場、洞窟、屋根、水、近くの村を探します。村人部屋を変えず、競合を1つずつ外します。</p></details>
+      
+      <details ><summary>効率を上げるには？</summary><p>まず1サイクルを記録し、競合する湧き場所や回収停止など1項目だけ改善して測り直します。</p></details>
+      
+      <details ><summary>公式の設計ですか？</summary><p>いいえ。画像はオリジナルの解説図です。具体的なブロック数はゲーム、エディション、バージョン、採用する設計に合わせてください。</p></details>
+      
+    </div>
+  </section>
+</article>
+
+  </main>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <div class="footer-brand-block">
+          <a class="footer-logo" href="/ja/" aria-label="Verity Minecraft ホーム">
+          <img src="/static/images/img2grid/verity-logo.webp" alt="" aria-hidden="true" width="180" height="180" loading="lazy" decoding="async">
+            <span>Verity Minecraft</span>
+          </a>
+          <p>Verity Minecraft の独立したダウンロード案内です。</p>
+          <a class="footer-email" href="mailto:support@verityminecraft.blog" aria-label="support@verityminecraft.blog">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>support@verityminecraft.blog</span>
+          </a>
+        </div>
+        <nav class="footer-link-columns" aria-label="ダウンロード">
+          <div class="footer-link-group">
+            <p class="footer-link-title">ダウンロード</p>
+          <a href="/ja/#downloads">ダウンロード</a>
+          <a href="/ja/#install">インストール</a>
+          <a href="/ja/#versions">バージョン</a>
+          <a href="/ja/#safety">安全確認</a>
+            <a href="/ja/bedrock-addons/">Bedrockアドオン</a>
+            <a href="/ja/java-vs-bedrock/">Java版とBedrock版の違い</a>
+            <a href="/ja/bedrock-shaders/">統合版シェーダー</a>
+            <a href="/ja/villager-trading-hall/">村人交易所ガイド</a>
+            <a href="/ja/#faq">よくある質問</a>
+          </div>
+          <div class="footer-link-group">
+            <p class="footer-link-title">サイト</p>
+            <a href="/about/">サイトについて</a>
+            <a href="/contact/">お問い合わせ</a>
+            <a href="/privacy-policy/">プライバシーポリシー</a>
+            <a href="/terms-of-service/">利用規約</a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Verity Minecraft &middot; verityminecraft.blog - Verity Minecraft の独立したダウンロード案内です。</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+<script async="async" data-cfasync="false" src="https://pl30605215.profitableratecpmnetwork.com/1fc02af3b3124e68346a4a5fb19070a7/invoke.js"></script>
+<div id="container-1fc02af3b3124e68346a4a5fb19070a7"></div>
+
+<script src="https://pl30483090.profitableratecpmnetwork.com/82/ac/2e/82ac2e192c901f4073a4c6305887e30d.js"></script>
+</body>
+
+</html>

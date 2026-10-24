@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Minecraft Eisenfarm: 7 Schritte für Java und Bedrock (2026)",
+    "description": "Baue eine Minecraft Eisenfarm mit einem kleinen Testaufbau. Prüfe Dorfbewohner, Betten, Spawnfläche, Sammlung und Editionsunterschiede.",
+    "image": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Minecraft-Bauanleitung",
+    "title": "Minecraft Eisenfarm: 7 sichere Schritte für Java und Bedrock",
+    "lede": "Eine Minecraft Eisenfarm lässt sich zuverlässiger bauen, wenn du zuerst eine kleine Zelle testest. Sichere die Dorfbewohner, richte die für deine Edition erwarteten Betten und Arbeitsblöcke ein, begrenze die Spawnfläche und füge erst danach Wasser und Trichter hinzu. So findest du Verbindungs- oder Spawnfehler, bevor deine Hauptwelt betroffen ist.",
+    "support": "Mechaniken können sich zwischen Java, Bedrock und Spielversionen ändern. Die Bilder sind redaktionelle Originalgrafiken. Prüfe Edition und Version deshalb in einer kopierten Welt, bevor du erweiterst.",
+    "actions": [
+      {
+        "label": "Java und Bedrock vergleichen",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Versionen prüfen",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "alt": "Redaktionelle Originalgrafik einer Minecraft Eisenfarm mit Dorfbewohnern, Betten, Golemplattform, Wasser, Trichtern und Truhe; kein offizieller Screenshot.",
+      "caption": "Die Grafik zeigt die zu prüfenden Beziehungen: Dorfbewohner und Betten oben, kontrollierter Spawn in der Mitte, Sammlung unten.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Was braucht eine Minecraft Eisenfarm?",
+    "paragraphs": [
+      "Eine zuverlässige Eisenfarm benötigt eine für deine Edition gültige Dorfsituation, einen sicheren Bereich für Betten oder Arbeitsblöcke, eine Spawnfläche für den Eisengolem und eine Sammelstrecke. Zahlen und Abstände sind nicht universell: Java und Bedrock verwenden unterschiedliche Regeln. Teste zuerst einen vollständigen Zyklus in einer kopierten Welt statt sofort die höchste Rate anzustreben.",
+      "Bereite Baublöcke, Betten, die Arbeitsblöcke des gewählten Designs, Glas oder Zäune, Wasser, Schilder oder Falltüren, Trichter und eine Truhe vor. Halte einen sicheren Transportweg für Dorfbewohner frei. Ein Zombie gehört nur in Designs, die ihn ausdrücklich benötigen; seine Sichtlinie sollte abschaltbar sein und Schlafen sowie Arbeiten dürfen nicht blockiert werden.",
+      "Der häufigste Fehler ist eine Java-Anleitung als Bedrock-Bauplan zu behandeln. Schreibe Edition, Version, Dorfbewohner, Betten, Arbeitsblöcke, Spawnfläche und Sammlung auf und ändere jeweils nur eine Variable. So bleibt die Ursache sichtbar."
+    ],
+    "cards": [
+      {
+        "title": "Dorfbewohnerzelle",
+        "text": "Halte Dorfbewohner sichtbar und geschützt, um Betten, Arbeitsblöcke und Verbindungen zu prüfen."
+      },
+      {
+        "title": "Spawnfläche",
+        "text": "Definiere eine Fläche und entferne konkurrierende Orte."
+      },
+      {
+        "title": "Sammelstrecke",
+        "text": "Baue Wasser, Trichter und Truhe erst nach dem Spawn-Test."
+      },
+      {
+        "title": "Versionsnotiz",
+        "text": "Notiere Java oder Bedrock und die verwendete Version."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Baufolge",
+    "title": "Minecraft Eisenfarm in 7 Schritten bauen",
+    "description": "Baue zuerst die kleinste testbare Version. Die Reihenfolge trennt Verbindung, Spawn und Sammlung.",
+    "items": [
+      {
+        "title": "1. Testplatz wählen",
+        "text": "Halte Abstand zu natürlichen Dörfern, zusätzlichen Betten und Arbeitsblöcken. Eine erhöhte Plattform macht falsche Spawns sichtbar und lässt einen Kontrollweg."
+      },
+      {
+        "title": "2. Edition und Version notieren",
+        "text": "Schreibe Java oder Bedrock, Spielversion und die Annahmen der Anleitung auf. Ein identischer Bau kann wegen des Dorfzentrums anders funktionieren."
+      },
+      {
+        "title": "3. Dorfbewohnerkammer schließen",
+        "text": "Transportiere einen Dorfbewohner nach dem anderen und blockiere Ausgänge. Betten und Arbeitsblöcke müssen sichtbar bleiben; die Handelskammer wartet bis nach dem Test."
+      },
+      {
+        "title": "4. Betten und Arbeitsblöcke setzen",
+        "text": "Beobachte, wer welchen Punkt beansprucht. Entferne konkurrierende Blöcke und warte einen normalen Zyklus, bevor du dekorierst."
+      },
+      {
+        "title": "5. Eine Spawnfläche bauen",
+        "text": "Erzeuge eine flache, absichtliche Fläche. Prüfe Dach, Höhlen, Wasser und Kanten, damit der Golem nicht außerhalb landet."
+      },
+      {
+        "title": "6. Wasser und Sammlung ergänzen",
+        "text": "Wenn ein Golem richtig erscheint, führe Wasser zu Trichtern und Truhe. Teste mit einem Gegenstand und gehe bei Problemen zum letzten funktionierenden Zustand zurück."
+      },
+      {
+        "title": "7. Einen Zyklus abnehmen",
+        "text": "Beobachte Verbindung, Spawn, Weg und Eisen in der Truhe. Notiere Zeit und Version, bevor du Module kopierst."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Fehlerprüfung",
+    "title": "Prüfe die Spawnfläche, bevor du Dorfbewohner bewegst",
+    "paragraphs": [
+      "Wenn kein Eisen kommt, werden oft zuerst Betten und Dorfbewohner verschoben. Prüfe stattdessen die Fläche oben, unten und daneben: eine zweite Plattform, Höhle, Wasserstelle oder ein Dach kann die Ursache sein. Ein Golem außerhalb kann bedeuten, dass die Dorflogik funktioniert, aber die Sammlung falsch begrenzt ist.",
+      "Die rote Fläche in der Grafik ist ein Diagnosemodell und keine universelle Blockzahl. Vergleiche sie mit den Regeln deines Designs und entferne jeweils nur einen konkurrierenden Ort. Verändere die Dorfbewohnerkammer während dieses Tests nicht.",
+      "Notiere Edition und Version, die Zuordnung von Dorfbewohnern zu Betten und Arbeitsblöcken, den ersten Spawnort und ob ein Gegenstand die Truhe erreicht. Dieser kurze Log zeigt die fehlerhafte Ebene besser als ein Foto der fertigen Farm."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp",
+      "alt": "Redaktionelle Originalgrafik einer Minecraft Eisenfarm von oben mit Dorfbewohnern, Betten, Wasser, Golem und markierter Fläche SPAWN CHECK; kein Gameplay-Screenshot.",
+      "caption": "Die rote Fläche hilft, konkurrierende Spawnorte zu prüfen, bevor Dorfbewohner verschoben werden.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Editionscheck",
+    "title": "Java- und Bedrock-Prüfungen für eine Eisenfarm",
+    "description": "Die Tabelle zeigt, was du prüfen solltest, ohne einen universellen Bauplan zu versprechen.",
+    "headers": [
+      "Prüfung",
+      "Java",
+      "Bedrock",
+      "Sichere Aktion"
+    ],
+    "rows": [
+      [
+        "Dorfidentität",
+        "Annahmen der Anleitung zur Verknüpfung prüfen.",
+        "Prüfen, wie Betten, Dorfbewohner und Punkte das Zentrum bestimmen.",
+        "Eine Zelle testen."
+      ],
+      [
+        "Betten und Arbeitsblöcke",
+        "Verknüpfung und Arbeitszyklus des Designs einhalten.",
+        "Auf falsche Beanspruchung durch andere Dorfbewohner achten.",
+        "Konkurrenz entfernen."
+      ],
+      [
+        "Spawnfläche",
+        "Erreichbare Flächen des Java-Designs räumen.",
+        "Den größeren Bedrock-Dorfbereich prüfen.",
+        "Fläche markieren und kontrollieren."
+      ],
+      [
+        "Sammlung",
+        "Wasser, Trichter und Fallweg prüfen.",
+        "Wasser, Trichter und Fallweg prüfen.",
+        "Einen Testgegenstand senden."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Editionsgrenzen",
+    "title": "Kopiere eine Java-Eisenfarm nicht ohne Test nach Bedrock",
+    "paragraphs": [
+      "Java und Bedrock verwenden dieselben Begriffe für Dorfbewohner, Betten, Arbeitsblöcke und Golems, aber Dorfidentität, Verknüpfung und Spawnraum können abweichen. Beschrifte jeden Plan mit Edition und Version statt eine universelle Drei-Dorfbewohner-Regel zu behaupten.",
+      "Die Vergleichsgrafik ist eine redaktionelle Originalillustration und kein offizieller Screenshot. Trenne die strukturellen Teile von den editionsabhängigen Regeln, lies die Versionshinweise und teste die kleinste Zelle in deiner tatsächlichen Edition.",
+      "Auch die Rate hängt von Spielerabstand, Simulation, Höhlen, anderen Dörfern und Sammelpausen ab. Miss deinen eigenen Zyklus und nenne die verwendete Version."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp",
+      "alt": "Redaktionelle Vergleichsgrafik zu Konzepten einer Minecraft Eisenfarm für Java und Bedrock mit Dorfbewohnern, Betten, Wasser und Sammlung; kein offizielles Gameplay.",
+      "caption": "Das Ziel ist gleich, die Dorfannahmen nicht immer. Nutze die Grafik als Prüfliste.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Häufige Fehler",
+    "title": "Warum eine Minecraft Eisenfarm nicht funktioniert",
+    "description": "Ändere jeweils nur eine Ebene, damit die Ursache erkennbar bleibt.",
+    "cards": [
+      {
+        "title": "Kein Golem",
+        "text": "Edition, Verknüpfungen, Betten, Arbeitsblöcke und Zykluszeit prüfen, bevor du Dorfbewohner hinzufügst."
+      },
+      {
+        "title": "Golem außerhalb",
+        "text": "Dach, Höhlen, Wasser, Plattformen und nahe Strukturen suchen und einzeln entfernen."
+      },
+      {
+        "title": "Eisen erreicht die Truhe nicht",
+        "text": "Wasserweg, Trichterrichtung und Fallzone mit einem Testgegenstand verfolgen."
+      },
+      {
+        "title": "Rate ändert sich nach Ausbau",
+        "text": "Originalzelle unverändert lassen, ein Modul ergänzen und Betten, Arbeitsblöcke, Abstand und Version notieren."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Weiterlesen",
+    "title": "Passende Anleitungen für die Vorbereitung",
+    "description": "Diese Seiten helfen bei Edition, Dorfbewohnern, Ausrüstung und Versionsprüfung.",
+    "links": [
+      {
+        "title": "Java und Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Edition vor dem Kopieren des Plans vergleichen.",
+        "cta": "Vergleichen"
+      },
+      {
+        "title": "Dorfbewohner-Handel",
+        "url": "/villager-trading-hall/",
+        "text": "Arbeitsblöcke prüfen, bevor Dorfbewohner nahe stehen.",
+        "cta": "Dorfbewohner prüfen"
+      },
+      {
+        "title": "Minecraft-Verzauberungen",
+        "url": "/minecraft-enchantments/",
+        "text": "Eisen, Werkzeuge und Bücher langfristig planen.",
+        "cta": "Ausrüstung planen"
+      },
+      {
+        "title": "Versionshinweise",
+        "url": "/versions/",
+        "text": "Version vor einer alten Anleitung kontrollieren.",
+        "cta": "Versionen prüfen"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Quellenhinweis",
+    "title": "Versionshinweise für empfindliche Prüfungen verwenden",
+    "description": "Der offizielle Java-26.3-Artikel liefert Versionskontext, ersetzt aber keinen Test pro Edition.",
+    "links": [
+      {
+        "title": "Offizielle Hinweise zu Minecraft Java Edition 26.3",
+        "text": "Offizielle Hinweise lesen und in deiner Version erneut testen.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Offizielle Notiz öffnen",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ zur Minecraft Eisenfarm",
+    "items": [
+      {
+        "question": "Wie viele Dorfbewohner braucht eine Eisenfarm?",
+        "answer": "Das hängt von Design und Edition ab. Teste die kleinste Zelle der Anleitung und bestätige Verknüpfungen, Betten und Arbeitsblöcke vor dem Ausbau."
+      },
+      {
+        "question": "Kann ich eine Java-Farm in Bedrock kopieren?",
+        "answer": "Nicht ohne erneuten Test. Dorfzentrum, Punkte und Spawn können anders funktionieren. Nutze ein Bedrock-Design in einer kopierten Welt."
+      },
+      {
+        "question": "Brauche ich einen Zombie?",
+        "answer": "Nur wenn das Design ihn vorsieht. Es ist keine allgemeine Pflicht; Schlafen und Arbeiten müssen möglich bleiben."
+      },
+      {
+        "question": "Warum spawnt der Golem außerhalb?",
+        "answer": "Flächen, Höhlen, Dächer, Wasser und nahe Dörfer prüfen. Einen konkurrierenden Ort nach dem anderen entfernen."
+      },
+      {
+        "question": "Wie erhöhe ich die Rate?",
+        "answer": "Einen Zyklus messen, eine Variable ändern und erneut messen. Ein großer Bau ohne Referenz ist schwer zu reparieren."
+      },
+      {
+        "question": "Sind die Bilder offiziell?",
+        "answer": "Nein. Es sind redaktionelle Originalgrafiken. Blöcke und Zahlen hängen von Edition, Version und gewähltem Design ab."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Eisenfarm: 7 Schritte für Java und Bedrock (2026)",
+      "description": "Baue eine Minecraft Eisenfarm mit einem kleinen Testaufbau. Prüfe Dorfbewohner, Betten, Spawnfläche, Sammlung und Editionsunterschiede.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://verityminecraft.blog/de/minecraft-iron-farm/"
+      }
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viele Dorfbewohner braucht eine Eisenfarm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das hängt von Design und Edition ab. Teste die kleinste Zelle der Anleitung und bestätige Verknüpfungen, Betten und Arbeitsblöcke vor dem Ausbau."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich eine Java-Farm in Bedrock kopieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nicht ohne erneuten Test. Dorfzentrum, Punkte und Spawn können anders funktionieren. Nutze ein Bedrock-Design in einer kopierten Welt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brauche ich einen Zombie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nur wenn das Design ihn vorsieht. Es ist keine allgemeine Pflicht; Schlafen und Arbeiten müssen möglich bleiben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum spawnt der Golem außerhalb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flächen, Höhlen, Dächer, Wasser und nahe Dörfer prüfen. Einen konkurrierenden Ort nach dem anderen entfernen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie erhöhe ich die Rate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Einen Zyklus messen, eine Variable ändern und erneut messen. Ein großer Bau ohne Referenz ist schwer zu reparieren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sind die Bilder offiziell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Es sind redaktionelle Originalgrafiken. Blöcke und Zahlen hängen von Edition, Version und gewähltem Design ab."
+          }
+        }
+      ]
+    }
+  }
+}

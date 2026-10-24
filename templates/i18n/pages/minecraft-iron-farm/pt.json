@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Farm de ferro no Minecraft: 7 passos para Java e Bedrock (2026)",
+    "description": "Construa uma farm de ferro no Minecraft com um teste pequeno. Confira aldeões, camas, área de spawn, coleta e diferenças entre edições.",
+    "image": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia de construção do Minecraft",
+    "title": "Farm de ferro no Minecraft: 7 passos seguros para Java e Bedrock",
+    "lede": "Uma farm de ferro no Minecraft fica mais confiável quando você testa primeiro uma célula pequena. Proteja os aldeões, coloque as camas e bancadas esperadas pela edição, controle a área de spawn e só depois adicione água e funis. Assim você encontra problemas de vínculo ou spawn antes de mexer no mundo principal.",
+    "support": "As mecânicas podem mudar entre Java, Bedrock e versões do jogo. As imagens são ilustrações editoriais originais; confira a edição e a versão atual em um mundo copiado antes de ampliar.",
+    "actions": [
+      {
+        "label": "Comparar Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Conferir versões",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "alt": "Ilustração editorial original de uma farm de ferro do Minecraft com aldeões, camas, plataforma de golem, água, funis e baú; não é captura oficial.",
+      "caption": "A ilustração mostra as relações para testar: aldeões e camas acima, spawn controlado no meio e coleta abaixo. É uma imagem original do guia.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "O que uma farm de ferro no Minecraft precisa?",
+    "paragraphs": [
+      "Uma farm confiável precisa de uma configuração de vila válida para a edição, um espaço seguro para aldeões dormirem ou se vincularem a pontos de interesse, uma área de spawn de golem e um sistema de coleta. Quantidades e distâncias não são universais: Java e Bedrock usam regras diferentes. O primeiro objetivo é observar um ciclo em um mundo copiado, não buscar a maior taxa imediatamente.",
+      "Separe blocos, camas, bancadas exigidas pelo projeto, vidro ou cercas, água, placas ou alçapões, funis e um baú. Mantenha um método seguro para transportar aldeões. Um zumbi só deve entrar em projetos que o exigem; a linha de visão precisa ser reversível e os aldeões ainda devem conseguir trabalhar e dormir.",
+      "O erro mais comum é usar um projeto Java como planta para Bedrock. Anote edição, versão, aldeões, camas, bancadas, superfície de spawn e coleta antes de começar. Altere uma variável por vez para manter o diagnóstico claro."
+    ],
+    "cards": [
+      {
+        "title": "Célula de aldeões",
+        "text": "Deixe os aldeões visíveis e protegidos para conferir camas, bancadas e vínculos."
+      },
+      {
+        "title": "Área de spawn",
+        "text": "Defina uma área e retire superfícies concorrentes."
+      },
+      {
+        "title": "Coleta",
+        "text": "Adicione água, funis e baú depois do teste de spawn."
+      },
+      {
+        "title": "Nota de versão",
+        "text": "Registre Java ou Bedrock e a versão usada."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Sequência de construção",
+    "title": "Como fazer uma farm de ferro no Minecraft em 7 passos",
+    "description": "Comece pela menor versão que pode ser testada. A sequência separa vínculos, spawn e coleta.",
+    "items": [
+      {
+        "title": "1. Escolha um local de teste",
+        "text": "Afaste-se de vilas naturais, camas e bancadas próximas. Uma plataforma elevada facilita enxergar spawns fora do lugar e deixa espaço para inspeção."
+      },
+      {
+        "title": "2. Anote edição e versão",
+        "text": "Escreva Java ou Bedrock, a versão e as premissas do tutorial. O mesmo formato pode funcionar diferente quando o centro da vila muda."
+      },
+      {
+        "title": "3. Feche a área dos aldeões",
+        "text": "Transporte um aldeão por vez e bloqueie saídas. Mantenha rosto, cama e bancada visíveis e não misture a sala de trocas durante o teste."
+      },
+      {
+        "title": "4. Coloque camas e bancadas",
+        "text": "Observe qual aldeão reivindica cada ponto. Remova blocos concorrentes e espere um ciclo normal antes de decorar."
+      },
+      {
+        "title": "5. Faça uma área de spawn",
+        "text": "Crie uma plataforma plana e intencional. Verifique teto, cavernas, água e bordas para que o golem não nasça fora do caminho."
+      },
+      {
+        "title": "6. Adicione água e coleta",
+        "text": "Quando um golem surgir no lugar certo, guie a água até funis e baú. Teste com um item e volte ao estado anterior se a coleta travar."
+      },
+      {
+        "title": "7. Valide um ciclo",
+        "text": "Observe vínculos, spawn, deslocamento e ferro no baú. Registre tempo e versão antes de copiar módulos."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Visão de diagnóstico",
+    "title": "Confira a área de spawn antes de mover os aldeões",
+    "paragraphs": [
+      "Quando não aparece ferro, é comum mexer primeiro em camas e aldeões. Examine acima, abaixo e ao redor da plataforma: outra superfície, caverna, água ou teto pode ser a causa. Um golem fora do caminho pode indicar que a lógica funciona e a coleta está mal delimitada.",
+      "A área vermelha da imagem é uma ideia de diagnóstico, não uma quantidade universal de blocos. Compare-a às regras do projeto e retire uma superfície concorrente por vez. Não mude a célula dos aldeões ao mesmo tempo.",
+      "Registre edição e versão, quais aldeões se ligaram a camas e bancadas, onde surgiu o primeiro golem e se um item chegou ao baú. Esse registro mostra a camada que falhou melhor que uma foto da torre pronta."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-spawn-check.webp",
+      "alt": "Ilustração editorial original vista de cima de uma farm de ferro do Minecraft com aldeões, camas, água, golem e área marcada SPAWN CHECK; não é captura de jogo.",
+      "caption": "Use a área vermelha para procurar superfícies concorrentes antes de mover aldeões.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "table": {
+    "eyebrow": "Verificação de edição",
+    "title": "Verificações Java e Bedrock para uma farm de ferro",
+    "description": "A tabela mostra o que conferir sem prometer um projeto ou rendimento universal.",
+    "headers": [
+      "Verificação",
+      "Java",
+      "Bedrock",
+      "Ação segura"
+    ],
+    "rows": [
+      [
+        "Identidade da vila",
+        "Confirme as premissas de vínculo do projeto.",
+        "Confirme como camas, aldeões e pontos definem o centro.",
+        "Teste uma célula."
+      ],
+      [
+        "Camas e bancadas",
+        "Siga os vínculos e o ciclo do tutorial.",
+        "Observe reivindicações por outros aldeões.",
+        "Remova concorrentes."
+      ],
+      [
+        "Área de spawn",
+        "Limpe superfícies alcançadas pelo projeto Java.",
+        "Verifique a área maior usada pela vila Bedrock.",
+        "Marque e inspecione."
+      ],
+      [
+        "Coleta",
+        "Teste água, funis e queda.",
+        "Teste água, funis e queda.",
+        "Envie um item de teste."
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Limites das edições",
+    "title": "Não copie uma farm Java para Bedrock sem testar de novo",
+    "paragraphs": [
+      "Java e Bedrock usam os mesmos termos para aldeões, camas, bancadas e golems, mas identidade da vila, vínculos e espaço de spawn podem mudar. Identifique cada projeto por edição e versão em vez de prometer uma receita universal de três aldeões.",
+      "A imagem comparativa é uma ilustração editorial original, não um screenshot oficial. Separe a estrutura comum das regras da edição, leia as notas de versão e reproduza a menor célula no ambiente em que você joga.",
+      "A taxa também depende de distância do jogador, simulação, cavernas, outras vilas e pausas da coleta. Meça seu próprio ciclo e anote a versão usada."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-iron-farm/minecraft-iron-farm-edition-check.webp",
+      "alt": "Ilustração editorial original comparando conceitos de farms de ferro Java e Bedrock com aldeões, camas, água e coleta; não é gameplay oficial.",
+      "caption": "O objetivo é igual, mas as premissas da vila podem mudar. Use a imagem como lista de verificação.",
+      "width": 768,
+      "height": 768
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Falhas comuns",
+    "title": "Por que uma farm de ferro do Minecraft não funciona",
+    "description": "Mude apenas uma camada por vez para preservar as evidências.",
+    "cards": [
+      {
+        "title": "Nenhum golem aparece",
+        "text": "Confira edição, vínculos, camas, bancadas e duração do ciclo antes de adicionar aldeões."
+      },
+      {
+        "title": "Golem aparece fora",
+        "text": "Procure teto, caverna, água, plataforma ou estrutura próxima e remova um concorrente por vez."
+      },
+      {
+        "title": "Ferro não chega ao baú",
+        "text": "Siga água, direção dos funis e área de queda com um item de teste."
+      },
+      {
+        "title": "A taxa muda depois de ampliar",
+        "text": "Mantenha a célula original, adicione um módulo e registre camas, bancadas, distância e versão."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continue",
+    "title": "Guias úteis para a mesma preparação",
+    "description": "Use estas páginas para escolher a edição, organizar aldeões, preparar equipamentos e conferir versões.",
+    "links": [
+      {
+        "title": "Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "text": "Compare as regras antes de copiar o projeto.",
+        "cta": "Comparar"
+      },
+      {
+        "title": "Sala de trocas",
+        "url": "/villager-trading-hall/",
+        "text": "Confira bancadas antes de aproximar aldeões.",
+        "cta": "Ver aldeões"
+      },
+      {
+        "title": "Encantamentos do Minecraft",
+        "url": "/minecraft-enchantments/",
+        "text": "Planeje ferro, ferramentas e livros para a sobrevivência.",
+        "cta": "Planejar equipamentos"
+      },
+      {
+        "title": "Notas de versão",
+        "url": "/versions/",
+        "text": "Verifique a versão antes de seguir um tutorial antigo.",
+        "cta": "Ver versões"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Nota da fonte",
+    "title": "Use notas de versão para verificações sensíveis",
+    "description": "O artigo oficial Java 26.3 dá contexto de versão; ele não substitui um teste por edição.",
+    "links": [
+      {
+        "title": "Notas oficiais do Minecraft Java Edition 26.3",
+        "text": "Leia a nota oficial e teste novamente na sua versão.",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+        "cta": "Abrir nota oficial",
+        "rel": "noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ da farm de ferro do Minecraft",
+    "items": [
+      {
+        "question": "Quantos aldeões uma farm de ferro precisa?",
+        "answer": "Depende do projeto e da edição. Teste a célula mínima do tutorial e confirme vínculos, camas e bancadas antes de ampliar."
+      },
+      {
+        "question": "Posso copiar uma farm Java para Bedrock?",
+        "answer": "Não sem testar novamente. Centro da vila, pontos de interesse e spawn podem se comportar de outra forma. Use um projeto Bedrock em mundo copiado."
+      },
+      {
+        "question": "Preciso de um zumbi?",
+        "answer": "Apenas se o projeto pedir. Não é uma regra geral; mantenha condições de sono e trabalho."
+      },
+      {
+        "question": "Por que o golem aparece fora?",
+        "answer": "Inspecione superfícies, cavernas, tetos, água e vilas próximas. Remova uma área concorrente de cada vez."
+      },
+      {
+        "question": "Como aumentar a taxa?",
+        "answer": "Meça um ciclo, melhore uma variável e meça de novo. Um projeto grande sem referência é difícil de consertar."
+      },
+      {
+        "question": "As imagens são oficiais?",
+        "answer": "Não. São ilustrações editoriais originais que mostram o que verificar; blocos e números dependem da edição e da versão."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Farm de ferro no Minecraft: 7 passos para Java e Bedrock (2026)",
+      "description": "Construa uma farm de ferro no Minecraft com um teste pequeno. Confira aldeões, camas, área de spawn, coleta e diferenças entre edições.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-iron-farm/minecraft-iron-farm-feature.webp",
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://verityminecraft.blog/pt/minecraft-iron-farm/"
+      }
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quantos aldeões uma farm de ferro precisa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende do projeto e da edição. Teste a célula mínima do tutorial e confirme vínculos, camas e bancadas antes de ampliar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso copiar uma farm Java para Bedrock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não sem testar novamente. Centro da vila, pontos de interesse e spawn podem se comportar de outra forma. Use um projeto Bedrock em mundo copiado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de um zumbi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Apenas se o projeto pedir. Não é uma regra geral; mantenha condições de sono e trabalho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que o golem aparece fora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inspecione superfícies, cavernas, tetos, água e vilas próximas. Remova uma área concorrente de cada vez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como aumentar a taxa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meça um ciclo, melhore uma variável e meça de novo. Um projeto grande sem referência é difícil de consertar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "As imagens são oficiais?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. São ilustrações editoriais originais que mostram o que verificar; blocos e números dependem da edição e da versão."
+          }
+        }
+      ]
+    }
+  }
+}
