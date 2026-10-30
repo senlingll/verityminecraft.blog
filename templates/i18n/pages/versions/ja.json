@@ -24,7 +24,7 @@
       },
       {
         "label": "Java安定ファイル",
-        "value": "verity-6.0.0-beta.9.jar; Forge/Minecraft 1.20.1向け; 257,904,342 bytes; 2026年9月3日公開"
+        "value": "verity-6.0.0.jar; Forge/Minecraft 1.20.1向け; 256,881,551 bytes; 2026年10月23日公開"
       },
       {
         "label": "Minecraft Java版リリース",
@@ -32,7 +32,7 @@
       },
       {
         "label": "Javaバージョン状態版",
-        "value": "v6.0.0-beta.9; 2026年9月3日公開; 安定版の推奨ではなくベータ"
+        "value": "v6.0.0; 2026年10月23日公開; 安定版リリース"
       },
       {
         "label": "PEの配布元",
@@ -40,7 +40,7 @@
       },
       {
         "label": "最終確認",
-        "value": "2026年10月18日"
+        "value": "2026年10月31日"
       }
     ]
   },
@@ -109,8 +109,8 @@
       ],
       [
         "Verity Java MOD",
-        "verity-6.0.0-beta.9.jar",
-        "ベータ、Forge/Minecraft 1.20.1、257,904,342 bytes",
+        "verity-6.0.0.jar",
+        "リリース、Forge/Minecraft 1.20.1、256,881,551 bytes",
         "Modrinth / CurseForge"
       ],
       [

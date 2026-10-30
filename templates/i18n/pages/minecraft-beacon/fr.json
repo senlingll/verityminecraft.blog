@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Balise Minecraft : recette, pyramide, portée et effets (2026)",
+    "description": "Découvrez la recette de la balise Minecraft, les quatre niveaux de pyramide, la portée, les paiements et les solutions si elle ne s'active pas.",
+    "image": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Conseils de construction Minecraft",
+    "title": "Balise Minecraft : recette, niveaux, portée et effets",
+    "lede": "Une balise Minecraft est plus simple à planifier lorsque la recette, la pyramide de minerais et le menu des pouvoirs sont vérifiés séparément. Cette page donne les matériaux, les quatre tailles de base, la portée de chaque niveau et un test d'activation pour Java et Bedrock.",
+    "support": "Les schémas sont des graphiques éditoriaux originaux, pas des captures officielles. Vérifiez votre édition et votre version avant une construction de survie importante.",
+    "actions": [
+      {
+        "label": "Comparer Java et Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Voir les notes de version",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "alt": "Schéma conceptuel original d'une balise Minecraft au-dessus d'une pyramide de quatre niveaux, pas une capture de jeu.",
+      "caption": "La balise réunit un bloc fabriqué, une pyramide de minerais et un rayon dégagé. Schéma original de planification.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "De quoi avez-vous besoin pour fabriquer une balise Minecraft ?",
+    "paragraphs": [
+      "La recette demande 5 verres, 3 obsidiennes et 1 étoile du Nether. L'étoile provient du Wither, ce qui fait de la balise un bloc de fin de progression. Placez le verre en haut, l'étoile au centre et l'obsidienne en bas de la table de craft.",
+      "La fabrication n'est que la première étape. Pour activer la balise, construisez une pyramide de blocs de fer, d'or, d'émeraude, de diamant ou de netherite. Les matériaux peuvent être mélangés. Une pyramide complète demande 164 blocs, donc commencez par le niveau un pour tester.",
+      "Le rayon doit aussi avoir une vue dégagée vers le ciel. Les blocs opaques l'arrêtent, tandis que le verre peut le laisser passer. Ouvrez ensuite l'interface, placez un objet de paiement, choisissez un pouvoir et confirmez."
+    ],
+    "cards": [
+      {
+        "title": "Recette",
+        "text": "5 verres, 3 obsidiennes et 1 étoile du Nether."
+      },
+      {
+        "title": "Matériaux",
+        "text": "Fer, or, émeraude, diamant et netherite, mélangeables."
+      },
+      {
+        "title": "Portée",
+        "text": "20, 30, 40 ou 50 blocs selon le niveau."
+      },
+      {
+        "title": "Paiement",
+        "text": "Lingot de fer ou d'or, émeraude, diamant ou lingot de netherite."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Séquence d'activation",
+    "title": "Construire et activer une balise Minecraft",
+    "description": "Commencez par la version la plus petite et testable. Cela sépare un toit opaque, une base incomplète et un choix non confirmé.",
+    "items": [
+      {
+        "title": "1. Fabriquer la balise",
+        "text": "Réunissez cinq verres, trois obsidiennes et une étoile du Nether. Placez le verre en haut, l'étoile au centre et l'obsidienne en bas de la table de craft."
+      },
+      {
+        "title": "2. Choisir un site visible",
+        "text": "Posez la première balise dans un endroit visible depuis votre base. Un toit plat, une colline ou un puits vitré simplifie le contrôle du rayon."
+      },
+      {
+        "title": "3. Construire une pyramide valide",
+        "text": "Utilisez des blocs complets de fer, or, émeraude, diamant ou netherite. Commencez par 3 x 3 puis ajoutez 5 x 5, 7 x 7 et 9 x 9 bien centrés."
+      },
+      {
+        "title": "4. Libérer le rayon",
+        "text": "Placez la balise au centre de la couche supérieure et retirez pierre, terre, bois ou toit opaque. Le verre peut laisser passer le rayon."
+      },
+      {
+        "title": "5. Choisir un pouvoir",
+        "text": "Ouvrez l'interface, placez un paiement accepté, choisissez un pouvoir débloqué et confirmez. Les niveaux supérieurs ajoutent Résistance, Saut, Force et Régénération."
+      },
+      {
+        "title": "6. Tester portée et couleur",
+        "text": "Éloignez-vous jusqu'à la disparition de l'icône puis revenez. Un verre teinté peut colorer le rayon; testez la limite dans votre édition."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Vérifier la pyramide",
+    "title": "Planifier le coût et la portée avec les quatre niveaux",
+    "paragraphs": [
+      "L'erreur classique consiste à compter seulement la couche supérieure. Le niveau deux ajoute 25 blocs aux 9 du premier; le niveau quatre totalise 164 blocs.",
+      "Les valeurs 20, 30, 40 et 50 blocs sont des distances horizontales de planification. Le relief et la hauteur changent l'expérience réelle; testez la limite dans votre version.",
+      "Pour améliorer la balise, ajoutez une couche centrée dessous puis rouvrez l'interface. Vérifiez que chaque élément est un bloc complet, pas un minerai, un lingot ou une dalle."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-pyramid.webp",
+      "alt": "Schéma original des niveaux de pyramide d'une balise Minecraft, de 3 x 3 à 9 x 9; pas une capture de jeu.",
+      "caption": "Le total comprend toutes les couches: 9, 34, 83 et 164 blocs. Schéma original de planification.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "table": {
+    "eyebrow": "Coût et portée",
+    "title": "Niveaux de pyramide d'une balise Minecraft",
+    "description": "Le total comprend toutes les couches et la portée indique une distance horizontale de planification.",
+    "headers": [
+      "Niveau",
+      "Empreinte",
+      "Blocs totaux",
+      "Portée",
+      "Nouveau pouvoir"
+    ],
+    "rows": [
+      [
+        "1",
+        "3 x 3",
+        "9",
+        "20 blocs",
+        "Vitesse ou Célérité"
+      ],
+      [
+        "2",
+        "5 x 5 + 3 x 3",
+        "34",
+        "30 blocs",
+        "Résistance ou Saut amélioré"
+      ],
+      [
+        "3",
+        "7 x 7 + couches inférieures",
+        "83",
+        "40 blocs",
+        "Force"
+      ],
+      [
+        "4",
+        "9 x 9 + couches inférieures",
+        "164",
+        "50 blocs",
+        "Pouvoir II ou Régénération"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Menu des pouvoirs",
+    "title": "Choisir l'effet adapté au travail",
+    "paragraphs": [
+      "La Vitesse aide autour de la base; la Célérité accélère l'extraction; la Résistance aide dans les zones dangereuses; le Saut amélioré facilite les terrains irréguliers. La Force sert au combat et la Régénération est une option secondaire du niveau quatre.",
+      "Une balise ne donne pas tous les pouvoirs simultanément. Le menu affiche les choix débloqués par le nombre de couches. Payez à nouveau pour changer d'effet et gardez quelques lingots à proximité.",
+      "Les anneaux du dessin servent à planifier, pas à représenter une carte exacte. Marquez la limite puis vérifiez-la au sol, dans les escaliers et sur la plateforme la plus haute."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-effects.webp",
+      "alt": "Schéma conceptuel original d'une balise avec des anneaux de planification pour Vitesse, Célérité, Résistance et Saut amélioré; pas une interface de jeu.",
+      "caption": "Planifiez la zone avec les anneaux puis vérifiez la limite dans votre monde. Schéma explicatif original.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Dépannage",
+    "title": "Pourquoi ma balise Minecraft ne fonctionne-t-elle pas ?",
+    "description": "Contrôlez une couche à la fois. Une balise inactive a généralement un rayon bloqué, une pyramide incomplète ou un choix non confirmé.",
+    "cards": [
+      {
+        "title": "Un bloc opaque la recouvre",
+        "text": "La pierre, la terre, le bois ou un toit plein arrêtent le rayon. Retirez l'obstacle ou remplacez cette section par du verre."
+      },
+      {
+        "title": "La base utilise le mauvais bloc",
+        "text": "Les minerais, lingots, dalles et escaliers ne remplacent pas les blocs complets acceptés. Comptez depuis le centre."
+      },
+      {
+        "title": "La pyramide est décalée",
+        "text": "La balise doit être au centre de la couche supérieure. Un coin manquant suffit à casser le niveau."
+      },
+      {
+        "title": "Le pouvoir n'est pas confirmé",
+        "text": "Placez un paiement valide, sélectionnez une option débloquée et confirmez dans l'interface."
+      },
+      {
+        "title": "Vous attendiez tous les pouvoirs au niveau un",
+        "text": "Les effets avancés et le niveau II demandent davantage de couches. Agrandissez la pyramide puis rouvrez le menu."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continuer à construire",
+    "title": "Guides Minecraft associés",
+    "description": "Ces pages couvrent l'édition, la version et les décisions de construction liées à un projet de balise.",
+    "links": [
+      {
+        "title": "Java ou Bedrock",
+        "text": "Comparez les commandes et mécaniques avant de suivre un tutoriel de balise.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparer les éditions"
+      },
+      {
+        "title": "Enchantements Minecraft",
+        "text": "Préparez vos outils et votre équipement pour le travail aidé par la balise.",
+        "url": "/minecraft-enchantments/",
+        "cta": "Voir les enchantements"
+      },
+      {
+        "title": "Versions Minecraft",
+        "text": "Consultez les notes actuelles avant de copier une construction.",
+        "url": "/versions/",
+        "cta": "Ouvrir les versions"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Références principales",
+    "title": "Vérifier les détails liés à la version",
+    "description": "La recette et les mécaniques générales sont stables, mais l'interface et les règles d'édition peuvent évoluer. Vérifiez les sources actuelles après une mise à jour.",
+    "links": [
+      {
+        "title": "Site officiel Minecraft",
+        "text": "Articles et mises à jour officielles pour vérifier le contexte de version.",
+        "url": "https://www.minecraft.net/en-us/articles",
+        "cta": "Ouvrir les articles officiels",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki : Balise",
+        "text": "Référence communautaire sur la recette, les niveaux, les pouvoirs et la portée.",
+        "url": "https://minecraft.wiki/w/Beacon",
+        "cta": "Lire la référence",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki : Wither",
+        "text": "Source de l'étoile du Nether et préparation du combat.",
+        "url": "https://minecraft.wiki/w/Wither",
+        "cta": "Voir la fiche Wither",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Questions fréquentes sur la balise Minecraft",
+    "items": [
+      {
+        "question": "Quelle est la recette d'une balise Minecraft ?",
+        "answer": "Il faut 5 verres, 3 obsidiennes et 1 étoile du Nether: verre en haut, étoile au centre et obsidienne en bas."
+      },
+      {
+        "question": "Combien de blocs faut-il pour une balise complète ?",
+        "answer": "La pyramide à quatre niveaux utilise 164 blocs au total, répartis en couches de 9, 25, 49 et 81."
+      },
+      {
+        "question": "Quels blocs activent une balise ?",
+        "answer": "Les blocs complets de fer, or, émeraude, diamant et netherite. Les minerais, dalles et escaliers ne comptent pas."
+      },
+      {
+        "question": "Quelle est la portée d'une balise de niveau quatre ?",
+        "answer": "La distance horizontale de référence est de 50 blocs. Vérifiez la limite dans votre édition et votre version."
+      },
+      {
+        "question": "Pourquoi le rayon est-il visible sans effet ?",
+        "answer": "Vérifiez la pyramide centrée, le ciel libre, l'objet de paiement et la confirmation du pouvoir."
+      },
+      {
+        "question": "Peut-on mélanger les matériaux ?",
+        "answer": "Oui. Chaque couche doit être composée de blocs complets appartenant aux cinq matériaux acceptés."
+      },
+      {
+        "question": "Comment changer l'effet ?",
+        "answer": "Rouvrez l'interface, placez un nouveau paiement, choisissez un pouvoir débloqué et confirmez. La base reste en place."
+      },
+      {
+        "question": "Le verre peut-il colorer le rayon ?",
+        "answer": "Oui. Un verre ou panneau teinté placé au-dessus peut colorer le rayon, sans bloc opaque."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Balise Minecraft : recette, niveaux, portée et effets",
+      "description": "Découvrez la recette de la balise Minecraft, les quatre niveaux de pyramide, la portée, les paiements et les solutions si elle ne s'active pas.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/fr/minecraft-beacon/",
+      "inLanguage": "fr"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelle est la recette d'une balise Minecraft ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il faut 5 verres, 3 obsidiennes et 1 étoile du Nether: verre en haut, étoile au centre et obsidienne en bas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de blocs faut-il pour une balise complète ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La pyramide à quatre niveaux utilise 164 blocs au total, répartis en couches de 9, 25, 49 et 81."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels blocs activent une balise ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les blocs complets de fer, or, émeraude, diamant et netherite. Les minerais, dalles et escaliers ne comptent pas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la portée d'une balise de niveau quatre ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La distance horizontale de référence est de 50 blocs. Vérifiez la limite dans votre édition et votre version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi le rayon est-il visible sans effet ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vérifiez la pyramide centrée, le ciel libre, l'objet de paiement et la confirmation du pouvoir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on mélanger les matériaux ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Chaque couche doit être composée de blocs complets appartenant aux cinq matériaux acceptés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment changer l'effet ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rouvrez l'interface, placez un nouveau paiement, choisissez un pouvoir débloqué et confirmez. La base reste en place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le verre peut-il colorer le rayon ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Un verre ou panneau teinté placé au-dessus peut colorer le rayon, sans bloc opaque."
+          }
+        }
+      ]
+    }
+  }
+}

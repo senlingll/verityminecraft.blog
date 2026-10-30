@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Minecraft-Leuchtfeuer: Rezept, Pyramide, Reichweite und Effekte (2026)",
+    "description": "Minecraft-Leuchtfeuer erklärt: Rezept, vier Pyramidenstufen, Reichweite, Bezahlitems und Fehlerbehebung bei der Aktivierung.",
+    "image": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Minecraft-Bauanleitung",
+    "title": "Minecraft-Leuchtfeuer: Rezept, Pyramidenstufen, Reichweite und Effekte",
+    "lede": "Ein Minecraft-Leuchtfeuer lässt sich leichter planen, wenn Rezept, Mineralienpyramide und Effektmenü getrennt geprüft werden. Diese Anleitung zeigt die Zutaten, vier Grundflächen, Reichweiten und einen Aktivierungstest für Java und Bedrock.",
+    "support": "Die Diagramme sind eigene redaktionelle Konzeptgrafiken und keine offiziellen Spielszenen. Prüfe Edition und Version, bevor du eine große Survival-Konstruktion baust.",
+    "actions": [
+      {
+        "label": "Java und Bedrock vergleichen",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Versionshinweise prüfen",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "alt": "Eigene Konzeptgrafik eines Minecraft-Leuchtfeuers über einer vierstufigen Mineralienpyramide, keine Gameplay-Aufnahme.",
+      "caption": "Ein Leuchtfeuer verbindet den hergestellten Block, eine Mineralienpyramide und einen freien Lichtstrahl. Eigene Planungsgrafik.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Was braucht man für ein Minecraft-Leuchtfeuer?",
+    "paragraphs": [
+      "Das Rezept benötigt 5 Glas, 3 Obsidian und 1 Netherstern. Der Netherstern stammt vom Wither, daher ist das Leuchtfeuer ein Endgame-Block. Glas kommt in die obere Reihe, der Netherstern in die Mitte und Obsidian in die untere Reihe des Werktischs.",
+      "Das Herstellen ist nur der Anfang. Für die Aktivierung steht das Leuchtfeuer auf einer Pyramide aus Eisen-, Gold-, Smaragd-, Diamant- oder Netheritblöcken. Die Materialien dürfen gemischt werden. Eine vollständige Pyramide benötigt 164 Blöcke, deshalb ist Stufe eins ein guter Test.",
+      "Der Strahl braucht außerdem freie Sicht zum Himmel. Undurchsichtige Blöcke stoppen ihn, Glas kann ihn durchlassen. Öffne danach das Menü, lege ein gültiges Zahlungsobjekt ein, wähle einen Effekt und bestätige."
+    ],
+    "cards": [
+      {
+        "title": "Rezept",
+        "text": "5 Glas, 3 Obsidian und 1 Netherstern."
+      },
+      {
+        "title": "Material",
+        "text": "Eisen, Gold, Smaragd, Diamant und Netherit, kombinierbar."
+      },
+      {
+        "title": "Reichweite",
+        "text": "Je nach Stufe 20, 30, 40 oder 50 Blöcke."
+      },
+      {
+        "title": "Zahlung",
+        "text": "Eisen- oder Goldbarren, Smaragd, Diamant oder Netheritbarren."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Aktivierungsfolge",
+    "title": "Ein Minecraft-Leuchtfeuer bauen und aktivieren",
+    "description": "Baue zuerst die kleinste prüfbare Variante. So lassen sich Dach, Pyramide und Menüauswahl getrennt testen.",
+    "items": [
+      {
+        "title": "1. Leuchtfeuer herstellen",
+        "text": "Du brauchst fünf Glas, drei Obsidian und einen Netherstern. Glas kommt oben, der Netherstern in die Mitte und Obsidian unten in den Werktisch."
+      },
+      {
+        "title": "2. Sichtbaren Testplatz wählen",
+        "text": "Setze das erste Leuchtfeuer auf ein flaches Dach, einen Hügel oder in einen Raum mit Glasschacht, damit der Strahl gut sichtbar bleibt."
+      },
+      {
+        "title": "3. Gültige Pyramide bauen",
+        "text": "Nutze vollständige Blöcke aus Eisen, Gold, Smaragd, Diamant oder Netherit. Beginne mit 3 x 3 und erweitere zentriert auf 5 x 5, 7 x 7 und 9 x 9."
+      },
+      {
+        "title": "4. Strahl freimachen",
+        "text": "Setze das Leuchtfeuer in die Mitte der obersten Ebene und entferne Stein, Erde, Holz oder ein anderes undurchsichtiges Hindernis. Glas lässt den Strahl passieren."
+      },
+      {
+        "title": "5. Effekt auswählen",
+        "text": "Öffne das Menü, lege ein gültiges Zahlungsobjekt ein, wähle einen freigeschalteten Effekt und bestätige. Höhere Ebenen geben Resistenz, Sprungkraft, Stärke und Regeneration frei."
+      },
+      {
+        "title": "6. Reichweite und Farbe testen",
+        "text": "Gehe vom Leuchtfeuer weg, bis das Effekt-Symbol verschwindet, und kehre zurück. Gefärbtes Glas kann den Strahl einfärben; prüfe die Grenze in deiner Edition."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Pyramide prüfen",
+    "title": "Kosten und Reichweite mit vier Pyramidenstufen planen",
+    "paragraphs": [
+      "Zähle nicht nur die oberste Ebene. Stufe zwei ergänzt 25 Blöcke zu den 9 der ersten Ebene; Stufe vier kommt insgesamt auf 164 Blöcke.",
+      "20, 30, 40 und 50 Blöcke sind horizontale Planungswerte. Gelände und Höhe verändern das tatsächliche Gefühl, daher teste die Grenze in deiner Version.",
+      "Für ein Upgrade brauchst du kein neues Leuchtfeuer. Ergänze eine zentrierte Ebene darunter, öffne das Menü erneut und verwende vollständige Mineralblöcke statt Erz, Barren oder Platten."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-pyramid.webp",
+      "alt": "Eigene Konzeptgrafik der vier Minecraft-Leuchtfeuer-Pyramidenstufen von 3 x 3 bis 9 x 9; keine Gameplay-Aufnahme.",
+      "caption": "Alle unteren Ebenen zählen mit: 9, 34, 83 und 164 Blöcke. Eigene Planungsgrafik.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "table": {
+    "eyebrow": "Kosten und Reichweite",
+    "title": "Minecraft-Leuchtfeuer: Pyramidenstufen",
+    "description": "Die Summe enthält alle unteren Ebenen; die Reichweite ist eine horizontale Planungsdistanz.",
+    "headers": [
+      "Stufe",
+      "Grundfläche",
+      "Blöcke gesamt",
+      "Reichweite",
+      "Neuer Effekt"
+    ],
+    "rows": [
+      [
+        "1",
+        "3 x 3",
+        "9",
+        "20 Blöcke",
+        "Schnelligkeit oder Eile"
+      ],
+      [
+        "2",
+        "5 x 5 + 3 x 3",
+        "34",
+        "30 Blöcke",
+        "Resistenz oder Sprungkraft"
+      ],
+      [
+        "3",
+        "7 x 7 + untere Ebenen",
+        "83",
+        "40 Blöcke",
+        "Stärke"
+      ],
+      [
+        "4",
+        "9 x 9 + untere Ebenen",
+        "164",
+        "50 Blöcke",
+        "Stufe II oder Regeneration"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Effektmenü",
+    "title": "Den Effekt passend zur Aufgabe wählen",
+    "paragraphs": [
+      "Schnelligkeit hilft an der Basis, Eile beim Abbauen, Resistenz bei gefährlichen Arbeiten und Sprungkraft in unebenem Gelände. Stärke ist für Kämpfe gedacht; Regeneration ist eine Option der vierten Stufe.",
+      "Ein Leuchtfeuer verteilt nicht alle Effekte gleichzeitig. Das Menü zeigt die durch die Ebenen freigeschalteten Optionen. Zahle erneut, wenn du den Effekt wechseln möchtest, und lagere Barren daneben.",
+      "Die Ringe der Grafik sind eine Planungshilfe und keine exakte Karte. Markiere die Grenze und prüfe den Effekt am Boden, auf Treppen und auf der höchsten Arbeitsplattform."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-effects.webp",
+      "alt": "Eigene Konzeptgrafik eines Leuchtfeuers mit Planungsringen für Schnelligkeit, Eile, Resistenz und Sprungkraft; keine Spieloberfläche.",
+      "caption": "Plane den Arbeitsbereich mit den Ringen und prüfe die Grenze in deiner Welt. Eigene Erklärgrafik.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Fehlerbehebung",
+    "title": "Warum funktioniert mein Minecraft-Leuchtfeuer nicht?",
+    "description": "Prüfe eine Ebene nach der anderen. Ein inaktives Leuchtfeuer hat meist einen blockierten Strahl, eine unvollständige Pyramide oder eine nicht bestätigte Auswahl.",
+    "cards": [
+      {
+        "title": "Ein undurchsichtiger Block liegt darüber",
+        "text": "Stein, Erde, Holz und ein festes Dach stoppen den Strahl. Entferne das Hindernis oder nutze Glas."
+      },
+      {
+        "title": "Die Basis besteht aus falschen Blöcken",
+        "text": "Erz, Barren, Platten und Treppen ersetzen keine vollständigen akzeptierten Mineralblöcke. Zähle vom Zentrum aus."
+      },
+      {
+        "title": "Die Pyramide ist verschoben",
+        "text": "Das Leuchtfeuer muss über der Mitte der obersten Ebene stehen. Eine fehlende Ecke kann die Stufe ungültig machen."
+      },
+      {
+        "title": "Der Effekt wurde nicht bestätigt",
+        "text": "Lege ein gültiges Zahlungsobjekt ein, wähle eine Option und bestätige sie im Menü."
+      },
+      {
+        "title": "Alle Effekte wurden auf Stufe eins erwartet",
+        "text": "Stärkere Effekte und Stufe II brauchen weitere Ebenen. Erweitere die Pyramide und öffne das Menü erneut."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Weiterbauen",
+    "title": "Verwandte Minecraft-Anleitungen",
+    "description": "Diese Seiten ergänzen Edition, Version und Bauentscheidungen rund um dein Leuchtfeuer.",
+    "links": [
+      {
+        "title": "Java oder Bedrock",
+        "text": "Vergleiche Befehle und Mechaniken vor einer Leuchtfeuer-Anleitung.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Editionen vergleichen"
+      },
+      {
+        "title": "Minecraft-Verzauberungen",
+        "text": "Plane Werkzeuge und Ausrüstung für die Aufgabe, die dein Leuchtfeuer unterstützt.",
+        "url": "/minecraft-enchantments/",
+        "cta": "Verzauberungen ansehen"
+      },
+      {
+        "title": "Minecraft-Versionen",
+        "text": "Prüfe aktuelle Hinweise, bevor du eine Konstruktion kopierst.",
+        "url": "/versions/",
+        "cta": "Versionen öffnen"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Primärquellen",
+    "title": "Versionsabhängige Details prüfen",
+    "description": "Rezept und Grundmechanik sind stabil, doch Menütexte und Editionsregeln können sich ändern. Prüfe nach Updates die aktuellen Quellen.",
+    "links": [
+      {
+        "title": "Offizielle Minecraft-Seite",
+        "text": "Offizielle Artikel und Update-Hinweise zum Versionskontext.",
+        "url": "https://www.minecraft.net/en-us/articles",
+        "cta": "Offizielle Artikel öffnen",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Leuchtfeuer",
+        "text": "Community-Referenz zu Rezept, Ebenen, Effekten, Reichweite und Strahlfarbe.",
+        "url": "https://minecraft.wiki/w/Beacon",
+        "cta": "Referenz lesen",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Wither-Referenz",
+        "text": "Quelle des Nethersterns und Vorbereitung auf den Kampf.",
+        "url": "https://minecraft.wiki/w/Wither",
+        "cta": "Wither-Anleitung öffnen",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Häufige Fragen zum Minecraft-Leuchtfeuer",
+    "items": [
+      {
+        "question": "Wie lautet das Rezept für ein Minecraft-Leuchtfeuer?",
+        "answer": "Du brauchst 5 Glas, 3 Obsidian und 1 Netherstern: Glas oben, Stern in der Mitte und Obsidian unten."
+      },
+      {
+        "question": "Wie viele Blöcke braucht ein vollständiges Leuchtfeuer?",
+        "answer": "Die vier Ebenen benötigen insgesamt 164 Blöcke in Schichten von 9, 25, 49 und 81."
+      },
+      {
+        "question": "Welche Blöcke aktivieren ein Leuchtfeuer?",
+        "answer": "Vollständige Eisen-, Gold-, Smaragd-, Diamant- oder Netheritblöcke. Erz, Platten und Treppen zählen nicht."
+      },
+      {
+        "question": "Wie weit reicht Stufe vier?",
+        "answer": "Der horizontale Planungswert beträgt 50 Blöcke. Prüfe die Grenze in deiner Edition und Version."
+      },
+      {
+        "question": "Warum sehe ich den Strahl, aber keinen Effekt?",
+        "answer": "Prüfe die zentrierte Pyramide, freien Himmel, ein gültiges Zahlungsobjekt und die Bestätigung im Menü."
+      },
+      {
+        "question": "Darf ich Materialien mischen?",
+        "answer": "Ja. Jede Ebene muss aus vollständigen Blöcken eines der fünf akzeptierten Materialien bestehen."
+      },
+      {
+        "question": "Wie ändere ich den Effekt?",
+        "answer": "Öffne das Menü, zahle erneut, wähle einen freigeschalteten Effekt und bestätige. Die Basis bleibt stehen."
+      },
+      {
+        "question": "Kann Glas den Strahl färben?",
+        "answer": "Ja. Gefärbtes Glas oder eine Glasscheibe über dem Leuchtfeuer färbt den Strahl, ein undurchsichtiger Block würde ihn stoppen."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft-Leuchtfeuer: Rezept, Pyramidenstufen, Reichweite und Effekte",
+      "description": "Minecraft-Leuchtfeuer erklärt: Rezept, vier Pyramidenstufen, Reichweite, Bezahlitems und Fehlerbehebung bei der Aktivierung.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/de/minecraft-beacon/",
+      "inLanguage": "de"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie lautet das Rezept für ein Minecraft-Leuchtfeuer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Du brauchst 5 Glas, 3 Obsidian und 1 Netherstern: Glas oben, Stern in der Mitte und Obsidian unten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viele Blöcke braucht ein vollständiges Leuchtfeuer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die vier Ebenen benötigen insgesamt 164 Blöcke in Schichten von 9, 25, 49 und 81."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Blöcke aktivieren ein Leuchtfeuer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vollständige Eisen-, Gold-, Smaragd-, Diamant- oder Netheritblöcke. Erz, Platten und Treppen zählen nicht."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit reicht Stufe vier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der horizontale Planungswert beträgt 50 Blöcke. Prüfe die Grenze in deiner Edition und Version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum sehe ich den Strahl, aber keinen Effekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prüfe die zentrierte Pyramide, freien Himmel, ein gültiges Zahlungsobjekt und die Bestätigung im Menü."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Darf ich Materialien mischen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jede Ebene muss aus vollständigen Blöcken eines der fünf akzeptierten Materialien bestehen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ändere ich den Effekt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öffne das Menü, zahle erneut, wähle einen freigeschalteten Effekt und bestätige. Die Basis bleibt stehen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann Glas den Strahl färben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Gefärbtes Glas oder eine Glasscheibe über dem Leuchtfeuer färbt den Strahl, ein undurchsichtiger Block würde ihn stoppen."
+          }
+        }
+      ]
+    }
+  }
+}

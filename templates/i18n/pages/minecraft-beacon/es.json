@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Faro de Minecraft: receta, niveles, alcance y efectos (2026)",
+    "description": "Aprende la receta del faro de Minecraft, los cuatro niveles de pirámide, el alcance, los objetos de pago y cómo arreglar un faro que no se activa.",
+    "image": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guía de construcción de Minecraft",
+    "title": "Faro de Minecraft: receta, niveles de pirámide, alcance y efectos",
+    "lede": "Un faro de Minecraft se planifica mejor si separas la receta, la pirámide mineral y el menú de poderes. Esta guía reúne los ingredientes exactos, los cuatro tamaños de base, el alcance de cada nivel y una prueba de activación para Java y Bedrock.",
+    "support": "Los diagramas de esta página son gráficos editoriales originales, no capturas oficiales. El comportamiento puede variar según la edición o la versión; comprueba las sugerencias del juego antes de construir en tu mundo principal.",
+    "actions": [
+      {
+        "label": "Comparar Java y Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Ver notas de versión",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "alt": "Diagrama conceptual original de un faro de Minecraft sobre una pirámide mineral de cuatro niveles; es un gráfico editorial, no una captura de juego.",
+      "caption": "El faro combina un bloque fabricado, una pirámide mineral y un rayo despejado. Es un gráfico de planificación original.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "¿Qué necesitas para fabricar un faro de Minecraft?",
+    "paragraphs": [
+      "La receta del faro usa 5 vidrios, 3 obsidianas y 1 estrella del Nether. La estrella se obtiene al derrotar al Wither, por lo que el faro es una utilidad de fase avanzada. Coloca el vidrio en la fila superior, la estrella en el centro y la obsidiana en la fila inferior de una mesa de trabajo.",
+      "Fabricar el bloque es solo la mitad. Para activarlo, coloca el faro sobre una pirámide de bloques de hierro, oro, esmeralda, diamante o netherita. Puedes mezclar materiales. La pirámide completa usa 164 bloques, así que empezar por el nivel uno permite probar el sistema antes de gastar todos los recursos.",
+      "El faro también necesita una ruta despejada hacia el cielo. Los bloques opacos detienen el rayo; el vidrio puede dejarlo visible. Cuando el rayo esté activo, abre la interfaz, introduce un objeto de pago válido, elige un poder y confirma. El objeto se consume al aplicar o cambiar el poder."
+    ],
+    "cards": [
+      {
+        "title": "Receta",
+        "text": "5 vidrios, 3 obsidianas y 1 estrella del Nether."
+      },
+      {
+        "title": "Materiales",
+        "text": "Hierro, oro, esmeralda, diamante y netherita; se pueden mezclar."
+      },
+      {
+        "title": "Alcance",
+        "text": "Los niveles llegan a 20, 30, 40 o 50 bloques."
+      },
+      {
+        "title": "Pago",
+        "text": "Usa un lingote de hierro u oro, una esmeralda, un diamante o un lingote de netherita."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Secuencia de activación",
+    "title": "Cómo construir y activar un faro de Minecraft",
+    "description": "Construye primero la versión más pequeña que puedas probar. Así no confundirás un techo opaco, una base incompleta o una selección sin confirmar con un problema de receta.",
+    "items": [
+      {
+        "title": "1. Fabrica el faro",
+        "text": "Reúne cinco vidrios, tres obsidianas y una estrella del Nether. Coloca el vidrio en la fila superior, la estrella en el centro y la obsidiana abajo de la mesa de trabajo."
+      },
+      {
+        "title": "2. Elige un lugar visible",
+        "text": "Pon el primer faro donde puedas ver el rayo desde tu base. Una azotea, una colina o un hueco con un conducto de vidrio facilita la revisión."
+      },
+      {
+        "title": "3. Construye una pirámide válida",
+        "text": "Usa bloques completos de hierro, oro, esmeralda, diamante o netherita. Empieza con 3 por 3 y añade 5 por 5, 7 por 7 y 9 por 9 centrados."
+      },
+      {
+        "title": "4. Despeja el rayo",
+        "text": "Coloca el faro en el centro de la capa superior y retira piedra, tierra, madera u otro bloque opaco que esté encima. El vidrio puede dejar pasar el rayo."
+      },
+      {
+        "title": "5. Selecciona un poder",
+        "text": "Abre la interfaz, introduce un objeto de pago válido, elige un poder desbloqueado y confirma. Las capas superiores añaden Resistencia, Salto, Fuerza y Regeneración."
+      },
+      {
+        "title": "6. Prueba el alcance y el color",
+        "text": "Camina hasta que desaparezca el icono del efecto y vuelve a entrar. Un cristal tintado puede cambiar el color del rayo; prueba el límite en tu edición."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Comprobar la pirámide",
+    "title": "Usa los cuatro niveles para planificar coste y alcance",
+    "paragraphs": [
+      "El problema más habitual es contar solo la capa superior. El nivel dos suma 25 bloques a los 9 del nivel uno; el nivel cuatro combina 81, 49, 25 y 9, es decir, 164 bloques.",
+      "Los valores de 20, 30, 40 y 50 bloques son distancias horizontales para planificar. El terreno y la altura influyen en la experiencia real, así que camina por el borde en tu versión.",
+      "Para mejorar el faro no necesitas fabricar otro. Añade una capa centrada debajo, abre de nuevo la interfaz y comprueba que todos sean bloques completos, no menas, lingotes, losas ni escaleras."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-pyramid.webp",
+      "alt": "Diagrama original con los niveles de pirámide del faro de Minecraft: 3 por 3, 5 por 5, 7 por 7 y 9 por 9; no es una captura de juego.",
+      "caption": "El total incluye todas las capas inferiores: 9, 34, 83 y 164 bloques. Es un diagrama de planificación original.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "table": {
+    "eyebrow": "Tabla de coste y alcance",
+    "title": "Niveles de pirámide del faro de Minecraft",
+    "description": "El total incluye todas las capas y el alcance es una distancia horizontal de planificación.",
+    "headers": [
+      "Nivel",
+      "Huella",
+      "Bloques totales",
+      "Alcance aprox.",
+      "Nuevo poder"
+    ],
+    "rows": [
+      [
+        "1",
+        "3 por 3",
+        "9",
+        "20 bloques",
+        "Velocidad o Prisa"
+      ],
+      [
+        "2",
+        "5 por 5 + 3 por 3",
+        "34",
+        "30 bloques",
+        "Resistencia o Salto"
+      ],
+      [
+        "3",
+        "7 por 7 + capas inferiores",
+        "83",
+        "40 bloques",
+        "Fuerza"
+      ],
+      [
+        "4",
+        "9 por 9 + capas inferiores",
+        "164",
+        "50 bloques",
+        "Poder II o Regeneración"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Menú de poderes",
+    "title": "Elige el efecto que corresponde al trabajo",
+    "paragraphs": [
+      "La Velocidad ayuda alrededor de la base; la Prisa acelera la minería; la Resistencia sirve para trabajos peligrosos; el Salto facilita el terreno irregular; la Fuerza es una opción de combate y la Regeneración aparece como secundaria en el nivel cuatro.",
+      "El faro no aplica todos los poderes a la vez. La interfaz muestra las opciones desbloqueadas por las capas. Coloca otro objeto de pago cuando quieras cambiar de poder y guarda algunos lingotes cerca.",
+      "Los círculos del diagrama sirven para planificar, no son un mapa exacto. Marca el borde del área y comprueba el efecto en el suelo, en las escaleras y en la plataforma de trabajo más alta."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-effects.webp",
+      "alt": "Diagrama conceptual original de un faro con anillos de planificación para Velocidad, Prisa, Resistencia y Salto; no es una interfaz del juego.",
+      "caption": "Usa los anillos para planificar la zona y confirma el límite en tu mundo. Es un diagrama explicativo original.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Solución de problemas",
+    "title": "¿Por qué no funciona mi faro de Minecraft?",
+    "description": "Revisa una capa cada vez. Un faro que no se activa suele tener el rayo bloqueado, la pirámide incompleta o una elección sin confirmar.",
+    "cards": [
+      {
+        "title": "Hay un bloque opaco encima",
+        "text": "Piedra, tierra, madera o un techo sólido detienen el rayo. Retira el obstáculo o usa vidrio en esa sección."
+      },
+      {
+        "title": "La base usa bloques incorrectos",
+        "text": "Las menas, lingotes, losas y escaleras no sustituyen a los bloques completos aceptados. Cuenta las capas desde el centro."
+      },
+      {
+        "title": "La pirámide está desplazada",
+        "text": "El faro debe quedar sobre el centro de la capa superior. Una esquina ausente rompe el nivel aunque la forma parezca casi completa."
+      },
+      {
+        "title": "No confirmaste el poder",
+        "text": "Introduce un objeto válido, elige una opción desbloqueada y pulsa el control de confirmación de la interfaz."
+      },
+      {
+        "title": "Esperabas todos los poderes en el nivel uno",
+        "text": "Los efectos avanzados y el nivel II requieren más capas. Amplía la pirámide y vuelve a revisar el menú."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Sigue construyendo",
+    "title": "Guías de Minecraft relacionadas",
+    "description": "Estas páginas cubren la edición, la versión y las decisiones de construcción que acompañan a un proyecto con faro.",
+    "links": [
+      {
+        "title": "Java frente a Bedrock",
+        "text": "Compara comandos y mecánicas antes de seguir un tutorial de faros.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar ediciones"
+      },
+      {
+        "title": "Encantamientos de Minecraft",
+        "text": "Prepara herramientas y combate para el trabajo que apoyará tu faro.",
+        "url": "/minecraft-enchantments/",
+        "cta": "Ver encantamientos"
+      },
+      {
+        "title": "Versiones de Minecraft",
+        "text": "Revisa las notas actuales antes de copiar una construcción en tu mundo.",
+        "url": "/versions/",
+        "cta": "Abrir versiones"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referencias principales",
+    "title": "Comprueba los detalles sensibles a la versión",
+    "description": "La receta y las mecánicas generales son estables, pero las etiquetas y reglas de cada edición pueden cambiar. Comprueba las fuentes actuales cuando una actualización afecte a tu mundo.",
+    "links": [
+      {
+        "title": "Sitio oficial de Minecraft",
+        "text": "Noticias y actualizaciones oficiales para comprobar el contexto de la versión.",
+        "url": "https://www.minecraft.net/en-us/articles",
+        "cta": "Abrir artículos oficiales",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Faro",
+        "text": "Referencia comunitaria sobre receta, niveles, poderes, alcance y color del rayo.",
+        "url": "https://minecraft.wiki/w/Beacon",
+        "cta": "Leer referencia del faro",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Wither (referencia)",
+        "text": "Origen de la estrella del Nether y preparación para obtenerla.",
+        "url": "https://minecraft.wiki/w/Wither",
+        "cta": "Ver guía del Wither",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes sobre el faro de Minecraft",
+    "items": [
+      {
+        "question": "¿Cuál es la receta del faro de Minecraft?",
+        "answer": "Usa 5 vidrios, 3 obsidianas y 1 estrella del Nether: vidrio arriba, estrella en el centro y obsidiana abajo."
+      },
+      {
+        "question": "¿Cuántos bloques hacen falta para un faro completo?",
+        "answer": "La pirámide de cuatro niveles usa 164 bloques: 9, 25, 49 y 81 en sus capas."
+      },
+      {
+        "question": "¿Qué bloques activan un faro?",
+        "answer": "Bloques completos de hierro, oro, esmeralda, diamante y netherita. Puedes mezclarlos; las menas, losas y escaleras no cuentan."
+      },
+      {
+        "question": "¿Qué alcance tiene un faro de nivel cuatro?",
+        "answer": "La referencia de planificación es de 50 bloques en horizontal. Comprueba el borde en tu edición y versión."
+      },
+      {
+        "question": "¿Por qué veo el rayo pero no tengo el efecto?",
+        "answer": "Comprueba la pirámide centrada, el cielo despejado, un objeto de pago válido y la confirmación del poder."
+      },
+      {
+        "question": "¿Se pueden mezclar materiales en la pirámide?",
+        "answer": "Sí. Cada capa debe usar bloques completos de uno de los cinco materiales aceptados."
+      },
+      {
+        "question": "¿Cómo cambio el efecto del faro?",
+        "answer": "Abre la interfaz, coloca otro objeto de pago, elige un poder desbloqueado y confirma. No hace falta reconstruir la base."
+      },
+      {
+        "question": "¿Puedo cambiar el color del rayo con vidrio?",
+        "answer": "Sí. Coloca vidrio tintado o un panel tintado sobre el faro, sin bloquearlo con un bloque opaco."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Faro de Minecraft: receta, niveles de pirámide, alcance y efectos",
+      "description": "Aprende la receta del faro de Minecraft, los cuatro niveles de pirámide, el alcance, los objetos de pago y cómo arreglar un faro que no se activa.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/es/minecraft-beacon/",
+      "inLanguage": "es"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la receta del faro de Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usa 5 vidrios, 3 obsidianas y 1 estrella del Nether: vidrio arriba, estrella en el centro y obsidiana abajo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántos bloques hacen falta para un faro completo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La pirámide de cuatro niveles usa 164 bloques: 9, 25, 49 y 81 en sus capas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué bloques activan un faro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bloques completos de hierro, oro, esmeralda, diamante y netherita. Puedes mezclarlos; las menas, losas y escaleras no cuentan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué alcance tiene un faro de nivel cuatro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La referencia de planificación es de 50 bloques en horizontal. Comprueba el borde en tu edición y versión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué veo el rayo pero no tengo el efecto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprueba la pirámide centrada, el cielo despejado, un objeto de pago válido y la confirmación del poder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se pueden mezclar materiales en la pirámide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Cada capa debe usar bloques completos de uno de los cinco materiales aceptados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo cambio el efecto del faro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abre la interfaz, coloca otro objeto de pago, elige un poder desbloqueado y confirma. No hace falta reconstruir la base."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo cambiar el color del rayo con vidrio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Coloca vidrio tintado o un panel tintado sobre el faro, sin bloquearlo con un bloque opaco."
+          }
+        }
+      ]
+    }
+  }
+}

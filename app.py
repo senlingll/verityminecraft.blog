@@ -690,6 +690,27 @@ def localized_minecraft_iron_farm(lang):
     return render_core_page('minecraft-iron-farm', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-beacon/', strict_slashes=False)
+def minecraft_beacon():
+    """
+    渲染 Minecraft Beacon 配方、金字塔与效果指南页面。
+
+    :return: str，Minecraft Beacon 指南页面 HTML 响应内容
+    """
+    return render_core_page('minecraft-beacon', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-beacon/', strict_slashes=False)
+def localized_minecraft_beacon(lang):
+    """
+    渲染指定语言的 Minecraft Beacon 指南页面。
+
+    :param lang: 语言代码
+    :return: str，指定语言 Beacon 指南页面 HTML 响应内容
+    """
+    return render_core_page('minecraft-beacon', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/verity-mod-guide/', strict_slashes=False)
 def verity_mod_guide():
     """

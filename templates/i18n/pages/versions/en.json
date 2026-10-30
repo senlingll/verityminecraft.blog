@@ -24,7 +24,7 @@
       },
       {
         "label": "Java latest verified file",
-        "value": "verity-6.0.0-beta.9.jar; beta; Forge/Minecraft 1.20.1; 257,904,342 bytes; released 2026-09-03"
+        "value": "verity-6.0.0.jar; release; Forge/Minecraft 1.20.1; 256,881,551 bytes; released 2026-10-23"
       },
       {
         "label": "Minecraft Java game release",
@@ -32,7 +32,7 @@
       },
       {
         "label": "Java release status",
-        "value": "v6.0.0-beta.9; released 2026-09-03; latest beta; check the source before installing"
+        "value": "v6.0.0; released 2026-10-23; current release; check the source before installing"
       },
       {
         "label": "PE source type",
@@ -40,7 +40,7 @@
       },
       {
         "label": "Last checked",
-        "value": "October 18, 2026"
+        "value": "October 31, 2026"
       }
     ]
   },
@@ -109,8 +109,8 @@
       ],
       [
         "Verity Java mod",
-        "verity-6.0.0-beta.9.jar",
-        "Beta; Forge/Minecraft 1.20.1; 257,904,342 bytes",
+        "verity-6.0.0.jar",
+        "Release; Forge/Minecraft 1.20.1; 256,881,551 bytes",
         "Modrinth / CurseForge"
       ],
       [
@@ -213,7 +213,7 @@
     "items": [
       {
         "question": "What is the latest Verity Minecraft version?",
-        "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-6.0.0-beta.9.jar, and the source pages should be checked for the newest release before downloading."
+        "answer": "The answer depends on platform. This site's snapshot lists Bedrock and Java separately, including the reviewed Java file verity-6.0.0.jar, and the source pages should be checked for the newest release before downloading."
       },
       {
         "question": "Can I use a Java Verity version on Bedrock?",

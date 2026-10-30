@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Minecraft Beacon Guide: Recipe, Pyramid Levels, Range & Effects (2026)",
+    "description": "Learn the Minecraft beacon recipe, four pyramid levels, effect range, payment items, beam colors, and fixes for a beacon that will not activate.",
+    "image": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Minecraft build guide",
+    "title": "Minecraft Beacon: Recipe, Pyramid Levels, Range, and Effects",
+    "lede": "A Minecraft beacon is easiest to plan when you separate the recipe, the mineral pyramid, and the power menu. This guide gives you the exact craft ingredients, the four base sizes, the range each level provides, and a short activation test you can repeat in Java or Bedrock.",
+    "support": "The diagrams on this page are original editorial concept graphics, not official gameplay screenshots. Beacon behavior can change with an edition or release, so check your in-game suggestions before a large survival build.",
+    "actions": [
+      {
+        "label": "Compare Java and Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Check version notes",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "alt": "Original concept diagram of a Minecraft beacon beam above a four-tier mineral pyramid, labelled as an editorial guide graphic rather than a gameplay screenshot.",
+      "caption": "A beacon combines a crafted block, a mineral pyramid, and a clear beam. This is an original planning graphic, not an official Minecraft screenshot.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Quick answer",
+    "title": "What Do You Need to Make a Minecraft Beacon?",
+    "paragraphs": [
+      "The Minecraft beacon recipe uses 5 glass, 3 obsidian, and 1 Nether Star. The Nether Star comes from defeating the Wither, so a beacon is a late-game utility block rather than an early starter item. Put the ingredients in a crafting table with the glass across the top, the Nether Star in the center, and obsidian across the bottom.",
+      "Crafting the block is only the first half. To activate it, place the beacon above a pyramid made from iron, gold, emerald, diamond, or netherite blocks. The materials can be mixed, and the pyramid can be built from one block type or several. A full four-level pyramid contains 164 mineral blocks, so many players start with level one and expand after the first power test.",
+      "A working beacon also needs a clear path to the sky. Opaque blocks above the beacon stop the beam and prevent activation; transparent blocks such as glass can keep the beam visible. Once the beam is active, open the beacon interface, insert one accepted payment item, choose a primary power, and press the confirmation control. The payment item is consumed when the power is set or changed."
+    ],
+    "cards": [
+      {
+        "title": "Recipe",
+        "text": "5 glass, 3 obsidian, and 1 Nether Star craft the beacon block."
+      },
+      {
+        "title": "Base materials",
+        "text": "Iron, gold, emerald, diamond, and netherite blocks are valid pyramid materials and may be mixed."
+      },
+      {
+        "title": "Range",
+        "text": "The four levels reach 20, 30, 40, or 50 blocks from the beacon, measured by the active level."
+      },
+      {
+        "title": "Payment",
+        "text": "Use an iron or gold ingot, emerald, diamond, or netherite ingot to select or change a power."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Activation sequence",
+    "title": "How to Build and Activate a Minecraft Beacon",
+    "description": "Build the smallest testable version first. The order below prevents a hidden roof, incomplete base, or unconfirmed power choice from being mistaken for a crafting problem.",
+    "items": [
+      {
+        "title": "1. Craft the beacon",
+        "text": "Collect five glass, three obsidian, and a Nether Star. In the crafting table, place the glass in the top row, put the Nether Star in the center, and fill the bottom row with obsidian. If the recipe does not appear, check that you are using a crafting table and that the Nether Star is in the center slot."
+      },
+      {
+        "title": "2. Pick a visible test site",
+        "text": "Place the first beacon somewhere you can see from your base. A flat roof, hilltop, or marked underground room with a glass shaft makes the beam easy to inspect. Leave space around the future pyramid so you can add layers without moving the beacon."
+      },
+      {
+        "title": "3. Build a valid pyramid",
+        "text": "Use iron, gold, emerald, diamond, or netherite blocks. Start with a 3 by 3 layer directly under the beacon, then add the 5 by 5, 7 by 7, and 9 by 9 layers if you want the full range and power choices. Every layer must be centered on the beacon."
+      },
+      {
+        "title": "4. Place the beacon and clear the beam",
+        "text": "Put the beacon on the center block of the top layer. Look upward for stone, dirt, a build ceiling, or another opaque block. Remove the obstruction or replace the ceiling with a transparent section. If the beam is visible but the menu is disabled, inspect the pyramid before rebuilding the recipe."
+      },
+      {
+        "title": "5. Select a power",
+        "text": "Open the beacon interface and insert one valid payment item. Level one offers Speed or Haste; higher levels add Resistance, Jump Boost, and Strength. At level four, you can upgrade the primary power to level II or choose Regeneration as the secondary power, depending on the interface shown by your edition."
+      },
+      {
+        "title": "6. Test range and color",
+        "text": "Walk away from the beacon in each direction until the effect icon disappears, then return inside the active area. Use a stained glass block or pane above the beacon if you want a colored beam, and test the color from several angles. Keep the effect test separate from decorative blocks so a later change is easy to diagnose."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Pyramid check",
+    "title": "Use the Four Pyramid Levels to Plan Cost and Range",
+    "paragraphs": [
+      "The most common beacon planning mistake is counting only the top layer. Each level includes every layer beneath it. A level-two base is a 5 by 5 square plus the 3 by 3 square below it, for 34 blocks total. A full level-four base is 9 by 9, 7 by 7, 5 by 5, and 3 by 3, for 164 blocks. The pyramid graphic keeps those layers visible so you can budget resources before mining or trading.",
+      "The range numbers are horizontal distances from the beacon, not a promise that every block in a circle will be safe. Vertical movement, terrain, and the time between effect checks still matter in a real build. Treat 20, 30, 40, and 50 blocks as planning limits, then walk the boundary in your own edition and release.",
+      "You do not need to rebuild the beacon block when upgrading the base. Add a centered layer underneath, reopen the interface, and choose a power again if the new level unlocks a stronger option. If the range does not change, count the layers and verify that every block is a full mineral block rather than an ingot, ore, slab, or decorative variant."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-pyramid.webp",
+      "alt": "Original labeled diagram of Minecraft beacon pyramid levels showing 3 by 3, 5 by 5, 7 by 7, and 9 by 9 layers; not a gameplay screenshot.",
+      "caption": "The totals include every layer below the current one: 9, 34, 83, and 164 blocks. This is a planning diagram, not an in-game capture.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "table": {
+    "eyebrow": "Cost and range table",
+    "title": "Minecraft Beacon Pyramid Levels at a Glance",
+    "description": "Use the table to choose a practical first build. The range values are horizontal planning distances and the block total includes all layers.",
+    "headers": [
+      "Level",
+      "Footprint",
+      "Total blocks",
+      "Approx. range",
+      "New power access"
+    ],
+    "rows": [
+      [
+        "1",
+        "3 x 3",
+        "9",
+        "20 blocks",
+        "Speed or Haste"
+      ],
+      [
+        "2",
+        "5 x 5 + 3 x 3",
+        "34",
+        "30 blocks",
+        "Resistance or Jump Boost"
+      ],
+      [
+        "3",
+        "7 x 7 + lower layers",
+        "83",
+        "40 blocks",
+        "Strength"
+      ],
+      [
+        "4",
+        "9 x 9 + lower layers",
+        "164",
+        "50 blocks",
+        "Level II primary or Regeneration"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Power menu",
+    "title": "Choose the Effect That Matches the Job",
+    "paragraphs": [
+      "Speed is useful around a base, Haste helps with a large mining or clearing project, Resistance supports dangerous work, and Jump Boost changes how quickly you cross uneven terrain. Strength is a combat choice. Regeneration is a level-four secondary option. The best power is the one that removes the bottleneck in the task you are doing, not automatically the rarest effect.",
+      "A beacon does not give every power at the same time. The interface shows which primary and secondary options are unlocked by the current number of layers. Insert a payment item, select the power, and confirm. When you want a different power later, open the interface again and pay another accepted item. Keep a few ingots or emeralds in a chest beside the beacon so a change is not blocked by a long trip.",
+      "The effect rings in the diagram are a planning aid, not an exact game map. The active area follows the beacon's level and checks the player position as they move. If you are building a quarry, trading hall, or arena, put a marker at the intended boundary and test the effect at floor level, on stairs, and at the highest work platform."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-effects.webp",
+      "alt": "Original concept diagram showing a beacon beam with labeled effect planning rings for Speed, Haste, Resistance, and Jump Boost; not a gameplay screenshot.",
+      "caption": "Use the rings to plan a work area, then verify the boundary in your own world. The graphic is an original explanatory diagram, not a game interface.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Troubleshooting",
+    "title": "Why Is My Minecraft Beacon Not Working?",
+    "description": "Check one layer at a time. A beacon that will not activate usually has a blocked beam, an incomplete pyramid, or an unconfirmed interface choice.",
+    "cards": [
+      {
+        "title": "An opaque block is above it",
+        "text": "Stone, dirt, wood, or a solid roof can stop the beam. Remove the block or replace the ceiling section with transparent glass and check again."
+      },
+      {
+        "title": "The base uses the wrong blocks",
+        "text": "Ore blocks, ingots, slabs, stairs, and decorative lookalikes do not replace full iron, gold, emerald, diamond, or netherite blocks. Count each layer from the center outward."
+      },
+      {
+        "title": "The pyramid is off-center",
+        "text": "The beacon must sit above the center of the top layer. A shifted 3 by 3 or a missing corner breaks the expected level, even when the base looks nearly complete."
+      },
+      {
+        "title": "The menu choice was not confirmed",
+        "text": "Insert a valid payment item, select an unlocked power, and press the interface confirmation control. Seeing a beam alone does not mean an effect has been applied."
+      },
+      {
+        "title": "You expected every power at level one",
+        "text": "Higher effects and level II options require more layers. Expand the pyramid, reopen the menu, and check the power list shown in your edition."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Keep building",
+    "title": "Related Minecraft Guides",
+    "description": "Use these pages for the edition, version, and adjacent build decisions that affect a beacon project.",
+    "links": [
+      {
+        "title": "Java vs Bedrock",
+        "text": "Compare commands, mechanics, and version assumptions before following a beacon tutorial.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Compare editions"
+      },
+      {
+        "title": "Minecraft Enchantments",
+        "text": "Plan Haste, mining tools, and combat equipment around the job your beacon will support.",
+        "url": "/minecraft-enchantments/",
+        "cta": "Review enchantments"
+      },
+      {
+        "title": "Minecraft Versions",
+        "text": "Check current release notes before copying a design into a long-running survival world.",
+        "url": "/versions/",
+        "cta": "Open version notes"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Primary references",
+    "title": "Verify Version-Sensitive Details",
+    "description": "The recipe and broad mechanics are stable, but interface labels and edition behavior can change. Use current first-party or community references when a release update affects your world.",
+    "links": [
+      {
+        "title": "Minecraft official site",
+        "text": "Use the official Minecraft news and update pages to check release context before a large build.",
+        "url": "https://www.minecraft.net/en-us/articles",
+        "cta": "Open official articles",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Beacon",
+        "text": "Community-maintained reference for recipe, pyramid levels, power options, range, and beam coloring.",
+        "url": "https://minecraft.wiki/w/Beacon",
+        "cta": "Read the beacon reference",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Wither",
+        "text": "Reference for the Nether Star source and the preparation needed to obtain it.",
+        "url": "https://minecraft.wiki/w/Wither",
+        "cta": "Review the Wither guide",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Minecraft Beacon FAQ",
+    "items": [
+      {
+        "question": "What is the Minecraft beacon recipe?",
+        "answer": "Craft a beacon with 5 glass, 3 obsidian, and 1 Nether Star. Put the glass in the top row, the Nether Star in the center, and obsidian in the bottom row of a crafting table."
+      },
+      {
+        "question": "How many blocks do I need for a full beacon?",
+        "answer": "A full four-level beacon pyramid uses 164 mineral blocks in total: 9 on the first layer, then 25, 49, and 81 for the additional layers. The beacon block sits on the center of the top layer."
+      },
+      {
+        "question": "What blocks can power a Minecraft beacon?",
+        "answer": "Full blocks of iron, gold, emerald, diamond, and netherite can form the pyramid, and the materials can be mixed. Ingots, ore, slabs, stairs, and decorative variants do not count."
+      },
+      {
+        "question": "How far does a level-four beacon reach?",
+        "answer": "A level-four beacon has a planning range of 50 blocks horizontally from the beacon. Walk the boundary in your own edition and version because terrain and movement still affect how the effect feels in practice."
+      },
+      {
+        "question": "Why is my beacon beam visible but the power is not active?",
+        "answer": "Check that the pyramid is centered and complete, the beam has a clear path to the sky, and you inserted a valid payment item and confirmed a power in the interface."
+      },
+      {
+        "question": "Can I mix iron, gold, emerald, diamond, and netherite blocks?",
+        "answer": "Yes. The beacon checks whether each layer is made from an accepted full mineral block; it does not require one material for the whole pyramid."
+      },
+      {
+        "question": "How do I change a beacon effect?",
+        "answer": "Open the beacon interface, insert another accepted payment item, choose an unlocked primary or secondary power, and confirm the change. The pyramid does not need to be rebuilt."
+      },
+      {
+        "question": "Can glass color a beacon beam?",
+        "answer": "A stained glass block or pane above the beacon can tint the beam. Test the arrangement from outside the build, and remember that opaque blocks still stop the beam."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Minecraft Beacon: Recipe, Pyramid Levels, Range, and Effects",
+      "description": "Learn the Minecraft beacon recipe, four pyramid levels, effect range, payment items, beam colors, and fixes for a beacon that will not activate.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/minecraft-beacon/",
+      "inLanguage": "en"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Minecraft beacon recipe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Craft a beacon with 5 glass, 3 obsidian, and 1 Nether Star. Put the glass in the top row, the Nether Star in the center, and obsidian in the bottom row of a crafting table."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many blocks do I need for a full beacon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full four-level beacon pyramid uses 164 mineral blocks in total: 9 on the first layer, then 25, 49, and 81 for the additional layers. The beacon block sits on the center of the top layer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What blocks can power a Minecraft beacon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full blocks of iron, gold, emerald, diamond, and netherite can form the pyramid, and the materials can be mixed. Ingots, ore, slabs, stairs, and decorative variants do not count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far does a level-four beacon reach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A level-four beacon has a planning range of 50 blocks horizontally from the beacon. Walk the boundary in your own edition and version because terrain and movement still affect how the effect feels in practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my beacon beam visible but the power is not active?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check that the pyramid is centered and complete, the beam has a clear path to the sky, and you inserted a valid payment item and confirmed a power in the interface."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I mix iron, gold, emerald, diamond, and netherite blocks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The beacon checks whether each layer is made from an accepted full mineral block; it does not require one material for the whole pyramid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I change a beacon effect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the beacon interface, insert another accepted payment item, choose an unlocked primary or secondary power, and confirm the change. The pyramid does not need to be rebuilt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can glass color a beacon beam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A stained glass block or pane above the beacon can tint the beam. Test the arrangement from outside the build, and remember that opaque blocks still stop the beam."
+          }
+        }
+      ]
+    }
+  }
+}

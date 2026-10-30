@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Beacon do Minecraft: receita, pirâmide, alcance e efeitos (2026)",
+    "description": "Veja a receita do beacon do Minecraft, os quatro níveis da pirâmide, alcance, itens de pagamento e correções para um beacon que não ativa.",
+    "image": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia de construção do Minecraft",
+    "title": "Beacon do Minecraft: receita, níveis da pirâmide, alcance e efeitos",
+    "lede": "O beacon do Minecraft fica mais fácil de planejar quando você separa a receita, a pirâmide de minerais e o menu de poderes. Este guia reúne ingredientes, quatro tamanhos de base, alcance de cada nível e um teste de ativação para Java e Bedrock.",
+    "support": "Os diagramas são gráficos conceituais editoriais originais, não capturas oficiais. Confirme a edição e a versão antes de construir no seu mundo de sobrevivência principal.",
+    "actions": [
+      {
+        "label": "Comparar Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Ver notas da versão",
+        "url": "/versions/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "alt": "Diagrama conceitual original de um beacon do Minecraft sobre uma pirâmide mineral de quatro níveis; não é captura de jogo.",
+      "caption": "O beacon combina um bloco criado, uma pirâmide mineral e um feixe livre. Gráfico original de planejamento.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "O que é necessário para fazer um beacon no Minecraft?",
+    "paragraphs": [
+      "A receita usa 5 vidros, 3 obsidianas e 1 Estrela do Nether. A estrela vem do Wither, então o beacon é um bloco de fase avançada. Coloque o vidro na fileira de cima, a estrela no centro e a obsidiana na fileira de baixo da mesa de trabalho.",
+      "Criar o bloco é apenas metade. Para ativá-lo, coloque-o sobre uma pirâmide de blocos de ferro, ouro, esmeralda, diamante ou netherita. Os materiais podem ser misturados. Uma pirâmide completa usa 164 blocos, por isso vale testar primeiro o nível um.",
+      "O feixe também precisa de caminho livre até o céu. Blocos opacos bloqueiam o feixe; vidro pode deixá-lo passar. Abra a interface, coloque um item de pagamento válido, escolha um poder e confirme."
+    ],
+    "cards": [
+      {
+        "title": "Receita",
+        "text": "5 vidros, 3 obsidianas e 1 Estrela do Nether."
+      },
+      {
+        "title": "Materiais",
+        "text": "Ferro, ouro, esmeralda, diamante e netherita, misturáveis."
+      },
+      {
+        "title": "Alcance",
+        "text": "20, 30, 40 ou 50 blocos conforme o nível."
+      },
+      {
+        "title": "Pagamento",
+        "text": "Lingote de ferro ou ouro, esmeralda, diamante ou lingote de netherita."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Sequência de ativação",
+    "title": "Como construir e ativar um beacon do Minecraft",
+    "description": "Comece pela menor versão que possa ser testada. Assim você separa teto opaco, pirâmide incompleta e escolha não confirmada.",
+    "items": [
+      {
+        "title": "1. Crie o sinalizador",
+        "text": "Reúna cinco vidros, três obsidianas e uma Estrela do Nether. Coloque o vidro na fileira superior, a estrela no centro e a obsidiana embaixo da mesa de trabalho."
+      },
+      {
+        "title": "2. Escolha um local visível",
+        "text": "Coloque o primeiro sinalizador em um telhado, colina ou sala com abertura de vidro para que o feixe possa ser visto e testado."
+      },
+      {
+        "title": "3. Faça uma pirâmide válida",
+        "text": "Use blocos completos de ferro, ouro, esmeralda, diamante ou netherita. Comece em 3 x 3 e aumente para 5 x 5, 7 x 7 e 9 x 9, sempre centralizado."
+      },
+      {
+        "title": "4. Libere o feixe",
+        "text": "Deixe o sinalizador no centro da camada superior e remova pedra, terra, madeira ou teto opaco. Vidro pode deixar o feixe passar."
+      },
+      {
+        "title": "5. Escolha um efeito",
+        "text": "Abra a interface, coloque um item de pagamento aceito, escolha um efeito desbloqueado e confirme. Níveis maiores liberam Resistência, Salto, Força e Regeneração."
+      },
+      {
+        "title": "6. Teste alcance e cor",
+        "text": "Afaste-se até o ícone desaparecer e volte. Vidro colorido pode mudar a cor do feixe; teste o limite na sua edição."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Verificação da pirâmide",
+    "title": "Planeje custo e alcance com os quatro níveis",
+    "paragraphs": [
+      "Não conte apenas a camada superior. O nível dois soma 25 blocos aos 9 do primeiro; o nível quatro totaliza 164 blocos.",
+      "20, 30, 40 e 50 blocos são distâncias horizontais para planejamento. O terreno e a altura alteram o uso real, então teste o limite na sua versão.",
+      "Para melhorar o sinalizador, adicione uma camada centralizada abaixo e abra a interface novamente. Use blocos completos, não minério, lingote, laje ou escada."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-pyramid.webp",
+      "alt": "Diagrama conceitual original dos quatro níveis da pirâmide de um sinalizador do Minecraft, de 3 x 3 a 9 x 9; não é captura de jogo.",
+      "caption": "Todas as camadas inferiores entram no total: 9, 34, 83 e 164 blocos. Diagrama original de planejamento.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "table": {
+    "eyebrow": "Custo e alcance",
+    "title": "Níveis da pirâmide do beacon do Minecraft",
+    "description": "O total inclui todas as camadas e o alcance é uma distância horizontal de planejamento.",
+    "headers": [
+      "Nível",
+      "Base",
+      "Blocos totais",
+      "Alcance",
+      "Novo poder"
+    ],
+    "rows": [
+      [
+        "1",
+        "3 x 3",
+        "9",
+        "20 blocos",
+        "Velocidade ou Pressa"
+      ],
+      [
+        "2",
+        "5 x 5 + 3 x 3",
+        "34",
+        "30 blocos",
+        "Resistência ou Salto elevado"
+      ],
+      [
+        "3",
+        "7 x 7 + camadas inferiores",
+        "83",
+        "40 blocos",
+        "Força"
+      ],
+      [
+        "4",
+        "9 x 9 + camadas inferiores",
+        "164",
+        "50 blocos",
+        "Nível II ou Regeneração"
+      ]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Menu de poderes",
+    "title": "Escolha o efeito de acordo com o trabalho",
+    "paragraphs": [
+      "Velocidade ajuda na base, Pressa acelera a mineração, Resistência ajuda em áreas perigosas e Salto elevado facilita terrenos irregulares. Força é útil em combate; Regeneração é uma opção secundária do nível quatro.",
+      "O sinalizador não aplica todos os efeitos ao mesmo tempo. O menu mostra as opções liberadas pelas camadas. Pague novamente para trocar e mantenha alguns lingotes por perto.",
+      "Os anéis do desenho são uma ajuda de planejamento, não um mapa exato. Marque o limite e teste o efeito no chão, nas escadas e na plataforma mais alta."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-beacon/minecraft-beacon-effects.webp",
+      "alt": "Diagrama conceitual original de um sinalizador com anéis de planejamento para Velocidade, Pressa, Resistência e Salto elevado; não é interface do jogo.",
+      "caption": "Planeje a área com os anéis e confirme o limite no seu mundo. É um diagrama explicativo original.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Solução de problemas",
+    "title": "Por que meu beacon do Minecraft não funciona?",
+    "description": "Verifique uma camada por vez. Um sinalizador inativo normalmente tem o feixe bloqueado, a pirâmide incompleta ou uma escolha não confirmada.",
+    "cards": [
+      {
+        "title": "Há um bloco opaco acima",
+        "text": "Pedra, terra, madeira e um teto sólido bloqueiam o feixe. Remova o obstáculo ou use vidro."
+      },
+      {
+        "title": "A base usa blocos errados",
+        "text": "Minério, lingote, laje e escada não substituem blocos minerais completos. Conte a partir do centro."
+      },
+      {
+        "title": "A pirâmide está deslocada",
+        "text": "O sinalizador precisa ficar no centro da camada superior. Uma quina faltando pode invalidar o nível."
+      },
+      {
+        "title": "O efeito não foi confirmado",
+        "text": "Coloque um pagamento aceito, escolha uma opção liberada e confirme na interface."
+      },
+      {
+        "title": "Você esperava todos os efeitos no nível um",
+        "text": "Efeitos avançados e nível II exigem mais camadas. Aumente a pirâmide e abra o menu novamente."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Continue construindo",
+    "title": "Guias de Minecraft relacionados",
+    "description": "Estas páginas ajudam com edição, versão e decisões de construção relacionadas ao sinalizador.",
+    "links": [
+      {
+        "title": "Java ou Bedrock",
+        "text": "Compare comandos e mecânicas antes de seguir um tutorial de sinalizador.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Comparar edições"
+      },
+      {
+        "title": "Encantamentos do Minecraft",
+        "text": "Planeje ferramentas e equipamento para o trabalho apoiado pelo sinalizador.",
+        "url": "/minecraft-enchantments/",
+        "cta": "Ver encantamentos"
+      },
+      {
+        "title": "Versões do Minecraft",
+        "text": "Confira as notas atuais antes de copiar uma construção.",
+        "url": "/versions/",
+        "cta": "Abrir versões"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referências principais",
+    "title": "Verifique detalhes sensíveis à versão",
+    "description": "A receita e a mecânica geral são estáveis, mas rótulos e regras da edição podem mudar. Consulte fontes atuais após uma atualização.",
+    "links": [
+      {
+        "title": "Site oficial do Minecraft",
+        "text": "Artigos e atualizações oficiais para conferir o contexto da versão.",
+        "url": "https://www.minecraft.net/en-us/articles",
+        "cta": "Abrir artigos oficiais",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Sinalizador",
+        "text": "Referência comunitária sobre receita, níveis, efeitos, alcance e cor do feixe.",
+        "url": "https://minecraft.wiki/w/Beacon",
+        "cta": "Ler a referência",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: referência do Wither",
+        "text": "Origem da Estrela do Nether e preparação para obtê-la.",
+        "url": "https://minecraft.wiki/w/Wither",
+        "cta": "Ver guia do Wither",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Perguntas frequentes sobre o sinalizador do Minecraft",
+    "items": [
+      {
+        "question": "Qual é a receita do sinalizador do Minecraft?",
+        "answer": "Use 5 vidros, 3 obsidianas e 1 Estrela do Nether: vidro em cima, estrela no centro e obsidiana embaixo."
+      },
+      {
+        "question": "Quantos blocos são necessários para um sinalizador completo?",
+        "answer": "A pirâmide de quatro níveis usa 164 blocos no total, em camadas de 9, 25, 49 e 81."
+      },
+      {
+        "question": "Quais blocos ativam um sinalizador?",
+        "answer": "Blocos completos de ferro, ouro, esmeralda, diamante e netherita. Minério, laje e escada não contam."
+      },
+      {
+        "question": "Qual é o alcance de um sinalizador de nível quatro?",
+        "answer": "A referência horizontal é 50 blocos. Teste a borda na sua edição e versão."
+      },
+      {
+        "question": "Por que vejo o feixe mas não recebo efeito?",
+        "answer": "Confira a pirâmide centralizada, o céu livre, o item de pagamento e a confirmação do poder."
+      },
+      {
+        "question": "Posso misturar materiais?",
+        "answer": "Sim. Cada camada deve usar blocos completos de um dos cinco materiais aceitos."
+      },
+      {
+        "question": "Como troco o efeito?",
+        "answer": "Abra a interface, coloque outro pagamento, escolha um efeito liberado e confirme. Não é preciso reconstruir a base."
+      },
+      {
+        "question": "Vidro pode colorir o feixe?",
+        "answer": "Sim. Vidro ou painel colorido acima do sinalizador muda a cor, mas um bloco opaco bloqueia o feixe."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Beacon do Minecraft: receita, níveis da pirâmide, alcance e efeitos",
+      "description": "Veja a receita do beacon do Minecraft, os quatro níveis da pirâmide, alcance, itens de pagamento e correções para um beacon que não ativa.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-beacon/minecraft-beacon-feature.webp",
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
+      "author": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Verity Minecraft"
+      },
+      "mainEntityOfPage": "https://verityminecraft.blog/pt/minecraft-beacon/",
+      "inLanguage": "pt"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é a receita do sinalizador do Minecraft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use 5 vidros, 3 obsidianas e 1 Estrela do Nether: vidro em cima, estrela no centro e obsidiana embaixo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantos blocos são necessários para um sinalizador completo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pirâmide de quatro níveis usa 164 blocos no total, em camadas de 9, 25, 49 e 81."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais blocos ativam um sinalizador?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blocos completos de ferro, ouro, esmeralda, diamante e netherita. Minério, laje e escada não contam."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o alcance de um sinalizador de nível quatro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A referência horizontal é 50 blocos. Teste a borda na sua edição e versão."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que vejo o feixe mas não recebo efeito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confira a pirâmide centralizada, o céu livre, o item de pagamento e a confirmação do poder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso misturar materiais?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Cada camada deve usar blocos completos de um dos cinco materiais aceitos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como troco o efeito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abra a interface, coloque outro pagamento, escolha um efeito liberado e confirme. Não é preciso reconstruir a base."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vidro pode colorir o feixe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Vidro ou painel colorido acima do sinalizador muda a cor, mas um bloco opaco bloqueia o feixe."
+          }
+        }
+      ]
+    }
+  }
+}

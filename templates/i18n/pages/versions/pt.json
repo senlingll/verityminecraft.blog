@@ -24,15 +24,15 @@
       },
       {
         "label": "Arquivo Java verificado mais recente",
-        "value": "verity-6.0.0-beta.9.jar; beta; Forge/Minecraft 1.20.1; 257.904.342 bytes; publicada em 03/09/2026"
+        "value": "verity-6.0.0.jar; release; Forge/Minecraft 1.20.1; 256.881.551 bytes; publicada em 23/10/2026"
       },
       {
         "label": "Versão do jogo Minecraft Java",
         "value": "26.3; lançada em 15/09/2026; manifesto oficial da Mojang conferido em 23/09/2026"
       },
       {
-        "label": "Beta Java",
-        "value": "v6.0.0-beta.9; lançada em 03/09/2026; beta, não é a recomendação estável"
+        "label": "Java release",
+        "value": "v6.0.0; lançada em 23/10/2026; versão estável"
       },
       {
         "label": "Fonte PE",
@@ -40,7 +40,7 @@
       },
       {
         "label": "Última verificação",
-        "value": "18 de outubro de 2026"
+        "value": "31 de outubro de 2026"
       }
     ]
   },
@@ -109,8 +109,8 @@
       ],
       [
         "Mod Verity Java",
-        "verity-6.0.0-beta.9.jar",
-        "Beta; Forge/Minecraft 1.20.1; 257.904.342 bytes",
+        "verity-6.0.0.jar",
+        "Release; Forge/Minecraft 1.20.1; 256.881.551 bytes",
         "Modrinth / CurseForge"
       ],
       [
