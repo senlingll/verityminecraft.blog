@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Reproduire les villageois dans Minecraft : nourriture, lits et solutions (2026)",
+    "description": "Découvrez comment reproduire les villageois dans Minecraft avec la nourriture, les lits, l'espace, le délai, le transport et les vérifications Java/Bedrock.",
+    "image": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Mécanique des villageois Minecraft",
+    "title": "Reproduire les villageois dans Minecraft : 7 étapes fiables",
+    "lede": "Pour reproduire des villageois dans Minecraft, placez deux adultes dans une pièce sûre, donnez-leur assez de nourriture, prévoyez un lit libre pour le bébé et laissez de la hauteur au-dessus des lits. Cette méthode transforme la réponse courte en procédure vérifiable pour Java et Bedrock.",
+    "support": "Les schémas sont des illustrations éditoriales originales, pas des captures officielles. Testez le plus petit élevage dans une copie du monde avant de le relier à une salle de commerce ou à une ferme à fer.",
+    "actions": [
+      {"label": "Ouvrir la salle de commerce", "url": "/villager-trading-hall/", "class": "btn-primary"},
+      {"label": "Comparer Java et Bedrock", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "alt": "Schéma éditorial original montrant deux villageois adultes, de la nourriture, trois lits et un bébé ; ce n'est pas une capture du jeu.",
+      "caption": "La nourriture, les lits accessibles et l'espace libre sont les trois premiers contrôles. L'image est un schéma explicatif, pas une capture officielle.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Réponse rapide",
+    "title": "De quoi les villageois ont-ils besoin pour se reproduire ?",
+    "paragraphs": [
+      "Il faut deux villageois adultes, de la nourriture valide pour chacun et au moins un lit libre que le bébé pourra revendiquer. Une pièce de test simple contient deux adultes, trois lits, un sol plein, un passage dégagé vers les lits et au moins deux blocs de hauteur libre au-dessus de l'oreiller. Le pain, les carottes, les pommes de terre et les betteraves peuvent rendre les villageois prêts à se reproduire. Jetez la nourriture pour que les deux puissent la ramasser, puis observez les cœurs.",
+      "Le lit supplémentaire est essentiel car le jeu vérifie si le nouveau villageois dispose d'un couchage valide. Un lit sous un plafond plein, derrière un mur ou déjà revendiqué peut ne pas compter. Gardez l'élevage séparé d'un village ou d'une salle de commerce pendant le test : un lit ou un bloc de métier voisin peut rendre les liens difficiles à comprendre.",
+      "Les villageois ne produisent pas de bébés en continu. Après une réussite, un délai s'applique et le bébé doit grandir. Si des cœurs apparaissent sans bébé, vérifiez d'abord le lit libre puis attendez. Si aucun cœur n'apparaît, vérifiez la nourriture, l'âge, le chemin et les lits dans cet ordre."
+    ],
+    "cards": [
+      {"title": "Deux adultes", "text": "Utilisez deux villageois adultes. Les bébés et les idiots ne remplissent pas la même condition."},
+      {"title": "Assez de nourriture", "text": "Le pain, les carottes, les pommes de terre et les betteraves sont pratiques. Donnez-en aux deux."},
+      {"title": "Un lit libre", "text": "Commencez avec trois lits pour deux adultes. Le troisième doit être libre, accessible et dégagé au-dessus."},
+      {"title": "Un test contrôlé", "text": "Construisez la petite pièce, puis reliez-la à une salle ou une ferme après le premier bébé."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Séquence d'élevage",
+    "title": "Comment reproduire les villageois dans Minecraft, étape par étape",
+    "description": "Suivez cette boucle de sept étapes dans une copie du monde. Ne changez qu'une variable à la fois.",
+    "items": [
+      {"title": "1. Choisir un lieu calme", "text": "Prenez une petite pièce éloignée d'un village naturel, des lits supplémentaires et d'une salle de commerce. Éclairez-la, fermez les sorties et laissez une ouverture pour nourrir et observer les villageois."},
+      {"title": "2. Installer deux adultes", "text": "Transportez les villageois un par un en bateau, en wagon ou par un chemin sûr. Fermez la porte avant d'amener le second. Un bébé ne peut pas se reproduire et un idiot ne prendra pas de métier."},
+      {"title": "3. Poser trois lits avec de la hauteur", "text": "Réservez deux lits aux adultes et un lit libre au bébé. Gardez le chemin vers l'oreiller ouvert et retirez les dalles, trappes ou plafonds bas qui bloquent le passage."},
+      {"title": "4. Nourrir les deux villageois", "text": "Utilisez du pain, des carottes, des pommes de terre ou des betteraves. Lancez de petites quantités près de chacun et vérifiez que chacun ramasse. Le blé et les graines ne remplacent pas la nourriture acceptée."},
+      {"title": "5. Attendre les cœurs et le bébé", "text": "Quand les deux sont prêts, des cœurs apparaissent généralement. Ne modifiez pas la pièce pendant la vérification du lit. Des particules de colère indiquent souvent un problème de lit, de plafond ou de chemin."},
+      {"title": "6. Séparer le bébé", "text": "Déplacez le bébé seulement après avoir confirmé la naissance. Un courant d'eau, une porte ou un wagon peut aider, mais conservez les lits des adultes. Pour une salle de commerce, attendez que le bébé grandisse avant de poser un poste."},
+      {"title": "7. Agrandir après un cycle complet", "text": "Laissez le bébé grandir, répétez un essai et vérifiez que les adultes atteignent encore leurs lits. Notez l'édition et la version : Java et Bedrock partagent l'idée, mais pas toujours les règles de liaison."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Contrôle de préparation",
+    "title": "Vérifier le lit, la nourriture et l'espace avant de modifier le plan",
+    "paragraphs": [
+      "La meilleure liste de contrôle est courte : deux adultes, de la nourriture pour chacun, puis le comptage des lits. Regardez le lit libre depuis le chemin du villageois. Il peut sembler ouvert au joueur tout en échouant à cause de l'accès ou de la hauteur. Gardez la pièce simple jusqu'à la naissance d'un bébé.",
+      "Java et Bedrock utilisent les mêmes idées générales, mais les points d'intérêt, les chemins et les lits voisins peuvent être évalués différemment. Une cellule isolée dans une copie du monde rend le test lisible. Ajoutez ensuite la salle de commerce et le transport séparément.",
+      "Les articles officiels de Minecraft donnent le contexte des versions et le Minecraft Wiki détaille les mécanismes des villageois et de la reproduction. Ce sont des références, pas une promesse pour toutes les versions futures. Notez l'édition, la version et le symptôme avant de refaire une installation fonctionnelle."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-food-cycle.webp", "alt": "Schéma original montrant nourriture, cœurs et bébé villageois près d'un lit ; pas une capture du jeu.", "caption": "La séquence nourriture-cœurs-bébé sépare la volonté du contrôle du lit libre.", "width": 1254, "height": 1254}
+  },
+  "table": {
+    "eyebrow": "Tableau des conditions",
+    "title": "Checklist pour reproduire les villageois",
+    "description": "Utilisez-la avant d'ajouter d'autres villageois. Chaque contrôle reste visible dans la petite pièce de test.",
+    "headers": ["Contrôle", "À préparer", "À observer", "En cas d'échec"],
+    "rows": [
+      ["Adultes", "Deux villageois adultes", "Les deux peuvent se déplacer", "Retirer les bébés et exclure les idiots"],
+      ["Nourriture", "Pain, carottes, pommes de terre ou betteraves", "Les deux ramassent", "Jeter une petite quantité près de chacun"],
+      ["Lits", "Deux lits d'adultes et un lit libre", "Le lit libre est accessible", "Retirer les lits en trop et vérifier le chemin"],
+      ["Hauteur", "Blocs libres au-dessus", "Le chemin vers l'oreiller est ouvert", "Relever ou simplifier le plafond"],
+      ["Délai", "Temps après une naissance", "Les adultes redeviennent prêts", "Attendre avant de changer les blocs"],
+      ["Édition", "Java ou Bedrock noté", "Le test reste reproductible", "Lire la section de l'édition"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Java et Bedrock",
+    "title": "Qu'est-ce qui change entre Java et Bedrock ?",
+    "paragraphs": [
+      "L'idée centrale est la même : deux adultes, de la nourriture acceptée et un lit libre valide. Les différences apparaissent autour de la pièce. Java et Bedrock peuvent évaluer autrement les points d'intérêt, les chemins et les lits voisins. Un plan trouvé dans une vidéo peut donc nécessiter une allée plus large ou davantage d'isolement.",
+      "En Java, une installation compacte est facile à observer lorsque les adultes, les lits et la nourriture restent visibles. En Bedrock, des villageois ou points d'intérêt voisins peuvent revendiquer un lit qui semble libre. Si l'élevage fonctionne une fois puis s'arrête après l'ajout d'une salle, retirez les nouveaux lits et postes et testez à nouveau le couple initial.",
+      "Le transport est aussi un test distinct. Les bateaux et wagons sont utiles dans les deux éditions, mais le terrain, les portails et les collisions modifient le trajet. Déplacez un bébé à la fois, gardez une sauvegarde et ne reliez pas l'élevage avant d'avoir vérifié une naissance et une croissance complètes."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-troubleshooting.webp", "alt": "Schéma original de dépannage montrant nourriture, lit, espace et délai pour les villageois Minecraft; pas une interface de jeu.", "caption": "Lorsque l'élevage s'arrête, vérifiez nourriture, lit libre, hauteur et délai dans cet ordre.", "width": 1254, "height": 1254}
+  },
+  "mistakes": {
+    "eyebrow": "Dépannage",
+    "title": "Pourquoi les villageois ne se reproduisent-ils pas ?",
+    "description": "Il manque généralement une seule condition. Corrigez le problème visible le plus petit et recommencez le même test.",
+    "cards": [
+      {"title": "Pas de lit libre", "text": "Deux adultes peuvent avoir leur lit et nécessiter malgré tout un troisième lit valide pour le bébé."},
+      {"title": "Plafond trop bas", "text": "Un bloc au-dessus de l'oreiller ou un passage étroit peut invalider le lit. Relevez le plafond pour tester."},
+      {"title": "Un seul a mangé", "text": "Une pile près de la porte ne prouve pas que les deux ont ramassé. Nourrissez-les séparément."},
+      {"title": "Délai en cours", "text": "Après une naissance, les adultes ont besoin de temps. Plus de nourriture ne supprime pas ce délai."},
+      {"title": "Un village voisin interfère", "text": "Les lits et postes proches rendent la propriété floue. Isolez la cellule temporairement."},
+      {"title": "Transport ajouté trop tôt", "text": "L'eau, les wagons et les portes peuvent bloquer les chemins. Prouvez d'abord une naissance dans une pièce simple."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Étapes suivantes",
+    "title": "Utiliser le nouveau bébé dans une construction",
+    "description": "Gardez élevage, transport, postes et fer séparés afin que chaque problème ait une cause claire.",
+    "links": [
+      {"title": "Salle de commerce des villageois", "text": "Attribuez un poste à la fois, inspectez l'offre et verrouillez-la après avoir validé la cellule.", "url": "/villager-trading-hall/", "cta": "Ouvrir la salle de commerce"},
+      {"title": "Ferme à fer Minecraft", "text": "Partez d'une configuration testée pour contrôler lits, postes, apparition des golems et collecte.", "url": "/minecraft-iron-farm/", "cta": "Lire les étapes de la ferme"},
+      {"title": "Java contre Bedrock", "text": "Comparez les éditions avant de copier un plan prévu pour une autre plateforme.", "url": "/java-vs-bedrock/", "cta": "Comparer les éditions"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Références principales",
+    "title": "Vérifier la version avant de passer à l'échelle",
+    "description": "Les conseils stables sont séparés des détails sensibles à la version. Utilisez ces sources si les liens de village ou de lit changent.",
+    "links": [
+      {"title": "Articles officiels Minecraft", "text": "Les actualités et notes de Mojang donnent le contexte de votre édition.", "url": "https://www.minecraft.net/en-us/articles", "cta": "Ouvrir les articles officiels", "rel": "noopener noreferrer"},
+      {"title": "Minecraft Wiki : Villageois", "text": "Référence communautaire pour métiers, lits, points d'intérêt et comportement.", "url": "https://minecraft.wiki/w/Villager", "cta": "Vérifier les mécaniques", "rel": "nofollow noopener"},
+      {"title": "Minecraft Wiki : Reproduction", "text": "Référence communautaire pour volonté, nourriture, délai et bébés.", "url": "https://minecraft.wiki/w/Breeding", "cta": "Lire la référence", "rel": "nofollow noopener"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Questions fréquentes sur la reproduction des villageois",
+    "items": [
+      {"question": "Combien de lits faut-il pour reproduire des villageois ?", "answer": "Commencez avec trois lits valides pour deux adultes : un pour chaque adulte et un libre pour le bébé. Le lit libre doit être accessible et dégagé au-dessus."},
+      {"question": "Quelle nourriture fait se reproduire les villageois ?", "answer": "Le pain, les carottes, les pommes de terre et les betteraves sont des aliments pratiques. Donnez-en aux deux adultes et observez qu'ils ramassent."},
+      {"question": "Pourquoi y a-t-il des cœurs mais pas de bébé ?", "answer": "Vérifiez l'accès, le propriétaire et la hauteur libre du lit supplémentaire. Les cœurs peuvent apparaître avant l'échec du contrôle du lit."},
+      {"question": "Comment reproduire les villageois dans Minecraft Java ?", "answer": "Utilisez deux adultes, de la nourriture acceptée et un lit libre accessible dans une cellule isolée. Surveillez les chemins et les points d'intérêt voisins."},
+      {"question": "Comment reproduire les villageois dans Minecraft Bedrock ?", "answer": "Utilisez les mêmes conditions et contrôlez particulièrement les lits, villageois et points d'intérêt proches, qui peuvent être liés autrement."},
+      {"question": "Puis-je déplacer les bébés vers une salle de commerce ?", "answer": "Oui. Confirmez d'abord une naissance, transportez le bébé par un trajet contrôlé et attendez sa croissance avant de poser un poste."},
+      {"question": "Combien de temps dure le délai ?", "answer": "Une naissance réussie déclenche un délai. Laissez la pièce intacte et réessayez après avoir attendu; la durée exacte dépend de la version."},
+      {"question": "Un élevage a-t-il besoin d'un bloc de métier ?", "answer": "Non pour le test de base. Gardez les postes à l'écart afin de diagnostiquer nourriture, lits et chemins séparément."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Reproduire les villageois dans Minecraft : nourriture, lits et solutions (2026)",
+      "description": "Découvrez comment reproduire les villageois dans Minecraft avec la nourriture, les lits, l'espace, le délai, le transport et les vérifications Java/Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/fr/minecraft-villager-breeding/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Combien de lits faut-il pour reproduire des villageois ?", "acceptedAnswer": {"@type": "Answer", "text": "Utilisez trois lits valides pour deux adultes : un par adulte et un libre pour le bébé."}},
+        {"@type": "Question", "name": "Quelle nourriture fait se reproduire les villageois ?", "acceptedAnswer": {"@type": "Answer", "text": "Le pain, les carottes, les pommes de terre et les betteraves sont des aliments pratiques."}},
+        {"@type": "Question", "name": "Pourquoi y a-t-il des cœurs mais pas de bébé ?", "acceptedAnswer": {"@type": "Answer", "text": "Vérifiez l'accès, le propriétaire et la hauteur libre du lit supplémentaire."}},
+        {"@type": "Question", "name": "Puis-je déplacer les bébés vers une salle de commerce ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, après une naissance confirmée et un transport contrôlé."}}
+      ]
+    }
+  }
+}

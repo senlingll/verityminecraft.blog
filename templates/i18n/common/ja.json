@@ -80,7 +80,8 @@
     "bedrock_addons": "Bedrockアドオン",
     "java_vs_bedrock": "Java版とBedrock版の違い",
     "bedrock_shaders": "統合版シェーダー",
-    "villager_trading_hall": "村人交易所ガイド"
+    "villager_trading_hall": "村人交易所ガイド",
+    "villager_breeding": "村人繁殖ガイド"
   },
   "error_404": {
     "code": "404",

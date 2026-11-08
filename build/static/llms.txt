@@ -33,6 +33,14 @@
 - [Guia de sala de trocas de aldeões](https://verityminecraft.blog/pt/villager-trading-hall/)
 - [마인크래프트 주민 거래소 가이드](https://verityminecraft.blog/ko/villager-trading-hall/)
 - [Guida alla sala scambi dei villager](https://verityminecraft.blog/it/villager-trading-hall/)
+- [How to Breed Villagers in Minecraft](https://verityminecraft.blog/minecraft-villager-breeding/): A seven-step guide to adult villagers, food, spare beds, headroom, Java/Bedrock checks, cooldowns, and troubleshooting.
+- [Guía para reproducir aldeanos en Minecraft](https://verityminecraft.blog/es/minecraft-villager-breeding/)
+- [マイクラ村人繁殖ガイド](https://verityminecraft.blog/ja/minecraft-villager-breeding/)
+- [Guide pour reproduire les villageois dans Minecraft](https://verityminecraft.blog/fr/minecraft-villager-breeding/)
+- [Minecraft-Dorfbewohner vermehren](https://verityminecraft.blog/de/minecraft-villager-breeding/)
+- [Guia de reprodução de aldeões no Minecraft](https://verityminecraft.blog/pt/minecraft-villager-breeding/)
+- [마인크래프트 주민 번식 가이드](https://verityminecraft.blog/ko/minecraft-villager-breeding/)
+- [Guida alla riproduzione dei villager in Minecraft](https://verityminecraft.blog/it/minecraft-villager-breeding/)
 - ES Trial Chambers guide: https://verityminecraft.blog/es/minecraft-trial-chambers/
 - JA Trial Chambers guide: https://verityminecraft.blog/ja/minecraft-trial-chambers/
 - FR Trial Chambers guide: https://verityminecraft.blog/fr/minecraft-trial-chambers/

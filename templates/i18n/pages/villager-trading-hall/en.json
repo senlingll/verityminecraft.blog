@@ -241,6 +241,12 @@
         "text": "Plan a test-first iron supply beside your villager setup.",
         "url": "/minecraft-iron-farm/",
         "cta": "Read iron farm guide"
+      },
+      {
+        "title": "Minecraft villager breeding guide",
+        "text": "Breed and transport villagers in a small test room before assigning workstations in the hall.",
+        "url": "/minecraft-villager-breeding/",
+        "cta": "Read the breeding guide"
       }
     ]
   },

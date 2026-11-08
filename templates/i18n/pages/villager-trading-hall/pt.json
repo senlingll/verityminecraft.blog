@@ -241,6 +241,12 @@
         "text": "Planeje uma fonte de ferro testável junto da preparação dos aldeões.",
         "url": "/minecraft-iron-farm/",
         "cta": "Ler guia de ferro"
+      },
+      {
+        "title": "Guia de reprodução de aldeões",
+        "text": "Reproduza e transporte aldeões em uma sala de teste antes de atribuir blocos de profissão.",
+        "url": "/minecraft-villager-breeding/",
+        "cta": "Ler o guia de reprodução"
       }
     ]
   },

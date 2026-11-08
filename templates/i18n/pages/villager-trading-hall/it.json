@@ -241,6 +241,12 @@
         "text": "Prova una riserva di ferro accanto alla preparazione dei villager.",
         "url": "/minecraft-iron-farm/",
         "cta": "Leggi la guida del ferro"
+      },
+      {
+        "title": "Guida alla riproduzione dei villager",
+        "text": "Riproduci e trasporta i villager in una cella di prova prima di assegnare le postazioni nella sala.",
+        "url": "/minecraft-villager-breeding/",
+        "cta": "Leggi la guida alla riproduzione"
       }
     ]
   },

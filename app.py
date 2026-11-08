@@ -669,6 +669,27 @@ def localized_villager_trading_hall(lang):
     return render_core_page('villager-trading-hall', template_name='article-guide.html', lang=lang)
 
 
+@app.route('/minecraft-villager-breeding/', strict_slashes=False)
+def minecraft_villager_breeding():
+    """
+    渲染 Minecraft 村民繁殖指南页面
+
+    :return: str，村民繁殖指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-villager-breeding', template_name='article-guide.html')
+
+
+@app.route('/<lang>/minecraft-villager-breeding/', strict_slashes=False)
+def localized_minecraft_villager_breeding(lang):
+    """
+    渲染指定语言的 Minecraft 村民繁殖指南页面
+
+    :param lang: 语言代码
+    :return: str，指定语言的村民繁殖指南 HTML 响应内容
+    """
+    return render_core_page('minecraft-villager-breeding', template_name='article-guide.html', lang=lang)
+
+
 @app.route('/minecraft-iron-farm/', strict_slashes=False)
 def minecraft_iron_farm():
     """

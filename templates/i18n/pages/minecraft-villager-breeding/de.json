@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Dorfbewohner in Minecraft vermehren: Nahrung, Betten und Lösungen (2026)",
+    "description": "So vermehrst du Dorfbewohner in Minecraft: Nahrung, Betten, Platz, Abklingzeit, Transport sowie Java- und Bedrock-Prüfungen.",
+    "image": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Minecraft-Dorfbewohner-Anleitung",
+    "title": "Dorfbewohner in Minecraft vermehren: 7 Schritte, die funktionieren",
+    "lede": "Zwei erwachsene Dorfbewohner, genug Nahrung, ein erreichbares zusätzliches Bett und freie Höhe über den Betten: Das ist der Kern einer zuverlässigen Zucht. Diese Anleitung macht daraus einen prüfbaren Ablauf für Java und Bedrock.",
+    "support": "Die Grafiken sind redaktionelle Originalillustrationen und keine offiziellen Spielscreenshots. Teste die kleinste Zuchtanlage in einer Kopie deiner Welt, bevor du sie an Handelshalle oder Eisenfarm anschließt.",
+    "actions": [
+      {"label": "Anleitung zur Handelshalle öffnen", "url": "/villager-trading-hall/", "class": "btn-primary"},
+      {"label": "Java und Bedrock vergleichen", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "alt": "Originale redaktionelle Grafik mit zwei erwachsenen Minecraft-Dorfbewohnern, Nahrung, drei Betten und einem Baby; kein Spielscreenshot.",
+      "caption": "Nahrung, erreichbare Betten und freie Höhe sind die ersten Prüfungen. Die Grafik ist eine Planungshilfe, kein offizielles Spielbild.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Kurzantwort",
+    "title": "Was brauchen Dorfbewohner zur Vermehrung?",
+    "paragraphs": [
+      "Du brauchst zwei erwachsene Dorfbewohner, gültige Nahrung für beide und mindestens ein freies Bett, das das Baby beanspruchen kann. Ein guter Testraum enthält zwei Erwachsene, drei Betten, einen festen Boden, einen freien Weg zu den Betten und mindestens zwei Blöcke freie Höhe über dem Kopfende. Brot, Karotten, Kartoffeln und Rote Bete machen Dorfbewohner bereit. Wirf die Nahrung so, dass beide sie aufnehmen können, und beobachte die Herzen.",
+      "Das zusätzliche Bett ist entscheidend, weil das Spiel einen gültigen Schlafplatz für das Baby prüft. Ein Bett unter einem festen Dach, hinter einer Wand oder mit einem anderen Besitzer kann ungültig sein. Halte die Anlage beim Test von Dorf und Handelshalle getrennt. Ein nahegelegenes Bett oder ein Arbeitsplatz kann die Zuordnung unübersichtlich machen.",
+      "Dorfbewohner vermehren sich nicht ohne Pause. Nach einem erfolgreichen Versuch gibt es eine Abklingzeit, und das Baby muss wachsen. Wenn Herzen erscheinen, aber kein Baby kommt, prüfe zuerst das freie Bett und warte dann. Wenn keine Herzen erscheinen, kontrolliere Nahrung, Alter, Weg und Betten in dieser Reihenfolge."
+    ],
+    "cards": [
+      {"title": "Zwei Erwachsene", "text": "Verwende erwachsene Dorfbewohner. Babys und Nichtsnutze erfüllen die Zuchtprüfung nicht."},
+      {"title": "Genug Nahrung", "text": "Brot, Karotten, Kartoffeln und Rote Bete sind praktische Optionen. Gib beiden etwas ab."},
+      {"title": "Ein freies Bett", "text": "Beginne mit drei Betten für zwei Erwachsene. Das dritte muss frei, erreichbar und oben offen sein."},
+      {"title": "Kontrollierter Test", "text": "Baue zuerst den kleinen Raum und verbinde ihn erst nach dem ersten Baby mit einer Halle oder Farm."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Zuchtablauf",
+    "title": "Dorfbewohner in Minecraft Schritt für Schritt vermehren",
+    "description": "Nutze diesen Ablauf in einer Weltkopie. Ändere jeweils nur eine Variable, damit ein Fehler aussagekräftig bleibt.",
+    "items": [
+      {"title": "1. Ruhigen Testort wählen", "text": "Wähle einen kleinen Raum abseits eines natürlichen Dorfes, zusätzlicher Betten und einer aktiven Handelshalle. Beleuchte ihn, schließe Ausgänge und lasse eine Öffnung zum Füttern und Beobachten. Ein ebener Boden macht Wege und Höhe sichtbar."},
+      {"title": "2. Zwei erwachsene Dorfbewohner einsetzen", "text": "Transportiere sie einzeln per Boot, Lore oder sicherem Weg. Schließe die Tür, bevor der zweite kommt. Ein Baby kann sich nicht vermehren; ein Nichtsnutz kann später keinen Beruf annehmen. Für den Test zählen zwei Erwachsene mit Bewegungsraum."},
+      {"title": "3. Drei Betten mit freier Höhe platzieren", "text": "Gib jedem Erwachsenen ein Bett und stelle ein drittes für das Baby auf. Halte den Weg zum Kopfende frei und entferne niedrige Decken, Platten oder Falltüren. Zusätzliche Betten erschweren die Diagnose."},
+      {"title": "4. Beide Dorfbewohner füttern", "text": "Verwende Brot, Karotten, Kartoffeln oder Rote Bete. Wirf kleine Mengen nahe bei beiden und beobachte, ob jeder etwas aufnimmt. Weizen, Samen und zufällige Pflanzen ersetzen die gültige Nahrung nicht."},
+      {"title": "5. Herzen und Baby abwarten", "text": "Wenn beide bereit sind, erscheinen normalerweise Herzen. Verändere den Raum während der Bettprüfung nicht. Wütende Partikel bedeuten meist, dass du Bett, Decke oder Weg prüfen solltest."},
+      {"title": "6. Baby aus der Testzelle trennen", "text": "Transportiere das Baby erst nach einem bestätigten Erfolg. Wasser, Türen und Loren helfen, können aber Wege blockieren. Für eine Handelshalle sollte das Baby erst wachsen, bevor du einen Arbeitsplatz setzt."},
+      {"title": "7. Erst nach einem vollständigen Zyklus erweitern", "text": "Lass das Baby wachsen, wiederhole einen Versuch und prüfe, ob die Erwachsenen ihre Betten erreichen. Danach kannst du den Raum kopieren oder an eine Farm anschließen. Notiere Edition und Version, denn Java und Bedrock verknüpfen Punkte unterschiedlich."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Vorbereitung",
+    "title": "Bett, Nahrung und Platz prüfen, bevor du den Bau änderst",
+    "paragraphs": [
+      "Die nützlichste Checkliste ist kurz: zwei Erwachsene, Nahrung für beide, dann die Betten zählen. Betrachte das freie Bett aus dem Weg des Dorfbewohners. Für dich kann es offen aussehen und trotzdem an Zugang oder Höhe scheitern. Halte den Raum einfach, bis ein Baby erscheint.",
+      "Java und Bedrock verwenden die gleichen Grundideen, aber Punkte von Interesse, Wege und nahe Betten können anders bewertet werden. Darum ist eine isolierte Testzelle in einer Kopie sinnvoll. Wenn sie funktioniert, füge Handelshalle und Transport getrennt hinzu.",
+      "Offizielle Minecraft-Artikel liefern den Versionskontext; das Minecraft Wiki beschreibt Dorfbewohner- und Zuchtmechaniken ausführlicher. Beides ist eine Referenz, keine Garantie für jede zukünftige Version. Notiere Edition, Version und Symptom, bevor du eine funktionierende Anlage umbaust."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-food-cycle.webp", "alt": "Originale Dreifachgrafik mit Nahrung, Herzen und einem Baby-Dorfbewohner neben einem Bett; kein Spielscreenshot.", "caption": "Nahrung führt zu Bereitschaft und Herzen; das freie Bett entscheidet, ob das Baby platziert werden kann.", "width": 1254, "height": 1254}
+  },
+  "table": {
+    "eyebrow": "Anforderungstabelle",
+    "title": "Checkliste für die Dorfbewohnerzucht",
+    "description": "Nutze die Tabelle, bevor du weitere Dorfbewohner einsetzt. Jede Prüfung bleibt in einem kleinen Raum sichtbar.",
+    "headers": ["Prüfung", "Vorbereiten", "Beobachten", "Bei Fehler"],
+    "rows": [
+      ["Erwachsene", "Zwei erwachsene Dorfbewohner", "Beide können laufen", "Babys entfernen und Nichtsnutze ausschließen"],
+      ["Nahrung", "Brot, Karotten, Kartoffeln oder Rote Bete", "Beide nehmen Nahrung auf", "Kleine Mengen neben jeden Erwachsenen werfen"],
+      ["Betten", "Zwei Erwachsenenbetten und ein freies Bett", "Das dritte Bett ist erreichbar", "Überzählige Betten entfernen und Weg prüfen"],
+      ["Höhe", "Freie Blöcke über den Betten", "Der Weg zum Kopfende ist offen", "Decke erhöhen oder vereinfachen"],
+      ["Abklingzeit", "Zeit nach der erfolgreichen Geburt", "Die Erwachsenen werden wieder bereit", "Warten statt sofort Blöcke zu ändern"],
+      ["Edition", "Java oder Bedrock notieren", "Der Test bleibt wiederholbar", "Den passenden Abschnitt verwenden"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Java und Bedrock",
+    "title": "Was ändert sich bei der Dorfbewohnerzucht zwischen Java und Bedrock?",
+    "paragraphs": [
+      "Die Grundidee ist gleich: zwei Erwachsene, akzeptierte Nahrung und ein gültiges freies Bett. Die Unterschiede liegen im Umfeld. Java und Bedrock können Punkte von Interesse, Wege und nahe Betten anders bewerten. Ein Design aus einem Video braucht daher eventuell einen breiteren Gang oder mehr Abstand zu anderen Dorfbewohnern.",
+      "In Java lässt sich eine kompakte Anlage gut beobachten, wenn Erwachsene, Betten und Nahrung sichtbar sind. In Bedrock können nahe Dorfbewohner oder Punkte von Interesse ein scheinbar freies Bett beanspruchen. Wenn die Anlage einmal funktioniert und nach dem Bau einer Halle stoppt, entferne die neuen Betten und Arbeitsblöcke und teste das Paar erneut.",
+      "Auch der Transport ist eine eigene Prüfung. Boote und Loren helfen in beiden Editionen, doch Gelände, Portale und Kollisionen verändern den Weg. Bewege ein Baby nach dem anderen, sichere die Welt und verbinde die Zucht erst nach einem vollständigen Geburts- und Wachstumszyklus."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-troubleshooting.webp", "alt": "Originale Fehlersuchgrafik für Nahrung, Bett, Platz und Abklingzeit bei Minecraft-Dorfbewohnern; keine Spieloberfläche.", "caption": "Wenn die Anlage stoppt, prüfe Nahrung, freies Bett, Höhe und Abklingzeit in dieser Reihenfolge.", "width": 1254, "height": 1254}
+  },
+  "mistakes": {
+    "eyebrow": "Fehlersuche",
+    "title": "Warum vermehren sich Dorfbewohner in Minecraft nicht?",
+    "description": "Meist fehlt nur eine Bedingung. Behebe zuerst das kleinste sichtbare Problem und wiederhole denselben Test.",
+    "cards": [
+      {"title": "Kein freies Bett", "text": "Zwei Erwachsene können Betten haben und trotzdem ein drittes gültiges Bett für das Baby benötigen."},
+      {"title": "Decke zu niedrig", "text": "Ein Block über dem Kopfende oder ein enger Weg kann das Bett ungültig machen. Erhöhe die Decke zum Test."},
+      {"title": "Nur einer hat Nahrung", "text": "Eine Ladung an der Tür beweist nicht, dass beide etwas aufgenommen haben. Füttere jeden sichtbar."},
+      {"title": "Abklingzeit läuft", "text": "Nach einer Geburt brauchen die Erwachsenen Zeit. Mehr Nahrung überspringt diese Zeit nicht."},
+      {"title": "Ein anderes Dorf stört", "text": "Nahe Betten und Arbeitsblöcke machen Besitz unklar. Isoliere die Testzelle vorübergehend."},
+      {"title": "Transport zu früh eingebaut", "text": "Wasser, Loren und Türen können Wege blockieren. Beweise erst eine Geburt in einem einfachen Raum."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Nächste Schritte",
+    "title": "Das neue Baby für einen Bau verwenden",
+    "description": "Halte Zucht, Transport, Arbeitsblöcke und Eisenproduktion getrennt, damit jeder Fehler eine klare Ursache hat.",
+    "links": [
+      {"title": "Dorfbewohner-Handelshalle", "text": "Arbeitsblöcke einzeln zuweisen, Angebote prüfen und erst danach einen Handel festschreiben.", "url": "/villager-trading-hall/", "cta": "Anleitung zur Handelshalle öffnen"},
+      {"title": "Minecraft-Eisenfarm", "text": "Eine geprüfte Dorfbewohneranlage als Ausgangspunkt für Betten, Arbeitsblöcke, Golems und Sammlung nutzen.", "url": "/minecraft-iron-farm/", "cta": "Eisenfarm-Anleitung lesen"},
+      {"title": "Java gegenüber Bedrock", "text": "Editionen vergleichen, bevor du ein Design von einer anderen Plattform kopierst.", "url": "/java-vs-bedrock/", "cta": "Editionen vergleichen"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Primärquellen",
+    "title": "Versionskontext prüfen, bevor du skalierst",
+    "description": "Stabile Aufbauhinweise und versionsabhängige Details sind getrennt. Nutze die Quellen, wenn sich Dorf- oder Bettverknüpfungen ändern.",
+    "links": [
+      {"title": "Offizielle Minecraft-Artikel", "text": "Mojang-News und Versionshinweise liefern den Kontext für deine Edition.", "url": "https://www.minecraft.net/en-us/articles", "cta": "Offizielle Artikel öffnen", "rel": "noopener noreferrer"},
+      {"title": "Minecraft Wiki: Dorfbewohner", "text": "Community-Referenz für Berufe, Betten, Punkte von Interesse und Verhalten.", "url": "https://minecraft.wiki/w/Villager", "cta": "Mechaniken prüfen", "rel": "nofollow noopener"},
+      {"title": "Minecraft Wiki: Zucht", "text": "Community-Referenz für Bereitschaft, Nahrung, Abklingzeit und Babys.", "url": "https://minecraft.wiki/w/Breeding", "cta": "Zucht-Referenz lesen", "rel": "nofollow noopener"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Häufige Fragen zur Dorfbewohnerzucht",
+    "items": [
+      {"question": "Wie viele Betten brauchen Dorfbewohner zur Zucht?", "answer": "Beginne mit drei gültigen Betten für zwei Erwachsene: je eines für die Erwachsenen und ein freies für das Baby. Das freie Bett muss erreichbar und oben offen sein."},
+      {"question": "Welche Nahrung macht Dorfbewohner bereit?", "answer": "Brot, Karotten, Kartoffeln und Rote Bete sind praktische Nahrungsmittel. Gib beiden Erwachsenen genug und beobachte die Aufnahme."},
+      {"question": "Warum erscheinen Herzen, aber kein Baby?", "answer": "Prüfe Erreichbarkeit, Besitzer und freie Höhe des zusätzlichen Bettes. Herzen können vor dem fehlgeschlagenen Bettcheck erscheinen."},
+      {"question": "Wie vermehre ich Dorfbewohner in Java?", "answer": "Zwei Erwachsene, akzeptierte Nahrung und ein erreichbares freies Bett in einer isolierten Zelle verwenden. Wege und Punkte von Interesse beobachten."},
+      {"question": "Wie vermehre ich Dorfbewohner in Bedrock?", "answer": "Die gleichen Grundbedingungen nutzen, aber nahe Betten, Dorfbewohner und Punkte von Interesse besonders prüfen."},
+      {"question": "Kann ich Babys in eine Handelshalle bringen?", "answer": "Ja. Zuerst eine Geburt beweisen, dann das Baby kontrolliert transportieren und erst nach dem Wachstum einen Arbeitsplatz setzen."},
+      {"question": "Wie lang ist die Abklingzeit?", "answer": "Nach einer erfolgreichen Geburt gibt es eine Abklingzeit. Warte mit stabilem Raum; die genaue Dauer kann versionsabhängig sein."},
+      {"question": "Braucht ein Zuchtstall einen Arbeitsplatz?", "answer": "Für die Grundprüfung nicht. Halte Arbeitsblöcke zunächst fern, damit du Nahrung, Betten und Wege getrennt testen kannst."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Dorfbewohner in Minecraft vermehren: Nahrung, Betten und Lösungen (2026)",
+      "description": "So vermehrst du Dorfbewohner in Minecraft mit Nahrung, Betten, Platz, Abklingzeit, Transport sowie Java- und Bedrock-Prüfungen.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/de/minecraft-villager-breeding/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Wie viele Betten brauchen Dorfbewohner zur Zucht?", "acceptedAnswer": {"@type": "Answer", "text": "Drei gültige Betten für zwei Erwachsene: je eines für die Erwachsenen und ein freies für das Baby."}},
+        {"@type": "Question", "name": "Welche Nahrung macht Dorfbewohner bereit?", "acceptedAnswer": {"@type": "Answer", "text": "Brot, Karotten, Kartoffeln und Rote Bete sind praktische Nahrungsmittel für beide Erwachsenen."}},
+        {"@type": "Question", "name": "Warum erscheinen Herzen, aber kein Baby?", "acceptedAnswer": {"@type": "Answer", "text": "Prüfe Erreichbarkeit, Besitz und freie Höhe des zusätzlichen Bettes."}},
+        {"@type": "Question", "name": "Kann ich Babys in eine Handelshalle bringen?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, nach einer bestätigten Geburt und einem kontrollierten Transportweg."}}
+      ]
+    }
+  }
+}

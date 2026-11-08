@@ -20,6 +20,14 @@ German: https://verityminecraft.blog/de/villager-trading-hall/
 Portuguese: https://verityminecraft.blog/pt/villager-trading-hall/
 Korean: https://verityminecraft.blog/ko/villager-trading-hall/
 Italian: https://verityminecraft.blog/it/villager-trading-hall/
+Villager breeding guide, English: https://verityminecraft.blog/minecraft-villager-breeding/
+Spanish: https://verityminecraft.blog/es/minecraft-villager-breeding/
+Japanese: https://verityminecraft.blog/ja/minecraft-villager-breeding/
+French: https://verityminecraft.blog/fr/minecraft-villager-breeding/
+German: https://verityminecraft.blog/de/minecraft-villager-breeding/
+Portuguese: https://verityminecraft.blog/pt/minecraft-villager-breeding/
+Korean: https://verityminecraft.blog/ko/minecraft-villager-breeding/
+Italian: https://verityminecraft.blog/it/minecraft-villager-breeding/
 - Minecraft seeds guide: https://verityminecraft.blog/minecraft-seeds/ explains world-seed selection, Java and Bedrock boundaries, version checks, survival and island goals, seed-map limitations, copied-world testing, and FAQ distinctions between world seeds and crop seeds.
 - Minecraft Bedrock maps guide: https://verityminecraft.blog/minecraft-bedrock-maps/ explains how to choose a source, distinguish .mcworld from .mcpack/.mcaddon and Java archives, import a Bedrock world, test a copy, and troubleshoot missing or incompatible maps.
 - Bedrock resource pack guide: https://verityminecraft.blog/bedrock-resource-packs/

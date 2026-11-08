@@ -241,6 +241,12 @@
         "text": "Planifica una reserva de hierro con una prueba junto a tus aldeanos.",
         "url": "/minecraft-iron-farm/",
         "cta": "Leer guía de hierro"
+      },
+      {
+        "title": "Guía para reproducir aldeanos",
+        "text": "Reproduce y transporta aldeanos en una sala de prueba antes de asignar puestos de trabajo.",
+        "url": "/minecraft-villager-breeding/",
+        "cta": "Leer la guía de reproducción"
       }
     ]
   },

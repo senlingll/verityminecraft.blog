@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "title": "Come far riprodurre i villager in Minecraft: cibo, letti e soluzioni (2026)",
+    "description": "Scopri come far riprodurre i villager in Minecraft usando cibo, letti, spazio, tempi di attesa e controlli per Java e Bedrock.",
+    "image": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guida ai villager di Minecraft",
+    "title": "Come far riprodurre i villager in Minecraft: 7 passaggi affidabili",
+    "lede": "Il metodo affidabile è semplice: metti due villager adulti in una stanza sicura, dai loro abbastanza cibo, aggiungi un letto raggiungibile per il bambino e lascia spazio libero sopra i letti. Questa guida trasforma la risposta breve in una procedura verificabile per Java e Bedrock.",
+    "support": "I diagrammi sono illustrazioni editoriali originali, non schermate di gioco ufficiali. Le regole dei villaggi possono cambiare: prova il breeder in un mondo copiato prima di collegarlo a una sala scambi o a una farm di ferro.",
+    "actions": [
+      {
+        "label": "Apri la guida alla sala scambi",
+        "url": "/villager-trading-hall/",
+        "class": "btn-primary"
+      },
+      {
+        "label": "Confronta Java e Bedrock",
+        "url": "/java-vs-bedrock/",
+        "class": "btn-secondary"
+      }
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "alt": "Diagramma editoriale originale con due villager adulti, cibo, tre letti e un villager bambino; non è una schermata di gioco.",
+      "caption": "Cibo, letti raggiungibili e spazio libero sono i tre controlli iniziali. È una grafica originale della guida, non una cattura dal gioco.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Risposta rapida",
+    "title": "Di cosa hanno bisogno i villager per riprodursi in Minecraft?",
+    "paragraphs": [
+      "Per riprodurre i villager servono due adulti, cibo valido per entrambi e almeno un letto libero che il bambino possa reclamare. Una stanza di prova pratica contiene due adulti, tre letti, un pavimento solido, un percorso libero verso i letti e almeno due blocchi di spazio sopra i cuscini. Pane, carote, patate e barbabietole possono rendere disponibili i villager. Lancia il cibo in modo che entrambi possano raccoglierlo, poi osserva le particelle a forma di cuore.",
+      "Il letto extra è essenziale perché il gioco deve verificare che il nuovo villager abbia un posto valido dove dormire. Un letto coperto da un soffitto, chiuso dietro una parete o già assegnato a un altro villager potrebbe non essere valido. Durante il test tieni il breeder lontano da un villaggio o da una sala scambi: letti e blocchi di lavoro vicini rendono difficile capire quale punto di interesse è stato reclamato.",
+      "I villager non generano bambini senza pausa. Dopo un tentativo riuscito c'è un tempo di attesa e il bambino deve crescere. Se compaiono i cuori ma non nasce nessuno, controlla prima il letto, poi aspetta il tempo necessario. Se non compaiono cuori, controlla cibo, età, percorso e possibilità di raggiungere i letti. Questo ordine distingue la disponibilità dei villager dalla validità del letto."
+    ],
+    "cards": [
+      {
+        "title": "Due adulti",
+        "text": "Usa villager adulti. I bambini e i nitwit possono stare nella stanza, ma non sostituiscono due adulti per la prova di riproduzione."
+      },
+      {
+        "title": "Cibo sufficiente",
+        "text": "Pane, carote, patate e barbabietole sono scelte pratiche. Lascia abbastanza oggetti perché entrambi possano raccoglierli."
+      },
+      {
+        "title": "Un letto libero",
+        "text": "Comincia con tre letti per due adulti. Il letto extra deve essere libero, raggiungibile e avere spazio sopra il cuscino."
+      },
+      {
+        "title": "Una prova controllata",
+        "text": "Costruisci prima la stanza minima e collega il breeder alla sala scambi o alla farm di ferro solo dopo aver visto crescere il primo bambino."
+      }
+    ]
+  },
+  "steps": {
+    "eyebrow": "Sequenza di riproduzione",
+    "title": "Come riprodurre i villager in Minecraft passo dopo passo",
+    "description": "Usa questo ciclo di sette passaggi in un mondo copiato. Cambia una sola variabile alla volta per capire cosa correggere quando la prova fallisce.",
+    "items": [
+      {
+        "title": "1. Scegli un luogo tranquillo per il test",
+        "text": "Scegli una stanza piccola lontana da villaggi naturali, letti aggiuntivi e sale scambi attive. Illumina l'area, chiudi le vie di fuga e lascia un'apertura di servizio per lanciare il cibo e osservare i villager. Un pavimento piano rende più facili i controlli di distanza e altezza. Tieni la stanza abbastanza vicina alla base per tornare dopo la crescita del bambino, ma non collegarla a un villaggio più grande finché il ciclo di base non funziona."
+      },
+      {
+        "title": "2. Porta due villager adulti",
+        "text": "Trasporta i villager uno alla volta con una barca, un carrello da miniera o un percorso sicuro. Chiudi l'ingresso prima di portare il secondo, così nessuno scappa. Un bambino non può riprodursi e un nitwit può vivere nella stanza ma non potrà svolgere un lavoro in seguito. Per questa prova conta avere due adulti con spazio per raggiungere cibo e letti."
+      },
+      {
+        "title": "3. Metti tre letti con spazio libero sopra",
+        "text": "Riserva due letti agli adulti e un letto al bambino. Lascia blocchi aperti sopra il lato del cuscino e mantieni libero l'accesso. Non aggiungere lastre solide, botole o un soffitto basso dove il villager deve stare o dormire. Se la stanza ha un tetto, alzalo abbastanza da non comprimere l'area del letto. Conta i letti prima di aggiungere altri villager."
+      },
+      {
+        "title": "4. Dai a entrambi il cibo per la riproduzione",
+        "text": "Usa pane, carote, patate o barbabietole. Lancia il cibo dove entrambi possano raccoglierlo e osserva il loro inventario e le particelle di cuore. Un singolo oggetto contro una parete potrebbe non nutrire nessuno. Se un villager raccoglie tutto, lascia una seconda quantità vicino all'altro e verifica che entrambi siano disponibili. Non sostituire questi alimenti con grano, semi o colture casuali."
+      },
+      {
+        "title": "5. Attendi i cuori e il bambino",
+        "text": "Quando entrambi sono disponibili compaiono di solito i cuori. Non cambiare la stanza mentre il gioco controlla il letto extra. Se il letto è valido e libero dovrebbe apparire un bambino. Se i cuori diventano particelle arrabbiate, controlla letto, spazio sopra il cuscino e percorso prima di ricostruire tutto. Dopo una nascita lascia passare il tempo di attesa degli adulti."
+      },
+      {
+        "title": "6. Separa il bambino dalla cella di prova",
+        "text": "Sposta il bambino solo dopo aver verificato che il ciclo funzioni. Un canale d'acqua, un cancello, una barca o un carrello può aiutare, ma proteggi la coppia adulta e lascia i suoi letti al loro posto mentre fai il test. Se il bambino è destinato a una sala scambi, spostalo lungo un percorso controllato e assegna il blocco di lavoro solo dopo la crescita."
+      },
+      {
+        "title": "7. Aumenta la scala dopo un ciclo completo",
+        "text": "Lascia crescere il bambino, ripeti una prova e verifica che gli adulti possano ancora raggiungere i letti. Solo dopo duplica la stanza o collegala a una sala scambi o a una farm di ferro. Annota edizione e versione accanto al progetto: Java e Bedrock condividono l'idea generale, ma collegamento dei villaggi, percorsi e layout pratici possono differire."
+      }
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Lista di controllo",
+    "title": "Controlla letto, cibo e spazio prima di cambiare progetto",
+    "paragraphs": [
+      "La lista utile è una tabella breve, non un elenco infinito di fatti sui villaggi. Prima conferma i due adulti. Poi verifica che entrambi possano raccogliere il cibo. Infine conta i letti e osserva il letto extra dal punto di vista del villager. Un letto può sembrare libero al giocatore e fallire comunque il controllo del percorso o dello spazio. Mantieni la stanza semplice finché non compare un bambino.",
+      "Java e Bedrock usano entrambi letti e disponibilità, ma villaggi e punti di interesse circostanti non si comportano in modo identico. Un letto o un blocco di lavoro vicino può cambiare ciò che osservi. Per questo è meglio una stanza isolata in un mondo copiato. Quando funziona, collega la base reale e risolvi trasporto e assegnazione del lavoro come problemi separati.",
+      "Il sito ufficiale di Minecraft aiuta a controllare il contesto delle release, mentre Minecraft Wiki è utile per i dettagli su villager e riproduzione. Sono riferimenti, non una garanzia per ogni versione futura. Se un aggiornamento cambia il comportamento, annota edizione, versione e sintomo preciso prima di modificare un layout già funzionante."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-food-cycle.webp",
+      "alt": "Diagramma editoriale in tre pannelli con cibo per villager, particelle di cuore e un villager bambino accanto a un letto; non è una schermata di gioco.",
+      "caption": "La sequenza cibo-cuori-bambino è un modello diagnostico: il cibo crea disponibilità, mentre il letto extra decide se il bambino può essere collocato.",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "table": {
+    "eyebrow": "Tabella requisiti",
+    "title": "Checklist per la riproduzione dei villager in Minecraft",
+    "description": "Usa la tabella prima di aggiungere altri villager. La colonna dell'azione rende osservabile ogni controllo in una stanza piccola.",
+    "headers": ["Controllo", "Cosa fornire", "Cosa osservare", "Se non funziona"],
+    "rows": [
+      ["Adulti", "Due villager adulti", "Entrambi stanno in piedi e raggiungono la stanza", "Rimuovi i bambini e verifica che nessuno sia un nitwit"],
+      ["Cibo", "Pane, carote, patate o barbabietole", "Entrambi raccolgono il cibo e possono comparire cuori", "Lascia una quantità più piccola vicino a ciascun adulto"],
+      ["Letti", "Due letti adulti più uno libero", "Il letto extra è libero e raggiungibile", "Rimuovi letti aggiuntivi e controlla il percorso al cuscino"],
+      ["Spazio sopra", "Blocchi aperti sopra i letti", "I villager possono avvicinarsi e dormire", "Alza o semplifica il tetto"],
+      ["Attesa", "Tempo dopo un tentativo riuscito", "Gli adulti tornano disponibili", "Aspetta prima di aggiungere cibo o blocchi"],
+      ["Edizione", "Java o Bedrock indicata nel progetto", "La prova è ripetibile nella stessa edizione", "Usa la sezione specifica più sotto"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Java e Bedrock",
+    "title": "Cosa cambia tra Java e Bedrock per la riproduzione dei villager?",
+    "paragraphs": [
+      "L'idea centrale è condivisa: due adulti, cibo accettato e un letto extra valido. Le differenze pratiche si vedono attorno alla stanza. Java e Bedrock possono valutare in modo diverso punti di interesse, percorsi e letti vicini, quindi un progetto copiato da un video può richiedere un corridoio più largo o una cella più isolata. Parti dalla tabella dei requisiti e adatta il locale alla tua edizione.",
+      "In Java un breeder compatto è facile da controllare quando adulti, letti e cibo restano visibili. In Bedrock villager e punti di interesse vicini possono far sembrare libero un letto che è stato collegato altrove. Se la stanza funziona una volta e smette dopo l'aggiunta di una sala scambi, rimuovi i nuovi letti e blocchi di lavoro, riprova la coppia originale e aggiungi i sistemi circostanti uno alla volta.",
+      "Anche il trasporto è un confine. Barche e carrelli sono utili in entrambe le edizioni, ma terreno, portali e collisioni possono cambiare il percorso. Sposta un bambino alla volta, conserva un mondo di riserva e non collegare il breeder a una sala scambi prima di aver verificato nascita e crescita. Per il passo successivo usa la guida alle sale scambi del sito, senza confondere assegnazione del lavoro e riproduzione."
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-troubleshooting.webp",
+      "alt": "Diagramma editoriale per risolvere i problemi di riproduzione dei villager con controlli su cibo, letto, spazio libero e tempo di attesa; non è una schermata di gioco.",
+      "caption": "Quando il breeder si ferma, controlla cibo, letto extra, spazio sopra e attesa in quest'ordine. È un aiuto editoriale, non l'interfaccia del gioco.",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "mistakes": {
+    "eyebrow": "Risoluzione dei problemi",
+    "title": "Perché i villager non si riproducono in Minecraft?",
+    "description": "Un breeder che fallisce di solito ha una sola condizione mancante. Correggi prima il problema più visibile e ripeti la stessa prova.",
+    "cards": [
+      {
+        "title": "Non c'è un letto libero",
+        "text": "Due adulti possono avere il proprio letto e fallire comunque se ogni letto valido è già reclamato. Aggiungi un letto libero e raggiungibile, poi riprova."
+      },
+      {
+        "title": "Il tetto è troppo basso",
+        "text": "Un blocco sopra il cuscino o un passaggio stretto può rendere invalido il letto. Alza il soffitto e togli decorazioni durante il test."
+      },
+      {
+        "title": "Un villager non ha cibo",
+        "text": "Lasciare una pila vicino all'ingresso non dimostra che entrambi l'abbiano raccolta. Nutri gli adulti separatamente e osserva la disponibilità prima di cambiare i letti."
+      },
+      {
+        "title": "Il tempo di attesa è ancora attivo",
+        "text": "Dopo una nascita gli adulti devono aspettare. Altro cibo non salta questo intervallo: mantieni la stanza stabile e controlla più tardi."
+      },
+      {
+        "title": "Un villaggio vicino interferisce",
+        "text": "Letti e blocchi di lavoro aggiuntivi rendono difficile leggere il collegamento. Allontana la cella o rimuovi temporaneamente i punti di interesse vicini."
+      },
+      {
+        "title": "Hai aggiunto il trasporto troppo presto",
+        "text": "Acqua, carrelli e cancelli possono bloccare i percorsi. Dimostra una nascita in una stanza semplice prima di aggiungere una linea di raccolta."
+      }
+    ]
+  },
+  "related": {
+    "eyebrow": "Passi successivi",
+    "title": "Usa il nuovo villager in una costruzione reale",
+    "description": "Tieni separati riproduzione, trasporto, blocchi di lavoro e produzione di ferro, così ogni errore ha una causa chiara.",
+    "links": [
+      {
+        "title": "Sala scambi dei villager",
+        "text": "Assegna una postazione alla volta, controlla le offerte e blocca uno scambio solo dopo che il villager ha raggiunto la cella corretta.",
+        "url": "/villager-trading-hall/",
+        "cta": "Apri la guida alla sala scambi"
+      },
+      {
+        "title": "Farm di ferro in Minecraft",
+        "text": "Usa un gruppo di villager già verificato come base per letti, blocchi di lavoro, generazione dei golem e raccolta.",
+        "url": "/minecraft-iron-farm/",
+        "cta": "Leggi la guida alla farm di ferro"
+      },
+      {
+        "title": "Java contro Bedrock",
+        "text": "Confronta il comportamento delle edizioni prima di copiare un breeder progettato per un'altra piattaforma.",
+        "url": "/java-vs-bedrock/",
+        "cta": "Confronta le edizioni"
+      }
+    ]
+  },
+  "sources": {
+    "eyebrow": "Riferimenti principali",
+    "title": "Controlla il contesto della versione prima di aumentare la scala",
+    "description": "La guida separa le istruzioni stabili dal comportamento sensibile alla versione. Usa queste fonti quando un aggiornamento cambia collegamento dei villaggi o regole dei letti.",
+    "links": [
+      {
+        "title": "Articoli ufficiali di Minecraft",
+        "text": "Controlla le notizie e le pagine delle release di Mojang prima di cambiare un mondo già avviato.",
+        "url": "https://www.minecraft.net/en-us/articles",
+        "cta": "Apri gli articoli ufficiali",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "Minecraft Wiki: Abitanti",
+        "text": "Riferimento della comunità per professioni, letti, punti di interesse e comportamento dei villager.",
+        "url": "https://minecraft.wiki/w/Villager",
+        "cta": "Controlla la meccanica dei villager",
+        "rel": "nofollow noopener"
+      },
+      {
+        "title": "Minecraft Wiki: Riproduzione",
+        "text": "Riferimento della comunità per disponibilità, alimenti, tempi di attesa e condizioni del bambino.",
+        "url": "https://minecraft.wiki/w/Breeding",
+        "cta": "Leggi il riferimento sulla riproduzione",
+        "rel": "nofollow noopener"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Domande frequenti sulla riproduzione dei villager in Minecraft",
+    "items": [
+      {
+        "question": "Quanti letti servono per far riprodurre i villager in Minecraft?",
+        "answer": "Comincia con tre letti validi per due villager adulti: uno per ciascun adulto e un letto libero per il bambino. Il letto extra deve essere raggiungibile, non reclamato e avere spazio libero sopra il cuscino."
+      },
+      {
+        "question": "Quale cibo fa riprodurre i villager?",
+        "answer": "Pane, carote, patate e barbabietole sono alimenti pratici. Dai abbastanza oggetti a entrambi gli adulti e verifica che ciascuno possa raccoglierli prima di controllare i letti."
+      },
+      {
+        "question": "Perché i villager mostrano cuori ma non nasce un bambino?",
+        "answer": "Cuori seguiti da nessun bambino indicano spesso un problema con il letto extra. Controlla raggiungibilità, collegamento a un altro villager e spazio libero sopra il cuscino."
+      },
+      {
+        "question": "Come faccio a riprodurre i villager in Minecraft Java?",
+        "answer": "Usa due adulti, cibo accettato e un letto extra raggiungibile in una stanza isolata. Anche in Java percorsi e punti di interesse vicini possono influire, quindi prova il progetto prima di aggiungere la sala scambi."
+      },
+      {
+        "question": "Come faccio a riprodurre i villager in Minecraft Bedrock?",
+        "answer": "Usa le stesse condizioni di base, prestando più attenzione a letti, villager e punti di interesse vicini. Il collegamento Bedrock può assegnare a un altro villager un letto che sembra libero."
+      },
+      {
+        "question": "Posso spostare i villager bambini in una sala scambi?",
+        "answer": "Sì, ma dimostra prima una nascita e usa una barca, un carrello o un percorso sicuro. Aspetta la crescita prima di assegnare una postazione e bloccare uno scambio."
+      },
+      {
+        "question": "Quanto dura il tempo di attesa tra due riproduzioni dei villager?",
+        "answer": "Dopo un tentativo riuscito gli adulti hanno un tempo di attesa prima di riprovare. Considera il valore sensibile alla versione, lascia la stanza invariata e riprova dopo aver aspettato."
+      },
+      {
+        "question": "Un breeder di villager ha bisogno di un blocco di lavoro?",
+        "answer": "No, per la prova di riproduzione di base non serve un blocco di lavoro. Tienilo fuori dalla prima stanza per diagnosticare separatamente cibo, letti e percorsi."
+      }
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Come far riprodurre i villager in Minecraft: cibo, letti e soluzioni (2026)",
+      "description": "Scopri come far riprodurre i villager in Minecraft usando cibo, letti, spazio, tempi di attesa e controlli per Java e Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/it/minecraft-villager-breeding/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Quanti letti servono per far riprodurre i villager in Minecraft?", "acceptedAnswer": {"@type": "Answer", "text": "Comincia con tre letti validi per due villager adulti: uno per ciascun adulto e un letto libero per il bambino. Il letto extra deve essere raggiungibile, non reclamato e avere spazio libero sopra il cuscino."}},
+        {"@type": "Question", "name": "Quale cibo fa riprodurre i villager?", "acceptedAnswer": {"@type": "Answer", "text": "Pane, carote, patate e barbabietole sono alimenti pratici. Dai abbastanza oggetti a entrambi gli adulti e verifica che ciascuno possa raccoglierli."}},
+        {"@type": "Question", "name": "Perché i villager mostrano cuori ma non nasce un bambino?", "acceptedAnswer": {"@type": "Answer", "text": "Controlla raggiungibilità, collegamento del letto extra e spazio libero sopra il cuscino."}},
+        {"@type": "Question", "name": "Come faccio a riprodurre i villager in Minecraft Java?", "acceptedAnswer": {"@type": "Answer", "text": "Usa due adulti, cibo accettato e un letto extra raggiungibile in una stanza isolata, verificando percorsi e punti di interesse vicini."}}
+      ]
+    }
+  }
+}

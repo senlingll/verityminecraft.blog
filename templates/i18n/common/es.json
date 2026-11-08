@@ -80,7 +80,8 @@
     "bedrock_addons": "Addons Bedrock",
     "java_vs_bedrock": "Java vs Bedrock",
     "bedrock_shaders": "Shaders de Bedrock",
-    "villager_trading_hall": "Sala de tradeo de aldeanos"
+    "villager_trading_hall": "Sala de tradeo de aldeanos",
+    "villager_breeding": "Guía para reproducir aldeanos"
   },
   "error_404": {
     "code": "404",

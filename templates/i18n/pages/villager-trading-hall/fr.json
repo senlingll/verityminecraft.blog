@@ -241,6 +241,12 @@
         "text": "Testez une réserve de fer à côté de votre installation de villageois.",
         "url": "/minecraft-iron-farm/",
         "cta": "Lire le guide du fer"
+      },
+      {
+        "title": "Guide pour reproduire les villageois",
+        "text": "Reproduisez et transportez les villageois dans une cellule de test avant d'ajouter les postes de travail.",
+        "url": "/minecraft-villager-breeding/",
+        "cta": "Lire le guide de reproduction"
       }
     ]
   },

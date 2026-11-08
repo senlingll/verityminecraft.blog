@@ -80,7 +80,8 @@
     "bedrock_addons": "Bedrock-Add-ons",
     "java_vs_bedrock": "Java vs Bedrock",
     "bedrock_shaders": "Bedrock-Shader",
-    "villager_trading_hall": "Handelshalle für Dorfbewohner"
+    "villager_trading_hall": "Handelshalle für Dorfbewohner",
+    "villager_breeding": "Dorfbewohner vermehren"
   },
   "error_404": {
     "code": "404",

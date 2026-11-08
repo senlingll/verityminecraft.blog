@@ -241,6 +241,12 @@
         "text": "Plane eine testbare Eisenversorgung neben deiner Dorfbewohner-Anlage.",
         "url": "/minecraft-iron-farm/",
         "cta": "Eisenfarm lesen"
+      },
+      {
+        "title": "Anleitung zur Vermehrung von Dorfbewohnern",
+        "text": "Vermehre und transportiere Dorfbewohner in einer Testzelle, bevor du Arbeitsblöcke zuweist.",
+        "url": "/minecraft-villager-breeding/",
+        "cta": "Vermehrungsanleitung lesen"
       }
     ]
   },

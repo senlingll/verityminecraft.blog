@@ -80,7 +80,8 @@
     "bedrock_addons": "Bedrock 애드온",
     "java_vs_bedrock": "자바 vs 베드락",
     "bedrock_shaders": "베드락 셰이더",
-    "villager_trading_hall": "주민 거래소 가이드"
+    "villager_trading_hall": "주민 거래소 가이드",
+    "villager_breeding": "주민 번식 가이드"
   },
   "error_404": {
     "code": "404",

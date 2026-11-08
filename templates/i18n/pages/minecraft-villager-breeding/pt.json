@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Como reproduzir aldeões no Minecraft: comida, camas e soluções (2026)",
+    "description": "Aprenda como reproduzir aldeões no Minecraft com comida, camas, espaço, tempo de espera, transporte e verificações para Java e Bedrock.",
+    "image": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guia de aldeões do Minecraft",
+    "title": "Como reproduzir aldeões no Minecraft: 7 passos que funcionam",
+    "lede": "Para reproduzir aldeões com segurança, coloque dois adultos em uma sala protegida, entregue comida suficiente, deixe uma cama livre para o bebê e mantenha espaço acima das camas. Este guia transforma a resposta curta em um teste prático para Java e Bedrock.",
+    "support": "Os diagramas são ilustrações editoriais originais, não capturas oficiais do jogo. Teste o menor criadouro em uma cópia do mundo antes de ligá-lo a uma sala de trocas ou fazenda de ferro.",
+    "actions": [
+      {"label": "Abrir guia da sala de trocas", "url": "/villager-trading-hall/", "class": "btn-primary"},
+      {"label": "Comparar Java e Bedrock", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "alt": "Diagrama editorial original com dois aldeões adultos, comida, três camas e um bebê; não é uma captura do jogo.",
+      "caption": "Comida, camas acessíveis e espaço livre são as primeiras verificações. A imagem é uma ilustração editorial, não uma captura oficial.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Resposta rápida",
+    "title": "O que os aldeões precisam para se reproduzir?",
+    "paragraphs": [
+      "Você precisa de dois aldeões adultos, comida válida para os dois e pelo menos uma cama livre que o bebê possa reivindicar. Uma sala inicial deve ter dois adultos, três camas, piso sólido, caminho livre até as camas e pelo menos dois blocos de altura acima da cabeceira. Pão, cenouras, batatas e beterrabas podem deixar os aldeões dispostos. Jogue a comida onde os dois consigam pegá-la e observe os corações.",
+      "A cama extra é importante porque o jogo verifica se o novo aldeão tem um lugar válido para dormir. Uma cama coberta por um bloco sólido, atrás de uma parede ou já reivindicada pode não contar. Mantenha o criadouro separado de uma vila ou sala de trocas durante o teste; camas e blocos de profissão próximos podem confundir a ligação.",
+      "A reprodução não acontece sem intervalo. Depois de uma tentativa bem-sucedida há um tempo de espera, e o bebê precisa crescer. Se aparecerem corações sem bebê, verifique primeiro a cama livre e depois aguarde. Se não aparecerem corações, confira comida, idade, caminho e camas nessa ordem."
+    ],
+    "cards": [
+      {"title": "Dois adultos", "text": "Use aldeões adultos. Bebês e aldeões simplórios não completam o mesmo teste de reprodução."},
+      {"title": "Comida suficiente", "text": "Pão, cenouras, batatas e beterrabas são opções práticas. Dê comida aos dois adultos."},
+      {"title": "Uma cama livre", "text": "Comece com três camas para dois adultos. A terceira deve estar livre, acessível e sem bloco acima."},
+      {"title": "Teste controlado", "text": "Construa uma sala simples e conecte a estrutura à sala de trocas só depois do primeiro bebê."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Sequência de reprodução",
+    "title": "Como reproduzir aldeões no Minecraft passo a passo",
+    "description": "Use este ciclo de sete etapas em uma cópia do mundo. Mude apenas uma variável por vez.",
+    "items": [
+      {"title": "1. Escolha um local tranquilo", "text": "Use uma sala pequena longe de uma vila natural, camas extras e uma sala de trocas ativa. Ilumine, feche as saídas e deixe uma abertura para alimentar e observar os aldeões."},
+      {"title": "2. Leve dois aldeões adultos", "text": "Transporte-os um de cada vez em barco, carrinho ou caminho seguro. Feche a porta antes de trazer o segundo. Um bebê não se reproduz e um simplório não aceita profissão."},
+      {"title": "3. Coloque três camas com espaço", "text": "Reserve duas camas para os adultos e uma cama livre para o bebê. Deixe o caminho até a cabeceira aberto e remova lajes, alçapões ou teto baixo durante o teste."},
+      {"title": "4. Dê comida aos dois", "text": "Use pão, cenouras, batatas ou beterrabas. Jogue pequenas quantidades perto de cada adulto e observe se os dois pegam. Trigo e sementes não substituem a comida aceita."},
+      {"title": "5. Aguarde corações e o bebê", "text": "Quando os dois estiverem dispostos, normalmente aparecem corações. Não mude a sala durante a verificação da cama. Partículas de raiva indicam que você deve conferir cama, teto e caminho."},
+      {"title": "6. Separe o bebê da célula", "text": "Mova o bebê somente depois de confirmar o nascimento. Água, portas e carrinhos ajudam, mas podem bloquear caminhos. Para uma sala de trocas, espere o bebê crescer antes de colocar um bloco de profissão."},
+      {"title": "7. Amplie depois de um ciclo completo", "text": "Deixe o bebê crescer, repita uma tentativa e confirme que os adultos ainda alcançam as camas. Anote a edição e a versão, pois Java e Bedrock podem lidar com ligações de forma diferente."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Checklist de preparação",
+    "title": "Confira cama, comida e espaço antes de mudar o projeto",
+    "paragraphs": [
+      "Comece com uma lista curta: dois adultos, comida para os dois e depois a contagem de camas. Observe a cama livre a partir do caminho do aldeão. Ela pode parecer aberta para o jogador e ainda falhar por causa do acesso ou da altura. Simplifique a sala até nascer um bebê.",
+      "Java e Bedrock usam camas e comida, mas pontos de interesse, caminhos e camas próximas podem ser avaliados de maneira diferente. Uma célula isolada em uma cópia do mundo deixa o teste claro. Quando funcionar, adicione sala de trocas e transporte separadamente.",
+      "Use artigos oficiais do Minecraft para contexto de versão e o Minecraft Wiki para detalhes sobre aldeões e reprodução. Essas são referências, não uma garantia para todas as versões futuras. Anote edição, versão e sintoma antes de reconstruir uma instalação que funcionava."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-food-cycle.webp", "alt": "Diagrama original mostrando comida, corações e um bebê aldeão junto a uma cama; não é captura do jogo.", "caption": "A sequência comida-corações-bebê separa a disposição do aldeão da validação da cama livre.", "width": 1254, "height": 1254}
+  },
+  "table": {
+    "eyebrow": "Tabela de requisitos",
+    "title": "Checklist para reprodução de aldeões",
+    "description": "Use a tabela antes de colocar mais aldeões. Cada verificação deve continuar visível na sala pequena.",
+    "headers": ["Verificação", "O que preparar", "O que observar", "Se falhar"],
+    "rows": [
+      ["Adultos", "Dois aldeões adultos", "Os dois conseguem andar", "Separe bebês e confirme que não são simplórios"],
+      ["Comida", "Pão, cenouras, batatas ou beterrabas", "Os dois pegam comida", "Jogue pequenas quantidades perto de cada um"],
+      ["Camas", "Duas camas e uma livre", "A cama livre é acessível", "Remova camas extras e revise o caminho"],
+      ["Altura", "Blocos livres acima", "O caminho até a cabeceira está aberto", "Eleve ou simplifique o teto"],
+      ["Espera", "Tempo após um nascimento", "Os adultos ficam dispostos novamente", "Aguarde antes de mudar blocos"],
+      ["Edição", "Java ou Bedrock anotado", "O teste pode ser repetido", "Use a seção da edição correta"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Java e Bedrock",
+    "title": "O que muda entre Java e Bedrock na reprodução?",
+    "paragraphs": [
+      "A ideia central é a mesma: dois adultos, comida aceita e uma cama livre válida. As diferenças aparecem ao redor da sala. Java e Bedrock podem avaliar pontos de interesse, caminhos e camas próximas de forma diferente. Um projeto de vídeo pode precisar de um corredor maior ou de mais isolamento.",
+      "Em Java é fácil observar uma estrutura compacta quando adultos, camas e comida ficam visíveis. Em Bedrock, aldeões e pontos de interesse próximos podem reivindicar uma cama que parece livre. Se funcionar uma vez e parar depois que você adicionar uma sala de trocas, retire as camas e blocos novos e teste o casal original.",
+      "O transporte também deve ser testado separadamente. Barcos e carrinhos funcionam nas duas edições, mas terreno, portais e colisões mudam o trajeto. Mova um bebê por vez, mantenha um backup e só conecte o criadouro depois de verificar nascimento e crescimento completos."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-troubleshooting.webp", "alt": "Diagrama original de problemas com comida, cama, espaço e tempo de espera; não é interface do jogo.", "caption": "Quando o criadouro parar, confira comida, cama livre, altura e tempo de espera nessa ordem.", "width": 1254, "height": 1254}
+  },
+  "mistakes": {
+    "eyebrow": "Solução de problemas",
+    "title": "Por que os aldeões não se reproduzem?",
+    "description": "Normalmente falta uma condição. Corrija o menor problema visível e repita o mesmo teste.",
+    "cards": [
+      {"title": "Não há cama livre", "text": "Dois adultos podem ter camas e ainda precisar de uma terceira cama válida para o bebê."},
+      {"title": "O teto é baixo", "text": "Um bloco sobre a cabeceira ou um caminho apertado pode invalidar a cama. Eleve o teto para testar."},
+      {"title": "Só um recebeu comida", "text": "Uma pilha perto da porta não prova que os dois pegaram. Alimente cada adulto e observe."},
+      {"title": "O tempo de espera continua", "text": "Depois de um nascimento os adultos precisam esperar. Mais comida não pula esse intervalo."},
+      {"title": "Outra vila interfere", "text": "Camas e blocos próximos tornam a propriedade confusa. Isole a célula temporariamente."},
+      {"title": "Transporte adicionado cedo", "text": "Água, carrinhos e portas podem bloquear caminhos. Prove um nascimento em uma sala simples primeiro."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Próximos passos",
+    "title": "Use o novo bebê em uma construção",
+    "description": "Mantenha reprodução, transporte, profissões e ferro como testes separados para descobrir a causa de cada falha.",
+    "links": [
+      {"title": "Sala de trocas de aldeões", "text": "Atribua um bloco por vez, veja a oferta e só então fixe a troca.", "url": "/villager-trading-hall/", "cta": "Abrir guia de trocas"},
+      {"title": "Fazenda de ferro do Minecraft", "text": "Use uma configuração testada para revisar camas, profissões, surgimento de golems e coleta.", "url": "/minecraft-iron-farm/", "cta": "Ler guia de ferro"},
+      {"title": "Java versus Bedrock", "text": "Compare as edições antes de copiar um projeto feito para outra plataforma.", "url": "/java-vs-bedrock/", "cta": "Comparar edições"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referências principais",
+    "title": "Confira a versão antes de ampliar",
+    "description": "O guia separa conselhos estáveis de detalhes que podem mudar. Use estas fontes quando as ligações de vila ou cama mudarem.",
+    "links": [
+      {"title": "Artigos oficiais do Minecraft", "text": "As notícias e notas da Mojang ajudam a confirmar o contexto da edição.", "url": "https://www.minecraft.net/en-us/articles", "cta": "Abrir artigos oficiais", "rel": "noopener noreferrer"},
+      {"title": "Minecraft Wiki: Aldeão", "text": "Referência comunitária para profissões, camas, pontos de interesse e comportamento.", "url": "https://minecraft.wiki/w/Villager", "cta": "Ver mecânicas", "rel": "nofollow noopener"},
+      {"title": "Minecraft Wiki: Reprodução", "text": "Referência comunitária sobre disposição, comida, espera e bebês.", "url": "https://minecraft.wiki/w/Breeding", "cta": "Ler referência", "rel": "nofollow noopener"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Perguntas frequentes sobre reprodução de aldeões",
+    "items": [
+      {"question": "Quantas camas os aldeões precisam para se reproduzir?", "answer": "Comece com três camas válidas para dois adultos: uma para cada adulto e uma livre para o bebê. A cama livre precisa ser acessível e ter espaço acima."},
+      {"question": "Qual comida faz os aldeões se reproduzirem?", "answer": "Pão, cenouras, batatas e beterrabas são alimentos práticos. Dê o suficiente aos dois adultos e observe se pegam."},
+      {"question": "Por que aparecem corações, mas não nasce bebê?", "answer": "Verifique o acesso, a propriedade e a altura livre da cama extra. Os corações podem aparecer antes de a cama falhar na validação."},
+      {"question": "Como reproduzir aldeões no Minecraft Java?", "answer": "Use dois adultos, comida aceita e uma cama livre acessível em uma célula isolada. Observe caminhos e pontos de interesse próximos."},
+      {"question": "Como reproduzir aldeões no Minecraft Bedrock?", "answer": "Use as mesmas condições e confira especialmente camas, aldeões e pontos de interesse próximos, que podem ser vinculados de outra forma."},
+      {"question": "Posso levar bebês para uma sala de trocas?", "answer": "Sim. Confirme primeiro um nascimento, transporte o bebê por uma rota controlada e espere crescer antes de colocar um bloco de profissão."},
+      {"question": "Quanto dura o tempo de espera?", "answer": "Um nascimento bem-sucedido cria um intervalo. Mantenha a sala igual e tente novamente depois de esperar; o tempo exato depende da versão."},
+      {"question": "Um criadouro precisa de bloco de profissão?", "answer": "Não para o teste básico. Deixe os blocos de profissão fora da primeira sala para testar comida, camas e caminhos separadamente."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Como reproduzir aldeões no Minecraft: comida, camas e soluções (2026)",
+      "description": "Aprenda como reproduzir aldeões no Minecraft com comida, camas, espaço, tempo de espera, transporte e verificações para Java e Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/pt/minecraft-villager-breeding/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Quantas camas os aldeões precisam para se reproduzir?", "acceptedAnswer": {"@type": "Answer", "text": "Use três camas válidas para dois adultos: uma para cada adulto e uma livre para o bebê."}},
+        {"@type": "Question", "name": "Qual comida faz os aldeões se reproduzirem?", "acceptedAnswer": {"@type": "Answer", "text": "Pão, cenouras, batatas e beterrabas são alimentos práticos para os dois adultos."}},
+        {"@type": "Question", "name": "Por que aparecem corações, mas não nasce bebê?", "acceptedAnswer": {"@type": "Answer", "text": "Verifique o acesso, a propriedade e a altura livre da cama extra."}},
+        {"@type": "Question", "name": "Posso levar bebês para uma sala de trocas?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, depois de confirmar o nascimento e usar uma rota de transporte controlada."}}
+      ]
+    }
+  }
+}

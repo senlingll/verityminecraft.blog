@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Cómo reproducir aldeanos en Minecraft: comida, camas y soluciones (2026)",
+    "description": "Aprende cómo reproducir aldeanos en Minecraft con comida, camas, espacio, enfriamiento, transporte y comprobaciones para Java y Bedrock.",
+    "image": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+    "og_type": "article"
+  },
+  "hero": {
+    "eyebrow": "Guía de aldeanos de Minecraft",
+    "title": "Cómo reproducir aldeanos en Minecraft: 7 pasos que funcionan",
+    "lede": "La forma fiable de reproducir aldeanos en Minecraft es sencilla: coloca dos adultos en una habitación segura, dales comida suficiente, prepara una cama libre para el bebé y deja espacio sobre las camas. Esta guía convierte esa respuesta corta en un proceso comprobable para Java y Bedrock.",
+    "support": "Los diagramas son ilustraciones editoriales originales, no capturas oficiales. Las reglas de aldeas pueden cambiar, así que prueba el criadero más pequeño en una copia del mundo antes de unirlo a una sala de intercambios o una granja de hierro.",
+    "actions": [
+      {"label": "Abrir la guía de sala de intercambios", "url": "/villager-trading-hall/", "class": "btn-primary"},
+      {"label": "Comparar Java y Bedrock", "url": "/java-vs-bedrock/", "class": "btn-secondary"}
+    ],
+    "image": {
+      "src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "alt": "Diagrama editorial original con dos aldeanos adultos, comida, tres camas y un bebé; no es una captura del juego.",
+      "caption": "La comida, las camas accesibles y el espacio libre son las primeras comprobaciones. Es una ilustración editorial, no una imagen oficial.",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "answer": {
+    "eyebrow": "Respuesta rápida",
+    "title": "¿Qué necesitan los aldeanos para reproducirse?",
+    "paragraphs": [
+      "Necesitas dos aldeanos adultos, comida válida para ambos y al menos una cama libre que pueda reclamar el bebé. Una sala inicial práctica tiene dos adultos, tres camas, suelo sólido, un camino despejado hasta las almohadas y dos bloques de altura libre. El pan, las zanahorias, las patatas y la remolacha pueden poner a los aldeanos en disposición de reproducirse. Lanza la comida de modo que los dos puedan recogerla y observa los corazones.",
+      "La cama adicional es importante porque el juego comprueba si el nuevo aldeano tiene un lugar válido para dormir. Una cama cubierta por un techo sólido, encerrada detrás de una pared o reclamada por otro aldeano puede no contar. Mantén el criadero separado de una aldea o sala de intercambios mientras haces la prueba; una cama o un bloque de trabajo cercano puede confundir la vinculación.",
+      "Los aldeanos no tienen bebés sin pausa. Después de un intento correcto hay un enfriamiento, y el bebé necesita tiempo para crecer. Si aparecen corazones pero no nace ningún bebé, revisa primero la cama libre y después espera. Si no aparecen corazones, comprueba la comida, que sean adultos, el camino y las camas. Este orden separa el problema de disposición del problema de la cama."
+    ],
+    "cards": [
+      {"title": "Dos adultos", "text": "Usa aldeanos adultos. Los bebés y los simplones no completan la misma prueba de reproducción."},
+      {"title": "Comida suficiente", "text": "Pan, zanahorias, patatas y remolacha son opciones prácticas. Reparte comida para que ambos recojan."},
+      {"title": "Una cama libre", "text": "Empieza con tres camas para dos adultos. La tercera debe estar libre, accesible y despejada por arriba."},
+      {"title": "Prueba controlada", "text": "Construye la sala mínima y conecta la granja con la sala de intercambios solo después del primer bebé."}
+    ]
+  },
+  "steps": {
+    "eyebrow": "Secuencia de reproducción",
+    "title": "Cómo reproducir aldeanos en Minecraft paso a paso",
+    "description": "Usa este ciclo de siete pasos en una copia del mundo. Cambia una sola variable cada vez para saber qué arreglar.",
+    "items": [
+      {"title": "1. Elige un lugar tranquilo", "text": "Busca una habitación pequeña lejos de una aldea natural, camas adicionales y una sala activa. Ilumina el lugar, cierra las salidas y deja una abertura para lanzar comida e inspeccionar a los aldeanos. Un suelo plano facilita comprobar distancias y altura."},
+      {"title": "2. Lleva dos aldeanos adultos", "text": "Transporta a los aldeanos de uno en uno en barca, vagoneta o por un camino seguro. Cierra la puerta antes de traer al segundo. Un bebé no puede reproducirse y un simplón no sirve para trabajos posteriores; la prueba necesita dos adultos con espacio para moverse."},
+      {"title": "3. Coloca tres camas con espacio", "text": "Reserva dos camas para los adultos y una para el bebé. Deja bloques libres sobre las almohadas y un camino despejado. Retira losas, trampillas o techos bajos que puedan bloquear el acceso o el sueño."},
+      {"title": "4. Da comida a los dos", "text": "Usa pan, zanahorias, patatas o remolacha. Lanza pequeñas cantidades cerca de cada adulto y observa que ambos las recojan. El trigo, las semillas y otros cultivos no sustituyen la comida aceptada."},
+      {"title": "5. Espera corazones y un bebé", "text": "Cuando los dos estén dispuestos suelen aparecer corazones. No cambies la habitación mientras se comprueba la cama libre. Si aparecen partículas de enfado, revisa la cama, el techo y el camino antes de reconstruir todo."},
+      {"title": "6. Separa al bebé de la celda", "text": "Mueve al bebé solo después de confirmar que el ciclo funcionó. Una corriente de agua, una puerta o una vagoneta puede ayudar, pero conserva las camas de los adultos durante la prueba. Si irá a una sala de intercambios, espera a que crezca antes de asignar un puesto."},
+      {"title": "7. Amplía tras un ciclo completo", "text": "Deja crecer al bebé, repite un intento y verifica que los adultos siguen llegando a sus camas. Después duplica la sala o conéctala a una granja. Anota la edición y la versión: Java y Bedrock comparten la idea, pero no siempre el comportamiento de aldeas."}
+    ]
+  },
+  "source_check": {
+    "eyebrow": "Lista de preparación",
+    "title": "Comprueba cama, comida y espacio antes de cambiar el diseño",
+    "paragraphs": [
+      "La lista más útil es corta. Confirma dos adultos, después que ambos pueden recoger comida y finalmente cuenta las camas. Mira la cama libre desde el camino del aldeano: puede parecer abierta para el jugador y aun así fallar por el acceso o el espacio superior. Mantén la habitación sencilla hasta que nazca un bebé.",
+      "Java y Bedrock comparten la necesidad de comida y camas, pero la vinculación de puntos de interés y el camino alrededor pueden variar. Por eso conviene probar una celda aislada y una copia del mundo. Cuando funcione, añade la sala de intercambios y resuelve el transporte como tareas separadas.",
+      "Usa los artículos oficiales de Minecraft para el contexto de las versiones y la Wiki de Minecraft para detalles de aldeanos y reproducción. Son referencias, no una garantía para cada versión futura. Si una actualización cambia el resultado, anota edición, versión y síntoma antes de modificar una granja que ya funcionaba."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-food-cycle.webp", "alt": "Diagrama editorial con comida, corazones y un bebé aldeano junto a una cama; no es una captura del juego.", "caption": "La secuencia comida-corazones-bebé ayuda a separar la disposición de la comprobación de la cama.", "width": 1254, "height": 1254}
+  },
+  "table": {
+    "eyebrow": "Tabla de requisitos",
+    "title": "Lista para reproducir aldeanos en Minecraft",
+    "description": "Usa esta tabla antes de añadir más aldeanos. Cada acción mantiene la prueba visible.",
+    "headers": ["Comprobación", "Qué preparar", "Qué observar", "Si falla"],
+    "rows": [
+      ["Adultos", "Dos aldeanos adultos", "Ambos pueden moverse por la sala", "Retira bebés y confirma que ninguno es simplón"],
+      ["Comida", "Pan, zanahorias, patatas o remolacha", "Los dos recogen comida", "Lanza una pequeña cantidad cerca de cada uno"],
+      ["Camas", "Dos camas de adultos y una libre", "La cama libre está accesible", "Quita camas extra y revisa el camino"],
+      ["Altura", "Espacio libre sobre las camas", "Los aldeanos llegan a la almohada", "Sube o simplifica el techo"],
+      ["Enfriamiento", "Tiempo tras un nacimiento", "Los adultos vuelven a estar dispuestos", "Espera antes de cambiar bloques"],
+      ["Edición", "Java o Bedrock anotado", "La prueba se repite en esa edición", "Lee la sección de edición"]
+    ]
+  },
+  "activation": {
+    "eyebrow": "Java y Bedrock",
+    "title": "¿Qué cambia entre Java y Bedrock al reproducir aldeanos?",
+    "paragraphs": [
+      "La idea central es la misma: dos adultos, comida aceptada y una cama libre válida. Las diferencias aparecen alrededor de la sala. Java y Bedrock pueden valorar de forma distinta los puntos de interés, el camino y las camas cercanas, así que un diseño de un vídeo puede necesitar un pasillo mayor o un aislamiento más claro.",
+      "En Java es fácil observar una granja compacta cuando adultos, camas y comida están a la vista. En Bedrock, aldeanos cercanos y puntos de interés pueden hacer que una cama aparentemente libre pertenezca a otro aldeano. Si funciona una vez y se detiene al añadir una sala, retira las camas y puestos nuevos y vuelve a probar la pareja original.",
+      "El transporte también merece una prueba aparte. Las barcas y vagonetas sirven en ambas ediciones, pero el terreno, los portales y las colisiones cambian el recorrido. Mueve un bebé cada vez, guarda una copia y no conectes el criadero hasta verificar un nacimiento y un crecimiento completos."
+    ],
+    "image": {"src": "/static/images/minecraft-villager-breeding/minecraft-villager-breeding-troubleshooting.webp", "alt": "Diagrama editorial de problemas de reproducción: comida, cama, espacio y enfriamiento; no es una interfaz del juego.", "caption": "Cuando el criadero se detiene, revisa comida, cama libre, altura y enfriamiento en ese orden.", "width": 1254, "height": 1254}
+  },
+  "mistakes": {
+    "eyebrow": "Solución de problemas",
+    "title": "¿Por qué no se reproducen los aldeanos?",
+    "description": "Normalmente falta una sola condición. Corrige el problema visible más pequeño y repite la misma prueba.",
+    "cards": [
+      {"title": "No hay cama libre", "text": "Dos adultos pueden tener cama y aun así necesitar una tercera válida para el bebé."},
+      {"title": "El techo está bajo", "text": "Un bloque sólido sobre la almohada o un pasillo estrecho puede invalidar la cama. Sube el techo durante la prueba."},
+      {"title": "Solo uno tiene comida", "text": "Una pila junto a la puerta no demuestra que ambos recogieron comida. Alimenta a cada adulto y observa."},
+      {"title": "Sigue el enfriamiento", "text": "Después de un nacimiento los adultos necesitan tiempo. Más comida no elimina el enfriamiento."},
+      {"title": "Interfiere otra aldea", "text": "Camas y puestos cercanos complican la propiedad. Aísla la celda o retira puntos de interés temporales."},
+      {"title": "Añadiste transporte demasiado pronto", "text": "Agua, vagonetas y puertas pueden bloquear caminos. Prueba un nacimiento en una sala simple antes de añadirlos."}
+    ]
+  },
+  "related": {
+    "eyebrow": "Siguientes pasos",
+    "title": "Usa al nuevo bebé en una construcción real",
+    "description": "Mantén reproducción, transporte, puestos y hierro como pruebas separadas para que cada fallo tenga una causa clara.",
+    "links": [
+      {"title": "Sala de intercambios de aldeanos", "text": "Asigna un puesto cada vez, revisa la oferta y fija el intercambio solo después de confirmar la celda.", "url": "/villager-trading-hall/", "cta": "Abrir guía de intercambios"},
+      {"title": "Granja de hierro de Minecraft", "text": "Usa una configuración de aldeanos probada para revisar camas, puestos, aparición de gólems y recogida.", "url": "/minecraft-iron-farm/", "cta": "Leer guía de hierro"},
+      {"title": "Java frente a Bedrock", "text": "Compara el comportamiento de las ediciones antes de copiar un diseño hecho para otra plataforma.", "url": "/java-vs-bedrock/", "cta": "Comparar ediciones"}
+    ]
+  },
+  "sources": {
+    "eyebrow": "Referencias principales",
+    "title": "Comprueba el contexto de versión antes de ampliar",
+    "description": "Separamos el consejo estable de los detalles sensibles a una versión. Consulta estas fuentes si cambia la vinculación de aldeas o camas.",
+    "links": [
+      {"title": "Artículos oficiales de Minecraft", "text": "Consulta las noticias y notas de Mojang para conocer el contexto de la edición antes de cambiar un mundo antiguo.", "url": "https://www.minecraft.net/en-us/articles", "cta": "Abrir artículos oficiales", "rel": "noopener noreferrer"},
+      {"title": "Minecraft Wiki: Aldeano", "text": "Referencia comunitaria para profesiones, camas, puntos de interés y comportamiento.", "url": "https://minecraft.wiki/w/Villager", "cta": "Revisar mecánicas", "rel": "nofollow noopener"},
+      {"title": "Minecraft Wiki: Reproducción", "text": "Referencia comunitaria para disposición, comida, enfriamiento y bebés.", "url": "https://minecraft.wiki/w/Breeding", "cta": "Leer referencia", "rel": "nofollow noopener"}
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas sobre reproducir aldeanos",
+    "items": [
+      {"question": "¿Cuántas camas necesitan los aldeanos para reproducirse?", "answer": "Empieza con tres camas válidas para dos adultos: una para cada adulto y una libre para el bebé. La tercera debe ser accesible y tener espacio libre encima."},
+      {"question": "¿Qué comida hace que se reproduzcan?", "answer": "El pan, las zanahorias, las patatas y la remolacha son alimentos prácticos. Entrega suficiente a los dos adultos y comprueba que ambos recogen."},
+      {"question": "¿Por qué aparecen corazones pero no nace un bebé?", "answer": "Revisa la cama libre: acceso, propiedad y altura sobre la almohada. Los corazones pueden aparecer antes de que falle la validación de la cama."},
+      {"question": "¿Cómo reproducir aldeanos en Minecraft Java?", "answer": "Usa dos adultos, comida aceptada y una cama libre accesible en una sala aislada. Comprueba el camino y los puntos de interés cercanos."},
+      {"question": "¿Cómo reproducir aldeanos en Minecraft Bedrock?", "answer": "Usa las mismas condiciones y presta atención adicional a camas, aldeanos y puntos de interés cercanos, que pueden estar vinculados a otra entidad."},
+      {"question": "¿Puedo mover bebés a una sala de intercambios?", "answer": "Sí. Confirma primero un nacimiento y transporta el bebé por una ruta controlada. Espera a que crezca antes de asignar un puesto."},
+      {"question": "¿Cuánto dura el enfriamiento?", "answer": "Tras un nacimiento hay un enfriamiento. Mantén la sala estable y vuelve a probar después de esperar; el tiempo exacto puede depender de la versión."},
+      {"question": "¿Hace falta un bloque de trabajo?", "answer": "No para la prueba básica. Mantén los puestos fuera de la primera sala para diagnosticar comida, camas y caminos por separado."}
+    ]
+  },
+  "schema": {
+    "article": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Cómo reproducir aldeanos en Minecraft: comida, camas y soluciones (2026)",
+      "description": "Aprende cómo reproducir aldeanos en Minecraft con comida, camas, espacio, enfriamiento, transporte y comprobaciones para Java y Bedrock.",
+      "image": "https://verityminecraft.blog/static/images/minecraft-villager-breeding/minecraft-villager-breeding-feature.webp",
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
+      "author": {"@type": "Organization", "name": "Verity Minecraft"},
+      "publisher": {"@type": "Organization", "name": "Verity Minecraft"},
+      "mainEntityOfPage": "https://verityminecraft.blog/es/minecraft-villager-breeding/"
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "¿Cuántas camas necesitan los aldeanos para reproducirse?", "acceptedAnswer": {"@type": "Answer", "text": "Usa tres camas válidas para dos adultos: una para cada adulto y una libre para el bebé."}},
+        {"@type": "Question", "name": "¿Qué comida hace que se reproduzcan?", "acceptedAnswer": {"@type": "Answer", "text": "El pan, las zanahorias, las patatas y la remolacha son alimentos prácticos para los dos adultos."}},
+        {"@type": "Question", "name": "¿Por qué aparecen corazones pero no nace un bebé?", "acceptedAnswer": {"@type": "Answer", "text": "Revisa el acceso, la propiedad y el espacio superior de la cama libre."}},
+        {"@type": "Question", "name": "¿Puedo mover bebés a una sala de intercambios?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, después de confirmar un nacimiento y usar una ruta de transporte controlada."}}
+      ]
+    }
+  }
+}
